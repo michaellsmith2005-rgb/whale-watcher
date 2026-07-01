@@ -46,3 +46,4 @@ jobs:
           git add snapshots/ consensus_report.json consensus_report.md backtest_latest.txt backtest_summary.json signal_board.json
           git diff --cached --quiet || git commit -m "auto: snapshot + backtest $(date -u '+%Y-%m-%dT%H:%MZ')"
           git push
+          
