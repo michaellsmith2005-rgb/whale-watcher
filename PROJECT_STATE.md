@@ -107,3 +107,17 @@ python run_dashboard.py
   retroactively excludes calls priced >=0.97 / <=0.03 and reports the count.
 - CANONICAL FOLDER: Claude_Output/app (the LaunchAgent points there). app2 and
   any other copies are retired — never run or edit them.
+
+## 2026-07-01 round 4: autonomy + signal board
+
+- `.github/workflows/whale-watcher.yml` — cloud automation: snapshots 4x/day,
+  daily backtest, results committed by bot. Replaces the Mac LaunchAgent (unload
+  it once cloud runs are confirmed, to avoid duplicate snapshots).
+- `backtest.py` writes `backtest_summary.json` (machine-readable verdict incl.
+  cohorts + `edge_detected`, true only when the whole edge CI is above zero).
+- `signal_board.py` -> `signal_board.json`: heuristic ranking of live setups.
+  HONESTY CONTRACT in its docstring: unvalidated weights, hard exclusions
+  (near-certain, conflicted, thin, wide-spread), track record stamped on board.
+- `widget/whale_board.js` — Scriptable iOS widget reading the board from the
+  private repo via fine-grained read-only token. Shows EXPERIMENTAL banner
+  until edge_detected flips.

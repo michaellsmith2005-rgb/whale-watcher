@@ -303,6 +303,46 @@ def print_cohorts(scored: list[dict]):
         print(_cohort_line(v[v["v_edge"] <= -0.01], "vegas disagrees"))
 
 
+def _cohort_stats(df: pd.DataFrame) -> dict:
+    if df.empty:
+        return {"n": 0}
+    wr, imp = float(df["won"].mean()), float(df["price"].mean())
+    return {"n": int(len(df)), "win_rate": round(wr, 4), "implied": round(imp, 4),
+            "edge_pts": round((wr - imp) * 100, 2)}
+
+
+def write_summary_json(scored: list[dict], summary: dict, pending: int,
+                       path: str = "backtest_summary.json"):
+    """Machine-readable verdict for downstream consumers (signal board, widget)."""
+    df = pd.DataFrame(scored) if scored else pd.DataFrame()
+    out = {
+        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "pending": pending,
+        "edge_detected": bool(summary and summary["edge_lo_pts"] > 0),
+        "headline": dict(summary) if summary else None,
+        "cohorts": {},
+    }
+    if not df.empty:
+        out["cohorts"]["by_signal"] = {
+            s: _cohort_stats(df[df["signal"] == s]) for s in SIGNAL_TABLES
+        }
+        if df["entry_gap_cents"].notna().any():
+            g = df[df["entry_gap_cents"].notna()]
+            out["cohorts"]["freshness"] = {
+                "fresh": _cohort_stats(g[g["entry_gap_cents"] >= 0]),
+                "late": _cohort_stats(g[g["entry_gap_cents"] < 0]),
+            }
+        if "conflicted" in df.columns and df["conflicted"].notna().any():
+            k = df[df["conflicted"].notna()]
+            out["cohorts"]["agreement"] = {
+                "clean": _cohort_stats(k[k["conflicted"] == False]),   # noqa: E712
+                "conflicted": _cohort_stats(k[k["conflicted"] == True]),  # noqa: E712
+            }
+    with open(path, "w") as f:
+        json.dump(out, f, indent=2, default=str)
+    print(f"\n  Wrote machine-readable summary -> {path}")
+
+
 def run_replay(args):
     print("\nFORWARD REPLAY — grading past consensus calls against true resolutions\n")
     calls, first, last = load_snapshot_calls()
@@ -315,10 +355,11 @@ def run_replay(args):
     print("  Looking up resolutions via Gamma...")
     resolutions = asyncio.run(fetch_resolutions([c["condition_id"] for c in calls]))
     scored, summary = grade(calls, resolutions, args.fee)
-    pending = len(calls) - len(scored)
+    pending = len(calls) - len(scored) - (summary.get("excluded_certain", 0) if summary else 0)
     if summary is None:
         print(f"\n  0 of {len(calls)} calls have resolved yet ({pending} pending).")
         print("  This is expected early on — markets need time to settle. Re-run later.")
+        write_summary_json([], None, pending)
         return
     print(f"\n  Resolved & graded: {summary['n']}   |   still pending: {pending}\n")
     print_summary(summary, args.fee)
@@ -332,6 +373,7 @@ def run_replay(args):
         print(f"    [{v}] [{s.get('signal','?'):<16}] {s.get('n_traders')}× @ {s['price']:.2f} "
               f"({s.get('price_source','?')}) | "
               f"{(s.get('market_title') or '')[:40]} -> {s['outcome']}")
+    write_summary_json(scored, summary, pending)
 
 
 # --------------------------------------------------------------------------
