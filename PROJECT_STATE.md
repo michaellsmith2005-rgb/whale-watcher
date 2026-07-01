@@ -53,7 +53,19 @@ Polymarket's data API sends no CORS headers, so a browser can't read it directly
 
 ## 2026-07-01 audit changes (do not silently revert)
 
-- **Pipeline**: conviction table now records `cur_price` / `avg_entry` /
+- **Round 2 (post first real replay, n=64):**
+  - Pipeline records `opp_traders` / `net_traders` / `conflicted` on every
+    consensus row — the replay revealed the cohort backing BOTH sides of the
+    same market (9 wallets Canada-Yes, 8 Canada-No). Conflicted "consensus" is
+    market description, not signal.
+  - Backtest: Wilson 95% CI on win rate and edge, with an explicit "CI straddles
+    zero" callout; ROI now reports mean AND median with a longshot warning
+    (first replay's +38.9% mean ROI was two cheap winners, edge was -1.7 pts);
+    new clean-vs-conflicted cohort (populates as post-change snapshots age).
+  - First real replay result for the record: n=64, edge -1.7 pts (CI straddles
+    zero), i.e. no detectable edge yet; nearly all graded calls were fast-
+    resolving sports markets priced at mid.
+- **Round 1:** **Pipeline**: conviction table now records `cur_price` / `avg_entry` /
   `entry_gap_cents` / `best_ask` at fire-time. Before this, the strongest signal
   produced no gradeable price and could never be forward-tested.
 - **Backtest**: grades all three signal families separately (`pure_count`,

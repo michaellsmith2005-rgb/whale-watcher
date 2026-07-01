@@ -95,6 +95,17 @@ async def fetch_resolutions(condition_ids: list[str]) -> dict[str, dict]:
 # Scoring — shared by the real replay and the self-test
 # --------------------------------------------------------------------------
 
+def wilson_ci(wins: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    """95% Wilson score interval for a win rate — honest error bars on small n."""
+    if n == 0:
+        return 0.0, 1.0
+    p = wins / n
+    denom = 1 + z * z / n
+    center = (p + z * z / (2 * n)) / denom
+    half = (z / denom) * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5)
+    return max(0.0, center - half), min(1.0, center + half)
+
+
 def grade(calls: list[dict], resolutions: dict[str, dict], fee: float):
     """
     `calls`: dicts with condition_id, outcome, price (market-implied prob when the
@@ -113,24 +124,40 @@ def grade(calls: list[dict], resolutions: dict[str, dict], fee: float):
     if not scored:
         return scored, None
     df = pd.DataFrame(scored)
+    wr = df["won"].mean()
+    lo, hi = wilson_ci(int(df["won"].sum()), len(df))
+    implied = df["price"].mean()
     summary = {
         "n": len(df),
-        "win_rate": df["won"].mean(),
-        "implied": df["price"].mean(),
-        "edge_pts": (df["won"].mean() - df["price"].mean()) * 100,
+        "win_rate": wr,
+        "wr_lo": lo,
+        "wr_hi": hi,
+        "implied": implied,
+        "edge_pts": (wr - implied) * 100,
+        "edge_lo_pts": (lo - implied) * 100,
+        "edge_hi_pts": (hi - implied) * 100,
         "brier": ((df["price"] - df["won"]) ** 2).mean(),
         "roi_net": df["roi_net"].mean(),
+        "roi_median": df["roi_net"].median(),
     }
     return scored, summary
 
 
 def print_summary(summary: dict, fee: float):
     print(f"    graded calls     : {summary['n']}")
-    print(f"    win rate         : {summary['win_rate']*100:.1f}%")
+    print(f"    win rate         : {summary['win_rate']*100:.1f}%   "
+          f"(95% CI {summary['wr_lo']*100:.1f}–{summary['wr_hi']*100:.1f}%)")
     print(f"    implied (price)  : {summary['implied']*100:.1f}%   <- what you'd have paid")
-    print(f"    edge vs price    : {summary['edge_pts']:+.1f} pts   <- >0 hints at real skill")
+    print(f"    edge vs price    : {summary['edge_pts']:+.1f} pts  "
+          f"(95% CI {summary['edge_lo_pts']:+.1f} to {summary['edge_hi_pts']:+.1f})")
+    if summary["edge_lo_pts"] <= 0 <= summary["edge_hi_pts"]:
+        print(f"                       ^ CI straddles zero: NO detectable edge at this sample size")
     print(f"    Brier score      : {summary['brier']:.3f}   <- lower = better calibrated")
-    print(f"    net ROI/trade    : {summary['roi_net']*100:+.1f}%   (equal stake, {fee*100:.0f}% cost)")
+    print(f"    net ROI/trade    : mean {summary['roi_net']*100:+.1f}% | "
+          f"median {summary['roi_median']*100:+.1f}%   ({fee*100:.0f}% cost)")
+    if summary["roi_net"] > 0.10 and summary["roi_median"] < 0:
+        print(f"                       ^ mean >> median: a few cheap longshots are carrying the")
+        print(f"                         average — do NOT read mean ROI as repeatable edge")
 
 
 # --------------------------------------------------------------------------
@@ -221,6 +248,8 @@ def load_snapshot_calls() -> tuple[list[dict], str, str]:
                     "n_traders": c.get("trader_count") or c.get("conviction_traders"),
                     "entry_gap_cents": c.get("entry_gap_cents"),
                     "vegas_prob": c.get("vegas_prob"),
+                    "conflicted": c.get("conflicted"),
+                    "net_traders": c.get("net_traders"),
                     "market_title": c.get("market_title"),
                     "first_seen": ts,
                 }
@@ -241,6 +270,12 @@ def print_cohorts(scored: list[dict]):
     print("\n  By signal family:")
     for sig in SIGNAL_TABLES:
         print(_cohort_line(df[df["signal"] == sig], sig))
+
+    if "conflicted" in df.columns and df["conflicted"].notna().any():
+        k = df[df["conflicted"].notna()]
+        print("\n  By internal agreement (cohort on both sides of the market?):")
+        print(_cohort_line(k[k["conflicted"] == False], "clean (one-sided cohort)"))  # noqa: E712
+        print(_cohort_line(k[k["conflicted"] == True], "conflicted (both sides)"))    # noqa: E712
 
     if df["entry_gap_cents"].notna().any():
         g = df[df["entry_gap_cents"].notna()]

@@ -540,6 +540,40 @@ def add_market_quality(grouped: pd.DataFrame, quality: dict[str, dict]) -> pd.Da
     return g
 
 
+def add_conflict_flags(grouped: pd.DataFrame, df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Detect self-contradicting consensus. The forward replay showed the same market
+    appearing on BOTH sides at once (e.g. 9 top wallets on 'Canada Yes' AND 8 on
+    'Canada No'). When the cohort disagrees with itself, "consensus" is just a
+    description of an active market, not a signal.
+
+    Adds per consensus row:
+      opp_traders — distinct top wallets holding any OTHER outcome of this market
+      net_traders — trader_count minus opp_traders (the cohort's actual net lean)
+      conflicted  — True when the opposing side is at least half the backing side
+    Recorded at fire-time so the backtester can grade clean vs conflicted cohorts.
+    """
+    if grouped.empty or df.empty:
+        return grouped
+    g = grouped.copy()
+    per_outcome = (
+        df.groupby(["condition_id", "outcome"])["trader_wallet"].nunique().rename("n").reset_index()
+    )
+    per_market = per_outcome.groupby("condition_id")["n"].sum().to_dict()
+    own = {(r.condition_id, r.outcome): r.n for r in per_outcome.itertuples()}
+
+    def _opp(row):
+        total = per_market.get(row["condition_id"], 0)
+        mine = own.get((row["condition_id"], row["outcome"]), 0)
+        return int(total - mine)
+
+    g["opp_traders"] = g.apply(_opp, axis=1)
+    base = g["trader_count"] if "trader_count" in g.columns else g.get("conviction_traders", 0)
+    g["net_traders"] = (base - g["opp_traders"]).astype(int)
+    g["conflicted"] = g["opp_traders"] >= (base / 2).clip(lower=1)
+    return g
+
+
 def compute_pure_count_consensus(df: pd.DataFrame, top_k: int = 5) -> pd.DataFrame:
     if df.empty:
         return pd.DataFrame()
@@ -806,6 +840,12 @@ async def run_pipeline(
     capital_weighted = compute_capital_weighted_consensus(positions_df, top_k=10)
     skill_weights = compute_trader_skill_weights(traders)
     high_conviction = compute_conviction_consensus(positions_df, skill_weights)
+
+    # Flag self-contradicting consensus (same market backed on both sides by the
+    # cohort) — recorded at fire-time so the replay can grade clean vs conflicted.
+    pure_count = add_conflict_flags(pure_count, positions_df)
+    capital_weighted = add_conflict_flags(capital_weighted, positions_df)
+    high_conviction = add_conflict_flags(high_conviction, positions_df)
 
     # Enrich the consensus markets with live liquidity/volume/spread from Gamma,
     # so the dashboard can show how much to trust each price and estimate slippage.
