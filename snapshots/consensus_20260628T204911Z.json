@@ -1,0 +1,486 @@
+{
+  "run_metadata": {
+    "generated_at_utc": "2026-06-28T20:49:11.738322+00:00",
+    "top_n": 50,
+    "time_period": "MONTH",
+    "order_by": "PNL",
+    "min_position_usd_filter": 1.0,
+    "active_only": true
+  },
+  "summary": {
+    "traders_requested": 50,
+    "traders_with_data": 50,
+    "traders_failed_or_hidden": 0,
+    "total_open_positions_analyzed": 3278,
+    "unique_markets_represented": 2453
+  },
+  "top_5_consensus_markets": [
+    {
+      "market_title": "Will Canada win on 2026-06-28?",
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 9,
+      "total_combined_usd": 1251663.96,
+      "backers": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "1two1two",
+        "Allezpapa",
+        "RN1",
+        "UpTheBlues",
+        "hot2trot",
+        "swisstony"
+      ]
+    },
+    {
+      "market_title": "Will Canada win on 2026-06-28?",
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "favored_outcome": "No",
+      "num_top50_traders": 8,
+      "total_combined_usd": 2719042.06,
+      "backers": [
+        "0x076daa87",
+        "0xa4b1eac9",
+        "Badgeroff",
+        "BreakTheBank",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "hot2trot"
+      ]
+    },
+    {
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 2749325.76,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "Nexuus",
+        "alwayslatetotheparty",
+        "donthackme",
+        "gud.hl"
+      ]
+    },
+    {
+      "market_title": "Spread: Canada (-1.5)",
+      "condition_id": "0x06bdcf32ccab80d3b294dad26ab539d735a57e01e489e4a4f4161f554459d3da",
+      "event_slug": "fifwc-rsa-can-2026-06-28-more-markets",
+      "favored_outcome": "South Africa",
+      "num_top50_traders": 6,
+      "total_combined_usd": 708729.94,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "BreakTheBank",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ]
+    },
+    {
+      "market_title": "Will South Africa vs. Canada end in a draw?",
+      "condition_id": "0x84466f679694048db91acf068a3c1757aa5c5e44e4409e97b32ee214f2a8940b",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 544898.43,
+      "backers": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ]
+    }
+  ],
+  "pure_count_consensus": [
+    {
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "market_title": "Will Canada win on 2026-06-28?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 1251663.9602,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "1two1two",
+        "Allezpapa",
+        "RN1",
+        "UpTheBlues",
+        "hot2trot",
+        "swisstony"
+      ],
+      "cur_price": 0.1639,
+      "avg_entry": 0.4632,
+      "entry_gap_cents": 29.9
+    },
+    {
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "market_title": "Will Canada win on 2026-06-28?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "No",
+      "trader_count": 8,
+      "total_usd": 2719042.0583,
+      "traders": [
+        "0x076daa87",
+        "0xa4b1eac9",
+        "Badgeroff",
+        "BreakTheBank",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "hot2trot"
+      ],
+      "cur_price": 0.83,
+      "avg_entry": 0.4735,
+      "entry_gap_cents": -35.6
+    },
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 2749325.7618,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "Nexuus",
+        "alwayslatetotheparty",
+        "donthackme",
+        "gud.hl"
+      ],
+      "cur_price": 0.2085,
+      "avg_entry": 0.0988,
+      "entry_gap_cents": -11.0
+    },
+    {
+      "condition_id": "0x06bdcf32ccab80d3b294dad26ab539d735a57e01e489e4a4f4161f554459d3da",
+      "market_title": "Spread: Canada (-1.5)",
+      "event_slug": "fifwc-rsa-can-2026-06-28-more-markets",
+      "outcome": "South Africa",
+      "trader_count": 6,
+      "total_usd": 708729.9444,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "BreakTheBank",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ],
+      "cur_price": 0.9805,
+      "avg_entry": 0.725,
+      "entry_gap_cents": -25.6
+    },
+    {
+      "condition_id": "0x84466f679694048db91acf068a3c1757aa5c5e44e4409e97b32ee214f2a8940b",
+      "market_title": "Will South Africa vs. Canada end in a draw?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 544898.431,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ],
+      "cur_price": 0.7517,
+      "avg_entry": 0.3155,
+      "entry_gap_cents": -43.6
+    },
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 357969.7348,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0605,
+      "avg_entry": 0.069,
+      "entry_gap_cents": 0.9
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 320882.9069,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ],
+      "cur_price": 0.1025,
+      "avg_entry": 0.0883,
+      "entry_gap_cents": -1.4
+    },
+    {
+      "condition_id": "0x355ecd5575c79d48729b03b56301b88052e957a74f92c468d2896dc1a2cb82b7",
+      "market_title": "Will South Africa win on 2026-06-28?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 40002.7124,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "BreakTheBank",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ],
+      "cur_price": 0.07,
+      "avg_entry": 0.1609,
+      "entry_gap_cents": 9.1
+    },
+    {
+      "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+      "market_title": "Will the Iranian regime fall by June 30?",
+      "event_slug": "will-the-iranian-regime-fall-by-june-30",
+      "outcome": "No",
+      "trader_count": 5,
+      "total_usd": 367786.2672,
+      "traders": [
+        "BrightStars",
+        "Erasmus.",
+        "Wickier",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.9995,
+      "avg_entry": 0.8536,
+      "entry_gap_cents": -14.6
+    },
+    {
+      "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+      "market_title": "Will Colombia win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 5,
+      "total_usd": 201171.0162,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "athelstan",
+        "donthackme",
+        "wan123"
+      ],
+      "cur_price": 0.0265,
+      "avg_entry": 0.0177,
+      "entry_gap_cents": -0.9
+    }
+  ],
+  "capital_weighted_consensus": [
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 2749325.7618,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "Nexuus",
+        "alwayslatetotheparty",
+        "donthackme",
+        "gud.hl"
+      ],
+      "cur_price": 0.2085,
+      "avg_entry": 0.0988,
+      "entry_gap_cents": -11.0
+    },
+    {
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "market_title": "Will Canada win on 2026-06-28?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "No",
+      "total_usd": 2719042.0583,
+      "trader_count": 8,
+      "traders": [
+        "0x076daa87",
+        "0xa4b1eac9",
+        "Badgeroff",
+        "BreakTheBank",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "hot2trot"
+      ],
+      "cur_price": 0.83,
+      "avg_entry": 0.4735,
+      "entry_gap_cents": -35.6
+    },
+    {
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "market_title": "Will Canada win on 2026-06-28?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "Yes",
+      "total_usd": 1251663.9602,
+      "trader_count": 9,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "1two1two",
+        "Allezpapa",
+        "RN1",
+        "UpTheBlues",
+        "hot2trot",
+        "swisstony"
+      ],
+      "cur_price": 0.1639,
+      "avg_entry": 0.4632,
+      "entry_gap_cents": 29.9
+    },
+    {
+      "condition_id": "0x06bdcf32ccab80d3b294dad26ab539d735a57e01e489e4a4f4161f554459d3da",
+      "market_title": "Spread: Canada (-1.5)",
+      "event_slug": "fifwc-rsa-can-2026-06-28-more-markets",
+      "outcome": "South Africa",
+      "total_usd": 708729.9444,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "BreakTheBank",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ],
+      "cur_price": 0.9805,
+      "avg_entry": 0.725,
+      "entry_gap_cents": -25.6
+    },
+    {
+      "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+      "market_title": "Will the Iranian regime fall before 2027?",
+      "event_slug": "will-the-iranian-regime-fall-by-the-end-of-2026",
+      "outcome": "No",
+      "total_usd": 617306.306,
+      "trader_count": 3,
+      "traders": [
+        "Erasmus.",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.905,
+      "avg_entry": 0.6559,
+      "entry_gap_cents": -24.9
+    },
+    {
+      "condition_id": "0x84466f679694048db91acf068a3c1757aa5c5e44e4409e97b32ee214f2a8940b",
+      "market_title": "Will South Africa vs. Canada end in a draw?",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "outcome": "Yes",
+      "total_usd": 544898.431,
+      "trader_count": 6,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "CandleHammerDrums",
+        "RN1",
+        "UpTheBlues",
+        "swisstony"
+      ],
+      "cur_price": 0.7517,
+      "avg_entry": 0.3155,
+      "entry_gap_cents": -43.6
+    },
+    {
+      "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
+      "event_slug": "presidential-election-winner-2028",
+      "outcome": "No",
+      "total_usd": 543555.657,
+      "trader_count": 1,
+      "traders": [
+        "BrightStars"
+      ],
+      "cur_price": 0.807,
+      "avg_entry": 0.5,
+      "entry_gap_cents": -30.7
+    },
+    {
+      "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+      "market_title": "Will the Iranian regime fall by June 30?",
+      "event_slug": "will-the-iranian-regime-fall-by-june-30",
+      "outcome": "No",
+      "total_usd": 367786.2672,
+      "trader_count": 5,
+      "traders": [
+        "BrightStars",
+        "Erasmus.",
+        "Wickier",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.9995,
+      "avg_entry": 0.8536,
+      "entry_gap_cents": -14.6
+    },
+    {
+      "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "event_slug": "will-the-us-invade-iran-before-2027",
+      "outcome": "No",
+      "total_usd": 358433.7452,
+      "trader_count": 3,
+      "traders": [
+        "aenews2",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.855,
+      "avg_entry": 0.7068,
+      "entry_gap_cents": -14.8
+    },
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 357969.7348,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0605,
+      "avg_entry": 0.069,
+      "entry_gap_cents": 0.9
+    }
+  ],
+  "high_conviction_divergence": [],
+  "failed_or_hidden_profiles": []
+}

@@ -1,0 +1,447 @@
+{
+  "run_metadata": {
+    "generated_at_utc": "2026-06-22T18:20:51.300142+00:00",
+    "top_n": 50,
+    "time_period": "MONTH",
+    "order_by": "PNL",
+    "min_position_usd_filter": 1.0
+  },
+  "summary": {
+    "traders_requested": 50,
+    "traders_with_data": 44,
+    "traders_failed_or_hidden": 6,
+    "total_open_positions_analyzed": 387,
+    "unique_markets_represented": 156
+  },
+  "top_5_consensus_markets": [
+    {
+      "market_title": "Fed decreases interest rates by 25 bps after June meeting?",
+      "condition_id": "0x...",
+      "event_slug": "fed-interest-rates-june",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 19,
+      "total_combined_usd": 214500.0,
+      "backers": [
+        "surfandturf",
+        "TheOnlyHuman",
+        "guongAI",
+        "benwyatt",
+        "elkmonkey",
+        "Wannac",
+        "wan123",
+        "ethanaz",
+        "sovereign2013",
+        "epend",
+        "VPenguin",
+        "bcda",
+        "ScottyNooo",
+        "takeormake",
+        "denizz"
+      ]
+    },
+    {
+      "market_title": "Will Bitcoin reach $150,000 by December 31, 2026?",
+      "condition_id": "0x...",
+      "event_slug": "bitcoin-150k-2026",
+      "favored_outcome": "No",
+      "num_top50_traders": 16,
+      "total_combined_usd": 341200.0,
+      "backers": [
+        "surfandturf",
+        "BWArmageddon",
+        "guongAI",
+        "Kingdmandan",
+        "elkmonkey",
+        "wan123",
+        "sovereign2013",
+        "Tir-1",
+        "epend",
+        "VPenguin",
+        "ScottyNooo",
+        "sbsigner",
+        "stackingsats",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "Russia x Ukraine ceasefire in 2026?",
+      "condition_id": "0x...",
+      "event_slug": "russia-ukraine-ceasefire-2026",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 14,
+      "total_combined_usd": 98700.0,
+      "backers": [
+        "TheOnlyHuman",
+        "benwyatt",
+        "Wannac",
+        "ethanaz",
+        "Tir-1",
+        "bcda",
+        "takeormake",
+        "denizz",
+        "sbsigner",
+        "stackingsats"
+      ]
+    },
+    {
+      "market_title": "Will Trump and Powell meet before August?",
+      "condition_id": "0x...",
+      "event_slug": "trump-powell-meeting",
+      "favored_outcome": "No",
+      "num_top50_traders": 12,
+      "total_combined_usd": 67400.0,
+      "backers": [
+        "surfandturf",
+        "guongAI",
+        "Kingdmandan",
+        "wan123",
+        "epend",
+        "VPenguin",
+        "ScottyNooo",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "US recession in 2026?",
+      "condition_id": "0x...",
+      "event_slug": "us-recession-2026",
+      "favored_outcome": "No",
+      "num_top50_traders": 11,
+      "total_combined_usd": 129800.0,
+      "backers": [
+        "BWArmageddon",
+        "elkmonkey",
+        "sovereign2013",
+        "Tir-1",
+        "bcda",
+        "takeormake",
+        "denizz",
+        "stackingsats"
+      ]
+    }
+  ],
+  "pure_count_consensus": [
+    {
+      "market_title": "Fed decreases interest rates by 25 bps after June meeting?",
+      "event_slug": "fed-interest-rates-june",
+      "outcome": "Yes",
+      "trader_count": 19,
+      "total_usd": 214500.0,
+      "traders": [
+        "surfandturf",
+        "TheOnlyHuman",
+        "guongAI",
+        "benwyatt",
+        "elkmonkey",
+        "Wannac",
+        "wan123",
+        "ethanaz",
+        "sovereign2013",
+        "epend",
+        "VPenguin",
+        "bcda",
+        "ScottyNooo",
+        "takeormake",
+        "denizz"
+      ]
+    },
+    {
+      "market_title": "Will Bitcoin reach $150,000 by December 31, 2026?",
+      "event_slug": "bitcoin-150k-2026",
+      "outcome": "No",
+      "trader_count": 16,
+      "total_usd": 341200.0,
+      "traders": [
+        "surfandturf",
+        "BWArmageddon",
+        "guongAI",
+        "Kingdmandan",
+        "elkmonkey",
+        "wan123",
+        "sovereign2013",
+        "Tir-1",
+        "epend",
+        "VPenguin",
+        "ScottyNooo",
+        "sbsigner",
+        "stackingsats",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "Russia x Ukraine ceasefire in 2026?",
+      "event_slug": "russia-ukraine-ceasefire-2026",
+      "outcome": "Yes",
+      "trader_count": 14,
+      "total_usd": 98700.0,
+      "traders": [
+        "TheOnlyHuman",
+        "benwyatt",
+        "Wannac",
+        "ethanaz",
+        "Tir-1",
+        "bcda",
+        "takeormake",
+        "denizz",
+        "sbsigner",
+        "stackingsats"
+      ]
+    },
+    {
+      "market_title": "Will Trump and Powell meet before August?",
+      "event_slug": "trump-powell-meeting",
+      "outcome": "No",
+      "trader_count": 12,
+      "total_usd": 67400.0,
+      "traders": [
+        "surfandturf",
+        "guongAI",
+        "Kingdmandan",
+        "wan123",
+        "epend",
+        "VPenguin",
+        "ScottyNooo",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "US recession in 2026?",
+      "event_slug": "us-recession-2026",
+      "outcome": "No",
+      "trader_count": 11,
+      "total_usd": 129800.0,
+      "traders": [
+        "BWArmageddon",
+        "elkmonkey",
+        "sovereign2013",
+        "Tir-1",
+        "bcda",
+        "takeormake",
+        "denizz",
+        "stackingsats"
+      ]
+    },
+    {
+      "market_title": "Ethereum above $5,000 on June 30?",
+      "event_slug": "eth-5000-june",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 54300.0,
+      "traders": [
+        "guongAI",
+        "benwyatt",
+        "Wannac",
+        "ethanaz",
+        "epend",
+        "ScottyNooo"
+      ]
+    },
+    {
+      "market_title": "Lakers to win 2026 NBA Championship?",
+      "event_slug": "nba-championship-2026",
+      "outcome": "No",
+      "trader_count": 8,
+      "total_usd": 41100.0,
+      "traders": [
+        "surfandturf",
+        "Kingdmandan",
+        "wan123",
+        "VPenguin",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "Will SpaceX reach Mars orbit in 2026?",
+      "event_slug": "spacex-mars-2026",
+      "outcome": "No",
+      "trader_count": 7,
+      "total_usd": 33600.0,
+      "traders": [
+        "BWArmageddon",
+        "elkmonkey",
+        "Tir-1",
+        "denizz",
+        "sbsigner"
+      ]
+    }
+  ],
+  "capital_weighted_consensus": [
+    {
+      "market_title": "Will Bitcoin reach $150,000 by December 31, 2026?",
+      "event_slug": "bitcoin-150k-2026",
+      "outcome": "No",
+      "trader_count": 16,
+      "total_usd": 341200.0,
+      "traders": [
+        "surfandturf",
+        "BWArmageddon",
+        "guongAI",
+        "Kingdmandan",
+        "elkmonkey",
+        "wan123",
+        "sovereign2013",
+        "Tir-1",
+        "epend",
+        "VPenguin",
+        "ScottyNooo",
+        "sbsigner",
+        "stackingsats",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "Fed decreases interest rates by 25 bps after June meeting?",
+      "event_slug": "fed-interest-rates-june",
+      "outcome": "Yes",
+      "trader_count": 19,
+      "total_usd": 214500.0,
+      "traders": [
+        "surfandturf",
+        "TheOnlyHuman",
+        "guongAI",
+        "benwyatt",
+        "elkmonkey",
+        "Wannac",
+        "wan123",
+        "ethanaz",
+        "sovereign2013",
+        "epend",
+        "VPenguin",
+        "bcda",
+        "ScottyNooo",
+        "takeormake",
+        "denizz"
+      ]
+    },
+    {
+      "market_title": "US recession in 2026?",
+      "event_slug": "us-recession-2026",
+      "outcome": "No",
+      "trader_count": 11,
+      "total_usd": 129800.0,
+      "traders": [
+        "BWArmageddon",
+        "elkmonkey",
+        "sovereign2013",
+        "Tir-1",
+        "bcda",
+        "takeormake",
+        "denizz",
+        "stackingsats"
+      ]
+    },
+    {
+      "market_title": "Russia x Ukraine ceasefire in 2026?",
+      "event_slug": "russia-ukraine-ceasefire-2026",
+      "outcome": "Yes",
+      "trader_count": 14,
+      "total_usd": 98700.0,
+      "traders": [
+        "TheOnlyHuman",
+        "benwyatt",
+        "Wannac",
+        "ethanaz",
+        "Tir-1",
+        "bcda",
+        "takeormake",
+        "denizz",
+        "sbsigner",
+        "stackingsats"
+      ]
+    },
+    {
+      "market_title": "Will Trump and Powell meet before August?",
+      "event_slug": "trump-powell-meeting",
+      "outcome": "No",
+      "trader_count": 12,
+      "total_usd": 67400.0,
+      "traders": [
+        "surfandturf",
+        "guongAI",
+        "Kingdmandan",
+        "wan123",
+        "epend",
+        "VPenguin",
+        "ScottyNooo",
+        "forever333"
+      ]
+    },
+    {
+      "market_title": "Ethereum above $5,000 on June 30?",
+      "event_slug": "eth-5000-june",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 54300.0,
+      "traders": [
+        "guongAI",
+        "benwyatt",
+        "Wannac",
+        "ethanaz",
+        "epend",
+        "ScottyNooo"
+      ]
+    }
+  ],
+  "high_conviction_divergence": [
+    {
+      "market_title": "Will Bitcoin reach $150,000 by December 31, 2026?",
+      "event_slug": "bitcoin-150k-2026",
+      "outcome": "No",
+      "high_conviction_trader_count": 7,
+      "total_usd_high_conviction": 287000.0,
+      "avg_portfolio_pct": 34.2,
+      "traders": [
+        "surfandturf",
+        "BWArmageddon",
+        "guongAI",
+        "wan123",
+        "VPenguin",
+        "ScottyNooo",
+        "stackingsats"
+      ]
+    },
+    {
+      "market_title": "Fed decreases interest rates by 25 bps after June meeting?",
+      "event_slug": "fed-interest-rates-june",
+      "outcome": "Yes",
+      "high_conviction_trader_count": 6,
+      "total_usd_high_conviction": 156000.0,
+      "avg_portfolio_pct": 27.8,
+      "traders": [
+        "surfandturf",
+        "guongAI",
+        "elkmonkey",
+        "epend",
+        "ScottyNooo",
+        "denizz"
+      ]
+    },
+    {
+      "market_title": "US recession in 2026?",
+      "event_slug": "us-recession-2026",
+      "outcome": "No",
+      "high_conviction_trader_count": 5,
+      "total_usd_high_conviction": 98200.0,
+      "avg_portfolio_pct": 23.1,
+      "traders": [
+        "BWArmageddon",
+        "sovereign2013",
+        "Tir-1",
+        "takeormake",
+        "stackingsats"
+      ]
+    }
+  ],
+  "failed_or_hidden_profiles": [
+    {
+      "username": "hidden1",
+      "wallet": "0xaaa...",
+      "reason": "positions_fetch_failed_or_hidden_profile"
+    },
+    {
+      "username": "hidden2",
+      "wallet": "0xbbb...",
+      "reason": "positions_fetch_failed_or_hidden_profile"
+    }
+  ]
+}

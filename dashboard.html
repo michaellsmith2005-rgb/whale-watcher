@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polymarket Consensus — Top Trader Positioning</title>
+<style>
+  /* ── Zen monochrome palette ─────────────────────────────────────────
+     Pure white & near-black, hairline greys, no chroma. Calm and quiet. */
+  :root{
+    --ink:#1a1a1a;        /* primary text */
+    --ink-soft:#3d3d3d;   /* secondary text */
+    --paper:#ffffff;      /* page */
+    --paper-2:#f7f7f6;    /* faint fill */
+    --line:#ededec;       /* hairline */
+    --line-strong:#dcdcda;/* visible divider */
+    --muted:#9a9a98;      /* labels, captions */
+    --accent:#1a1a1a;     /* monochrome accent = ink */
+    /* graded greys for the three readings (count → capital → conviction) */
+    --g1:#222222;
+    --g2:#6b6b6b;
+    --g3:#a8a8a8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#f2f2f0;--ink-soft:#cfcfcd;--paper:#0e0e0e;--paper-2:#181818;
+      --line:#242424;--line-strong:#343434;--muted:#7c7c7a;--accent:#f2f2f0;
+      --g1:#f2f2f0;--g2:#9a9a98;--g3:#5a5a58;
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--paper);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    line-height:1.6;padding:0 0 6rem;-webkit-font-smoothing:antialiased;
+    font-feature-settings:"tnum" 0;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:0 1.75rem}
+  ::selection{background:var(--ink);color:var(--paper)}
+
+  .masthead{padding:4rem 0 2rem;margin-bottom:2.5rem;border-bottom:1px solid var(--line)}
+  .eyebrow{font-size:11px;letter-spacing:0.32em;text-transform:uppercase;color:var(--muted);margin-bottom:1.4rem;font-weight:500}
+  h1{font-size:clamp(32px,5.5vw,52px);font-weight:300;letter-spacing:-0.025em;line-height:1.05}
+  .dek{font-size:16px;color:var(--ink-soft);margin-top:1rem;max-width:54ch;font-weight:300}
+  .meta-strip{display:flex;flex-wrap:wrap;gap:1.75rem;font-size:11px;letter-spacing:0.1em;color:var(--muted);text-transform:uppercase;padding:1.4rem 0 0;margin-bottom:2.5rem;font-weight:500}
+  .meta-strip b{color:var(--ink);font-weight:500}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-bottom:3.5rem}
+  .stat{padding:0.2rem 1.6rem 0.2rem 0;border-left:1px solid var(--line);padding-left:1.4rem}
+  .stat:first-child{border-left:none;padding-left:0}
+  .stat .n{font-size:34px;font-weight:300;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;line-height:1.1}
+  .stat .l{font-size:10px;letter-spacing:0.13em;text-transform:uppercase;color:var(--muted);margin-top:0.5rem;font-weight:500}
+  @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr);gap:1.75rem 0}.stat{padding-left:1.4rem}.stat:nth-child(odd){border-left:none;padding-left:0}h1{font-size:32px}}
+
+  .lead{margin-bottom:3.5rem}
+  .lead-card{border:1px solid var(--line-strong);padding:2.2rem;background:var(--paper-2)}
+  .lead-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;font-weight:600}
+  .lead-market{font-size:25px;font-weight:300;letter-spacing:-0.015em;line-height:1.2;margin-bottom:1.3rem}
+  .lead-row{display:flex;flex-wrap:wrap;gap:2rem;align-items:baseline}
+  .lead-figure{font-size:14px;color:var(--muted)}
+  .lead-figure b{color:var(--ink);font-size:22px;font-weight:300;font-variant-numeric:tabular-nums;letter-spacing:-0.02em}
+
+  .tabs{display:flex;gap:0.3rem;border-bottom:1px solid var(--line);margin-bottom:2rem;flex-wrap:wrap}
+  .tab{appearance:none;background:none;border:none;cursor:pointer;font-family:inherit;font-size:13.5px;color:var(--muted);padding:0.7rem 1.1rem;position:relative;top:1px;border-bottom:1px solid transparent;transition:color .15s;letter-spacing:0.01em}
+  .tab[aria-selected="true"]{color:var(--ink);font-weight:500;border-bottom-color:var(--ink)}
+  .tab:hover{color:var(--ink)}
+  .tab:focus-visible{outline:1px solid var(--ink);outline-offset:3px}
+
+  .panel[hidden]{display:none}
+  .section-note{font-size:13.5px;color:var(--muted);margin-bottom:1.8rem;max-width:64ch;font-weight:300;line-height:1.65}
+
+  .row{display:grid;grid-template-columns:auto 1fr auto auto;gap:1.3rem;align-items:start;padding:1.4rem 0;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .rk{font-size:15px;font-weight:400;color:var(--muted);min-width:2ch;font-variant-numeric:tabular-nums;padding-top:0.15rem}
+  .mk-title{font-size:16px;font-weight:400;line-height:1.35;letter-spacing:-0.005em}
+  .mk-event{font-size:11.5px;color:var(--muted);margin-top:0.3rem;letter-spacing:0.02em}
+  .chips{display:flex;flex-wrap:wrap;gap:0.35rem;margin-top:0.75rem}
+  .chip{font-size:11px;letter-spacing:0.01em;padding:0.2rem 0.6rem;border:1px solid var(--line-strong);color:var(--muted);border-radius:999px}
+  .pill{font-size:10.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:0.25rem 0.65rem;border-radius:999px;white-space:nowrap;align-self:center;border:1px solid var(--ink)}
+  .pill.yes{background:var(--ink);color:var(--paper)}
+  .pill.no{background:transparent;color:var(--ink)}
+  .pill.other{background:transparent;color:var(--muted);border-color:var(--line-strong)}
+  .metric{text-align:right;min-width:130px;align-self:center}
+  .metric .v{font-size:17px;font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:-0.015em}
+  .metric .s{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:0.1rem}
+  .track{height:2px;background:var(--line);overflow:hidden;margin-top:0.55rem;width:130px;margin-left:auto}
+  .fill{height:100%}
+  .fill.count{background:var(--g1)}
+  .fill.capital{background:var(--g2)}
+  .fill.hc{background:var(--g3)}
+  @media(max-width:720px){
+    .row{grid-template-columns:auto 1fr;gap:0.5rem 0.9rem}
+    .pill{grid-column:2;justify-self:start;margin-top:0.4rem}
+    .metric{grid-column:2;text-align:left;min-width:0;margin-top:0.3rem}
+    .track{margin-left:0}
+  }
+
+  .gap{font-size:12px;color:var(--muted);margin-top:0.45rem;font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem}
+  .gap b{color:var(--ink);font-weight:500}
+  .gap-late,.gap-fresh,.gap-flat{font-size:10.5px;letter-spacing:0.04em;padding:0.15rem 0.5rem;border-radius:999px;border:1px solid var(--line-strong);white-space:nowrap}
+  .gap-late{color:var(--muted)}
+  .gap-fresh{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+  .gap-flat{color:var(--muted)}
+
+  /* Bet analyzer */
+  .az-controls{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:flex-end;margin-bottom:1.8rem}
+  .az-field{display:flex;flex-direction:column;gap:0.4rem;font-size:10px;letter-spacing:0.13em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .az-market-field{flex:1;min-width:240px}
+  .az-field select,.az-field input{font-family:inherit;font-size:15px;color:var(--ink);background:var(--paper);border:1px solid var(--line-strong);border-radius:6px;padding:0.55rem 0.7rem;letter-spacing:0;text-transform:none;font-weight:400}
+  .az-field select{width:100%;cursor:pointer}
+  .az-field select:focus,.az-field input:focus{outline:none;border-color:var(--ink)}
+  .az-inwrap{display:inline-flex;align-items:center;gap:0.25rem;border:1px solid var(--line-strong);border-radius:6px;padding:0 0.7rem;color:var(--muted)}
+  .az-inwrap:focus-within{border-color:var(--ink)}
+  .az-inwrap input{border:none;padding:0.55rem 0;width:5.5rem;background:transparent}
+  .az-inwrap input:focus{outline:none}
+
+  .az-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+  @media(max-width:640px){.az-grid{grid-template-columns:1fr}}
+  .az-box{background:var(--paper);padding:1.3rem 1.4rem}
+  .az-h{font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.7rem}
+  .az-big{font-size:28px;font-weight:300;letter-spacing:-0.02em;line-height:1.1;font-variant-numeric:tabular-nums}
+  .az-big.pos{color:var(--ink)}
+  .az-big.neg{color:var(--muted)}
+  .az-unit{font-size:12px;color:var(--muted);font-weight:400;letter-spacing:0}
+  .az-sub{font-size:13px;color:var(--muted);margin-top:0.6rem;line-height:1.5}
+  .az-sub b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+  b.pos{color:var(--ink)} b.neg{color:var(--ink)}
+  .az-muted code{font-family:ui-monospace,Menlo,monospace;font-size:11px;background:var(--paper-2);border:1px solid var(--line);padding:0.05rem 0.3rem;border-radius:3px}
+  .az-warn{font-size:12px;color:var(--ink);margin-top:0.7rem;padding:0.5rem 0.7rem;background:var(--paper-2);border:1px solid var(--line-strong);border-radius:6px;line-height:1.45}
+  .az-tier{font-size:13px;font-weight:500;letter-spacing:0.02em;padding:0.2rem 0.6rem;border-radius:999px;border:1px solid var(--line-strong);color:var(--ink)}
+  .az-tier.deep{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .az-tier.ok{background:var(--paper-2)}
+  .az-tier.thin,.az-tier.vthin{color:var(--muted)}
+  .az-foot{font-size:11.5px;color:var(--muted);margin-top:1.3rem;line-height:1.6;max-width:70ch}
+
+  .pct{font-size:11px;font-weight:500;letter-spacing:0.04em;padding:0.25rem 0.6rem;background:var(--paper-2);color:var(--ink-soft);border:1px solid var(--line-strong);border-radius:999px;white-space:nowrap}
+  .hc-stats{display:flex;gap:1.6rem;margin:0.5rem 0;font-size:13px;color:var(--muted)}
+  .hc-stats b{color:var(--ink);font-variant-numeric:tabular-nums;font-weight:500}
+
+  .empty{padding:4rem 1rem;text-align:center;color:var(--muted);border:1px solid var(--line);font-weight:300}
+  .empty .big{font-size:15px;color:var(--ink);margin-bottom:0.4rem}
+
+  .loader{padding:5rem 1rem;text-align:center;color:var(--muted);font-weight:300}
+  .err{border:1px solid var(--line-strong);background:var(--paper-2);color:var(--ink);padding:1.6rem 1.8rem;font-size:14px;line-height:1.7;font-weight:300}
+  .err code{font-family:ui-monospace,Menlo,monospace;font-size:12px;background:var(--paper);border:1px solid var(--line);padding:0.12rem 0.4rem;border-radius:3px}
+
+  table.bars{width:100%;border-collapse:collapse}
+  .barwrap{height:220px;display:flex;align-items:flex-end;gap:0.6rem;padding-top:1rem;border-bottom:1px solid var(--line-strong)}
+  .barcol{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:0;height:100%}
+  .barcol .b{width:62%;min-height:2px;background:var(--ink);transition:opacity .15s}
+  .barcol:hover .b{opacity:0.55}
+  .barlabels{display:flex;gap:0.6rem;margin-top:0.7rem}
+  .barlabel{flex:1;font-size:10px;text-align:center;color:var(--muted);line-height:1.3;overflow:hidden;letter-spacing:0.02em}
+
+  footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);letter-spacing:0.05em;font-weight:400}
+  a{color:var(--ink)}
+
+  .masthead-top{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+  .refresh{appearance:none;cursor:pointer;font-family:inherit;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line-strong);border-radius:999px;padding:0.55rem 1rem;white-space:nowrap;display:inline-flex;align-items:center;gap:0.55rem;transition:border-color .15s,background .15s;flex:none;font-weight:500}
+  .refresh:hover:not(:disabled){border-color:var(--ink);background:var(--paper-2)}
+  .refresh:disabled{cursor:default;opacity:0.5}
+  .refresh:focus-visible{outline:1px solid var(--ink);outline-offset:2px}
+  .refresh .dot{width:6px;height:6px;border-radius:50%;background:var(--ink);flex:none}
+  .refresh.busy .dot{animation:pulse 1.1s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.2}}
+  .toast{position:fixed;left:50%;bottom:2rem;transform:translateX(-50%);background:var(--ink);color:var(--paper);font-size:12.5px;letter-spacing:0.03em;padding:0.7rem 1.2rem;border-radius:999px;box-shadow:0 6px 24px rgba(0,0,0,.18);opacity:0;pointer-events:none;transition:opacity .25s, transform .25s;z-index:50;font-weight:400}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(-5px)}
+  .toast.err{background:var(--ink);outline:2px solid var(--ink)}
+
+  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:0.8rem 1.3rem;margin:-1rem 0 2.5rem}
+  .ctl-label{font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .seg{display:inline-flex;border:1px solid var(--line-strong);border-radius:999px;overflow:hidden;background:var(--paper)}
+  .seg-btn{appearance:none;cursor:pointer;background:transparent;border:none;font-family:inherit;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);padding:0.5rem 1rem;transition:background .15s,color .15s;font-weight:500}
+  .seg-btn:hover:not(:disabled){color:var(--ink)}
+  .seg-btn[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+  .seg-btn:disabled{cursor:default;opacity:0.5}
+  .seg-btn:focus-visible{outline:1px solid var(--ink);outline-offset:-3px}
+  .board-badge{font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);background:transparent;border:1px solid var(--line-strong);border-radius:999px;padding:0.3rem 0.8rem;font-weight:500}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="masthead-top">
+      <div class="eyebrow">Polymarket · Smart-money positioning</div>
+      <button class="refresh" id="refresh-btn" onclick="refresh()" title="Re-run the pipeline and pull fresh data">
+        <span class="dot"></span><span id="refresh-label">Refresh data</span>
+      </button>
+    </div>
+    <h1>The Consensus Trade</h1>
+    <p class="dek">Where the most profitable traders on Polymarket are putting their conviction — aggregated across the leaderboard into three readings of agreement.</p>
+  </header>
+
+  <div class="meta-strip" id="meta-strip">
+    <span>Loading report…</span>
+  </div>
+
+  <div class="controls" id="controls" hidden>
+    <span class="ctl-label">Leaderboard window</span>
+    <div class="seg" id="window-seg" role="group" aria-label="Leaderboard time window">
+      <button class="seg-btn" type="button" data-period="DAY" onclick="setWindow('DAY')">Day</button>
+      <button class="seg-btn" type="button" data-period="WEEK" onclick="setWindow('WEEK')">Week</button>
+      <button class="seg-btn" type="button" data-period="MONTH" onclick="setWindow('MONTH')">Month</button>
+      <button class="seg-btn" type="button" data-period="ALL" onclick="setWindow('ALL')">All time</button>
+    </div>
+    <span class="board-badge" id="board-badge" hidden>● Live games only</span>
+  </div>
+
+  <div id="content">
+    <div class="loader" id="loader">
+      <p style="font-size:15px;color:var(--ink)">Loading consensus_report.json…</p>
+      <p style="margin-top:0.5rem">Run the pipeline first, then serve this folder (instructions below if this hangs).</p>
+    </div>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const FALLBACK_HELP = `
+  <div class="err">
+    <p style="font-weight:600;margin-bottom:0.6rem;font-size:15px">Couldn't load <code>consensus_report.json</code></p>
+    <p style="margin-bottom:0.8rem">Two things to check:</p>
+    <p style="margin-bottom:0.5rem">1. Generate the data:<br><code>python polymarket_consensus.py --top-n 50 --time-period MONTH</code></p>
+    <p style="margin-bottom:0.5rem">2. Serve this folder over HTTP (opening the file directly via file:// blocks JSON loading):<br><code>python -m http.server 8000</code> &nbsp;then open&nbsp; <code>http://localhost:8000/dashboard.html</code></p>
+  </div>`;
+
+function fmt(n){
+  if(n==null||isNaN(n))return'—';
+  const v=Math.abs(n);
+  if(v>=1e6)return '$'+(n/1e6).toFixed(2)+'M';
+  if(v>=1e3)return '$'+(n/1e3).toFixed(1)+'k';
+  return '$'+Math.round(n).toLocaleString();
+}
+function pill(o){
+  const u=(o||'').toUpperCase();
+  if(u==='YES')return '<span class="pill yes">YES</span>';
+  if(u==='NO')return '<span class="pill no">NO</span>';
+  const s=o&&o.length>22?o.slice(0,20)+'…':o;
+  return '<span class="pill other">'+(s||'?')+'</span>';
+}
+function chips(arr){
+  if(!arr||!arr.length)return '';
+  const shown=arr.slice(0,8).map(t=>'<span class="chip">'+esc(t)+'</span>').join('');
+  const more=arr.length>8?'<span class="chip">+'+(arr.length-8)+' more</span>':'';
+  return '<div class="chips">'+shown+more+'</div>';
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function cents(p){return (p==null||isNaN(p))?'—':Math.round(p*100)+'¢';}
+function gapTag(item){
+  // Where the current price sits vs. the crowd's average entry. The signal tells
+  // you WHERE the money is; this tells you whether there's any left.
+  const cur=item.cur_price, entry=item.avg_entry, gap=item.entry_gap_cents;
+  if(cur==null||entry==null||gap==null||isNaN(gap))return '';
+  const a=Math.abs(Math.round(gap));
+  // gap = (entry - cur)*100. Negative => price ran ABOVE entry (crowd in profit, you're late).
+  let tag;
+  if(gap<=-1)      tag='<span class="gap-late">▲ '+a+'¢ past entry · late</span>';
+  else if(gap>=1)  tag='<span class="gap-fresh">▼ '+a+'¢ below entry · fresh</span>';
+  else             tag='<span class="gap-flat">≈ at crowd entry</span>';
+  return `<div class="gap"><b>${cents(cur)}</b> now · crowd in @ <b>${cents(entry)}</b> ${tag}</div>`;
+}
+
+function row(item, idx, metric, max){
+  let mainVal, mainLabel, subVal, fillClass, fillPct;
+  if(metric==='count'){
+    mainVal=item.trader_count+' traders'; subVal=fmt(item.total_usd);
+    fillClass='count'; fillPct=Math.round(item.trader_count/max*100);
+  }else{
+    mainVal=fmt(item.total_usd); subVal=item.trader_count+' traders';
+    fillClass='capital'; fillPct=Math.round(item.total_usd/max*100);
+  }
+  return `<div class="row">
+    <div class="rk">${idx+1}</div>
+    <div>
+      <div class="mk-title">${esc(item.market_title||'Unknown market')}</div>
+      <div class="mk-event">${esc(item.event_slug||'')}</div>
+      ${gapTag(item)}
+      ${chips(item.traders)}
+    </div>
+    ${pill(item.outcome)}
+    <div class="metric">
+      <div class="v">${mainVal}</div>
+      <div class="track"><div class="fill ${fillClass}" style="width:${fillPct}%"></div></div>
+      <div class="s">${subVal}</div>
+    </div>
+  </div>`;
+}
+
+function hcRow(item){
+  return `<div class="row" style="grid-template-columns:1fr auto">
+    <div>
+      <div style="display:flex;align-items:center;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.2rem">
+        ${pill(item.outcome)}
+        <span class="mk-title">${esc(item.market_title||'Unknown market')}</span>
+      </div>
+      <div class="hc-stats">
+        <span><b>${item.conviction_traders}</b> proven wallets</span>
+        <span>avg <b>${(+item.avg_cost_pct||0).toFixed(1)}%</b> of their bankroll</span>
+        <span>skill <b>${(+item.avg_skill||0).toFixed(2)}</b></span>
+      </div>
+      ${chips(item.traders)}
+    </div>
+    <div class="metric" style="align-self:center;min-width:84px">
+      <div class="v" style="font-size:22px">${(+item.conviction_score||0).toFixed(0)}</div>
+      <div class="track"><div class="fill hc" style="width:${Math.min(100,+item.conviction_score||0)}%"></div></div>
+      <div class="s">conviction</div>
+    </div>
+  </div>`;
+}
+
+function miniChart(items){
+  if(!items.length)return '';
+  const top=items.slice(0,7);
+  const max=Math.max(...top.map(i=>i.trader_count))||1;
+  const bars=top.map(i=>{
+    const h=Math.round(i.trader_count/max*100);
+    return `<div class="barcol" title="${esc(i.market_title)}: ${i.trader_count} traders"><div class="b" style="height:${h}%"></div></div>`;
+  }).join('');
+  const labels=top.map(i=>{
+    const t=(i.market_title||'').slice(0,14);
+    return `<div class="barlabel">${esc(t)}${i.market_title&&i.market_title.length>14?'…':''}<br>${i.trader_count}</div>`;
+  }).join('');
+  return `<div class="barwrap">${bars}</div><div class="barlabels">${labels}</div>`;
+}
+
+// ---- Bet analyzer -------------------------------------------------------
+let ANALYZER_MARKETS=[];
+function liqTier(L){
+  if(L==null)return ['unknown','Unknown'];
+  if(L>=1e6)return ['deep','Deep'];
+  if(L>=250e3)return ['ok','Moderate'];
+  if(L>=50e3)return ['thin','Thin'];
+  return ['vthin','Very thin'];
+}
+function buildAnalyzer(pc, cap){
+  const sel=document.getElementById('az-market'); if(!sel)return;
+  const seen={}, list=[];
+  [...(cap||[]), ...(pc||[])].forEach(it=>{
+    const key=(it.condition_id||'')+'::'+it.outcome;
+    if(seen[key]||it.cur_price==null)return;
+    seen[key]=1; list.push(it);
+  });
+  ANALYZER_MARKETS=list;
+  sel.innerHTML = list.length
+    ? list.map((it,i)=>{
+        const p=cents(it.best_ask!=null?it.best_ask:it.cur_price);
+        return `<option value="${i}">${esc((it.market_title||'').slice(0,46))} → ${esc(it.outcome)} (${p})</option>`;
+      }).join('')
+    : '<option>No markets available</option>';
+  recalcAnalyzer();
+}
+function recalcAnalyzer(){
+  const out=document.getElementById('az-out'); if(!out)return;
+  const sel=document.getElementById('az-market');
+  const idx=sel?(parseInt(sel.value)||0):0;
+  const it=ANALYZER_MARKETS[idx];
+  if(!it){out.innerHTML='<div class="empty">No market data.</div>';return;}
+  const buy=(it.best_ask!=null&&it.best_ask>0)?it.best_ask:it.cur_price;     // price you'd pay (the ask)
+  const amount=Math.max(0,parseFloat(document.getElementById('az-amount').value)||0);
+  const probRaw=document.getElementById('az-prob').value;
+  const userProb=probRaw===''?buy:Math.min(1,Math.max(0,(parseFloat(probRaw)||0)/100));
+
+  const shares=buy>0?amount/buy:0;
+  const payout=shares;                 // $1 per winning share
+  const profit=payout-amount;
+  const roi=amount>0?profit/amount*100:0;
+  const [tierClass,tierLabel]=liqTier(it.liquidity_usd);
+  const spreadC=it.spread!=null?Math.round(it.spread*100):null;
+  const stakeVsLiq=it.liquidity_usd?amount/it.liquidity_usd*100:null;
+  const vegas=it.vegas_prob;
+
+  // ---- Edge & fractional-Kelly sizing -------------------------------------
+  // Fair value = Vegas line if we have one (a real outside anchor), else your
+  // own estimate. Edge is measured against the ask (price you'd actually pay),
+  // net of the spread cost.
+  const KELLY_FRACTION=0.25;     // quarter-Kelly — pros never bet full Kelly
+  const COST=(it.spread!=null?it.spread:0.01);          // round-trip cost drag
+  const fair = (vegas!=null) ? vegas : userProb;
+  const fairSrc = (vegas!=null) ? 'Vegas' : (probRaw===''?'market':'your estimate');
+  const edge = fair - buy - COST;                        // net edge per $1 staked, in prob terms
+  const bankroll=Math.max(0,parseFloat((document.getElementById('az-bankroll')||{}).value)||0);
+  const kellyFull = buy<1 ? (fair - buy)/(1 - buy) : 0;  // optimal fraction of bankroll
+  const kellyFrac = Math.max(0, kellyFull) * KELLY_FRACTION;
+  const kellyCapped = Math.min(kellyFrac, 0.25);         // never suggest >25% of bankroll
+  const kellyStake = bankroll * kellyCapped;
+  const hasEdge = edge > 0;
+  const evStake = userProb*payout - amount;              // still shown for your own number
+
+  out.innerHTML=`
+  <div class="az-grid">
+    <div class="az-box">
+      <div class="az-h">If it wins</div>
+      <div class="az-big">${fmt(payout)}</div>
+      <div class="az-sub">${shares.toFixed(0)} shares @ ${cents(buy)} · profit <b>${fmt(profit)}</b> (<b>${roi>=0?'+':''}${roi.toFixed(0)}%</b>)</div>
+      <div class="az-sub">If it loses: <b>−${fmt(amount)}</b> — your whole stake.</div>
+    </div>
+    <div class="az-box">
+      <div class="az-h">Edge &amp; optimal size</div>
+      <div class="az-big ${hasEdge?'pos':'neg'}">${edge>=0?'+':''}${(edge*100).toFixed(1)}<span class="az-unit"> pts edge</span></div>
+      <div class="az-sub">Fair value <b>${Math.round(fair*100)}%</b> (${fairSrc}) vs ask <b>${cents(buy)}</b>, after ~${Math.round(COST*100)}¢ cost.
+        ${hasEdge
+          ? (bankroll>0
+              ? ` → ¼-Kelly suggests <b class="pos">${fmt(kellyStake)}</b> (${(kellyCapped*100).toFixed(1)}% of your ${fmt(bankroll)}).`
+              : ` → <b class="pos">positive edge.</b> Enter your bankroll above for a suggested size.`)
+          : ` → <b class="neg">no edge — pass.</b>`}</div>
+      <div class="az-sub az-muted">At your ${Math.round(userProb*100)}% estimate, EV on this ${fmt(amount)} = <b>${evStake>=0?'+':''}${fmt(evStake)}</b>.</div>
+    </div>
+    <div class="az-box">
+      <div class="az-h">How much to trust the price</div>
+      <div class="az-big"><span class="az-tier ${tierClass}">${tierLabel}</span> <span class="az-unit">${fmt(it.liquidity_usd)} book</span></div>
+      <div class="az-sub">24h volume <b>${fmt(it.volume_24h)}</b>${spreadC!=null?' · spread ~'+spreadC+'¢':''}</div>
+      ${stakeVsLiq!=null&&stakeVsLiq>1?`<div class="az-warn">⚠ Your ${fmt(amount)} is ${stakeVsLiq.toFixed(1)}% of the book — a bet this big will move the price against you.</div>`:''}
+    </div>
+    <div class="az-box">
+      <div class="az-h">Vegas line</div>
+      ${vegas!=null
+        ? `<div class="az-big">${Math.round(vegas*100)}%</div><div class="az-sub">Sportsbook vs market <b>${cents(it.cur_price)}</b> → <b class="${vegas>it.cur_price?'pos':'neg'}">${((vegas-it.cur_price)*100>=0?'+':'')+((vegas-it.cur_price)*100).toFixed(0)} pts</b> ${vegas>it.cur_price?'(market looks cheap)':'(market looks rich)'}</div>`
+        : `<div class="az-sub az-muted">No sportsbook line yet — add your Odds API key to compare (sports / World Cup only). See <code>app/AUTOMATION.md</code>.</div>`}
+    </div>
+  </div>
+  <div class="az-foot">Edge = fair value − ask − cost. Fair value uses the <b>Vegas line</b> when available (a real outside anchor), otherwise your estimate. Sizing is <b>quarter-Kelly</b>, capped at 25% of bankroll — pros never bet full Kelly because it over-trusts the estimate. An edge only means something if the fair value is genuinely better than the price; chasing tiny edges loses to costs. Not financial advice.</div>`;
+}
+
+let REPORT=null, activeTab='count';
+
+function render(){
+  const r=REPORT;
+  const m=r.run_metadata||{}, s=r.summary||{};
+
+  document.getElementById('meta-strip').innerHTML=`
+    <span>Window <b>${esc(m.time_period||'—')}</b></span>
+    <span>Ranked by <b>${esc(m.order_by||'PNL')}</b></span>
+    <span>Top <b>${esc(String(m.top_n||'—'))}</b> traders</span>
+    <span>Generated <b>${(m.generated_at_utc||'').slice(0,16).replace('T',' ')} UTC</b></span>`;
+
+  const pc=r.pure_count_consensus||[], cap=r.capital_weighted_consensus||[], hc=r.high_conviction_divergence||[];
+  const lead=pc[0];
+
+  let html='';
+  // stat tiles
+  html+=`<div class="stats">
+    <div class="stat"><div class="n">${s.traders_with_data??'—'}</div><div class="l">Traders with data</div></div>
+    <div class="stat"><div class="n">${(s.total_open_positions_analyzed||0).toLocaleString()}</div><div class="l">Open positions</div></div>
+    <div class="stat"><div class="n">${s.unique_markets_represented??'—'}</div><div class="l">Unique markets</div></div>
+    <div class="stat"><div class="n">${cap[0]?fmt(cap[0].total_usd):'—'}</div><div class="l">Largest combined bet</div></div>
+  </div>`;
+
+  // lead card
+  if(lead){
+    html+=`<div class="lead"><div class="lead-card">
+      <div class="lead-label">Strongest consensus — most traders aligned</div>
+      <div class="lead-market">${esc(lead.market_title)}</div>
+      <div class="lead-row">
+        ${pill(lead.outcome)}
+        <span class="lead-figure"><b>${lead.trader_count}</b> of top ${m.top_n} traders</span>
+        <span class="lead-figure"><b>${fmt(lead.total_usd)}</b> combined exposure</span>
+      </div>
+    </div></div>`;
+  }
+
+  // tabs
+  html+=`<div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="t-count" aria-selected="${activeTab==='count'}" onclick="setTab('count')">By trader count</button>
+    <button class="tab" role="tab" id="t-capital" aria-selected="${activeTab==='capital'}" onclick="setTab('capital')">By capital</button>
+    <button class="tab" role="tab" id="t-hc" aria-selected="${activeTab==='hc'}" onclick="setTab('hc')">High conviction</button>
+    <button class="tab" role="tab" id="t-chart" aria-selected="${activeTab==='chart'}" onclick="setTab('chart')">Overview</button>
+    <button class="tab" role="tab" id="t-analyzer" aria-selected="${activeTab==='analyzer'}" onclick="setTab('analyzer')">Bet analyzer</button>
+  </div>`;
+
+  // panels
+  html+=`<div class="panel" id="p-count" ${activeTab==='count'?'':'hidden'}>
+    <p class="section-note">Ranked by how many of the top ${m.top_n} traders hold the same market outcome. Ties broken by total dollars. This is the purest read of agreement — one wallet, one vote.</p>
+    ${pc.length?pc.map((it,i)=>row(it,i,'count',Math.max(...pc.map(x=>x.trader_count))||1)).join(''):'<div class="empty"><div class="big">No shared positions found</div>The top traders aren\'t crowding into the same markets right now.</div>'}
+  </div>`;
+
+  html+=`<div class="panel" id="p-capital" ${activeTab==='capital'?'':'hidden'}>
+    <p class="section-note">Ranked by total dollars the top ${m.top_n} have riding on each outcome. A single whale can outweigh a crowd of smaller bets — compare this against the trader-count view to spot where money and headcount diverge.</p>
+    ${cap.length?cap.map((it,i)=>row(it,i,'capital',Math.max(...cap.map(x=>x.total_usd))||1)).join(''):'<div class="empty"><div class="big">No data</div></div>'}
+  </div>`;
+
+  html+=`<div class="panel" id="p-hc" ${activeTab==='hc'?'':'hidden'}>
+    <p class="section-note">A 0–100 <b>skill-weighted conviction score</b>: markets where ≥3 proven wallets each made an <i>outsized</i> bet — large for them (by what they paid to open, not paper gains) and ≥2% of their bankroll — with better traders (by profit-per-volume) counting more. This is shared conviction among sharps, not just headcount.</p>
+    ${hc.length?hc.map(hcRow).join(''):'<div class="empty"><div class="big">No conviction clusters</div>No market has 3+ proven wallets each making an outsized bet on it right now.</div>'}
+  </div>`;
+
+  html+=`<div class="panel" id="p-chart" ${activeTab==='chart'?'':'hidden'}>
+    <p class="section-note">Top consensus markets by number of participating traders.</p>
+    ${pc.length?miniChart(pc):'<div class="empty">No data to chart</div>'}
+  </div>`;
+
+  html+=`<div class="panel" id="p-analyzer" ${activeTab==='analyzer'?'':'hidden'}>
+    <p class="section-note">Pick a consensus market, enter a stake, and see the exact payoff, how much to trust the price (liquidity), and what you'd need to believe for the bet to be worth it. It's math, not advice — the market price is already the crowd's best guess.</p>
+    <div class="az">
+      <div class="az-controls">
+        <label class="az-field az-market-field">Market
+          <select id="az-market" onchange="recalcAnalyzer()"></select>
+        </label>
+        <label class="az-field">Stake
+          <span class="az-inwrap">$<input id="az-amount" type="number" min="1" step="10" value="100" oninput="recalcAnalyzer()"></span>
+        </label>
+        <label class="az-field">Your estimate
+          <span class="az-inwrap"><input id="az-prob" type="number" min="0" max="100" step="1" placeholder="—" oninput="recalcAnalyzer()">%</span>
+        </label>
+        <label class="az-field">Bankroll
+          <span class="az-inwrap">$<input id="az-bankroll" type="number" min="0" step="100" placeholder="for sizing" oninput="recalcAnalyzer()"></span>
+        </label>
+      </div>
+      <div id="az-out"></div>
+    </div>
+  </div>`;
+
+  document.getElementById('content').innerHTML=html;
+  buildAnalyzer(pc, cap);
+
+  const n=r.failed_or_hidden_profiles?r.failed_or_hidden_profiles.length:0;
+  document.getElementById('footer').innerHTML=
+    `Data: data-api.polymarket.com · ${s.traders_with_data||0} profiles parsed`+
+    (n?` · ${n} hidden/failed and excluded`:'')+
+    (m.active_only!==false?` · live games only`:` · incl. resolved`)+
+    ` · Not financial advice`;
+
+  syncControls(false);
+}
+
+function setTab(t){
+  activeTab=t;
+  ['count','capital','hc','chart','analyzer'].forEach(k=>{
+    const tab=document.getElementById('t-'+k);
+    const panel=document.getElementById('p-'+k);
+    if(tab)tab.setAttribute('aria-selected',k===t);
+    if(panel){if(k===t)panel.removeAttribute('hidden');else panel.setAttribute('hidden','');}
+  });
+}
+
+let toastTimer=null;
+function toast(msg, isErr){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.className='toast show'+(isErr?' err':'');
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>{el.className='toast'+(isErr?' err':'');},3200);
+}
+
+// Reflect the loaded report's window/filter in the controls; disable while busy.
+function syncControls(busy){
+  const m=(REPORT&&REPORT.run_metadata)||{};
+  document.getElementById('controls').hidden=!REPORT;
+  document.querySelectorAll('#window-seg .seg-btn').forEach(b=>{
+    b.setAttribute('aria-pressed', b.dataset.period===(m.time_period||''));
+    b.disabled=!!busy;
+  });
+  // active_only defaults to true for older reports that predate the flag.
+  const liveOnly = m.active_only!==false;
+  document.getElementById('board-badge').hidden=!liveOnly;
+}
+
+let refreshing=false;
+async function refresh(period){
+  if(refreshing)return;
+  refreshing=true;
+  const btn=document.getElementById('refresh-btn');
+  const label=document.getElementById('refresh-label');
+  btn.classList.add('busy');btn.disabled=true;label.textContent='Refreshing…';
+  syncControls(true);
+  try{
+    // Server re-runs the pipeline (~30s); only available when served by run_dashboard.py.
+    const resp=await fetch('/api/refresh',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(period?{time_period:period}:{}),
+    });
+    let data={};
+    try{data=await resp.json();}catch(_){}
+    if(!resp.ok)throw new Error(data.error||('HTTP '+resp.status));
+    await load();
+    toast(data.message||'Data refreshed.');
+  }catch(e){
+    const hint=e.message&&e.message.includes('Failed to fetch')
+      ? 'Refresh needs the run_dashboard.py server (not a plain file open).'
+      : e.message;
+    toast('Refresh failed — '+hint, true);
+  }finally{
+    refreshing=false;
+    btn.classList.remove('busy');btn.disabled=false;label.textContent='Refresh data';
+    syncControls(false);
+  }
+}
+
+function setWindow(period){
+  const m=(REPORT&&REPORT.run_metadata)||{};
+  if(refreshing||period===m.time_period)return;  // already showing this window
+  refresh(period);
+}
+
+async function load(){
+  try{
+    const resp=await fetch('consensus_report.json',{cache:'no-store'});
+    if(!resp.ok)throw new Error('HTTP '+resp.status);
+    REPORT=await resp.json();
+    render();
+  }catch(e){
+    document.getElementById('content').innerHTML=FALLBACK_HELP;
+    document.getElementById('meta-strip').innerHTML='<span style="color:var(--red)">Report not loaded — '+esc(e.message)+'</span>';
+  }
+}
+load();
+
+// Auto-update: if a background refresh writes a newer report, pick it up on its
+// own (every 7s) so the page stays current without anyone clicking Refresh.
+setInterval(async ()=>{
+  if(refreshing)return;
+  try{
+    const r=await fetch('consensus_report.json',{cache:'no-store'});
+    if(!r.ok)return;
+    const j=await r.json();
+    const a=j.run_metadata&&j.run_metadata.generated_at_utc;
+    const b=REPORT&&REPORT.run_metadata&&REPORT.run_metadata.generated_at_utc;
+    if(a&&a!==b){REPORT=j;render();toast('Updated with the latest data.');}
+  }catch(_){/* ignore transient errors */}
+}, 7000);
+</script>
+</body>
+</html>

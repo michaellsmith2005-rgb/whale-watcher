@@ -1,0 +1,453 @@
+{
+  "run_metadata": {
+    "generated_at_utc": "2026-06-29T01:00:21.919967+00:00",
+    "top_n": 50,
+    "time_period": "MONTH",
+    "order_by": "PNL",
+    "min_position_usd_filter": 1.0,
+    "active_only": true
+  },
+  "summary": {
+    "traders_requested": 50,
+    "traders_with_data": 50,
+    "traders_failed_or_hidden": 0,
+    "total_open_positions_analyzed": 2568,
+    "unique_markets_represented": 2122
+  },
+  "top_5_consensus_markets": [
+    {
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 2727239.9,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "Nexuus",
+        "alwayslatetotheparty",
+        "donthackme",
+        "gud.hl"
+      ]
+    },
+    {
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 352052.88,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ]
+    },
+    {
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 326297.96,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ]
+    },
+    {
+      "market_title": "Will the Iranian regime fall by June 30?",
+      "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+      "event_slug": "will-the-iranian-regime-fall-by-june-30",
+      "favored_outcome": "No",
+      "num_top50_traders": 5,
+      "total_combined_usd": 367786.27,
+      "backers": [
+        "BrightStars",
+        "Erasmus.",
+        "Wickier",
+        "denizz",
+        "wan123"
+      ]
+    },
+    {
+      "market_title": "Will Colombia win the 2026 FIFA World Cup?",
+      "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 5,
+      "total_combined_usd": 204292.05,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "athelstan",
+        "donthackme",
+        "wan123"
+      ]
+    }
+  ],
+  "pure_count_consensus": [
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 2727239.8984,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "Nexuus",
+        "alwayslatetotheparty",
+        "donthackme",
+        "gud.hl"
+      ],
+      "cur_price": 0.2065,
+      "avg_entry": 0.0987,
+      "entry_gap_cents": -10.8
+    },
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 352052.8795,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0595,
+      "avg_entry": 0.069,
+      "entry_gap_cents": 1.0
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 326297.9617,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ],
+      "cur_price": 0.1025,
+      "avg_entry": 0.0885,
+      "entry_gap_cents": -1.4
+    },
+    {
+      "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+      "market_title": "Will the Iranian regime fall by June 30?",
+      "event_slug": "will-the-iranian-regime-fall-by-june-30",
+      "outcome": "No",
+      "trader_count": 5,
+      "total_usd": 367786.2672,
+      "traders": [
+        "BrightStars",
+        "Erasmus.",
+        "Wickier",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.9995,
+      "avg_entry": 0.8536,
+      "entry_gap_cents": -14.6
+    },
+    {
+      "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+      "market_title": "Will Colombia win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 5,
+      "total_usd": 204292.0533,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "athelstan",
+        "donthackme",
+        "wan123"
+      ],
+      "cur_price": 0.0265,
+      "avg_entry": 0.0178,
+      "entry_gap_cents": -0.9
+    },
+    {
+      "condition_id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
+      "market_title": "Will Belgium win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 5,
+      "total_usd": 73972.0106,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0135,
+      "avg_entry": 0.0178,
+      "entry_gap_cents": 0.4
+    },
+    {
+      "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
+      "event_slug": "presidential-election-winner-2028",
+      "outcome": "Yes",
+      "trader_count": 4,
+      "total_usd": 395894.4617,
+      "traders": [
+        "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "BrightStars",
+        "alwayslatetotheparty",
+        "donthackme"
+      ],
+      "cur_price": 0.193,
+      "avg_entry": 0.5,
+      "entry_gap_cents": 30.7
+    },
+    {
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "market_title": "Will Spain win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 4,
+      "total_usd": 301000.011,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "alwayslatetotheparty",
+        "donthackme"
+      ],
+      "cur_price": 0.1115,
+      "avg_entry": 0.1048,
+      "entry_gap_cents": -0.7
+    },
+    {
+      "condition_id": "0x8ec1344d38fb55aa4adf043a3d81899bda2762b89bebec5769a81a50c3b9c25f",
+      "market_title": "Will Netherlands win on 2026-06-29?",
+      "event_slug": "fifwc-nld-mar-2026-06-29",
+      "outcome": "No",
+      "trader_count": 4,
+      "total_usd": 85513.0655,
+      "traders": [
+        "0x076daa87",
+        "hot2trot",
+        "swisstony",
+        "vanjie"
+      ],
+      "cur_price": 0.5649,
+      "avg_entry": 0.5607,
+      "entry_gap_cents": -0.4
+    },
+    {
+      "condition_id": "0xcacd424332319971356c757c025b45a4eb5643b919fb3bd2f84051afea599b13",
+      "market_title": "Strait of Hormuz traffic returns to normal by July 15?",
+      "event_slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-15",
+      "outcome": "Yes",
+      "trader_count": 4,
+      "total_usd": 27535.7992,
+      "traders": [
+        "BrightStars",
+        "Erasmus.",
+        "aenews2",
+        "wan123"
+      ],
+      "cur_price": 0.205,
+      "avg_entry": 0.2878,
+      "entry_gap_cents": 8.3
+    }
+  ],
+  "capital_weighted_consensus": [
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 2727239.8984,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "Nexuus",
+        "alwayslatetotheparty",
+        "donthackme",
+        "gud.hl"
+      ],
+      "cur_price": 0.2065,
+      "avg_entry": 0.0987,
+      "entry_gap_cents": -10.8
+    },
+    {
+      "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
+      "event_slug": "presidential-election-winner-2028",
+      "outcome": "No",
+      "total_usd": 1652953.083,
+      "trader_count": 2,
+      "traders": [
+        "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "BrightStars"
+      ],
+      "cur_price": 0.807,
+      "avg_entry": 0.5,
+      "entry_gap_cents": -30.7
+    },
+    {
+      "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+      "market_title": "Will the Iranian regime fall before 2027?",
+      "event_slug": "will-the-iranian-regime-fall-by-the-end-of-2026",
+      "outcome": "No",
+      "total_usd": 617306.306,
+      "trader_count": 3,
+      "traders": [
+        "Erasmus.",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.905,
+      "avg_entry": 0.6559,
+      "entry_gap_cents": -24.9
+    },
+    {
+      "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
+      "event_slug": "presidential-election-winner-2028",
+      "outcome": "Yes",
+      "total_usd": 395894.4617,
+      "trader_count": 4,
+      "traders": [
+        "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "BrightStars",
+        "alwayslatetotheparty",
+        "donthackme"
+      ],
+      "cur_price": 0.193,
+      "avg_entry": 0.5,
+      "entry_gap_cents": 30.7
+    },
+    {
+      "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+      "market_title": "Will the Iranian regime fall by June 30?",
+      "event_slug": "will-the-iranian-regime-fall-by-june-30",
+      "outcome": "No",
+      "total_usd": 367786.2672,
+      "trader_count": 5,
+      "traders": [
+        "BrightStars",
+        "Erasmus.",
+        "Wickier",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.9995,
+      "avg_entry": 0.8536,
+      "entry_gap_cents": -14.6
+    },
+    {
+      "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "event_slug": "will-the-us-invade-iran-before-2027",
+      "outcome": "No",
+      "total_usd": 358433.7452,
+      "trader_count": 3,
+      "traders": [
+        "aenews2",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.855,
+      "avg_entry": 0.7068,
+      "entry_gap_cents": -14.8
+    },
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 352052.8795,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0595,
+      "avg_entry": 0.069,
+      "entry_gap_cents": 1.0
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 326297.9617,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ],
+      "cur_price": 0.1025,
+      "avg_entry": 0.0885,
+      "entry_gap_cents": -1.4
+    },
+    {
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "market_title": "Will Spain win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 301000.011,
+      "trader_count": 4,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "alwayslatetotheparty",
+        "donthackme"
+      ],
+      "cur_price": 0.1115,
+      "avg_entry": 0.1048,
+      "entry_gap_cents": -0.7
+    },
+    {
+      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "market_title": "Will France win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 277445.448,
+      "trader_count": 2,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa"
+      ],
+      "cur_price": 0.2295,
+      "avg_entry": 0.0729,
+      "entry_gap_cents": -15.7
+    }
+  ],
+  "high_conviction_divergence": [],
+  "failed_or_hidden_profiles": []
+}

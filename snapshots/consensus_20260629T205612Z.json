@@ -1,0 +1,583 @@
+{
+  "run_metadata": {
+    "generated_at_utc": "2026-06-29T20:56:12.834743+00:00",
+    "top_n": 50,
+    "time_period": "DAY",
+    "order_by": "PNL",
+    "min_position_usd_filter": 1.0,
+    "active_only": true
+  },
+  "summary": {
+    "traders_requested": 50,
+    "traders_with_data": 48,
+    "traders_failed_or_hidden": 2,
+    "total_open_positions_analyzed": 3231,
+    "unique_markets_represented": 1913
+  },
+  "top_5_consensus_markets": [
+    {
+      "market_title": "Will Germany win on 2026-06-29?",
+      "condition_id": "0xdac6e67bfc09e630711ceb1be0be8f19c472344ca4353b608cc3b9282e61ec95",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 12,
+      "total_combined_usd": 1460695.64,
+      "backers": [
+        "GoalLineGhost",
+        "Latina",
+        "RN1",
+        "Zzzz87",
+        "diooson",
+        "ferrariChampions2026",
+        "lookaon",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori",
+        "surfandturf",
+        "ygggg1"
+      ]
+    },
+    {
+      "market_title": "Spread: Germany (-1.5)",
+      "condition_id": "0xdc3c530b790e9477a068cb64c8d9a7222b91f164aa055176bd2b19abd299e820",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "favored_outcome": "Germany",
+      "num_top50_traders": 10,
+      "total_combined_usd": 532379.82,
+      "backers": [
+        "GoalLineGhost",
+        "Jokerxing7",
+        "MeiGuNiuBi",
+        "RN1",
+        "Zzzz87",
+        "diooson",
+        "mooseborzoi",
+        "owejosamdfi",
+        "purplegatto",
+        "suntori"
+      ]
+    },
+    {
+      "market_title": "Will France win the 2026 FIFA World Cup?",
+      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 9,
+      "total_combined_usd": 413134.02,
+      "backers": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori",
+        "tradecraft"
+      ]
+    },
+    {
+      "market_title": "Will Germany vs. Paraguay end in a draw?",
+      "condition_id": "0x017f79842c76a76ee2fd9d448b73cdfa85dcacd7d03c3b4c0a8e2663c4e84c27",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 9,
+      "total_combined_usd": 279985.45,
+      "backers": [
+        "BreakTheBank",
+        "GoalLineGhost",
+        "HBAFlover98",
+        "RN1",
+        "diooson",
+        "easymoney9",
+        "purplegatto",
+        "rabbitfoot1",
+        "suntori"
+      ]
+    },
+    {
+      "market_title": "Will Spain win the 2026 FIFA World Cup?",
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 9,
+      "total_combined_usd": 272799.58,
+      "backers": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "Crystiano",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "ndb1",
+        "purplegatto",
+        "suntori"
+      ]
+    }
+  ],
+  "pure_count_consensus": [
+    {
+      "condition_id": "0xdac6e67bfc09e630711ceb1be0be8f19c472344ca4353b608cc3b9282e61ec95",
+      "market_title": "Will Germany win on 2026-06-29?",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "outcome": "Yes",
+      "trader_count": 12,
+      "total_usd": 1460695.6392,
+      "traders": [
+        "GoalLineGhost",
+        "Latina",
+        "RN1",
+        "Zzzz87",
+        "diooson",
+        "ferrariChampions2026",
+        "lookaon",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori",
+        "surfandturf",
+        "ygggg1"
+      ],
+      "cur_price": 0.715,
+      "avg_entry": 0.7282,
+      "entry_gap_cents": 1.3
+    },
+    {
+      "condition_id": "0xdc3c530b790e9477a068cb64c8d9a7222b91f164aa055176bd2b19abd299e820",
+      "market_title": "Spread: Germany (-1.5)",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "outcome": "Germany",
+      "trader_count": 10,
+      "total_usd": 532379.8178,
+      "traders": [
+        "GoalLineGhost",
+        "Jokerxing7",
+        "MeiGuNiuBi",
+        "RN1",
+        "Zzzz87",
+        "diooson",
+        "mooseborzoi",
+        "owejosamdfi",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.445,
+      "avg_entry": 0.4762,
+      "entry_gap_cents": 3.1
+    },
+    {
+      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "market_title": "Will France win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 413134.0158,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori",
+        "tradecraft"
+      ],
+      "cur_price": 0.2345,
+      "avg_entry": 0.1904,
+      "entry_gap_cents": -4.4
+    },
+    {
+      "condition_id": "0x017f79842c76a76ee2fd9d448b73cdfa85dcacd7d03c3b4c0a8e2663c4e84c27",
+      "market_title": "Will Germany vs. Paraguay end in a draw?",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 279985.4524,
+      "traders": [
+        "BreakTheBank",
+        "GoalLineGhost",
+        "HBAFlover98",
+        "RN1",
+        "diooson",
+        "easymoney9",
+        "purplegatto",
+        "rabbitfoot1",
+        "suntori"
+      ],
+      "cur_price": 0.205,
+      "avg_entry": 0.3197,
+      "entry_gap_cents": 11.5
+    },
+    {
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "market_title": "Will Spain win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 272799.5788,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "Crystiano",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "ndb1",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.1115,
+      "avg_entry": 0.1444,
+      "entry_gap_cents": 3.3
+    },
+    {
+      "condition_id": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16",
+      "market_title": "Will Germany win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 9,
+      "total_usd": 193534.4057,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616",
+        "BreakTheBank",
+        "HBAFlover98",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.0445,
+      "avg_entry": 0.0488,
+      "entry_gap_cents": 0.4
+    },
+    {
+      "condition_id": "0xae9433e408d779f7aa5b1d3d7eb9ef269fbb6d415d3699c119e60c4445e13159",
+      "market_title": "Germany vs. Paraguay: Team to Advance",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "outcome": "Germany",
+      "trader_count": 8,
+      "total_usd": 864462.9561000001,
+      "traders": [
+        "BreakTheBank",
+        "Jsram",
+        "RN1",
+        "asgardianlloki",
+        "diooson",
+        "ferrariChampions2026",
+        "mooseborzoi",
+        "suntori"
+      ],
+      "cur_price": 0.865,
+      "avg_entry": 0.8694,
+      "entry_gap_cents": 0.4
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 8,
+      "total_usd": 576200.3496000001,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "BreakTheBank",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.1025,
+      "avg_entry": 0.1103,
+      "entry_gap_cents": 0.8
+    },
+    {
+      "condition_id": "0xdc3c530b790e9477a068cb64c8d9a7222b91f164aa055176bd2b19abd299e820",
+      "market_title": "Spread: Germany (-1.5)",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "outcome": "Paraguay",
+      "trader_count": 8,
+      "total_usd": 436502.2319,
+      "traders": [
+        "0xF751fbD76257AD498e02C1dA257aC6E31DF0FeC8-1780152076667",
+        "GoalLineGhost",
+        "RN1",
+        "ferrariChampions2026",
+        "filthybetz",
+        "hot2trot",
+        "needheal",
+        "suntori"
+      ],
+      "cur_price": 0.555,
+      "avg_entry": 0.5253,
+      "entry_gap_cents": -3.0
+    },
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 8,
+      "total_usd": 193089.2958,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "BreakTheBank",
+        "Crystiano",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.0704,
+      "avg_entry": 0.0608,
+      "entry_gap_cents": -1.0
+    }
+  ],
+  "capital_weighted_consensus": [
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "No",
+      "total_usd": 3971702.3091,
+      "trader_count": 3,
+      "traders": [
+        "ndb1",
+        "suntori",
+        "tradecraft"
+      ],
+      "cur_price": 0.8045,
+      "avg_entry": 0.8859,
+      "entry_gap_cents": 8.1
+    },
+    {
+      "condition_id": "0xdac6e67bfc09e630711ceb1be0be8f19c472344ca4353b608cc3b9282e61ec95",
+      "market_title": "Will Germany win on 2026-06-29?",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "outcome": "Yes",
+      "total_usd": 1460695.6392,
+      "trader_count": 12,
+      "traders": [
+        "GoalLineGhost",
+        "Latina",
+        "RN1",
+        "Zzzz87",
+        "diooson",
+        "ferrariChampions2026",
+        "lookaon",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori",
+        "surfandturf",
+        "ygggg1"
+      ],
+      "cur_price": 0.715,
+      "avg_entry": 0.7282,
+      "entry_gap_cents": 1.3
+    },
+    {
+      "condition_id": "0xae9433e408d779f7aa5b1d3d7eb9ef269fbb6d415d3699c119e60c4445e13159",
+      "market_title": "Germany vs. Paraguay: Team to Advance",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "outcome": "Germany",
+      "total_usd": 864462.9561000001,
+      "trader_count": 8,
+      "traders": [
+        "BreakTheBank",
+        "Jsram",
+        "RN1",
+        "asgardianlloki",
+        "diooson",
+        "ferrariChampions2026",
+        "mooseborzoi",
+        "suntori"
+      ],
+      "cur_price": 0.865,
+      "avg_entry": 0.8694,
+      "entry_gap_cents": 0.4
+    },
+    {
+      "condition_id": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16",
+      "market_title": "Will Germany win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "No",
+      "total_usd": 588632.2197,
+      "trader_count": 2,
+      "traders": [
+        "ndb1",
+        "purplegatto"
+      ],
+      "cur_price": 0.9555,
+      "avg_entry": 0.9352,
+      "entry_gap_cents": -2.0
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 576200.3496000001,
+      "trader_count": 8,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "BreakTheBank",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.1025,
+      "avg_entry": 0.1103,
+      "entry_gap_cents": 0.8
+    },
+    {
+      "condition_id": "0xdc3c530b790e9477a068cb64c8d9a7222b91f164aa055176bd2b19abd299e820",
+      "market_title": "Spread: Germany (-1.5)",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "outcome": "Germany",
+      "total_usd": 532379.8178,
+      "trader_count": 10,
+      "traders": [
+        "GoalLineGhost",
+        "Jokerxing7",
+        "MeiGuNiuBi",
+        "RN1",
+        "Zzzz87",
+        "diooson",
+        "mooseborzoi",
+        "owejosamdfi",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.445,
+      "avg_entry": 0.4762,
+      "entry_gap_cents": 3.1
+    },
+    {
+      "condition_id": "0xdc3c530b790e9477a068cb64c8d9a7222b91f164aa055176bd2b19abd299e820",
+      "market_title": "Spread: Germany (-1.5)",
+      "event_slug": "fifwc-ger-par-2026-06-29-more-markets",
+      "outcome": "Paraguay",
+      "total_usd": 436502.2319,
+      "trader_count": 8,
+      "traders": [
+        "0xF751fbD76257AD498e02C1dA257aC6E31DF0FeC8-1780152076667",
+        "GoalLineGhost",
+        "RN1",
+        "ferrariChampions2026",
+        "filthybetz",
+        "hot2trot",
+        "needheal",
+        "suntori"
+      ],
+      "cur_price": 0.555,
+      "avg_entry": 0.5253,
+      "entry_gap_cents": -3.0
+    },
+    {
+      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "market_title": "Will France win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 413134.0158,
+      "trader_count": 9,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "purplegatto",
+        "suntori",
+        "tradecraft"
+      ],
+      "cur_price": 0.2345,
+      "avg_entry": 0.1904,
+      "entry_gap_cents": -4.4
+    },
+    {
+      "condition_id": "0x017f79842c76a76ee2fd9d448b73cdfa85dcacd7d03c3b4c0a8e2663c4e84c27",
+      "market_title": "Will Germany vs. Paraguay end in a draw?",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "outcome": "Yes",
+      "total_usd": 279985.4524,
+      "trader_count": 9,
+      "traders": [
+        "BreakTheBank",
+        "GoalLineGhost",
+        "HBAFlover98",
+        "RN1",
+        "diooson",
+        "easymoney9",
+        "purplegatto",
+        "rabbitfoot1",
+        "suntori"
+      ],
+      "cur_price": 0.205,
+      "avg_entry": 0.3197,
+      "entry_gap_cents": 11.5
+    },
+    {
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "market_title": "Will Spain win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 272799.5788,
+      "trader_count": 9,
+      "traders": [
+        "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "Crystiano",
+        "Jsram",
+        "Q96s3kwozynxpau",
+        "alwayslatetotheparty",
+        "mooseborzoi",
+        "ndb1",
+        "purplegatto",
+        "suntori"
+      ],
+      "cur_price": 0.1115,
+      "avg_entry": 0.1444,
+      "entry_gap_cents": 3.3
+    }
+  ],
+  "high_conviction_divergence": [
+    {
+      "condition_id": "0xdac6e67bfc09e630711ceb1be0be8f19c472344ca4353b608cc3b9282e61ec95",
+      "market_title": "Will Germany win on 2026-06-29?",
+      "event_slug": "fifwc-ger-par-2026-06-29",
+      "outcome": "Yes",
+      "high_conviction_trader_count": 8,
+      "total_usd_high_conviction": 1389277.4983,
+      "traders": [
+        "GoalLineGhost",
+        "Latina",
+        "Zzzz87",
+        "diooson",
+        "lookaon",
+        "suntori",
+        "surfandturf",
+        "ygggg1"
+      ],
+      "avg_portfolio_pct": 59.84625
+    }
+  ],
+  "failed_or_hidden_profiles": [
+    {
+      "username": "JnStTrdrBnusFnd",
+      "wallet": "0x1465b79bff7992bc703e1aafb3683b1089647072",
+      "reason": "positions_fetch_failed_or_hidden_profile"
+    },
+    {
+      "username": "pingan123",
+      "wallet": "0x7dddf1968c14900b2d2ef9dada8465e82ac4c933",
+      "reason": "positions_fetch_failed_or_hidden_profile"
+    }
+  ]
+}
