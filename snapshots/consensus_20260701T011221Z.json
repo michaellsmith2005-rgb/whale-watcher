@@ -1,0 +1,460 @@
+{
+  "run_metadata": {
+    "generated_at_utc": "2026-07-01T01:12:21.916379+00:00",
+    "top_n": 50,
+    "time_period": "MONTH",
+    "order_by": "PNL",
+    "min_position_usd_filter": 1.0,
+    "active_only": true
+  },
+  "summary": {
+    "traders_requested": 50,
+    "traders_with_data": 50,
+    "traders_failed_or_hidden": 0,
+    "total_open_positions_analyzed": 44,
+    "unique_markets_represented": 43
+  },
+  "top_5_consensus_markets": [
+    {
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "event_slug": "republican-presidential-nominee-2028",
+      "favored_outcome": "No",
+      "num_top50_traders": 1,
+      "total_combined_usd": 36265.3,
+      "backers": [
+        "humiliating piglet"
+      ]
+    },
+    {
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "event_slug": "republican-presidential-nominee-2028",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 1,
+      "total_combined_usd": 25779.7,
+      "backers": [
+        "humiliating piglet"
+      ]
+    },
+    {
+      "market_title": "Will SpaceX have the highest IPO Market Cap 2026?",
+      "condition_id": "0x858b982b9ea15f0133c1ae8c53a5b7bbdf67891eca22dc8d726604dbbc5a8c5a",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "favored_outcome": "No",
+      "num_top50_traders": 1,
+      "total_combined_usd": 5795.09,
+      "backers": [
+        "0x903221b1"
+      ]
+    },
+    {
+      "market_title": "Will Anthropic have the highest IPO Market Cap 2026?",
+      "condition_id": "0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 1,
+      "total_combined_usd": 2299.37,
+      "backers": [
+        "0x903221b1"
+      ]
+    },
+    {
+      "market_title": "Will the US confirm that aliens exist before 2027?",
+      "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+      "event_slug": "will-the-us-confirm-that-aliens-exist-before-2027",
+      "favored_outcome": "No",
+      "num_top50_traders": 1,
+      "total_combined_usd": 914.99,
+      "backers": [
+        "0x903221b1"
+      ]
+    }
+  ],
+  "pure_count_consensus": [
+    {
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "event_slug": "republican-presidential-nominee-2028",
+      "outcome": "No",
+      "trader_count": 1,
+      "total_usd": 36265.3025,
+      "traders": [
+        "humiliating piglet"
+      ],
+      "cur_price": 0.5845,
+      "avg_entry": 0.5,
+      "entry_gap_cents": -8.5,
+      "liquidity_usd": 414035.82,
+      "volume_24h": 56719.0,
+      "spread": 0.0,
+      "best_ask": 0.585,
+      "best_bid": 0.584
+    },
+    {
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "event_slug": "republican-presidential-nominee-2028",
+      "outcome": "Yes",
+      "trader_count": 1,
+      "total_usd": 25779.6974,
+      "traders": [
+        "humiliating piglet"
+      ],
+      "cur_price": 0.4155,
+      "avg_entry": 0.5,
+      "entry_gap_cents": 8.5,
+      "liquidity_usd": 414035.82,
+      "volume_24h": 56719.0,
+      "spread": 0.0,
+      "best_ask": 0.416,
+      "best_bid": 0.415
+    },
+    {
+      "condition_id": "0x858b982b9ea15f0133c1ae8c53a5b7bbdf67891eca22dc8d726604dbbc5a8c5a",
+      "market_title": "Will SpaceX have the highest IPO Market Cap 2026?",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "outcome": "No",
+      "trader_count": 1,
+      "total_usd": 5795.0933,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.145,
+      "avg_entry": 0.1526,
+      "entry_gap_cents": 0.8,
+      "liquidity_usd": 62547.89,
+      "volume_24h": 1100.1,
+      "spread": 0.01,
+      "best_ask": 0.15,
+      "best_bid": 0.14
+    },
+    {
+      "condition_id": "0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09",
+      "market_title": "Will Anthropic have the highest IPO Market Cap 2026?",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "outcome": "Yes",
+      "trader_count": 1,
+      "total_usd": 2299.3679,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.1325,
+      "avg_entry": 0.1126,
+      "entry_gap_cents": -2.0,
+      "liquidity_usd": 67756.81,
+      "volume_24h": 2604.65,
+      "spread": 0.0,
+      "best_ask": 0.134,
+      "best_bid": 0.131
+    },
+    {
+      "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+      "market_title": "Will the US confirm that aliens exist before 2027?",
+      "event_slug": "will-the-us-confirm-that-aliens-exist-before-2027",
+      "outcome": "No",
+      "trader_count": 1,
+      "total_usd": 914.9938,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.915,
+      "avg_entry": 0.85,
+      "entry_gap_cents": -6.5,
+      "liquidity_usd": 607599.6,
+      "volume_24h": 10669.81,
+      "spread": 0.01,
+      "best_ask": 0.92,
+      "best_bid": 0.91
+    },
+    {
+      "condition_id": "0xf6210b4f655793c713cdf81f94d072aee409c232b23162501077e603694c6762",
+      "market_title": "Will OpenAI have the highest IPO Market Cap 2026?",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "outcome": "Yes",
+      "trader_count": 1,
+      "total_usd": 153.8727,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.008,
+      "avg_entry": 0.0237,
+      "entry_gap_cents": 1.6,
+      "liquidity_usd": 59149.63,
+      "volume_24h": 107.75,
+      "spread": 0.0,
+      "best_ask": 0.01,
+      "best_bid": 0.006
+    },
+    {
+      "condition_id": "0x909659c9436228e2be56d5582ba6188166f2f8bf3c596335512c8f2e380d01ec",
+      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "event_slug": "democratic-presidential-nominee-2028",
+      "outcome": "No",
+      "trader_count": 1,
+      "total_usd": 84.33,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.937,
+      "avg_entry": 0.949,
+      "entry_gap_cents": 1.2,
+      "liquidity_usd": 332683.48,
+      "volume_24h": 11473.7,
+      "spread": 0.0,
+      "best_ask": 0.938,
+      "best_bid": 0.936
+    },
+    {
+      "condition_id": "0xc4b07998e8f9bf6b95f079d6dc0529f3c6f59698d4e168817ad5f99304de6c57",
+      "market_title": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "event_slug": "highest-grossing-movie-in-2026",
+      "outcome": "Yes",
+      "trader_count": 1,
+      "total_usd": 73.5,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.735,
+      "avg_entry": 0.0357,
+      "entry_gap_cents": -69.9,
+      "liquidity_usd": 45221.72,
+      "volume_24h": 1321.88,
+      "spread": 0.01,
+      "best_ask": 0.74,
+      "best_bid": 0.73
+    },
+    {
+      "condition_id": "0xe924ffee67adc6863a064dff42bbcc8b81f7f8dbea727ccfc69b2aed3b39b48d",
+      "market_title": "Will \"The Odyssey\" make it into the IMDb Top 250?",
+      "event_slug": "which-2026-movies-will-make-it-into-the-imdb-top-250",
+      "outcome": "Yes",
+      "trader_count": 1,
+      "total_usd": 58.7618,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.575,
+      "avg_entry": 0.7476,
+      "entry_gap_cents": 17.3,
+      "liquidity_usd": 370.95,
+      "volume_24h": 2.14,
+      "spread": 0.26,
+      "best_ask": 0.71,
+      "best_bid": 0.45
+    },
+    {
+      "condition_id": "0x0f8ef3cc906ba7ba94a44724738df44bdd5f73e59e40c9c8b4ff8569e349643c",
+      "market_title": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+      "event_slug": "democratic-presidential-nominee-2028",
+      "outcome": "No",
+      "trader_count": 1,
+      "total_usd": 49.675,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.9935,
+      "avg_entry": 0.992,
+      "entry_gap_cents": -0.2,
+      "liquidity_usd": 3070360.91,
+      "volume_24h": 173059.95,
+      "spread": 0.0,
+      "best_ask": 0.994,
+      "best_bid": 0.993
+    }
+  ],
+  "capital_weighted_consensus": [
+    {
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "event_slug": "republican-presidential-nominee-2028",
+      "outcome": "No",
+      "total_usd": 36265.3025,
+      "trader_count": 1,
+      "traders": [
+        "humiliating piglet"
+      ],
+      "cur_price": 0.5845,
+      "avg_entry": 0.5,
+      "entry_gap_cents": -8.5,
+      "liquidity_usd": 414035.82,
+      "volume_24h": 56719.0,
+      "spread": 0.0,
+      "best_ask": 0.585,
+      "best_bid": 0.584
+    },
+    {
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "event_slug": "republican-presidential-nominee-2028",
+      "outcome": "Yes",
+      "total_usd": 25779.6974,
+      "trader_count": 1,
+      "traders": [
+        "humiliating piglet"
+      ],
+      "cur_price": 0.4155,
+      "avg_entry": 0.5,
+      "entry_gap_cents": 8.5,
+      "liquidity_usd": 414035.82,
+      "volume_24h": 56719.0,
+      "spread": 0.0,
+      "best_ask": 0.416,
+      "best_bid": 0.415
+    },
+    {
+      "condition_id": "0x858b982b9ea15f0133c1ae8c53a5b7bbdf67891eca22dc8d726604dbbc5a8c5a",
+      "market_title": "Will SpaceX have the highest IPO Market Cap 2026?",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "outcome": "No",
+      "total_usd": 5795.0933,
+      "trader_count": 1,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.145,
+      "avg_entry": 0.1526,
+      "entry_gap_cents": 0.8,
+      "liquidity_usd": 62547.89,
+      "volume_24h": 1100.1,
+      "spread": 0.01,
+      "best_ask": 0.15,
+      "best_bid": 0.14
+    },
+    {
+      "condition_id": "0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09",
+      "market_title": "Will Anthropic have the highest IPO Market Cap 2026?",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "outcome": "Yes",
+      "total_usd": 2299.3679,
+      "trader_count": 1,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.1325,
+      "avg_entry": 0.1126,
+      "entry_gap_cents": -2.0,
+      "liquidity_usd": 67756.81,
+      "volume_24h": 2604.65,
+      "spread": 0.0,
+      "best_ask": 0.134,
+      "best_bid": 0.131
+    },
+    {
+      "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+      "market_title": "Will the US confirm that aliens exist before 2027?",
+      "event_slug": "will-the-us-confirm-that-aliens-exist-before-2027",
+      "outcome": "No",
+      "total_usd": 914.9938,
+      "trader_count": 1,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.915,
+      "avg_entry": 0.85,
+      "entry_gap_cents": -6.5,
+      "liquidity_usd": 607599.6,
+      "volume_24h": 10669.81,
+      "spread": 0.01,
+      "best_ask": 0.92,
+      "best_bid": 0.91
+    },
+    {
+      "condition_id": "0xf6210b4f655793c713cdf81f94d072aee409c232b23162501077e603694c6762",
+      "market_title": "Will OpenAI have the highest IPO Market Cap 2026?",
+      "event_slug": "largest-ipo-by-market-cap-in-2026-287",
+      "outcome": "Yes",
+      "total_usd": 153.8727,
+      "trader_count": 1,
+      "traders": [
+        "0x903221b1"
+      ],
+      "cur_price": 0.008,
+      "avg_entry": 0.0237,
+      "entry_gap_cents": 1.6,
+      "liquidity_usd": 59149.63,
+      "volume_24h": 107.75,
+      "spread": 0.0,
+      "best_ask": 0.01,
+      "best_bid": 0.006
+    },
+    {
+      "condition_id": "0x909659c9436228e2be56d5582ba6188166f2f8bf3c596335512c8f2e380d01ec",
+      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "event_slug": "democratic-presidential-nominee-2028",
+      "outcome": "No",
+      "total_usd": 84.33,
+      "trader_count": 1,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.937,
+      "avg_entry": 0.949,
+      "entry_gap_cents": 1.2,
+      "liquidity_usd": 332683.48,
+      "volume_24h": 11473.7,
+      "spread": 0.0,
+      "best_ask": 0.938,
+      "best_bid": 0.936
+    },
+    {
+      "condition_id": "0xc4b07998e8f9bf6b95f079d6dc0529f3c6f59698d4e168817ad5f99304de6c57",
+      "market_title": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "event_slug": "highest-grossing-movie-in-2026",
+      "outcome": "Yes",
+      "total_usd": 73.5,
+      "trader_count": 1,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.735,
+      "avg_entry": 0.0357,
+      "entry_gap_cents": -69.9,
+      "liquidity_usd": 45221.72,
+      "volume_24h": 1321.88,
+      "spread": 0.01,
+      "best_ask": 0.74,
+      "best_bid": 0.73
+    },
+    {
+      "condition_id": "0xe924ffee67adc6863a064dff42bbcc8b81f7f8dbea727ccfc69b2aed3b39b48d",
+      "market_title": "Will \"The Odyssey\" make it into the IMDb Top 250?",
+      "event_slug": "which-2026-movies-will-make-it-into-the-imdb-top-250",
+      "outcome": "Yes",
+      "total_usd": 58.7618,
+      "trader_count": 1,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.575,
+      "avg_entry": 0.7476,
+      "entry_gap_cents": 17.3,
+      "liquidity_usd": 370.95,
+      "volume_24h": 2.14,
+      "spread": 0.26,
+      "best_ask": 0.71,
+      "best_bid": 0.45
+    },
+    {
+      "condition_id": "0x0f8ef3cc906ba7ba94a44724738df44bdd5f73e59e40c9c8b4ff8569e349643c",
+      "market_title": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+      "event_slug": "democratic-presidential-nominee-2028",
+      "outcome": "No",
+      "total_usd": 49.675,
+      "trader_count": 1,
+      "traders": [
+        "Poyo"
+      ],
+      "cur_price": 0.9935,
+      "avg_entry": 0.992,
+      "entry_gap_cents": -0.2,
+      "liquidity_usd": 3070360.91,
+      "volume_24h": 173059.95,
+      "spread": 0.0,
+      "best_ask": 0.994,
+      "best_bid": 0.993
+    }
+  ],
+  "high_conviction_divergence": [],
+  "failed_or_hidden_profiles": []
+}

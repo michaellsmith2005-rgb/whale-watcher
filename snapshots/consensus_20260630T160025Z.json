@@ -1,0 +1,677 @@
+{
+  "run_metadata": {
+    "generated_at_utc": "2026-06-30T16:00:25.314133+00:00",
+    "top_n": 50,
+    "time_period": "MONTH",
+    "order_by": "PNL",
+    "min_position_usd_filter": 1.0,
+    "active_only": true
+  },
+  "summary": {
+    "traders_requested": 50,
+    "traders_with_data": 50,
+    "traders_failed_or_hidden": 0,
+    "total_open_positions_analyzed": 3298,
+    "unique_markets_represented": 2304
+  },
+  "top_5_consensus_markets": [
+    {
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 7,
+      "total_combined_usd": 465297.34,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ]
+    },
+    {
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 7,
+      "total_combined_usd": 428763.24,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ]
+    },
+    {
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 2555652.93,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "Nexuus",
+        "donthackme",
+        "gud.hl"
+      ]
+    },
+    {
+      "market_title": "Will Norway win on 2026-06-30?",
+      "condition_id": "0x173be8afaedec7e17be529389b825fa2171aa7e6dff36fc5ad26698195dd2227",
+      "event_slug": "fifwc-civ-nor-2026-06-30",
+      "favored_outcome": "No",
+      "num_top50_traders": 6,
+      "total_combined_usd": 1352623.24,
+      "backers": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "1two1two",
+        "BreakTheBank",
+        "lighthousefamily",
+        "swisstony"
+      ]
+    },
+    {
+      "market_title": "Will Colombia win the 2026 FIFA World Cup?",
+      "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+      "event_slug": "world-cup-winner",
+      "favored_outcome": "Yes",
+      "num_top50_traders": 6,
+      "total_combined_usd": 224932.61,
+      "backers": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "athelstan",
+        "donthackme",
+        "wan123"
+      ]
+    }
+  ],
+  "pure_count_consensus": [
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 7,
+      "total_usd": 465297.3432,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0704,
+      "avg_entry": 0.0688,
+      "entry_gap_cents": -0.2,
+      "liquidity_usd": 3412350.87,
+      "volume_24h": 4144070.34,
+      "spread": 0.0,
+      "best_ask": 0.071,
+      "best_bid": 0.07,
+      "vegas_prob": 0.0839
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 7,
+      "total_usd": 428763.2383,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ],
+      "cur_price": 0.0995,
+      "avg_entry": 0.0944,
+      "entry_gap_cents": -0.5,
+      "liquidity_usd": 7197962.7,
+      "volume_24h": 3045393.41,
+      "spread": 0.0,
+      "best_ask": 0.1,
+      "best_bid": 0.099,
+      "vegas_prob": 0.1049
+    },
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 2555652.9329999997,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "Nexuus",
+        "donthackme",
+        "gud.hl"
+      ],
+      "cur_price": 0.1935,
+      "avg_entry": 0.0987,
+      "entry_gap_cents": -9.5,
+      "liquidity_usd": 9032280.37,
+      "volume_24h": 3675344.34,
+      "spread": 0.0,
+      "best_ask": 0.194,
+      "best_bid": 0.193,
+      "vegas_prob": 0.1678
+    },
+    {
+      "condition_id": "0x173be8afaedec7e17be529389b825fa2171aa7e6dff36fc5ad26698195dd2227",
+      "market_title": "Will Norway win on 2026-06-30?",
+      "event_slug": "fifwc-civ-nor-2026-06-30",
+      "outcome": "No",
+      "trader_count": 6,
+      "total_usd": 1352623.2423999999,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "1two1two",
+        "BreakTheBank",
+        "lighthousefamily",
+        "swisstony"
+      ],
+      "cur_price": 0.555,
+      "avg_entry": 0.5473,
+      "entry_gap_cents": -0.8,
+      "liquidity_usd": 6657737.06,
+      "volume_24h": 5039954.64,
+      "spread": 0.01,
+      "best_ask": 0.56,
+      "best_bid": 0.55,
+      "vegas_prob": 0.5514
+    },
+    {
+      "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+      "market_title": "Will Colombia win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 224932.6113,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "athelstan",
+        "donthackme",
+        "wan123"
+      ],
+      "cur_price": 0.0275,
+      "avg_entry": 0.0181,
+      "entry_gap_cents": -0.9,
+      "liquidity_usd": 2803317.57,
+      "volume_24h": 1702128.77,
+      "spread": 0.0,
+      "best_ask": 0.028,
+      "best_bid": 0.027,
+      "vegas_prob": 0.0247
+    },
+    {
+      "condition_id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
+      "market_title": "Will Belgium win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "trader_count": 6,
+      "total_usd": 82405.9985,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0135,
+      "avg_entry": 0.0173,
+      "entry_gap_cents": 0.4,
+      "liquidity_usd": 6618040.06,
+      "volume_24h": 1909384.33,
+      "spread": 0.0,
+      "best_ask": 0.014,
+      "best_bid": 0.013,
+      "vegas_prob": 0.0165
+    },
+    {
+      "condition_id": "0x378f7b5c668014d9f6c42c305ec83902f3c8f6c770b336363aed0076ce6ce1c9",
+      "market_title": "Will France win on 2026-06-30?",
+      "event_slug": "fifwc-fra-swe-2026-06-30",
+      "outcome": "No",
+      "trader_count": 5,
+      "total_usd": 386326.5772,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "BreakTheBank",
+        "Qpkwks",
+        "swisstony"
+      ],
+      "cur_price": 0.235,
+      "avg_entry": 0.2264,
+      "entry_gap_cents": -0.9,
+      "liquidity_usd": 2329649.4,
+      "volume_24h": 2362162.54,
+      "spread": 0.01,
+      "best_ask": 0.24,
+      "best_bid": 0.23,
+      "vegas_prob": 0.2568
+    },
+    {
+      "condition_id": "0x7f631610811039f03e85106365e1ef4a34dc6bf8329acb700734a7d859dcc5a2",
+      "market_title": "C\u00f4te d'Ivoire vs. Norway: O/U 2.5",
+      "event_slug": "fifwc-civ-nor-2026-06-30-more-markets",
+      "outcome": "Over",
+      "trader_count": 5,
+      "total_usd": 338879.6721,
+      "traders": [
+        "0x076daa87",
+        "0xF751fbD76257AD498e02C1dA257aC6E31DF0FeC8-1780152076667",
+        "Allezpapa",
+        "rabbitfoot1",
+        "swisstony"
+      ],
+      "cur_price": 0.515,
+      "avg_entry": 0.5027,
+      "entry_gap_cents": -1.2,
+      "liquidity_usd": 1449777.89,
+      "volume_24h": 1862085.57,
+      "spread": 0.01,
+      "best_ask": 0.52,
+      "best_bid": 0.51,
+      "vegas_prob": null
+    },
+    {
+      "condition_id": "0xe8791038300a33a37645044fe40292c268183bf079808a833c1e7bb8d3b0955e",
+      "market_title": "Wimbledon ATP: Otto Virtanen vs Ben Shelton",
+      "event_slug": "atp-virtane-shelton-2026-06-29",
+      "outcome": "Otto Virtanen",
+      "trader_count": 5,
+      "total_usd": 150443.812,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "RN1",
+        "one8tyfive",
+        "swisstony"
+      ],
+      "cur_price": 0.9995,
+      "avg_entry": 0.2787,
+      "entry_gap_cents": -72.1,
+      "liquidity_usd": 1316179.07,
+      "volume_24h": 1307832.11,
+      "spread": 0.0,
+      "best_ask": 1.0,
+      "best_bid": 0.999,
+      "vegas_prob": null
+    },
+    {
+      "condition_id": "0x475b9074e64d7a3960f3348290afbe2b74f53f6a64316e02b39373ab278316d1",
+      "market_title": "Wimbledon ATP: Thanasi Kokkinakis vs Alexander Bublik",
+      "event_slug": "atp-kokkina-bublik-2026-06-29",
+      "outcome": "Thanasi Kokkinakis",
+      "trader_count": 5,
+      "total_usd": 42765.0918,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "RN1",
+        "one8tyfive",
+        "swisstony"
+      ],
+      "cur_price": 0.245,
+      "avg_entry": 0.3723,
+      "entry_gap_cents": 12.7,
+      "liquidity_usd": 150425.9,
+      "volume_24h": 980685.4,
+      "spread": 0.01,
+      "best_ask": 0.28,
+      "best_bid": 0.27,
+      "vegas_prob": null
+    }
+  ],
+  "capital_weighted_consensus": [
+    {
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 2555652.9329999997,
+      "trader_count": 6,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "Nexuus",
+        "donthackme",
+        "gud.hl"
+      ],
+      "cur_price": 0.1935,
+      "avg_entry": 0.0987,
+      "entry_gap_cents": -9.5,
+      "liquidity_usd": 9032280.37,
+      "volume_24h": 3675344.34,
+      "spread": 0.0,
+      "best_ask": 0.194,
+      "best_bid": 0.193,
+      "vegas_prob": 0.1678
+    },
+    {
+      "condition_id": "0x173be8afaedec7e17be529389b825fa2171aa7e6dff36fc5ad26698195dd2227",
+      "market_title": "Will Norway win on 2026-06-30?",
+      "event_slug": "fifwc-civ-nor-2026-06-30",
+      "outcome": "No",
+      "total_usd": 1352623.2423999999,
+      "trader_count": 6,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "1two1two",
+        "BreakTheBank",
+        "lighthousefamily",
+        "swisstony"
+      ],
+      "cur_price": 0.555,
+      "avg_entry": 0.5473,
+      "entry_gap_cents": -0.8,
+      "liquidity_usd": 6657737.06,
+      "volume_24h": 5039954.64,
+      "spread": 0.01,
+      "best_ask": 0.56,
+      "best_bid": 0.55,
+      "vegas_prob": 0.5514
+    },
+    {
+      "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+      "market_title": "Will the Iranian regime fall before 2027?",
+      "event_slug": "will-the-iranian-regime-fall-by-the-end-of-2026",
+      "outcome": "No",
+      "total_usd": 617306.306,
+      "trader_count": 3,
+      "traders": [
+        "Erasmus.",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.905,
+      "avg_entry": 0.6559,
+      "entry_gap_cents": -24.9,
+      "liquidity_usd": 497384.61,
+      "volume_24h": 11310.9,
+      "spread": 0.01,
+      "best_ask": 0.91,
+      "best_bid": 0.9,
+      "vegas_prob": null
+    },
+    {
+      "condition_id": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67",
+      "market_title": "Will Mexico win on 2026-06-30?",
+      "event_slug": "fifwc-mex-ecu-2026-06-30",
+      "outcome": "No",
+      "total_usd": 467398.8003,
+      "trader_count": 3,
+      "traders": [
+        "0x076daa87",
+        "Allezpapa",
+        "swisstony"
+      ],
+      "cur_price": 0.5649,
+      "avg_entry": 0.565,
+      "entry_gap_cents": 0.0,
+      "liquidity_usd": 2383042.61,
+      "volume_24h": 1125494.74,
+      "spread": 0.01,
+      "best_ask": 0.57,
+      "best_bid": 0.56,
+      "vegas_prob": null
+    },
+    {
+      "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+      "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 465297.3432,
+      "trader_count": 7,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "Nexuus",
+        "athelstan",
+        "donthackme"
+      ],
+      "cur_price": 0.0704,
+      "avg_entry": 0.0688,
+      "entry_gap_cents": -0.2,
+      "liquidity_usd": 3412350.87,
+      "volume_24h": 4144070.34,
+      "spread": 0.0,
+      "best_ask": 0.071,
+      "best_bid": 0.07,
+      "vegas_prob": 0.0839
+    },
+    {
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "market_title": "Will England win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 428763.2383,
+      "trader_count": 7,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername",
+        "BreakTheBank",
+        "Nexuus",
+        "Wickier",
+        "donthackme"
+      ],
+      "cur_price": 0.0995,
+      "avg_entry": 0.0944,
+      "entry_gap_cents": -0.5,
+      "liquidity_usd": 7197962.7,
+      "volume_24h": 3045393.41,
+      "spread": 0.0,
+      "best_ask": 0.1,
+      "best_bid": 0.099,
+      "vegas_prob": 0.1049
+    },
+    {
+      "condition_id": "0x378f7b5c668014d9f6c42c305ec83902f3c8f6c770b336363aed0076ce6ce1c9",
+      "market_title": "Will France win on 2026-06-30?",
+      "event_slug": "fifwc-fra-swe-2026-06-30",
+      "outcome": "No",
+      "total_usd": 386326.5772,
+      "trader_count": 5,
+      "traders": [
+        "0x076daa87",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "BreakTheBank",
+        "Qpkwks",
+        "swisstony"
+      ],
+      "cur_price": 0.235,
+      "avg_entry": 0.2264,
+      "entry_gap_cents": -0.9,
+      "liquidity_usd": 2329649.4,
+      "volume_24h": 2362162.54,
+      "spread": 0.01,
+      "best_ask": 0.24,
+      "best_bid": 0.23,
+      "vegas_prob": 0.2568
+    },
+    {
+      "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "event_slug": "will-the-us-invade-iran-before-2027",
+      "outcome": "No",
+      "total_usd": 385980.9216,
+      "trader_count": 4,
+      "traders": [
+        "NonceChaser",
+        "aenews2",
+        "denizz",
+        "wan123"
+      ],
+      "cur_price": 0.865,
+      "avg_entry": 0.7074,
+      "entry_gap_cents": -15.8,
+      "liquidity_usd": 487468.55,
+      "volume_24h": 55207.63,
+      "spread": 0.01,
+      "best_ask": 0.87,
+      "best_bid": 0.86,
+      "vegas_prob": null
+    },
+    {
+      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "market_title": "Will France win the 2026 FIFA World Cup?",
+      "event_slug": "world-cup-winner",
+      "outcome": "Yes",
+      "total_usd": 353001.1483,
+      "trader_count": 3,
+      "traders": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "Allezpapa",
+        "AnonymousUsername"
+      ],
+      "cur_price": 0.2805,
+      "avg_entry": 0.073,
+      "entry_gap_cents": -20.8,
+      "liquidity_usd": 7306864.83,
+      "volume_24h": 3150458.52,
+      "spread": 0.0,
+      "best_ask": 0.281,
+      "best_bid": 0.28,
+      "vegas_prob": 0.2398
+    },
+    {
+      "condition_id": "0xf47e8cc490e9fd5f0ac8bd36aa4bc3b1abf12025dd145baac6cd95ee58e2d286",
+      "market_title": "Aleksandar Vu\u010di\u0107 out as Serbian President by June 30, 2026?",
+      "event_slug": "aleksandar-vui-out-as-serbian-president-by",
+      "outcome": "Yes",
+      "total_usd": 349779.7491,
+      "trader_count": 2,
+      "traders": [
+        "NonceChaser",
+        "aenews2"
+      ],
+      "cur_price": 0.9985,
+      "avg_entry": 0.9932,
+      "entry_gap_cents": -0.5,
+      "liquidity_usd": 1116503.74,
+      "volume_24h": 1459363.0,
+      "spread": 0.0,
+      "best_ask": 0.999,
+      "best_bid": 0.998,
+      "vegas_prob": null
+    }
+  ],
+  "high_conviction_divergence": [
+    {
+      "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+      "market_title": "Will the Iranian regime fall before 2027?",
+      "event_slug": "will-the-iranian-regime-fall-by-the-end-of-2026",
+      "outcome": "No",
+      "conviction_traders": 3,
+      "score_raw": 18.844224,
+      "avg_cost_pct": 17.54,
+      "avg_skill": 0.363,
+      "total_usd": 617306.306,
+      "traders": [
+        "Erasmus.",
+        "denizz",
+        "wan123"
+      ],
+      "conviction_score": 100.0
+    },
+    {
+      "condition_id": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67",
+      "market_title": "Will Mexico win on 2026-06-30?",
+      "event_slug": "fifwc-mex-ecu-2026-06-30",
+      "outcome": "No",
+      "conviction_traders": 3,
+      "score_raw": 8.720898,
+      "avg_cost_pct": 10.96,
+      "avg_skill": 0.235,
+      "total_usd": 467398.8003,
+      "traders": [
+        "0x076daa87",
+        "Allezpapa",
+        "swisstony"
+      ],
+      "conviction_score": 46.3
+    },
+    {
+      "condition_id": "0x7f631610811039f03e85106365e1ef4a34dc6bf8329acb700734a7d859dcc5a2",
+      "market_title": "C\u00f4te d'Ivoire vs. Norway: O/U 2.5",
+      "event_slug": "fifwc-civ-nor-2026-06-30-more-markets",
+      "outcome": "Over",
+      "conviction_traders": 3,
+      "score_raw": 7.207185,
+      "avg_cost_pct": 9.56,
+      "avg_skill": 0.228,
+      "total_usd": 308762.2086,
+      "traders": [
+        "Allezpapa",
+        "rabbitfoot1",
+        "swisstony"
+      ],
+      "conviction_score": 38.2
+    },
+    {
+      "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "event_slug": "will-the-us-invade-iran-before-2027",
+      "outcome": "No",
+      "conviction_traders": 3,
+      "score_raw": 6.497269,
+      "avg_cost_pct": 6.78,
+      "avg_skill": 0.332,
+      "total_usd": 362625.9527,
+      "traders": [
+        "aenews2",
+        "denizz",
+        "wan123"
+      ],
+      "conviction_score": 34.5
+    },
+    {
+      "condition_id": "0x9d3f02264a94bafc676afd7add8b11442e6ec72dabaa69cefef835f0672275c7",
+      "market_title": " Iran agrees to end enrichment of uranium by June 30?",
+      "event_slug": "iran-agrees-to-end-enrichment-of-uranium-by-june-30",
+      "outcome": "Yes",
+      "conviction_traders": 3,
+      "score_raw": 3.247739,
+      "avg_cost_pct": 3.02,
+      "avg_skill": 0.352,
+      "total_usd": 997.8227,
+      "traders": [
+        "NonceChaser",
+        "denizz",
+        "wan123"
+      ],
+      "conviction_score": 17.2
+    }
+  ],
+  "failed_or_hidden_profiles": []
+}
