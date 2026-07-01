@@ -137,8 +137,46 @@ def print_summary(summary: dict, fee: float):
 # Real replay over the snapshot archive
 # --------------------------------------------------------------------------
 
+SIGNAL_TABLES = {
+    "pure_count": "pure_count_consensus",
+    "capital_weighted": "capital_weighted_consensus",
+    "conviction": "high_conviction_divergence",
+}
+
+
+def _entry_price(row: dict) -> tuple[float | None, str]:
+    """
+    The price you could actually have traded at signal time.
+    best_ask (what a taker pays) beats cur_price (mid, untradeable).
+    Returns (price, source_tag).
+    """
+    ask = row.get("best_ask")
+    if ask is not None:
+        try:
+            a = float(ask)
+            if 0 < a < 1:
+                return a, "ask"
+        except (TypeError, ValueError):
+            pass
+    cur = row.get("cur_price")
+    if cur is not None:
+        try:
+            c = float(cur)
+            if 0 < c < 1:
+                return c, "mid"
+        except (TypeError, ValueError):
+            pass
+    return None, "none"
+
+
 def load_snapshot_calls() -> tuple[list[dict], str, str]:
-    """Each consensus market's FIRST appearance across snapshots, with the price then."""
+    """
+    Each (signal, market, outcome)'s FIRST appearance across snapshots, priced at
+    that moment. All three signal families are graded separately — comparing them
+    is the point of the exercise. Older snapshots recorded no price on conviction
+    rows; for those we borrow the price from a sibling table in the SAME snapshot
+    (same condition_id+outcome, same timestamp — still lookahead-free).
+    """
     files = sorted(glob.glob(os.path.join(SNAPSHOT_DIR, "consensus_*.json")))
     seen: dict[tuple, dict] = {}
     first = last = ""
@@ -151,19 +189,72 @@ def load_snapshot_calls() -> tuple[list[dict], str, str]:
         ts = rep.get("run_metadata", {}).get("generated_at_utc", "")
         first = first or ts
         last = ts or last
-        for c in rep.get("pure_count_consensus", []):
-            key = (c.get("condition_id"), c.get("outcome"))
-            if not key[0] or key in seen:
-                continue
-            seen[key] = {
-                "condition_id": c.get("condition_id"),
-                "outcome": c.get("outcome"),
-                "price": c.get("cur_price"),
-                "n_traders": c.get("trader_count"),
-                "market_title": c.get("market_title"),
-                "first_seen": ts,
-            }
+
+        # Price index from sibling tables in this snapshot (for legacy conviction rows).
+        sibling_price: dict[tuple, dict] = {}
+        for tbl in ("pure_count_consensus", "capital_weighted_consensus"):
+            for c in rep.get(tbl, []):
+                k = (c.get("condition_id"), c.get("outcome"))
+                if k[0] and k not in sibling_price:
+                    sibling_price[k] = c
+
+        for signal, tbl in SIGNAL_TABLES.items():
+            for c in rep.get(tbl, []):
+                cid, outc = c.get("condition_id"), c.get("outcome")
+                key = (signal, cid, outc)
+                if not cid or key in seen:
+                    continue
+                price, src = _entry_price(c)
+                if price is None:  # legacy conviction rows: borrow same-snapshot price
+                    sib = sibling_price.get((cid, outc))
+                    if sib:
+                        price, src = _entry_price(sib)
+                        src = f"sibling_{src}" if price is not None else src
+                if price is None:
+                    continue  # genuinely ungradeable — no recorded price anywhere
+                seen[key] = {
+                    "signal": signal,
+                    "condition_id": cid,
+                    "outcome": outc,
+                    "price": price,
+                    "price_source": src,
+                    "n_traders": c.get("trader_count") or c.get("conviction_traders"),
+                    "entry_gap_cents": c.get("entry_gap_cents"),
+                    "vegas_prob": c.get("vegas_prob"),
+                    "market_title": c.get("market_title"),
+                    "first_seen": ts,
+                }
     return list(seen.values()), first, last
+
+
+def _cohort_line(df: pd.DataFrame, label: str) -> str:
+    if df.empty:
+        return f"    {label:<26}: —"
+    wr, imp = df["won"].mean(), df["price"].mean()
+    return (f"    {label:<26}: n={len(df):<3} win {wr*100:5.1f}%  "
+            f"paid {imp*100:5.1f}%  edge {(wr-imp)*100:+5.1f} pts")
+
+
+def print_cohorts(scored: list[dict]):
+    """The research questions: WHICH signal has edge, and does freshness/Vegas matter?"""
+    df = pd.DataFrame(scored)
+    print("\n  By signal family:")
+    for sig in SIGNAL_TABLES:
+        print(_cohort_line(df[df["signal"] == sig], sig))
+
+    if df["entry_gap_cents"].notna().any():
+        g = df[df["entry_gap_cents"].notna()]
+        print("\n  By freshness (entry gap = crowd avg entry − price at signal):")
+        print(_cohort_line(g[g["entry_gap_cents"] >= 0], "fresh (≤ crowd's entry)"))
+        print(_cohort_line(g[g["entry_gap_cents"] < 0], "late (past crowd's entry)"))
+
+    if df["vegas_prob"].notna().any():
+        v = df[df["vegas_prob"].notna()].copy()
+        v["v_edge"] = v["vegas_prob"] - v["price"]
+        print("\n  By Vegas confirmation (vegas prob vs price paid):")
+        print(_cohort_line(v[v["v_edge"] >= 0.01], "vegas agrees (≥ +1 pt)"))
+        print(_cohort_line(v[v["v_edge"].abs() < 0.01], "vegas neutral"))
+        print(_cohort_line(v[v["v_edge"] <= -0.01], "vegas disagrees"))
 
 
 def run_replay(args):
@@ -185,14 +276,16 @@ def run_replay(args):
         return
     print(f"\n  Resolved & graded: {summary['n']}   |   still pending: {pending}\n")
     print_summary(summary, args.fee)
+    print_cohorts(scored)
     print("\n  ⚠️  Small samples lie. Treat this as directional until you have many dozens")
     print("      of graded calls spanning different events.")
     won_calls = sorted([s for s in scored], key=lambda s: -(s.get("n_traders") or 0))[:8]
     print("\n  Most-backed graded calls:")
     for s in won_calls:
         v = "WON " if s["won"] else "lost"
-        print(f"    [{v}] {s.get('n_traders')}× @ {s['price']:.2f} | "
-              f"{(s.get('market_title') or '')[:46]} -> {s['outcome']}")
+        print(f"    [{v}] [{s.get('signal','?'):<16}] {s.get('n_traders')}× @ {s['price']:.2f} "
+              f"({s.get('price_source','?')}) | "
+              f"{(s.get('market_title') or '')[:40]} -> {s['outcome']}")
 
 
 # --------------------------------------------------------------------------

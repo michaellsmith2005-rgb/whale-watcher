@@ -39,6 +39,7 @@ import asyncio
 import json
 import logging
 import sys
+import time
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timezone
 from typing import Any, Optional
@@ -134,11 +135,11 @@ class RateLimiter:
 
     async def acquire(self):
         async with self._lock:
-            now = asyncio.get_event_loop().time()
+            now = time.monotonic()
             wait = self._last + self._interval - now
             if wait > 0:
                 await asyncio.sleep(wait)
-            self._last = asyncio.get_event_loop().time()
+            self._last = time.monotonic()
 
 
 async def fetch_json_with_retry(
@@ -642,7 +643,11 @@ def compute_conviction_consensus(
     grouped["conviction_score"] = (grouped["score_raw"] / hi * 100).round(1)
     grouped["avg_cost_pct"] = grouped["avg_cost_pct"].round(2)
     grouped["avg_skill"] = grouped["avg_skill"].round(3)
-    return grouped.sort_values(["conviction_score", "conviction_traders"], ascending=False)
+    grouped = grouped.sort_values(["conviction_score", "conviction_traders"], ascending=False)
+    # Attach cur_price / avg_entry / entry_gap so snapshots record a price for this
+    # signal at fire-time. Without it, the forward backtest can never grade the
+    # conviction signal — history would accumulate for the weaker signals only.
+    return add_value_gap(grouped, df)
 
 
 # --------------------------------------------------------------------------
@@ -805,7 +810,7 @@ async def run_pipeline(
     # Enrich the consensus markets with live liquidity/volume/spread from Gamma,
     # so the dashboard can show how much to trust each price and estimate slippage.
     cids = []
-    for d in (pure_count, capital_weighted):
+    for d in (pure_count, capital_weighted, high_conviction):
         if not d.empty:
             cids.extend(d["condition_id"].tolist())
     if cids:
@@ -813,6 +818,7 @@ async def run_pipeline(
             quality = await fetch_market_quality(client, limiter, cids)
         pure_count = add_market_quality(pure_count, quality)
         capital_weighted = add_market_quality(capital_weighted, quality)
+        high_conviction = add_market_quality(high_conviction, quality)
 
     # Optional: sportsbook (Vegas) comparison, only if an Odds API key is set.
     # Wrapped so a missing key or odds-API hiccup can never break the pipeline.

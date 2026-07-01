@@ -51,15 +51,33 @@ Polymarket's data API sends no CORS headers, so a browser can't read it directly
   markets resolve. `--selftest` works now.
 - Dashboard: functional (v3 iteration reviewed in chat).
 
+## 2026-07-01 audit changes (do not silently revert)
+
+- **Pipeline**: conviction table now records `cur_price` / `avg_entry` /
+  `entry_gap_cents` / `best_ask` at fire-time. Before this, the strongest signal
+  produced no gradeable price and could never be forward-tested.
+- **Backtest**: grades all three signal families separately (`pure_count`,
+  `capital_weighted`, `conviction`); enters at `best_ask` when recorded (mid
+  fallback, tagged `price_source`); legacy conviction rows borrow the price from
+  a sibling table in the same snapshot (still lookahead-free). Adds cohort
+  breakdowns: by signal, fresh-vs-late, Vegas-agrees-vs-disagrees.
+- Loader validated offline against the real archive: 96 distinct calls
+  (was ~46), incl. 8 gradeable conviction calls. Live API validation was NOT
+  possible in the sandbox — run `python backtest.py --selftest` locally once.
+- Misc: `RateLimiter` uses `time.monotonic()`; added `requirements.txt`.
+
 ## Open threads / next steps
 
-- [ ] Run `backtest.py` against accumulated snapshots — expect mostly "pending"
-      until World Cup / CPI / Fed markets resolve. Confirm `--selftest` passes.
-- [ ] Decide sizing logic (modified Kelly) — NOT yet built. Keep it conservative;
-      the value-gap warning means naive full-Kelly on late signals is a trap.
-- [ ] Optional pipeline additions previously discussed: liquidity-adjusted
-      pricing, temporal decay, manipulation/wash-trade filter, resolution-source
-      credibility, cross-market correlation. None built yet — signal layer only.
+- [ ] Run `python backtest.py --selftest` locally to confirm the Gamma oracle
+      wiring (sandbox couldn't reach Polymarket).
+- [ ] Run the real replay once markets resolve — the cohort table (signal
+      family × freshness × Vegas agreement) is the actual research readout.
+- [ ] Decide sizing logic (modified Kelly) — NOT yet built, and deliberately
+      blocked until the replay shows which signal, if any, has positive edge.
+      Sizing an unproven signal is the classic failure mode.
+- [ ] Optional pipeline additions previously discussed: temporal decay,
+      manipulation/wash-trade filter, resolution-source credibility,
+      cross-market correlation. None built yet.
 
 ## Setup notes for a fresh machine
 
