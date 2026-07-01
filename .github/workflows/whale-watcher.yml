@@ -1,0 +1,45 @@
+name: whale-watcher
+
+on:
+  schedule:
+    # 4x daily snapshots (UTC). Note: GitHub may delay scheduled runs by a few
+    # minutes under load — fine for this use.
+    - cron: "0 5,13,17,21 * * *"
+  workflow_dispatch: {}   # allows manual "Run workflow" button for testing
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot-and-grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Take snapshot
+        env:
+          # Optional: set ODDS_API_KEY as a repo secret (Settings > Secrets >
+          # Actions) to enable the Vegas comparison. Fails soft if absent.
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python polymarket_consensus.py --time-period MONTH --snapshot --quiet \
+            --out-json consensus_report.json --out-md consensus_report.md
+
+      - name: Run backtest and save the report
+        run: |
+          python backtest.py | tee backtest_latest.txt
+
+      - name: Commit results back to the repo
+        run: |
+          git config user.name "whale-watcher-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add snapshots/ consensus_report.json consensus_report.md backtest_latest.txt
+          git diff --cached --quiet || git commit -m "auto: snapshot + backtest $(date -u '+%Y-%m-%dT%H:%MZ')"
+          git push
