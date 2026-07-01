@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-07-01T23:27:41.019077+00:00",
+  "pending": 78,
+  "edge_detected": false,
+  "headline": {
+    "n": 93,
+    "excluded_certain": 14,
+    "win_rate": 0.45161290322580644,
+    "wr_lo": 0.3543959312279996,
+    "wr_hi": 0.5526688012836483,
+    "implied": 0.511251612903226,
+    "edge_pts": -5.963870967741952,
+    "edge_lo_pts": -15.685568167522634,
+    "edge_hi_pts": 4.14171883804223,
+    "brier": 0.3057100589247312,
+    "roi_net": 0.28495071233765973,
+    "roi_median": -1.02
+  },
+  "cohorts": {
+    "by_signal": {
+      "pure_count": {
+        "n": 40,
+        "win_rate": 0.425,
+        "implied": 0.4638,
+        "edge_pts": -3.88
+      },
+      "capital_weighted": {
+        "n": 38,
+        "win_rate": 0.4737,
+        "implied": 0.529,
+        "edge_pts": -5.53
+      },
+      "conviction": {
+        "n": 15,
+        "win_rate": 0.4667,
+        "implied": 0.593,
+        "edge_pts": -12.63
+      }
+    },
+    "freshness": {
+      "fresh": {
+        "n": 38,
+        "win_rate": 0.4474,
+        "implied": 0.4438,
+        "edge_pts": 0.36
+      },
+      "late": {
+        "n": 42,
+        "win_rate": 0.4524,
+        "implied": 0.5519,
+        "edge_pts": -9.95
+      }
+    },
+    "agreement": {
+      "clean": {
+        "n": 0
+      },
+      "conflicted": {
+        "n": 4,
+        "win_rate": 0.5,
+        "implied": 0.6,
+        "edge_pts": -10.0
+      }
+    }
+  }
+}

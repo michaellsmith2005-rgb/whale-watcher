@@ -1,0 +1,51 @@
+
+FORWARD REPLAY — grading past consensus calls against true resolutions
+
+  185 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-01T23:27)
+  Looking up resolutions via Gamma...
+
+  Resolved & graded: 93   |   still pending: 78
+
+    graded calls     : 93
+    excluded         : 14 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
+    win rate         : 45.2%   (95% CI 35.4–55.3%)
+    implied (price)  : 51.1%   <- what you'd have paid
+    edge vs price    : -6.0 pts  (95% CI -15.7 to +4.1)
+                       ^ CI straddles zero: NO detectable edge at this sample size
+    Brier score      : 0.306   <- lower = better calibrated
+    net ROI/trade    : mean +28.5% | median -102.0%   (2% cost)
+                       ^ mean >> median: a few cheap longshots are carrying the
+                         average — do NOT read mean ROI as repeatable edge
+
+  By signal family:
+    pure_count                : n=40  win  42.5%  paid  46.4%  edge  -3.9 pts
+    capital_weighted          : n=38  win  47.4%  paid  52.9%  edge  -5.5 pts
+    conviction                : n=15  win  46.7%  paid  59.3%  edge -12.6 pts
+
+  By internal agreement (cohort on both sides of the market?):
+    clean (one-sided cohort)  : —
+    conflicted (both sides)   : n=4   win  50.0%  paid  60.0%  edge -10.0 pts
+
+  By freshness (entry gap = crowd avg entry − price at signal):
+    fresh (≤ crowd's entry)   : n=38  win  44.7%  paid  44.4%  edge  +0.4 pts
+    late (past crowd's entry) : n=42  win  45.2%  paid  55.2%  edge  -9.9 pts
+
+  By Vegas confirmation (vegas prob vs price paid):
+    vegas agrees (≥ +1 pt)    : n=4   win  25.0%  paid  25.0%  edge  +0.0 pts
+    vegas neutral             : n=9   win  44.4%  paid  51.1%  edge  -6.7 pts
+    vegas disagrees           : n=2   win  50.0%  paid  87.5%  edge -37.5 pts
+
+  ⚠️  Small samples lie. Treat this as directional until you have many dozens
+      of graded calls spanning different events.
+
+  Most-backed graded calls:
+    [WON ] [pure_count      ] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
+    [WON ] [capital_weighted] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
+    [lost] [capital_weighted] 11× @ 0.82 (ask) | Will Senegal win on 2026-07-01? -> Yes
+    [lost] [pure_count      ] 10× @ 0.45 (mid) | Spread: Germany (-1.5) -> Germany
+    [lost] [capital_weighted] 10× @ 0.45 (mid) | Spread: Germany (-1.5) -> Germany
+    [lost] [pure_count      ] 10× @ 0.26 (ask) | Will Senegal win on 2026-07-01? -> Yes
+    [lost] [pure_count      ] 10× @ 0.92 (ask) | Will Belgium vs. Senegal end in a draw? -> No
+    [WON ] [pure_count      ] 9× @ 0.16 (mid) | Will Canada win on 2026-06-28? -> Yes
+
+  Wrote machine-readable summary -> backtest_summary.json
