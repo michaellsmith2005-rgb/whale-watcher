@@ -72,6 +72,11 @@ CONVICTION_FLOOR_PCT = 2.0                 # a bet must be >= 2% of the trader's
 CONVICTION_OUTSIZED_MULT = 3.0             # AND >= 3x that trader's own median bet size
 MIN_POSITION_USD_DEFAULT = 1.0      # ignore dust positions
 ACTIVE_ONLY_DEFAULT = True          # show only games still live/tradeable on the board
+ECONOMICALLY_RESOLVED_HI = 0.99     # a token at >= this has effectively already won;
+ECONOMICALLY_RESOLVED_LO = 0.01     # at <= this it has already lost. Either way the
+                                    # position is a dead ticket, not a live bet — counting
+                                    # it as "consensus" produced fake 20-trader signals on
+                                    # decided games (e.g. Mexico Yes @ 1.00).
 MAX_POSITIONS_PER_WALLET = 10000    # hard cap on pagination; some wallets make /positions
                                     # return full pages indefinitely (offset is ignored),
                                     # which would otherwise loop forever.
@@ -335,6 +340,12 @@ async def enrich_trader(
             size = float(p.get("size") or 0.0)
             avg_price = float(p.get("avgPrice") or 0.0)
             cur_price = float(p.get("curPrice") or 0.0)
+            # A token already at ~1.00 (won) or ~0.00 (lost) is a dead ticket, even if
+            # the market hasn't been formally marked redeemable yet. Not a live bet.
+            if active_only and (
+                cur_price >= ECONOMICALLY_RESOLVED_HI or cur_price <= ECONOMICALLY_RESOLVED_LO
+            ):
+                continue
             cash_pnl = float(p.get("cashPnl") or 0.0)
             pct = None
             cost_pct = None

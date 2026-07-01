@@ -80,7 +80,7 @@ Polymarket's data API sends no CORS headers, so a browser can't read it directly
 
 ## Open threads / next steps
 
-- [ ] Run `python backtest.py --selftest` locally to confirm the Gamma oracle
+- [x] Selftest passed locally (12/12 graded). First two real replays done: n=64 edge -1.7, n=82 edge -3.9 — both CIs straddle zero.
       wiring (sandbox couldn't reach Polymarket).
 - [ ] Run the real replay once markets resolve — the cohort table (signal
       family × freshness × Vegas agreement) is the actual research readout.
@@ -98,3 +98,12 @@ pip install httpx pandas
 export ODDS_API_KEY=your_key_here   # or put it in odds_api_key.txt (gitignored)
 python run_dashboard.py
 ```
+
+## 2026-07-01 round 3 (post second replay, n=82)
+
+- Found fake-alpha leak: dead tickets (tokens at ~1.00/~0.00 on decided-but-
+  unresolved games) were counted as consensus, e.g. "20 traders on Mexico @ 1.00"
+  = 3 free wins. Pipeline now drops economically-resolved positions; backtest
+  retroactively excludes calls priced >=0.97 / <=0.03 and reports the count.
+- CANONICAL FOLDER: Claude_Output/app (the LaunchAgent points there). app2 and
+  any other copies are retired — never run or edit them.

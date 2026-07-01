@@ -47,6 +47,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SNAPSHOT_DIR = os.path.join(HERE, "snapshots")
 GAMMA_MARKETS = "https://gamma-api.polymarket.com/markets"
 RESOLVED_WIN = 0.99   # an outcome's settled price >= this => it won
+PRICE_CERTAIN_HI = 0.97   # calls priced at/above this (or at/below the LO) fired on an
+PRICE_CERTAIN_LO = 0.03   # already-decided market — zero information, untradeable edge.
+                          # Grading them inflates win rate with freebies (Mexico @ 1.00).
 
 
 # --------------------------------------------------------------------------
@@ -113,12 +116,16 @@ def grade(calls: list[dict], resolutions: dict[str, dict], fee: float):
     Returns (scored_rows, summary) for the calls whose markets have resolved.
     """
     scored = []
+    excluded_certain = 0
     for c in calls:
         res = resolutions.get(c["condition_id"])
         if not res:
             continue  # not resolved yet
-        won = int(c["outcome"] == res["winner"])
         price = min(max(float(c.get("price") or 0.0), 1e-6), 1.0)
+        if price >= PRICE_CERTAIN_HI or price <= PRICE_CERTAIN_LO:
+            excluded_certain += 1
+            continue  # signal fired on an already-decided market — no information
+        won = int(c["outcome"] == res["winner"])
         roi = (won - price) / price - fee            # enter at signal-time price, hold to resolution
         scored.append({**c, "won": won, "winner": res["winner"], "price": price, "roi_net": roi})
     if not scored:
@@ -129,6 +136,7 @@ def grade(calls: list[dict], resolutions: dict[str, dict], fee: float):
     implied = df["price"].mean()
     summary = {
         "n": len(df),
+        "excluded_certain": excluded_certain,
         "win_rate": wr,
         "wr_lo": lo,
         "wr_hi": hi,
@@ -145,6 +153,9 @@ def grade(calls: list[dict], resolutions: dict[str, dict], fee: float):
 
 def print_summary(summary: dict, fee: float):
     print(f"    graded calls     : {summary['n']}")
+    if summary.get("excluded_certain"):
+        print(f"    excluded         : {summary['excluded_certain']} call(s) priced ≥{PRICE_CERTAIN_HI:.2f} or "
+              f"≤{PRICE_CERTAIN_LO:.2f} (already-decided, no information)")
     print(f"    win rate         : {summary['win_rate']*100:.1f}%   "
           f"(95% CI {summary['wr_lo']*100:.1f}–{summary['wr_hi']*100:.1f}%)")
     print(f"    implied (price)  : {summary['implied']*100:.1f}%   <- what you'd have paid")
