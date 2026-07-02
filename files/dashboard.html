@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whale Watcher — where the pod is betting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Albert+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#16303F;          /* deep-sea ink */
+  --ink-soft:#4A6473;
+  --paper:#EFF5F3;        /* sea glass */
+  --panel:#FFFFFF;
+  --panel-2:#E7F0EC;
+  --line:#CBDAD4;
+  --line-strong:#9FB8AF;
+  --tide:#2E6E8E;         /* depth blue — interactive */
+  --kelp:#177A54;         /* for / fresh / wins */
+  --kelp-soft:#DCEFE6;
+  --buoy:#C96A1F;         /* experimental / caution */
+  --buoy-soft:#F7E8DA;
+  --flare:#B0402E;        /* against / losses */
+  --flare-soft:#F5E2DE;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --body:"Albert Sans",system-ui,sans-serif;
+  --mono:"Spline Sans Mono",ui-monospace,Menlo,monospace;
+  --r:10px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--paper)}
+body{font-family:var(--body);color:var(--ink);font-size:15px;line-height:1.5;
+  /* faint hydrographic contour lines */
+  background:var(--paper) repeating-radial-gradient(circle at 110% -20%,transparent 0 88px,rgba(46,110,142,.055) 88px 89px);}
+a{color:var(--tide)}
+.wrap{max-width:1080px;margin:0 auto;padding:1.4rem 1.2rem 4rem}
+
+/* ---------- masthead ---------- */
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;gap:1rem;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:1rem}
+.brand{display:flex;align-items:center;gap:.7rem}
+.brand svg{flex:none}
+.brand h1{font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.02em;line-height:1}
+.brand .sub{font-size:12.5px;color:var(--ink-soft);margin-top:.25rem}
+.tools{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden;background:var(--panel)}
+.seg button{appearance:none;border:0;background:transparent;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;padding:.5rem .85rem;cursor:pointer;color:var(--ink-soft)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.seg button:not([aria-pressed="true"]):hover{color:var(--ink)}
+.btn{appearance:none;cursor:pointer;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:var(--paper);background:var(--tide);border:1.5px solid var(--tide);border-radius:999px;padding:.5rem 1rem;display:inline-flex;align-items:center;gap:.5rem}
+.btn:hover:not(:disabled){filter:brightness(1.08)}
+.btn:disabled{opacity:.55;cursor:default}
+.btn .dot{width:7px;height:7px;border-radius:50%;background:currentColor}
+.btn.busy .dot{animation:pulse 1.1s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.btn.busy .dot{animation:none}}
+.meta{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-top:.55rem}
+
+/* ---------- verdict banner ---------- */
+.verdict{margin-top:1.1rem;border-radius:var(--r);padding:.85rem 1.1rem;display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap;border:1.5px solid}
+.verdict.experimental{background:var(--buoy-soft);border-color:var(--buoy)}
+.verdict.validated{background:var(--kelp-soft);border-color:var(--kelp)}
+.verdict.unknown{background:var(--panel-2);border-color:var(--line-strong)}
+.verdict .tag{font-family:var(--mono);font-size:11px;letter-spacing:.1em;font-weight:600;padding:.2rem .55rem;border-radius:5px;color:#fff}
+.verdict.experimental .tag{background:var(--buoy)}
+.verdict.validated .tag{background:var(--kelp)}
+.verdict.unknown .tag{background:var(--ink-soft)}
+.verdict p{font-size:14px;flex:1;min-width:260px}
+.verdict .nums{font-family:var(--mono);font-size:12.5px;color:var(--ink-soft)}
+
+/* ---------- sections ---------- */
+.sect{margin-top:2.2rem}
+.sect>h2{font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:-.01em}
+.sect>.lede{color:var(--ink-soft);font-size:13.5px;margin:.25rem 0 1rem;max-width:62ch}
+
+/* ---------- pod cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:.9rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:1rem 1.05rem;display:flex;flex-direction:column;gap:.6rem}
+.card .top{display:flex;justify-content:space-between;gap:.8rem;align-items:flex-start}
+.card h3{font-size:15px;font-weight:600;line-height:1.3}
+.price{font-family:var(--mono);font-weight:600;font-size:22px;white-space:nowrap}
+.price small{font-size:11px;color:var(--ink-soft);font-weight:400;display:block;text-align:right}
+.chips{display:flex;gap:.4rem;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;padding:.18rem .5rem;border-radius:5px;border:1px solid var(--line-strong);color:var(--ink-soft)}
+.chip.outcome{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chip.fresh{background:var(--kelp-soft);border-color:var(--kelp);color:var(--kelp)}
+.chip.late{background:var(--buoy-soft);border-color:var(--buoy);color:var(--buoy)}
+.chip.split{background:var(--flare-soft);border-color:var(--flare);color:var(--flare)}
+.chip.thin{background:var(--flare-soft);border-color:var(--flare);color:var(--flare)}
+
+/* signature: the pod gauge */
+.gauge{--h:14px;position:relative;height:var(--h);background:var(--panel-2);border-radius:7px;overflow:hidden;border:1px solid var(--line)}
+.gauge .for,.gauge .against{position:absolute;top:0;bottom:0;display:flex;gap:2px;padding:2.5px}
+.gauge .for{left:0}
+.gauge .against{right:0;flex-direction:row-reverse}
+.gauge i{width:9px;border-radius:2.5px;background:var(--kelp);opacity:.92}
+.gauge .against i{background:var(--flare)}
+.gauge .mid{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line-strong)}
+.podline{font-size:13px;color:var(--ink-soft)}
+.podline b{color:var(--ink);font-weight:600}
+.money{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft)}
+
+/* ---------- tabs + tables ---------- */
+.tabs{display:flex;gap:.2rem;border-bottom:1.5px solid var(--ink);flex-wrap:wrap}
+.tab{appearance:none;border:0;background:transparent;font-family:var(--mono);font-size:12px;letter-spacing:.05em;padding:.6rem .9rem;cursor:pointer;color:var(--ink-soft);border-bottom:3px solid transparent;margin-bottom:-1.5px}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--buoy);font-weight:600}
+.panel{background:var(--panel);border:1px solid var(--line);border-top:0;border-radius:0 0 var(--r) var(--r);padding:1rem;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:.5rem .6rem;border-bottom:1.5px solid var(--line-strong);white-space:nowrap}
+td{padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.num{font-family:var(--mono);font-size:12.5px;white-space:nowrap}
+.pos{color:var(--kelp)} .neg{color:var(--flare)}
+.mkt{font-weight:600}
+.mkt .out{font-weight:400;color:var(--ink-soft);font-size:12.5px}
+
+/* ---------- analyzer ---------- */
+.az{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.8rem;margin-bottom:1rem}
+.az label{display:flex;flex-direction:column;gap:.3rem;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.az select,.az input{font-family:var(--body);font-size:14px;padding:.5rem .6rem;border:1.5px solid var(--line-strong);border-radius:7px;background:var(--panel);color:var(--ink);width:100%}
+.az select:focus,.az input:focus{outline:2px solid var(--tide);outline-offset:1px}
+.az-out{background:var(--panel-2);border-radius:var(--r);padding:.9rem 1rem;font-size:14px}
+.az-out .row{display:flex;justify-content:space-between;gap:1rem;padding:.25rem 0;border-bottom:1px dashed var(--line)}
+.az-out .row:last-child{border-bottom:0}
+.az-out .row b{font-family:var(--mono);font-weight:600}
+.fineprint{font-size:12px;color:var(--ink-soft);margin-top:.7rem;max-width:70ch}
+
+/* ---------- glossary / footer / toast ---------- */
+details.gloss{margin-top:2.2rem;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:1rem 1.1rem}
+details.gloss summary{cursor:pointer;font-family:var(--display);font-weight:700;font-size:16px}
+details.gloss dl{margin-top:.8rem;display:grid;grid-template-columns:max-content 1fr;gap:.45rem 1rem;font-size:13.5px}
+details.gloss dt{font-family:var(--mono);font-size:12px;color:var(--tide);white-space:nowrap}
+footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line-strong);font-size:12.5px;color:var(--ink-soft);max-width:75ch}
+.toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:12.5px;padding:.6rem 1rem;border-radius:8px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;max-width:90vw}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.toast.err{background:var(--flare)}
+.loader{padding:3rem 0;text-align:center;color:var(--ink-soft);font-family:var(--mono);font-size:13px}
+:focus-visible{outline:2px solid var(--tide);outline-offset:2px}
+@media(max-width:640px){.brand h1{font-size:24px}.price{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="brand">
+      <svg width="44" height="30" viewBox="0 0 44 30" aria-hidden="true">
+        <path d="M2 20 C10 8 24 6 32 12 C36 15 38 14 42 10 C41 16 37 19 33 19 C36 22 38 22 40 21 C36 26 30 25 27 22 C19 27 8 26 2 20 Z" fill="#16303F"/>
+        <circle cx="27" cy="14.5" r="1.4" fill="#EFF5F3"/>
+      </svg>
+      <div>
+        <h1>Whale Watcher</h1>
+        <div class="sub">Where Polymarket's most profitable wallets are betting right now</div>
+      </div>
+    </div>
+    <div class="tools">
+      <div class="seg" role="group" aria-label="Leaderboard time window" id="window-seg">
+        <button onclick="setWindow('DAY')">DAY</button>
+        <button onclick="setWindow('WEEK')">WEEK</button>
+        <button onclick="setWindow('MONTH')">MONTH</button>
+        <button onclick="setWindow('ALL')">ALL</button>
+      </div>
+      <button class="btn" id="refresh-btn" onclick="refresh()" title="Re-run the pipeline and pull fresh data">
+        <span class="dot"></span><span id="refresh-label">Refresh data</span>
+      </button>
+    </div>
+  </header>
+  <div class="meta" id="meta-strip">Loading…</div>
+
+  <div id="verdict"></div>
+
+  <div id="content"><div class="loader">Scanning the pod…</div></div>
+
+  <details class="gloss">
+    <summary>How to read this page</summary>
+    <dl>
+      <dt>the pod</dt><dd>The 50 most profitable Polymarket wallets in the selected time window. This page tracks what they hold — it does not predict anything.</dd>
+      <dt>pod gauge</dt><dd>Each green tick is one top wallet backing this outcome; each red tick (from the right) is one betting the other way. A split pod is a shrug, not a signal.</dd>
+      <dt>price</dt><dd>What one share of the outcome costs. 10¢ ≈ the market says 10% likely. If it happens, a share pays $1.</dd>
+      <dt>fresh / late</dt><dd>Fresh: the price is still at or below what the pod paid — you'd get their entry or better. Late: the price already moved past their entry; our own testing shows chasing late has graded worst.</dd>
+      <dt>split pod</dt><dd>Top wallets hold BOTH sides of this market. Consensus in name only.</dd>
+      <dt>thin book</dt><dd>Under $10k of liquidity — the listed price moves the moment real money touches it.</dd>
+      <dt>the banner</dt><dd>Our forward test grades every consensus pick after its market resolves. Until the whole confidence interval clears zero, the banner stays orange and this page is a research instrument, not betting advice.</dd>
+    </dl>
+  </details>
+
+  <footer id="footer">
+    Data: Polymarket public leaderboard + positions API, fetched locally by <span style="font-family:var(--mono)">run_dashboard.py</span>.
+    This tool observes; it does not predict, and it is not financial advice. Track record shown is from our own
+    forward test (<span style="font-family:var(--mono)">backtest_latest.txt</span> in the repo has the full readout).
+  </footer>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+"use strict";
+let REPORT=null, TRACK=null, activeTab='count', refreshing=false;
+
+/* ---------- utils ---------- */
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num=v=>{const n=parseFloat(v);return Number.isFinite(n)?n:null;};
+const cents=v=>{const n=num(v);return n==null?'—':(n*100).toFixed(1).replace(/\.0$/,'')+'¢';};
+const usd=v=>{const n=num(v);if(n==null)return '—';
+  return n>=1e6?('$'+(n/1e6).toFixed(1)+'M'):n>=1e3?('$'+(n/1e3).toFixed(0)+'k'):('$'+n.toFixed(0));};
+const when=iso=>{if(!iso)return '—';try{const d=new Date(iso);
+  return d.toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});}catch(_){return iso;}};
+function toast(msg,err){const t=$('toast');t.textContent=msg;t.classList.toggle('err',!!err);
+  t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('on'),4200);}
+
+/* ---------- verdict banner ---------- */
+function renderVerdict(){
+  const el=$('verdict');
+  if(!TRACK){el.innerHTML=`<div class="verdict unknown"><span class="tag">NO TRACK RECORD FILE</span>
+    <p>Run <span style="font-family:var(--mono)">python3 backtest.py</span> (or let the cloud robot run) to grade past picks — the verdict will appear here.</p></div>`;return;}
+  const h=TRACK.headline||{};
+  const ok=!!TRACK.edge_detected;
+  const cls=ok?'validated':'experimental';
+  const tag=ok?'EDGE VERIFIED':'EXPERIMENTAL';
+  const line=ok
+    ?`Following the pod has beaten market prices in our forward test. Treat rankings as meaningful — and keep grading.`
+    :`Following the pod has <b>not</b> beaten market prices so far. What you see below is where the money sits, not what to bet.`;
+  const nums=(h.n!=null)
+    ?`${h.n} picks graded · edge ${(h.edge_pts>=0?'+':'')}${(h.edge_pts??0).toFixed(1)} pts (95% range ${(h.edge_lo_pts??0).toFixed(1)} to ${(h.edge_hi_pts??0).toFixed(1)}) · ${TRACK.pending??'—'} pending`
+    :'no graded picks yet';
+  el.innerHTML=`<div class="verdict ${cls}"><span class="tag">${tag}</span><p>${line}</p><span class="nums">${nums}</span></div>`;
+}
+
+/* ---------- pod cards ---------- */
+function gauge(forN,againstN){
+  const cap=n=>Math.max(0,Math.min(12,Math.round(n||0)));
+  const f=cap(forN),a=cap(againstN);
+  const ticks=(n)=>Array.from({length:n},()=>'<i></i>').join('');
+  return `<div class="gauge" role="img" aria-label="${f} wallets for, ${a} against">
+    <div class="mid"></div><div class="for">${ticks(f)}</div><div class="against">${ticks(a)}</div></div>`;
+}
+function podChips(r){
+  const chips=[`<span class="chip outcome">${esc(r.outcome||'?')}</span>`];
+  const gap=num(r.entry_gap_cents);
+  if(gap!=null)chips.push(gap>=0?'<span class="chip fresh">FRESH ENTRY</span>':'<span class="chip late">LATE — PRICE MOVED</span>');
+  if(r.conflicted===true)chips.push('<span class="chip split">SPLIT POD</span>');
+  const liq=num(r.liquidity_usd);
+  if(liq!=null&&liq<10000)chips.push('<span class="chip thin">THIN BOOK</span>');
+  return chips.join('');
+}
+function podSentence(r){
+  const n=num(r.trader_count)??num(r.conviction_traders)??0;
+  const opp=num(r.opp_traders);
+  let s=`<b>${n}</b> of the top 50 hold <b>${esc(r.outcome||'?')}</b>`;
+  if(opp!=null)s+=opp>0?`, <b>${opp}</b> bet the other way`:` — none against`;
+  const gap=num(r.entry_gap_cents);
+  if(gap!=null){
+    s+=gap>=0
+      ?`. Price is at or below the pod's average entry (${cents(r.avg_entry)}).`
+      :`. The pod got in around ${cents(r.avg_entry)} — the price has already moved ${Math.abs(gap).toFixed(1)}¢ past them.`;
+  }else{s+='.';}
+  return s;
+}
+function card(r){
+  const price=num(r.best_ask)??num(r.cur_price);
+  return `<article class="card">
+    <div class="top"><h3>${esc(r.market_title||'Untitled market')}</h3>
+      <div class="price">${cents(price)}<small>to buy now</small></div></div>
+    <div class="chips">${podChips(r)}</div>
+    ${gauge(num(r.net_traders)??num(r.trader_count),num(r.opp_traders))}
+    <div class="podline">${podSentence(r)}</div>
+    <div class="money">${usd(r.total_usd)} of pod money in this position${num(r.liquidity_usd)!=null?` · book ${usd(r.liquidity_usd)}`:''}</div>
+  </article>`;
+}
+
+/* ---------- tables ---------- */
+function gapCell(r){const g=num(r.entry_gap_cents);
+  if(g==null)return '<td class="num">—</td>';
+  return `<td class="num ${g>=0?'pos':'neg'}">${g>=0?'+':''}${g.toFixed(1)}¢ ${g>=0?'fresh':'late'}</td>`;}
+function rowsCount(list){return list.map(r=>`<tr>
+  <td class="mkt">${esc(r.market_title)}<div class="out">${esc(r.outcome)}${r.conflicted===true?' · <span class="neg">split pod</span>':''}</div></td>
+  <td class="num">${num(r.trader_count)??'—'}${num(r.opp_traders)?` <span class="neg">(−${num(r.opp_traders)})</span>`:''}</td>
+  <td class="num">${cents(num(r.best_ask)??num(r.cur_price))}</td>
+  <td class="num">${cents(r.avg_entry)}</td>${gapCell(r)}
+  <td class="num">${usd(r.total_usd)}</td></tr>`).join('');}
+function rowsConv(list){return list.map(r=>`<tr>
+  <td class="mkt">${esc(r.market_title)}<div class="out">${esc(r.outcome)}${r.conflicted===true?' · <span class="neg">split pod</span>':''}</div></td>
+  <td class="num">${num(r.conviction_score)??'—'}</td>
+  <td class="num">${num(r.conviction_traders)??'—'}</td>
+  <td class="num">${r.avg_cost_pct!=null?num(r.avg_cost_pct).toFixed(1)+'%':'—'}</td>
+  <td class="num">${r.avg_skill!=null?num(r.avg_skill).toFixed(2):'—'}</td>
+  <td class="num">${cents(num(r.best_ask)??num(r.cur_price))}</td>${gapCell(r)}</tr>`).join('');}
+
+const TABLE_HEAD_COUNT=`<tr><th>Market / outcome</th><th>Wallets (against)</th><th>Price now</th><th>Pod entry</th><th>Entry gap</th><th>Pod $</th></tr>`;
+const TABLE_HEAD_CONV=`<tr><th>Market / outcome</th><th>Conviction</th><th>Wallets</th><th>Avg % bankroll</th><th>Avg skill</th><th>Price now</th><th>Entry gap</th></tr>`;
+
+/* ---------- analyzer ---------- */
+function analyzerOptions(){
+  const seen=new Set(),opts=[];
+  [(REPORT.pure_count_consensus||[]),(REPORT.capital_weighted_consensus||[])].flat().forEach(r=>{
+    const k=(r.condition_id||'')+'|'+(r.outcome||'');
+    if(!r.condition_id||seen.has(k))return;seen.add(k);
+    const p=num(r.best_ask)??num(r.cur_price);if(p==null||p<=0||p>=1)return;
+    opts.push({label:`${r.market_title} — ${r.outcome} @ ${cents(p)}`,price:p});
+  });
+  return opts;
+}
+function recalcAnalyzer(){
+  const out=$('az-out');if(!out)return;
+  const sel=$('az-market'),opts=sel?._opts||[];
+  const o=opts[sel.selectedIndex];if(!o){out.innerHTML='<p>No priced markets in this report.</p>';return;}
+  const stake=num($('az-amount').value)??100;
+  const pIn=num($('az-prob').value);
+  const bank=num($('az-bankroll').value);
+  const a=o.price;
+  let html=`<div class="row"><span>Market says this happens</span><b>${(a*100).toFixed(1)}%</b></div>`;
+  if(pIn==null){
+    html+=`<div class="row"><span>Enter <em>your</em> probability above to compare</span><b>—</b></div>
+      <div class="row"><span>Break-even: you need it to be more likely than</span><b>${(a*100).toFixed(1)}%</b></div>`;
+  }else{
+    const p=Math.max(0,Math.min(100,pIn))/100;
+    const evPerDollar=p*((1-a)/a)-(1-p);
+    const ev=evPerDollar*stake;
+    html+=`<div class="row"><span>You say</span><b>${(p*100).toFixed(0)}%</b></div>
+      <div class="row"><span>Expected value on $${stake.toFixed(0)}</span><b class="${ev>=0?'pos':'neg'}">${ev>=0?'+':''}$${ev.toFixed(2)}</b></div>`;
+    if(p<=a){
+      html+=`<div class="row"><span>Verdict</span><b class="neg">No bet — your own number says the price is fair or high</b></div>`;
+    }else if(bank!=null&&bank>0){
+      const kelly=(p-a)/(1-a);
+      const quarter=Math.max(0,kelly/4)*bank;
+      html+=`<div class="row"><span>Quarter-Kelly size (conservative)</span><b>$${quarter.toFixed(0)}</b></div>`;
+    }
+  }
+  out.innerHTML=html;
+}
+
+/* ---------- main render ---------- */
+function tabBtn(id,label){return `<button class="tab" role="tab" id="t-${id}" aria-selected="${activeTab===id}" onclick="setTab('${id}')">${label}</button>`;}
+function render(){
+  if(!REPORT)return;
+  const m=REPORT.run_metadata||{};
+  const s=REPORT.summary||{};
+  $('meta-strip').textContent=
+    `Updated ${when(m.generated_at_utc)} · ${m.time_period||'?'} leaderboard · `+
+    `${s.traders_with_data??'?'} of ${s.traders_requested??50} wallets read · `+
+    `${s.unique_markets_represented??'?'} markets held${m.active_only!==false?' · live games only':''}`;
+  document.querySelectorAll('#window-seg button').forEach(b=>{
+    b.setAttribute('aria-pressed',String(b.textContent===(m.time_period||'MONTH')));});
+  renderVerdict();
+
+  const pc=REPORT.pure_count_consensus||[];
+  const cap=REPORT.capital_weighted_consensus||[];
+  const hc=REPORT.high_conviction_divergence||[];
+  const cards=pc.slice(0,6).map(card).join('')||'<p class="lede">No consensus positions in this window.</p>';
+
+  const opts=analyzerOptions();
+  $('content').innerHTML=`
+    <section class="sect">
+      <h2>The pod's positions</h2>
+      <p class="lede">The markets where the most top wallets are crowded onto one outcome. Green ticks back it; red ticks bet against it. Remember the banner above — this is a map of money, not a menu of bets.</p>
+      <div class="cards">${cards}</div>
+    </section>
+
+    <section class="sect">
+      <h2>Full tables</h2>
+      <div class="tabs" role="tablist">
+        ${tabBtn('count','BY WALLET COUNT')}${tabBtn('capital','BY DOLLARS')}${tabBtn('conv','BIGGEST CONVICTION')}${tabBtn('az','BET ANALYZER')}
+      </div>
+      <div class="panel" id="p-count" ${activeTab==='count'?'':'hidden'}><table><thead>${TABLE_HEAD_COUNT}</thead><tbody>${rowsCount(pc)}</tbody></table></div>
+      <div class="panel" id="p-capital" ${activeTab==='capital'?'':'hidden'}><table><thead>${TABLE_HEAD_COUNT}</thead><tbody>${rowsCount(cap)}</tbody></table></div>
+      <div class="panel" id="p-conv" ${activeTab==='conv'?'':'hidden'}><table><thead>${TABLE_HEAD_CONV}</thead><tbody>${rowsConv(hc)}</tbody></table></div>
+      <div class="panel" id="p-az" ${activeTab==='az'?'':'hidden'}>
+        <div class="az">
+          <label>Market<select id="az-market" onchange="recalcAnalyzer()"></select></label>
+          <label>Stake ($)<input id="az-amount" type="number" min="1" step="10" value="100" oninput="recalcAnalyzer()"></label>
+          <label>Your probability (%)<input id="az-prob" type="number" min="0" max="100" step="1" placeholder="e.g. 15" oninput="recalcAnalyzer()"></label>
+          <label>Bankroll ($, optional)<input id="az-bankroll" type="number" min="0" step="100" placeholder="for sizing" oninput="recalcAnalyzer()"></label>
+        </div>
+        <div class="az-out" id="az-out"></div>
+        <p class="fineprint">This calculator turns <em>your own</em> probability estimate into expected value and a conservative quarter-Kelly size. It does not know anything you don't: if you can't defend the probability you typed, the output is decoration. Our forward test has not shown pod-following alone beats the market.</p>
+      </div>
+    </section>`;
+
+  const sel=$('az-market');
+  if(sel){sel._opts=opts;sel.innerHTML=opts.map(o=>`<option>${esc(o.label)}</option>`).join('')||'<option>No priced markets</option>';recalcAnalyzer();}
+}
+function setTab(id){activeTab=id;
+  document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',String(t.id==='t-'+id)));
+  ['count','capital','conv','az'].forEach(k=>{const p=$('p-'+k);if(p)p.hidden=(k!==id);});}
+
+/* ---------- data plumbing (same contract as before) ---------- */
+async function loadTrack(){
+  try{const r=await fetch('backtest_summary.json',{cache:'no-store'});
+    if(r.ok)TRACK=await r.json();}catch(_){/* optional file */}
+}
+async function load(){
+  try{
+    const resp=await fetch('consensus_report.json',{cache:'no-store'});
+    if(!resp.ok)throw new Error('HTTP '+resp.status);
+    REPORT=await resp.json();
+    await loadTrack();
+    render();
+  }catch(e){
+    $('content').innerHTML=`<div class="loader">Couldn't load consensus_report.json — ${esc(e.message)}.<br>
+      Start the site with <b>python3 run_dashboard.py</b> (a plain file open can't fetch data).</div>`;
+    $('meta-strip').textContent='Report not loaded';
+  }
+}
+async function refresh(period){
+  if(refreshing)return;refreshing=true;
+  const btn=$('refresh-btn'),label=$('refresh-label');
+  btn.classList.add('busy');btn.disabled=true;label.textContent='Refreshing…';
+  try{
+    const resp=await fetch('/api/refresh',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(period?{time_period:period}:{})});
+    let data={};try{data=await resp.json();}catch(_){}
+    if(!resp.ok)throw new Error(data.error||('HTTP '+resp.status));
+    await load();toast(data.message||'Fresh data loaded.');
+  }catch(e){
+    const hint=(e.message||'').includes('Failed to fetch')
+      ?'Refresh needs run_dashboard.py running (not a plain file open).':e.message;
+    toast('Refresh failed — '+hint,true);
+  }finally{
+    refreshing=false;btn.classList.remove('busy');btn.disabled=false;label.textContent='Refresh data';
+  }
+}
+function setWindow(period){
+  const m=(REPORT&&REPORT.run_metadata)||{};
+  if(refreshing||period===m.time_period)return;
+  refresh(period);
+}
+load();
+setInterval(async()=>{ // auto-pickup when a background run writes a newer report
+  if(refreshing)return;
+  try{
+    const r=await fetch('consensus_report.json',{cache:'no-store'});if(!r.ok)return;
+    const j=await r.json();
+    const a=j.run_metadata&&j.run_metadata.generated_at_utc;
+    const b=REPORT&&REPORT.run_metadata&&REPORT.run_metadata.generated_at_utc;
+    if(a&&a!==b){REPORT=j;await loadTrack();render();toast('Updated with the latest data.');}
+  }catch(_){}
+},7000);
+</script>
+</body>
+</html>
