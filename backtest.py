@@ -261,6 +261,8 @@ def load_snapshot_calls() -> tuple[list[dict], str, str]:
                     "vegas_prob": c.get("vegas_prob"),
                     "conflicted": c.get("conflicted"),
                     "net_traders": c.get("net_traders"),
+                    "is_new": c.get("is_new"),
+                    "net_delta": c.get("net_delta"),
                     "market_title": c.get("market_title"),
                     "first_seen": ts,
                 }
@@ -359,6 +361,12 @@ def write_summary_json(scored: list[dict], summary: dict, pending: int,
             out["cohorts"]["agreement"] = {
                 "clean": _cohort_stats(k[k["conflicted"] == False]),   # noqa: E712
                 "conflicted": _cohort_stats(k[k["conflicted"] == True]),  # noqa: E712
+            }
+        if "is_new" in u.columns and u["is_new"].notna().any():
+            mv = u[u["is_new"].notna()]
+            out["cohorts"]["movement"] = {
+                "new_or_rising": _cohort_stats(mv[(mv["is_new"] == True) | (mv["net_delta"].fillna(0) >= 1)]),   # noqa: E712
+                "standing": _cohort_stats(mv[(mv["is_new"] == False) & (mv["net_delta"].fillna(0) < 1)]),  # noqa: E712
             }
     with open(path, "w") as f:
         json.dump(out, f, indent=2, default=str)

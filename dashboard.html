@@ -87,6 +87,17 @@ a{color:var(--tide)}
 .chip.late{background:var(--buoy-soft);border-color:var(--buoy);color:var(--buoy)}
 .chip.split{background:var(--flare-soft);border-color:var(--flare);color:var(--flare)}
 .chip.thin{background:var(--flare-soft);border-color:var(--flare);color:var(--flare)}
+.chip.new{background:var(--kelp);border-color:var(--kelp);color:#fff}
+.chip.up{background:var(--kelp-soft);border-color:var(--kelp);color:var(--kelp)}
+.chip.down{background:var(--flare-soft);border-color:var(--flare);color:var(--flare)}
+.standing{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.standing .srow{display:flex;align-items:center;gap:.9rem;padding:.65rem 1rem;border-bottom:1px solid var(--line)}
+.standing .srow:last-child{border-bottom:0}
+.standing .st{flex:1;min-width:0}
+.standing .st .t{font-weight:600;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.standing .st .o{font-size:12px;color:var(--ink-soft)}
+.standing .sp{font-family:var(--mono);font-size:13px;font-weight:600;white-space:nowrap}
+.standing .sn{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);white-space:nowrap}
 
 /* signature: the pod gauge */
 .gauge{--h:14px;position:relative;height:var(--h);background:var(--panel-2);border-radius:7px;overflow:hidden;border:1px solid var(--line)}
@@ -180,6 +191,8 @@ footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line-strong
       <dt>fresh / late</dt><dd>Fresh: the price is still at or below what the pod paid — you'd get their entry or better. Late: the price already moved past their entry; our own testing shows chasing late has graded worst.</dd>
       <dt>split pod</dt><dd>Top wallets hold BOTH sides of this market. Consensus in name only.</dd>
       <dt>thin book</dt><dd>Under $10k of liquidity — the listed price moves the moment real money touches it.</dd>
+      <dt>moving now</dt><dd>The pod entered this market, or its net wallet count changed, since the previous data refresh. New conviction — the part worth checking daily.</dd>
+      <dt>standing</dt><dd>Held for multiple checks with no change. Context, not news: these markets (World Cup outrights especially) sit at the top of raw rankings for weeks.</dd>
       <dt>the banner</dt><dd>Our forward test grades every consensus pick after its market resolves. Until the whole confidence interval clears zero, the banner stays orange and this page is a research instrument, not betting advice.</dd>
     </dl>
   </details>
@@ -236,6 +249,10 @@ function gauge(forN,againstN){
 }
 function podChips(r){
   const chips=[`<span class="chip outcome">${esc(r.outcome||'?')}</span>`];
+  const d=num(r.net_delta);
+  if(r.is_new===true)chips.push('<span class="chip new">NEW TO THE BOARD</span>');
+  else if(d!=null&&d>=1)chips.push(`<span class="chip up">▲ +${d.toFixed(0)} WALLET${d>=2?'S':''}</span>`);
+  else if(d!=null&&d<=-1)chips.push(`<span class="chip down">▼ ${d.toFixed(0)} WALLET${d<=-2?'S':''}</span>`);
   const gap=num(r.entry_gap_cents);
   if(gap!=null)chips.push(gap>=0?'<span class="chip fresh">FRESH ENTRY</span>':'<span class="chip late">LATE — PRICE MOVED</span>');
   if(r.conflicted===true)chips.push('<span class="chip split">SPLIT POD</span>');
@@ -346,15 +363,42 @@ function render(){
   const pc=REPORT.pure_count_consensus||[];
   const cap=REPORT.capital_weighted_consensus||[];
   const hc=REPORT.high_conviction_divergence||[];
-  const cards=pc.slice(0,6).map(card).join('')||'<p class="lede">No consensus positions in this window.</p>';
+  const isMover=r=>r.is_new===true||Math.abs(num(r.net_delta)??0)>=1;
+  const hasMovement=pc.some(r=>r.is_new!=null);
+  const movers=pc.filter(isMover)
+    .sort((a,b)=>(b.is_new===true)-(a.is_new===true)||Math.abs(num(b.net_delta)??0)-Math.abs(num(a.net_delta)??0));
+  let standing=pc.filter(r=>!isMover(r));
+  // diversity cap: max 2 standing rows per event so one World Cup can't flood the board
+  const perEvent={};
+  standing=standing.filter(r=>{const k=r.event_slug||r.market_title||'?';
+    perEvent[k]=(perEvent[k]||0)+1;return perEvent[k]<=2;});
+  const moverCards=movers.slice(0,6).map(card).join('');
+  const standRows=standing.slice(0,8).map(r=>{
+    const d=num(r.net_delta);
+    return `<div class="srow">
+      <div class="st"><div class="t">${esc(r.market_title)}</div><div class="o">${esc(r.outcome)}${r.conflicted===true?' · <span class="neg">split pod</span>':''}</div></div>
+      <div class="sn">${num(r.net_traders)??num(r.trader_count)??'—'} net wallets · ${d!=null?(d===0?'unchanged':((d>0?'+':'')+d.toFixed(0))+' today'):'held'}</div>
+      <div class="sp">${cents(num(r.best_ask)??num(r.cur_price))}</div></div>`;}).join('');
+  const movingSection=hasMovement
+    ?(moverCards
+      ?`<section class="sect"><h2>Moving now</h2>
+         <p class="lede">Markets the pod just entered or where its net backing changed since the last check — the closest thing this data has to news.</p>
+         <div class="cards">${moverCards}</div></section>`
+      :`<section class="sect"><h2>Moving now</h2>
+         <p class="lede">No new pod movement since the last check. The standing positions below are unchanged — quiet is a valid reading.</p></section>`)
+    :`<section class="sect"><h2>The pod\'s positions</h2>
+       <p class="lede">Movement tracking begins with the next data refresh — this report predates the upgrade.</p>
+       <div class="cards">${pc.slice(0,6).map(card).join('')}</div></section>`;
+  const standingSection=(hasMovement&&standRows)
+    ?`<section class="sect"><h2>Standing positions</h2>
+       <p class="lede">Long-held pod positions (max two per event). These have topped the board for days — parked money, not fresh conviction.</p>
+       <div class="standing">${standRows}</div></section>`:'';
+  const cards='';
 
   const opts=analyzerOptions();
   $('content').innerHTML=`
-    <section class="sect">
-      <h2>The pod's positions</h2>
-      <p class="lede">The markets where the most top wallets are crowded onto one outcome. Green ticks back it; red ticks bet against it. Remember the banner above — this is a map of money, not a menu of bets.</p>
-      <div class="cards">${cards}</div>
-    </section>
+    ${movingSection}
+    ${standingSection}
 
     <section class="sect">
       <h2>Full tables</h2>

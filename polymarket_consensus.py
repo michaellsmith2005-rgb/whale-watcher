@@ -551,6 +551,49 @@ def add_market_quality(grouped: pd.DataFrame, quality: dict[str, dict]) -> pd.Da
     return g
 
 
+def add_movement(report: dict, snapshot_dir) -> dict:
+    """
+    Annotate every consensus row with movement vs the PREVIOUS snapshot:
+      net_prev  — this (market, outcome)'s net wallet count last run
+      net_delta — change since last run
+      is_new    — first appearance on the consensus board
+    Why: long-running markets (World Cup outrights) park at the top of any raw
+    count ranking for weeks. Movement is the daily signal; standing positions are
+    context. Recorded at fire-time so the backtest can grade 'the pod just
+    moved' as its own cohort.
+    """
+    import glob as _glob, os as _os
+    tables = ("pure_count_consensus", "capital_weighted_consensus", "high_conviction_divergence")
+    prev_net: dict = {}
+    try:
+        files = sorted(_glob.glob(_os.path.join(str(snapshot_dir), "consensus_*.json")))
+        if files:
+            with open(files[-1]) as f:
+                prev = json.load(f)
+            for tbl in tables:
+                for r in prev.get(tbl, []) or []:
+                    k = (r.get("condition_id"), r.get("outcome"))
+                    n = r.get("net_traders", r.get("trader_count", r.get("conviction_traders")))
+                    if k[0] and n is not None:
+                        prev_net[k] = max(prev_net.get(k, float("-inf")), float(n))
+    except (OSError, json.JSONDecodeError, ValueError):
+        pass
+    have_prev = bool(prev_net)
+    for tbl in tables:
+        for r in report.get(tbl, []) or []:
+            cur = r.get("net_traders", r.get("trader_count", r.get("conviction_traders")))
+            p = prev_net.get((r.get("condition_id"), r.get("outcome")))
+            if not have_prev:           # no history at all — unknown, not "new"
+                r["net_prev"], r["net_delta"], r["is_new"] = None, None, None
+            elif p is None:
+                r["net_prev"], r["net_delta"], r["is_new"] = None, None, True
+            else:
+                r["net_prev"] = p
+                r["net_delta"] = (float(cur) - p) if cur is not None else None
+                r["is_new"] = False
+    return report
+
+
 def add_conflict_flags(grouped: pd.DataFrame, df: pd.DataFrame) -> pd.DataFrame:
     """
     Detect self-contradicting consensus. The forward replay showed the same market
@@ -937,6 +980,9 @@ def main():
     except Exception as exc:
         logger.error(f"Pipeline failed: {exc!r}")
         sys.exit(1)
+
+    from pathlib import Path as _Path
+    report = add_movement(report, _Path(args.out_json).resolve().parent / "snapshots")
 
     with open(args.out_json, "w") as f:
         json.dump(report, f, indent=2, default=str)
