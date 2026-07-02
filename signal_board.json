@@ -1,0 +1,326 @@
+{
+  "generated_at_utc": "2026-07-02T18:21:57.069362+00:00",
+  "status": "EXPERIMENTAL \u2014 no verified edge yet",
+  "edge_detected": false,
+  "track_record": {
+    "n": 107,
+    "excluded_certain": 16,
+    "win_rate": 0.5046728971962616,
+    "wr_lo": 0.4114309421532985,
+    "wr_hi": 0.597590941327272,
+    "implied": 0.5306205607476635,
+    "edge_pts": -2.594766355140188,
+    "edge_lo_pts": -11.9189618594365,
+    "edge_hi_pts": 6.697038057960847,
+    "brier": 0.29504051850467283,
+    "roi_net": 0.4040432118691789,
+    "roi_median": 0.026572475143903696
+  },
+  "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
+  "board": [
+    {
+      "market": "Will Spain win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.109,
+      "net_traders": 9,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 7213074.13,
+      "score": 71.2
+    },
+    {
+      "market": "Will England win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.081,
+      "net_traders": 8,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 4591011.14,
+      "score": 67.7
+    },
+    {
+      "market": "Will Brazil win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.065,
+      "net_traders": 8,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 4100221.11,
+      "score": 66.9
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.347,
+      "net_traders": 10,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6922966.7,
+      "score": 66.7
+    },
+    {
+      "market": "Will Switzerland win on 2026-07-02?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 7,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1157018.93,
+      "score": 66.5
+    },
+    {
+      "market": "Will Mexico win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.036,
+      "net_traders": 8,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 979054.62,
+      "score": 63.2
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.185,
+      "net_traders": 7,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 8445046.74,
+      "score": 62.0
+    },
+    {
+      "market": "Will Croatia win on 2026-07-02?",
+      "outcome": "No",
+      "price": 0.8325,
+      "net_traders": 2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 733472.63,
+      "score": 42.6
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Spain vs. Austria: Team to Advance",
+      "outcome": "Spain",
+      "price": 0.875,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1772353.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Belgium win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.016,
+      "net_traders": 9,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 4818377.04,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Norway win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.019,
+      "net_traders": 9,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2685710.16,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.816,
+      "net_traders": -7,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 8445046.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 2 - 0 Austria?",
+      "outcome": "No",
+      "price": 0.85,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 616027.24,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 3 - 1 Austria?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 502663.99,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Spain win on 2026-07-02?",
+      "outcome": "Yes",
+      "price": 0.7425,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2067880.37,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 2 - 1 Austria?",
+      "outcome": "No",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 423950.01,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Spain (-1.5)",
+      "outcome": "Austria",
+      "price": 0.495,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2386045.97,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Austria win on 2026-07-02?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1264351.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Portugal win on 2026-07-02?",
+      "outcome": "Yes",
+      "price": 0.5875,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1048362.85,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Portugal win on 2026-07-02?",
+      "outcome": "No",
+      "price": 0.415,
+      "net_traders": -3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1048362.85,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 3 - 0 Austria?",
+      "outcome": "No",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 710669.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spain vs. Austria: Austria O/U 0.5",
+      "outcome": "Over",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 312973.16,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    }
+  ],
+  "source_report_generated_at": "2026-07-02T18:21:55.479729+00:00"
+}
