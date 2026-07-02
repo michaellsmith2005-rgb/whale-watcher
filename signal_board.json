@@ -1,46 +1,74 @@
 {
-  "generated_at_utc": "2026-07-01T23:27:41.117041+00:00",
+  "generated_at_utc": "2026-07-02T12:29:21.100350+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 93,
-    "excluded_certain": 14,
-    "win_rate": 0.45161290322580644,
-    "wr_lo": 0.3543959312279996,
-    "wr_hi": 0.5526688012836483,
-    "implied": 0.511251612903226,
-    "edge_pts": -5.963870967741952,
-    "edge_lo_pts": -15.685568167522634,
-    "edge_hi_pts": 4.14171883804223,
-    "brier": 0.3057100589247312,
-    "roi_net": 0.28495071233765973,
-    "roi_median": -1.02
+    "n": 107,
+    "excluded_certain": 16,
+    "win_rate": 0.5046728971962616,
+    "wr_lo": 0.4114309421532985,
+    "wr_hi": 0.597590941327272,
+    "implied": 0.5306205607476635,
+    "edge_pts": -2.594766355140188,
+    "edge_lo_pts": -11.9189618594365,
+    "edge_hi_pts": 6.697038057960847,
+    "brier": 0.29504051850467283,
+    "roi_net": 0.4040432118691789,
+    "roi_median": 0.026572475143903696
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.103,
-      "net_traders": 8,
+      "price": 0.101,
+      "net_traders": 10,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 7880857.3,
-      "score": 67.7
+      "liquidity_usd": 9463826.33,
+      "score": 81.3
     },
     {
       "market": "Will England win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.082,
-      "net_traders": 7,
+      "price": 0.083,
+      "net_traders": 8,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3366418.41,
-      "score": 64.2
+      "liquidity_usd": 5349555.49,
+      "score": 74.3
+    },
+    {
+      "market": "Will Switzerland win on 2026-07-02?",
+      "outcome": "Yes",
+      "price": 0.48,
+      "net_traders": 6,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 734170.19,
+      "score": 66.8
+    },
+    {
+      "market": "Will Cabo Verde win on 2026-07-03?",
+      "outcome": "No",
+      "price": 0.958,
+      "net_traders": 6,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 301669.44,
+      "score": 66.4
     },
     {
       "market": "Will Brazil win the 2026 FIFA World Cup?",
@@ -51,187 +79,141 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 3410160.22,
-      "score": 62.9
+      "liquidity_usd": 4626210.1,
+      "score": 63.2
     },
     {
       "market": "Will Portugal win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.058,
+      "price": 0.061,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3351805.66,
+      "liquidity_usd": 3686017.29,
       "score": 60.7
     },
     {
-      "market": "Will France win the 2026 FIFA World Cup?",
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.359,
-      "net_traders": 6,
+      "price": 0.184,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 5719732.69,
-      "score": 50.0
+      "liquidity_usd": 9591409.21,
+      "score": 60.3
     },
     {
-      "market": "Exact Score: United States 2 - 1 Bosnia and Herzegovina?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 2,
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.351,
+      "net_traders": 9,
       "signals": [
-        "capital_weighted"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 485739.53,
-      "score": 46.4
+      "liquidity_usd": 8193207.4,
+      "score": 59.9
     },
     {
-      "market": "Will Cabo Verde win on 2026-07-03?",
+      "market": "Will Portugal vs. Croatia end in a draw?",
       "outcome": "No",
-      "price": 0.958,
+      "price": 0.74,
       "net_traders": 2,
       "signals": [
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 250139.03,
-      "score": 45.4
+      "liquidity_usd": 413365.45,
+      "score": 44.4
+    },
+    {
+      "market": "Will Croatia win on 2026-07-02?",
+      "outcome": "No",
+      "price": 0.825,
+      "net_traders": 2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 447478.43,
+      "score": 44.0
     }
   ],
   "excluded": [
     {
       "market": "Will Norway win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.023,
-      "net_traders": 7,
+      "price": 0.019,
+      "net_traders": 8,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 2218629.02,
+      "liquidity_usd": 2564169.95,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "St. Louis Cardinals vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.48,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 79046.32,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Colombia win the 2026 FIFA World Cup?",
+      "market": "Will Belgium win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.026,
+      "price": 0.016,
       "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1950066.31,
+      "liquidity_usd": 4420447.83,
       "why_excluded": [
         "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Spread: Philadelphia Phillies (-1.5)",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.86,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 208.94,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Spread: United States (-1.5)",
-      "outcome": "United States",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1933557.38,
-      "why_excluded": [
-        "cohort on both sides"
       ]
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.819,
-      "net_traders": -3,
+      "price": 0.817,
+      "net_traders": -4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 7191186.93,
+      "liquidity_usd": 9591409.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: United States (-1.5)",
-      "outcome": "Bosnia and Herzegovina",
-      "price": 0.48,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.803,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 1933557.38,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bosnia and Herzegovina win on 2026-07-01?",
-      "outcome": "No",
-      "price": 0.91,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
       "fresh": false,
-      "liquidity_usd": 4292476.75,
+      "liquidity_usd": 557556.34,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Exact Score: United States 3 - 1 Bosnia and Herzegovina?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": 2,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.198,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 348653.73,
+      "fresh": true,
+      "liquidity_usd": 557556.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,73 +222,59 @@
       "market": "Argentina vs. Cabo Verde: Team to Advance",
       "outcome": "Argentina",
       "price": 0.92,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 236058.04,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. Philadelphia Phillies",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.07,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 37855.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.182,
-      "net_traders": 3,
+      "net_traders": -1,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 7191186.93,
+      "liquidity_usd": 455247.39,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will United States vs. Bosnia and Herzegovina end in a draw?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 0,
+      "market": "Will Portugal win on 2026-07-02?",
+      "outcome": "Yes",
+      "price": 0.57,
+      "net_traders": -1,
       "signals": [
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3259334.25,
+      "liquidity_usd": 957959.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will United States win on 2026-07-01?",
-      "outcome": "Yes",
-      "price": 0.72,
+      "market": "Will Austria win on 2026-07-02?",
+      "outcome": "No",
+      "price": 0.9225,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 601113.65,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Portugal win on 2026-07-02?",
+      "outcome": "No",
+      "price": 0.4325,
       "net_traders": -1,
       "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 3280905.04,
+      "liquidity_usd": 957959.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-01T23:27:39.815696+00:00"
+  "source_report_generated_at": "2026-07-02T12:29:19.757417+00:00"
 }
