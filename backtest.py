@@ -275,27 +275,46 @@ def _cohort_line(df: pd.DataFrame, label: str) -> str:
             f"paid {imp*100:5.1f}%  edge {(wr-imp)*100:+5.1f} pts")
 
 
+def _dedup_markets(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    One row per (market, outcome). The same market fires in up to three signal
+    families; treating those as independent calls lets a handful of markets
+    triple-count and juice a cohort (seen 2026-07-02: 'conflicted +19.6 pts'
+    was ~5 markets echoed across families). by_signal keeps the full frame —
+    comparing families is its whole point — every other cohort dedups first.
+    Prefer ask-priced rows (most tradeable) when duplicates disagree.
+    """
+    order = {"ask": 0, "sibling_ask": 1, "mid": 2, "sibling_mid": 3}
+    d = df.copy()
+    d["_src_rank"] = d.get("price_source", pd.Series(index=d.index)).map(order).fillna(9)
+    d = d.sort_values("_src_rank").drop_duplicates(subset=["condition_id", "outcome"])
+    return d.drop(columns=["_src_rank"])
+
+
 def print_cohorts(scored: list[dict]):
     """The research questions: WHICH signal has edge, and does freshness/Vegas matter?"""
     df = pd.DataFrame(scored)
-    print("\n  By signal family:")
+    print("\n  By signal family (all calls — families overlap by design):")
     for sig in SIGNAL_TABLES:
         print(_cohort_line(df[df["signal"] == sig], sig))
 
-    if "conflicted" in df.columns and df["conflicted"].notna().any():
-        k = df[df["conflicted"].notna()]
+    u = _dedup_markets(df)
+    print(f"\n  Cohorts below use unique markets only ({len(u)} of {len(df)} calls):")
+
+    if "conflicted" in u.columns and u["conflicted"].notna().any():
+        k = u[u["conflicted"].notna()]
         print("\n  By internal agreement (cohort on both sides of the market?):")
         print(_cohort_line(k[k["conflicted"] == False], "clean (one-sided cohort)"))  # noqa: E712
         print(_cohort_line(k[k["conflicted"] == True], "conflicted (both sides)"))    # noqa: E712
 
-    if df["entry_gap_cents"].notna().any():
-        g = df[df["entry_gap_cents"].notna()]
+    if u["entry_gap_cents"].notna().any():
+        g = u[u["entry_gap_cents"].notna()]
         print("\n  By freshness (entry gap = crowd avg entry − price at signal):")
         print(_cohort_line(g[g["entry_gap_cents"] >= 0], "fresh (≤ crowd's entry)"))
         print(_cohort_line(g[g["entry_gap_cents"] < 0], "late (past crowd's entry)"))
 
-    if df["vegas_prob"].notna().any():
-        v = df[df["vegas_prob"].notna()].copy()
+    if u["vegas_prob"].notna().any():
+        v = u[u["vegas_prob"].notna()].copy()
         v["v_edge"] = v["vegas_prob"] - v["price"]
         print("\n  By Vegas confirmation (vegas prob vs price paid):")
         print(_cohort_line(v[v["v_edge"] >= 0.01], "vegas agrees (≥ +1 pt)"))
@@ -323,17 +342,20 @@ def write_summary_json(scored: list[dict], summary: dict, pending: int,
         "cohorts": {},
     }
     if not df.empty:
+        u = _dedup_markets(df)
+        out["n_calls"] = int(len(df))
+        out["n_unique_markets"] = int(len(u))
         out["cohorts"]["by_signal"] = {
             s: _cohort_stats(df[df["signal"] == s]) for s in SIGNAL_TABLES
         }
-        if df["entry_gap_cents"].notna().any():
-            g = df[df["entry_gap_cents"].notna()]
+        if u["entry_gap_cents"].notna().any():
+            g = u[u["entry_gap_cents"].notna()]
             out["cohorts"]["freshness"] = {
                 "fresh": _cohort_stats(g[g["entry_gap_cents"] >= 0]),
                 "late": _cohort_stats(g[g["entry_gap_cents"] < 0]),
             }
-        if "conflicted" in df.columns and df["conflicted"].notna().any():
-            k = df[df["conflicted"].notna()]
+        if "conflicted" in u.columns and u["conflicted"].notna().any():
+            k = u[u["conflicted"].notna()]
             out["cohorts"]["agreement"] = {
                 "clean": _cohort_stats(k[k["conflicted"] == False]),   # noqa: E712
                 "conflicted": _cohort_stats(k[k["conflicted"] == True]),  # noqa: E712
