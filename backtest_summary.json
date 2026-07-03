@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-03T08:38:39.298376+00:00",
-  "pending": 73,
+  "generated_at_utc": "2026-07-03T18:01:08.701251+00:00",
+  "pending": 87,
   "edge_detected": false,
   "headline": {
-    "n": 136,
+    "n": 137,
     "excluded_certain": 16,
-    "win_rate": 0.5441176470588235,
-    "wr_lo": 0.46034800812412696,
-    "wr_hi": 0.6254633670317638,
-    "implied": 0.5599367647058823,
-    "edge_pts": -1.581911764705879,
-    "edge_lo_pts": -9.95887565817553,
-    "edge_hi_pts": 6.552660232588147,
-    "brier": 0.2660727792647059,
-    "roi_net": 0.313006620352205,
+    "win_rate": 0.5401459854014599,
+    "wr_lo": 0.4567330035960643,
+    "wr_hi": 0.6213689208353538,
+    "implied": 0.5586233576642337,
+    "edge_pts": -1.8477372262773795,
+    "edge_lo_pts": -10.189035406816938,
+    "edge_hi_pts": 6.274556317112012,
+    "brier": 0.26518465678832115,
+    "roi_net": 0.30327664502116697,
     "roi_median": 0.06695652173913039
   },
   "cohorts": {
@@ -31,18 +31,18 @@
         "edge_pts": 0.25
       },
       "conviction": {
-        "n": 31,
-        "win_rate": 0.6129,
-        "implied": 0.6441,
-        "edge_pts": -3.12
+        "n": 32,
+        "win_rate": 0.5938,
+        "implied": 0.6359,
+        "edge_pts": -4.21
       }
     },
     "freshness": {
       "fresh": {
-        "n": 36,
-        "win_rate": 0.4722,
-        "implied": 0.4873,
-        "edge_pts": -1.51
+        "n": 37,
+        "win_rate": 0.4595,
+        "implied": 0.4844,
+        "edge_pts": -2.5
       },
       "late": {
         "n": 43,
@@ -59,13 +59,24 @@
         "edge_pts": 3.9
       },
       "conflicted": {
-        "n": 26,
-        "win_rate": 0.6538,
-        "implied": 0.635,
-        "edge_pts": 1.88
+        "n": 27,
+        "win_rate": 0.6296,
+        "implied": 0.6256,
+        "edge_pts": 0.41
+      }
+    },
+    "movement": {
+      "new_or_rising": {
+        "n": 1,
+        "win_rate": 0.0,
+        "implied": 0.38,
+        "edge_pts": -38.0
+      },
+      "standing": {
+        "n": 0
       }
     }
   },
-  "n_calls": 136,
-  "n_unique_markets": 80
+  "n_calls": 137,
+  "n_unique_markets": 81
 }

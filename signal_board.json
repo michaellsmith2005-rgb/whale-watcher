@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-03T08:38:39.394558+00:00",
+  "generated_at_utc": "2026-07-03T18:01:08.807260+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 136,
+    "n": 137,
     "excluded_certain": 16,
-    "win_rate": 0.5441176470588235,
-    "wr_lo": 0.46034800812412696,
-    "wr_hi": 0.6254633670317638,
-    "implied": 0.5599367647058823,
-    "edge_pts": -1.581911764705879,
-    "edge_lo_pts": -9.95887565817553,
-    "edge_hi_pts": 6.552660232588147,
-    "brier": 0.2660727792647059,
-    "roi_net": 0.313006620352205,
+    "win_rate": 0.5401459854014599,
+    "wr_lo": 0.4567330035960643,
+    "wr_hi": 0.6213689208353538,
+    "implied": 0.5586233576642337,
+    "edge_pts": -1.8477372262773795,
+    "edge_lo_pts": -10.189035406816938,
+    "edge_hi_pts": 6.274556317112012,
+    "brier": 0.26518465678832115,
+    "roi_net": 0.30327664502116697,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,198 +21,83 @@
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.123,
-      "net_traders": 6,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 8398819.85,
-      "score": 67.3
-    },
-    {
-      "market": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.064,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3779716.71,
-      "score": 67.1
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.073,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5485054.37,
-      "score": 63.8
-    },
-    {
-      "market": "Will Brazil win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.063,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 4512459.04,
-      "score": 60.7
-    },
-    {
-      "market": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.336,
+      "price": 0.13,
       "net_traders": 7,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
+      "fresh": true,
+      "liquidity_usd": 7451976.5,
+      "score": 76.7
+    },
+    {
+      "market": "Will Argentina win on 2026-07-03?",
+      "outcome": "Yes",
+      "price": 0.86,
+      "net_traders": 6,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
       "fresh": false,
-      "liquidity_usd": 7209653.4,
-      "score": 59.7
+      "liquidity_usd": 3207138.35,
+      "score": 73.7
+    },
+    {
+      "market": "Will Portugal win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.059,
+      "net_traders": 7,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 4441080.62,
+      "score": 70.8
+    },
+    {
+      "market": "Will England win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.072,
+      "net_traders": 7,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 4902690.89,
+      "score": 64.2
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.334,
+      "net_traders": 8,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 7732220.59,
+      "score": 55.7
     }
   ],
   "excluded": [
     {
-      "market": "Will Argentina win on 2026-07-03?",
+      "market": "Will Egypt win on 2026-07-03?",
       "outcome": "Yes",
-      "price": 0.87,
-      "net_traders": 2,
+      "price": 0.39,
+      "net_traders": 3,
       "signals": [
         "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1726311.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.192,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 8433682.32,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Norway win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.019,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2903597.7,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Colombia win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.023,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2324176.74,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Argentina vs. Cabo Verde: Team to Advance",
-      "outcome": "Argentina",
-      "price": 0.94,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1718915.61,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.809,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 8433682.32,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.796,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 397679.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.206,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 397679.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: G2 Esports vs Top Esports (BO5) - Mid-Season Invitational Playoffs",
-      "outcome": "Top Esports",
-      "price": 0.38,
-      "net_traders": -1,
-      "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 86370.28,
+      "liquidity_usd": 4362534.42,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -220,13 +105,147 @@
     {
       "market": "Australia vs. Egypt: Team to Advance",
       "outcome": "Egypt",
-      "price": 0.42,
-      "net_traders": 0,
+      "price": 0.41,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1500741.28,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Australia vs. Egypt end in a draw?",
+      "outcome": "No",
+      "price": 0.65,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1102452.26,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Argentina vs. Cabo Verde: Team to Advance",
+      "outcome": "Argentina",
+      "price": 0.94,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2414609.43,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Australia vs. Egypt: Team to Advance",
+      "outcome": "Australia",
+      "price": 0.41,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1500741.28,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.807,
+      "net_traders": -4,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 8793117.23,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Australia vs. Egypt: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.33,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1252910.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.194,
+      "net_traders": 4,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 8793117.23,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Argentina (-1.5)",
+      "outcome": "Argentina",
+      "price": 0.67,
+      "net_traders": -1,
       "signals": [
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 664588.49,
+      "liquidity_usd": 629436.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Australia vs. Egypt: Both Teams to Score",
+      "outcome": "Yes",
+      "price": 0.47,
+      "net_traders": 2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 369282.65,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Mexico win on 2026-07-05?",
+      "outcome": "Yes",
+      "price": 0.31,
+      "net_traders": 1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 479813.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -234,17 +253,31 @@
     {
       "market": "Will Morocco win on 2026-07-04?",
       "outcome": "Yes",
-      "price": 0.56,
-      "net_traders": -1,
+      "price": 0.54,
+      "net_traders": -2,
       "signals": [
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 455882.72,
+      "liquidity_usd": 798572.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Australia vs. Egypt: O/U 1.5",
+      "outcome": "Over",
+      "price": 0.63,
+      "net_traders": -3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1157571.83,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-03T08:38:37.561928+00:00"
+  "source_report_generated_at": "2026-07-03T18:01:07.268561+00:00"
 }
