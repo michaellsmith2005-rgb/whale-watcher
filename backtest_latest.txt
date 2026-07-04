@@ -1,39 +1,39 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  257 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-04T16:35)
+  270 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-04T20:31)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 159   |   still pending: 82
+  Resolved & graded: 173   |   still pending: 81
 
-    graded calls     : 159
+    graded calls     : 173
     excluded         : 16 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
-    win rate         : 53.5%   (95% CI 45.7–61.0%)
-    implied (price)  : 57.0%   <- what you'd have paid
-    edge vs price    : -3.6 pts  (95% CI -11.3 to +4.0)
+    win rate         : 54.9%   (95% CI 47.5–62.1%)
+    implied (price)  : 56.7%   <- what you'd have paid
+    edge vs price    : -1.8 pts  (95% CI -9.2 to +5.5)
                        ^ CI straddles zero: NO detectable edge at this sample size
-    Brier score      : 0.269   <- lower = better calibrated
-    net ROI/trade    : mean +24.2% | median +6.4%   (2% cost)
+    Brier score      : 0.266   <- lower = better calibrated
+    net ROI/trade    : mean +26.2% | median +6.7%   (2% cost)
 
   By signal family (all calls — families overlap by design):
-    pure_count                : n=55  win  45.5%  paid  50.8%  edge  -5.4 pts
-    capital_weighted          : n=63  win  57.1%  paid  57.9%  edge  -0.7 pts
-    conviction                : n=41  win  58.5%  paid  64.2%  edge  -5.6 pts
+    pure_count                : n=60  win  48.3%  paid  51.3%  edge  -3.0 pts
+    capital_weighted          : n=68  win  57.4%  paid  57.1%  edge  +0.2 pts
+    conviction                : n=45  win  60.0%  paid  63.1%  edge  -3.1 pts
 
-  Cohorts below use unique markets only (92 of 159 calls):
+  Cohorts below use unique markets only (99 of 173 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=5   win  80.0%  paid  85.7%  edge  -5.7 pts
-    conflicted (both sides)   : n=38  win  60.5%  paid  60.8%  edge  -0.3 pts
+    clean (one-sided cohort)  : n=8   win  87.5%  paid  79.7%  edge  +7.8 pts
+    conflicted (both sides)   : n=42  win  57.1%  paid  58.7%  edge  -1.6 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=40  win  45.0%  paid  49.0%  edge  -4.0 pts
-    late (past crowd's entry) : n=51  win  60.8%  paid  62.3%  edge  -1.5 pts
+    fresh (≤ crowd's entry)   : n=43  win  48.8%  paid  49.4%  edge  -0.6 pts
+    late (past crowd's entry) : n=55  win  58.2%  paid  61.3%  edge  -3.2 pts
 
   By Vegas confirmation (vegas prob vs price paid):
     vegas agrees (≥ +1 pt)    : n=2   win  50.0%  paid  15.0%  edge +35.0 pts
     vegas neutral             : n=5   win  40.0%  paid  51.6%  edge -11.6 pts
-    vegas disagrees           : n=3   win  33.3%  paid  87.0%  edge -53.7 pts
+    vegas disagrees           : n=2   win  50.0%  paid  87.5%  edge -37.5 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens
       of graded calls spanning different events.
@@ -41,11 +41,11 @@ FORWARD REPLAY — grading past consensus calls against true resolutions
   Most-backed graded calls:
     [WON ] [pure_count      ] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
     [WON ] [capital_weighted] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
+    [WON ] [capital_weighted] 12× @ 0.54 (ask) | Will Morocco win on 2026-07-04? -> Yes
     [lost] [capital_weighted] 11× @ 0.82 (ask) | Will Senegal win on 2026-07-01? -> Yes
     [WON ] [pure_count      ] 11× @ 0.57 (ask) | Will Portugal win on 2026-07-02? -> Yes
     [lost] [pure_count      ] 10× @ 0.45 (mid) | Spread: Germany (-1.5) -> Germany
     [lost] [capital_weighted] 10× @ 0.45 (mid) | Spread: Germany (-1.5) -> Germany
     [lost] [pure_count      ] 10× @ 0.26 (ask) | Will Senegal win on 2026-07-01? -> Yes
-    [lost] [pure_count      ] 10× @ 0.92 (ask) | Will Belgium vs. Senegal end in a draw? -> No
 
   Wrote machine-readable summary -> backtest_summary.json
