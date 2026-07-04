@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-04T07:30:22.979477+00:00",
+  "generated_at_utc": "2026-07-04T16:35:55.535842+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -19,130 +19,122 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Spain win the 2026 FIFA World Cup?",
+      "market": "Will Morocco win on 2026-07-04?",
       "outcome": "Yes",
-      "price": 0.124,
-      "net_traders": 8,
+      "price": 0.54,
+      "net_traders": 7,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 8406080.08,
-      "score": 74.3
-    },
-    {
-      "market": "Will Brazil win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.063,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 4522757.85,
-      "score": 60.4
+      "liquidity_usd": 4904916.32,
+      "score": 77.3
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.174,
+      "price": 0.169,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6097805.37,
+      "score": 69.0
+    },
+    {
+      "market": "Will Spain win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.127,
+      "net_traders": 8,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 8215257.95,
+      "score": 67.7
+    },
+    {
+      "market": "Will Canada vs. Morocco end in a draw?",
+      "outcome": "No",
+      "price": 0.72,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1643054.87,
+      "score": 63.0
+    },
+    {
+      "market": "Will Canada win on 2026-07-04?",
+      "outcome": "No",
+      "price": 0.83,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 8924756.59,
-      "score": 57.6
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.075,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": true,
-      "liquidity_usd": 4912640.2,
-      "score": 57.2
+      "liquidity_usd": 3948636.76,
+      "score": 60.3
     },
     {
-      "market": "Will Portugal win the 2026 FIFA World Cup?",
+      "market": "Will Brazil win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.06,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 4952055.87,
-      "score": 57.2
-    },
-    {
-      "market": "Will Colombia win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.031,
-      "net_traders": 5,
+      "price": 0.067,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1500828.63,
-      "score": 55.7
+      "liquidity_usd": 4172621.36,
+      "score": 60.2
     },
     {
       "market": "Will Mexico win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.034,
+      "price": 0.033,
       "net_traders": 3,
       "signals": [
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1484179.5,
-      "score": 46.0
+      "liquidity_usd": 1208087.1,
+      "score": 46.2
     },
     {
       "market": "Will France win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.344,
-      "net_traders": 6,
+      "price": 0.352,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 7678986.7,
-      "score": 42.3
+      "liquidity_usd": 7876531.92,
+      "score": 38.8
     }
   ],
   "excluded": [
     {
-      "market": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.026,
-      "net_traders": 6,
+      "market": "Canada vs. Morocco: Team to Advance",
+      "outcome": "Morocco",
+      "price": 0.29,
+      "net_traders": 3,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 1958811.81,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Morocco win on 2026-07-04?",
-      "outcome": "Yes",
-      "price": 0.54,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1601524.3,
+      "fresh": true,
+      "liquidity_usd": 2507040.42,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -151,54 +143,41 @@
       "market": "Will Norway win the 2026 FIFA World Cup?",
       "outcome": "Yes",
       "price": 0.017,
-      "net_traders": 5,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3447106.54,
+      "liquidity_usd": 3349890.88,
       "why_excluded": [
         "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.827,
-      "net_traders": -4,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 8924756.59,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.797,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 479071.92,
-      "why_excluded": [
-        "cohort on both sides"
       ]
     },
     {
       "market": "Will Morocco win on 2026-07-04?",
       "outcome": "No",
       "price": 0.47,
-      "net_traders": -1,
+      "net_traders": -7,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1601524.3,
+      "liquidity_usd": 4904916.32,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.832,
+      "net_traders": -5,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 6097805.37,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -212,21 +191,21 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 800403.03,
+      "liquidity_usd": 836571.53,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Canada vs. Morocco: Team to Advance",
-      "outcome": "Morocco",
-      "price": 0.28,
-      "net_traders": 1,
+      "outcome": "Canada",
+      "price": 0.29,
+      "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1384626.57,
+      "liquidity_usd": 2507040.42,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,21 +219,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1981363.43,
+      "liquidity_usd": 2016641.7,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Canada vs. Morocco: Both Teams to Score",
       "outcome": "Yes",
-      "price": 0.204,
+      "price": 0.51,
       "net_traders": -1,
       "signals": [
-        "capital_weighted"
+        "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 479071.92,
+      "fresh": false,
+      "liquidity_usd": 577010.88,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -263,16 +242,16 @@
       "market": "Will USA win the 2026 FIFA World Cup?",
       "outcome": "Yes",
       "price": 0.025,
-      "net_traders": 3,
+      "net_traders": 2,
       "signals": [
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3208899.59,
+      "liquidity_usd": 3025845.3,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-04T07:30:21.491645+00:00"
+  "source_report_generated_at": "2026-07-04T16:35:53.911765+00:00"
 }
