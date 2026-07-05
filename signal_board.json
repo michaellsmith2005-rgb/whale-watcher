@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-05T16:38:50.609505+00:00",
+  "generated_at_utc": "2026-07-05T20:39:17.130615+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -21,94 +21,88 @@
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.124,
+      "price": 0.125,
       "net_traders": 8,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 4629120.64,
+      "score": 64.9
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.346,
+      "net_traders": 7,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3601432.15,
+      "score": 45.8
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Brazil vs. Norway: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.37,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 226044.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Brazil vs. Norway: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.37,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 226044.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Brazil win on 2026-07-05?",
+      "outcome": "Yes",
+      "price": 0.53,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 5226074.26,
-      "score": 74.3
+      "liquidity_usd": 485436.09,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     },
     {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.168,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5465271.92,
-      "score": 68.7
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.073,
-      "net_traders": 7,
+      "market": "Will Brazil vs. Norway end in a draw?",
+      "outcome": "No",
+      "price": 0.72,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4161167.96,
-      "score": 64.2
+      "liquidity_usd": 361364.5,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     },
-    {
-      "market": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.063,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3564572.94,
-      "score": 60.7
-    },
-    {
-      "market": "Will Brazil win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.07,
-      "net_traders": 7,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3528349.29,
-      "score": 59.9
-    },
-    {
-      "market": "Will Colombia win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.031,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1656799.9,
-      "score": 59.2
-    },
-    {
-      "market": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.351,
-      "net_traders": 8,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5477513.76,
-      "score": 55.9
-    }
-  ],
-  "excluded": [
     {
       "market": "Mexico vs. England: Team to Advance",
       "outcome": "Mexico",
@@ -116,27 +110,71 @@
       "net_traders": 1,
       "signals": [
         "pure_count",
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2709570.08,
+      "liquidity_usd": 3013004.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Norway win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.017,
-      "net_traders": 6,
+      "market": "Will Brazil win on 2026-07-05?",
+      "outcome": "No",
+      "price": 0.48,
+      "net_traders": -4,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 485436.09,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will England win on 2026-07-05?",
+      "outcome": "No",
+      "price": 0.63,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2863178.96,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Norway win on 2026-07-05?",
+      "outcome": "No",
+      "price": 0.82,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 476231.23,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.827,
+      "net_traders": -4,
+      "signals": [
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3197747.65,
+      "liquidity_usd": 1691570.89,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     },
     {
@@ -145,100 +183,71 @@
       "price": 0.49,
       "net_traders": -1,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 2709570.08,
+      "liquidity_usd": 3013004.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "market": "Exact Score: Brazil 2 - 1 Norway?",
       "outcome": "No",
-      "price": 0.799,
+      "price": 0.9,
       "net_traders": 1,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 335290.96,
+      "liquidity_usd": 57821.16,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Brazil vs. Norway: Both Teams to Score",
+      "outcome": "Yes",
+      "price": 0.45,
+      "net_traders": -1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 132403.94,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.833,
-      "net_traders": -5,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5465271.92,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.202,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 335290.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will England win on 2026-07-05?",
-      "outcome": "No",
-      "price": 0.61,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1229985.97,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Mexico win on 2026-07-05?",
-      "outcome": "No",
-      "price": 0.7,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2154144.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.024,
-      "net_traders": 2,
+      "price": 0.174,
+      "net_traders": 1,
       "signals": [
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 2560215.94,
+      "liquidity_usd": 1691570.89,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Brazil 1 - 1 Norway?",
+      "outcome": "No",
+      "price": 0.86,
+      "net_traders": 1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 67650.41,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-05T16:38:48.846579+00:00"
+  "source_report_generated_at": "2026-07-05T20:39:15.463672+00:00"
 }
