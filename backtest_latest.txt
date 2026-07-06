@@ -1,38 +1,38 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  295 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-05T20:39)
+  304 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-06T12:17)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 187   |   still pending: 91
+  Resolved & graded: 216   |   still pending: 71
 
-    graded calls     : 187
+    graded calls     : 216
     excluded         : 17 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
-    win rate         : 56.1%   (95% CI 49.0–63.1%)
-    implied (price)  : 57.3%   <- what you'd have paid
-    edge vs price    : -1.1 pts  (95% CI -8.3 to +5.8)
+    win rate         : 54.2%   (95% CI 47.5–60.7%)
+    implied (price)  : 56.1%   <- what you'd have paid
+    edge vs price    : -2.0 pts  (95% CI -8.6 to +4.5)
                        ^ CI straddles zero: NO detectable edge at this sample size
-    Brier score      : 0.260   <- lower = better calibrated
-    net ROI/trade    : mean +30.1% | median +6.7%   (2% cost)
+    Brier score      : 0.252   <- lower = better calibrated
+    net ROI/trade    : mean +22.1% | median +6.7%   (2% cost)
 
   By signal family (all calls — families overlap by design):
-    pure_count                : n=62  win  46.8%  paid  50.9%  edge  -4.1 pts
-    capital_weighted          : n=75  win  60.0%  paid  58.1%  edge  +1.9 pts
-    conviction                : n=50  win  62.0%  paid  64.0%  edge  -2.0 pts
+    pure_count                : n=73  win  45.2%  paid  50.0%  edge  -4.8 pts
+    capital_weighted          : n=86  win  57.0%  paid  57.0%  edge  -0.0 pts
+    conviction                : n=57  win  61.4%  paid  62.7%  edge  -1.3 pts
 
-  Cohorts below use unique markets only (110 of 187 calls):
+  Cohorts below use unique markets only (126 of 216 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=9   win  88.9%  paid  81.0%  edge  +7.9 pts
-    conflicted (both sides)   : n=52  win  61.5%  paid  59.3%  edge  +2.3 pts
+    clean (one-sided cohort)  : n=9   win  88.9%  paid  80.4%  edge  +8.5 pts
+    conflicted (both sides)   : n=66  win  60.6%  paid  59.0%  edge  +1.6 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=48  win  52.1%  paid  52.9%  edge  -0.8 pts
-    late (past crowd's entry) : n=61  win  60.7%  paid  60.2%  edge  +0.5 pts
+    fresh (≤ crowd's entry)   : n=54  win  50.0%  paid  52.7%  edge  -2.7 pts
+    late (past crowd's entry) : n=71  win  60.6%  paid  58.7%  edge  +1.8 pts
 
   By Vegas confirmation (vegas prob vs price paid):
-    vegas agrees (≥ +1 pt)    : n=2   win  50.0%  paid  15.0%  edge +35.0 pts
-    vegas neutral             : n=5   win  40.0%  paid  51.6%  edge -11.6 pts
+    vegas agrees (≥ +1 pt)    : n=3   win  33.3%  paid  25.3%  edge  +8.0 pts
+    vegas neutral             : n=5   win  40.0%  paid  41.2%  edge  -1.2 pts
     vegas disagrees           : n=2   win  50.0%  paid  87.5%  edge -37.5 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens
@@ -44,8 +44,8 @@ FORWARD REPLAY — grading past consensus calls against true resolutions
     [WON ] [capital_weighted] 12× @ 0.54 (ask) | Will Morocco win on 2026-07-04? -> Yes
     [lost] [capital_weighted] 11× @ 0.82 (ask) | Will Senegal win on 2026-07-01? -> Yes
     [WON ] [pure_count      ] 11× @ 0.57 (ask) | Will Portugal win on 2026-07-02? -> Yes
-    [lost] [pure_count      ] 10× @ 0.45 (mid) | Spread: Germany (-1.5) -> Germany
-    [lost] [capital_weighted] 10× @ 0.45 (mid) | Spread: Germany (-1.5) -> Germany
-    [lost] [pure_count      ] 10× @ 0.26 (ask) | Will Senegal win on 2026-07-01? -> Yes
+    [lost] [pure_count      ] 11× @ 0.37 (ask) | Brazil vs. Norway: O/U 2.5 -> Under
+    [WON ] [pure_count      ] 11× @ 0.37 (ask) | Brazil vs. Norway: O/U 2.5 -> Over
+    [lost] [capital_weighted] 11× @ 0.37 (ask) | Brazil vs. Norway: O/U 2.5 -> Under
 
   Wrote machine-readable summary -> backtest_summary.json
