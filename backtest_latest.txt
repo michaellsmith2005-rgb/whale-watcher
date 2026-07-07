@@ -1,51 +1,51 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  329 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-07T08:57)
+  341 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-07T19:25)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 25   |   still pending: 301
+  Resolved & graded: 248   |   still pending: 70
 
-    graded calls     : 25
-    excluded         : 3 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
-    win rate         : 56.0%   (95% CI 37.1–73.3%)
-    implied (price)  : 56.7%   <- what you'd have paid
-    edge vs price    : -0.7 pts  (95% CI -19.6 to +16.7)
+    graded calls     : 248
+    excluded         : 23 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
+    win rate         : 54.4%   (95% CI 48.2–60.5%)
+    implied (price)  : 55.7%   <- what you'd have paid
+    edge vs price    : -1.2 pts  (95% CI -7.4 to +4.9)
                        ^ CI straddles zero: NO detectable edge at this sample size
-    Brier score      : 0.311   <- lower = better calibrated
-    net ROI/trade    : mean +68.8% | median +2.4%   (2% cost)
+    Brier score      : 0.243   <- lower = better calibrated
+    net ROI/trade    : mean +18.7% | median +6.7%   (2% cost)
 
   By signal family (all calls — families overlap by design):
-    pure_count                : n=9   win  55.6%  paid  46.0%  edge  +9.6 pts
-    capital_weighted          : n=10  win  60.0%  paid  53.7%  edge  +6.3 pts
-    conviction                : n=6   win  50.0%  paid  77.6%  edge -27.6 pts
+    pure_count                : n=83  win  45.8%  paid  50.0%  edge  -4.2 pts
+    capital_weighted          : n=101 win  56.4%  paid  56.7%  edge  -0.3 pts
+    conviction                : n=64  win  62.5%  paid  61.3%  edge  +1.2 pts
 
-  Cohorts below use unique markets only (16 of 25 calls):
+  Cohorts below use unique markets only (146 of 248 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=2   win 100.0%  paid  84.9%  edge +15.1 pts
-    conflicted (both sides)   : n=5   win  40.0%  paid  53.6%  edge -13.6 pts
+    clean (one-sided cohort)  : n=12  win  83.3%  paid  80.1%  edge  +3.2 pts
+    conflicted (both sides)   : n=82  win  59.8%  paid  58.0%  edge  +1.7 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=6   win  50.0%  paid  38.6%  edge +11.4 pts
-    late (past crowd's entry) : n=10  win  60.0%  paid  59.3%  edge  +0.7 pts
+    fresh (≤ crowd's entry)   : n=63  win  50.8%  paid  51.3%  edge  -0.5 pts
+    late (past crowd's entry) : n=82  win  59.8%  paid  59.5%  edge  +0.2 pts
 
   By Vegas confirmation (vegas prob vs price paid):
-    vegas agrees (≥ +1 pt)    : —
-    vegas neutral             : n=2   win  50.0%  paid  50.5%  edge  -0.5 pts
-    vegas disagrees           : —
+    vegas agrees (≥ +1 pt)    : n=3   win  33.3%  paid  25.3%  edge  +8.0 pts
+    vegas neutral             : n=6   win  33.3%  paid  34.9%  edge  -1.6 pts
+    vegas disagrees           : n=2   win  50.0%  paid  87.5%  edge -37.5 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens
       of graded calls spanning different events.
 
   Most-backed graded calls:
+    [WON ] [pure_count      ] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
+    [WON ] [capital_weighted] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
+    [WON ] [pure_count      ] 13× @ 0.47 (ask) | Portugal vs. Spain: O/U 2.5 -> Under
+    [WON ] [capital_weighted] 13× @ 0.47 (ask) | Portugal vs. Spain: O/U 2.5 -> Under
+    [WON ] [capital_weighted] 12× @ 0.54 (ask) | Will Morocco win on 2026-07-04? -> Yes
     [lost] [capital_weighted] 11× @ 0.82 (ask) | Will Senegal win on 2026-07-01? -> Yes
-    [lost] [pure_count      ] 10× @ 0.26 (ask) | Will Senegal win on 2026-07-01? -> Yes
-    [WON ] [capital_weighted] 9× @ 0.20 (mid) | Will Germany vs. Paraguay end in a draw? -> Yes
-    [lost] [pure_count      ] 9× @ 0.60 (ask) | England vs. DR Congo: O/U 2.5 -> Under
-    [lost] [capital_weighted] 9× @ 0.60 (ask) | England vs. DR Congo: O/U 2.5 -> Under
-    [WON ] [pure_count      ] 9× @ 0.75 (ask) | Will Senegal win on 2026-07-01? -> No
-    [WON ] [capital_weighted] 9× @ 0.75 (ask) | Will Senegal win on 2026-07-01? -> No
-    [WON ] [pure_count      ] 7× @ 0.96 (ask) | Will Cabo Verde win on 2026-07-03? -> No
+    [WON ] [pure_count      ] 11× @ 0.57 (ask) | Will Portugal win on 2026-07-02? -> Yes
+    [lost] [pure_count      ] 11× @ 0.37 (ask) | Brazil vs. Norway: O/U 2.5 -> Under
 
   Wrote machine-readable summary -> backtest_summary.json

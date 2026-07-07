@@ -1,151 +1,172 @@
 {
-  "generated_at_utc": "2026-07-07T08:57:11.532429+00:00",
+  "generated_at_utc": "2026-07-07T19:25:40.601710+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 25,
-    "excluded_certain": 3,
-    "win_rate": 0.56,
-    "wr_lo": 0.3706701701956443,
-    "wr_hi": 0.7333462505299744,
-    "implied": 0.5666599999999999,
-    "edge_pts": -0.6659999999999888,
-    "edge_lo_pts": -19.598982980435565,
-    "edge_hi_pts": 16.66862505299744,
-    "brier": 0.31075133,
-    "roi_net": 0.6878867205247782,
-    "roi_median": 0.023841336116910267
+    "n": 248,
+    "excluded_certain": 23,
+    "win_rate": 0.5443548387096774,
+    "wr_lo": 0.482164381005843,
+    "wr_hi": 0.6051921160939212,
+    "implied": 0.5566064516129033,
+    "edge_pts": -1.2251612903225961,
+    "edge_lo_pts": -7.444207060706032,
+    "edge_hi_pts": 4.8585664481017865,
+    "brier": 0.24302802612903224,
+    "roi_net": 0.18741387661183037,
+    "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.1805,
-      "net_traders": 8,
+      "price": 0.187,
+      "net_traders": 9,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 8059401.23,
+      "score": 69.3
+    },
+    {
+      "market": "Will Switzerland vs. Colombia end in a draw?",
+      "outcome": "No",
+      "price": 0.67,
+      "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": null,
-      "score": 60.3
+      "liquidity_usd": 2912713.7,
+      "score": 68.8
     },
     {
-      "market": "Will Colombia win the 2026 FIFA World Cup?",
+      "market": "Will Morocco win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.0335,
-      "net_traders": 4,
+      "price": 0.031,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": null,
-      "score": 51.4
+      "liquidity_usd": 1710186.94,
+      "score": 53.9
     },
     {
       "market": "Will England win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.1435,
+      "price": 0.151,
       "net_traders": 5,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": null,
-      "score": 50.6
-    },
-    {
-      "market": "Exact Score: Argentina 3 - 1 Egypt?",
-      "outcome": "No",
-      "price": 0.935,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": null,
-      "score": 48.9
-    },
-    {
-      "market": "Will Argentina win on 2026-07-07?",
-      "outcome": "No",
-      "price": 0.275,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": null,
-      "score": 46.7
-    },
-    {
-      "market": "Will Egypt win on 2026-07-07?",
-      "outcome": "No",
-      "price": 0.915,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": null,
-      "score": 43.9
+      "liquidity_usd": 7861128.37,
+      "score": 51.1
     },
     {
       "market": "Will France win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.3305,
-      "net_traders": 5,
+      "price": 0.331,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": null,
-      "score": 38.8
+      "liquidity_usd": 8068159.39,
+      "score": 35.3
     }
   ],
   "excluded": [
     {
+      "market": "Wimbledon ATP: Felix Auger-Aliassime vs Novak Djokovic",
+      "outcome": "Novak Djokovic",
+      "price": 0.55,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 256939.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Switzerland vs. Colombia: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.4,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 3301103.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
       "market": "Will Belgium win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.0225,
+      "price": 0.025,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": null,
+      "liquidity_usd": 2044571.43,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.0275,
-      "net_traders": 6,
+      "market": "Switzerland vs. Colombia: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.4,
+      "net_traders": -2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": null,
+      "liquidity_usd": 3301103.4,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Colombia win on 2026-07-07?",
+      "outcome": "No",
+      "price": 0.59,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5841283.45,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.8135,
-      "net_traders": 0,
+      "price": 0.835,
+      "net_traders": -2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": null,
+      "liquidity_usd": 8995665.74,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -153,87 +174,60 @@
     {
       "market": "Wimbledon ATP: Felix Auger-Aliassime vs Novak Djokovic",
       "outcome": "Felix Auger-Aliassime",
-      "price": 0.395,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": null,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.1865,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": null,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Wimbledon ATP: Jiri Lehecka vs Alexander Zverev",
-      "outcome": "Alexander Zverev",
-      "price": 0.925,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": null,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Argentina vs. Egypt: Team to Advance",
-      "outcome": "Argentina",
-      "price": 0.855,
-      "net_traders": 0,
+      "price": 0.55,
+      "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": null,
+      "liquidity_usd": 256939.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will France win the 2026 FIFA World Cup?",
+      "market": "Exact Score: Switzerland 2 - 3 Colombia?",
       "outcome": "No",
-      "price": 0.6695,
-      "net_traders": -5,
+      "price": 0.978,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1263953.33,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Switzerland 3 - 3 Colombia?",
+      "outcome": "No",
+      "price": 0.99,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": null,
+      "liquidity_usd": 713297.51,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Exact Score: Argentina 1 - 2 Egypt?",
+      "market": "Will Norway win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.9755,
-      "net_traders": 2,
+      "price": 0.94,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": null,
+      "liquidity_usd": 4188092.81,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-07T08:57:09.217505+00:00"
+  "source_report_generated_at": "2026-07-07T19:25:38.352063+00:00"
 }
