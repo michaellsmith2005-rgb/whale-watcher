@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-08T00:15:56.825697+00:00 UTC*  
+*Generated: 2026-07-08T11:32:26.804592+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,53 +8,53 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **648**
-- Unique markets represented: **416**
+- Total open positions analyzed: **845**
+- Unique markets represented: **555**
 
 ## Top 5 Consensus Markets (by trader count)
 
 ### 1. Will Spain win the 2026 FIFA World Cup?
 - **Favored outcome:** Yes
-- **Top-50 traders backing it:** 8
-- **Total combined USD exposure:** $567,348.11
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489, 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, FootballFan98, Jsram, Q96s3kwozynxpau, cnyek, highnetworth
-
-### 2. Atlanta Braves vs. Pittsburgh Pirates
-- **Favored outcome:** Atlanta Braves
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $160,690.92
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, 0x4f2, Eztennis, RN1, swisstony
+- **Total combined USD exposure:** $408,173.15
+- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, FootballFan98, Jsram, Q96s3kwozynxpau, cnyek, highnetworth
 
-### 3. Will Belgium win the 2026 FIFA World Cup?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $91,539.50
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489, FootballFan98, Jsram, Q96s3kwozynxpau, alwayslatetotheparty
-
-### 4. Will France win the 2026 FIFA World Cup?
-- **Favored outcome:** Yes
+### 2. Bastad: Emiliana Arango vs Paula Badosa
+- **Favored outcome:** Paula Badosa
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $1,134,157.69
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, CandleHammerDrums, Jsram, Q96s3kwozynxpau, RJW1
+- **Total combined USD exposure:** $24,817.89
+- **Backers:** 0x076daa87, 0x4f2, RN1, ferrariChampions2026, swisstony
 
-### 5. Will England win the 2026 FIFA World Cup?
-- **Favored outcome:** Yes
+### 3. Trieste: Michele Ribecai vs Matej Dodig
+- **Favored outcome:** Matej Dodig
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $595,961.08
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0xEC445C8BEE160281558EbB9B083AC0025006C92b-1769822891061, Jsram, Q96s3kwozynxpau, alwayslatetotheparty
+- **Total combined USD exposure:** $22,548.63
+- **Backers:** 0x076daa87, RISK-IS-NEVER-OK, RN1, ferrariChampions2026, swisstony
+
+### 4. Contrexeville: Alice Tubello vs Caroline Werner
+- **Favored outcome:** Caroline Werner
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $11,132.49
+- **Backers:** 0x076daa87, 0x4f2, RN1, ferrariChampions2026, swisstony
+
+### 5. Contrexeville: Alice Tubello vs Caroline Werner
+- **Favored outcome:** Alice Tubello
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $30,927.64
+- **Backers:** 0x4f2, RN1, ferrariChampions2026, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will Argentina win the 2026 FIFA World Cup? | No | 2 | $2,220,526.66 |
-| Will France win the 2026 FIFA World Cup? | Yes | 5 | $1,134,157.69 |
-| Atlanta Braves vs. Pittsburgh Pirates | Pittsburgh Pirates | 4 | $687,049.02 |
-| Will Norway win the 2026 FIFA World Cup? | No | 1 | $656,415.35 |
-| Will England win the 2026 FIFA World Cup? | Yes | 5 | $595,961.08 |
+| Will Argentina win the 2026 FIFA World Cup? | No | 3 | $2,238,990.38 |
+| Wimbledon WTA: Marta Kostyuk vs Jasmine Paolini | Marta Kostyuk | 3 | $1,989,637.13 |
+| Wimbledon WTA: Marta Kostyuk vs Jasmine Paolini | Jasmine Paolini | 3 | $810,108.23 |
+| Will Norway win the 2026 FIFA World Cup? | No | 1 | $657,812.72 |
+| Will England win the 2026 FIFA World Cup? | Yes | 3 | $466,494.70 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Atlanta Braves vs. Pittsburgh Pirates | Pittsburgh Pirates | 100 | 3 | 13.2% | 0.18 |
+| Will England win the 2026 FIFA World Cup? | Yes | 100 | 3 | 31.1% | 0.33 |
