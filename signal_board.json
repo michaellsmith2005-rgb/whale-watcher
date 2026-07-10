@@ -1,27 +1,27 @@
 {
-  "generated_at_utc": "2026-07-09T19:08:00.678568+00:00",
+  "generated_at_utc": "2026-07-10T08:52:43.838011+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 279,
-    "excluded_certain": 27,
-    "win_rate": 0.5448028673835126,
-    "wr_lo": 0.48615430125110637,
-    "wr_hi": 0.602234394046898,
-    "implied": 0.5467935483870967,
-    "edge_pts": -0.19906810035841271,
-    "edge_lo_pts": -6.063924713599034,
-    "edge_hi_pts": 5.544084565980134,
-    "brier": 0.24900297304659497,
-    "roi_net": 0.29855634216742627,
+    "n": 297,
+    "excluded_certain": 29,
+    "win_rate": 0.5420875420875421,
+    "wr_lo": 0.4852469336972101,
+    "wr_hi": 0.5978532758482781,
+    "implied": 0.5454003367003367,
+    "edge_pts": -0.3312794612794656,
+    "edge_lo_pts": -6.01534030031266,
+    "edge_hi_pts": 5.245293914794136,
+    "brier": 0.24617162198653197,
+    "roi_net": 0.2956242259153973,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will France win on 2026-07-09?",
-      "outcome": "No",
-      "price": 0.39,
+      "market": "Spain vs. Belgium: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.5425,
       "net_traders": 4,
       "signals": [
         "pure_count",
@@ -29,142 +29,152 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 4490889.56,
-      "score": 67.3
-    },
-    {
-      "market": "Exact Score: France 3 - 2 Morocco?",
-      "outcome": "No",
-      "price": 0.968,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 597273.55,
-      "score": 50.2
-    },
-    {
-      "market": "Will Morocco win on 2026-07-09?",
-      "outcome": "No",
-      "price": 0.86,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3096325.13,
-      "score": 48.7
+      "liquidity_usd": 1042219.13,
+      "score": 68.8
     },
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.196,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 7061973.34,
-      "score": 47.7
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.161,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 6169317.74,
-      "score": 41.9
-    }
-  ],
-  "excluded": [
-    {
-      "market": "France vs. Morocco: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.4875,
-      "net_traders": 3,
+      "price": 0.171,
+      "net_traders": 7,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2220723.74,
+      "liquidity_usd": 7418930.18,
+      "score": 56.8
+    },
+    {
+      "market": "LoL: G2 Esports vs LYON (BO5) - Mid-Season Invitational Playoffs",
+      "outcome": "G2 Esports",
+      "price": 0.62,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 476809.04,
+      "score": 53.7
+    },
+    {
+      "market": "Will England win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.16,
+      "net_traders": 6,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5912628.26,
+      "score": 53.3
+    },
+    {
+      "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
+      "outcome": "Conor McGregor",
+      "price": 0.68,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1956027.87,
+      "score": 46.7
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.386,
+      "net_traders": 7,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6796056.08,
+      "score": 45.8
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.184,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6535185.73,
+      "score": 43.4
+    },
+    {
+      "market": "Putin out as President of Russia by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1967257.22,
+      "score": 31.9
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Will Switzerland win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.02,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5078077.23,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Spread: France (-1.5)",
-      "outcome": "Morocco",
-      "price": 0.3475,
+      "market": "Norway vs. England: Team to Advance",
+      "outcome": "England",
+      "price": 0.355,
       "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 1393217.33,
+      "liquidity_usd": 649629.84,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Switzerland win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.021,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 11714023.56,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Belgium win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.025,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 4638900.78,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "France vs. Morocco: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.4875,
-      "net_traders": -3,
+      "market": "Spain vs. Belgium: Team to Advance",
+      "outcome": "Spain",
+      "price": 0.7375,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 2220723.74,
+      "liquidity_usd": 1339292.67,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: France (-1.5)",
-      "outcome": "France",
-      "price": 0.3475,
-      "net_traders": -2,
+      "market": "Will Spain win on 2026-07-10?",
+      "outcome": "Yes",
+      "price": 0.5975,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 1393217.33,
+      "fresh": true,
+      "liquidity_usd": 2792148.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -172,74 +182,31 @@
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.81,
-      "net_traders": -1,
+      "price": 0.817,
+      "net_traders": -5,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 7417602.19,
+      "liquidity_usd": 6535185.73,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Exact Score: France 3 - 3 Morocco?",
+      "market": "Will Norway win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.99,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1009486.61,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Exact Score: France 2 - 1 Morocco?",
-      "outcome": "No",
-      "price": 0.89,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2288784.13,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Exact Score: France 2 - 2 Morocco?",
-      "outcome": "No",
-      "price": 0.953,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1079547.01,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "France vs. Morocco: Team to Advance",
-      "outcome": "France",
-      "price": 0.7775,
-      "net_traders": -1,
+      "price": 0.94,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3022022.19,
+      "liquidity_usd": 4727020.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-09T19:07:58.479244+00:00"
+  "source_report_generated_at": "2026-07-10T08:52:40.893369+00:00"
 }
