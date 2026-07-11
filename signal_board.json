@@ -1,62 +1,60 @@
 {
-  "generated_at_utc": "2026-07-11T16:12:09.981533+00:00",
+  "generated_at_utc": "2026-07-11T20:11:39.712030+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 320,
+    "n": 321,
     "excluded_certain": 31,
-    "win_rate": 0.546875,
-    "wr_lo": 0.49209817623319324,
-    "wr_hi": 0.6005397059907088,
-    "implied": 0.5464809374999999,
-    "edge_pts": 0.03940625000000697,
-    "edge_lo_pts": -5.438276126680669,
-    "edge_hi_pts": 5.405876849070889,
-    "brier": 0.24534932571874996,
-    "roi_net": 0.28584248815156366,
+    "win_rate": 0.5451713395638629,
+    "wr_lo": 0.49048298282672687,
+    "wr_hi": 0.5987912973147328,
+    "implied": 0.5449965732087227,
+    "edge_pts": 0.01747663551401324,
+    "edge_lo_pts": -5.451359038199588,
+    "edge_hi_pts": 5.3794724106010054,
+    "brier": 0.24460026239875393,
+    "roi_net": 0.28177444301713517,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Norway vs. England: Team to Advance",
-      "outcome": "England",
-      "price": 0.3625,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1405239.13,
-      "score": 67.7
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.145,
-      "net_traders": 5,
+      "market": "Will Norway win on 2026-07-11?",
+      "outcome": "No",
+      "price": 0.7725,
+      "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 4838110.76,
-      "score": 61.4
+      "liquidity_usd": 3907762.61,
+      "score": 69.1
     },
     {
-      "market": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
-      "outcome": "Karolina Muchova",
-      "price": 0.07,
-      "net_traders": 4,
+      "market": "Exact Score: Norway 2 - 3 England?",
+      "outcome": "No",
+      "price": 0.959,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 189741.66,
-      "score": 53.7
+      "liquidity_usd": 1173524.1,
+      "score": 46.7
+    },
+    {
+      "market": "Exact Score: Norway 2 - 2 England?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1727069.09,
+      "score": 45.2
     },
     {
       "market": "Exact Score: Norway 1 - 2 England?",
@@ -64,60 +62,11 @@
       "price": 0.89,
       "net_traders": 2,
       "signals": [
-        "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1532886.42,
-      "score": 51.3
-    },
-    {
-      "market": "Spread: England (-1.5)",
-      "outcome": "Norway",
-      "price": 0.2625,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 837505.45,
-      "score": 49.9
-    },
-    {
-      "market": "Exact Score: Norway 3 - 2 England?",
-      "outcome": "No",
-      "price": 0.969,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1067375.4,
-      "score": 46.7
-    },
-    {
-      "market": "Exact Score: Norway 2 - 1 England?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1245549.76,
-      "score": 46.7
-    },
-    {
-      "market": "Exact Score: Norway 2 - 3 England?",
-      "outcome": "No",
-      "price": 0.957,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 967921.78,
-      "score": 46.7
+      "liquidity_usd": 2002472.56,
+      "score": 44.4
     },
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
@@ -128,105 +77,35 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 6484159.8,
+      "liquidity_usd": 5385325.26,
       "score": 43.2
     },
     {
       "market": "Will France win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.382,
+      "price": 0.384,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 4966234.27,
+      "liquidity_usd": 4422200.67,
       "score": 35.7
     }
   ],
   "excluded": [
     {
-      "market": "Will Norway win on 2026-07-11?",
-      "outcome": "No",
-      "price": 0.7475,
-      "net_traders": 2,
+      "market": "Norway vs. England: Team to Advance",
+      "outcome": "England",
+      "price": 0.32,
+      "net_traders": 4,
       "signals": [
         "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 882866.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will England win on 2026-07-11?",
-      "outcome": "No",
-      "price": 0.5,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
+        "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1982886.33,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Norway vs. England: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.5775,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1088266.72,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Argentina vs. Switzerland: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.4125,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 886675.37,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.824,
-      "net_traders": -4,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5186853.16,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Norway win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.942,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5201191.54,
+      "liquidity_usd": 3561381.7,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -234,18 +113,161 @@
     {
       "market": "Norway vs. England: O/U 2.5",
       "outcome": "Over",
-      "price": 0.5775,
-      "net_traders": -1,
+      "price": 0.57,
+      "net_traders": 1,
       "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1084059.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will England win on 2026-07-11?",
+      "outcome": "No",
+      "price": 0.4775,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
         "capital_weighted",
         "conviction"
       ],
+      "fresh": true,
+      "liquidity_usd": 2775862.93,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will England win on 2026-07-11?",
+      "outcome": "Yes",
+      "price": 0.525,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": false,
-      "liquidity_usd": 1088266.72,
+      "liquidity_usd": 2775862.93,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Norway vs. England: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.57,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1084059.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: England (-1.5)",
+      "outcome": "Norway",
+      "price": 0.2875,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1587194.67,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Athletics vs. Chicago White Sox",
+      "outcome": "Chicago White Sox",
+      "price": 0.33,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 138144.39,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.822,
+      "net_traders": -4,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 4797333.8,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Norway 3 - 2 England?",
+      "outcome": "No",
+      "price": 0.973,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1470888.15,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Exact Score: Norway 2 - 1 England?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1276697.09,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Norway 3 - 3 England?",
+      "outcome": "No",
+      "price": 0.985,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 914408.3,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Argentina vs. Switzerland: Team to Advance",
+      "outcome": "Argentina",
+      "price": 0.75,
+      "net_traders": -2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1567443.23,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-11T16:12:06.933315+00:00"
+  "source_report_generated_at": "2026-07-11T20:11:37.355283+00:00"
 }
