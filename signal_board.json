@@ -1,85 +1,100 @@
 {
-  "generated_at_utc": "2026-07-11T23:39:10.475033+00:00",
+  "generated_at_utc": "2026-07-12T10:26:58.480469+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 322,
-    "excluded_certain": 31,
-    "win_rate": 0.546583850931677,
-    "wr_lo": 0.49197761622283226,
-    "wr_hi": 0.6000916591551427,
-    "implied": 0.5443288819875777,
-    "edge_pts": 0.2254968944099378,
-    "edge_lo_pts": -5.235126576474541,
-    "edge_hi_pts": 5.576277716756506,
-    "brier": 0.24523473363354034,
-    "roi_net": 0.2871425442198864,
-    "roi_median": 0.06695652173913039
+    "n": 356,
+    "excluded_certain": 36,
+    "win_rate": 0.5674157303370787,
+    "wr_lo": 0.5155007999129274,
+    "wr_hi": 0.6178912259117689,
+    "implied": 0.551961797752809,
+    "edge_pts": 1.5453932584269747,
+    "edge_lo_pts": -3.646099783988155,
+    "edge_hi_pts": 6.592942815895997,
+    "brier": 0.24146485808988769,
+    "roi_net": 0.2905823309408584,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.208,
+      "price": 0.2,
+      "net_traders": 9,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6480956.1,
+      "score": 71.2
+    },
+    {
+      "market": "Will France win on 2026-07-14?",
+      "outcome": "No",
+      "price": 0.58,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2292280.81,
+      "score": 52.9
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.385,
+      "net_traders": 9,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5361411.31,
+      "score": 52.8
+    },
+    {
+      "market": "Will England win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.214,
       "net_traders": 8,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1999298.76,
-      "score": 56.8
-    },
-    {
-      "market": "Argentina vs. Switzerland: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.41,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 977647.45,
-      "score": 51.9
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.191,
-      "net_traders": 7,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 757464.78,
+      "liquidity_usd": 5552058.91,
       "score": 49.3
-    },
-    {
-      "market": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.386,
-      "net_traders": 7,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 877206.39,
-      "score": 45.8
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.171,
-      "net_traders": 5,
+      "price": 0.188,
+      "net_traders": 6,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6241831.56,
+      "score": 48.1
+    },
+    {
+      "market": "Will FC Seoul win on 2026-07-12?",
+      "outcome": "Yes",
+      "price": 0.42,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 956429.8,
-      "score": 41.7
+      "liquidity_usd": 100362.08,
+      "score": 45.4
     },
     {
       "market": "Putin out as President of Russia by December 31, 2026?",
@@ -90,142 +105,112 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1609992.44,
+      "liquidity_usd": 1730572.99,
       "score": 31.9
     }
   ],
   "excluded": [
     {
-      "market": "Norway vs. England: Team to Advance",
-      "outcome": "England",
-      "price": 0.0875,
-      "net_traders": 6,
+      "market": "Wimbledon ATP: Jannik Sinner vs Alexander Zverev",
+      "outcome": "Jannik Sinner",
+      "price": 0.82,
+      "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 246232.74,
+      "liquidity_usd": 1000296.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Norway vs. England: Team to Advance",
-      "outcome": "Norway",
-      "price": 0.0875,
-      "net_traders": -6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 246232.74,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Argentina vs. Switzerland: Team to Advance",
-      "outcome": "Argentina",
-      "price": 0.7525,
-      "net_traders": 0,
+      "market": "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
+      "outcome": "Hanwha Life Esports",
+      "price": 0.66,
+      "net_traders": 1,
       "signals": [
         "pure_count",
-        "capital_weighted",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 321556.63,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
+      "outcome": "Bilibili Gaming",
+      "price": 0.66,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 1687712.86,
+      "liquidity_usd": 321556.63,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Switzerland win the 2026 FIFA World Cup?",
+      "market": "Will Ivanka Trump win the 2028 Republican presidential nomination?",
       "outcome": "Yes",
-      "price": 0.016,
-      "net_traders": 6,
+      "price": 0.011,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2620640.87,
+      "liquidity_usd": 930132.8,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Argentina vs. Switzerland: Team to Advance",
-      "outcome": "Switzerland",
-      "price": 0.7525,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1687712.86,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.831,
-      "net_traders": -5,
+      "price": 0.813,
+      "net_traders": -6,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 956429.8,
+      "liquidity_usd": 6241831.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-      "outcome": "Max Holloway",
-      "price": 0.74,
-      "net_traders": 0,
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.55,
+      "net_traders": -1,
       "signals": [
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 946999.0,
+      "liquidity_usd": 212511.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Argentina win on 2026-07-11?",
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.4325,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2129774.77,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
-      "outcome": "Conor McGregor",
-      "price": 0.74,
-      "net_traders": 0,
+      "price": 0.46,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 946999.0,
+      "liquidity_usd": 212511.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-11T23:39:08.014068+00:00"
+  "source_report_generated_at": "2026-07-12T10:26:56.008611+00:00"
 }
