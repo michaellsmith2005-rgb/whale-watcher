@@ -1,27 +1,27 @@
 {
-  "generated_at_utc": "2026-07-12T10:26:58.480469+00:00",
+  "generated_at_utc": "2026-07-12T16:15:56.229449+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 356,
+    "n": 362,
     "excluded_certain": 36,
-    "win_rate": 0.5674157303370787,
-    "wr_lo": 0.5155007999129274,
-    "wr_hi": 0.6178912259117689,
-    "implied": 0.551961797752809,
-    "edge_pts": 1.5453932584269747,
-    "edge_lo_pts": -3.646099783988155,
-    "edge_hi_pts": 6.592942815895997,
-    "brier": 0.24146485808988769,
-    "roi_net": 0.2905823309408584,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.56353591160221,
+    "wr_lo": 0.5120431985094714,
+    "wr_hi": 0.613694279131125,
+    "implied": 0.5526198895027624,
+    "edge_pts": 1.091602209944753,
+    "edge_lo_pts": -4.057669099329098,
+    "edge_hi_pts": 6.1074389628362535,
+    "brier": 0.24165853447513816,
+    "roi_net": 0.27723097471063146,
+    "roi_median": 0.06992634830125916
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.2,
+      "price": 0.201,
       "net_traders": 9,
       "signals": [
         "pure_count",
@@ -29,47 +29,46 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 6480956.1,
-      "score": 71.2
-    },
-    {
-      "market": "Will France win on 2026-07-14?",
-      "outcome": "No",
-      "price": 0.58,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2292280.81,
-      "score": 52.9
+      "liquidity_usd": 7171791.37,
+      "score": 71.8
     },
     {
       "market": "Will France win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.385,
+      "price": 0.389,
       "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 5361411.31,
+      "liquidity_usd": 5934251.61,
       "score": 52.8
     },
     {
       "market": "Will England win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.214,
+      "price": 0.216,
       "net_traders": 8,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 5552058.91,
+      "liquidity_usd": 5503418.84,
       "score": 49.3
+    },
+    {
+      "market": "Will France win on 2026-07-14?",
+      "outcome": "No",
+      "price": 0.59,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3154826.25,
+      "score": 48.9
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
@@ -81,20 +80,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 6241831.56,
+      "liquidity_usd": 6693106.07,
       "score": 48.1
-    },
-    {
-      "market": "Will FC Seoul win on 2026-07-12?",
-      "outcome": "Yes",
-      "price": 0.42,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 100362.08,
-      "score": 45.4
     },
     {
       "market": "Putin out as President of Russia by December 31, 2026?",
@@ -105,7 +92,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1730572.99,
+      "liquidity_usd": 1756642.32,
       "score": 31.9
     }
   ],
@@ -113,60 +100,74 @@
     {
       "market": "Wimbledon ATP: Jannik Sinner vs Alexander Zverev",
       "outcome": "Jannik Sinner",
-      "price": 0.82,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1000296.14,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
-      "outcome": "Hanwha Life Esports",
-      "price": 0.66,
+      "price": 0.8,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 321556.63,
+      "fresh": true,
+      "liquidity_usd": 326196.93,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: Bilibili Gaming vs Hanwha Life Esports (BO5) - Mid-Season Invitational Playoffs",
-      "outcome": "Bilibili Gaming",
-      "price": 0.66,
+      "market": "Wimbledon ATP: Jannik Sinner vs Alexander Zverev",
+      "outcome": "Alexander Zverev",
+      "price": 0.8,
       "net_traders": -1,
       "signals": [
         "pure_count",
-        "conviction"
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 321556.63,
+      "fresh": false,
+      "liquidity_usd": 326196.93,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Ivanka Trump win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.011,
-      "net_traders": 3,
+      "market": "Contrexeville: Mayar Sherif vs Jeline Vandromme",
+      "outcome": "Mayar Sherif",
+      "price": 0.857,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 930132.8,
+      "liquidity_usd": 230911.04,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "France vs. Spain: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.52,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1595886.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Set Handicap: Sinner (-2.5) vs Zverev (+2.5)",
+      "outcome": "Zverev",
+      "price": 0.5,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 31970.02,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
       ]
     },
     {
@@ -178,7 +179,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 6241831.56,
+      "liquidity_usd": 6693106.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -192,7 +193,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 212511.49,
+      "liquidity_usd": 201776.25,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -206,11 +207,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 212511.49,
+      "liquidity_usd": 201776.25,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-12T10:26:56.008611+00:00"
+  "source_report_generated_at": "2026-07-12T16:15:52.715384+00:00"
 }
