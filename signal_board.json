@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-12T23:38:41.116221+00:00",
+  "generated_at_utc": "2026-07-13T13:31:52.288911+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -21,135 +21,90 @@
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.206,
-      "net_traders": 9,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 8036893.11,
-      "score": 70.5
-    },
-    {
-      "market": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.389,
-      "net_traders": 10,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 6691234.21,
-      "score": 56.3
-    },
-    {
-      "market": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.215,
+      "price": 0.209,
       "net_traders": 8,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 7270250.89,
+      "liquidity_usd": 7577197.19,
+      "score": 55.8
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.389,
+      "net_traders": 9,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 7180818.33,
+      "score": 52.8
+    },
+    {
+      "market": "Will England win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.216,
+      "net_traders": 8,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 7368416.44,
       "score": 49.3
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.183,
+      "price": 0.175,
       "net_traders": 6,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 7749180.16,
-      "score": 49.3
-    },
-    {
-      "market": "Will France win on 2026-07-14?",
-      "outcome": "No",
-      "price": 0.59,
-      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 4736991.54,
-      "score": 45.4
+      "liquidity_usd": 8125548.89,
+      "score": 44.7
     },
     {
       "market": "Putin out as President of Russia by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.91,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1794274.07,
-      "score": 31.9
+      "liquidity_usd": 1750434.3,
+      "score": 34.4
+    },
+    {
+      "market": "Bunschoten: Gilles Arnaud Bailly vs Filippo Romano",
+      "outcome": "Gilles Arnaud Bailly",
+      "price": 0.884,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 182246.16,
+      "score": 25.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Ivanka Trump win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.011,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 928032.71,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Glenn Youngkin win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.011,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 482834.97,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Wes Moore win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.014,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 725565.83,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.46,
+      "market": "Iasi Open, Qualification: Varvara Lepchenko vs Alevtina Ibragimova",
+      "outcome": "Varvara Lepchenko",
+      "price": 0.11,
       "net_traders": 1,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 213763.5,
+      "liquidity_usd": 214162.64,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -157,14 +112,84 @@
     {
       "market": "France vs. Spain: O/U 2.5",
       "outcome": "Over",
-      "price": 0.52,
-      "net_traders": 0,
+      "price": 0.5075,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
+      "fresh": true,
+      "liquidity_usd": 1287255.77,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Iasi Open: Anna Bondar vs Sara Sorribes Tormo",
+      "outcome": "Anna Bondar",
+      "price": 0.764,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": false,
-      "liquidity_usd": 1985373.56,
+      "liquidity_usd": 266069.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Iasi Open, Qualification: Varvara Lepchenko vs Alevtina Ibragimova",
+      "outcome": "Alevtina Ibragimova",
+      "price": 0.11,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 214162.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Iasi Open: Anna Bondar vs Sara Sorribes Tormo",
+      "outcome": "Sara Sorribes Tormo",
+      "price": 0.764,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 266069.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 164843.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 164843.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -172,13 +197,13 @@
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.818,
+      "price": 0.826,
       "net_traders": -6,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 7749180.16,
+      "liquidity_usd": 8125548.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -186,31 +211,45 @@
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.55,
+      "price": 0.56,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 213763.5,
+      "liquidity_usd": 224675.19,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.63,
-      "net_traders": 0,
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.45,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 98242.73,
+      "fresh": true,
+      "liquidity_usd": 224675.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Kitzbuehel: Yasmine Kabbaj vs Ekaterina Perelygina",
+      "outcome": "Yasmine Kabbaj",
+      "price": 0.21,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 208393.15,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-12T23:38:38.586787+00:00"
+  "source_report_generated_at": "2026-07-13T13:31:48.608523+00:00"
 }
