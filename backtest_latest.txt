@@ -1,39 +1,39 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  499 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-14T16:55)
+  508 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-07-14T20:41)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 382   |   still pending: 81
+  Resolved & graded: 383   |   still pending: 89
 
-    graded calls     : 382
+    graded calls     : 383
     excluded         : 36 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
-    win rate         : 56.0%   (95% CI 51.0–60.9%)
-    implied (price)  : 55.6%   <- what you'd have paid
+    win rate         : 56.1%   (95% CI 51.1–61.0%)
+    implied (price)  : 55.7%   <- what you'd have paid
     edge vs price    : +0.4 pts  (95% CI -4.6 to +5.3)
                        ^ CI straddles zero: NO detectable edge at this sample size
-    Brier score      : 0.246   <- lower = better calibrated
+    Brier score      : 0.245   <- lower = better calibrated
     net ROI/trade    : mean +28.3% | median +6.7%   (2% cost)
 
   By signal family (all calls — families overlap by design):
-    pure_count                : n=157 win  48.4%  paid  50.3%  edge  -1.9 pts
+    pure_count                : n=158 win  48.7%  paid  50.5%  edge  -1.7 pts
     capital_weighted          : n=143 win  60.1%  paid  59.2%  edge  +0.9 pts
     conviction                : n=82  win  63.4%  paid  59.7%  edge  +3.8 pts
 
-  Cohorts below use unique markets only (241 of 382 calls):
+  Cohorts below use unique markets only (242 of 383 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=31  win  54.8%  paid  69.0%  edge -14.2 pts
-    conflicted (both sides)   : n=157 win  60.5%  paid  56.5%  edge  +4.1 pts
+    clean (one-sided cohort)  : n=32  win  56.2%  paid  68.5%  edge -12.3 pts
+    conflicted (both sides)   : n=157 win  60.5%  paid  56.6%  edge  +3.9 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=109 win  45.9%  paid  52.7%  edge  -6.8 pts
-    late (past crowd's entry) : n=131 win  64.1%  paid  58.1%  edge  +6.0 pts
+    fresh (≤ crowd's entry)   : n=107 win  46.7%  paid  51.8%  edge  -5.1 pts
+    late (past crowd's entry) : n=134 win  63.4%  paid  58.7%  edge  +4.8 pts
 
   By Vegas confirmation (vegas prob vs price paid):
     vegas agrees (≥ +1 pt)    : n=2   win  50.0%  paid  15.0%  edge +35.0 pts
     vegas neutral             : n=10  win  20.0%  paid  33.7%  edge -13.7 pts
-    vegas disagrees           : n=1   win 100.0%  paid  93.0%  edge  +7.0 pts
+    vegas disagrees           : n=2   win  50.0%  paid  89.5%  edge -39.5 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens
       of graded calls spanning different events.

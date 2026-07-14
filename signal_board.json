@@ -1,147 +1,92 @@
 {
-  "generated_at_utc": "2026-07-14T16:55:51.822401+00:00",
+  "generated_at_utc": "2026-07-14T20:41:44.394732+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 382,
+    "n": 383,
     "excluded_certain": 36,
-    "win_rate": 0.5602094240837696,
-    "wr_lo": 0.5100784493203401,
-    "wr_hi": 0.6091414585382215,
-    "implied": 0.5564539267015707,
-    "edge_pts": 0.37554973821989357,
-    "edge_lo_pts": -4.63754773812306,
-    "edge_hi_pts": 5.268753183665087,
-    "brier": 0.24585966094240838,
-    "roi_net": 0.28297596790301327,
+    "win_rate": 0.5613577023498695,
+    "wr_lo": 0.51129481981008,
+    "wr_hi": 0.6102019375190182,
+    "implied": 0.5569853785900784,
+    "edge_pts": 0.437232375979113,
+    "edge_lo_pts": -4.569055877999839,
+    "edge_hi_pts": 5.321655892893984,
+    "brier": 0.24536812135770236,
+    "roi_net": 0.2830094235316848,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Will France vs. Spain end in a draw?",
+      "outcome": "Yes",
+      "price": 0.0775,
+      "net_traders": 6,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 444238.26,
+      "score": 68.3
+    },
+    {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.227,
-      "net_traders": 9,
+      "price": 0.54,
+      "net_traders": 11,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 6179819.17,
-      "score": 66.4
-    },
-    {
-      "market": "Exact Score: France 2 - 1 Spain?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3324450.36,
-      "score": 53.0
+      "liquidity_usd": 546951.56,
+      "score": 66.1
     },
     {
       "market": "Will England win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.215,
-      "net_traders": 8,
+      "price": 0.243,
+      "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 6867636.99,
-      "score": 49.3
-    },
-    {
-      "market": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.377,
-      "net_traders": 7,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 7444824.76,
-      "score": 45.8
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.175,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 7298500.72,
-      "score": 44.9
+      "liquidity_usd": 751952.27,
+      "score": 52.8
     }
   ],
   "excluded": [
     {
       "market": "France vs. Spain: Team to Advance",
-      "outcome": "France",
-      "price": 0.5775,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3798841.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "France vs. Spain: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.5025,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2126160.18,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "France vs. Spain: Team to Advance",
       "outcome": "Spain",
-      "price": 0.5775,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3798841.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will France win on 2026-07-14?",
-      "outcome": "No",
-      "price": 0.6175,
-      "net_traders": 1,
+      "price": 0.065,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 6040425.89,
+      "liquidity_usd": 336300.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "France vs. Spain: Team to Advance",
+      "outcome": "France",
+      "price": 0.065,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 336300.21,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -149,42 +94,105 @@
     {
       "market": "France vs. Spain: O/U 2.5",
       "outcome": "Under",
-      "price": 0.5025,
-      "net_traders": -1,
+      "price": 0.605,
+      "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 2126160.18,
+      "fresh": true,
+      "liquidity_usd": 320858.09,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Swiss Open: Jaime Faria vs Stan Wawrinka",
-      "outcome": "Jaime Faria",
-      "price": 0.76,
-      "net_traders": 2,
+      "market": "France vs. Spain: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.605,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 320858.09,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.03,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 242900.48,
+      "fresh": true,
+      "liquidity_usd": 662685.05,
       "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will France win on 2026-07-14?",
+      "outcome": "Yes",
+      "price": 0.015,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 524336.0,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will France win on 2026-07-14?",
+      "outcome": "No",
+      "price": 0.9875,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 524336.0,
+      "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.826,
+      "price": 0.803,
       "net_traders": -6,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 7298500.72,
+      "liquidity_usd": 994438.56,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will France vs. Spain end in a draw?",
+      "outcome": "No",
+      "price": 0.925,
+      "net_traders": -6,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 444238.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -192,17 +200,48 @@
     {
       "market": "Exact Score: France 3 - 2 Spain?",
       "outcome": "No",
-      "price": 0.97,
-      "net_traders": 2,
+      "price": 0.99,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 672466.6,
+      "fresh": false,
+      "liquidity_usd": 100797.46,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.978,
+      "net_traders": -6,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 662685.05,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: France 2 - 2 Spain?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 98783.18,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-14T16:55:48.149974+00:00"
+  "source_report_generated_at": "2026-07-14T20:41:41.588845+00:00"
 }
