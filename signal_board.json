@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-13T23:39:10.170854+00:00",
+  "generated_at_utc": "2026-07-14T10:59:24.690211+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -21,88 +21,77 @@
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.213,
+      "price": 0.214,
       "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 7649240.45,
-      "score": 58.3
+      "liquidity_usd": 8330693.91,
+      "score": 58.1
     },
     {
       "market": "Will France win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.39,
-      "net_traders": 10,
+      "price": 0.391,
+      "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 8321455.23,
-      "score": 56.3
+      "liquidity_usd": 6851859.92,
+      "score": 52.8
     },
     {
       "market": "Will England win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.223,
+      "price": 0.217,
       "net_traders": 8,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 7416341.19,
+      "liquidity_usd": 7741461.88,
       "score": 49.3
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.175,
+      "price": 0.174,
       "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 8116297.15,
-      "score": 48.2
+      "liquidity_usd": 8420566.0,
+      "score": 48.4
     },
     {
-      "market": "Will Spain win on 2026-07-14?",
+      "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
       "outcome": "No",
-      "price": 0.7025,
+      "price": 0.39,
       "net_traders": 2,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3302632.9,
-      "score": 46.7
-    },
-    {
-      "market": "Exact Score: France 2 - 1 Spain?",
-      "outcome": "No",
-      "price": 0.91,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3111103.11,
-      "score": 44.9
+      "liquidity_usd": 555312.84,
+      "score": 32.0
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.354,
+      "price": 0.367,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 322911.99,
+      "liquidity_usd": 403516.72,
       "score": 21.7
     }
   ],
@@ -110,29 +99,14 @@
     {
       "market": "Will France win on 2026-07-14?",
       "outcome": "No",
-      "price": 0.5975,
+      "price": 0.595,
       "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 4815768.22,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "France vs. Spain: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.505,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3992128.23,
+      "liquidity_usd": 4271285.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -140,29 +114,70 @@
     {
       "market": "France vs. Spain: O/U 2.5",
       "outcome": "Under",
-      "price": 0.505,
-      "net_traders": 0,
+      "price": 0.495,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3992128.23,
+      "liquidity_usd": 3462246.65,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "outcome": "No",
-      "price": 0.38,
+      "market": "France vs. Spain: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.495,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 3462246.65,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "France vs. Spain: Team to Advance",
+      "outcome": "Spain",
+      "price": 0.5975,
       "net_traders": 1,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 485664.4,
+      "liquidity_usd": 2898277.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Rome: Danka Kovinic vs Noemi Basiletti",
+      "outcome": "Noemi Basiletti",
+      "price": 0.52,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 255060.23,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Iasi Open: Emiliana Arango vs Tamara Zidansek",
+      "outcome": "Emiliana Arango",
+      "price": 0.498,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 252770.86,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -176,7 +191,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 160460.64,
+      "liquidity_usd": 181189.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -190,7 +205,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 160460.64,
+      "liquidity_usd": 181189.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -198,17 +213,31 @@
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.826,
+      "price": 0.827,
       "net_traders": -7,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 8116297.15,
+      "liquidity_usd": 8420566.0,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "France vs. Spain: Team to Advance",
+      "outcome": "France",
+      "price": 0.5975,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2898277.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-13T23:39:06.619374+00:00"
+  "source_report_generated_at": "2026-07-14T10:59:21.383509+00:00"
 }
