@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-15T17:00:13.669982+00:00",
+  "generated_at_utc": "2026-07-15T20:39:41.795002+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 411,
+    "n": 413,
     "excluded_certain": 40,
-    "win_rate": 0.5620437956204379,
-    "wr_lo": 0.5137221685099603,
-    "wr_hi": 0.6092163217475258,
-    "implied": 0.5555800486618004,
-    "edge_pts": 0.6463746958637495,
-    "edge_lo_pts": -4.185788015184011,
-    "edge_hi_pts": 5.363627308572538,
-    "brier": 0.24089552914841847,
-    "roi_net": 0.28725556394024465,
+    "win_rate": 0.5617433414043583,
+    "wr_lo": 0.5135383744025125,
+    "wr_hi": 0.6088102587473457,
+    "implied": 0.5556983050847457,
+    "edge_pts": 0.6045036319612618,
+    "edge_lo_pts": -4.215993068223323,
+    "edge_hi_pts": 5.3111953662600015,
+    "brier": 0.24022533288135592,
+    "roi_net": 0.28406958372431435,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -29,149 +29,152 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 7841917.88,
+      "liquidity_usd": 1456025.97,
       "score": 65.8
-    },
-    {
-      "market": "England vs. Argentina: Both Teams to Score",
-      "outcome": "No",
-      "price": 0.48,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1555425.34,
-      "score": 63.7
-    },
-    {
-      "market": "England vs. Argentina: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.395,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1411319.23,
-      "score": 62.8
-    },
-    {
-      "market": "Will England win on 2026-07-15?",
-      "outcome": "No",
-      "price": 0.64,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2508115.95,
-      "score": 57.2
-    },
-    {
-      "market": "Exact Score: England 2 - 1 Argentina?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2946393.01,
-      "score": 49.9
     },
     {
       "market": "Will England win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.228,
+      "price": 0.31,
       "net_traders": 8,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 6048214.98,
+      "liquidity_usd": 854403.03,
       "score": 49.3
     },
     {
-      "market": "Exact Score: England 2 - 2 Argentina?",
+      "market": "Exact Score: England 2 - 1 Argentina?",
       "outcome": "No",
-      "price": 0.96,
+      "price": 0.94,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2275141.65,
-      "score": 43.7
+      "liquidity_usd": 109200.87,
+      "score": 45.4
     },
     {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.198,
-      "net_traders": 4,
+      "market": "Will Argentina win on 2026-07-15?",
+      "outcome": "No",
+      "price": 0.925,
+      "net_traders": 5,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 6576450.6,
-      "score": 32.2
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.271,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 333358.19,
-      "score": 30.7
+      "liquidity_usd": 368574.05,
+      "score": 45.0
     }
   ],
   "excluded": [
     {
       "market": "England vs. Argentina: Team to Advance",
       "outcome": "England",
-      "price": 0.5425,
+      "price": 0.7575,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 248770.54,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will England win on 2026-07-15?",
+      "outcome": "No",
+      "price": 0.355,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 308733.67,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "England vs. Argentina: Team to Advance",
+      "outcome": "Argentina",
+      "price": 0.7575,
+      "net_traders": -4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 248770.54,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "England vs. Argentina: Both Teams to Score",
+      "outcome": "No",
+      "price": 0.58,
       "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 139167.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "England vs. Argentina: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.1775,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 143206.37,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "England vs. Argentina: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.1775,
+      "net_traders": -1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1945597.15,
+      "liquidity_usd": 143206.37,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Granby: Liam Draxl vs James Kent Trotter",
-      "outcome": "James Kent Trotter",
-      "price": 0.39,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 199716.63,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Rome: Francesca Jones vs Federica Urgesi",
-      "outcome": "Francesca Jones",
-      "price": 0.77,
+      "market": "Will England vs. Argentina end in a draw?",
+      "outcome": "No",
+      "price": 0.72,
       "net_traders": 0,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 187045.84,
+      "liquidity_usd": 286560.32,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -179,60 +182,31 @@
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.803,
-      "net_traders": -4,
+      "price": 0.896,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 6576450.6,
+      "fresh": false,
+      "liquidity_usd": 363441.96,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Exact Score: England 3 - 3 Argentina?",
-      "outcome": "No",
-      "price": 0.99,
-      "net_traders": 2,
+      "market": "Spread: England (-1.5)",
+      "outcome": "Argentina",
+      "price": 0.17,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 638285.03,
+      "liquidity_usd": 131956.48,
       "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Exact Score: England 2 - 3 Argentina?",
-      "outcome": "No",
-      "price": 0.979,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1426675.45,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Exact Score: England 3 - 2 Argentina?",
-      "outcome": "No",
-      "price": 0.978,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1140220.2,
-      "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-15T17:00:10.054906+00:00"
+  "source_report_generated_at": "2026-07-15T20:39:38.609374+00:00"
 }
