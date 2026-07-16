@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-16T00:12:01.638354+00:00",
+  "generated_at_utc": "2026-07-16T11:21:16.401672+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 436,
+    "n": 442,
     "excluded_certain": 43,
-    "win_rate": 0.5596330275229358,
-    "wr_lo": 0.5127147169143912,
-    "wr_hi": 0.6055096620438519,
-    "implied": 0.55851123853211,
-    "edge_pts": 0.11217889908257117,
-    "edge_lo_pts": -4.579652161771886,
-    "edge_hi_pts": 4.699842351174189,
-    "brier": 0.24538026084862385,
-    "roi_net": 0.2890715326029229,
+    "win_rate": 0.5565610859728507,
+    "wr_lo": 0.5099564822667282,
+    "wr_hi": 0.6021909709991851,
+    "implied": 0.5551174208144796,
+    "edge_pts": 0.14436651583711324,
+    "edge_lo_pts": -4.516093854775138,
+    "edge_hi_pts": 4.707355018470549,
+    "brier": 0.24376823128959277,
+    "roi_net": 0.28000303633716794,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -29,21 +29,33 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 6024741.52,
-      "score": 64.6
+      "liquidity_usd": 6548300.53,
+      "score": 64.0
+    },
+    {
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.968,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 78910.55,
+      "score": 40.7
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.422,
-      "net_traders": 6,
+      "price": 0.418,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 6421688.22,
-      "score": 42.3
+      "liquidity_usd": 6349973.75,
+      "score": 38.8
     },
     {
       "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -55,73 +67,59 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 333134.05,
-      "score": 35.8
-    },
-    {
-      "market": "Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.51,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 109820.3,
-      "score": 27.4
+      "liquidity_usd": 327147.98,
+      "score": 36.1
     },
     {
       "market": "Will Bitcoin hit $150k by December 31, 2026?",
       "outcome": "No",
-      "price": 0.967,
+      "price": 0.963,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 111458.89,
-      "score": 27.4
+      "liquidity_usd": 101758.57,
+      "score": 28.7
+    },
+    {
+      "market": "Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.52,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 109709.98,
+      "score": 24.9
     },
     {
       "market": "Bitcoin all time high by December 31, 2026?",
       "outcome": "No",
-      "price": 0.954,
+      "price": 0.946,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 121812.63,
-      "score": 19.4
+      "liquidity_usd": 112784.75,
+      "score": 22.4
     }
   ],
   "excluded": [
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.579,
-      "net_traders": -6,
+      "price": 0.583,
+      "net_traders": -5,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 6421688.22,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Golden State Valkyries vs. Indiana Fever",
-      "outcome": "Golden State Valkyries",
-      "price": 0.52,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 106520.68,
+      "liquidity_usd": 6349973.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -129,88 +127,115 @@
     {
       "market": "Swiss Open: Jerome Kym vs Stefanos Tsitsipas",
       "outcome": "Stefanos Tsitsipas",
-      "price": 0.369,
+      "price": 0.399,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 124885.29,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Swedish Open: Nikoloz Basilashvili vs Thiago Agustin Tirante",
+      "outcome": "Thiago Agustin Tirante",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 297877.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Swedish Open: Nikoloz Basilashvili vs Thiago Agustin Tirante",
+      "outcome": "Nikoloz Basilashvili",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 297877.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Swiss Open: Jerome Kym vs Stefanos Tsitsipas",
+      "outcome": "Jerome Kym",
+      "price": 0.399,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 124885.29,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Kitzbuehel: Polona Hercog vs Jeline Vandromme",
+      "outcome": "Jeline Vandromme",
+      "price": 0.09,
       "net_traders": 1,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 19753.12,
+      "liquidity_usd": 254737.96,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Golden State Valkyries vs. Indiana Fever",
-      "outcome": "Indiana Fever",
-      "price": 0.52,
+      "market": "Bunschoten: Jan Kumstat vs Florian Broska",
+      "outcome": "Jan Kumstat",
+      "price": 0.25,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 106520.68,
+      "liquidity_usd": 204886.75,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Kitzbuehel: Maria Lourdes Carle vs Barbora Palicova",
-      "outcome": "Barbora Palicova",
-      "price": 0.52,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 6205.81,
-      "why_excluded": [
-        "thin book (<$10,000)"
-      ]
-    },
-    {
-      "market": "Will Ivanka Trump win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.011,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1068624.89,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Glenn Youngkin win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.011,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 471003.99,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "market": "Exact Score: Spain 2 - 3 Argentina?",
       "outcome": "No",
-      "price": 0.959,
+      "price": 0.979,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 164559.42,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 3 - 0 Argentina?",
+      "outcome": "No",
+      "price": 0.969,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 47014.4,
+      "liquidity_usd": 263151.33,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-16T00:11:57.963239+00:00"
+  "source_report_generated_at": "2026-07-16T11:21:13.411681+00:00"
 }
