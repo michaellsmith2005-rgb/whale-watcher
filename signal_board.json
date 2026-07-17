@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-17T00:15:38.720221+00:00",
+  "generated_at_utc": "2026-07-17T10:59:47.410174+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 463,
+    "n": 464,
     "excluded_certain": 44,
-    "win_rate": 0.5572354211663066,
-    "wr_lo": 0.5117034369561488,
-    "wr_hi": 0.6018254345068912,
-    "implied": 0.5531704103671705,
-    "edge_pts": 0.4065010799136126,
-    "edge_lo_pts": -4.146697341102168,
-    "edge_hi_pts": 4.865502413972067,
-    "brier": 0.24768644110151186,
-    "roi_net": 0.3014153364576659,
+    "win_rate": 0.5581896551724138,
+    "wr_lo": 0.5127089963856171,
+    "wr_hi": 0.6027146854759362,
+    "implied": 0.5539329741379311,
+    "edge_pts": 0.42566810344827344,
+    "edge_lo_pts": -4.122397775231401,
+    "edge_hi_pts": 4.878171133800513,
+    "brier": 0.2471712742025862,
+    "roi_net": 0.3009436133886074,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,29 +21,41 @@
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.584,
-      "net_traders": 14,
+      "price": 0.586,
+      "net_traders": 13,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 8813407.92,
-      "score": 63.5
+      "liquidity_usd": 9309317.03,
+      "score": 63.9
     },
     {
       "market": "Exact Score: Spain 2 - 3 Argentina?",
       "outcome": "No",
-      "price": 0.968,
-      "net_traders": 3,
+      "price": 0.965,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 528557.27,
-      "score": 56.8
+      "liquidity_usd": 375084.86,
+      "score": 53.3
+    },
+    {
+      "market": "France vs. England: O/U 3.5",
+      "outcome": "Over",
+      "price": 0.45,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 654455.44,
+      "score": 50.2
     },
     {
       "market": "Will France win on 2026-07-18?",
@@ -54,7 +66,19 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 2220237.23,
+      "liquidity_usd": 2315799.76,
+      "score": 46.7
+    },
+    {
+      "market": "Exact Score: Spain 2 - 1 Argentina?",
+      "outcome": "No",
+      "price": 0.91,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1689329.01,
       "score": 46.7
     },
     {
@@ -66,32 +90,20 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 5453728.1,
+      "liquidity_usd": 5231434.41,
       "score": 46.7
     },
     {
-      "market": "France vs. England: O/U 3.5",
-      "outcome": "Over",
-      "price": 0.46,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 650129.62,
-      "score": 46.4
-    },
-    {
-      "market": "Exact Score: France 0 - 0 England?",
+      "market": "Exact Score: France 3 - 1 England?",
       "outcome": "No",
-      "price": 0.962,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155290.35,
-      "score": 42.9
+      "liquidity_usd": 2118005.92,
+      "score": 41.9
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -102,73 +114,46 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 334487.42,
+      "liquidity_usd": 351881.18,
       "score": 41.9
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.266,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 378930.9,
-      "score": 39.3
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.416,
+      "price": 0.412,
       "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 8823996.37,
+      "liquidity_usd": 8981366.12,
       "score": 38.8
     },
     {
-      "market": "Fed rate hike in 2026?",
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
       "outcome": "Yes",
-      "price": 0.52,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 101513.73,
-      "score": 24.9
-    }
-  ],
-  "excluded": [
-    {
-      "market": "New York Mets vs. Philadelphia Phillies",
-      "outcome": "New York Mets",
-      "price": 0.907,
-      "net_traders": 1,
+      "price": 0.268,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 148127.44,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
+      "liquidity_usd": 364746.2,
+      "score": 32.2
+    }
+  ],
+  "excluded": [
     {
       "market": "Swiss Open: Alexander Bublik vs Quentin Halys",
       "outcome": "Quentin Halys",
-      "price": 0.67,
+      "price": 0.709,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 55126.63,
+      "liquidity_usd": 110355.49,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -176,13 +161,13 @@
     {
       "market": "Swiss Open: Alexander Shevchenko vs Dominic Stephan Stricker",
       "outcome": "Dominic Stephan Stricker",
-      "price": 0.3,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 45181.71,
+      "fresh": true,
+      "liquidity_usd": 313665.72,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -190,7 +175,7 @@
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.585,
+      "price": 0.589,
       "net_traders": -5,
       "signals": [
         "pure_count",
@@ -198,7 +183,21 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 8823996.37,
+      "liquidity_usd": 8981366.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: France 0 - 0 England?",
+      "outcome": "No",
+      "price": 0.963,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 433792.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -212,12 +211,12 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 162607.12,
+      "liquidity_usd": 157435.35,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-17T00:15:34.814593+00:00"
+  "source_report_generated_at": "2026-07-17T10:59:44.251061+00:00"
 }
