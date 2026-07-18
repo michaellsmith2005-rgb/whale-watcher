@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-18T20:08:47.426314+00:00",
+  "generated_at_utc": "2026-07-18T23:38:41.174131+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 479,
+    "n": 494,
     "excluded_certain": 46,
-    "win_rate": 0.5615866388308977,
-    "wr_lo": 0.5168346835004292,
-    "wr_hi": 0.6053585989342243,
-    "implied": 0.5533004175365344,
-    "edge_pts": 0.8286221294363294,
-    "edge_lo_pts": -3.64657340361052,
-    "edge_hi_pts": 5.205818139768992,
-    "brier": 0.24643834912317328,
-    "roi_net": 0.30271088611479824,
+    "win_rate": 0.5587044534412956,
+    "wr_lo": 0.514631050421093,
+    "wr_hi": 0.6018718693831179,
+    "implied": 0.5574775303643725,
+    "edge_pts": 0.12269230769230699,
+    "edge_lo_pts": -4.28464799432795,
+    "edge_hi_pts": 4.439433901874534,
+    "brier": 0.2458367170647773,
+    "roi_net": 0.28107985594630425,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,105 +22,119 @@
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
       "price": 0.591,
-      "net_traders": 12,
+      "net_traders": 13,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 8401790.45,
-      "score": 64.5
+      "liquidity_usd": 7545761.42,
+      "score": 64.0
     },
     {
-      "market": "Exact Score: France 2 - 1 England?",
+      "market": "Will Argentina win on 2026-07-19?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.7325,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 2007561.12,
+      "liquidity_usd": 3273522.55,
       "score": 60.3
     },
     {
       "market": "Spain vs. Argentina: Team to Advance",
       "outcome": "Spain",
-      "price": 0.5975,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 6473257.62,
-      "score": 58.8
-    },
-    {
-      "market": "Will England win on 2026-07-18?",
-      "outcome": "No",
-      "price": 0.78,
+      "price": 0.595,
       "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 4948058.88,
-      "score": 54.1
+      "liquidity_usd": 6660649.71,
+      "score": 56.3
     },
     {
-      "market": "Will France win on 2026-07-18?",
+      "market": "Exact Score: Spain 2 - 0 Argentina?",
       "outcome": "Yes",
-      "price": 0.56,
+      "price": 0.09,
       "net_traders": 4,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 4996422.74,
-      "score": 51.1
+      "liquidity_usd": 1583272.83,
+      "score": 52.2
     },
     {
-      "market": "Exact Score: France 3 - 1 England?",
+      "market": "Exact Score: Spain 2 - 2 Argentina?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.96,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1405055.02,
-      "score": 46.4
+      "liquidity_usd": 2101393.07,
+      "score": 44.2
     },
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.402,
-      "net_traders": 6,
+      "price": 0.41,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 7512348.71,
-      "score": 42.3
-    }
-  ],
-  "excluded": [
+      "liquidity_usd": 7265044.43,
+      "score": 38.8
+    },
     {
-      "market": "Athens Open: Clara Tauson vs Barbora Krejcikova",
-      "outcome": "Clara Tauson",
-      "price": 0.28,
-      "net_traders": 1,
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.276,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 334216.87,
+      "liquidity_usd": 246335.17,
+      "score": 30.4
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Tampa Bay Rays vs. Boston Red Sox",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.14,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 283547.34,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampa Bay Rays vs. Boston Red Sox",
+      "outcome": "Boston Red Sox",
+      "price": 0.14,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 283547.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -128,44 +142,29 @@
     {
       "market": "Exact Score: Spain 2 - 3 Argentina?",
       "outcome": "No",
-      "price": 0.972,
-      "net_traders": 4,
+      "price": 0.971,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 2294943.1,
+      "liquidity_usd": 1869440.46,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "France vs. England: Team to Win",
-      "outcome": "France",
-      "price": 0.69,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3001499.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "France vs. England: O/U 3.5",
-      "outcome": "Over",
-      "price": 0.45,
-      "net_traders": 2,
+      "market": "Granby: Aleksandar Vukic vs August Holmgren",
+      "outcome": "August Holmgren",
+      "price": 0.67,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 1324148.81,
+      "fresh": false,
+      "liquidity_usd": 83665.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -173,18 +172,61 @@
     {
       "market": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "price": 0.599,
-      "net_traders": -6,
+      "price": 0.591,
+      "net_traders": -5,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 7512348.71,
+      "liquidity_usd": 7265044.43,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 3 - 3 Argentina?",
+      "outcome": "No",
+      "price": 0.989,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 432352.32,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 3 - 2 Argentina?",
+      "outcome": "No",
+      "price": 0.979,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 646854.46,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 2 - 1 Argentina?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1791041.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-18T20:08:43.018664+00:00"
+  "source_report_generated_at": "2026-07-18T23:38:37.389652+00:00"
 }
