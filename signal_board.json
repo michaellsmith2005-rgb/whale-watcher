@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-19T16:13:50.127190+00:00",
+  "generated_at_utc": "2026-07-19T20:12:24.242590+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 498,
+    "n": 500,
     "excluded_certain": 46,
-    "win_rate": 0.5582329317269076,
-    "wr_lo": 0.5143361365560241,
-    "wr_hi": 0.6012381801207919,
-    "implied": 0.554124297188755,
-    "edge_pts": 0.4108634538152578,
-    "edge_lo_pts": -3.978816063273094,
-    "edge_hi_pts": 4.711388293203688,
-    "brier": 0.2469111209437751,
-    "roi_net": 0.29931558860078034,
+    "win_rate": 0.558,
+    "wr_lo": 0.5141907226350576,
+    "wr_hi": 0.6009248216153577,
+    "implied": 0.5534678000000001,
+    "edge_pts": 0.4532199999999986,
+    "edge_lo_pts": -3.927707736494246,
+    "edge_hi_pts": 4.745702161535759,
+    "brier": 0.24840547646000002,
+    "roi_net": 0.3122201444281954,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,142 +21,92 @@
     {
       "market": "Will Spain win the 2026 FIFA World Cup?",
       "outcome": "Yes",
-      "price": 0.592,
-      "net_traders": 13,
+      "price": 0.601,
+      "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3433471.03,
-      "score": 64.0
-    },
-    {
-      "market": "Exact Score: Spain 2 - 3 Argentina?",
-      "outcome": "No",
-      "price": 0.963,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1986402.37,
-      "score": 63.0
-    },
-    {
-      "market": "Exact Score: Spain 2 - 1 Argentina?",
-      "outcome": "No",
-      "price": 0.91,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2340730.49,
-      "score": 56.1
-    },
-    {
-      "market": "Will Argentina win on 2026-07-19?",
-      "outcome": "No",
-      "price": 0.74,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3945995.47,
-      "score": 55.6
-    },
-    {
-      "market": "Exact Score: Spain 2 - 2 Argentina?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2777563.92,
-      "score": 46.4
+      "liquidity_usd": 937145.95,
+      "score": 60.9
     }
   ],
   "excluded": [
     {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.41,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 4191181.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Spain vs. Argentina: Team to Advance",
       "outcome": "Spain",
-      "price": 0.5925,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 4809781.84,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.591,
-      "net_traders": -4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 4191181.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Exact Score: Spain 3 - 2 Argentina?",
-      "outcome": "No",
-      "price": 0.969,
-      "net_traders": 2,
+      "price": 0.6025,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 668825.08,
+      "fresh": false,
+      "liquidity_usd": 1387969.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Spain vs. Argentina: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.415,
-      "net_traders": 1,
+      "outcome": "Over",
+      "price": 0.185,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
+      "fresh": true,
+      "liquidity_usd": 561962.62,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "price": 0.401,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
       "fresh": false,
-      "liquidity_usd": 1718357.58,
+      "liquidity_usd": 1163799.18,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Exact Score: Spain 2 - 3 Argentina?",
+      "outcome": "No",
+      "price": 0.989,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 527457.24,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Spain vs. Argentina end in a draw?",
+      "outcome": "Yes",
+      "price": 0.41,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 903743.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -164,60 +114,118 @@
     {
       "market": "Spain vs. Argentina: Both Teams to Score",
       "outcome": "No",
-      "price": 0.47,
-      "net_traders": 1,
+      "price": 0.71,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 1705706.05,
+      "fresh": false,
+      "liquidity_usd": 509220.15,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Exact Score: Spain 3 - 3 Argentina?",
+      "market": "Will Spain win on 2026-07-19?",
       "outcome": "No",
-      "price": 0.982,
-      "net_traders": 3,
+      "price": 0.61,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1058184.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spain vs. Argentina: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.185,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 561962.62,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Spain win on 2026-07-19?",
+      "outcome": "Yes",
+      "price": 0.3925,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1058184.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win on 2026-07-19?",
+      "outcome": "No",
+      "price": 0.795,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1617570.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.602,
+      "net_traders": -2,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 1704002.07,
+      "liquidity_usd": 1163799.18,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     },
     {
       "market": "Spread: Spain (-1.5)",
       "outcome": "Argentina",
-      "price": 0.2025,
-      "net_traders": 0,
+      "price": 0.1225,
+      "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 621746.5,
+      "liquidity_usd": 489118.51,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Istanbul 2: Hanne Vandewinkel vs Lanlana Tararudee",
-      "outcome": "Lanlana Tararudee",
-      "price": 0.11,
-      "net_traders": -1,
+      "market": "Will Spain win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "price": 0.4,
+      "net_traders": -9,
       "signals": [
-        "conviction"
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 311959.4,
+      "fresh": true,
+      "liquidity_usd": 937145.95,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-19T16:13:45.919235+00:00"
+  "source_report_generated_at": "2026-07-19T20:12:19.893418+00:00"
 }
