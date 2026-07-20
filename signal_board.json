@@ -1,231 +1,231 @@
 {
-  "generated_at_utc": "2026-07-19T20:12:24.242590+00:00",
+  "generated_at_utc": "2026-07-20T00:16:03.808809+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 500,
-    "excluded_certain": 46,
-    "win_rate": 0.558,
-    "wr_lo": 0.5141907226350576,
-    "wr_hi": 0.6009248216153577,
-    "implied": 0.5534678000000001,
-    "edge_pts": 0.4532199999999986,
-    "edge_lo_pts": -3.927707736494246,
-    "edge_hi_pts": 4.745702161535759,
-    "brier": 0.24840547646000002,
-    "roi_net": 0.3122201444281954,
-    "roi_median": 0.06695652173913039
+    "n": 524,
+    "excluded_certain": 51,
+    "win_rate": 0.5725190839694656,
+    "wr_lo": 0.5297836056954699,
+    "wr_hi": 0.6141989830205388,
+    "implied": 0.5565723282442748,
+    "edge_pts": 1.5946755725190775,
+    "edge_lo_pts": -2.6788722548804933,
+    "edge_hi_pts": 5.762665477626394,
+    "brier": 0.24409782009541983,
+    "roi_net": 0.32574695002110343,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Spain win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.601,
-      "net_traders": 9,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 937145.95,
-      "score": 60.9
-    }
-  ],
-  "excluded": [
-    {
-      "market": "Spain vs. Argentina: Team to Advance",
-      "outcome": "Spain",
-      "price": 0.6025,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1387969.4,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spain vs. Argentina: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.185,
+      "market": "Lincoln: Bernard Tomic vs Mark Lajal",
+      "outcome": "Bernard Tomic",
+      "price": 0.21,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 561962.62,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
+      "liquidity_usd": 145573.11,
+      "score": 46.7
     },
     {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "price": 0.401,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1163799.18,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Exact Score: Spain 2 - 3 Argentina?",
+      "market": "Will CS Huancayo win on 2026-07-19?",
       "outcome": "No",
-      "price": 0.989,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 527457.24,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Spain vs. Argentina end in a draw?",
-      "outcome": "Yes",
-      "price": 0.41,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 903743.54,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spain vs. Argentina: Both Teams to Score",
-      "outcome": "No",
-      "price": 0.71,
+      "price": 0.92,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 509220.15,
+      "liquidity_usd": 87169.08,
+      "score": 46.2
+    },
+    {
+      "market": "Will Club Alianza Lima win on 2026-07-19?",
+      "outcome": "Yes",
+      "price": 0.73,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 89424.88,
+      "score": 45.9
+    },
+    {
+      "market": "Will Club Alianza Lima vs. CS Huancayo end in a draw?",
+      "outcome": "No",
+      "price": 0.81,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 50423.09,
+      "score": 44.7
+    },
+    {
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.956,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 103736.16,
+      "score": 43.2
+    },
+    {
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.277,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 339363.16,
+      "score": 39.8
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.72,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 398942.59,
+      "score": 39.4
+    },
+    {
+      "market": "Will Bitcoin hit $150k by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.967,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 103479.14,
+      "score": 27.4
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.59,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 123275.61,
+      "score": 21.7
+    },
+    {
+      "market": "Bitcoin all time high by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.949,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 118712.43,
+      "score": 20.4
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Los Angeles Dodgers vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.46,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 251953.36,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Spain win on 2026-07-19?",
+      "market": "Los Angeles Dodgers vs. New York Yankees",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.46,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 251953.36,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Sabah FK win on 2026-07-21?",
       "outcome": "No",
-      "price": 0.61,
+      "price": 0.43,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 37721.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Club Alianza Lima vs. CS Huancayo: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.54,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1058184.58,
+      "liquidity_usd": 38705.66,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spain vs. Argentina: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.185,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 561962.62,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Spain win on 2026-07-19?",
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.3925,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1058184.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win on 2026-07-19?",
-      "outcome": "No",
-      "price": 0.795,
+      "price": 0.56,
       "net_traders": 0,
       "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1617570.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "price": 0.602,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1163799.18,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Spain (-1.5)",
-      "outcome": "Argentina",
-      "price": 0.1225,
-      "net_traders": -3,
-      "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 489118.51,
+      "liquidity_usd": 227576.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Spain win the 2026 FIFA World Cup?",
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.4,
-      "net_traders": -9,
+      "price": 0.45,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 937145.95,
+      "liquidity_usd": 227576.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-19T20:12:19.893418+00:00"
+  "source_report_generated_at": "2026-07-20T00:16:00.169073+00:00"
 }

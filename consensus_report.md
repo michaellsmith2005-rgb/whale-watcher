@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-19T20:12:19.893418+00:00 UTC*  
+*Generated: 2026-07-20T00:16:00.169073+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,57 +8,51 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **955**
-- Unique markets represented: **519**
+- Total open positions analyzed: **475**
+- Unique markets represented: **400**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will Spain win the 2026 FIFA World Cup?
+### 1. Los Angeles Dodgers vs. New York Yankees
+- **Favored outcome:** New York Yankees
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $151,151.21
+- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, ferrariChampions2026, swisstony
+
+### 2. Los Angeles Dodgers vs. New York Yankees
+- **Favored outcome:** Los Angeles Dodgers
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $41,075.73
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
+
+### 3. Will Club Alianza Lima win on 2026-07-19?
 - **Favored outcome:** Yes
-- **Top-50 traders backing it:** 14
-- **Total combined USD exposure:** $10,081,115.55
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, Allezpapa, BreakTheBank, CandleHammerDrums, FootballFan98, Jsram, RN1, asparagus2012, cnyek, highnetworth (+4 more)
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $94.32
+- **Backers:** 0x076daa87, Lexington, RN1, swisstony
 
-### 2. Spain vs. Argentina: Team to Advance
-- **Favored outcome:** Spain
-- **Top-50 traders backing it:** 8
-- **Total combined USD exposure:** $4,524,583.92
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x4f2, 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592, CandleHammerDrums, RN1, Sparkling8899, ramadamaramadam
-
-### 3. Spain vs. Argentina: O/U 2.5
-- **Favored outcome:** Over
-- **Top-50 traders backing it:** 8
-- **Total combined USD exposure:** $195,886.93
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, 0x4f2, CandleHammerDrums, Jsram, RN1, highnetworth
-
-### 4. Will Argentina win the 2026 FIFA World Cup?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $8,164,025.85
-- **Backers:** Allezpapa, CandleHammerDrums, FootballFan98, RN1, cnyek, gud.hl, tankjack
-
-### 5. Exact Score: Spain 2 - 3 Argentina?
+### 4. Will Club Alianza Lima vs. CS Huancayo end in a draw?
 - **Favored outcome:** No
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $3,277,136.80
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, bettguy, cassandra.chained, ndb1, swisstony
+- **Top-50 traders backing it:** 3
+- **Total combined USD exposure:** $7,442.27
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, swisstony
+
+### 5. Will Marco Rubio win the 2028 Republican presidential nomination?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 2
+- **Total combined USD exposure:** $100,792.78
+- **Backers:** FootballFan98, Jsram
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will Spain win the 2026 FIFA World Cup? | Yes | 14 | $10,081,115.55 |
-| Will Argentina win the 2026 FIFA World Cup? | Yes | 7 | $8,164,025.85 |
-| Spain vs. Argentina: Team to Advance | Spain | 8 | $4,524,583.92 |
-| Exact Score: Spain 2 - 3 Argentina? | No | 7 | $3,277,136.80 |
-| Will Argentina win on 2026-07-19? | No | 5 | $3,000,900.77 |
+| Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $1,998,000.00 |
+| Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $1,602,000.00 |
+| Will Manchester City win the 2026-27 English Premier League (EPL) Championship? | No | 1 | $204,803.02 |
+| Fed rate hike in 2026? | Yes | 1 | $160,501.29 |
+| Los Angeles Dodgers vs. New York Yankees | New York Yankees | 4 | $151,151.21 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
-|---|---|---|---|---|---|
-| Will Spain win the 2026 FIFA World Cup? | Yes | 100 | 5 | 24.8% | 0.44 |
-| Will Argentina win the 2026 FIFA World Cup? | No | 31 | 3 | 21.3% | 0.26 |
-| Spain vs. Argentina: Team to Advance | Spain | 27 | 5 | 11.8% | 0.25 |
-| Exact Score: Spain 2 - 3 Argentina? | No | 25 | 4 | 13.5% | 0.26 |
-| Will Argentina win on 2026-07-19? | No | 7 | 4 | 5.1% | 0.23 |
+_No markets met the conviction threshold._
