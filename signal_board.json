@@ -1,95 +1,46 @@
 {
-  "generated_at_utc": "2026-07-20T00:16:03.808809+00:00",
+  "generated_at_utc": "2026-07-20T12:35:35.978510+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 524,
+    "n": 542,
     "excluded_certain": 51,
-    "win_rate": 0.5725190839694656,
-    "wr_lo": 0.5297836056954699,
-    "wr_hi": 0.6141989830205388,
-    "implied": 0.5565723282442748,
-    "edge_pts": 1.5946755725190775,
-    "edge_lo_pts": -2.6788722548804933,
-    "edge_hi_pts": 5.762665477626394,
-    "brier": 0.24409782009541983,
-    "roi_net": 0.32574695002110343,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.5756457564575646,
+    "wr_lo": 0.5336465701053449,
+    "wr_hi": 0.6165801623386461,
+    "implied": 0.5530658671586717,
+    "edge_pts": 2.2579889298892875,
+    "edge_lo_pts": -1.941929705332679,
+    "edge_hi_pts": 6.351429517997442,
+    "brier": 0.24470659492619926,
+    "roi_net": 0.3624543568151785,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Lincoln: Bernard Tomic vs Mark Lajal",
-      "outcome": "Bernard Tomic",
-      "price": 0.21,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 145573.11,
-      "score": 46.7
-    },
-    {
-      "market": "Will CS Huancayo win on 2026-07-19?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87169.08,
-      "score": 46.2
-    },
-    {
-      "market": "Will Club Alianza Lima win on 2026-07-19?",
-      "outcome": "Yes",
-      "price": 0.73,
+      "market": "Hamburg European Open: Katarzyna Kawa vs Paula Badosa",
+      "outcome": "Paula Badosa",
+      "price": 0.46,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 89424.88,
-      "score": 45.9
+      "fresh": true,
+      "liquidity_usd": 143374.99,
+      "score": 50.2
     },
     {
-      "market": "Will Club Alianza Lima vs. CS Huancayo end in a draw?",
-      "outcome": "No",
-      "price": 0.81,
-      "net_traders": 2,
+      "market": "Zug: Cezar Cretu vs Kimmer Coppejans",
+      "outcome": "Kimmer Coppejans",
+      "price": 0.497,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 50423.09,
-      "score": 44.7
-    },
-    {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.956,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
       "fresh": true,
-      "liquidity_usd": 103736.16,
-      "score": 43.2
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.277,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 339363.16,
-      "score": 39.8
+      "liquidity_usd": 330598.37,
+      "score": 50.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -100,100 +51,161 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 398942.59,
+      "liquidity_usd": 456683.09,
       "score": 39.4
     },
     {
-      "market": "Will Bitcoin hit $150k by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.967,
-      "net_traders": 1,
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.278,
+      "net_traders": 2,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 103479.14,
-      "score": 27.4
+      "liquidity_usd": 283849.61,
+      "score": 38.8
     },
     {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.59,
-      "net_traders": 2,
+      "market": "Tampere: Daniel Galan vs Gilles Arnaud Bailly",
+      "outcome": "Gilles Arnaud Bailly",
+      "price": 0.53,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 123275.61,
-      "score": 21.7
+      "liquidity_usd": 168556.62,
+      "score": 33.2
     },
     {
-      "market": "Bitcoin all time high by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.949,
+      "market": "Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.53,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 118712.43,
-      "score": 20.4
+      "liquidity_usd": 144665.14,
+      "score": 22.4
     }
   ],
   "excluded": [
     {
-      "market": "Los Angeles Dodgers vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.46,
+      "market": "Livesport Prague Open: Marie Bouzkova vs Jessica Bouzas Maneiro",
+      "outcome": "Marie Bouzkova",
+      "price": 0.9,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 310949.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Generali Open: Lukas Neumayer vs Yannick Hanfmann",
+      "outcome": "Yannick Hanfmann",
+      "price": 0.001,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 251953.36,
+      "liquidity_usd": 670129.43,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee",
+      "outcome": "Carol Young Suh Lee",
+      "price": 0.29,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 135456.37,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Los Angeles Dodgers vs. New York Yankees",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.46,
+      "market": "Livesport Prague Open: Marie Bouzkova vs Jessica Bouzas Maneiro",
+      "outcome": "Jessica Bouzas Maneiro",
+      "price": 0.9,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 310949.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Generali Open: Lukas Neumayer vs Yannick Hanfmann",
+      "outcome": "Lukas Neumayer",
+      "price": 0.001,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 251953.36,
+      "liquidity_usd": 670129.43,
       "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Sabah FK win on 2026-07-21?",
-      "outcome": "No",
-      "price": 0.43,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 37721.07,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Club Alianza Lima vs. CS Huancayo: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.54,
-      "net_traders": 1,
+      "market": "Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee",
+      "outcome": "Veronika Podrez",
+      "price": 0.29,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 38705.66,
+      "liquidity_usd": 135456.37,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 194091.79,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 194091.79,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -201,13 +213,13 @@
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.56,
+      "price": 0.57,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 227576.2,
+      "liquidity_usd": 251393.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -215,17 +227,45 @@
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.45,
+      "price": 0.44,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 227576.2,
+      "liquidity_usd": 251393.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 338526.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 338526.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-20T00:16:00.169073+00:00"
+  "source_report_generated_at": "2026-07-20T12:35:32.720512+00:00"
 }

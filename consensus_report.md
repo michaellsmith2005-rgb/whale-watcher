@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-20T00:16:00.169073+00:00 UTC*  
+*Generated: 2026-07-20T12:35:32.720512+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,51 +8,54 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **475**
-- Unique markets represented: **400**
+- Total open positions analyzed: **581**
+- Unique markets represented: **419**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Los Angeles Dodgers vs. New York Yankees
-- **Favored outcome:** New York Yankees
+### 1. Livesport Prague Open: Marie Bouzkova vs Jessica Bouzas Maneiro
+- **Favored outcome:** Marie Bouzkova
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $30,818.06
+- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x4f2, HomeRunHazard, RN1, ferrariChampions2026
+
+### 2. Tampere: Daniel Galan vs Gilles Arnaud Bailly
+- **Favored outcome:** Gilles Arnaud Bailly
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $6,716.95
+- **Backers:** 0x076daa87, HomeRunHazard, RN1, ferrariChampions2026, swisstony
+
+### 3. Generali Open: Lukas Neumayer vs Yannick Hanfmann
+- **Favored outcome:** Yannick Hanfmann
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $151,151.21
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $90,189.27
+- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, RN1
 
-### 2. Los Angeles Dodgers vs. New York Yankees
-- **Favored outcome:** Los Angeles Dodgers
+### 4. Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee
+- **Favored outcome:** Carol Young Suh Lee
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $41,075.73
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $30,852.47
+- **Backers:** 0x4f2, HomeRunHazard, RN1, ferrariChampions2026
 
-### 3. Will Club Alianza Lima win on 2026-07-19?
-- **Favored outcome:** Yes
+### 5. Livesport Prague Open: Marie Bouzkova vs Jessica Bouzas Maneiro
+- **Favored outcome:** Jessica Bouzas Maneiro
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $94.32
-- **Backers:** 0x076daa87, Lexington, RN1, swisstony
-
-### 4. Will Club Alianza Lima vs. CS Huancayo end in a draw?
-- **Favored outcome:** No
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $7,442.27
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, swisstony
-
-### 5. Will Marco Rubio win the 2028 Republican presidential nomination?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 2
-- **Total combined USD exposure:** $100,792.78
-- **Backers:** FootballFan98, Jsram
+- **Total combined USD exposure:** $2,275.54
+- **Backers:** 0x4f2, HomeRunHazard, RN1, ferrariChampions2026
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $1,998,000.00 |
-| Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $1,602,000.00 |
-| Will Manchester City win the 2026-27 English Premier League (EPL) Championship? | No | 1 | $204,803.02 |
-| Fed rate hike in 2026? | Yes | 1 | $160,501.29 |
-| Los Angeles Dodgers vs. New York Yankees | New York Yankees | 4 | $151,151.21 |
+| 2026 Balance of Power: D Senate, D House | No | 1 | $4,521,461.19 |
+| 2026 Balance of Power: D Senate, D House | Yes | 1 | $3,481,741.23 |
+| Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $2,220,057.00 |
+| Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $1,709,550.00 |
+| Will the Democratic Party control the Senate after the 2026 Midterm elections? | No | 1 | $1,694,700.00 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-_No markets met the conviction threshold._
+| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
+|---|---|---|---|---|---|
+| Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee | Carol Young Suh Lee | 100 | 4 | 8.0% | 0.18 |
+| Livesport Prague Open: Marie Bouzkova vs Jessica Bouzas Maneiro | Marie Bouzkova | 76 | 4 | 6.1% | 0.18 |
