@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-21T11:30:14.077444+00:00 UTC*  
+*Generated: 2026-07-21T17:55:47.283927+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,39 +8,39 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **1007**
-- Unique markets represented: **674**
+- Total open positions analyzed: **1110**
+- Unique markets represented: **743**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will Incheon United FC win on 2026-07-21?
-- **Favored outcome:** No
+### 1. Will Sabah FK win on 2026-07-21?
+- **Favored outcome:** Yes
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $68,921.13
-- **Backers:** 0x076daa87, 0x4f2, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $138,050.41
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
-### 2. Livesport Prague Open: Xinyu Gao vs Lilli Tagger
-- **Favored outcome:** Lilli Tagger
+### 2. Hamburg European Open: Katarzyna Kawa vs Paula Badosa
+- **Favored outcome:** Paula Badosa
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $17,245.02
-- **Backers:** 0x076daa87, 0x4f2, RN1, ferrariChampions2026
+- **Total combined USD exposure:** $48,613.13
+- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, ferrariChampions2026, swisstony
 
-### 3. Livesport Prague Open: Laura Samson vs Maya Joint
-- **Favored outcome:** Maya Joint
+### 3. Will KKS Lech Poznań win on 2026-07-21?
+- **Favored outcome:** Yes
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $15,973.52
-- **Backers:** 0x076daa87, 0x4f2, RN1, ferrariChampions2026
+- **Total combined USD exposure:** $37,689.94
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
-### 4. Will Gangwon FC win on 2026-07-21?
-- **Favored outcome:** No
+### 4. Hamburg European Open: Oleksandra Oliynykova vs Nastasja Schunk
+- **Favored outcome:** Nastasja Schunk
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $11,111.63
-- **Backers:** 0x076daa87, 0x4f2, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $28,353.31
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
-### 5. Winnipeg: Yu-Hsiou Hsu vs Jay Dylan Friend
-- **Favored outcome:** Yu-Hsiou Hsu
+### 5. Bloomfield Hills: Bruno Kuzuhara vs Pablo Llamas Ruiz
+- **Favored outcome:** Pablo Llamas Ruiz
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $11,020.84
+- **Total combined USD exposure:** $18,375.52
 - **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)

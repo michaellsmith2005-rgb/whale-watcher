@@ -1,23 +1,35 @@
 {
-  "generated_at_utc": "2026-07-21T11:30:17.615172+00:00",
+  "generated_at_utc": "2026-07-21T17:55:52.529949+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 568,
+    "n": 578,
     "excluded_certain": 55,
-    "win_rate": 0.573943661971831,
-    "wr_lo": 0.5329129594248648,
-    "wr_hi": 0.6139808657183218,
-    "implied": 0.5501156690140845,
-    "edge_pts": 2.3827992957746513,
-    "edge_lo_pts": -1.7202709589219656,
-    "edge_hi_pts": 6.386519670423729,
-    "brier": 0.24538349022887324,
-    "roi_net": 0.36243154334919914,
+    "win_rate": 0.5761245674740484,
+    "wr_lo": 0.5354646079973854,
+    "wr_hi": 0.6157793044351391,
+    "implied": 0.5474406574394464,
+    "edge_pts": 2.8683910034602023,
+    "edge_lo_pts": -1.1976049442060988,
+    "edge_hi_pts": 6.83386469956927,
+    "brier": 0.24689558382352944,
+    "roi_net": 0.38273745376475005,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+      "outcome": "Yes",
+      "price": 0.361,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 51315.14,
+      "score": 43.2
+    },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
@@ -27,20 +39,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 743750.35,
+      "liquidity_usd": 753735.88,
       "score": 41.9
     },
     {
-      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
-      "outcome": "Yes",
-      "price": 0.457,
-      "net_traders": 1,
+      "market": "Hamburg European Open: Katarzyna Kawa vs Paula Badosa",
+      "outcome": "Paula Badosa",
+      "price": 0.38,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 47227.12,
-      "score": 34.7
+      "liquidity_usd": 94831.55,
+      "score": 36.7
     },
     {
       "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -51,167 +63,148 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 288309.06,
+      "liquidity_usd": 272316.53,
       "score": 31.7
-    },
-    {
-      "market": "Winnipeg: Yu-Hsiou Hsu vs Jay Dylan Friend",
-      "outcome": "Yu-Hsiou Hsu",
-      "price": 0.71,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 39853.69,
-      "score": 25.2
-    },
-    {
-      "market": "Estoril Open: Gonzalo Bueno vs Tiago Pereira",
-      "outcome": "Gonzalo Bueno",
-      "price": 0.89,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 178127.59,
-      "score": 25.2
-    },
-    {
-      "market": "Counter-Strike: M80 vs NIP (BO3) - BLAST Bounty Qualifier",
-      "outcome": "NIP",
-      "price": 0.39,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 71226.37,
-      "score": 21.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.58,
+      "price": 0.64,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 143919.53,
+      "liquidity_usd": 150201.93,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Incheon United FC win on 2026-07-21?",
-      "outcome": "No",
+      "market": "Will Sabah FK win on 2026-07-21?",
+      "outcome": "Yes",
+      "price": 0.96,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 121116.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will KKS Lech Pozna\u0144 win on 2026-07-21?",
+      "outcome": "Yes",
+      "price": 0.96,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 114711.91,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hamburg European Open: Oleksandra Oliynykova vs Nastasja Schunk",
+      "outcome": "Nastasja Schunk",
+      "price": 0.47,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 267682.24,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Bloomfield Hills: Bruno Kuzuhara vs Pablo Llamas Ruiz",
+      "outcome": "Pablo Llamas Ruiz",
+      "price": 0.03,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 282628.7,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Estoril Open: Botic van de Zandschulp vs Jaime Faria",
+      "outcome": "Botic van de Zandschulp",
+      "price": 0.23,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 232479.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Winnipeg: Yu-Hsiou Hsu vs Jay Dylan Friend",
+      "outcome": "Yu-Hsiou Hsu",
       "price": 0.71,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 71298.09,
+      "fresh": false,
+      "liquidity_usd": 174791.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Livesport Prague Open: Xinyu Gao vs Lilli Tagger",
-      "outcome": "Lilli Tagger",
-      "price": 0.24,
+      "market": "Palermo: Caroline Werner vs Mina Hodzic",
+      "outcome": "Mina Hodzic",
+      "price": 0.229,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 147738.21,
+      "liquidity_usd": 262724.68,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Livesport Prague Open: Laura Samson vs Maya Joint",
-      "outcome": "Maya Joint",
-      "price": 0.14,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 200122.84,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Gangwon FC win on 2026-07-21?",
-      "outcome": "No",
-      "price": 0.6,
+      "market": "Bloomfield Hills: Stefan Kozlov vs Alan Magadan",
+      "outcome": "Stefan Kozlov",
+      "price": 0.48,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 82426.26,
+      "liquidity_usd": 310990.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Jeonbuk Hyundai Motors FC win on 2026-07-21?",
+      "market": "Will GNK Dinamo Zagreb win on 2026-07-21?",
       "outcome": "No",
-      "price": 0.57,
+      "price": 0.52,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 94257.78,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Winnipeg: Yosuke Watanuki vs Andre Ilagan",
-      "outcome": "Andre Ilagan",
-      "price": 0.69,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 41923.92,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampere: Joao Lucas Da Silva vs Dimitar Kuzmanov",
-      "outcome": "Dimitar Kuzmanov",
-      "price": 0.14,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 174401.84,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Livesport Prague Open: Laura Samson vs Maya Joint",
-      "outcome": "Laura Samson",
-      "price": 0.14,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 200122.84,
+      "liquidity_usd": 323392.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,7 +218,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 189970.05,
+      "liquidity_usd": 178450.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -239,7 +232,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 189970.05,
+      "liquidity_usd": 178450.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -253,7 +246,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 231486.85,
+      "liquidity_usd": 213079.3,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -267,25 +260,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 231486.85,
+      "liquidity_usd": 213079.3,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "market": "Will G\u00f3rnik Zabrze win on 2026-07-21?",
       "outcome": "No",
-      "price": 0.982,
-      "net_traders": 1,
+      "price": 0.95,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 249254.09,
+      "liquidity_usd": 677890.32,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-21T11:30:14.077444+00:00"
+  "source_report_generated_at": "2026-07-21T17:55:47.283927+00:00"
 }
