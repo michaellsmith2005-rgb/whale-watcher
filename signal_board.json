@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-21T00:14:00.754468+00:00",
+  "generated_at_utc": "2026-07-21T11:30:17.615172+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 558,
-    "excluded_certain": 54,
-    "win_rate": 0.5770609318996416,
-    "wr_lo": 0.5356799888339536,
-    "wr_hi": 0.6173880645106189,
-    "implied": 0.5529134408602151,
-    "edge_pts": 2.4147491039426483,
-    "edge_lo_pts": -1.7233452026261475,
-    "edge_hi_pts": 6.44746236504038,
-    "brier": 0.24385702948028673,
-    "roi_net": 0.3584606028166999,
+    "n": 568,
+    "excluded_certain": 55,
+    "win_rate": 0.573943661971831,
+    "wr_lo": 0.5329129594248648,
+    "wr_hi": 0.6139808657183218,
+    "implied": 0.5501156690140845,
+    "edge_pts": 2.3827992957746513,
+    "edge_lo_pts": -1.7202709589219656,
+    "edge_hi_pts": 6.386519670423729,
+    "brier": 0.24538349022887324,
+    "roi_net": 0.36243154334919914,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,160 +27,191 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 690881.07,
+      "liquidity_usd": 743750.35,
       "score": 41.9
     },
     {
-      "market": "Winnipeg: Rio Noguchi vs Braden Shick",
-      "outcome": "Rio Noguchi",
-      "price": 0.606,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 207248.05,
-      "score": 39.2
-    },
-    {
-      "market": "Fed rate hike in 2026?",
+      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
       "outcome": "Yes",
-      "price": 0.59,
+      "price": 0.457,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 139264.15,
+      "liquidity_usd": 47227.12,
+      "score": 34.7
+    },
+    {
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.28,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 288309.06,
+      "score": 31.7
+    },
+    {
+      "market": "Winnipeg: Yu-Hsiou Hsu vs Jay Dylan Friend",
+      "outcome": "Yu-Hsiou Hsu",
+      "price": 0.71,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 39853.69,
+      "score": 25.2
+    },
+    {
+      "market": "Estoril Open: Gonzalo Bueno vs Tiago Pereira",
+      "outcome": "Gonzalo Bueno",
+      "price": 0.89,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 178127.59,
+      "score": 25.2
+    },
+    {
+      "market": "Counter-Strike: M80 vs NIP (BO3) - BLAST Bounty Qualifier",
+      "outcome": "NIP",
+      "price": 0.39,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 71226.37,
+      "score": 21.7
+    },
+    {
+      "market": "Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.58,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 143919.53,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "San Diego Padres vs. Atlanta Braves",
-      "outcome": "San Diego Padres",
-      "price": 0.57,
+      "market": "Will Incheon United FC win on 2026-07-21?",
+      "outcome": "No",
+      "price": 0.71,
       "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 78603.44,
+      "fresh": true,
+      "liquidity_usd": 71298.09,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Pittsburgh Pirates vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.28,
+      "market": "Livesport Prague Open: Xinyu Gao vs Lilli Tagger",
+      "outcome": "Lilli Tagger",
+      "price": 0.24,
       "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 205424.95,
+      "liquidity_usd": 147738.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Los Angeles Dodgers vs. Philadelphia Phillies",
-      "outcome": "Philadelphia Phillies",
+      "market": "Livesport Prague Open: Laura Samson vs Maya Joint",
+      "outcome": "Maya Joint",
       "price": 0.14,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 160908.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampa Bay Rays vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.61,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 185744.36,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Baltimore Orioles vs. Boston Red Sox",
-      "outcome": "Baltimore Orioles",
-      "price": 0.18,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 239946.88,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Cleveland Guardians",
-      "outcome": "Cleveland Guardians",
-      "price": 0.019,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 126275.72,
+      "liquidity_usd": 200122.84,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Pittsburgh Pirates vs. New York Yankees",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.28,
-      "net_traders": -2,
+      "market": "Will Gangwon FC win on 2026-07-21?",
+      "outcome": "No",
+      "price": 0.6,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 205424.95,
+      "fresh": false,
+      "liquidity_usd": 82426.26,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "San Francisco Giants vs. Kansas City Royals",
-      "outcome": "San Francisco Giants",
-      "price": 0.46,
+      "market": "Will Jeonbuk Hyundai Motors FC win on 2026-07-21?",
+      "outcome": "No",
+      "price": 0.57,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 221547.8,
+      "liquidity_usd": 94257.78,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "San Diego Padres vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.57,
-      "net_traders": -2,
+      "market": "Winnipeg: Yosuke Watanuki vs Andre Ilagan",
+      "outcome": "Andre Ilagan",
+      "price": 0.69,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 78603.44,
+      "liquidity_usd": 41923.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampere: Joao Lucas Da Silva vs Dimitar Kuzmanov",
+      "outcome": "Dimitar Kuzmanov",
+      "price": 0.14,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 174401.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Livesport Prague Open: Laura Samson vs Maya Joint",
+      "outcome": "Laura Samson",
+      "price": 0.14,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 200122.84,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,7 +225,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 191845.69,
+      "liquidity_usd": 189970.05,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,7 +239,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 191845.69,
+      "liquidity_usd": 189970.05,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,7 +253,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 230280.43,
+      "liquidity_usd": 231486.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,39 +267,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 230280.43,
+      "liquidity_usd": 231486.85,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
       "outcome": "No",
-      "price": 0.57,
-      "net_traders": 0,
+      "price": 0.982,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 319797.88,
+      "liquidity_usd": 249254.09,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 319797.88,
-      "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-21T00:13:56.160378+00:00"
+  "source_report_generated_at": "2026-07-21T11:30:14.077444+00:00"
 }
