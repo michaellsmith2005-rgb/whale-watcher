@@ -1,35 +1,23 @@
 {
-  "generated_at_utc": "2026-07-20T19:15:47.386815+00:00",
+  "generated_at_utc": "2026-07-21T00:14:00.754468+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 549,
+    "n": 558,
     "excluded_certain": 54,
-    "win_rate": 0.5774134790528234,
-    "wr_lo": 0.5356948155151405,
-    "wr_hi": 0.6180562770220347,
-    "implied": 0.5534821493624773,
-    "edge_pts": 2.393132969034606,
-    "edge_lo_pts": -1.7787333847336773,
-    "edge_hi_pts": 6.457412765955739,
-    "brier": 0.2454902995446266,
-    "roi_net": 0.3648740032659692,
+    "win_rate": 0.5770609318996416,
+    "wr_lo": 0.5356799888339536,
+    "wr_hi": 0.6173880645106189,
+    "implied": 0.5529134408602151,
+    "edge_pts": 2.4147491039426483,
+    "edge_lo_pts": -1.7233452026261475,
+    "edge_hi_pts": 6.44746236504038,
+    "brier": 0.24385702948028673,
+    "roi_net": 0.3584606028166999,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Bloomfield Hills: Michael Zheng vs Abedallah Shelbayh",
-      "outcome": "Michael Zheng",
-      "price": 0.93,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 272782.86,
-      "score": 44.2
-    },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
@@ -39,167 +27,160 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 739127.42,
+      "liquidity_usd": 690881.07,
       "score": 41.9
     },
     {
-      "market": "Hamburg European Open: Katarzyna Kawa vs Paula Badosa",
-      "outcome": "Paula Badosa",
-      "price": 0.41,
+      "market": "Winnipeg: Rio Noguchi vs Braden Shick",
+      "outcome": "Rio Noguchi",
+      "price": 0.606,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 77114.62,
-      "score": 40.4
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.28,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 293892.8,
-      "score": 31.7
-    },
-    {
-      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
-      "outcome": "Yes",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 53497.62,
-      "score": 27.9
+      "liquidity_usd": 207248.05,
+      "score": 39.2
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.55,
+      "price": 0.59,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 133137.95,
+      "liquidity_usd": 139264.15,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Palermo: Amarissa Kiara Toth vs Jennifer Ruggeri",
-      "outcome": "Jennifer Ruggeri",
-      "price": 0.282,
-      "net_traders": 0,
+      "market": "San Diego Padres vs. Atlanta Braves",
+      "outcome": "San Diego Padres",
+      "price": 0.57,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 277300.72,
+      "liquidity_usd": 78603.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Palermo: Amarissa Kiara Toth vs Jennifer Ruggeri",
-      "outcome": "Amarissa Kiara Toth",
-      "price": 0.282,
-      "net_traders": 0,
+      "market": "Pittsburgh Pirates vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.28,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 205424.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Los Angeles Dodgers vs. Philadelphia Phillies",
+      "outcome": "Philadelphia Phillies",
+      "price": 0.14,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 160908.48,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampa Bay Rays vs. Toronto Blue Jays",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.61,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 277300.72,
+      "liquidity_usd": 185744.36,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Palermo: Ekaterine Gorgodze vs Ane Mintegi Del Olmo",
-      "outcome": "Ekaterine Gorgodze",
-      "price": 0.7,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 285438.45,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hamburg European Open: Anna Bondar vs Moyuka Uchijima",
-      "outcome": "Anna Bondar",
-      "price": 0.9,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 208347.67,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Palermo: Federica Urgesi vs Elizara Yaneva",
-      "outcome": "Elizara Yaneva",
+      "market": "Baltimore Orioles vs. Boston Red Sox",
+      "outcome": "Baltimore Orioles",
       "price": 0.18,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 256407.95,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Estoril Open: Henrique Rocha vs Pedro Martinez",
-      "outcome": "Henrique Rocha",
-      "price": 0.58,
-      "net_traders": 0,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 314020.18,
+      "liquidity_usd": 239946.88,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Zug: Jerome Kym vs Jay Clarke",
-      "outcome": "Jay Clarke",
-      "price": 0.23,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 129968.02,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Estoril Open: Henrique Rocha vs Pedro Martinez",
-      "outcome": "Pedro Martinez",
-      "price": 0.58,
+      "market": "Minnesota Twins vs. Cleveland Guardians",
+      "outcome": "Cleveland Guardians",
+      "price": 0.019,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 314020.18,
+      "liquidity_usd": 126275.72,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Pittsburgh Pirates vs. New York Yankees",
+      "outcome": "Pittsburgh Pirates",
+      "price": 0.28,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 205424.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "San Francisco Giants vs. Kansas City Royals",
+      "outcome": "San Francisco Giants",
+      "price": 0.46,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 221547.8,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "San Diego Padres vs. Atlanta Braves",
+      "outcome": "Atlanta Braves",
+      "price": 0.57,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 78603.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -213,7 +194,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 190489.85,
+      "liquidity_usd": 191845.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,7 +208,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 190489.85,
+      "liquidity_usd": 191845.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -241,7 +222,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 251002.91,
+      "liquidity_usd": 230280.43,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +236,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 251002.91,
+      "liquidity_usd": 230280.43,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -269,7 +250,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 338098.33,
+      "liquidity_usd": 319797.88,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -283,11 +264,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 338098.33,
+      "liquidity_usd": 319797.88,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-20T19:15:41.144174+00:00"
+  "source_report_generated_at": "2026-07-21T00:13:56.160378+00:00"
 }
