@@ -1,34 +1,48 @@
 {
-  "generated_at_utc": "2026-07-21T17:55:52.529949+00:00",
+  "generated_at_utc": "2026-07-22T00:05:17.830546+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 578,
-    "excluded_certain": 55,
-    "win_rate": 0.5761245674740484,
-    "wr_lo": 0.5354646079973854,
-    "wr_hi": 0.6157793044351391,
-    "implied": 0.5474406574394464,
-    "edge_pts": 2.8683910034602023,
-    "edge_lo_pts": -1.1976049442060988,
-    "edge_hi_pts": 6.83386469956927,
-    "brier": 0.24689558382352944,
-    "roi_net": 0.38273745376475005,
+    "n": 591,
+    "excluded_certain": 56,
+    "win_rate": 0.5769881556683587,
+    "wr_lo": 0.5367855885199525,
+    "wr_hi": 0.616196314561473,
+    "implied": 0.549265143824027,
+    "edge_pts": 2.772301184433168,
+    "edge_lo_pts": -1.2479555304074519,
+    "edge_hi_pts": 6.693117073744592,
+    "brier": 0.2452492799492386,
+    "roi_net": 0.37476884048367354,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
-      "outcome": "Yes",
-      "price": 0.361,
-      "net_traders": 1,
+      "market": "Bloomfield Hills: Alex Michelsen vs Arthur Gea",
+      "outcome": "Alex Michelsen",
+      "price": 0.51,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 51315.14,
-      "score": 43.2
+      "liquidity_usd": 282989.58,
+      "score": 62.3
+    },
+    {
+      "market": "San Francisco Giants vs. Kansas City Royals",
+      "outcome": "San Francisco Giants",
+      "price": 0.48,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 181168.97,
+      "score": 53.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -39,246 +53,227 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 753735.88,
+      "liquidity_usd": 784585.1,
+      "score": 41.9
+    },
+    {
+      "market": "St. Louis Cardinals vs. Los Angeles Angels",
+      "outcome": "Los Angeles Angels",
+      "price": 0.48,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 611737.73,
+      "score": 41.9
+    },
+    {
+      "market": "Detroit Tigers vs. Chicago Cubs: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.51,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 313447.46,
       "score": 41.9
     },
     {
       "market": "Hamburg European Open: Katarzyna Kawa vs Paula Badosa",
       "outcome": "Paula Badosa",
-      "price": 0.38,
+      "price": 0.36,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 94831.55,
-      "score": 36.7
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.28,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 272316.53,
-      "score": 31.7
+      "liquidity_usd": 91692.42,
+      "score": 31.9
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.64,
+      "price": 0.6,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 150201.93,
+      "liquidity_usd": 136931.54,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Sabah FK win on 2026-07-21?",
-      "outcome": "Yes",
-      "price": 0.96,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 121116.68,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will KKS Lech Pozna\u0144 win on 2026-07-21?",
-      "outcome": "Yes",
-      "price": 0.96,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 114711.91,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hamburg European Open: Oleksandra Oliynykova vs Nastasja Schunk",
-      "outcome": "Nastasja Schunk",
-      "price": 0.47,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 267682.24,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bloomfield Hills: Bruno Kuzuhara vs Pablo Llamas Ruiz",
-      "outcome": "Pablo Llamas Ruiz",
-      "price": 0.03,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 282628.7,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Estoril Open: Botic van de Zandschulp vs Jaime Faria",
-      "outcome": "Botic van de Zandschulp",
-      "price": 0.23,
+      "market": "New York Mets vs. Milwaukee Brewers",
+      "outcome": "New York Mets",
+      "price": 0.39,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 232479.55,
+      "liquidity_usd": 34243.11,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Winnipeg: Yu-Hsiou Hsu vs Jay Dylan Friend",
-      "outcome": "Yu-Hsiou Hsu",
-      "price": 0.71,
-      "net_traders": 2,
+      "market": "San Diego Padres vs. Atlanta Braves",
+      "outcome": "San Diego Padres",
+      "price": 0.28,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 167513.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Minnesota Twins vs. Cleveland Guardians",
+      "outcome": "Minnesota Twins",
+      "price": 0.29,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 197382.81,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Minnesota Twins vs. Cleveland Guardians",
+      "outcome": "Cleveland Guardians",
+      "price": 0.29,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 174791.44,
+      "liquidity_usd": 197382.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Palermo: Caroline Werner vs Mina Hodzic",
-      "outcome": "Mina Hodzic",
-      "price": 0.229,
-      "net_traders": 2,
+      "market": "Tampa Bay Rays vs. Toronto Blue Jays",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.82,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 176366.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "New York Mets vs. Milwaukee Brewers",
+      "outcome": "Milwaukee Brewers",
+      "price": 0.39,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 262724.68,
+      "liquidity_usd": 34243.11,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Bloomfield Hills: Stefan Kozlov vs Alan Magadan",
-      "outcome": "Stefan Kozlov",
+      "market": "San Diego Padres vs. Atlanta Braves",
+      "outcome": "Atlanta Braves",
+      "price": 0.28,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 167513.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 180414.24,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 180414.24,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.56,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 232219.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.45,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 232219.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Reds vs. Seattle Mariners",
+      "outcome": "Seattle Mariners",
       "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 310990.81,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will GNK Dinamo Zagreb win on 2026-07-21?",
-      "outcome": "No",
-      "price": 0.52,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 323392.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.57,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 178450.15,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 178450.15,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.57,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 213079.3,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.44,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 213079.3,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will G\u00f3rnik Zabrze win on 2026-07-21?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 677890.32,
+      "liquidity_usd": 709170.26,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-21T17:55:47.283927+00:00"
+  "source_report_generated_at": "2026-07-22T00:05:13.516425+00:00"
 }
