@@ -1,23 +1,47 @@
 {
-  "generated_at_utc": "2026-07-22T11:31:33.710043+00:00",
+  "generated_at_utc": "2026-07-22T17:49:40.754814+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 602,
+    "n": 617,
     "excluded_certain": 56,
-    "win_rate": 0.5730897009966778,
-    "wr_lo": 0.5332362237237738,
-    "wr_hi": 0.6120162647154488,
-    "implied": 0.5470194352159469,
-    "edge_pts": 2.6070265780730906,
-    "edge_lo_pts": -1.3783211492173097,
-    "edge_hi_pts": 6.499682949950191,
-    "brier": 0.2463708047342193,
-    "roi_net": 0.3686636628850241,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.5753646677471637,
+    "wr_lo": 0.5360138279665898,
+    "wr_hi": 0.6137828351436141,
+    "implied": 0.5529427876823338,
+    "edge_pts": 2.2421880064829813,
+    "edge_lo_pts": -1.692895971574404,
+    "edge_hi_pts": 6.084004746128024,
+    "brier": 0.24594752747163695,
+    "roi_net": 0.3556255685335389,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Palermo: Ekaterine Gorgodze vs Yasmine Kabbaj",
+      "outcome": "Yasmine Kabbaj",
+      "price": 0.61,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 308310.99,
+      "score": 47.9
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.382,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 56163.99,
+      "score": 43.2
+    },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
@@ -27,161 +51,161 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 786726.25,
+      "liquidity_usd": 785276.39,
       "score": 41.9
     },
     {
-      "market": "Hamburg European Open: Katarzyna Kawa vs Paula Badosa",
-      "outcome": "Paula Badosa",
-      "price": 0.36,
-      "net_traders": 4,
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.28,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 221342.35,
-      "score": 31.9
+      "liquidity_usd": 260496.89,
+      "score": 31.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.6,
+      "price": 0.65,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 148328.44,
+      "liquidity_usd": 152059.86,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Hamburg European Open: Simona Waltert vs Mayar Sherif",
-      "outcome": "Mayar Sherif",
-      "price": 0.77,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 249674.62,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Generali Open: Sebastian Baez vs Arthur Rinderknech",
-      "outcome": "Sebastian Baez",
-      "price": 0.89,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 167440.81,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hamburg European Open: Simona Waltert vs Mayar Sherif",
-      "outcome": "Simona Waltert",
-      "price": 0.77,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 249674.62,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Livesport Prague Open: Marie Bouzkova vs Carol Young Suh Lee",
-      "outcome": "Carol Young Suh Lee",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 304883.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FC Seoul win on 2026-07-22?",
-      "outcome": "Yes",
-      "price": 0.8,
-      "net_traders": 2,
+      "market": "Pittsburgh Pirates vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.39,
+      "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 76988.44,
+      "fresh": true,
+      "liquidity_usd": 187104.05,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "ITF Horb: Neus Torner Sensano vs Maria Toma",
-      "outcome": "Neus Torner Sensano",
-      "price": 0.89,
-      "net_traders": 2,
+      "market": "Pittsburgh Pirates vs. New York Yankees",
+      "outcome": "Pittsburgh Pirates",
+      "price": 0.39,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 85602.46,
+      "liquidity_usd": 187104.05,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Livesport Prague Open: Marie Bouzkova vs Carol Young Suh Lee",
-      "outcome": "Marie Bouzkova",
-      "price": 0.95,
+      "market": "Estoril Open: Alejandro Tabilo vs Tiago Torres",
+      "outcome": "Alejandro Tabilo",
+      "price": 0.32,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 250257.77,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Estoril Open: Alejandro Tabilo vs Tiago Torres",
+      "outcome": "Tiago Torres",
+      "price": 0.32,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 304883.64,
+      "liquidity_usd": 250257.77,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Tampere: Andrej Nedic vs Tom Gentzsch",
-      "outcome": "Andrej Nedic",
-      "price": 0.79,
+      "market": "Hamburg European Open: Anna Bondar vs Noma Noha Akugue",
+      "outcome": "Anna Bondar",
+      "price": 0.975,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 293886.57,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Baltimore Orioles vs. Boston Red Sox",
+      "outcome": "Baltimore Orioles",
+      "price": 0.14,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 134838.87,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will PFK Levski Sofia win on 2026-07-22?",
+      "outcome": "Yes",
+      "price": 0.69,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 205302.1,
+      "liquidity_usd": 87107.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Tampere: Andrej Nedic vs Tom Gentzsch",
-      "outcome": "Tom Gentzsch",
-      "price": 0.79,
-      "net_traders": 0,
+      "market": "Will Qairat FK win on 2026-07-22?",
+      "outcome": "No",
+      "price": 0.85,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 205302.1,
+      "liquidity_usd": 55337.62,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: New York Yankees (-1.5)",
+      "outcome": "New York Yankees",
+      "price": 0.4,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 117445.59,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -195,7 +219,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 183647.9,
+      "liquidity_usd": 186531.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -209,7 +233,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 183647.9,
+      "liquidity_usd": 186531.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -223,7 +247,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 230889.49,
+      "liquidity_usd": 229800.46,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -237,7 +261,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 230889.49,
+      "liquidity_usd": 229800.46,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -245,31 +269,17 @@
     {
       "market": "Will LeBron James play for the Miami Heat in 2026-27?",
       "outcome": "Yes",
-      "price": 0.521,
+      "price": 0.497,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 52632.6,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Gimcheon Sangmu FC win on 2026-07-22?",
-      "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 95511.85,
+      "liquidity_usd": 67543.54,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-22T11:31:30.039994+00:00"
+  "source_report_generated_at": "2026-07-22T17:49:37.106349+00:00"
 }

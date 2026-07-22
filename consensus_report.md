@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-22T11:31:30.039994+00:00 UTC*  
+*Generated: 2026-07-22T17:49:37.106349+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **1140**
-- Unique markets represented: **779**
+- Total open positions analyzed: **1294**
+- Unique markets represented: **829**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Hamburg European Open: Simona Waltert vs Mayar Sherif
-- **Favored outcome:** Mayar Sherif
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $14,230.32
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x4f2, RN1, ferrariChampions2026, swisstony
-
-### 2. Generali Open: Sebastian Baez vs Arthur Rinderknech
-- **Favored outcome:** Sebastian Baez
+### 1. Pittsburgh Pirates vs. New York Yankees
+- **Favored outcome:** New York Yankees
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $160,590.20
+- **Total combined USD exposure:** $218,923.83
+- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, 0x4f2, RN1, Themsnw, swisstony
+
+### 2. Pittsburgh Pirates vs. New York Yankees
+- **Favored outcome:** Pittsburgh Pirates
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $57,066.09
+- **Backers:** 0x4f2, RN1, ferrariChampions2026, swisstony, umeax
+
+### 3. Estoril Open: Alejandro Tabilo vs Tiago Torres
+- **Favored outcome:** Alejandro Tabilo
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $39,634.58
 - **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
 
-### 3. Hamburg European Open: Simona Waltert vs Mayar Sherif
-- **Favored outcome:** Simona Waltert
+### 4. Palermo: Ekaterine Gorgodze vs Yasmine Kabbaj
+- **Favored outcome:** Yasmine Kabbaj
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $53,541.70
+- **Total combined USD exposure:** $1,254.71
 - **Backers:** 0x076daa87, 0x4f2, RN1, ferrariChampions2026, swisstony
 
-### 4. Livesport Prague Open: Marie Bouzkova vs Carol Young Suh Lee
-- **Favored outcome:** Carol Young Suh Lee
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $1,010.69
-- **Backers:** 0x076daa87, 0x4f2, RN1, ferrariChampions2026, swisstony
-
-### 5. Will FC Seoul win on 2026-07-22?
-- **Favored outcome:** Yes
+### 5. Estoril Open: Alejandro Tabilo vs Tiago Torres
+- **Favored outcome:** Tiago Torres
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $295,573.24
-- **Backers:** 0x076daa87, 0x4f2, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $93,843.91
+- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -51,11 +51,10 @@
 | 2026 Balance of Power: D Senate, D House | Yes | 1 | $3,481,741.23 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $1,054,500.00 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $845,500.00 |
-| Will FC Seoul win on 2026-07-22? | Yes | 4 | $295,573.24 |
+| Pittsburgh Pirates vs. New York Yankees | New York Yankees | 5 | $218,923.83 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Generali Open: Sebastian Baez vs Arthur Rinderknech | Sebastian Baez | 100 | 3 | 10.1% | 0.18 |
-| Hamburg European Open: Simona Waltert vs Mayar Sherif | Simona Waltert | 69 | 4 | 5.0% | 0.18 |
+| Hamburg European Open: Anna Bondar vs Noma Noha Akugue | Anna Bondar | 100 | 4 | 4.2% | 0.18 |
