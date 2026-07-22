@@ -1,49 +1,23 @@
 {
-  "generated_at_utc": "2026-07-22T00:05:17.830546+00:00",
+  "generated_at_utc": "2026-07-22T11:31:33.710043+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 591,
+    "n": 602,
     "excluded_certain": 56,
-    "win_rate": 0.5769881556683587,
-    "wr_lo": 0.5367855885199525,
-    "wr_hi": 0.616196314561473,
-    "implied": 0.549265143824027,
-    "edge_pts": 2.772301184433168,
-    "edge_lo_pts": -1.2479555304074519,
-    "edge_hi_pts": 6.693117073744592,
-    "brier": 0.2452492799492386,
-    "roi_net": 0.37476884048367354,
-    "roi_median": 0.07890109890109887
+    "win_rate": 0.5730897009966778,
+    "wr_lo": 0.5332362237237738,
+    "wr_hi": 0.6120162647154488,
+    "implied": 0.5470194352159469,
+    "edge_pts": 2.6070265780730906,
+    "edge_lo_pts": -1.3783211492173097,
+    "edge_hi_pts": 6.499682949950191,
+    "brier": 0.2463708047342193,
+    "roi_net": 0.3686636628850241,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Bloomfield Hills: Alex Michelsen vs Arthur Gea",
-      "outcome": "Alex Michelsen",
-      "price": 0.51,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 282989.58,
-      "score": 62.3
-    },
-    {
-      "market": "San Francisco Giants vs. Kansas City Royals",
-      "outcome": "San Francisco Giants",
-      "price": 0.48,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 181168.97,
-      "score": 53.7
-    },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
@@ -53,31 +27,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 784585.1,
-      "score": 41.9
-    },
-    {
-      "market": "St. Louis Cardinals vs. Los Angeles Angels",
-      "outcome": "Los Angeles Angels",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 611737.73,
-      "score": 41.9
-    },
-    {
-      "market": "Detroit Tigers vs. Chicago Cubs: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.51,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 313447.46,
+      "liquidity_usd": 786726.25,
       "score": 41.9
     },
     {
@@ -89,7 +39,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 91692.42,
+      "liquidity_usd": 221342.35,
       "score": 31.9
     },
     {
@@ -101,105 +51,137 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 136931.54,
+      "liquidity_usd": 148328.44,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "New York Mets vs. Milwaukee Brewers",
-      "outcome": "New York Mets",
-      "price": 0.39,
+      "market": "Hamburg European Open: Simona Waltert vs Mayar Sherif",
+      "outcome": "Mayar Sherif",
+      "price": 0.77,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 34243.11,
+      "liquidity_usd": 249674.62,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "San Diego Padres vs. Atlanta Braves",
-      "outcome": "San Diego Padres",
-      "price": 0.28,
+      "market": "Generali Open: Sebastian Baez vs Arthur Rinderknech",
+      "outcome": "Sebastian Baez",
+      "price": 0.89,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 167440.81,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hamburg European Open: Simona Waltert vs Mayar Sherif",
+      "outcome": "Simona Waltert",
+      "price": 0.77,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 249674.62,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Livesport Prague Open: Marie Bouzkova vs Carol Young Suh Lee",
+      "outcome": "Carol Young Suh Lee",
+      "price": 0.95,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 167513.2,
+      "liquidity_usd": 304883.64,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Minnesota Twins vs. Cleveland Guardians",
-      "outcome": "Minnesota Twins",
-      "price": 0.29,
-      "net_traders": 0,
+      "market": "Will FC Seoul win on 2026-07-22?",
+      "outcome": "Yes",
+      "price": 0.8,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 197382.81,
+      "fresh": false,
+      "liquidity_usd": 76988.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Minnesota Twins vs. Cleveland Guardians",
-      "outcome": "Cleveland Guardians",
-      "price": 0.29,
-      "net_traders": 0,
+      "market": "ITF Horb: Neus Torner Sensano vs Maria Toma",
+      "outcome": "Neus Torner Sensano",
+      "price": 0.89,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 197382.81,
+      "liquidity_usd": 85602.46,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Tampa Bay Rays vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.82,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 176366.68,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "New York Mets vs. Milwaukee Brewers",
-      "outcome": "Milwaukee Brewers",
-      "price": 0.39,
+      "market": "Livesport Prague Open: Marie Bouzkova vs Carol Young Suh Lee",
+      "outcome": "Marie Bouzkova",
+      "price": 0.95,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 34243.11,
+      "liquidity_usd": 304883.64,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "San Diego Padres vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.28,
-      "net_traders": -1,
+      "market": "Tampere: Andrej Nedic vs Tom Gentzsch",
+      "outcome": "Andrej Nedic",
+      "price": 0.79,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 167513.2,
+      "liquidity_usd": 205302.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampere: Andrej Nedic vs Tom Gentzsch",
+      "outcome": "Tom Gentzsch",
+      "price": 0.79,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 205302.1,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -213,7 +195,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 180414.24,
+      "liquidity_usd": 183647.9,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,7 +209,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 180414.24,
+      "liquidity_usd": 183647.9,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -241,7 +223,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 232219.95,
+      "liquidity_usd": 230889.49,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,25 +237,39 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 232219.95,
+      "liquidity_usd": 230889.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Reds vs. Seattle Mariners",
-      "outcome": "Seattle Mariners",
-      "price": 0.48,
-      "net_traders": -1,
+      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+      "outcome": "Yes",
+      "price": 0.521,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 709170.26,
+      "liquidity_usd": 52632.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Gimcheon Sangmu FC win on 2026-07-22?",
+      "outcome": "Yes",
+      "price": 0.45,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 95511.85,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-22T00:05:13.516425+00:00"
+  "source_report_generated_at": "2026-07-22T11:31:30.039994+00:00"
 }
