@@ -1,57 +1,33 @@
 {
-  "generated_at_utc": "2026-07-23T00:16:19.278814+00:00",
+  "generated_at_utc": "2026-07-23T12:01:04.411682+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 627,
+    "n": 635,
     "excluded_certain": 58,
-    "win_rate": 0.5741626794258373,
-    "wr_lo": 0.5351219246211033,
-    "wr_hi": 0.6123001857787181,
-    "implied": 0.551300956937799,
-    "edge_pts": 2.2861722488038305,
-    "edge_lo_pts": -1.6179032316695707,
-    "edge_hi_pts": 6.099922884091913,
-    "brier": 0.24472252703349281,
-    "roi_net": 0.3495616723479191,
+    "win_rate": 0.5716535433070866,
+    "wr_lo": 0.5328474416542217,
+    "wr_hi": 0.6095978843859109,
+    "implied": 0.5511743307086615,
+    "edge_pts": 2.047921259842511,
+    "edge_lo_pts": -1.8326889054439799,
+    "edge_hi_pts": 5.842355367724938,
+    "brier": 0.24416932984251963,
+    "roi_net": 0.3399619829527712,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will S\u00e3o Paulo FC win on 2026-07-22?",
-      "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 155569.6,
-      "score": 46.7
-    },
-    {
-      "market": "Will Botafogo FR vs. EC Vit\u00f3ria end in a draw?",
-      "outcome": "No",
-      "price": 0.75,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 22063.37,
-      "score": 45.4
-    },
-    {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.383,
+      "price": 0.386,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 49296.64,
+      "liquidity_usd": 50965.1,
       "score": 43.2
     },
     {
@@ -63,8 +39,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 794184.26,
+      "liquidity_usd": 792253.15,
       "score": 41.9
+    },
+    {
+      "market": "Will RSC Anderlecht win on 2026-07-23?",
+      "outcome": "No",
+      "price": 0.76,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 240115.57,
+      "score": 37.9
     },
     {
       "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -72,133 +60,151 @@
       "price": 0.28,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 260355.5,
-      "score": 38.3
-    },
-    {
-      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
-      "outcome": "Yes",
-      "price": 0.502,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 108001.51,
-      "score": 24.4
+      "liquidity_usd": 259542.79,
+      "score": 31.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.66,
+      "price": 0.69,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 163129.35,
+      "liquidity_usd": 125062.45,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Los Angeles Dodgers vs. Philadelphia Phillies",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.53,
+      "market": "Hamburg European Open: Oleksandra Oliynykova vs Leyre Romero Gormaz",
+      "outcome": "Oleksandra Oliynykova",
+      "price": 0.77,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 280097.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hamburg European Open: Oleksandra Oliynykova vs Leyre Romero Gormaz",
+      "outcome": "Leyre Romero Gormaz",
+      "price": 0.77,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 280097.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Livesport Prague Open: Nikola Bartunkova vs Lanlana Tararudee",
+      "outcome": "Nikola Bartunkova",
+      "price": 0.883,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 171797.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Livesport Prague Open: Nikola Bartunkova vs Lanlana Tararudee",
+      "outcome": "Lanlana Tararudee",
+      "price": 0.883,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 171797.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Segovia: Yanki Erel vs Dominik Palan",
+      "outcome": "Dominik Palan",
+      "price": 0.34,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 114705.55,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Segovia: Alejandro Moro Canas vs Ivan Marrero",
+      "outcome": "Alejandro Moro Canas",
+      "price": 0.88,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 213073.93,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Estoril Open: Luca Van Assche vs Pablo Carreno Busta",
+      "outcome": "Pablo Carreno Busta",
+      "price": 0.63,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 43588.55,
+      "liquidity_usd": 313802.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Minnesota Twins vs. Cleveland Guardians",
-      "outcome": "Minnesota Twins",
-      "price": 0.82,
-      "net_traders": 1,
+      "market": "Segovia: Yanki Erel vs Dominik Palan",
+      "outcome": "Yanki Erel",
+      "price": 0.34,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 14046.88,
+      "fresh": true,
+      "liquidity_usd": 114705.55,
       "why_excluded": [
+        "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Detroit Tigers vs. Chicago Cubs",
-      "outcome": "Chicago Cubs",
-      "price": 0.43,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 56032.31,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Charlotte FC win on 2026-07-22?",
-      "outcome": "No",
-      "price": 0.57,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 142000.94,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Colorado Rapids SC win on 2026-07-22?",
-      "outcome": "No",
-      "price": 0.5,
+      "market": "Tampere: Sascha Gueymard-Wayenburg vs Igor Ribeiro Marcondes",
+      "outcome": "Sascha Gueymard-Wayenburg",
+      "price": 0.17,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 111086.0,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Los Angeles Dodgers vs. Philadelphia Phillies",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.53,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 43588.55,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Miami Marlins vs. Houston Astros",
-      "outcome": "Miami Marlins",
-      "price": 0.5,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 25883.04,
+      "liquidity_usd": 263309.96,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -212,7 +218,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 187831.79,
+      "liquidity_usd": 188324.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -226,7 +232,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 187831.79,
+      "liquidity_usd": 188324.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,7 +246,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 229538.27,
+      "liquidity_usd": 233297.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -254,25 +260,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 229538.27,
+      "liquidity_usd": 233297.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.985,
-      "net_traders": 1,
+      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
+      "outcome": "Yes",
+      "price": 0.477,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 289519.36,
+      "liquidity_usd": 97474.71,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-23T00:16:14.250324+00:00"
+  "source_report_generated_at": "2026-07-23T12:01:00.699041+00:00"
 }
