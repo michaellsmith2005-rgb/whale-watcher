@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-23T17:58:22.432135+00:00",
+  "generated_at_utc": "2026-07-24T00:13:50.038177+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 645,
+    "n": 658,
     "excluded_certain": 58,
-    "win_rate": 0.5705426356589147,
-    "wr_lo": 0.5320344521624188,
-    "wr_hi": 0.6082154948200188,
-    "implied": 0.5526072868217055,
-    "edge_pts": 1.7935348837209264,
-    "edge_lo_pts": -2.057283465928661,
-    "edge_hi_pts": 5.560820799831334,
-    "brier": 0.24423411232558137,
-    "roi_net": 0.330981867768405,
+    "win_rate": 0.5729483282674772,
+    "wr_lo": 0.5348367933058574,
+    "wr_hi": 0.61021301921726,
+    "implied": 0.552084650455927,
+    "edge_pts": 2.0863677811550185,
+    "edge_lo_pts": -1.72478571500696,
+    "edge_hi_pts": 5.812836876133298,
+    "brier": 0.24552128031914894,
+    "roi_net": 0.36519341870935007,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,169 +27,171 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 793438.32,
+      "liquidity_usd": 797274.39,
       "score": 41.9
     },
     {
-      "market": "San Diego Padres vs. Atlanta Braves: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.85,
-      "net_traders": 4,
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.281,
+      "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 55856.66,
-      "score": 41.1
-    },
-    {
-      "market": "Tampa Bay Rays vs. Toronto Blue Jays",
-      "outcome": "Tampa Bay Rays",
-      "price": 0.51,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 461800.26,
-      "score": 39.9
+      "liquidity_usd": 245246.35,
+      "score": 38.1
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.417,
+      "price": 0.424,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 48203.02,
-      "score": 38.2
+      "liquidity_usd": 55490.78,
+      "score": 37.4
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.71,
+      "price": 0.75,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 156888.89,
+      "liquidity_usd": 173204.73,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "San Diego Padres vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.1,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 171989.56,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bloomfield Hills: Roger Pascual vs Andres Martin",
-      "outcome": "Roger Pascual",
-      "price": 0.52,
+      "market": "Winnipeg: August Holmgren vs Liam Draxl",
+      "outcome": "August Holmgren",
+      "price": 0.27,
       "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 271020.9,
+      "fresh": true,
+      "liquidity_usd": 141514.35,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Estoril Open: Pedro Martinez vs Luciano Darderi",
-      "outcome": "Luciano Darderi",
-      "price": 0.06,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 319706.55,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Cleveland Guardians: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.22,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 55993.08,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Cleveland Guardians",
-      "outcome": "Cleveland Guardians",
+      "market": "Kansas City Royals vs. Detroit Tigers",
+      "outcome": "Detroit Tigers",
       "price": 0.45,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 243640.77,
+      "liquidity_usd": 141206.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: Heroic vs FOKUS (BO3) - StarLadder StarSeries European Qualifier Group B",
-      "outcome": "Heroic",
-      "price": 0.87,
-      "net_traders": 1,
+      "market": "Winnipeg: August Holmgren vs Liam Draxl",
+      "outcome": "Liam Draxl",
+      "price": 0.27,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 93589.03,
+      "liquidity_usd": 141514.35,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Minnesota Twins vs. Cleveland Guardians",
-      "outcome": "Minnesota Twins",
+      "market": "Winnipeg: Hayato Matsuoka vs Clement Chidekh",
+      "outcome": "Hayato Matsuoka",
+      "price": 0.07,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 214831.97,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Kansas City Royals vs. Detroit Tigers",
+      "outcome": "Kansas City Royals",
       "price": 0.45,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 243640.77,
+      "liquidity_usd": 141206.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Troms\u00f8 IL win on 2026-07-23?",
-      "outcome": "Yes",
-      "price": 0.6,
+      "market": "Winnipeg: Hayato Matsuoka vs Clement Chidekh",
+      "outcome": "Clement Chidekh",
+      "price": 0.07,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 214831.97,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Isurus vs Patins da Ferrari (BO3) - CCT South America Series 4 Playoffs",
+      "outcome": "Isurus",
+      "price": 0.48,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 66755.11,
+      "fresh": false,
+      "liquidity_usd": 42246.85,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Botafogo FC win on 2026-07-23?",
+      "outcome": "Yes",
+      "price": 0.38,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 106128.23,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "CF Montr\u00e9al vs. Inter Miami CF: O/U 3.5",
+      "outcome": "Over",
+      "price": 0.47,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 15471.97,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -203,7 +205,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 198802.65,
+      "liquidity_usd": 179447.57,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,7 +219,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 198802.65,
+      "liquidity_usd": 179447.57,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,7 +233,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 199977.05,
+      "liquidity_usd": 199568.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -245,21 +247,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 199977.05,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampa Bay Rays vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.51,
-      "net_traders": -3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 461800.26,
+      "liquidity_usd": 199568.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -267,17 +255,31 @@
     {
       "market": "Will LeBron James play for the Miami Heat in 2026-27?",
       "outcome": "Yes",
-      "price": 0.461,
+      "price": 0.453,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 86436.55,
+      "liquidity_usd": 39320.88,
       "why_excluded": [
         "cohort on both sides"
       ]
+    },
+    {
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.986,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 227530.72,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
     }
   ],
-  "source_report_generated_at": "2026-07-23T17:58:17.037162+00:00"
+  "source_report_generated_at": "2026-07-24T00:13:44.453449+00:00"
 }
