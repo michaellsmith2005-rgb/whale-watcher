@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-24T00:13:44.453449+00:00 UTC*  
+*Generated: 2026-07-24T11:21:42.654066+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,39 +8,39 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **501**
-- Unique markets represented: **415**
+- Total open positions analyzed: **642**
+- Unique markets represented: **497**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Winnipeg: August Holmgren vs Liam Draxl
-- **Favored outcome:** August Holmgren
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $13,863.97
-- **Backers:** 0x076daa87, RN1, dv-pm, ferrariChampions2026, swisstony
-
-### 2. Kansas City Royals vs. Detroit Tigers
-- **Favored outcome:** Detroit Tigers
+### 1. Segovia: Paul Inchauspe vs Keegan Smith
+- **Favored outcome:** Keegan Smith
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $9,762.36
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, dv-pm, swisstony
+- **Total combined USD exposure:** $6,983.12
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
-### 3. Winnipeg: August Holmgren vs Liam Draxl
-- **Favored outcome:** Liam Draxl
+### 2. Tampere: Gauthier Onclin vs Tom Gentzsch
+- **Favored outcome:** Tom Gentzsch
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $5,602.25
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $238.50
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
-### 4. Winnipeg: Hayato Matsuoka vs Clement Chidekh
-- **Favored outcome:** Hayato Matsuoka
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $443.87
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
-
-### 5. Kansas City Royals vs. Detroit Tigers
-- **Favored outcome:** Kansas City Royals
+### 3. Hamburg European Open: Mayar Sherif vs Paula Badosa
+- **Favored outcome:** Paula Badosa
 - **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $19,762.50
+- **Total combined USD exposure:** $29,612.97
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026
+
+### 4. Segovia: Paul Inchauspe vs Keegan Smith
+- **Favored outcome:** Paul Inchauspe
+- **Top-50 traders backing it:** 3
+- **Total combined USD exposure:** $15,751.33
+- **Backers:** RN1, ferrariChampions2026, swisstony
+
+### 5. Livesport Prague Open: Marie Bouzkova vs Tereza Valentova
+- **Favored outcome:** Marie Bouzkova
+- **Top-50 traders backing it:** 3
+- **Total combined USD exposure:** $9,432.61
 - **Backers:** RN1, ferrariChampions2026, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
@@ -51,10 +51,11 @@
 | 2026 Balance of Power: D Senate, D House | Yes | 1 | $3,481,741.23 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $1,054,500.00 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $845,500.00 |
-| Fed rate hike in 2026? | Yes | 1 | $222,001.79 |
+| Fed rate hike in 2026? | Yes | 1 | $213,001.72 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Winnipeg: August Holmgren vs Liam Draxl | August Holmgren | 100 | 3 | 3.1% | 0.24 |
+| Hamburg European Open: Mayar Sherif vs Paula Badosa | Paula Badosa | 100 | 3 | 15.6% | 0.20 |
+| Segovia: Paul Inchauspe vs Keegan Smith | Paul Inchauspe | 24 | 3 | 5.0% | 0.18 |
