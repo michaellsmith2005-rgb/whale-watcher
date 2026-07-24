@@ -1,23 +1,35 @@
 {
-  "generated_at_utc": "2026-07-24T11:21:46.675261+00:00",
+  "generated_at_utc": "2026-07-24T18:05:06.960937+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 669,
-    "excluded_certain": 58,
-    "win_rate": 0.5724962630792227,
-    "wr_lo": 0.5346986204647883,
-    "wr_hi": 0.6094660685199593,
-    "implied": 0.5493149476831091,
-    "edge_pts": 2.3181315396113678,
-    "edge_lo_pts": -1.4616327218320735,
-    "edge_hi_pts": 6.015112083685025,
-    "brier": 0.24645949544095663,
-    "roi_net": 0.38164366438980346,
+    "n": 679,
+    "excluded_certain": 60,
+    "win_rate": 0.5699558173784978,
+    "wr_lo": 0.5324260401571501,
+    "wr_hi": 0.606698465438291,
+    "implied": 0.5494428571428571,
+    "edge_pts": 2.0512960235640643,
+    "edge_lo_pts": -1.7016816985707006,
+    "edge_hi_pts": 5.725560829543386,
+    "brier": 0.24763682245949922,
+    "roi_net": 0.3768475915335559,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Winnipeg: Rio Noguchi vs Charles Broom",
+      "outcome": "Charles Broom",
+      "price": 0.42,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 180805.92,
+      "score": 50.2
+    },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
@@ -27,7 +39,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 813571.35,
+      "liquidity_usd": 774528.76,
       "score": 41.9
     },
     {
@@ -39,175 +51,170 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 269225.09,
+      "liquidity_usd": 261888.29,
       "score": 31.4
+    },
+    {
+      "market": "Bitcoin all time high by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.942,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 167172.85,
+      "score": 21.9
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.475,
+      "price": 0.499,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 37780.64,
-      "score": 25.2
+      "liquidity_usd": 48620.04,
+      "score": 21.4
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.72,
+      "price": 0.71,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155603.23,
+      "liquidity_usd": 154655.76,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Segovia: Paul Inchauspe vs Keegan Smith",
-      "outcome": "Keegan Smith",
-      "price": 0.67,
-      "net_traders": 1,
+      "market": "Estoril Open: Roman Andres Burruchaga vs Alexander Blockx",
+      "outcome": "Roman Andres Burruchaga",
+      "price": 0.58,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 78284.8,
+      "fresh": false,
+      "liquidity_usd": 301540.68,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Tampere: Gauthier Onclin vs Tom Gentzsch",
-      "outcome": "Tom Gentzsch",
-      "price": 0.992,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 142853.77,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hamburg European Open: Mayar Sherif vs Paula Badosa",
-      "outcome": "Paula Badosa",
-      "price": 0.39,
-      "net_traders": 1,
+      "market": "Estoril Open: Roman Andres Burruchaga vs Alexander Blockx",
+      "outcome": "Alexander Blockx",
+      "price": 0.58,
+      "net_traders": 0,
       "signals": [
         "pure_count",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 24091.39,
+      "fresh": true,
+      "liquidity_usd": 301540.68,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Segovia: Paul Inchauspe vs Keegan Smith",
-      "outcome": "Paul Inchauspe",
-      "price": 0.67,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 78284.8,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Livesport Prague Open: Marie Bouzkova vs Tereza Valentova",
-      "outcome": "Marie Bouzkova",
-      "price": 0.86,
+      "market": "Viborg FF vs. Odense BK: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.3,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 98393.03,
+      "liquidity_usd": 56678.43,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Estoril Open: Tiago Torres vs Hugo Gaston",
-      "outcome": "Hugo Gaston",
+      "market": "Will Viborg FF win on 2026-07-24?",
+      "outcome": "Yes",
       "price": 0.45,
-      "net_traders": 0,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 40415.8,
+      "liquidity_usd": 92741.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Livesport Prague Open: Marie Bouzkova vs Tereza Valentova",
-      "outcome": "Tereza Valentova",
-      "price": 0.86,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 98393.03,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Estoril Open: Tiago Torres vs Hugo Gaston",
-      "outcome": "Tiago Torres",
-      "price": 0.45,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40415.8,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampere: Gauthier Onclin vs Tom Gentzsch",
-      "outcome": "Gauthier Onclin",
-      "price": 0.992,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 142853.77,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Zug: Philip Henning vs Thiago Seyboth Wild",
-      "outcome": "Thiago Seyboth Wild",
-      "price": 0.17,
+      "market": "Viborg FF vs. Odense BK: O/U 4.5",
+      "outcome": "Under",
+      "price": 0.041,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 139942.97,
+      "liquidity_usd": 80118.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Viborg FF vs. Odense BK: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.3,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 56678.43,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Palermo: Alevtina Ibragimova vs Clara Burel",
+      "outcome": "Clara Burel",
+      "price": 0.2,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 248128.0,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Astralis vs Heroic (BO3) - StarLadder StarSeries European Qualifier Group B",
+      "outcome": "Heroic",
+      "price": 0.06,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 110024.13,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Viborg FF win on 2026-07-24?",
+      "outcome": "No",
+      "price": 0.56,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 92741.41,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,7 +228,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 211804.65,
+      "liquidity_usd": 178770.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,7 +242,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 211804.65,
+      "liquidity_usd": 178770.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -249,7 +256,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 220531.76,
+      "liquidity_usd": 191308.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -263,21 +270,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 220531.76,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will LeBron James play for the Miami Heat in 2026-27?",
-      "outcome": "Yes",
-      "price": 0.468,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 72504.74,
+      "liquidity_usd": 191308.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -285,17 +278,17 @@
     {
       "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
       "outcome": "No",
-      "price": 0.985,
+      "price": 0.986,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 223344.33,
+      "liquidity_usd": 189018.24,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-24T11:21:42.654066+00:00"
+  "source_report_generated_at": "2026-07-24T18:05:00.945543+00:00"
 }
