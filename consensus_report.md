@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-25T06:06:05.924804+00:00 UTC*  
+*Generated: 2026-07-25T16:14:04.101994+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **844**
-- Unique markets represented: **686**
+- Total open positions analyzed: **1506**
+- Unique markets represented: **1065**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will Inter Miami CF win on 2026-07-25?
+### 1. Livesport Prague Open: Lilli Tagger vs Barbora Krejcikova
+- **Favored outcome:** Barbora Krejcikova
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $133,607.53
+- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
+
+### 2. Livesport Prague Open: Lilli Tagger vs Barbora Krejcikova
+- **Favored outcome:** Lilli Tagger
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $52,578.87
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
+
+### 3. Hamburg European Open: Mayar Sherif vs Tamara Korpatsch
+- **Favored outcome:** Tamara Korpatsch
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $25,335.29
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
+
+### 4. Will Inter Miami CF win on 2026-07-25?
 - **Favored outcome:** No
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $16,949.15
+- **Total combined USD exposure:** $20,530.06
 - **Backers:** 0x076daa87, ferrariChampions2026, swisstony, umeax
 
-### 2. Will CF Montréal win on 2026-07-25?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $2,932.07
-- **Backers:** 0x076daa87, ferrariChampions2026, swisstony
-
-### 3. Livesport Prague Open: Tereza Valentova vs Daria Snigur
-- **Favored outcome:** Tereza Valentova
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $562.24
-- **Backers:** 0x076daa87, ferrariChampions2026, swisstony
-
-### 4. Will Marco Rubio win the 2028 Republican presidential nomination?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 2
-- **Total combined USD exposure:** $103,372.49
-- **Backers:** FootballFan98, Jsram
-
-### 5. LoL: LGD Gaming vs Team WE (BO3) - LPL Group Ascend
-- **Favored outcome:** Team WE
-- **Top-50 traders backing it:** 2
-- **Total combined USD exposure:** $9,624.12
-- **Backers:** 0x076daa87, Djdjdjekekek
+### 5. Zug: Max Hans Rehberg vs Marc-Andrea Huesler
+- **Favored outcome:** Max Hans Rehberg
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $6,941.93
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -51,7 +51,7 @@
 | 2026 Balance of Power: D Senate, D House | Yes | 1 | $3,481,741.23 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $638,250.00 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $511,750.00 |
-| Fed rate hike in 2026? | Yes | 1 | $214,501.73 |
+| Fed rate hike in 2026? | Yes | 1 | $217,501.75 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 

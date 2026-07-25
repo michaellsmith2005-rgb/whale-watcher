@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-25T06:06:11.397148+00:00",
+  "generated_at_utc": "2026-07-25T16:14:09.869469+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 690,
+    "n": 694,
     "excluded_certain": 60,
-    "win_rate": 0.5710144927536231,
-    "wr_lo": 0.5337918308918382,
-    "wr_hi": 0.6074507812547957,
-    "implied": 0.5465836231884058,
-    "edge_pts": 2.443086956521734,
-    "edge_lo_pts": -1.2791792296567572,
-    "edge_hi_pts": 6.086715806638987,
-    "brier": 0.24958026586956522,
-    "roi_net": 0.4305814623463291,
+    "win_rate": 0.5706051873198847,
+    "wr_lo": 0.5334884282025423,
+    "wr_hi": 0.606944586968809,
+    "implied": 0.546257492795389,
+    "edge_pts": 2.43476945244957,
+    "edge_lo_pts": -1.2769064592846768,
+    "edge_hi_pts": 6.068709417341999,
+    "brier": 0.2504042989193084,
+    "roi_net": 0.43015344099950703,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,74 +21,14 @@
     {
       "market": "Will Inter Miami CF win on 2026-07-25?",
       "outcome": "No",
-      "price": 0.55,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 74407.92,
-      "score": 50.2
-    },
-    {
-      "market": "Will CF Montr\u00e9al win on 2026-07-25?",
-      "outcome": "Yes",
-      "price": 0.32,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 68545.57,
-      "score": 49.7
-    },
-    {
-      "market": "LoL: LGD Gaming vs Team WE (BO3) - LPL Group Ascend",
-      "outcome": "Team WE",
-      "price": 0.39,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 332565.29,
-      "score": 46.7
-    },
-    {
-      "market": "Will Associa\u00e7\u00e3o Chapecoense de Futebol win on 2026-07-25?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 48021.76,
-      "score": 46.7
-    },
-    {
-      "market": "Generali Open: Alexander Bublik vs Quentin Halys",
-      "outcome": "Alexander Bublik",
-      "price": 0.67,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 179250.91,
-      "score": 46.7
-    },
-    {
-      "market": "Livesport Prague Open: Tereza Valentova vs Daria Snigur",
-      "outcome": "Tereza Valentova",
       "price": 0.56,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 181442.81,
-      "score": 42.7
+      "liquidity_usd": 90511.17,
+      "score": 48.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -99,88 +39,172 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 802341.54,
+      "liquidity_usd": 805538.39,
       "score": 41.9
     },
     {
       "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
       "outcome": "Yes",
-      "price": 0.281,
+      "price": 0.27,
       "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 286113.14,
+      "score": 34.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.491,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 48144.89,
+      "score": 24.4
+    },
+    {
+      "market": "Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.73,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 178776.26,
+      "score": 18.2
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Livesport Prague Open: Lilli Tagger vs Barbora Krejcikova",
+      "outcome": "Barbora Krejcikova",
+      "price": 0.37,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 291322.2,
-      "score": 38.1
+      "liquidity_usd": 309746.01,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     },
     {
-      "market": "Bitcoin all time high by December 31, 2026?",
+      "market": "Livesport Prague Open: Lilli Tagger vs Barbora Krejcikova",
+      "outcome": "Lilli Tagger",
+      "price": 0.37,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 309746.01,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hamburg European Open: Mayar Sherif vs Tamara Korpatsch",
+      "outcome": "Tamara Korpatsch",
+      "price": 0.23,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 215249.89,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Zug: Max Hans Rehberg vs Marc-Andrea Huesler",
+      "outcome": "Max Hans Rehberg",
+      "price": 0.34,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 305582.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Zug: Max Hans Rehberg vs Marc-Andrea Huesler",
+      "outcome": "Marc-Andrea Huesler",
+      "price": 0.34,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 305582.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "CF Montr\u00e9al vs. Inter Miami CF: O/U 3.5",
+      "outcome": "Under",
+      "price": 0.49,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 63458.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Kalmar FF vs. Mjallby AIF: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.91,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 55576.7,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Aarhus GF vs. Br\u00f8ndby IF end in a draw?",
       "outcome": "No",
-      "price": 0.946,
-      "net_traders": 1,
+      "price": 0.75,
+      "net_traders": 2,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 169935.21,
-      "score": 21.4
+      "liquidity_usd": 25694.76,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.495,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 44791.94,
-      "score": 19.4
-    }
-  ],
-  "excluded": [
     {
       "market": "CF Montr\u00e9al vs. Inter Miami CF: O/U 3.5",
       "outcome": "Over",
-      "price": 0.47,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 30533.09,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Dota 2: PuckChamp vs Team Jenz (BO3) - EPL Masters Play-In Group A",
-      "outcome": "Team Jenz",
-      "price": 0.34,
-      "net_traders": 1,
+      "price": 0.49,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 115592.79,
+      "liquidity_usd": 63458.15,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 5.5",
-      "outcome": "Under",
-      "price": 0.16,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 9438.11,
-      "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
@@ -193,7 +217,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 204168.64,
+      "liquidity_usd": 203561.98,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -207,7 +231,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 204168.64,
+      "liquidity_usd": 203561.98,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,7 +245,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 218354.05,
+      "liquidity_usd": 225341.52,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,7 +259,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 218354.05,
+      "liquidity_usd": 225341.52,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -243,17 +267,17 @@
     {
       "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
       "outcome": "No",
-      "price": 0.986,
+      "price": 0.985,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216105.37,
+      "liquidity_usd": 208642.13,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-25T06:06:05.924804+00:00"
+  "source_report_generated_at": "2026-07-25T16:14:04.101994+00:00"
 }
