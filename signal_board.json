@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-26T16:31:08.844790+00:00",
+  "generated_at_utc": "2026-07-26T20:33:17.508099+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 723,
+    "n": 733,
     "excluded_certain": 60,
-    "win_rate": 0.5656984785615491,
-    "wr_lo": 0.5293145806892676,
-    "wr_hi": 0.6013878997411315,
-    "implied": 0.5413827109266943,
-    "edge_pts": 2.431576763485477,
-    "edge_lo_pts": -1.20681302374267,
-    "edge_hi_pts": 6.000518881443718,
-    "brier": 0.25216949716459197,
-    "roi_net": 0.4787466167319876,
+    "win_rate": 0.567530695770805,
+    "wr_lo": 0.5314050411858419,
+    "wr_hi": 0.6029521938019765,
+    "implied": 0.5420732605729877,
+    "edge_pts": 2.545743519781729,
+    "edge_lo_pts": -1.0668219387145794,
+    "edge_hi_pts": 6.087893322898886,
+    "brier": 0.2525164344474761,
+    "roi_net": 0.47827338489138266,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,13 +22,13 @@
       "market": "Will CF Monterrey win on 2026-07-26?",
       "outcome": "No",
       "price": 0.54,
-      "net_traders": 3,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 64265.59,
-      "score": 50.2
+      "liquidity_usd": 189277.22,
+      "score": 53.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -39,181 +39,161 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 954878.17,
+      "liquidity_usd": 962023.92,
       "score": 41.9
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 305939.14,
-      "score": 34.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.44,
+      "price": 0.439,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 62253.63,
+      "liquidity_usd": 68962.34,
       "score": 32.9
-    },
-    {
-      "market": "Bitcoin all time high by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.945,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 172565.93,
-      "score": 21.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.65,
+      "price": 0.64,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 151706.33,
+      "liquidity_usd": 153594.79,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Molde FK win on 2026-07-26?",
+      "market": "Will SC Corinthians Paulista win on 2026-07-26?",
+      "outcome": "Yes",
+      "price": 0.2,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 81610.54,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Seattle Mariners vs. Texas Rangers",
+      "outcome": "Texas Rangers",
+      "price": 0.13,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 116583.46,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Cruzeiro EC win on 2026-07-26?",
       "outcome": "No",
+      "price": 0.9,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 81118.43,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Los Angeles Angels vs. San Francisco Giants",
+      "outcome": "Los Angeles Angels",
+      "price": 0.62,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 280020.59,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Arizona Diamondbacks vs. Washington Nationals",
+      "outcome": "Washington Nationals",
+      "price": 0.068,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 141368.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will SC Corinthians Paulista win on 2026-07-26?",
+      "outcome": "No",
+      "price": 0.81,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 81610.54,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will EC Bahia win on 2026-07-26?",
+      "outcome": "No",
+      "price": 0.65,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 99682.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "The Memphis Classic, Qualification: Yexin Ma vs Aoi Ito",
+      "outcome": "Yexin Ma",
+      "price": 0.37,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 84659.0,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Los Angeles Angels vs. San Francisco Giants",
+      "outcome": "San Francisco Giants",
       "price": 0.62,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 81164.46,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cleveland Guardians vs. Tampa Bay Rays",
-      "outcome": "Tampa Bay Rays",
-      "price": 0.47,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 255629.72,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Sarpsborg 08 FF win on 2026-07-26?",
-      "outcome": "Yes",
-      "price": 0.78,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 75710.7,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will KFUM-Kameratene Oslo win on 2026-07-26?",
-      "outcome": "No",
-      "price": 0.81,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 77736.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FK Bod\u00f8/Glimt win on 2026-07-26?",
-      "outcome": "Yes",
-      "price": 0.89,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 76598.92,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: FK Bod\u00f8/Glimt (-1.5)",
-      "outcome": "FK Bod\u00f8/Glimt",
-      "price": 0.42,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 36501.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Sarpsborg 08 FF vs. Hamarkameratene: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.23,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 50510.66,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Molde FK win on 2026-07-26?",
-      "outcome": "Yes",
-      "price": 0.39,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 81164.46,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will KFUM-Kameratene Oslo vs. Molde FK end in a draw?",
-      "outcome": "Yes",
-      "price": 0.43,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 36317.79,
+      "liquidity_usd": 280020.59,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,7 +207,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 203588.61,
+      "liquidity_usd": 202975.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -241,7 +221,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 203588.61,
+      "liquidity_usd": 202975.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +235,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 223281.69,
+      "liquidity_usd": 193202.28,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -269,25 +249,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 223281.69,
+      "liquidity_usd": 193202.28,
       "why_excluded": [
         "cohort on both sides"
       ]
-    },
-    {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.986,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 203974.07,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
     }
   ],
-  "source_report_generated_at": "2026-07-26T16:31:03.176042+00:00"
+  "source_report_generated_at": "2026-07-26T20:33:13.045558+00:00"
 }
