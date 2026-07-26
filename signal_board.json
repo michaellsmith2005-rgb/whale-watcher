@@ -1,58 +1,34 @@
 {
-  "generated_at_utc": "2026-07-26T06:50:37.120393+00:00",
+  "generated_at_utc": "2026-07-26T16:31:08.844790+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 718,
+    "n": 723,
     "excluded_certain": 60,
-    "win_rate": 0.5668523676880223,
-    "wr_lo": 0.5303465161300576,
-    "wr_hi": 0.6026466502377439,
-    "implied": 0.5430218662952645,
-    "edge_pts": 2.3830501392757775,
-    "edge_lo_pts": -1.2675350165206933,
-    "edge_hi_pts": 5.962478394247938,
-    "brier": 0.25264184742339835,
-    "roi_net": 0.48158159174508114,
+    "win_rate": 0.5656984785615491,
+    "wr_lo": 0.5293145806892676,
+    "wr_hi": 0.6013878997411315,
+    "implied": 0.5413827109266943,
+    "edge_pts": 2.431576763485477,
+    "edge_lo_pts": -1.20681302374267,
+    "edge_hi_pts": 6.000518881443718,
+    "brier": 0.25216949716459197,
+    "roi_net": 0.4787466167319876,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Los Cabos Open, Qualification: Borna Gojo vs Aidan Mayo",
-      "outcome": "Borna Gojo",
-      "price": 0.51,
-      "net_traders": 2,
+      "market": "Will CF Monterrey win on 2026-07-26?",
+      "outcome": "No",
+      "price": 0.54,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 77620.64,
-      "score": 46.7
-    },
-    {
-      "market": "Will V\u00e5lerenga Fotball win on 2026-07-26?",
-      "outcome": "No",
-      "price": 0.79,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 137048.01,
-      "score": 45.7
-    },
-    {
-      "market": "Spread: FK Bod\u00f8/Glimt (-1.5)",
-      "outcome": "FK Bod\u00f8/Glimt",
-      "price": 0.51,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 23562.68,
-      "score": 42.4
+      "liquidity_usd": 64265.59,
+      "score": 50.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -63,7 +39,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 803716.13,
+      "liquidity_usd": 954878.17,
       "score": 41.9
     },
     {
@@ -72,129 +48,172 @@
       "price": 0.27,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 307026.61,
-      "score": 40.8
+      "liquidity_usd": 305939.14,
+      "score": 34.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.475,
+      "price": 0.44,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 49808.35,
-      "score": 28.4
-    },
-    {
-      "market": "Will Apple be the largest company in the world by market cap on July 31?",
-      "outcome": "Yes",
-      "price": 0.238,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 83283.17,
-      "score": 21.7
+      "liquidity_usd": 62253.63,
+      "score": 32.9
     },
     {
       "market": "Bitcoin all time high by December 31, 2026?",
       "outcome": "No",
-      "price": 0.946,
+      "price": 0.945,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 174910.8,
-      "score": 21.4
+      "liquidity_usd": 172565.93,
+      "score": 21.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.72,
+      "price": 0.65,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 158095.87,
+      "liquidity_usd": 151706.33,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Chengdu Rongcheng FC win on 2026-07-26?",
+      "market": "Will Molde FK win on 2026-07-26?",
       "outcome": "No",
-      "price": 0.53,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 119007.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "ITF Bali: Thanaphat Boosarawongse vs Ryuki Matsuda",
-      "outcome": "Ryuki Matsuda",
-      "price": 0.28,
+      "price": 0.62,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 75289.01,
+      "liquidity_usd": 81164.46,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "SK Brann vs. V\u00e5lerenga Fotball: O/U 4.5",
-      "outcome": "Under",
-      "price": 0.28,
+      "market": "Cleveland Guardians vs. Tampa Bay Rays",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.47,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 81723.15,
+      "liquidity_usd": 255629.72,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "ITF Bali: Thanaphat Boosarawongse vs Ryuki Matsuda",
-      "outcome": "Thanaphat Boosarawongse",
-      "price": 0.28,
-      "net_traders": 0,
+      "market": "Will Sarpsborg 08 FF win on 2026-07-26?",
+      "outcome": "Yes",
+      "price": 0.78,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 75289.01,
+      "fresh": false,
+      "liquidity_usd": 75710.7,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Yunnan Yukun FC vs. Shenzhen Xinpengcheng FC: O/U 5.5",
-      "outcome": "Under",
-      "price": 0.16,
+      "market": "Will KFUM-Kameratene Oslo win on 2026-07-26?",
+      "outcome": "No",
+      "price": 0.81,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 77736.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will FK Bod\u00f8/Glimt win on 2026-07-26?",
+      "outcome": "Yes",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 76598.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: FK Bod\u00f8/Glimt (-1.5)",
+      "outcome": "FK Bod\u00f8/Glimt",
+      "price": 0.42,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 17735.82,
+      "liquidity_usd": 36501.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Sarpsborg 08 FF vs. Hamarkameratene: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.23,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 50510.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Molde FK win on 2026-07-26?",
+      "outcome": "Yes",
+      "price": 0.39,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 81164.46,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will KFUM-Kameratene Oslo vs. Molde FK end in a draw?",
+      "outcome": "Yes",
+      "price": 0.43,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 36317.79,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,7 +227,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 196144.18,
+      "liquidity_usd": 203588.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,7 +241,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 196144.18,
+      "liquidity_usd": 203588.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,7 +255,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 229774.74,
+      "liquidity_usd": 223281.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -250,7 +269,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 229774.74,
+      "liquidity_usd": 223281.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -264,11 +283,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 211130.87,
+      "liquidity_usd": 203974.07,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-26T06:50:33.063071+00:00"
+  "source_report_generated_at": "2026-07-26T16:31:03.176042+00:00"
 }
