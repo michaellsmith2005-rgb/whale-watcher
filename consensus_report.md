@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-25T20:16:27.871600+00:00 UTC*  
+*Generated: 2026-07-26T06:50:33.063071+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **1408**
-- Unique markets represented: **1023**
+- Total open positions analyzed: **780**
+- Unique markets represented: **636**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Estoril Open: Alexander Blockx vs Luciano Darderi
-- **Favored outcome:** Alexander Blockx
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $4,635.20
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, one8tyfive, swisstony
-
-### 2. Mubadala Citi DC Open, Qualification: Trevor Svajda vs Elias Ymer
-- **Favored outcome:** Trevor Svajda
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $17,338.20
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, one8tyfive
-
-### 3. Estoril Open: Alexander Blockx vs Luciano Darderi
-- **Favored outcome:** Luciano Darderi
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $70,487.26
-- **Backers:** RN1, ferrariChampions2026, one8tyfive, swisstony
-
-### 4. Toronto Blue Jays vs. Boston Red Sox
-- **Favored outcome:** Boston Red Sox
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $58,204.98
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681, Qpkwks, ferrariChampions2026
-
-### 5. Will Inter Miami CF win on 2026-07-25?
+### 1. Will Chengdu Rongcheng FC win on 2026-07-26?
 - **Favored outcome:** No
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $21,762.85
-- **Backers:** 0x076daa87, ferrariChampions2026, swisstony, umeax
+- **Top-50 traders backing it:** 3
+- **Total combined USD exposure:** $1,586.29
+- **Backers:** 0x076daa87, RN1, swisstony
+
+### 2. Will Marco Rubio win the 2028 Republican presidential nomination?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 2
+- **Total combined USD exposure:** $99,318.67
+- **Backers:** FootballFan98, Jsram
+
+### 3. ITF Bali: Thanaphat Boosarawongse vs Ryuki Matsuda
+- **Favored outcome:** Ryuki Matsuda
+- **Top-50 traders backing it:** 2
+- **Total combined USD exposure:** $34,841.74
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1
+
+### 4. Will Apple be the largest company in the world by market cap on July 31?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 2
+- **Total combined USD exposure:** $29,354.26
+- **Backers:** Bigggggggg, pada
+
+### 5. SK Brann vs. Vålerenga Fotball: O/U 4.5
+- **Favored outcome:** Under
+- **Top-50 traders backing it:** 2
+- **Total combined USD exposure:** $11,206.23
+- **Backers:** RN1, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -55,6 +55,4 @@
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
-|---|---|---|---|---|---|
-| Estoril Open: Alexander Blockx vs Luciano Darderi | Alexander Blockx | 100 | 3 | 5.7% | 0.24 |
+_No markets met the conviction threshold._
