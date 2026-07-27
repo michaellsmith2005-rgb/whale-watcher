@@ -1,46 +1,59 @@
 {
-  "generated_at_utc": "2026-07-27T00:17:00.655720+00:00",
+  "generated_at_utc": "2026-07-27T13:55:41.264916+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 744,
-    "excluded_certain": 60,
-    "win_rate": 0.5685483870967742,
-    "wr_lo": 0.5326967469972607,
-    "wr_hi": 0.6036957724881492,
-    "implied": 0.5416501344086022,
-    "edge_pts": 2.689825268817203,
-    "edge_lo_pts": -0.8953387411341551,
-    "edge_hi_pts": 6.204563807954699,
-    "brier": 0.251194583938172,
-    "roi_net": 0.4869372736449675,
-    "roi_median": 0.08682347176283225
+    "n": 753,
+    "excluded_certain": 61,
+    "win_rate": 0.5697211155378487,
+    "wr_lo": 0.5340910385520397,
+    "wr_hi": 0.6046434073346558,
+    "implied": 0.5402758300132802,
+    "edge_pts": 2.9445285524568487,
+    "edge_lo_pts": -0.6184791461240513,
+    "edge_hi_pts": 6.436757732137566,
+    "brier": 0.2519319660690571,
+    "roi_net": 0.49658436633909003,
+    "roi_median": 0.09111111111111107
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Mubadala Citi DC Open: Alexandra Eala vs Qinwen Zheng",
       "outcome": "Alexandra Eala",
-      "price": 0.43,
-      "net_traders": 3,
+      "price": 0.42,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 152940.28,
-      "score": 47.2
+      "liquidity_usd": 146717.05,
+      "score": 53.2
     },
     {
-      "market": "Los Cabos Open, Qualification: Tristan Boyer vs Bernard Tomic",
-      "outcome": "Tristan Boyer",
-      "price": 0.51,
-      "net_traders": 2,
+      "market": "Mubadala Citi DC Open: Alejandro Tabilo vs Tallon Griekspoor",
+      "outcome": "Tallon Griekspoor",
+      "price": 0.41,
+      "net_traders": 3,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 262794.23,
+      "score": 49.7
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.398,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 332012.16,
-      "score": 46.7
+      "liquidity_usd": 76152.46,
+      "score": 43.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -51,19 +64,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1082084.01,
-      "score": 41.9
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.4,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 68847.96,
+      "liquidity_usd": 1073017.96,
       "score": 41.9
     },
     {
@@ -72,118 +73,150 @@
       "price": 0.27,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 295666.22,
-      "score": 40.8
-    },
-    {
-      "market": "O'Higgins FC leading at halftime?",
-      "outcome": "No",
-      "price": 0.81,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 39752.21,
-      "score": 36.9
-    },
-    {
-      "market": "New York Yankees vs. Philadelphia Phillies",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.15,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 187719.57,
-      "score": 31.8
-    },
-    {
-      "market": "Will CD Garcilaso win on 2026-07-26?",
-      "outcome": "Yes",
-      "price": 0.92,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 41592.54,
-      "score": 21.7
+      "liquidity_usd": 326104.92,
+      "score": 34.2
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.67,
+      "price": 0.68,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 170742.96,
+      "liquidity_usd": 167551.15,
+      "score": 18.2
+    },
+    {
+      "market": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "outcome": "No",
+      "price": 0.47,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 44603.9,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Valorant: FURIA Esports vs MIBR - Map 2 Winner",
-      "outcome": "MIBR",
-      "price": 0.54,
-      "net_traders": 0,
+      "market": "San Marino: Daniel Rincon vs Juan Carlos Prado",
+      "outcome": "Juan Carlos Prado",
+      "price": 0.31,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 97330.15,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "New York Yankees vs. Philadelphia Phillies",
-      "outcome": "New York Yankees",
-      "price": 0.15,
-      "net_traders": -3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 187719.57,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Valorant: FURIA Esports vs MIBR - Map 2 Winner",
-      "outcome": "FURIA Esports",
-      "price": 0.54,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 97330.15,
+      "liquidity_usd": 237140.9,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will FC Cajamarca win on 2026-07-26?",
-      "outcome": "No",
-      "price": 0.979,
+      "market": "Bonn: Jan Choinski vs Francesco Passaro",
+      "outcome": "Jan Choinski",
+      "price": 0.99,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 249834.6,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Targu Mures: Irene Burillo Escorihuela vs Sofya Lansere",
+      "outcome": "Irene Burillo Escorihuela",
+      "price": 0.48,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 343456.18,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Bonn: Buvaysar Gadamauri vs Jamie Mackenzie",
+      "outcome": "Buvaysar Gadamauri",
+      "price": 0.68,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 100587.88,
+      "liquidity_usd": 184306.21,
       "why_excluded": [
-        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Samsun: Karan Singh vs Koki Matsuda",
+      "outcome": "Karan Singh",
+      "price": 0.23,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 261550.14,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "San Marino: Daniel Rincon vs Juan Carlos Prado",
+      "outcome": "Daniel Rincon",
+      "price": 0.31,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 237140.9,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Targu Mures: Leyre Romero Gormaz vs Sara Sorribes Tormo",
+      "outcome": "Sara Sorribes Tormo",
+      "price": 0.55,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 341538.04,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Targu Mures: Irene Burillo Escorihuela vs Sofya Lansere",
+      "outcome": "Sofya Lansere",
+      "price": 0.48,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 343456.18,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -196,7 +229,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 210111.54,
+      "liquidity_usd": 203479.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -210,7 +243,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 210111.54,
+      "liquidity_usd": 203479.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -224,7 +257,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 190379.09,
+      "liquidity_usd": 191786.12,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -238,7 +271,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 190379.09,
+      "liquidity_usd": 191786.12,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -252,11 +285,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 235195.65,
+      "liquidity_usd": 219615.08,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-27T00:16:56.243852+00:00"
+  "source_report_generated_at": "2026-07-27T13:55:35.235096+00:00"
 }
