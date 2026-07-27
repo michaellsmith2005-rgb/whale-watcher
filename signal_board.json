@@ -1,58 +1,57 @@
 {
-  "generated_at_utc": "2026-07-27T13:55:41.264916+00:00",
+  "generated_at_utc": "2026-07-27T20:56:43.971633+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 753,
-    "excluded_certain": 61,
-    "win_rate": 0.5697211155378487,
-    "wr_lo": 0.5340910385520397,
-    "wr_hi": 0.6046434073346558,
-    "implied": 0.5402758300132802,
-    "edge_pts": 2.9445285524568487,
-    "edge_lo_pts": -0.6184791461240513,
-    "edge_hi_pts": 6.436757732137566,
-    "brier": 0.2519319660690571,
-    "roi_net": 0.49658436633909003,
-    "roi_median": 0.09111111111111107
+    "n": 764,
+    "excluded_certain": 63,
+    "win_rate": 0.5680628272251309,
+    "wr_lo": 0.5326834998391541,
+    "wr_hi": 0.602761102276699,
+    "implied": 0.5390153141361256,
+    "edge_pts": 2.904751308900533,
+    "edge_lo_pts": -0.6331814296971494,
+    "edge_hi_pts": 6.374578814057341,
+    "brier": 0.25175912362565445,
+    "roi_net": 0.48991586886035376,
+    "roi_median": 0.08682347176283225
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Mubadala Citi DC Open: Alexandra Eala vs Qinwen Zheng",
       "outcome": "Alexandra Eala",
-      "price": 0.42,
+      "price": 0.43,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 146717.05,
-      "score": 53.2
+      "liquidity_usd": 145997.75,
+      "score": 50.7
     },
     {
-      "market": "Mubadala Citi DC Open: Alejandro Tabilo vs Tallon Griekspoor",
-      "outcome": "Tallon Griekspoor",
-      "price": 0.41,
+      "market": "Cleveland Guardians vs. Cincinnati Reds: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.55,
       "net_traders": 3,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 262794.23,
-      "score": 49.7
+      "fresh": true,
+      "liquidity_usd": 308959.13,
+      "score": 50.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.398,
+      "price": 0.396,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 76152.46,
+      "liquidity_usd": 86507.77,
       "score": 43.2
     },
     {
@@ -64,8 +63,32 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1073017.96,
+      "liquidity_usd": 1070160.38,
       "score": 41.9
+    },
+    {
+      "market": "Will SC Recife win on 2026-07-27?",
+      "outcome": "No",
+      "price": 0.54,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 100862.7,
+      "score": 38.7
+    },
+    {
+      "market": "Mubadala Citi DC Open: Aleksandar Vukic vs Zachary Svajda",
+      "outcome": "Zachary Svajda",
+      "price": 0.41,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 323708.62,
+      "score": 37.7
     },
     {
       "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -76,147 +99,118 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 326104.92,
+      "liquidity_usd": 325706.27,
       "score": 34.2
+    },
+    {
+      "market": "Spread: Philadelphia Phillies (-1.5)",
+      "outcome": "Miami Marlins",
+      "price": 0.52,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 214884.42,
+      "score": 21.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.68,
+      "price": 0.74,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 167551.15,
+      "liquidity_usd": 145843.76,
       "score": 18.2
     },
     {
       "market": "Will NVIDIA be the largest company in the world by market cap on July 31?",
       "outcome": "No",
-      "price": 0.47,
+      "price": 0.73,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 44603.9,
+      "liquidity_usd": 54683.78,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "San Marino: Daniel Rincon vs Juan Carlos Prado",
-      "outcome": "Juan Carlos Prado",
-      "price": 0.31,
-      "net_traders": 2,
+      "market": "The Memphis Classic: Katie Volynets vs Viktorija Golubic",
+      "outcome": "Viktorija Golubic",
+      "price": 0.19,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 237140.9,
+      "liquidity_usd": 121250.38,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Bonn: Jan Choinski vs Francesco Passaro",
-      "outcome": "Jan Choinski",
-      "price": 0.99,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 249834.6,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Targu Mures: Irene Burillo Escorihuela vs Sofya Lansere",
-      "outcome": "Irene Burillo Escorihuela",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 343456.18,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bonn: Buvaysar Gadamauri vs Jamie Mackenzie",
-      "outcome": "Buvaysar Gadamauri",
-      "price": 0.68,
+      "market": "Seattle Mariners vs. Texas Rangers: O/U 9.5",
+      "outcome": "Under",
+      "price": 0.519,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 184306.21,
+      "liquidity_usd": 99729.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Samsun: Karan Singh vs Koki Matsuda",
-      "outcome": "Karan Singh",
-      "price": 0.23,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 261550.14,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "San Marino: Daniel Rincon vs Juan Carlos Prado",
-      "outcome": "Daniel Rincon",
-      "price": 0.31,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 237140.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Targu Mures: Leyre Romero Gormaz vs Sara Sorribes Tormo",
-      "outcome": "Sara Sorribes Tormo",
-      "price": 0.55,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 341538.04,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Targu Mures: Irene Burillo Escorihuela vs Sofya Lansere",
-      "outcome": "Sofya Lansere",
-      "price": 0.48,
+      "market": "The Memphis Classic: Katie Volynets vs Viktorija Golubic",
+      "outcome": "Katie Volynets",
+      "price": 0.19,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 343456.18,
+      "liquidity_usd": 121250.38,
       "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Seattle Mariners vs. Texas Rangers: O/U 9.5",
+      "outcome": "Over",
+      "price": 0.519,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 99729.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Texas Rangers (-1.5)",
+      "outcome": "Texas Rangers",
+      "price": 0.99,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5573.91,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "thin book (<$10,000)",
+        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -229,7 +223,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 203479.13,
+      "liquidity_usd": 187673.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -243,7 +237,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 203479.13,
+      "liquidity_usd": 187673.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -257,7 +251,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 191786.12,
+      "liquidity_usd": 189496.35,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -271,25 +265,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 191786.12,
+      "liquidity_usd": 189496.35,
       "why_excluded": [
         "cohort on both sides"
       ]
-    },
-    {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.987,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 219615.08,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
     }
   ],
-  "source_report_generated_at": "2026-07-27T13:55:35.235096+00:00"
+  "source_report_generated_at": "2026-07-27T20:56:38.846252+00:00"
 }
