@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-07-27T20:56:43.971633+00:00",
+  "generated_at_utc": "2026-07-28T00:13:19.249392+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 764,
-    "excluded_certain": 63,
-    "win_rate": 0.5680628272251309,
-    "wr_lo": 0.5326834998391541,
-    "wr_hi": 0.602761102276699,
-    "implied": 0.5390153141361256,
-    "edge_pts": 2.904751308900533,
-    "edge_lo_pts": -0.6331814296971494,
-    "edge_hi_pts": 6.374578814057341,
-    "brier": 0.25175912362565445,
-    "roi_net": 0.48991586886035376,
-    "roi_median": 0.08682347176283225
+    "n": 770,
+    "excluded_certain": 64,
+    "win_rate": 0.5662337662337662,
+    "wr_lo": 0.5309848955862825,
+    "wr_hi": 0.6008250252037085,
+    "implied": 0.537435974025974,
+    "edge_pts": 2.8797792207792217,
+    "edge_lo_pts": -0.6451078439691504,
+    "edge_hi_pts": 6.338905117773452,
+    "brier": 0.2516118083766234,
+    "roi_net": 0.48748787529564963,
+    "roi_median": 0.08071846565782614
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -27,32 +27,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 145997.75,
+      "liquidity_usd": 142663.38,
       "score": 50.7
-    },
-    {
-      "market": "Cleveland Guardians vs. Cincinnati Reds: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.55,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 308959.13,
-      "score": 50.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.396,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 86507.77,
-      "score": 43.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -63,154 +39,174 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1070160.38,
+      "liquidity_usd": 1104953.69,
       "score": 41.9
     },
     {
-      "market": "Will SC Recife win on 2026-07-27?",
-      "outcome": "No",
-      "price": 0.54,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 100862.7,
-      "score": 38.7
-    },
-    {
-      "market": "Mubadala Citi DC Open: Aleksandar Vukic vs Zachary Svajda",
-      "outcome": "Zachary Svajda",
-      "price": 0.41,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 323708.62,
-      "score": 37.7
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 325706.27,
-      "score": 34.2
-    },
-    {
-      "market": "Spread: Philadelphia Phillies (-1.5)",
-      "outcome": "Miami Marlins",
-      "price": 0.52,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 214884.42,
-      "score": 21.7
-    },
-    {
-      "market": "Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.74,
+      "price": 0.439,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 145843.76,
+      "liquidity_usd": 60074.24,
+      "score": 37.9
+    },
+    {
+      "market": "Mubadala Citi DC Open: Liudmila Samsonova vs Madison Keys",
+      "outcome": "Madison Keys",
+      "price": 0.05,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 454504.18,
+      "score": 37.2
+    },
+    {
+      "market": "Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.77,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 201636.24,
       "score": 18.2
     },
     {
       "market": "Will NVIDIA be the largest company in the world by market cap on July 31?",
       "outcome": "No",
-      "price": 0.73,
+      "price": 0.71,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 54683.78,
+      "liquidity_usd": 55400.34,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "The Memphis Classic: Katie Volynets vs Viktorija Golubic",
-      "outcome": "Viktorija Golubic",
-      "price": 0.19,
+      "market": "Toronto Blue Jays vs. Washington Nationals",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.73,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 188815.3,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "New York Yankees vs. Chicago White Sox",
+      "outcome": "Chicago White Sox",
+      "price": 0.53,
       "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 212686.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Toronto Blue Jays vs. Washington Nationals",
+      "outcome": "Washington Nationals",
+      "price": 0.73,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 188815.3,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Baltimore Orioles vs. Detroit Tigers",
+      "outcome": "Detroit Tigers",
+      "price": 0.91,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 106501.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Philadelphia Phillies vs. Miami Marlins",
+      "outcome": "Philadelphia Phillies",
+      "price": 0.16,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 303721.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Baltimore Orioles vs. Detroit Tigers",
+      "outcome": "Baltimore Orioles",
+      "price": 0.91,
+      "net_traders": -1,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 121250.38,
+      "liquidity_usd": 106501.58,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Seattle Mariners vs. Texas Rangers: O/U 9.5",
-      "outcome": "Under",
-      "price": 0.519,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 99729.21,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "The Memphis Classic: Katie Volynets vs Viktorija Golubic",
-      "outcome": "Katie Volynets",
-      "price": 0.19,
+      "market": "Philadelphia Phillies vs. Miami Marlins",
+      "outcome": "Miami Marlins",
+      "price": 0.16,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 121250.38,
+      "fresh": false,
+      "liquidity_usd": 303721.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Seattle Mariners vs. Texas Rangers: O/U 9.5",
-      "outcome": "Over",
-      "price": 0.519,
+      "market": "New York Yankees vs. Chicago White Sox",
+      "outcome": "New York Yankees",
+      "price": 0.53,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 99729.21,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Texas Rangers (-1.5)",
-      "outcome": "Texas Rangers",
-      "price": 0.99,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 5573.91,
+      "liquidity_usd": 212686.2,
       "why_excluded": [
-        "already decided (near-certain price)",
-        "thin book (<$10,000)",
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -223,7 +219,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 187673.95,
+      "liquidity_usd": 169355.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -237,7 +233,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 187673.95,
+      "liquidity_usd": 169355.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,7 +247,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 189496.35,
+      "liquidity_usd": 169359.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -265,11 +261,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 189496.35,
+      "liquidity_usd": 169359.92,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-27T20:56:38.846252+00:00"
+  "source_report_generated_at": "2026-07-28T00:13:12.669179+00:00"
 }
