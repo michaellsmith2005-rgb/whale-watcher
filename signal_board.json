@@ -1,34 +1,70 @@
 {
-  "generated_at_utc": "2026-07-28T00:13:19.249392+00:00",
+  "generated_at_utc": "2026-07-28T12:16:55.403136+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 770,
+    "n": 787,
     "excluded_certain": 64,
-    "win_rate": 0.5662337662337662,
-    "wr_lo": 0.5309848955862825,
-    "wr_hi": 0.6008250252037085,
-    "implied": 0.537435974025974,
-    "edge_pts": 2.8797792207792217,
-    "edge_lo_pts": -0.6451078439691504,
-    "edge_hi_pts": 6.338905117773452,
-    "brier": 0.2516118083766234,
-    "roi_net": 0.48748787529564963,
-    "roi_median": 0.08071846565782614
+    "win_rate": 0.565438373570521,
+    "wr_lo": 0.53057050150535,
+    "wr_hi": 0.5996704974506989,
+    "implied": 0.5372245235069886,
+    "edge_pts": 2.8213850063532386,
+    "edge_lo_pts": -0.665402200163856,
+    "edge_hi_pts": 6.2445973943710325,
+    "brier": 0.25101955838627704,
+    "roi_net": 0.47807468417319854,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Mubadala Citi DC Open: Alexandra Eala vs Qinwen Zheng",
-      "outcome": "Alexandra Eala",
-      "price": 0.43,
-      "net_traders": 4,
+      "market": "Cleveland Guardians vs. Cincinnati Reds",
+      "outcome": "Cincinnati Reds",
+      "price": 0.41,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 142663.38,
-      "score": 50.7
+      "liquidity_usd": 55878.44,
+      "score": 47.4
+    },
+    {
+      "market": "San Marino: Federico Coria vs Francesco Forti",
+      "outcome": "Federico Coria",
+      "price": 0.33,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 84850.36,
+      "score": 46.7
+    },
+    {
+      "market": "San Marino: Pedro Martinez vs Hugo Dellien",
+      "outcome": "Hugo Dellien",
+      "price": 0.22,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 93854.93,
+      "score": 44.9
+    },
+    {
+      "market": "Mubadala Citi DC Open: Alexandra Eala vs Qinwen Zheng",
+      "outcome": "Alexandra Eala",
+      "price": 0.44,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 121359.62,
+      "score": 44.4
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -39,173 +75,138 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1104953.69,
+      "liquidity_usd": 1078751.6,
       "score": 41.9
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.439,
+      "price": 0.431,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60074.24,
-      "score": 37.9
+      "liquidity_usd": 51370.38,
+      "score": 34.2
     },
     {
-      "market": "Mubadala Citi DC Open: Liudmila Samsonova vs Madison Keys",
-      "outcome": "Madison Keys",
-      "price": 0.05,
-      "net_traders": 3,
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.27,
+      "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 454504.18,
-      "score": 37.2
+      "liquidity_usd": 303462.5,
+      "score": 34.2
+    },
+    {
+      "market": "Bonn: Dimitris Sakellaridis vs Niels McDonald",
+      "outcome": "Niels McDonald",
+      "price": 0.12,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 122535.97,
+      "score": 21.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.77,
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 201636.24,
+      "liquidity_usd": 218234.39,
       "score": 18.2
     },
     {
       "market": "Will NVIDIA be the largest company in the world by market cap on July 31?",
       "outcome": "No",
-      "price": 0.71,
+      "price": 0.81,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 55400.34,
+      "liquidity_usd": 86412.14,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Toronto Blue Jays vs. Washington Nationals",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.73,
+      "market": "Targu Mures: Margaux Rouvroy vs Lola Radivojevic",
+      "outcome": "Margaux Rouvroy",
+      "price": 0.647,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 78353.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Bonn: Olle Wallin vs Lorenzo Giustino",
+      "outcome": "Olle Wallin",
+      "price": 0.51,
       "net_traders": 0,
       "signals": [
         "pure_count",
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 188815.3,
+      "liquidity_usd": 41779.02,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "New York Yankees vs. Chicago White Sox",
-      "outcome": "Chicago White Sox",
-      "price": 0.53,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 212686.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Toronto Blue Jays vs. Washington Nationals",
-      "outcome": "Washington Nationals",
-      "price": 0.73,
+      "market": "Bonn: Olle Wallin vs Lorenzo Giustino",
+      "outcome": "Lorenzo Giustino",
+      "price": 0.51,
       "net_traders": 0,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 188815.3,
+      "liquidity_usd": 41779.02,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Baltimore Orioles vs. Detroit Tigers",
-      "outcome": "Detroit Tigers",
-      "price": 0.91,
+      "market": "Targu Mures: Margaux Rouvroy vs Lola Radivojevic",
+      "outcome": "Lola Radivojevic",
+      "price": 0.647,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 78353.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Bonn: Guy Den Ouden vs Matheus Pucinelli de Almeida",
+      "outcome": "Guy Den Ouden",
+      "price": 0.39,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 106501.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Philadelphia Phillies vs. Miami Marlins",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.16,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 303721.21,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Baltimore Orioles vs. Detroit Tigers",
-      "outcome": "Baltimore Orioles",
-      "price": 0.91,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 106501.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Philadelphia Phillies vs. Miami Marlins",
-      "outcome": "Miami Marlins",
-      "price": 0.16,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 303721.21,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "New York Yankees vs. Chicago White Sox",
-      "outcome": "New York Yankees",
-      "price": 0.53,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 212686.2,
+      "liquidity_usd": 106003.42,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -219,7 +220,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 169355.85,
+      "liquidity_usd": 189883.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -233,7 +234,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 169355.85,
+      "liquidity_usd": 189883.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,7 +248,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 169359.92,
+      "liquidity_usd": 190648.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -261,11 +262,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 169359.92,
+      "liquidity_usd": 190648.82,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-28T00:13:12.669179+00:00"
+  "source_report_generated_at": "2026-07-28T12:16:51.024013+00:00"
 }
