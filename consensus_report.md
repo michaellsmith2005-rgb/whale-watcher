@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-29T12:32:10.887172+00:00 UTC*  
+*Generated: 2026-07-29T17:00:19.081250+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **941**
-- Unique markets represented: **750**
+- Total open positions analyzed: **1155**
+- Unique markets represented: **859**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Liberec: Petr Brunclik vs Sumit Nagal
-- **Favored outcome:** Petr Brunclik
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $2,810.01
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
-
-### 2. Targu Mures: Elena Ruxandra Bertea vs Carole Monnet
-- **Favored outcome:** Carole Monnet
+### 1. Mubadala Citi DC Open: Leylah Fernandez vs Alexandra Eala
+- **Favored outcome:** Alexandra Eala
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $19,280.06
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026
+- **Total combined USD exposure:** $133,952.16
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, one8tyfive, swisstony
 
-### 3. Liberec: Petr Brunclik vs Sumit Nagal
-- **Favored outcome:** Sumit Nagal
+### 2. Philadelphia Phillies vs. Miami Marlins
+- **Favored outcome:** Philadelphia Phillies
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $3,850.66
-- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $113,741.32
+- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, BreakTheBank, RN1, swisstony
 
-### 4. Targu Mures: Elena Ruxandra Bertea vs Carole Monnet
-- **Favored outcome:** Elena Ruxandra Bertea
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $12,505.80
-- **Backers:** 0x076daa87, RN1, ferrariChampions2026
+### 3. Arizona Diamondbacks vs. Pittsburgh Pirates
+- **Favored outcome:** Arizona Diamondbacks
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $40,655.61
+- **Backers:** RN1, ferrariChampions2026, swisstony, umeax
 
-### 5. ITF Dublin: Sonja Zhiyenbayeva vs Alicia Dudeney
-- **Favored outcome:** Alicia Dudeney
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $6,192.74
-- **Backers:** 0x076daa87, RN1, ferrariChampions2026
+### 4. Spread: Philadelphia Phillies (-1.5)
+- **Favored outcome:** Philadelphia Phillies
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $35,424.41
+- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, ferrariChampions2026, swisstony
+
+### 5. Mubadala Citi DC Open: Leylah Fernandez vs Alexandra Eala
+- **Favored outcome:** Leylah Fernandez
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $20,972.62
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -49,10 +49,12 @@
 |---|---|---|---|
 | 2026 Balance of Power: D Senate, D House | No | 1 | $4,521,461.19 |
 | 2026 Balance of Power: D Senate, D House | Yes | 1 | $3,481,741.23 |
-| Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $382,950.00 |
-| Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $307,050.00 |
-| Fed rate hike in 2026? | Yes | 1 | $223,501.80 |
+| Will there be no change in Fed interest rates after the July 2026 meeting? | No | 2 | $721,123.16 |
+| Will the Fed decrease interest rates by 25 bps after the September 2026 meeting? | No | 1 | $548,677.26 |
+| Will the Fed increase interest rates by 25 bps after the July 2026 meeting? | Yes | 2 | $503,823.10 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-_No markets met the conviction threshold._
+| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
+|---|---|---|---|---|---|
+| Mubadala Citi DC Open: Leylah Fernandez vs Alexandra Eala | Alexandra Eala | 100 | 3 | 22.8% | 0.21 |
