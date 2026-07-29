@@ -1,35 +1,23 @@
 {
-  "generated_at_utc": "2026-07-29T17:00:26.903429+00:00",
+  "generated_at_utc": "2026-07-29T20:32:16.089195+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 826,
+    "n": 839,
     "excluded_certain": 64,
-    "win_rate": 0.5581113801452785,
-    "wr_lo": 0.5240522948785229,
-    "wr_hi": 0.5916324333876908,
-    "implied": 0.5332320823244552,
-    "edge_pts": 2.487929782082332,
-    "edge_lo_pts": -0.9179787445932286,
-    "edge_hi_pts": 5.84003510632356,
-    "brier": 0.25296974630750607,
-    "roi_net": 0.4647722929478945,
+    "win_rate": 0.5554231227651967,
+    "wr_lo": 0.5216214134681737,
+    "wr_hi": 0.5887196043458497,
+    "implied": 0.5312821215733015,
+    "edge_pts": 2.4141001191895217,
+    "edge_lo_pts": -0.9660708105127758,
+    "edge_hi_pts": 5.743748277254824,
+    "brier": 0.2541537859952324,
+    "roi_net": 0.47142679995021164,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.962,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 103164.31,
-      "score": 42.2
-    },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
@@ -39,184 +27,186 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1107945.74,
+      "liquidity_usd": 1109093.75,
       "score": 41.9
     },
     {
-      "market": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "outcome": "No",
-      "price": 0.262,
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.27,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 208767.2,
-      "score": 21.7
+      "liquidity_usd": 286199.2,
+      "score": 34.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.448,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 75667.89,
+      "score": 33.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.78,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 168264.87,
-      "score": 21.7
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.868,
+      "price": 0.63,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63387.44,
-      "score": 20.4
+      "liquidity_usd": 274918.89,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Mubadala Citi DC Open: Leylah Fernandez vs Alexandra Eala",
-      "outcome": "Alexandra Eala",
-      "price": 0.11,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 425197.56,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Philadelphia Phillies vs. Miami Marlins",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.83,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 217619.56,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Arizona Diamondbacks vs. Pittsburgh Pirates",
-      "outcome": "Arizona Diamondbacks",
-      "price": 0.44,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 216728.28,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Philadelphia Phillies (-1.5)",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.69,
+      "market": "Colorado Rockies vs. San Diego Padres",
+      "outcome": "Colorado Rockies",
+      "price": 0.35,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 74179.16,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Mubadala Citi DC Open: Leylah Fernandez vs Alexandra Eala",
-      "outcome": "Leylah Fernandez",
-      "price": 0.11,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": true,
-      "liquidity_usd": 425197.56,
+      "liquidity_usd": 192508.67,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Philadelphia Phillies vs. Miami Marlins",
-      "outcome": "Miami Marlins",
-      "price": 0.83,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 217619.56,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "The Memphis Classic: Iryna Shymanovich vs Katie Volynets",
-      "outcome": "Iryna Shymanovich",
-      "price": 0.08,
+      "market": "Milwaukee Brewers vs. San Francisco Giants: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.77,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 386341.97,
+      "liquidity_usd": 39262.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Arizona Diamondbacks vs. Pittsburgh Pirates",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.44,
+      "market": "Milwaukee Brewers vs. San Francisco Giants",
+      "outcome": "San Francisco Giants",
+      "price": 0.33,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 254374.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Baltimore Orioles vs. Detroit Tigers",
+      "outcome": "Detroit Tigers",
+      "price": 0.605,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 86237.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Milwaukee Brewers vs. San Francisco Giants: O/U 7.5",
+      "outcome": "Over",
+      "price": 0.77,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 216728.28,
+      "liquidity_usd": 39262.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "The Memphis Classic: Iryna Shymanovich vs Katie Volynets",
-      "outcome": "Katie Volynets",
-      "price": 0.08,
-      "net_traders": -1,
+      "market": "Mubadala Citi DC Open: Emma Navarro vs Elisabetta Cocciaretto",
+      "outcome": "Emma Navarro",
+      "price": 0.55,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 386341.97,
+      "fresh": true,
+      "liquidity_usd": 387464.54,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Arizona Diamondbacks vs. Pittsburgh Pirates: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.31,
+      "market": "Milwaukee Brewers vs. San Francisco Giants",
+      "outcome": "Milwaukee Brewers",
+      "price": 0.33,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 55268.57,
+      "fresh": true,
+      "liquidity_usd": 254374.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Detroit Tigers (-1.5)",
+      "outcome": "Detroit Tigers",
+      "price": 0.089,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 796.02,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Vancouver: Greet Minnen vs Maddison Inglis",
+      "outcome": "Greet Minnen",
+      "price": 0.11,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 118154.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mubadala Citi DC Open: Emma Navarro vs Elisabetta Cocciaretto",
+      "outcome": "Elisabetta Cocciaretto",
+      "price": 0.55,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 387464.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,7 +220,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 193040.09,
+      "liquidity_usd": 190423.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -244,21 +234,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 193040.09,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.255,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 162351.91,
+      "liquidity_usd": 190423.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -272,7 +248,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 232519.76,
+      "liquidity_usd": 232573.77,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -286,11 +262,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 232519.76,
+      "liquidity_usd": 232573.77,
       "why_excluded": [
         "cohort on both sides"
       ]
+    },
+    {
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.988,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 203542.72,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
     }
   ],
-  "source_report_generated_at": "2026-07-29T17:00:19.081250+00:00"
+  "source_report_generated_at": "2026-07-29T20:32:11.165339+00:00"
 }
