@@ -1,58 +1,58 @@
 {
-  "generated_at_utc": "2026-07-29T00:10:50.867386+00:00",
+  "generated_at_utc": "2026-07-29T12:32:15.676071+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 807,
+    "n": 821,
     "excluded_certain": 64,
-    "win_rate": 0.563816604708798,
-    "wr_lo": 0.5293785721989395,
-    "wr_hi": 0.5976499374384545,
-    "implied": 0.5365795539033458,
-    "edge_pts": 2.7237050805452245,
-    "edge_lo_pts": -0.7200981704406306,
-    "edge_hi_pts": 6.107038353510874,
-    "brier": 0.2524514379801735,
-    "roi_net": 0.4753648027728757,
+    "win_rate": 0.5578562728380024,
+    "wr_lo": 0.5236924562427616,
+    "wr_hi": 0.5914811722454232,
+    "implied": 0.5342018270401949,
+    "edge_pts": 2.365444579780751,
+    "edge_lo_pts": -1.0509370797433304,
+    "edge_hi_pts": 5.727934520522826,
+    "brier": 0.2524208409866017,
+    "roi_net": 0.46155892996240594,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Chicago Cubs vs. St. Louis Cardinals",
-      "outcome": "St. Louis Cardinals",
-      "price": 0.71,
+      "market": "Atlanta Dream vs. Dallas Wings",
+      "outcome": "Dallas Wings",
+      "price": 0.52,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 288993.88,
+      "liquidity_usd": 52155.74,
       "score": 50.2
     },
     {
-      "market": "Mubadala Citi DC Open: Magdalena Frech vs Ann Li",
-      "outcome": "Ann Li",
-      "price": 0.61,
-      "net_traders": 3,
+      "market": "Vancouver: Cody Wong vs Himeno Sakatsume",
+      "outcome": "Cody Wong",
+      "price": 0.44,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 438802.62,
-      "score": 50.2
+      "liquidity_usd": 16183.11,
+      "score": 46.7
     },
     {
-      "market": "Kansas City Royals vs. Minnesota Twins",
-      "outcome": "Kansas City Royals",
-      "price": 0.35,
-      "net_traders": 3,
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.399,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 189051.66,
-      "score": 50.2
+      "liquidity_usd": 68913.96,
+      "score": 43.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -63,7 +63,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1104621.86,
+      "liquidity_usd": 1101919.23,
       "score": 41.9
     },
     {
@@ -72,146 +72,136 @@
       "price": 0.27,
       "net_traders": 2,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 276548.69,
-      "score": 34.2
+      "liquidity_usd": 291908.77,
+      "score": 40.8
     },
     {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "market": "Will Apple be the largest company in the world by market cap on July 31?",
       "outcome": "Yes",
-      "price": 0.439,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 60323.8,
-      "score": 32.9
-    },
-    {
-      "market": "The Memphis Classic: Darja Vidmanova vs Marina Bassols Ribera",
-      "outcome": "Marina Bassols Ribera",
-      "price": 0.55,
-      "net_traders": 3,
+      "price": 0.785,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 351614.83,
-      "score": 25.2
+      "liquidity_usd": 38389.35,
+      "score": 21.7
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.77,
+      "price": 0.75,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 169350.93,
+      "liquidity_usd": 161880.81,
       "score": 18.2
     },
     {
       "market": "Will NVIDIA be the largest company in the world by market cap on July 31?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 66366.5,
+      "liquidity_usd": 36387.86,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Philadelphia Phillies vs. Miami Marlins",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.23,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 285383.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Philadelphia Phillies vs. Miami Marlins",
-      "outcome": "Miami Marlins",
-      "price": 0.23,
-      "net_traders": -2,
+      "market": "Liberec: Petr Brunclik vs Sumit Nagal",
+      "outcome": "Petr Brunclik",
+      "price": 0.54,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 285383.2,
+      "liquidity_usd": 286858.95,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cleveland Guardians vs. Cincinnati Reds",
-      "outcome": "Cleveland Guardians",
-      "price": 0.43,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 163388.67,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Mubadala Citi DC Open: Martin Damm vs Ben Shelton",
-      "outcome": "Ben Shelton",
-      "price": 0.32,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 302259.79,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "The Memphis Classic: Yulia Starodubtseva vs Sloane Stephens",
-      "outcome": "Sloane Stephens",
-      "price": 0.47,
-      "net_traders": 0,
+      "market": "Targu Mures: Elena Ruxandra Bertea vs Carole Monnet",
+      "outcome": "Carole Monnet",
+      "price": 0.29,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 396413.03,
+      "liquidity_usd": 387216.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Toronto Blue Jays vs. Washington Nationals",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.24,
+      "market": "Liberec: Petr Brunclik vs Sumit Nagal",
+      "outcome": "Sumit Nagal",
+      "price": 0.54,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 286858.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Targu Mures: Elena Ruxandra Bertea vs Carole Monnet",
+      "outcome": "Elena Ruxandra Bertea",
+      "price": 0.29,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 387216.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "ITF Dublin: Sonja Zhiyenbayeva vs Alicia Dudeney",
+      "outcome": "Alicia Dudeney",
+      "price": 0.21,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 8117.27,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "ITF Rogaska Slatina: Cristina Elena Tiglea vs Petja Drame",
+      "outcome": "Petja Drame",
+      "price": 0.99,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 192906.57,
+      "liquidity_usd": 752.1,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)",
+        "thin book (<$10,000)",
+        "wide spread"
       ]
     },
     {
@@ -223,7 +213,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 198295.42,
+      "liquidity_usd": 200592.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -237,7 +227,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 198295.42,
+      "liquidity_usd": 200592.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,7 +241,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 220284.12,
+      "liquidity_usd": 226032.63,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -265,11 +255,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 220284.12,
+      "liquidity_usd": 226032.63,
       "why_excluded": [
         "cohort on both sides"
       ]
+    },
+    {
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.988,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 212275.35,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
     }
   ],
-  "source_report_generated_at": "2026-07-29T00:10:45.863684+00:00"
+  "source_report_generated_at": "2026-07-29T12:32:10.887172+00:00"
 }
