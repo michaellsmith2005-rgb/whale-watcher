@@ -1,58 +1,34 @@
 {
-  "generated_at_utc": "2026-07-30T12:02:38.991798+00:00",
+  "generated_at_utc": "2026-07-30T18:01:46.063767+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 868,
-    "excluded_certain": 65,
-    "win_rate": 0.5518433179723502,
-    "wr_lo": 0.5186029814819852,
-    "wr_hi": 0.584626779520472,
-    "implied": 0.5291816820276498,
-    "edge_pts": 2.2661635944700387,
-    "edge_lo_pts": -1.0578700545664566,
-    "edge_hi_pts": 5.544509749282223,
-    "brier": 0.2574401756336406,
-    "roi_net": 0.48886582228509745,
-    "roi_median": 0.06992634830125916
+    "n": 878,
+    "excluded_certain": 66,
+    "win_rate": 0.5535307517084282,
+    "wr_lo": 0.5204851231799359,
+    "wr_hi": 0.5861099841499973,
+    "implied": 0.5278367881548975,
+    "edge_pts": 2.5693963553530708,
+    "edge_lo_pts": -0.7351664974961647,
+    "edge_hi_pts": 5.8273195995099725,
+    "brier": 0.2588486554100228,
+    "roi_net": 0.5097597117055175,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Samsun: Dan Added vs Kenta Miyoshi",
-      "outcome": "Kenta Miyoshi",
-      "price": 0.67,
+      "market": "Texas Rangers vs. Tampa Bay Rays: O/U 7.5",
+      "outcome": "Over",
+      "price": 0.27,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 228133.19,
+      "liquidity_usd": 114574.96,
       "score": 50.2
-    },
-    {
-      "market": "LoL: Hanwha Life Esports vs Dplus KIA (BO3) - LCK Round 3-4 Legend Group",
-      "outcome": "Dplus KIA",
-      "price": 0.58,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 537832.13,
-      "score": 50.2
-    },
-    {
-      "market": "Mubadala Citi DC Open: Alex de Minaur vs Cruz Hewitt",
-      "outcome": "Alex de Minaur",
-      "price": 0.92,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 194672.56,
-      "score": 42.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -63,146 +39,160 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1101099.14,
+      "liquidity_usd": 1082530.47,
       "score": 41.9
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.434,
+      "price": 0.441,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 72480.24,
-      "score": 34.9
-    },
-    {
-      "market": "Bitcoin all time high by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.948,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 190853.13,
-      "score": 20.4
+      "liquidity_usd": 65202.53,
+      "score": 33.4
     },
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.68,
+      "price": 0.67,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 321494.74,
+      "liquidity_usd": 228129.42,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Targu Mures: Yelyzaveta Kotliar vs Mia Ristic",
-      "outcome": "Mia Ristic",
-      "price": 0.307,
-      "net_traders": 2,
+      "market": "Texas Rangers vs. Tampa Bay Rays",
+      "outcome": "Texas Rangers",
+      "price": 0.57,
+      "net_traders": 0,
       "signals": [
         "pure_count",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 212572.79,
+      "liquidity_usd": 272245.73,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Liberec: Hynek Barton vs Gonzalo Bueno",
-      "outcome": "Hynek Barton",
-      "price": 0.58,
-      "net_traders": 2,
+      "market": "Texas Rangers vs. Tampa Bay Rays",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.57,
+      "net_traders": 0,
       "signals": [
         "pure_count",
-        "conviction"
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 274838.68,
+      "fresh": true,
+      "liquidity_usd": 272245.73,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Bonn: Henri Squire vs Matheus Pucinelli de Almeida",
-      "outcome": "Matheus Pucinelli de Almeida",
-      "price": 0.13,
+      "market": "The Memphis Classic: Kristina Liutova vs Maya Joint",
+      "outcome": "Maya Joint",
+      "price": 0.72,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 385129.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "The Memphis Classic: Kristina Liutova vs Maya Joint",
+      "outcome": "Kristina Liutova",
+      "price": 0.72,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 385129.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Tampa Bay Rays (-1.5)",
+      "outcome": "Texas Rangers",
+      "price": 0.21,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 83257.35,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "San Marino: Francesco Maestrelli vs Juan Pablo Varillas",
+      "outcome": "Francesco Maestrelli",
+      "price": 0.74,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 184402.48,
+      "liquidity_usd": 254570.71,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Targu Mures: Yelyzaveta Kotliar vs Mia Ristic",
-      "outcome": "Yelyzaveta Kotliar",
-      "price": 0.307,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 212572.79,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "ITF Hechingen: Nastasja Schunk vs Xinxin Yao",
-      "outcome": "Nastasja Schunk",
-      "price": 0.98,
+      "market": "Mubadala Citi DC Open: Alex de Minaur vs Cruz Hewitt",
+      "outcome": "Alex de Minaur",
+      "price": 0.977,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 5617.11,
+      "liquidity_usd": 256598.15,
       "why_excluded": [
         "already decided (near-certain price)",
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "ITF Gran Canaria: Anna-Lena Friedsam vs Dominika Salkova",
-      "outcome": "Dominika Salkova",
-      "price": 0.07,
+      "market": "Mubadala Citi DC Open: Janice Tjen vs Anna Kalinskaya",
+      "outcome": "Janice Tjen",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 469217.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will The New Saints FC win on 2026-07-30?",
+      "outcome": "Yes",
+      "price": 0.56,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 5841.96,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Liberec: Hynek Barton vs Gonzalo Bueno",
-      "outcome": "Gonzalo Bueno",
-      "price": 0.58,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 274838.68,
+      "liquidity_usd": 129976.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -216,7 +206,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 198750.3,
+      "liquidity_usd": 198910.3,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,7 +220,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 198750.3,
+      "liquidity_usd": 198910.3,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -244,7 +234,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 233849.43,
+      "liquidity_usd": 204203.68,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -258,40 +248,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 233849.43,
+      "liquidity_usd": 204203.68,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.279,
-      "net_traders": 1,
+      "market": "Chicago Cubs vs. St. Louis Cardinals",
+      "outcome": "St. Louis Cardinals",
+      "price": 0.49,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 264948.5,
+      "fresh": true,
+      "liquidity_usd": 647650.01,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.989,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 201718.89,
-      "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-30T12:02:33.798523+00:00"
+  "source_report_generated_at": "2026-07-30T18:01:40.508261+00:00"
 }
