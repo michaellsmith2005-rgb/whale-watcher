@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-07-29T20:32:11.165339+00:00 UTC*  
+*Generated: 2026-07-30T00:14:18.875016+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **954**
-- Unique markets represented: **702**
+- Total open positions analyzed: **780**
+- Unique markets represented: **615**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Colorado Rockies vs. San Diego Padres
-- **Favored outcome:** Colorado Rockies
+### 1. Cleveland Guardians vs. Cincinnati Reds
+- **Favored outcome:** Cincinnati Reds
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $33,456.31
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, BreakTheBank, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $115,729.83
+- **Backers:** Djdjdjekekek, RN1, dv-pm, ferrariChampions2026, swisstony
 
-### 2. Milwaukee Brewers vs. San Francisco Giants: O/U 7.5
-- **Favored outcome:** Under
+### 2. Texas Rangers vs. Tampa Bay Rays
+- **Favored outcome:** Tampa Bay Rays
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $31,214.14
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, ferrariChampions2026, ramadamaramadam, swisstony
+- **Total combined USD exposure:** $52,000.15
+- **Backers:** CandleHammerDrums, RN1, dv-pm, ferrariChampions2026, swisstony
 
-### 3. Milwaukee Brewers vs. San Francisco Giants
-- **Favored outcome:** San Francisco Giants
+### 3. Cleveland Guardians vs. Cincinnati Reds
+- **Favored outcome:** Cleveland Guardians
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $210,875.95
+- **Total combined USD exposure:** $201,596.88
 - **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, swisstony
 
-### 4. Baltimore Orioles vs. Detroit Tigers
-- **Favored outcome:** Detroit Tigers
+### 4. Chicago Cubs vs. St. Louis Cardinals
+- **Favored outcome:** St. Louis Cardinals
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $85,316.64
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $42,593.62
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, swisstony
 
-### 5. Milwaukee Brewers vs. San Francisco Giants: O/U 7.5
-- **Favored outcome:** Over
+### 5. The Memphis Classic: Tatjana Maria vs Renata Zarazua
+- **Favored outcome:** Tatjana Maria
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $54,007.84
-- **Backers:** 0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $11,311.25
+- **Backers:** 0x076daa87, RN1, ferrariChampions2026, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -51,8 +51,10 @@
 | 2026 Balance of Power: D Senate, D House | Yes | 1 | $3,481,741.23 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | Yes | 1 | $382,950.00 |
 | Will the Republican Party control the Senate after the 2026 Midterm elections? | No | 1 | $307,050.00 |
-| Milwaukee Brewers vs. San Francisco Giants | San Francisco Giants | 4 | $210,875.95 |
+| Will Manchester City win the 2026-27 English Premier League (EPL) Championship? | No | 1 | $201,938.64 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-_No markets met the conviction threshold._
+| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
+|---|---|---|---|---|---|
+| Texas Rangers vs. Tampa Bay Rays | Tampa Bay Rays | 100 | 3 | 4.6% | 0.21 |
