@@ -1,130 +1,132 @@
 {
-  "generated_at_utc": "2026-07-31T08:10:25.037472+00:00",
+  "generated_at_utc": "2026-07-31T18:11:44.576346+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 891,
+    "n": 893,
     "excluded_certain": 66,
-    "win_rate": 0.5521885521885522,
-    "wr_lo": 0.5193819930357639,
-    "wr_hi": 0.5845470151820034,
-    "implied": 0.5285305274971942,
-    "edge_pts": 2.3658024691358026,
-    "edge_lo_pts": -0.9148534461430269,
-    "edge_hi_pts": 5.601648768480915,
-    "brier": 0.2591415482042648,
-    "roi_net": 0.5015053459770101,
+    "win_rate": 0.5520716685330347,
+    "wr_lo": 0.519301663474949,
+    "wr_hi": 0.5843955780446237,
+    "implied": 0.528903359462486,
+    "edge_pts": 2.3168309070548676,
+    "edge_lo_pts": -0.9601695987537018,
+    "edge_hi_pts": 5.549221858213771,
+    "brier": 0.259032048656215,
+    "roi_net": 0.4995333869513632,
     "roi_median": 0.07289617486338794
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "St. Louis Cardinals vs. Cincinnati Reds",
-      "outcome": "St. Louis Cardinals",
-      "price": 0.43,
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.213,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 222461.4,
+      "score": 53.7
+    },
+    {
+      "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+      "outcome": "Yes",
+      "price": 0.38,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 76370.9,
+      "liquidity_usd": 21166.59,
       "score": 50.2
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.53,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 14994.03,
-      "score": 46.7
-    },
-    {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.24,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 97867.01,
-      "score": 46.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
       "price": 0.71,
-      "net_traders": 1,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1088892.78,
-      "score": 41.9
+      "liquidity_usd": 1092205.85,
+      "score": 45.4
     },
     {
-      "market": "Liberec: Jan Kumstat vs Frederico Ferreira Silva",
-      "outcome": "Frederico Ferreira Silva",
-      "price": 0.61,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 236205.08,
-      "score": 41.2
-    },
-    {
-      "market": "Will Jean-Luc M\u00e9lenchon win the 2027 French presidential election?",
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
       "outcome": "Yes",
-      "price": 0.14,
+      "price": 0.278,
       "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 268814.06,
+      "score": 38.8
+    },
+    {
+      "market": "New York Yankees vs. Chicago Cubs: O/U 9.5",
+      "outcome": "Under",
+      "price": 0.41,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 176052.59,
-      "score": 41.2
+      "liquidity_usd": 404186.26,
+      "score": 38.4
+    },
+    {
+      "market": "Will NEC Nijmegen vs. Sevilla FC end in a draw?",
+      "outcome": "Yes",
+      "price": 0.38,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 18914.62,
+      "score": 30.7
+    },
+    {
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.22,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 731399.79,
+      "score": 28.7
+    },
+    {
+      "market": "Counter-Strike: paiN vs Astralis (BO3) - BLAST Bounty Playoffs",
+      "outcome": "paiN",
+      "price": 0.6,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 151439.8,
+      "score": 28.3
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.428,
+      "price": 0.47,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 67035.53,
-      "score": 34.7
-    },
-    {
-      "market": "NATO x Russia military clash by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 73592.37,
-      "score": 33.2
-    },
-    {
-      "market": "Bitcoin all time high by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.949,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 180022.33,
-      "score": 20.2
+      "liquidity_usd": 67103.49,
+      "score": 25.4
     },
     {
       "market": "Fed rate hike in 2026?",
@@ -135,80 +137,63 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 368765.92,
+      "liquidity_usd": 216151.18,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "ITF Astana: Zangar Nurlanuly vs Dan Brand",
-      "outcome": "Zangar Nurlanuly",
-      "price": 0.78,
-      "net_traders": 2,
+      "market": "The Memphis Classic: Elvina Kalieva vs Peyton Stearns",
+      "outcome": "Peyton Stearns",
+      "price": 0.38,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 6228.49,
+      "fresh": true,
+      "liquidity_usd": 314895.11,
       "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will \"The Odyssey\" 3rd Weekend Box Office be between 57m and 62m?",
+      "outcome": "Yes",
+      "price": 0.072,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1334.28,
+      "why_excluded": [
+        "thin book (<$10,000)"
       ]
     },
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.71,
+      "price": 0.7,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 41158.38,
+      "liquidity_usd": 40294.24,
       "why_excluded": [
         "wide spread"
-      ]
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.51,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 8429.06,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.278,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 259488.88,
-      "why_excluded": [
-        "cohort on both sides"
       ]
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.57,
-      "net_traders": 0,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 212192.67,
+      "liquidity_usd": 210034.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,12 +202,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.44,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 212192.67,
+      "liquidity_usd": 210034.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,7 +221,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 221128.52,
+      "liquidity_usd": 204159.48,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -250,26 +235,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 221128.52,
+      "liquidity_usd": 204159.48,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.989,
-      "net_traders": 0,
+      "market": "Counter-Strike: paiN vs Astralis (BO3) - BLAST Bounty Playoffs",
+      "outcome": "Astralis",
+      "price": 0.6,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 204998.91,
+      "fresh": true,
+      "liquidity_usd": 151439.8,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-31T08:10:17.973234+00:00"
+  "source_report_generated_at": "2026-07-31T18:11:38.829741+00:00"
 }
