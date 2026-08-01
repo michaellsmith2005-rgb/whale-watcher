@@ -1,58 +1,58 @@
 {
-  "generated_at_utc": "2026-07-31T18:11:44.576346+00:00",
+  "generated_at_utc": "2026-08-01T00:13:59.663359+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 893,
+    "n": 902,
     "excluded_certain": 66,
-    "win_rate": 0.5520716685330347,
-    "wr_lo": 0.519301663474949,
-    "wr_hi": 0.5843955780446237,
-    "implied": 0.528903359462486,
-    "edge_pts": 2.3168309070548676,
-    "edge_lo_pts": -0.9601695987537018,
-    "edge_hi_pts": 5.549221858213771,
-    "brier": 0.259032048656215,
-    "roi_net": 0.4995333869513632,
-    "roi_median": 0.07289617486338794
+    "win_rate": 0.5487804878048781,
+    "wr_lo": 0.5161671191192745,
+    "wr_hi": 0.5809801083871682,
+    "implied": 0.5285063192904657,
+    "edge_pts": 2.027416851441244,
+    "edge_lo_pts": -1.2339200171191167,
+    "edge_hi_pts": 5.247378909670253,
+    "brier": 0.25902385748337026,
+    "roi_net": 0.48892350953933245,
+    "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.213,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 222461.4,
-      "score": 53.7
-    },
-    {
-      "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
-      "outcome": "Yes",
-      "price": 0.38,
+      "market": "Texas Rangers vs. Houston Astros: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.51,
       "net_traders": 3,
       "signals": [
-        "pure_count"
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 21166.59,
-      "score": 50.2
+      "liquidity_usd": 261819.77,
+      "score": 49.2
+    },
+    {
+      "market": "Detroit Tigers vs. Athletics",
+      "outcome": "Detroit Tigers",
+      "price": 0.57,
+      "net_traders": 3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 626354.96,
+      "score": 47.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
       "price": 0.71,
-      "net_traders": 2,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1092205.85,
-      "score": 45.4
+      "liquidity_usd": 1087753.76,
+      "score": 41.9
     },
     {
       "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
@@ -60,140 +60,191 @@
       "price": 0.278,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 268814.06,
-      "score": 38.8
-    },
-    {
-      "market": "New York Yankees vs. Chicago Cubs: O/U 9.5",
-      "outcome": "Under",
-      "price": 0.41,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 404186.26,
-      "score": 38.4
-    },
-    {
-      "market": "Will NEC Nijmegen vs. Sevilla FC end in a draw?",
-      "outcome": "Yes",
-      "price": 0.38,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 18914.62,
-      "score": 30.7
-    },
-    {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.22,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 731399.79,
-      "score": 28.7
-    },
-    {
-      "market": "Counter-Strike: paiN vs Astralis (BO3) - BLAST Bounty Playoffs",
-      "outcome": "paiN",
-      "price": 0.6,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 151439.8,
-      "score": 28.3
+      "liquidity_usd": 245033.06,
+      "score": 32.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.47,
+      "price": 0.5,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 67103.49,
-      "score": 25.4
+      "liquidity_usd": 67816.49,
+      "score": 20.2
     },
     {
-      "market": "Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.67,
+      "market": "Bitcoin all time high by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.95,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216151.18,
-      "score": 18.2
+      "liquidity_usd": 182537.42,
+      "score": 19.9
     }
   ],
   "excluded": [
     {
-      "market": "The Memphis Classic: Elvina Kalieva vs Peyton Stearns",
-      "outcome": "Peyton Stearns",
-      "price": 0.38,
-      "net_traders": 1,
+      "market": "Mubadala Citi DC Open: Alexandra Eala vs Elina Svitolina",
+      "outcome": "Elina Svitolina",
+      "price": 0.53,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 314895.11,
+      "liquidity_usd": 444074.62,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will \"The Odyssey\" 3rd Weekend Box Office be between 57m and 62m?",
-      "outcome": "Yes",
-      "price": 0.072,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1334.28,
-      "why_excluded": [
-        "thin book (<$10,000)"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.7,
-      "net_traders": 3,
+      "market": "Pittsburgh Pirates vs. Cincinnati Reds",
+      "outcome": "Cincinnati Reds",
+      "price": 0.28,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40294.24,
+      "liquidity_usd": 231986.45,
       "why_excluded": [
-        "wide spread"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mubadala Citi DC Open: Rafael Jodar vs Lorenzo Musetti",
+      "outcome": "Rafael Jodar",
+      "price": 0.92,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 484732.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mubadala Citi DC Open: Rafael Jodar vs Lorenzo Musetti",
+      "outcome": "Lorenzo Musetti",
+      "price": 0.92,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 484732.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Philadelphia Phillies vs. Baltimore Orioles",
+      "outcome": "Baltimore Orioles",
+      "price": 0.63,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 193481.25,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Chicago White Sox vs. Tampa Bay Rays",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.81,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 214957.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Pittsburgh Pirates vs. Cincinnati Reds",
+      "outcome": "Pittsburgh Pirates",
+      "price": 0.28,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 231986.45,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "St. Louis Cardinals vs. Toronto Blue Jays",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.47,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 257840.02,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Philadelphia Phillies vs. Baltimore Orioles",
+      "outcome": "Philadelphia Phillies",
+      "price": 0.63,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 193481.25,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mubadala Citi DC Open: Alexandra Eala vs Elina Svitolina",
+      "outcome": "Alexandra Eala",
+      "price": 0.53,
+      "net_traders": -3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 444074.62,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.57,
-      "net_traders": 1,
+      "price": 0.56,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 210034.85,
+      "liquidity_usd": 185932.39,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -201,13 +252,13 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": -1,
+      "price": 0.45,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 210034.85,
+      "liquidity_usd": 185932.39,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,7 +272,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 204159.48,
+      "liquidity_usd": 230488.1,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,25 +286,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 204159.48,
+      "liquidity_usd": 230488.1,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: paiN vs Astralis (BO3) - BLAST Bounty Playoffs",
-      "outcome": "Astralis",
-      "price": 0.6,
-      "net_traders": -2,
+      "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.989,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 151439.8,
+      "fresh": false,
+      "liquidity_usd": 196259.97,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-07-31T18:11:38.829741+00:00"
+  "source_report_generated_at": "2026-08-01T00:13:54.446845+00:00"
 }
