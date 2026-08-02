@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-01T21:43:14.125987+00:00 UTC*  
+*Generated: 2026-08-02T07:25:25.674788+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,54 +8,54 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **3261**
-- Unique markets represented: **2098**
+- Total open positions analyzed: **2677**
+- Unique markets represented: **2048**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Minnesota Twins vs. Seattle Mariners
-- **Favored outcome:** Seattle Mariners
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $88,737.45
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, RN1, SDTrading, mooseborzoi, swisstony
+### 1. Will the U.S. invade Iran before 2027?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $1,748,222.63
+- **Backers:** QuietRiskisWrong, Valen9, anoin123, denizz, nojnn
 
-### 2. Chicago White Sox vs. Tampa Bay Rays
-- **Favored outcome:** Tampa Bay Rays
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $77,395.59
-- **Backers:** AnonymousUsername, HomeRunHazard, Pwaddler, RN1, mooseborzoi, swisstony
+### 2. Bab el-Mandeb Strait effectively closed by August 31?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $106,499.39
+- **Backers:** QuietRiskisWrong, Valen9, anoin123, balthazar, nojnn
 
-### 3. New York Yankees vs. Chicago Cubs
-- **Favored outcome:** Chicago Cubs
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $68,257.88
-- **Backers:** Flipadelphia, HomeRunHazard, LeatherPants, SnakeBall, Talvez10, texaskid
+### 3. Atlanta Braves vs. Chicago White Sox: O/U 8.5
+- **Favored outcome:** Over
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $88,747.03
+- **Backers:** HomeRunHazard, RN1, SDTrading, Talvez10, balthazar
 
-### 4. Miami Marlins vs. New York Mets
-- **Favored outcome:** Miami Marlins
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $38,556.11
-- **Backers:** AnonymousUsername, HomeRunHazard, RN1, SDTrading, mooseborzoi, swisstony
+### 4. Bab el-Mandeb Strait effectively closed by December 31?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $42,359.06
+- **Backers:** QuietRiskisWrong, Valen9, anoin123, nojnn
 
-### 5. Minnesota Twins vs. Seattle Mariners
-- **Favored outcome:** Minnesota Twins
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $10,984.76
-- **Backers:** AV23IUa, AnonymousUsername, HomeRunHazard, RN1, mooseborzoi, swisstony
+### 5. Israel x Iran ceasefire continues through August 3?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $26,722.54
+- **Backers:** QuietRiskisWrong, Valen9, balthazar, nojnn
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| 2026 Balance of Power: D Senate, D House | No | 1 | $5,550,000.00 |
-| 2026 Balance of Power: D Senate, D House | Yes | 1 | $4,450,000.00 |
-| St. Louis Cardinals vs. Toronto Blue Jays | Toronto Blue Jays | 5 | $230,386.59 |
-| Will Chicago Fire FC win the 2026 MLS Cup? | No | 1 | $93,793.76 |
-| Atlanta Braves vs. Chicago White Sox: O/U 8.5 | Over | 5 | $90,166.98 |
+| Will the U.S. invade Iran before 2027? | No | 5 | $1,748,222.63 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $901,942.88 |
+| Will the Iranian regime fall before 2027? | No | 3 | $710,255.03 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 3 | $234,743.84 |
+| Will China invade Taiwan by end of 2026? | No | 1 | $185,727.20 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| St. Louis Cardinals vs. Toronto Blue Jays | Toronto Blue Jays | 100 | 3 | 8.5% | 0.26 |
-| St. Louis Cardinals vs. Toronto Blue Jays | St. Louis Cardinals | 88 | 3 | 4.7% | 0.38 |
+| Will the U.S. invade Iran before 2027? | No | 100 | 5 | 35.8% | 0.35 |
+| Will the Iranian regime fall before 2027? | No | 26 | 3 | 14.0% | 0.55 |

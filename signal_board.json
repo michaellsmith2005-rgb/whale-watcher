@@ -1,47 +1,49 @@
 {
-  "generated_at_utc": "2026-08-01T21:43:21.398289+00:00",
+  "generated_at_utc": "2026-08-02T07:25:31.246291+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 928,
-    "excluded_certain": 66,
-    "win_rate": 0.5474137931034483,
-    "wr_lo": 0.5152587007278285,
-    "wr_hi": 0.5791779503081415,
-    "implied": 0.5285589439655173,
-    "edge_pts": 1.8854849137931007,
-    "edge_lo_pts": -1.3300243237688747,
-    "edge_hi_pts": 5.061900634262417,
-    "brier": 0.26085562440732757,
-    "roi_net": 0.48776476000957963,
-    "roi_median": 0.06695652173913039
+    "n": 946,
+    "excluded_certain": 70,
+    "win_rate": 0.5517970401691332,
+    "wr_lo": 0.519959889842569,
+    "wr_hi": 0.5832152079842687,
+    "implied": 0.527349577167019,
+    "edge_pts": 2.44474630021142,
+    "edge_lo_pts": -0.738968732445,
+    "edge_hi_pts": 5.586563081724972,
+    "brier": 0.26163205015856233,
+    "roi_net": 0.496510872189178,
+    "roi_median": 0.06992634830125916
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "New York Yankees vs. Chicago Cubs",
-      "outcome": "Chicago Cubs",
-      "price": 0.49,
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.81,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1333121.65,
+      "score": 54.0
+    },
+    {
+      "market": "Bab el-Mandeb Strait effectively closed by August 31?",
+      "outcome": "No",
+      "price": 0.95,
       "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 541768.77,
-      "score": 60.6
-    },
-    {
-      "market": "Will San Jose Earthquakes win the 2026 MLS Cup?",
-      "outcome": "No",
-      "price": 0.969,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 33936.74,
-      "score": 44.2
+      "liquidity_usd": 151044.76,
+      "score": 43.8
     },
     {
       "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
@@ -52,71 +54,116 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 92980.94,
+      "liquidity_usd": 95901.32,
       "score": 43.2
+    },
+    {
+      "market": "Will Rodri win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.09,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 274465.52,
+      "score": 42.4
+    },
+    {
+      "market": "Bab el-Mandeb Strait effectively closed by December 31?",
+      "outcome": "No",
+      "price": 0.83,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 59303.91,
+      "score": 36.7
+    },
+    {
+      "market": "Hantavirus pandemic in 2026?",
+      "outcome": "No",
+      "price": 0.965,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 898649.02,
+      "score": 35.2
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 866644.58,
+      "score": 30.8
+    },
+    {
+      "market": "Israel x Iran ceasefire continues through August 3?",
+      "outcome": "Yes",
+      "price": 0.964,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 92451.33,
+      "score": 28.7
     }
   ],
   "excluded": [
     {
-      "market": "Minnesota Twins vs. Seattle Mariners",
-      "outcome": "Seattle Mariners",
-      "price": 0.23,
-      "net_traders": 0,
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.71,
+      "net_traders": 3,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 180604.62,
+      "liquidity_usd": 40660.21,
       "why_excluded": [
-        "cohort on both sides"
+        "wide spread"
       ]
     },
     {
-      "market": "Chicago White Sox vs. Tampa Bay Rays",
-      "outcome": "Tampa Bay Rays",
-      "price": 0.24,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 203837.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Miami Marlins vs. New York Mets",
-      "outcome": "Miami Marlins",
-      "price": 0.66,
+      "market": " Iran agrees to end enrichment of uranium by December 31?",
+      "outcome": "Yes",
+      "price": 0.28,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 234009.29,
+      "liquidity_usd": 58616.48,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Minnesota Twins vs. Seattle Mariners",
-      "outcome": "Minnesota Twins",
-      "price": 0.23,
-      "net_traders": 0,
+      "market": "LoL: ThunderTalk Gaming vs Team WE (BO3) - LPL Group Ascend",
+      "outcome": "ThunderTalk Gaming",
+      "price": 0.3,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 180604.62,
+      "liquidity_usd": 195229.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Minnesota Twins vs. Seattle Mariners: O/U 7.5",
+      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
       "outcome": "Over",
       "price": 0.49,
       "net_traders": 2,
@@ -124,129 +171,98 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 89051.22,
+      "liquidity_usd": 8707.12,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "St. Louis Cardinals vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.018,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 147723.81,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.71,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40502.82,
-      "why_excluded": [
+        "thin book (<$10,000)",
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Chicago White Sox vs. Tampa Bay Rays",
-      "outcome": "Chicago White Sox",
-      "price": 0.24,
+      "market": "Spread: New York Yankees (-1.5)",
+      "outcome": "Boston Red Sox",
+      "price": 0.53,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1170.98,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.794,
       "net_traders": -1,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 203837.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Miami Marlins vs. New York Mets: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.85,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 49520.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.56,
-      "net_traders": 0,
-      "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 209135.24,
+      "liquidity_usd": 461405.52,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 209135.24,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Detroit Tigers vs. Athletics",
-      "outcome": "Detroit Tigers",
-      "price": 0.62,
+      "price": 0.207,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 449393.08,
+      "fresh": true,
+      "liquidity_usd": 461405.52,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "St. Louis Cardinals vs. Toronto Blue Jays",
-      "outcome": "St. Louis Cardinals",
-      "price": 0.018,
+      "market": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "price": 0.96,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 616023.09,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "outcome": "No",
+      "price": 0.9,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 579153.04,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: ThunderTalk Gaming vs Team WE (BO3) - LPL Group Ascend",
+      "outcome": "Team WE",
+      "price": 0.3,
       "net_traders": -2,
       "signals": [
-        "conviction"
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 147723.81,
+      "fresh": false,
+      "liquidity_usd": 195229.14,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-01T21:43:14.125987+00:00"
+  "source_report_generated_at": "2026-08-02T07:25:25.674788+00:00"
 }
