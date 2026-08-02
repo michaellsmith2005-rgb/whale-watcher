@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-02T07:25:31.246291+00:00",
+  "generated_at_utc": "2026-08-02T14:20:08.049808+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 946,
+    "n": 948,
     "excluded_certain": 70,
-    "win_rate": 0.5517970401691332,
-    "wr_lo": 0.519959889842569,
-    "wr_hi": 0.5832152079842687,
-    "implied": 0.527349577167019,
-    "edge_pts": 2.44474630021142,
-    "edge_lo_pts": -0.738968732445,
-    "edge_hi_pts": 5.586563081724972,
-    "brier": 0.26163205015856233,
-    "roi_net": 0.496510872189178,
+    "win_rate": 0.5516877637130801,
+    "wr_lo": 0.5198840220276051,
+    "wr_hi": 0.5830742853210125,
+    "implied": 0.5268699367088607,
+    "edge_pts": 2.4817827004219417,
+    "edge_lo_pts": -0.6985914681255645,
+    "edge_hi_pts": 5.620434861215173,
+    "brier": 0.26169189815400845,
+    "roi_net": 0.4968276565657128,
     "roi_median": 0.06992634830125916
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -29,57 +29,45 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1333121.65,
-      "score": 54.0
+      "liquidity_usd": 1369651.92,
+      "score": 57.7
+    },
+    {
+      "market": "Pittsburgh Pirates vs. Cincinnati Reds: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.53,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 160985.47,
+      "score": 53.7
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.53,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 14893.48,
+      "score": 50.2
     },
     {
       "market": "Bab el-Mandeb Strait effectively closed by August 31?",
       "outcome": "No",
       "price": 0.95,
-      "net_traders": 5,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 151044.76,
-      "score": 43.8
-    },
-    {
-      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
-      "outcome": "No",
-      "price": 0.943,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 95901.32,
-      "score": 43.2
-    },
-    {
-      "market": "Will Rodri win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.09,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 274465.52,
-      "score": 42.4
-    },
-    {
-      "market": "Bab el-Mandeb Strait effectively closed by December 31?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 59303.91,
-      "score": 36.7
+      "liquidity_usd": 151822.91,
+      "score": 38.8
     },
     {
       "market": "Hantavirus pandemic in 2026?",
@@ -90,8 +78,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 898649.02,
+      "liquidity_usd": 830317.0,
       "score": 35.2
+    },
+    {
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.71,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40833.61,
+      "score": 31.8
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
@@ -103,106 +104,92 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 866644.58,
-      "score": 30.8
-    },
-    {
-      "market": "Israel x Iran ceasefire continues through August 3?",
-      "outcome": "Yes",
-      "price": 0.964,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 92451.33,
-      "score": 28.7
+      "liquidity_usd": 809766.78,
+      "score": 31.0
     }
   ],
   "excluded": [
     {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.71,
-      "net_traders": 3,
+      "market": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Bounty Playoffs",
+      "outcome": "MOUZ",
+      "price": 0.36,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 150721.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Bounty Playoffs",
+      "outcome": "Spirit",
+      "price": 0.36,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 40660.21,
+      "fresh": true,
+      "liquidity_usd": 150721.1,
       "why_excluded": [
-        "wide spread"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Samsun: Constantin Bittoun Kouzmine vs Gabriel Debru",
+      "outcome": "Gabriel Debru",
+      "price": 0.56,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 126319.32,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
       "market": " Iran agrees to end enrichment of uranium by December 31?",
       "outcome": "Yes",
-      "price": 0.28,
-      "net_traders": 2,
+      "price": 0.27,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 58616.48,
+      "liquidity_usd": 62051.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: ThunderTalk Gaming vs Team WE (BO3) - LPL Group Ascend",
-      "outcome": "ThunderTalk Gaming",
-      "price": 0.3,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 195229.14,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.49,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 8707.12,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: New York Yankees (-1.5)",
-      "outcome": "Boston Red Sox",
+      "market": "Atlanta Braves vs. Chicago White Sox",
+      "outcome": "Atlanta Braves",
       "price": 0.53,
-      "net_traders": 3,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1170.98,
+      "liquidity_usd": 50910.32,
       "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
+        "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.794,
+      "price": 0.793,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 461405.52,
+      "liquidity_usd": 474782.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -210,13 +197,13 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.207,
+      "price": 0.208,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 461405.52,
+      "liquidity_usd": 474782.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,7 +217,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 616023.09,
+      "liquidity_usd": 604601.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -244,25 +231,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 579153.04,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: ThunderTalk Gaming vs Team WE (BO3) - LPL Group Ascend",
-      "outcome": "Team WE",
-      "price": 0.3,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 195229.14,
+      "liquidity_usd": 635539.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-02T07:25:25.674788+00:00"
+  "source_report_generated_at": "2026-08-02T14:19:59.750738+00:00"
 }
