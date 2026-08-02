@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-08-02T17:48:45.776698+00:00",
+  "generated_at_utc": "2026-08-02T21:41:41.319090+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 952,
+    "n": 958,
     "excluded_certain": 70,
-    "win_rate": 0.5525210084033614,
-    "wr_lo": 0.5207864851243522,
-    "wr_hi": 0.5838333598374073,
-    "implied": 0.5263788865546218,
-    "edge_pts": 2.614212184873954,
-    "edge_lo_pts": -0.5592401430269622,
-    "edge_hi_pts": 5.745447328278541,
-    "brier": 0.26179235236344534,
-    "roi_net": 0.49816584901845123,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.5511482254697286,
+    "wr_lo": 0.5195099757036498,
+    "wr_hi": 0.5823779027162482,
+    "implied": 0.5264224425887265,
+    "edge_pts": 2.4725782881002134,
+    "edge_lo_pts": -0.691246688507674,
+    "edge_hi_pts": 5.595546012752173,
+    "brier": 0.26131619984342375,
+    "roi_net": 0.492037193211146,
+    "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -29,68 +29,20 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1004914.79,
+      "liquidity_usd": 1377896.29,
       "score": 60.1
     },
     {
-      "market": "San Francisco Giants vs. San Diego Padres",
-      "outcome": "San Diego Padres",
-      "price": 0.46,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 591531.39,
-      "score": 57.2
-    },
-    {
-      "market": "Will CD Riestra win on 2026-08-02?",
-      "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 41845.04,
-      "score": 50.7
-    },
-    {
-      "market": "Arizona Diamondbacks vs. Cleveland Guardians",
-      "outcome": "Arizona Diamondbacks",
-      "price": 0.34,
+      "market": "Los Angeles Sparks vs. PortlandFire",
+      "outcome": "PortlandFire",
+      "price": 0.47,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 224432.94,
+      "liquidity_usd": 175729.34,
       "score": 50.2
-    },
-    {
-      "market": "Pittsburgh Pirates vs. Cincinnati Reds: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.51,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 76902.92,
-      "score": 46.2
-    },
-    {
-      "market": "Washington Nationals vs. Atlanta Braves: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.46,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 86710.47,
-      "score": 38.9
     },
     {
       "market": "Hantavirus pandemic in 2026?",
@@ -101,88 +53,138 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 765709.84,
+      "liquidity_usd": 769127.64,
       "score": 35.2
-    },
-    {
-      "market": "Bab el-Mandeb Strait effectively closed by August 31?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 4,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 143553.71,
-      "score": 32.2
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
       "outcome": "No",
       "price": 0.93,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 726871.96,
-      "score": 31.0
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.71,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40769.26,
-      "score": 25.2
+      "liquidity_usd": 704728.07,
+      "score": 34.5
     }
   ],
   "excluded": [
     {
-      "market": "Pittsburgh Pirates vs. Cincinnati Reds",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.43,
+      "market": "San Francisco Giants vs. San Diego Padres",
+      "outcome": "San Diego Padres",
+      "price": 0.3,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 239444.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "San Francisco Giants vs. San Diego Padres: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.92,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 236549.65,
+      "liquidity_usd": 43177.13,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "St. Louis Cardinals vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.4,
-      "net_traders": 1,
+      "market": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+      "outcome": "Jessica Pegula",
+      "price": 0.81,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 314557.24,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Boston Red Sox vs. Los Angeles Dodgers",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.39,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 231560.49,
+      "fresh": true,
+      "liquidity_usd": 652490.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Indiana Fever vs. Minnesota Lynx: O/U 193.5",
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.94,
+      "price": 0.68,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 95577.91,
+      "liquidity_usd": 40980.82,
       "why_excluded": [
         "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Milwaukee Brewers vs. Los Angeles Angels",
+      "outcome": "Los Angeles Angels",
+      "price": 0.001,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 171161.35,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Cleveland Guardians (-1.5)",
+      "outcome": "Cleveland Guardians",
+      "price": 0.97,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 59961.16,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Milwaukee Brewers (-1.5)",
+      "outcome": "Los Angeles Angels",
+      "price": 0.009,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 69361.4,
+      "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
@@ -190,12 +192,26 @@
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.793,
-      "net_traders": -1,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 462506.72,
+      "liquidity_usd": 467435.04,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Boston Red Sox vs. Los Angeles Dodgers",
+      "outcome": "Boston Red Sox",
+      "price": 0.39,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 652490.79,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,12 +220,12 @@
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
       "price": 0.208,
-      "net_traders": 1,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 462506.72,
+      "liquidity_usd": 467435.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -223,35 +239,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 719305.83,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
-      "outcome": "Jessica Pegula",
-      "price": 0.63,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 464644.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "price": 0.96,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 605530.6,
+      "liquidity_usd": 713880.86,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -265,25 +253,39 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 656012.52,
+      "liquidity_usd": 441093.15,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "National Bank Open: Michael Zheng vs Miomir Kecmanovic",
-      "outcome": "Miomir Kecmanovic",
-      "price": 0.42,
-      "net_traders": 1,
+      "market": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "price": 0.96,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 595250.76,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+      "outcome": "Alexandra Eala",
+      "price": 0.81,
+      "net_traders": -2,
       "signals": [
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 158362.43,
+      "fresh": true,
+      "liquidity_usd": 314557.24,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-02T17:48:37.660294+00:00"
+  "source_report_generated_at": "2026-08-02T21:41:33.586653+00:00"
 }
