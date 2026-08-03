@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-03T15:34:18.624109+00:00",
+  "generated_at_utc": "2026-08-03T18:29:57.992907+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 964,
+    "n": 969,
     "excluded_certain": 73,
-    "win_rate": 0.549792531120332,
-    "wr_lo": 0.5182498885299076,
-    "wr_hi": 0.5809398962447911,
-    "implied": 0.5262268672199171,
-    "edge_pts": 2.3565663900414924,
-    "edge_lo_pts": -0.7976978690009462,
-    "edge_hi_pts": 5.471302902487407,
-    "brier": 0.26176309071576764,
-    "roi_net": 0.4875411272861605,
+    "win_rate": 0.5490196078431373,
+    "wr_lo": 0.5175568864607997,
+    "wr_hi": 0.5800951876281374,
+    "implied": 0.5275053663570692,
+    "edge_pts": 2.1514241486068064,
+    "edge_lo_pts": -0.9948479896269569,
+    "edge_hi_pts": 5.258982127106815,
+    "brier": 0.2622506908668731,
+    "roi_net": 0.48231040506328987,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,47 +27,58 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 277176.25,
+      "liquidity_usd": 524761.87,
       "score": 60.7
     },
     {
       "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
       "price": 0.8,
-      "net_traders": 5,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1165387.99,
-      "score": 60.0
+      "liquidity_usd": 1370467.69,
+      "score": 55.4
     },
     {
       "market": "San Francisco Giants vs. Texas Rangers",
       "outcome": "San Francisco Giants",
-      "price": 0.48,
+      "price": 0.47,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 152135.3,
+      "liquidity_usd": 454761.06,
       "score": 53.7
     },
     {
-      "market": "Bab el-Mandeb Strait effectively closed by August 31?",
-      "outcome": "No",
-      "price": 0.966,
+      "market": "Spread: New York Liberty (-9.5)",
+      "outcome": "New York Liberty",
+      "price": 0.44,
       "net_traders": 4,
       "signals": [
-        "pure_count",
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 173280.18,
+      "score": 53.7
+    },
+    {
+      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.943,
+      "net_traders": 1,
+      "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 209361.55,
-      "score": 36.3
+      "fresh": true,
+      "liquidity_usd": 95632.46,
+      "score": 43.2
     },
     {
       "market": "Hantavirus pandemic in 2026?",
@@ -78,7 +89,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 873183.31,
+      "liquidity_usd": 808547.33,
       "score": 35.2
     },
     {
@@ -91,23 +102,22 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 854609.82,
-      "score": 34.5
+      "liquidity_usd": 877718.94,
+      "score": 34.6
     }
   ],
   "excluded": [
     {
-      "market": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
-      "outcome": "Jessica Pegula",
-      "price": 0.8,
+      "market": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
+      "outcome": "Taylor Fritz",
+      "price": 0.62,
       "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 225744.22,
+      "fresh": true,
+      "liquidity_usd": 459722.02,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -115,113 +125,99 @@
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.72,
-      "net_traders": 3,
+      "price": 0.71,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40824.77,
+      "liquidity_usd": 40765.06,
       "why_excluded": [
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.208,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 491919.93,
-      "why_excluded": [
+        "wide spread",
         "cohort on both sides"
       ]
     },
     {
       "market": "Canadian Open: Aleksandar Kovacevic vs Nuno Borges",
       "outcome": "Nuno Borges",
-      "price": 0.26,
+      "price": 0.24,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 151750.37,
+      "liquidity_usd": 227318.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
-      "outcome": "Alexandra Eala",
-      "price": 0.8,
+      "market": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
+      "outcome": "Rafael Jodar",
+      "price": 0.62,
       "net_traders": -2,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 225744.22,
+      "fresh": false,
+      "liquidity_usd": 459722.02,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": " Iran agrees to end enrichment of uranium by December 31?",
-      "outcome": "Yes",
-      "price": 0.28,
+      "market": "National Bank Open: Rebecca Sramkova vs Anna Blinkova",
+      "outcome": "Rebecca Sramkova",
+      "price": 0.82,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 60257.93,
+      "liquidity_usd": 401006.27,
       "why_excluded": [
         "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.5,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 8673.21,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.793,
-      "net_traders": -1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 491919.93,
+      "liquidity_usd": 491049.27,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
-      "outcome": "No",
-      "price": 0.88,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.208,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 592559.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "price": 0.961,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 613666.55,
+      "liquidity_usd": 491049.27,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,7 +231,49 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 816954.88,
+      "liquidity_usd": 848924.77,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "outcome": "No",
+      "price": 0.87,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 541688.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "price": 0.961,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 605443.41,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "outcome": "Yes",
+      "price": 0.14,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 541688.74,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -243,17 +281,17 @@
     {
       "market": "National Bank Open: Michael Zheng vs Miomir Kecmanovic",
       "outcome": "Miomir Kecmanovic",
-      "price": 0.56,
+      "price": 0.57,
       "net_traders": 1,
       "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 188194.08,
+      "liquidity_usd": 188288.75,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-03T15:34:10.636891+00:00"
+  "source_report_generated_at": "2026-08-03T18:29:50.241948+00:00"
 }
