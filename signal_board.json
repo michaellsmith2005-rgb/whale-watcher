@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-03T18:29:57.992907+00:00",
+  "generated_at_utc": "2026-08-03T21:55:04.719312+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 969,
+    "n": 973,
     "excluded_certain": 73,
-    "win_rate": 0.5490196078431373,
-    "wr_lo": 0.5175568864607997,
-    "wr_hi": 0.5800951876281374,
-    "implied": 0.5275053663570692,
-    "edge_pts": 2.1514241486068064,
-    "edge_lo_pts": -0.9948479896269569,
-    "edge_hi_pts": 5.258982127106815,
-    "brier": 0.2622506908668731,
-    "roi_net": 0.48231040506328987,
+    "win_rate": 0.5498458376156218,
+    "wr_lo": 0.5184498760899068,
+    "wr_hi": 0.5808497442374829,
+    "implied": 0.528091161356629,
+    "edge_pts": 2.1754676258992744,
+    "edge_lo_pts": -0.9641285266722255,
+    "edge_hi_pts": 5.275858288085389,
+    "brier": 0.2618977589414183,
+    "roi_net": 0.4807030844327469,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,40 +21,26 @@
     {
       "market": "St. Louis Cardinals vs. New York Yankees",
       "outcome": "St. Louis Cardinals",
-      "price": 0.34,
+      "price": 0.33,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 524761.87,
+      "liquidity_usd": 586340.38,
       "score": 60.7
-    },
-    {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.8,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1370467.69,
-      "score": 55.4
     },
     {
       "market": "San Francisco Giants vs. Texas Rangers",
       "outcome": "San Francisco Giants",
       "price": 0.47,
-      "net_traders": 4,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 454761.06,
-      "score": 53.7
+      "liquidity_usd": 546585.75,
+      "score": 57.2
     },
     {
       "market": "Spread: New York Liberty (-9.5)",
@@ -65,8 +51,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 173280.18,
+      "liquidity_usd": 193558.33,
       "score": 53.7
+    },
+    {
+      "market": "St. Louis Cardinals vs. New York Yankees: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.54,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 312277.14,
+      "score": 50.2
     },
     {
       "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
@@ -77,63 +75,63 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 95632.46,
+      "liquidity_usd": 95915.2,
       "score": 43.2
     },
     {
-      "market": "Hantavirus pandemic in 2026?",
+      "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "price": 0.965,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 808547.33,
-      "score": 35.2
-    },
-    {
-      "market": "Will the Iranian regime fall before 2027?",
-      "outcome": "No",
-      "price": 0.93,
+      "price": 0.8,
       "net_traders": 3,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 877718.94,
-      "score": 34.6
+      "liquidity_usd": 1251222.18,
+      "score": 40.8
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 875093.67,
+      "score": 21.7
     }
   ],
   "excluded": [
     {
-      "market": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
-      "outcome": "Taylor Fritz",
-      "price": 0.62,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 459722.02,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.71,
-      "net_traders": 2,
+      "price": 0.7,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40765.06,
+      "liquidity_usd": 40956.42,
       "why_excluded": [
-        "wide spread",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.208,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 495889.41,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -146,78 +144,64 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 227318.61,
+      "liquidity_usd": 219620.25,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
-      "outcome": "Rafael Jodar",
-      "price": 0.62,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 459722.02,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Rebecca Sramkova vs Anna Blinkova",
-      "outcome": "Rebecca Sramkova",
-      "price": 0.82,
+      "market": "Dota 2: Team Liquid vs Vici Gaming (BO3) - 1win Essence Playoffs",
+      "outcome": "Team Liquid",
+      "price": 0.44,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 401006.27,
+      "fresh": true,
+      "liquidity_usd": 157331.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.5,
-      "net_traders": 3,
+      "market": "National Bank Open: Nicolas Mejia vs Martin Landaluce",
+      "outcome": "Martin Landaluce",
+      "price": 0.15,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 155800.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "National Bank Open: Luca Van Assche vs Titouan Droguet",
+      "outcome": "Titouan Droguet",
+      "price": 0.46,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 8673.21,
+      "liquidity_usd": 176591.06,
       "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
+        "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.793,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 491049.27,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.208,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 491049.27,
+      "liquidity_usd": 495889.41,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,21 +215,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 848924.77,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 541688.74,
+      "liquidity_usd": 849130.58,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -259,7 +229,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 605443.41,
+      "liquidity_usd": 610981.9,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -268,12 +238,40 @@
       "market": "Strait of Hormuz traffic returns to normal by August 31?",
       "outcome": "Yes",
       "price": 0.14,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 611518.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "outcome": "No",
+      "price": 0.87,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 611518.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Dota 2: Team Liquid vs Vici Gaming (BO3) - 1win Essence Playoffs",
+      "outcome": "Vici Gaming",
+      "price": 0.44,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 541688.74,
+      "liquidity_usd": 157331.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -281,17 +279,31 @@
     {
       "market": "National Bank Open: Michael Zheng vs Miomir Kecmanovic",
       "outcome": "Miomir Kecmanovic",
-      "price": 0.57,
+      "price": 0.6,
       "net_traders": 1,
       "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 188288.75,
+      "liquidity_usd": 234782.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "National Bank Open: Victoria Jimenez Kasintseva vs Alycia Parks",
+      "outcome": "Alycia Parks",
+      "price": 0.2,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 423107.66,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-03T18:29:50.241948+00:00"
+  "source_report_generated_at": "2026-08-03T21:54:56.706437+00:00"
 }
