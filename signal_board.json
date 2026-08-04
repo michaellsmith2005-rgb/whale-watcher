@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T07:28:06.126334+00:00",
+  "generated_at_utc": "2026-08-04T15:13:27.764793+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -19,40 +19,30 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Shri Thanedar be the Democratic Nominee for MI-13?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 3,
+      "market": "Washington Nationals vs. Philadelphia Phillies",
+      "outcome": "Philadelphia Phillies",
+      "price": 0.29,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 132326.12,
-      "score": 48.9
+      "liquidity_usd": 306206.27,
+      "score": 51.4
     },
     {
-      "market": "San Francisco Giants vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.48,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 15866.71,
-      "score": 45.4
-    },
-    {
-      "market": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+      "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "price": 0.969,
-      "net_traders": 2,
+      "price": 0.81,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 30827.05,
-      "score": 43.9
+      "liquidity_usd": 1107895.51,
+      "score": 50.8
     },
     {
       "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
@@ -63,44 +53,44 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 97146.36,
+      "liquidity_usd": 96410.61,
       "score": 43.2
     },
     {
-      "market": "St. Louis Cardinals vs. Cincinnati Reds",
-      "outcome": "Cincinnati Reds",
-      "price": 0.44,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 65668.98,
-      "score": 37.9
-    },
-    {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.79,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1226319.66,
-      "score": 34.4
-    },
-    {
-      "market": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-      "outcome": "Yes",
-      "price": 0.64,
+      "market": "Canadian Open: Sebastian Baez vs Mattia Bellucci",
+      "outcome": "Sebastian Baez",
+      "price": 0.55,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 256380.11,
-      "score": 29.9
+      "liquidity_usd": 416471.56,
+      "score": 40.2
+    },
+    {
+      "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+      "outcome": "Yes",
+      "price": 0.846,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 72495.88,
+      "score": 28.7
+    },
+    {
+      "market": "US x Iran Effective Ceasefire by August 14?",
+      "outcome": "Yes",
+      "price": 0.77,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 75384.58,
+      "score": 28.7
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
@@ -111,7 +101,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 860957.39,
+      "liquidity_usd": 888958.18,
       "score": 21.7
     }
   ],
@@ -119,74 +109,71 @@
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.7,
+      "price": 0.69,
       "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40990.45,
+      "liquidity_usd": 40960.67,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
-      "outcome": "Over",
+      "market": "Hagen: Max Houkes vs Vilius Gaubas",
+      "outcome": "Max Houkes",
+      "price": 0.85,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 378560.87,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hagen: Max Houkes vs Vilius Gaubas",
+      "outcome": "Vilius Gaubas",
+      "price": 0.85,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 378560.87,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hagen: Stefano Travaglia vs Matej Dodig",
+      "outcome": "Matej Dodig",
       "price": 0.5,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 416177.57,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Plovdiv 2: Eduardo Ribeiro vs George Lazarov",
+      "outcome": "Eduardo Ribeiro",
+      "price": 0.36,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 8685.35,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: New York Yankees (-1.5)",
-      "outcome": "Boston Red Sox",
-      "price": 0.52,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1106.95,
-      "why_excluded": [
-        "thin book (<$10,000)"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.208,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 505460.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": " Iran agrees to end enrichment of uranium by December 31?",
-      "outcome": "Yes",
-      "price": 0.26,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 55785.79,
+      "liquidity_usd": 345534.55,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -200,21 +187,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 505460.9,
+      "liquidity_usd": 468261.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Putin out as President of Russia by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": -1,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.208,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 851411.34,
+      "fresh": true,
+      "liquidity_usd": 468261.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,7 +215,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 626313.18,
+      "liquidity_usd": 602344.5,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Putin out as President of Russia by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 876955.18,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,31 +237,45 @@
     {
       "market": "Strait of Hormuz traffic returns to normal by August 31?",
       "outcome": "Yes",
-      "price": 0.14,
-      "net_traders": 0,
+      "price": 0.19,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 642781.98,
+      "liquidity_usd": 415524.65,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
       "outcome": "No",
-      "price": 0.87,
-      "net_traders": 0,
+      "price": 0.915,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 642781.98,
+      "fresh": false,
+      "liquidity_usd": 291653.89,
       "why_excluded": [
         "cohort on both sides"
       ]
+    },
+    {
+      "market": "Will Count Binface win the Clacton by-election?",
+      "outcome": "No",
+      "price": 0.99,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 248586.01,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
     }
   ],
-  "source_report_generated_at": "2026-08-04T07:28:00.662422+00:00"
+  "source_report_generated_at": "2026-08-04T15:13:19.178331+00:00"
 }

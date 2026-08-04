@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-04T07:28:00.662422+00:00 UTC*  
+*Generated: 2026-08-04T15:13:19.178331+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,51 +8,54 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **2457**
-- Unique markets represented: **1975**
+- Total open positions analyzed: **3299**
+- Unique markets represented: **2482**
 
 ## Top 5 Consensus Markets (by trader count)
 
 ### 1. Atlanta Braves vs. Chicago White Sox: O/U 8.5
 - **Favored outcome:** Over
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $88,037.05
+- **Total combined USD exposure:** $87,327.08
 - **Backers:** HomeRunHazard, RN1, SDTrading, Talvez10, balthazar
 
-### 2. Boston Red Sox vs. New York Yankees: O/U 8.5
-- **Favored outcome:** Over
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $4,125.21
-- **Backers:** HomeRunHazard, RN1, Talvez10, swisstony
+### 2. Canadian Open: Sebastian Baez vs Mattia Bellucci
+- **Favored outcome:** Sebastian Baez
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $11,908.42
+- **Backers:** AV23IUa, HomeRunHazard, RN1, jtwyslljy, tradecraft
 
-### 3. Spread: New York Yankees (-1.5)
-- **Favored outcome:** Boston Red Sox
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $159.31
-- **Backers:** HomeRunHazard, RN1, SnakeBall, balthazar
+### 3. Hagen: Max Houkes vs Vilius Gaubas
+- **Favored outcome:** Max Houkes
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $11,626.44
+- **Backers:** HomeRunHazard, RN1, UpTheBlues, swisstony, tradecraft
 
-### 4. Will JD Vance win the 2028 US Presidential Election?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $232,768.12
-- **Backers:** Anjun, BrightStars, balthazar
+### 4. Hagen: Max Houkes vs Vilius Gaubas
+- **Favored outcome:** Vilius Gaubas
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $6,339.82
+- **Backers:** HomeRunHazard, RN1, UpTheBlues, swisstony, tradecraft
 
-### 5. Will San Jose Earthquakes win the 2026 MLS Cup?
-- **Favored outcome:** No
-- **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $74,355.96
-- **Backers:** Anjun, balthazar, mooseborzoi
+### 5. Hagen: Stefano Travaglia vs Matej Dodig
+- **Favored outcome:** Matej Dodig
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $5,132.61
+- **Backers:** HomeRunHazard, RN1, UpTheBlues, swisstony, tradecraft
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
+| Will the U.S. invade Iran before 2027? | No | 4 | $1,146,077.89 |
 | Will JD Vance win the 2028 US Presidential Election? | No | 2 | $888,918.72 |
-| Will the Iranian regime fall before 2027? | No | 2 | $485,219.54 |
-| Will the U.S. invade Iran before 2027? | No | 2 | $332,906.53 |
+| Will the Iranian regime fall before 2027? | No | 2 | $489,097.30 |
 | Will JD Vance win the 2028 US Presidential Election? | Yes | 3 | $232,768.12 |
-| Putin out as President of Russia by December 31, 2026? | No | 1 | $216,851.80 |
+| Will China invade Taiwan by end of 2026? | No | 1 | $185,920.77 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-_No markets met the conviction threshold._
+| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
+|---|---|---|---|---|---|
+| Will the U.S. invade Iran before 2027? | No | 100 | 4 | 30.5% | 0.43 |
+| Hagen: Max Houkes vs Vilius Gaubas | Vilius Gaubas | 19 | 3 | 10.3% | 0.26 |
