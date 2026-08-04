@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-04T15:13:19.178331+00:00 UTC*  
+*Generated: 2026-08-04T18:20:37.785365+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,54 +8,55 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **3299**
-- Unique markets represented: **2482**
+- Total open positions analyzed: **3998**
+- Unique markets represented: **2678**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Atlanta Braves vs. Chicago White Sox: O/U 8.5
+### 1. Will the U.S. invade Iran before 2027?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $1,282,807.54
+- **Backers:** ImJustKen, QuietRiskisWrong, Valen9, denizz, zb8
+
+### 2. Atlanta Braves vs. Chicago White Sox: O/U 8.5
 - **Favored outcome:** Over
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $87,327.08
+- **Total combined USD exposure:** $83,067.22
 - **Backers:** HomeRunHazard, RN1, SDTrading, Talvez10, balthazar
 
-### 2. Canadian Open: Sebastian Baez vs Mattia Bellucci
-- **Favored outcome:** Sebastian Baez
+### 3. Will Olympique Lyonnais win on 2026-08-04?
+- **Favored outcome:** No
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $11,908.42
-- **Backers:** AV23IUa, HomeRunHazard, RN1, jtwyslljy, tradecraft
+- **Total combined USD exposure:** $26,947.44
+- **Backers:** -..-Debict.rose-, RN1, SnakeBall, UpTheBlues, swisstony
 
-### 3. Hagen: Max Houkes vs Vilius Gaubas
-- **Favored outcome:** Max Houkes
+### 4. National Bank Open: Donna Vekic vs Viktorija Golubic
+- **Favored outcome:** Viktorija Golubic
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $11,626.44
-- **Backers:** HomeRunHazard, RN1, UpTheBlues, swisstony, tradecraft
+- **Total combined USD exposure:** $26,883.20
+- **Backers:** HomeRunHazard, RN1, UpTheBlues, jtwyslljy, swisstony
 
-### 4. Hagen: Max Houkes vs Vilius Gaubas
-- **Favored outcome:** Vilius Gaubas
+### 5. National Bank Open: Camila Osorio vs Ekaterina Alexandrova
+- **Favored outcome:** Camila Osorio
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $6,339.82
-- **Backers:** HomeRunHazard, RN1, UpTheBlues, swisstony, tradecraft
-
-### 5. Hagen: Stefano Travaglia vs Matej Dodig
-- **Favored outcome:** Matej Dodig
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $5,132.61
-- **Backers:** HomeRunHazard, RN1, UpTheBlues, swisstony, tradecraft
+- **Total combined USD exposure:** $19,011.02
+- **Backers:** AV23IUa, HomeRunHazard, RN1, UpTheBlues, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will the U.S. invade Iran before 2027? | No | 4 | $1,146,077.89 |
+| Will the U.S. invade Iran before 2027? | No | 5 | $1,282,807.54 |
 | Will JD Vance win the 2028 US Presidential Election? | No | 2 | $888,918.72 |
 | Will the Iranian regime fall before 2027? | No | 2 | $489,097.30 |
-| Will JD Vance win the 2028 US Presidential Election? | Yes | 3 | $232,768.12 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 4 | $242,276.12 |
 | Will China invade Taiwan by end of 2026? | No | 1 | $185,920.77 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Will the U.S. invade Iran before 2027? | No | 100 | 4 | 30.5% | 0.43 |
-| Hagen: Max Houkes vs Vilius Gaubas | Vilius Gaubas | 19 | 3 | 10.3% | 0.26 |
+| Will the U.S. invade Iran before 2027? | No | 100 | 5 | 27.2% | 0.42 |
+| Will Olympique Lyonnais win on 2026-08-04? | No | 17 | 3 | 9.1% | 0.29 |
+| Will Qairat FK win on 2026-08-04? | No | 10 | 3 | 7.4% | 0.26 |
