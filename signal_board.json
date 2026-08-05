@@ -1,49 +1,59 @@
 {
-  "generated_at_utc": "2026-08-05T18:13:54.964114+00:00",
+  "generated_at_utc": "2026-08-05T22:02:30.398746+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1013,
+    "n": 1017,
     "excluded_certain": 73,
-    "win_rate": 0.5518262586377097,
-    "wr_lo": 0.5210627638983925,
-    "wr_hi": 0.5821981569765993,
-    "implied": 0.5261299111549852,
-    "edge_pts": 2.5696347482724535,
-    "edge_lo_pts": -0.5067147256592741,
-    "edge_hi_pts": 5.606824582161407,
-    "brier": 0.26208692937808487,
-    "roi_net": 0.4799883020902784,
+    "win_rate": 0.551622418879056,
+    "wr_lo": 0.5209191112759411,
+    "wr_hi": 0.581937198655002,
+    "implied": 0.524650540806293,
+    "edge_pts": 2.6971878072763023,
+    "edge_lo_pts": -0.3731429530351882,
+    "edge_hi_pts": 5.728665784870901,
+    "brier": 0.26252119907571286,
+    "roi_net": 0.48719909867333855,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.86,
-      "net_traders": 8,
+      "market": "National Bank Open: Karen Khachanov vs Terence Atmane",
+      "outcome": "Terence Atmane",
+      "price": 0.57,
+      "net_traders": 5,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 846640.19,
-      "score": 57.4
+      "fresh": true,
+      "liquidity_usd": 329674.17,
+      "score": 57.2
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.212,
+      "price": 0.21,
       "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 442525.63,
+      "liquidity_usd": 461424.75,
       "score": 56.8
+    },
+    {
+      "market": "Phoenix Mercury vs. Atlanta Dream: O/U 182.5",
+      "outcome": "Under",
+      "price": 0.51,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 191670.72,
+      "score": 50.4
     },
     {
       "market": "Seattle Storm vs. New York Liberty",
@@ -54,113 +64,117 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 183764.38,
+      "liquidity_usd": 263448.5,
       "score": 50.2
     },
     {
-      "market": "Will the Iranian regime fall before 2027?",
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.256,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 199568.5,
+      "score": 47.4
+    },
+    {
+      "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "price": 0.94,
-      "net_traders": 3,
+      "price": 0.85,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 966739.09,
-      "score": 41.9
+      "liquidity_usd": 939790.19,
+      "score": 43.7
     },
     {
-      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.272,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 217395.08,
-      "score": 40.2
-    },
-    {
-      "market": "US x Iran Effective Ceasefire by August 14?",
-      "outcome": "Yes",
-      "price": 0.89,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 52431.41,
-      "score": 35.7
-    },
-    {
-      "market": "Dota 2: Team Falcons vs Team Liquid (BO5) - 1win Essence Playoffs",
-      "outcome": "Team Liquid",
-      "price": 0.59,
+      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.948,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 306011.1,
-      "score": 33.2
+      "liquidity_usd": 23003.02,
+      "score": 42.9
     },
     {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.68,
-      "net_traders": 3,
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "outcome": "Yes",
+      "price": 0.14,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 42295.1,
-      "score": 25.2
+      "liquidity_usd": 687887.74,
+      "score": 37.2
     }
   ],
   "excluded": [
     {
-      "market": "National Bank Open: Marie Bouzkova vs Taylor Townsend",
-      "outcome": "Taylor Townsend",
-      "price": 0.15,
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.68,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40850.84,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Esmerlyn Valdez win the 2026 NL Rookie of the Year award?",
+      "outcome": "Yes",
+      "price": 0.88,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 67.25,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "Will A.J. Ewing win the 2026 NL Rookie of the Year award?",
+      "outcome": "Yes",
+      "price": 0.88,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 58.96,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+      "outcome": "Tallon Griekspoor",
+      "price": 0.45,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 462261.79,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bab el-Mandeb Strait effectively closed by August 31?",
-      "outcome": "No",
-      "price": 0.976,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 175813.79,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "National Bank Open: Marie Bouzkova vs Taylor Townsend",
-      "outcome": "Marie Bouzkova",
-      "price": 0.15,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 462261.79,
+      "liquidity_usd": 407998.31,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -168,13 +182,27 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.789,
+      "price": 0.791,
       "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 442525.63,
+      "liquidity_usd": 461424.75,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 973640.12,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -188,7 +216,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 785149.98,
+      "liquidity_usd": 814832.99,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -202,39 +230,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 891649.26,
+      "liquidity_usd": 879304.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
       "outcome": "No",
-      "price": 0.86,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 478508.23,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
-      "outcome": "Yes",
-      "price": 0.15,
-      "net_traders": 1,
+      "price": 0.92,
+      "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 478508.23,
+      "liquidity_usd": 304553.5,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-05T18:13:46.315693+00:00"
+  "source_report_generated_at": "2026-08-05T22:02:21.599812+00:00"
 }
