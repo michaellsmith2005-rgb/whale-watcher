@@ -1,158 +1,177 @@
 {
-  "generated_at_utc": "2026-08-04T22:00:56.987680+00:00",
+  "generated_at_utc": "2026-08-05T07:29:14.230837+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1001,
+    "n": 1010,
     "excluded_certain": 73,
-    "win_rate": 0.5514485514485514,
-    "wr_lo": 0.520499758615205,
-    "wr_hi": 0.5820039593837313,
-    "implied": 0.5277418581418583,
-    "edge_pts": 2.370669330669317,
-    "edge_lo_pts": -0.7242099526653223,
-    "edge_hi_pts": 5.426210124187303,
-    "brier": 0.26190095850149847,
-    "roi_net": 0.4753720076987062,
-    "roi_median": 0.07890109890109887
+    "win_rate": 0.5504950495049505,
+    "wr_lo": 0.5196824287810653,
+    "wr_hi": 0.5809250033858533,
+    "implied": 0.5255936633663366,
+    "edge_pts": 2.4901386138613923,
+    "edge_lo_pts": -0.5911234585271319,
+    "edge_hi_pts": 5.533134001951668,
+    "brier": 0.2625162964950495,
+    "roi_net": 0.4798999890116904,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Detroit Tigers vs. Seattle Mariners: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.53,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 308425.15,
-      "score": 50.2
-    },
-    {
       "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "price": 0.83,
-      "net_traders": 5,
+      "price": 0.85,
+      "net_traders": 7,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1030696.36,
-      "score": 49.3
+      "liquidity_usd": 1003154.09,
+      "score": 53.8
     },
     {
-      "market": "Washington Nationals vs. Philadelphia Phillies",
-      "outcome": "Philadelphia Phillies",
-      "price": 0.26,
-      "net_traders": 3,
+      "market": "Dota 2: 1win vs BetBoom Team (BO3) - 1win Essence Playoffs",
+      "outcome": "1win",
+      "price": 0.46,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 637557.65,
-      "score": 44.4
+      "fresh": true,
+      "liquidity_usd": 208154.73,
+      "score": 43.2
     },
     {
       "market": "US x Iran Effective Ceasefire by August 14?",
       "outcome": "Yes",
-      "price": 0.79,
-      "net_traders": 5,
+      "price": 0.84,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 58576.15,
-      "score": 32.2
+      "liquidity_usd": 35358.46,
+      "score": 35.7
     },
     {
-      "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
-      "outcome": "Yes",
-      "price": 0.856,
+      "market": "Bab el-Mandeb Strait effectively closed by December 31?",
+      "outcome": "No",
+      "price": 0.85,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 67275.28,
+      "liquidity_usd": 48413.15,
+      "score": 33.2
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 835728.84,
+      "score": 31.7
+    },
+    {
+      "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+      "outcome": "Yes",
+      "price": 0.85,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 46635.63,
+      "score": 28.7
+    },
+    {
+      "market": "US x Iran Effective Ceasefire by August 31?",
+      "outcome": "Yes",
+      "price": 0.86,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 67583.7,
+      "score": 28.7
+    },
+    {
+      "market": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "outcome": "Yes",
+      "price": 0.68,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 231026.98,
       "score": 28.7
     }
   ],
   "excluded": [
     {
-      "market": "National Bank Open: Juncheng Shang vs Andrey Rublev",
-      "outcome": "Andrey Rublev",
-      "price": 0.24,
-      "net_traders": 2,
+      "market": "Bab el-Mandeb Strait effectively closed by August 31?",
+      "outcome": "No",
+      "price": 0.97,
+      "net_traders": 5,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 441956.02,
+      "liquidity_usd": 174258.03,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
       "price": 0.69,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40923.84,
+      "liquidity_usd": 40924.98,
       "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
+        "wide spread"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.212,
+      "price": 0.21,
       "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 450739.19,
+      "liquidity_usd": 440415.53,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "National Bank Open: Juncheng Shang vs Andrey Rublev",
-      "outcome": "Juncheng Shang",
-      "price": 0.24,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 441956.02,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Plovdiv 2: Jack Loge vs Franco Agamenone",
-      "outcome": "Franco Agamenone",
-      "price": 0.16,
-      "net_traders": 0,
+      "market": " Iran agrees to end enrichment of uranium by December 31?",
+      "outcome": "Yes",
+      "price": 0.27,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 376848.6,
+      "fresh": false,
+      "liquidity_usd": 41999.55,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -160,41 +179,27 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.789,
+      "price": 0.791,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 450739.19,
+      "liquidity_usd": 440415.53,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Iranian regime fall before 2027?",
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
       "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 891170.09,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Luciano Darderi vs Gabriel Diallo",
-      "outcome": "Gabriel Diallo",
-      "price": 0.4,
+      "price": 0.84,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 464393.62,
+      "fresh": true,
+      "liquidity_usd": 419843.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,7 +213,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 801773.83,
+      "liquidity_usd": 744037.97,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,7 +227,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 860154.39,
+      "liquidity_usd": 889700.89,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Strait of Hormuz traffic returns to normal by August 31?",
+      "outcome": "Yes",
+      "price": 0.17,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 419843.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,32 +249,18 @@
     {
       "market": "Will Count Binface win the Clacton by-election?",
       "outcome": "No",
-      "price": 0.986,
+      "price": 0.987,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 234296.45,
+      "liquidity_usd": 201773.78,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
       ]
-    },
-    {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
-      "outcome": "Yes",
-      "price": 0.16,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 481220.51,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
     }
   ],
-  "source_report_generated_at": "2026-08-04T22:00:48.851300+00:00"
+  "source_report_generated_at": "2026-08-05T07:29:07.404537+00:00"
 }
