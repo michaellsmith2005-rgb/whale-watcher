@@ -1,108 +1,109 @@
 {
-  "generated_at_utc": "2026-08-05T07:29:14.230837+00:00",
+  "generated_at_utc": "2026-08-05T15:05:29.028391+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1010,
+    "n": 1011,
     "excluded_certain": 73,
-    "win_rate": 0.5504950495049505,
-    "wr_lo": 0.5196824287810653,
-    "wr_hi": 0.5809250033858533,
-    "implied": 0.5255936633663366,
-    "edge_pts": 2.4901386138613923,
-    "edge_lo_pts": -0.5911234585271319,
-    "edge_hi_pts": 5.533134001951668,
-    "brier": 0.2625162964950495,
-    "roi_net": 0.4798999890116904,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.5509396636993076,
+    "wr_lo": 0.520143418042073,
+    "wr_hi": 0.581350253482626,
+    "implied": 0.5255287833827894,
+    "edge_pts": 2.541088031651817,
+    "edge_lo_pts": -0.538536534071643,
+    "edge_hi_pts": 5.582147009983663,
+    "brier": 0.2625450637586548,
+    "roi_net": 0.4805666685907869,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.21,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 445828.08,
+      "score": 56.8
+    },
+    {
+      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.049,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 404093.16,
+      "score": 50.9
+    },
+    {
       "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
       "price": 0.85,
-      "net_traders": 7,
+      "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1003154.09,
-      "score": 53.8
+      "liquidity_usd": 823480.38,
+      "score": 50.5
     },
     {
-      "market": "Dota 2: 1win vs BetBoom Team (BO3) - 1win Essence Playoffs",
-      "outcome": "1win",
-      "price": 0.46,
+      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.948,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 208154.73,
-      "score": 43.2
+      "fresh": false,
+      "liquidity_usd": 22974.16,
+      "score": 42.9
     },
     {
       "market": "US x Iran Effective Ceasefire by August 14?",
       "outcome": "Yes",
-      "price": 0.84,
-      "net_traders": 6,
+      "price": 0.86,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 35358.46,
-      "score": 35.7
+      "liquidity_usd": 49203.79,
+      "score": 32.2
     },
     {
-      "market": "Bab el-Mandeb Strait effectively closed by December 31?",
-      "outcome": "No",
-      "price": 0.85,
-      "net_traders": 4,
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.68,
+      "net_traders": 3,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 48413.15,
-      "score": 33.2
-    },
-    {
-      "market": "Will the Iranian regime fall before 2027?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 835728.84,
-      "score": 31.7
+      "liquidity_usd": 42411.93,
+      "score": 31.8
     },
     {
       "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
       "outcome": "Yes",
-      "price": 0.85,
+      "price": 0.855,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 46635.63,
-      "score": 28.7
-    },
-    {
-      "market": "US x Iran Effective Ceasefire by August 31?",
-      "outcome": "Yes",
-      "price": 0.86,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 67583.7,
+      "liquidity_usd": 60101.12,
       "score": 28.7
     },
     {
@@ -114,64 +115,59 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 231026.98,
+      "liquidity_usd": 265035.34,
       "score": 28.7
+    },
+    {
+      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.145,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 314541.04,
+      "score": 28.7
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 913453.14,
+      "score": 21.7
     }
   ],
   "excluded": [
     {
-      "market": "Bab el-Mandeb Strait effectively closed by August 31?",
-      "outcome": "No",
-      "price": 0.97,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 174258.03,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.69,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40924.98,
-      "why_excluded": [
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.21,
+      "market": "Seattle Storm vs. New York Liberty",
+      "outcome": "New York Liberty",
+      "price": 0.24,
       "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 440415.53,
+      "liquidity_usd": 56891.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": " Iran agrees to end enrichment of uranium by December 31?",
-      "outcome": "Yes",
-      "price": 0.27,
+      "market": "Warsaw: Susan Bandecchi vs Veronika Podrez",
+      "outcome": "Susan Bandecchi",
+      "price": 0.79,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 41999.55,
+      "liquidity_usd": 383761.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -180,26 +176,12 @@
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.791,
-      "net_traders": -2,
+      "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 440415.53,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
-      "outcome": "No",
-      "price": 0.84,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 419843.95,
+      "liquidity_usd": 445828.08,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -213,7 +195,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 744037.97,
+      "liquidity_usd": 778834.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,7 +209,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 889700.89,
+      "liquidity_usd": 892792.03,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,13 +217,13 @@
     {
       "market": "Strait of Hormuz traffic returns to normal by August 31?",
       "outcome": "Yes",
-      "price": 0.17,
-      "net_traders": 0,
+      "price": 0.18,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 419843.95,
+      "liquidity_usd": 472060.66,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,12 +237,12 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 201773.78,
+      "liquidity_usd": 227830.16,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-05T07:29:07.404537+00:00"
+  "source_report_generated_at": "2026-08-05T15:05:21.439420+00:00"
 }
