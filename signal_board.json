@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-06T07:29:47.441457+00:00",
+  "generated_at_utc": "2026-08-06T15:03:48.440639+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -27,46 +27,58 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 398252.01,
+      "liquidity_usd": 381431.0,
       "score": 50.9
     },
     {
-      "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.079,
+      "price": 0.215,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 311159.89,
+      "liquidity_usd": 443693.09,
       "score": 50.2
     },
     {
       "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
       "price": 0.85,
-      "net_traders": 4,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 775653.17,
-      "score": 43.8
+      "liquidity_usd": 708791.05,
+      "score": 47.7
     },
     {
-      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
+      "market": "Los Angeles Angels vs. Baltimore Orioles",
+      "outcome": "Los Angeles Angels",
+      "price": 0.37,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 433848.23,
+      "score": 47.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.948,
+      "price": 0.579,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 23289.41,
-      "score": 42.9
+      "liquidity_usd": 70993.08,
+      "score": 42.2
     },
     {
       "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
@@ -77,8 +89,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 232000.95,
+      "liquidity_usd": 232830.61,
       "score": 41.9
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.65,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 80650.95,
+      "score": 41.4
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
@@ -89,20 +113,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 250083.84,
-      "score": 39.4
-    },
-    {
-      "market": "Strait of Hormuz traffic returns to normal by August 31?",
-      "outcome": "Yes",
-      "price": 0.16,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 707077.4,
-      "score": 32.2
+      "liquidity_usd": 247178.14,
+      "score": 39.7
     },
     {
       "market": "US x Iran Effective Ceasefire by August 14?",
@@ -113,34 +125,33 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 45008.36,
+      "liquidity_usd": 54595.58,
       "score": 28.7
     },
     {
-      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
-      "outcome": "Yes",
-      "price": 0.92,
-      "net_traders": 4,
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.82,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 52703.41,
-      "score": 28.7
+      "liquidity_usd": 46396.33,
+      "score": 27.4
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.211,
-      "net_traders": 3,
+      "market": "LoL: Team WE vs Anyone's Legend - Game 2 Winner",
+      "outcome": "Anyones Legend",
+      "price": 0.37,
+      "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 460026.82,
+      "liquidity_usd": 162904.12,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -154,37 +165,36 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40885.65,
+      "liquidity_usd": 40868.0,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "St. Louis Cardinals vs. Cincinnati Reds: O/U 9.5",
-      "outcome": "Under",
-      "price": 0.71,
-      "net_traders": 1,
+      "market": "Grodzisk Mazowiecki: Joel Schwaerzler vs Aziz Dougaz",
+      "outcome": "Aziz Dougaz",
+      "price": 0.5,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 11558.62,
+      "liquidity_usd": 286609.87,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.786,
       "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 460026.82,
+      "liquidity_usd": 443693.09,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -198,67 +208,39 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 804977.18,
+      "liquidity_usd": 841206.09,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Iranian regime fall before 2027?",
+      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 939041.91,
+      "liquidity_usd": 75221.43,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "price": 0.962,
-      "net_traders": 0,
+      "market": "Will FC Inter Turku win on 2026-08-06?",
+      "outcome": "Yes",
+      "price": 0.49,
+      "net_traders": 1,
       "signals": [
-        "capital_weighted"
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 801384.29,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Putin out as President of Russia by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 881796.72,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "outcome": "No",
-      "price": 0.922,
-      "net_traders": -3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 311159.89,
+      "fresh": true,
+      "liquidity_usd": 55437.1,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-06T07:29:37.545483+00:00"
+  "source_report_generated_at": "2026-08-06T15:03:41.890102+00:00"
 }
