@@ -1,83 +1,46 @@
 {
-  "generated_at_utc": "2026-08-05T22:02:30.398746+00:00",
+  "generated_at_utc": "2026-08-06T07:29:47.441457+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1017,
+    "n": 1023,
     "excluded_certain": 73,
-    "win_rate": 0.551622418879056,
-    "wr_lo": 0.5209191112759411,
-    "wr_hi": 0.581937198655002,
-    "implied": 0.524650540806293,
-    "edge_pts": 2.6971878072763023,
-    "edge_lo_pts": -0.3731429530351882,
-    "edge_hi_pts": 5.728665784870901,
-    "brier": 0.26252119907571286,
-    "roi_net": 0.48719909867333855,
+    "win_rate": 0.5542521994134897,
+    "wr_lo": 0.5236465191746218,
+    "wr_hi": 0.584451945087052,
+    "implied": 0.5243202346041056,
+    "edge_pts": 2.9931964809384093,
+    "edge_lo_pts": -0.0673715429483801,
+    "edge_hi_pts": 6.013171048294641,
+    "brier": 0.2627172624242424,
+    "roi_net": 0.49206518083555373,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "National Bank Open: Karen Khachanov vs Terence Atmane",
-      "outcome": "Terence Atmane",
-      "price": 0.57,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 329674.17,
-      "score": 57.2
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.21,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 461424.75,
-      "score": 56.8
-    },
-    {
-      "market": "Phoenix Mercury vs. Atlanta Dream: O/U 182.5",
-      "outcome": "Under",
-      "price": 0.51,
+      "price": 0.049,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 191670.72,
-      "score": 50.4
+      "liquidity_usd": 398252.01,
+      "score": 50.9
     },
     {
-      "market": "Seattle Storm vs. New York Liberty",
-      "outcome": "New York Liberty",
-      "price": 0.24,
+      "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.079,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 263448.5,
+      "liquidity_usd": 311159.89,
       "score": 50.2
-    },
-    {
-      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.256,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 199568.5,
-      "score": 47.4
     },
     {
       "market": "Will the U.S. invade Iran before 2027?",
@@ -90,8 +53,8 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 939790.19,
-      "score": 43.7
+      "liquidity_usd": 775653.17,
+      "score": 43.8
     },
     {
       "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
@@ -102,93 +65,140 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 23003.02,
+      "liquidity_usd": 23289.41,
       "score": 42.9
+    },
+    {
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.266,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 232000.95,
+      "score": 41.9
+    },
+    {
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.214,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 250083.84,
+      "score": 39.4
     },
     {
       "market": "Strait of Hormuz traffic returns to normal by August 31?",
       "outcome": "Yes",
-      "price": 0.14,
+      "price": 0.16,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 687887.74,
-      "score": 37.2
+      "liquidity_usd": 707077.4,
+      "score": 32.2
+    },
+    {
+      "market": "US x Iran Effective Ceasefire by August 14?",
+      "outcome": "Yes",
+      "price": 0.87,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 45008.36,
+      "score": 28.7
+    },
+    {
+      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "outcome": "Yes",
+      "price": 0.92,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 52703.41,
+      "score": 28.7
     }
   ],
   "excluded": [
     {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.211,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 460026.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.68,
+      "price": 0.69,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40850.84,
+      "liquidity_usd": 40885.65,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Esmerlyn Valdez win the 2026 NL Rookie of the Year award?",
-      "outcome": "Yes",
-      "price": 0.88,
-      "net_traders": 5,
+      "market": "St. Louis Cardinals vs. Cincinnati Reds: O/U 9.5",
+      "outcome": "Under",
+      "price": 0.71,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 67.25,
+      "fresh": true,
+      "liquidity_usd": 11558.62,
       "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Will A.J. Ewing win the 2026 NL Rookie of the Year award?",
-      "outcome": "Yes",
-      "price": 0.88,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 58.96,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
-      "outcome": "Tallon Griekspoor",
-      "price": 0.45,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 407998.31,
-      "why_excluded": [
+        "wide spread",
         "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.791,
+      "price": 0.79,
       "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 461424.75,
+      "liquidity_usd": 460026.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.72,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 804977.18,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -202,7 +212,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 973640.12,
+      "liquidity_usd": 939041.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -216,7 +226,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 814832.99,
+      "liquidity_usd": 801384.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,7 +240,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 879304.14,
+      "liquidity_usd": 881796.72,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -238,17 +248,17 @@
     {
       "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.922,
       "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 304553.5,
+      "liquidity_usd": 311159.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-05T22:02:21.599812+00:00"
+  "source_report_generated_at": "2026-08-06T07:29:37.545483+00:00"
 }
