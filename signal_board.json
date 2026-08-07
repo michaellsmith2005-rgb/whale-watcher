@@ -1,47 +1,96 @@
 {
-  "generated_at_utc": "2026-08-07T00:59:50.292088+00:00",
+  "generated_at_utc": "2026-08-07T06:02:49.131158+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1028,
+    "n": 1039,
     "excluded_certain": 73,
-    "win_rate": 0.5544747081712063,
-    "wr_lo": 0.5239444164591751,
-    "wr_hi": 0.5845993755337044,
-    "implied": 0.5243906614785991,
-    "edge_pts": 3.0084046692607114,
-    "edge_lo_pts": -0.04462450194240297,
-    "edge_hi_pts": 6.020871405510531,
-    "brier": 0.2624561823540856,
-    "roi_net": 0.49033418620850683,
+    "win_rate": 0.5543792107795957,
+    "wr_lo": 0.5240111576147103,
+    "wr_hi": 0.5843466217450698,
+    "implied": 0.5243730510105871,
+    "edge_pts": 3.0006159769008667,
+    "edge_lo_pts": -0.03618933958767778,
+    "edge_hi_pts": 5.997357073448272,
+    "brier": 0.26280717561116457,
+    "roi_net": 0.4878918595661564,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.57,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 13451.12,
+      "score": 50.2
+    },
+    {
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.83,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 815097.2,
+      "score": 45.7
+    },
+    {
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.27,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 202756.82,
+      "score": 44.4
+    },
+    {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.546,
+      "price": 0.529,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 57636.86,
+      "liquidity_usd": 57372.55,
       "score": 43.2
     },
     {
-      "market": "Will the U.S. invade Iran before 2027?",
+      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.82,
-      "net_traders": 3,
+      "price": 0.91,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 845839.37,
-      "score": 39.7
+      "liquidity_usd": 140184.54,
+      "score": 40.7
+    },
+    {
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.214,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 159508.08,
+      "score": 39.9
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
@@ -52,7 +101,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 829521.62,
+      "liquidity_usd": 873130.34,
       "score": 25.2
     },
     {
@@ -64,7 +113,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60949.44,
+      "liquidity_usd": 60801.99,
       "score": 19.2
     },
     {
@@ -76,126 +125,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96702.55,
+      "liquidity_usd": 96960.43,
       "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Miami Marlins vs. Atlanta Braves",
-      "outcome": "Miami Marlins",
-      "price": 0.21,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 138985.12,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Chicago White Sox vs. Boston Red Sox",
-      "outcome": "Chicago White Sox",
-      "price": 0.69,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 251982.52,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Kansas City Royals",
-      "outcome": "Minnesota Twins",
-      "price": 0.39,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 185405.74,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Miami Marlins vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.21,
-      "net_traders": -3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 138985.12,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Chicago White Sox vs. Boston Red Sox",
-      "outcome": "Boston Red Sox",
-      "price": 0.69,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 251982.52,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Nikola Bartunkova vs Amanda Anisimova",
-      "outcome": "Amanda Anisimova",
-      "price": 0.42,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 299200.35,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Brandon Nakashima vs Titouan Droguet",
-      "outcome": "Brandon Nakashima",
-      "price": 0.68,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 278313.99,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Kansas City Royals",
-      "outcome": "Kansas City Royals",
-      "price": 0.39,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 185405.74,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -203,10 +137,11 @@
       "net_traders": 2,
       "signals": [
         "pure_count",
+        "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 457390.67,
+      "liquidity_usd": 460743.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -220,7 +155,50 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40875.81,
+      "liquidity_usd": 40786.05,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+      "outcome": "Yes",
+      "price": 0.4,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 18470.91,
+      "why_excluded": [
+        "wide spread"
+      ]
+    },
+    {
+      "market": "San Francisco Giants vs. Atlanta Braves",
+      "outcome": "San Francisco Giants",
+      "price": 0.48,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 15597.89,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.69,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 40786.05,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
@@ -235,7 +213,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 198535.35,
+      "liquidity_usd": 190936.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -249,7 +227,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 198535.35,
+      "liquidity_usd": 190936.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -264,7 +242,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 457390.67,
+      "liquidity_usd": 460743.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -278,11 +256,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 851529.47,
+      "liquidity_usd": 732438.5,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-07T00:59:42.092909+00:00"
+  "source_report_generated_at": "2026-08-07T06:02:42.967114+00:00"
 }
