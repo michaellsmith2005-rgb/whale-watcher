@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T06:02:49.131158+00:00",
+  "generated_at_utc": "2026-08-07T14:03:02.839263+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -21,51 +21,25 @@
     {
       "market": "Boston Red Sox vs. New York Yankees",
       "outcome": "New York Yankees",
-      "price": 0.57,
+      "price": 0.56,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 13451.12,
+      "liquidity_usd": 13505.47,
       "score": 50.2
-    },
-    {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 815097.2,
-      "score": 45.7
-    },
-    {
-      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 202756.82,
-      "score": 44.4
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.529,
+      "price": 0.556,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 57372.55,
+      "liquidity_usd": 58766.65,
       "score": 43.2
     },
     {
@@ -77,7 +51,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 140184.54,
+      "liquidity_usd": 136625.6,
       "score": 40.7
     },
     {
@@ -89,8 +63,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 159508.08,
+      "liquidity_usd": 236440.91,
       "score": 39.9
+    },
+    {
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.83,
+      "net_traders": 3,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 871794.62,
+      "score": 37.0
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
@@ -101,7 +88,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 873130.34,
+      "liquidity_usd": 910841.71,
       "score": 25.2
     },
     {
@@ -113,7 +100,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60801.99,
+      "liquidity_usd": 62592.17,
       "score": 19.2
     },
     {
@@ -125,23 +112,65 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96960.43,
+      "liquidity_usd": 96610.29,
       "score": 18.2
     }
   ],
   "excluded": [
     {
+      "market": "LoL: Bilibili Gaming vs Top Esports (BO3) - LPL Group Ascend",
+      "outcome": "Bilibili Gaming",
+      "price": 0.39,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 205239.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: Bilibili Gaming vs Top Esports (BO3) - LPL Group Ascend",
+      "outcome": "Top Esports",
+      "price": 0.39,
+      "net_traders": -3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 205239.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Grodzisk Mazowiecki: Joel Schwaerzler vs Ilya Ivashka",
+      "outcome": "Ilya Ivashka",
+      "price": 0.82,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 405228.53,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.215,
+      "price": 0.214,
       "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 460743.92,
+      "liquidity_usd": 454308.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -149,58 +178,43 @@
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.69,
+      "price": 0.68,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40786.05,
+      "liquidity_usd": 40869.11,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Vancouver Whitecaps FC win on 2026-07-16?",
-      "outcome": "Yes",
-      "price": 0.4,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 18470.91,
-      "why_excluded": [
-        "wide spread"
-      ]
-    },
-    {
-      "market": "San Francisco Giants vs. Atlanta Braves",
-      "outcome": "San Francisco Giants",
-      "price": 0.48,
+      "market": "LoL: Bilibili Gaming vs Top Esports - Game 2 Winner",
+      "outcome": "Top Esports",
+      "price": 0.54,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 15597.89,
+      "liquidity_usd": 191374.66,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.69,
+      "market": "Grodzisk Mazowiecki: Joel Schwaerzler vs Ilya Ivashka",
+      "outcome": "Joel Schwaerzler",
+      "price": 0.82,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 40786.05,
+      "fresh": false,
+      "liquidity_usd": 405228.53,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -213,7 +227,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 190936.06,
+      "liquidity_usd": 202920.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,7 +241,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 190936.06,
+      "liquidity_usd": 202920.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,14 +249,14 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.786,
+      "price": 0.787,
       "net_traders": -2,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 460743.92,
+      "liquidity_usd": 454308.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -256,11 +270,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 732438.5,
+      "liquidity_usd": 746223.95,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-07T06:02:42.967114+00:00"
+  "source_report_generated_at": "2026-08-07T14:02:56.719601+00:00"
 }
