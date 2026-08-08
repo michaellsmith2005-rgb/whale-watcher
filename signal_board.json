@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-08T05:32:53.736379+00:00",
+  "generated_at_utc": "2026-08-08T13:36:31.774355+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -19,53 +19,64 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.55,
+      "market": "Los Angeles Angels vs. Miami Marlins: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.4,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 87122.12,
+      "score": 54.6
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.215,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 13567.26,
+      "liquidity_usd": 441687.68,
       "score": 50.2
     },
     {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.84,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 849559.42,
-      "score": 44.4
-    },
-    {
-      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 4,
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.57,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
+      "fresh": true,
+      "liquidity_usd": 13580.72,
+      "score": 50.2
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.64,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
       "fresh": false,
-      "liquidity_usd": 180815.69,
-      "score": 44.4
+      "liquidity_usd": 94559.13,
+      "score": 43.9
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.561,
+      "price": 0.557,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 59256.3,
+      "liquidity_usd": 75103.46,
       "score": 43.2
     },
     {
@@ -77,32 +88,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 136969.09,
+      "liquidity_usd": 133345.4,
       "score": 40.7
     },
     {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.213,
-      "net_traders": 4,
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.84,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 237789.37,
-      "score": 37.2
-    },
-    {
-      "market": "US x Iran Effective Ceasefire by August 14?",
-      "outcome": "Yes",
-      "price": 0.92,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 69122.76,
-      "score": 28.7
+      "liquidity_usd": 918666.34,
+      "score": 32.3
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
@@ -113,7 +113,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 935117.26,
+      "liquidity_usd": 916151.67,
       "score": 21.7
     },
     {
@@ -125,7 +125,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 61709.21,
+      "liquidity_usd": 63224.32,
       "score": 18.2
     },
     {
@@ -137,53 +137,50 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96191.15,
+      "liquidity_usd": 95963.94,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.215,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 448754.38,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.66,
+      "price": 0.68,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40828.79,
+      "liquidity_usd": 40704.13,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.46,
-      "net_traders": 2,
+      "market": "Warsaw: Carol Young Suh Lee vs Gabriela Knutson",
+      "outcome": "Gabriela Knutson",
+      "price": 0.74,
+      "net_traders": 1,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 205450.04,
+      "fresh": false,
+      "liquidity_usd": 358076.39,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hagen: Jerome Kym vs Elmer Moeller",
+      "outcome": "Elmer Moeller",
+      "price": 0.81,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 171702.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -197,7 +194,35 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 340989.19,
+      "liquidity_usd": 218281.63,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Warsaw: Carol Young Suh Lee vs Gabriela Knutson",
+      "outcome": "Carol Young Suh Lee",
+      "price": 0.74,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 358076.39,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hagen: Jerome Kym vs Elmer Moeller",
+      "outcome": "Jerome Kym",
+      "price": 0.81,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 171702.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -206,12 +231,26 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.55,
-      "net_traders": -2,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 205450.04,
+      "liquidity_usd": 209901.33,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.46,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 209901.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,11 +261,10 @@
       "price": 0.786,
       "net_traders": -3,
       "signals": [
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 448754.38,
+      "liquidity_usd": 441687.68,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,11 +278,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 720230.03,
+      "liquidity_usd": 718070.52,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-08T05:32:47.558833+00:00"
+  "source_report_generated_at": "2026-08-08T13:36:22.544138+00:00"
 }
