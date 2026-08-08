@@ -1,35 +1,23 @@
 {
-  "generated_at_utc": "2026-08-07T21:25:54.897143+00:00",
+  "generated_at_utc": "2026-08-08T05:32:53.736379+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1058,
+    "n": 1066,
     "excluded_certain": 73,
-    "win_rate": 0.554820415879017,
-    "wr_lo": 0.5247283880358161,
-    "wr_hi": 0.5845157779490161,
-    "implied": 0.5222056710775047,
-    "edge_pts": 3.2614744801512274,
-    "edge_lo_pts": 0.25227169583114106,
-    "edge_hi_pts": 6.231010687151139,
-    "brier": 0.2636472168809074,
-    "roi_net": 0.49921146702456426,
+    "win_rate": 0.5544090056285178,
+    "wr_lo": 0.5244292222049782,
+    "wr_hi": 0.5839980440370522,
+    "implied": 0.522302626641651,
+    "edge_pts": 3.2106378986866857,
+    "edge_lo_pts": 0.21265955633272826,
+    "edge_hi_pts": 6.169541739540129,
+    "brier": 0.26337080906191374,
+    "roi_net": 0.4946906752992982,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Spread: Milwaukee Brewers (-1.5)",
-      "outcome": "Minnesota Twins",
-      "price": 0.45,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 278261.64,
-      "score": 50.2
-    },
     {
       "market": "Boston Red Sox vs. New York Yankees",
       "outcome": "New York Yankees",
@@ -39,8 +27,34 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 13525.74,
+      "liquidity_usd": 13567.26,
       "score": 50.2
+    },
+    {
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.84,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 849559.42,
+      "score": 44.4
+    },
+    {
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.27,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 180815.69,
+      "score": 44.4
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
@@ -51,68 +65,67 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 59163.21,
+      "liquidity_usd": 59256.3,
       "score": 43.2
     },
     {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.214,
-      "net_traders": 5,
+      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.91,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 236006.91,
-      "score": 39.9
+      "liquidity_usd": 136969.09,
+      "score": 40.7
     },
     {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 3,
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.213,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 881155.1,
-      "score": 37.7
+      "liquidity_usd": 237789.37,
+      "score": 37.2
     },
     {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.68,
-      "net_traders": 2,
+      "market": "US x Iran Effective Ceasefire by August 14?",
+      "outcome": "Yes",
+      "price": 0.92,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 88146.97,
-      "score": 33.9
+      "liquidity_usd": 69122.76,
+      "score": 28.7
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
       "outcome": "No",
       "price": 0.94,
-      "net_traders": 3,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 911953.93,
-      "score": 25.2
+      "liquidity_usd": 935117.26,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.91,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 62425.3,
+      "liquidity_usd": 61709.21,
       "score": 18.2
     },
     {
@@ -124,50 +137,23 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96019.77,
+      "liquidity_usd": 96191.15,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "National Bank Open: Botic van de Zandschulp vs Hubert Hurkacz",
-      "outcome": "Botic van de Zandschulp",
-      "price": 0.497,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 407276.38,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Maya Joint vs Liudmila Samsonova",
-      "outcome": "Liudmila Samsonova",
-      "price": 0.55,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 303689.35,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Botic van de Zandschulp vs Hubert Hurkacz",
-      "outcome": "Hubert Hurkacz",
-      "price": 0.497,
-      "net_traders": -2,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.215,
+      "net_traders": 3,
       "signals": [
         "pure_count",
+        "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 407276.38,
+      "liquidity_usd": 448754.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -175,71 +161,15 @@
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.68,
+      "price": 0.66,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40851.93,
+      "liquidity_usd": 40828.79,
       "why_excluded": [
         "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. New York Yankees",
-      "outcome": "Atlanta Braves",
-      "price": 0.46,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 542497.22,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "National Bank Open: Maya Joint vs Liudmila Samsonova",
-      "outcome": "Maya Joint",
-      "price": 0.55,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 303689.35,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Lexington: Spencer Johnson vs Andres Martin",
-      "outcome": "Spencer Johnson",
-      "price": 0.78,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 233028.06,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.55,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 204005.25,
-      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -247,12 +177,41 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.46,
-      "net_traders": 0,
+      "net_traders": 2,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 204005.25,
+      "liquidity_usd": 205450.04,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.575,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 340989.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.55,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 205450.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -260,13 +219,14 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.787,
-      "net_traders": -2,
+      "price": 0.786,
+      "net_traders": -3,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 477718.26,
+      "liquidity_usd": 448754.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -274,17 +234,17 @@
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.72,
-      "net_traders": 0,
+      "price": 0.73,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 729724.55,
+      "liquidity_usd": 720230.03,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-07T21:25:45.824625+00:00"
+  "source_report_generated_at": "2026-08-08T05:32:47.558833+00:00"
 }
