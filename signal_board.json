@@ -1,36 +1,23 @@
 {
-  "generated_at_utc": "2026-08-08T13:36:31.774355+00:00",
+  "generated_at_utc": "2026-08-08T17:18:38.235116+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1066,
+    "n": 1070,
     "excluded_certain": 73,
-    "win_rate": 0.5544090056285178,
-    "wr_lo": 0.5244292222049782,
-    "wr_hi": 0.5839980440370522,
-    "implied": 0.522302626641651,
-    "edge_pts": 3.2106378986866857,
-    "edge_lo_pts": 0.21265955633272826,
-    "edge_hi_pts": 6.169541739540129,
-    "brier": 0.26337080906191374,
-    "roi_net": 0.4946906752992982,
+    "win_rate": 0.5542056074766355,
+    "wr_lo": 0.5242814817789775,
+    "wr_hi": 0.5837418989505453,
+    "implied": 0.5232472897196262,
+    "edge_pts": 3.09583177570093,
+    "edge_lo_pts": 0.1034192059351291,
+    "edge_hi_pts": 6.049460923091909,
+    "brier": 0.2636081144485981,
+    "roi_net": 0.49144502721648387,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Los Angeles Angels vs. Miami Marlins: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.4,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87122.12,
-      "score": 54.6
-    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -40,69 +27,95 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 441687.68,
-      "score": 50.2
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.57,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 13580.72,
+      "liquidity_usd": 451977.49,
       "score": 50.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.64,
+      "price": 0.63,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94559.13,
-      "score": 43.9
+      "liquidity_usd": 92611.78,
+      "score": 46.4
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.557,
+      "price": 0.559,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 75103.46,
+      "liquidity_usd": 73482.33,
       "score": 43.2
     },
     {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
-      "net_traders": 4,
+      "price": 0.46,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 133345.4,
-      "score": 40.7
+      "fresh": true,
+      "liquidity_usd": 105810.0,
+      "score": 43.2
     },
     {
       "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
       "price": 0.84,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
+        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 918666.34,
-      "score": 32.3
+      "liquidity_usd": 924431.74,
+      "score": 42.5
+    },
+    {
+      "market": "Los Angeles Angels vs. Miami Marlins: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.36,
+      "net_traders": 2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 123892.45,
+      "score": 37.9
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.63,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 489895.15,
+      "score": 37.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.81,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 36418.71,
+      "score": 29.9
     },
     {
       "market": "Will the Iranian regime fall before 2027?",
@@ -113,7 +126,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 916151.67,
+      "liquidity_usd": 911972.46,
       "score": 21.7
     },
     {
@@ -125,23 +138,26 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63224.32,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $800 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 95963.94,
+      "liquidity_usd": 62974.37,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "National Bank Open: Marta Kostyuk vs Iga Swiatek",
+      "outcome": "Iga Swiatek",
+      "price": 0.71,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 241734.26,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
@@ -151,36 +167,64 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 40704.13,
+      "liquidity_usd": 40695.86,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Warsaw: Carol Young Suh Lee vs Gabriela Knutson",
-      "outcome": "Gabriela Knutson",
-      "price": 0.74,
-      "net_traders": 1,
+      "market": "National Bank Open: Marta Kostyuk vs Iga Swiatek",
+      "outcome": "Marta Kostyuk",
+      "price": 0.71,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 358076.39,
+      "liquidity_usd": 241734.26,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Hagen: Jerome Kym vs Elmer Moeller",
-      "outcome": "Elmer Moeller",
-      "price": 0.81,
+      "market": "LoL: SK Gaming vs Natus Vincere (BO3) - LEC Regular Season",
+      "outcome": "SK Gaming",
+      "price": 0.58,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
+      "fresh": true,
+      "liquidity_usd": 130173.89,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cleveland Guardians vs. Chicago White Sox: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.46,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": false,
-      "liquidity_usd": 171702.54,
+      "liquidity_usd": 332256.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Las Vegas Aces vs. Minnesota Lynx",
+      "outcome": "Las Vegas Aces",
+      "price": 0.35,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 105211.09,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,77 +238,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 218281.63,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Warsaw: Carol Young Suh Lee vs Gabriela Knutson",
-      "outcome": "Carol Young Suh Lee",
-      "price": 0.74,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 358076.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hagen: Jerome Kym vs Elmer Moeller",
-      "outcome": "Jerome Kym",
-      "price": 0.81,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 171702.54,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.55,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 209901.33,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.46,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 209901.33,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.786,
-      "net_traders": -3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 441687.68,
+      "liquidity_usd": 216115.87,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -278,11 +252,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 718070.52,
+      "liquidity_usd": 718838.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.82,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 75336.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-08T13:36:22.544138+00:00"
+  "source_report_generated_at": "2026-08-08T17:18:32.045481+00:00"
 }
