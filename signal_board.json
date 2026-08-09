@@ -1,23 +1,73 @@
 {
-  "generated_at_utc": "2026-08-09T13:39:21.733800+00:00",
+  "generated_at_utc": "2026-08-09T17:19:46.384216+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1088,
-    "excluded_certain": 73,
-    "win_rate": 0.5542279411764706,
-    "wr_lo": 0.5245531713074295,
-    "wr_hi": 0.5835211134606174,
-    "implied": 0.521153125,
-    "edge_pts": 3.3074816176470567,
-    "edge_lo_pts": 0.3400046307429516,
-    "edge_hi_pts": 6.236798846061742,
-    "brier": 0.26424253902573525,
-    "roi_net": 0.49612233686407214,
+    "n": 1094,
+    "excluded_certain": 75,
+    "win_rate": 0.5548446069469836,
+    "wr_lo": 0.5252533932459054,
+    "wr_hi": 0.5840519928863017,
+    "implied": 0.5214301645338209,
+    "edge_pts": 3.3414442413162715,
+    "edge_lo_pts": 0.38232287120845143,
+    "edge_hi_pts": 6.262182835248087,
+    "brier": 0.2632716475868373,
+    "roi_net": 0.49303957652153285,
     "roi_median": 0.08071846565782614
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "New York Mets vs. Pittsburgh Pirates: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.49,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 215395.81,
+      "score": 52.7
+    },
+    {
+      "market": "Atlanta Braves vs. New York Yankees: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.5,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 348779.16,
+      "score": 47.4
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.63,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 81653.79,
+      "score": 46.4
+    },
+    {
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.84,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 917844.94,
+      "score": 44.1
+    },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
@@ -27,33 +77,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 87319.63,
+      "liquidity_usd": 87241.09,
       "score": 42.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.65,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 79291.45,
-      "score": 41.4
-    },
-    {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.84,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 968148.24,
-      "score": 32.5
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
@@ -64,8 +89,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 38358.7,
+      "liquidity_usd": 38268.7,
       "score": 28.7
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 944415.37,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
@@ -76,7 +113,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63200.58,
+      "liquidity_usd": 63275.73,
       "score": 18.2
     },
     {
@@ -88,11 +125,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 95967.97,
+      "liquidity_usd": 95942.03,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Cincinnati Reds vs. Washington Nationals",
+      "outcome": "Washington Nationals",
+      "price": 0.23,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 198036.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -103,152 +154,78 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 451114.04,
+      "liquidity_usd": 483434.47,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Shanghai Haigang FC win on 2026-08-09?",
-      "outcome": "Yes",
-      "price": 0.86,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 6892.76,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hagen: Tom Gentzsch vs Jerome Kym",
-      "outcome": "Tom Gentzsch",
-      "price": 0.57,
+      "market": "National Bank Open: Liudmila Samsonova vs Elena Rybakina",
+      "outcome": "Liudmila Samsonova",
+      "price": 0.45,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 335112.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Malmo FF win on 2026-08-09?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 91095.81,
+      "liquidity_usd": 273959.59,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Shanghai Haigang FC win on 2026-08-09?",
-      "outcome": "No",
-      "price": 0.15,
-      "net_traders": 0,
+      "market": "Cincinnati Reds vs. Washington Nationals",
+      "outcome": "Cincinnati Reds",
+      "price": 0.23,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 6892.76,
+      "liquidity_usd": 198036.55,
       "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Degerfors IF win on 2026-08-09?",
-      "outcome": "No",
-      "price": 0.33,
+      "market": "National Bank Open: Tallon Griekspoor vs Daniel Merida Aguilar",
+      "outcome": "Tallon Griekspoor",
+      "price": 0.23,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 99586.61,
+      "liquidity_usd": 275338.87,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Chongqing Tonglianglong FC win on 2026-08-09?",
-      "outcome": "Yes",
-      "price": 0.028,
-      "net_traders": 1,
+      "market": "National Bank Open: Liudmila Samsonova vs Elena Rybakina",
+      "outcome": "Elena Rybakina",
+      "price": 0.45,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 52503.81,
+      "liquidity_usd": 273959.59,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Chongqing Tonglianglong FC win on 2026-08-09?",
-      "outcome": "No",
-      "price": 0.995,
+      "market": "National Bank Open: Tallon Griekspoor vs Daniel Merida Aguilar",
+      "outcome": "Daniel Merida Aguilar",
+      "price": 0.23,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 52503.81,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.67,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 43072.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.67,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 43072.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Iranian regime fall before 2027?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 939430.04,
+      "liquidity_usd": 275338.87,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -262,7 +239,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 725841.49,
+      "liquidity_usd": 724053.64,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -277,7 +254,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 451114.04,
+      "liquidity_usd": 483434.47,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -291,11 +268,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94365.39,
+      "liquidity_usd": 94370.57,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-09T13:39:15.392940+00:00"
+  "source_report_generated_at": "2026-08-09T17:19:37.365329+00:00"
 }
