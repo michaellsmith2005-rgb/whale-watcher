@@ -1,10 +1,10 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  1278 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-08-09T05:38)
+  1286 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-08-09T13:39)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 1088   |   still pending: 117
+  Resolved & graded: 1088   |   still pending: 125
 
     graded calls     : 1088
     excluded         : 73 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
@@ -22,17 +22,17 @@ FORWARD REPLAY — grading past consensus calls against true resolutions
   Cohorts below use unique markets only (801 of 1088 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=155 win  56.1%  paid  57.8%  edge  -1.7 pts
-    conflicted (both sides)   : n=588 win  55.4%  paid  50.8%  edge  +4.7 pts
+    clean (one-sided cohort)  : n=155 win  56.1%  paid  58.0%  edge  -1.9 pts
+    conflicted (both sides)   : n=588 win  55.4%  paid  50.7%  edge  +4.7 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=340 win  44.1%  paid  49.1%  edge  -5.0 pts
-    late (past crowd's entry) : n=457 win  62.6%  paid  53.8%  edge  +8.8 pts
+    fresh (≤ crowd's entry)   : n=341 win  44.3%  paid  49.1%  edge  -4.9 pts
+    late (past crowd's entry) : n=456 win  62.5%  paid  53.7%  edge  +8.8 pts
 
   By Vegas confirmation (vegas prob vs price paid):
-    vegas agrees (≥ +1 pt)    : n=3   win  33.3%  paid  25.3%  edge  +8.0 pts
-    vegas neutral             : n=9   win  33.3%  paid  37.4%  edge  -4.0 pts
-    vegas disagrees           : n=2   win  50.0%  paid  89.5%  edge -39.5 pts
+    vegas agrees (≥ +1 pt)    : n=2   win  50.0%  paid  15.0%  edge +35.0 pts
+    vegas neutral             : n=10  win  30.0%  paid  39.1%  edge  -9.1 pts
+    vegas disagrees           : n=1   win 100.0%  paid  93.0%  edge  +7.0 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens
       of graded calls spanning different events.
