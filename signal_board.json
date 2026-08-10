@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-09T21:19:13.647164+00:00",
+  "generated_at_utc": "2026-08-10T06:05:29.899517+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1103,
+    "n": 1113,
     "excluded_certain": 75,
-    "win_rate": 0.5539437896645513,
-    "wr_lo": 0.5244712508824922,
-    "wr_hi": 0.583041874753552,
-    "implied": 0.5201310970081596,
-    "edge_pts": 3.381269265639164,
-    "edge_lo_pts": 0.43401538743326196,
-    "edge_hi_pts": 6.291077774539233,
-    "brier": 0.2633802198186763,
-    "roi_net": 0.4924054135183066,
+    "win_rate": 0.5525606469002695,
+    "wr_lo": 0.5232172909701825,
+    "wr_hi": 0.5815424171209199,
+    "implied": 0.5182790655884995,
+    "edge_pts": 3.428158131177006,
+    "edge_lo_pts": 0.49382253816830923,
+    "edge_hi_pts": 6.326335153242047,
+    "brier": 0.2638246023899371,
+    "roi_net": 0.5115068281061282,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,27 +21,75 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.215,
+      "price": 0.217,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 466740.08,
-      "score": 64.9
+      "liquidity_usd": 473062.58,
+      "score": 63.7
     },
     {
-      "market": "Spread: Milwaukee Brewers (-1.5)",
-      "outcome": "Milwaukee Brewers",
-      "price": 0.12,
-      "net_traders": 4,
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.35,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 26444.12,
-      "score": 53.7
+      "liquidity_usd": 548701.39,
+      "score": 57.2
+    },
+    {
+      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 407133.51,
+      "score": 54.2
+    },
+    {
+      "market": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.053,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 420985.02,
+      "score": 47.9
+    },
+    {
+      "market": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.968,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 24509.31,
+      "score": 47.7
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.57,
+      "net_traders": 2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 13184.66,
+      "score": 46.1
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -52,192 +100,86 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 87902.07,
+      "liquidity_usd": 89048.12,
       "score": 43.9
-    },
-    {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.42,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 103988.21,
-      "score": 43.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.569,
+      "price": 0.579,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 87347.92,
-      "score": 42.4
-    },
-    {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 38363.27,
-      "score": 28.7
+      "liquidity_usd": 87801.4,
+      "score": 40.9
     },
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.63,
+      "price": 0.64,
       "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 379486.65,
-      "score": 28.7
+      "liquidity_usd": 723393.18,
+      "score": 35.4
     },
     {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
+      "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "price": 0.91,
-      "net_traders": 1,
+      "price": 0.85,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 63366.17,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $800 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 95941.88,
-      "score": 18.2
+      "liquidity_usd": 987202.36,
+      "score": 33.4
     }
   ],
   "excluded": [
     {
-      "market": "Cleveland Guardians vs. Chicago White Sox",
-      "outcome": "Chicago White Sox",
-      "price": 0.64,
+      "market": "Will James Talarico win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.02,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 284178.99,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.015,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 460901.54,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.582,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 229997.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Detroit Tigers vs. San Francisco Giants",
-      "outcome": "San Francisco Giants",
-      "price": 0.64,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 158426.73,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Milwaukee Brewers: O/U 7.5",
-      "outcome": "Over",
-      "price": 0.38,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 42502.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Los Angeles Dodgers vs. Arizona Diamondbacks",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.16,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 238551.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampa Bay Rays vs. Seattle Mariners: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.28,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 20328.4,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampa Bay Rays vs. Seattle Mariners",
-      "outcome": "Seattle Mariners",
-      "price": 0.36,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 167639.29,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Los Angeles Dodgers vs. Arizona Diamondbacks",
-      "outcome": "Arizona Diamondbacks",
-      "price": 0.16,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 238551.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Dallas Wings vs. Minnesota Lynx",
-      "outcome": "Minnesota Lynx",
-      "price": 0.04,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 148838.41,
+      "liquidity_usd": 198940.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,7 +193,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 724278.5,
+      "liquidity_usd": 726542.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -259,14 +201,28 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.786,
+      "price": 0.784,
       "net_traders": -4,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 466740.08,
+      "liquidity_usd": 473062.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: Hanwha Life Esports vs Gen.G (BO3) - KeSPA Cup Last Chance Qualifier",
+      "outcome": "Gen.G",
+      "price": 0.39,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 197642.5,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -280,11 +236,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94385.38,
+      "liquidity_usd": 93751.42,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-09T21:19:03.315498+00:00"
+  "source_report_generated_at": "2026-08-10T06:05:22.566042+00:00"
 }
