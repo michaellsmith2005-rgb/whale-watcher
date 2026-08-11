@@ -1,10 +1,10 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  1336 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-08-11T05:44)
+  1343 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-08-11T14:09)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 1130   |   still pending: 129
+  Resolved & graded: 1130   |   still pending: 136
 
     graded calls     : 1130
     excluded         : 77 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
@@ -22,16 +22,16 @@ FORWARD REPLAY — grading past consensus calls against true resolutions
   Cohorts below use unique markets only (839 of 1130 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=161 win  57.1%  paid  56.8%  edge  +0.4 pts
-    conflicted (both sides)   : n=620 win  54.5%  paid  50.3%  edge  +4.2 pts
+    clean (one-sided cohort)  : n=162 win  58.0%  paid  57.0%  edge  +1.1 pts
+    conflicted (both sides)   : n=619 win  54.3%  paid  50.3%  edge  +3.9 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=364 win  43.7%  paid  48.4%  edge  -4.7 pts
-    late (past crowd's entry) : n=471 win  62.4%  paid  53.3%  edge  +9.1 pts
+    fresh (≤ crowd's entry)   : n=366 win  44.3%  paid  48.5%  edge  -4.2 pts
+    late (past crowd's entry) : n=469 win  62.0%  paid  53.5%  edge  +8.6 pts
 
   By Vegas confirmation (vegas prob vs price paid):
-    vegas agrees (≥ +1 pt)    : n=3   win  33.3%  paid  25.3%  edge  +8.0 pts
-    vegas neutral             : n=9   win  33.3%  paid  37.4%  edge  -4.0 pts
+    vegas agrees (≥ +1 pt)    : n=2   win  50.0%  paid  15.0%  edge +35.0 pts
+    vegas neutral             : n=9   win  22.2%  paid  37.1%  edge -14.9 pts
     vegas disagrees           : n=1   win 100.0%  paid  93.0%  edge  +7.0 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens

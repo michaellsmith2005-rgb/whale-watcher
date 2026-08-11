@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-11T05:44:21.431389+00:00 UTC*  
+*Generated: 2026-08-11T14:09:20.993483+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,53 +8,55 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **6268**
-- Unique markets represented: **4343**
+- Total open positions analyzed: **6766**
+- Unique markets represented: **4581**
 
 ## Top 5 Consensus Markets (by trader count)
 
 ### 1. Will JD Vance win the 2028 US Presidential Election?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $143,540.10
-- **Backers:** Anjun, ImJustKen, balthazar, cigarettes, donthackme, oneAce
+- **Total combined USD exposure:** $135,490.02
+- **Backers:** Anjun, HOG993, balthazar, cigarettes, donthackme, oneAce
 
-### 2. Brownsburg: Ugo Blanchet vs Rei Sakamoto
+### 2. Will Oklahoma City Thunder win the 2027 NBA Finals?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $30,149.86
+- **Backers:** Bigggggggg, Gucky-45, HOG993, Mysaria, balthazar, donthackme
+
+### 3. Brownsburg: Ugo Blanchet vs Rei Sakamoto
 - **Favored outcome:** Rei Sakamoto
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $6,420.53
+- **Total combined USD exposure:** $6,498.83
 - **Backers:** HomeRunHazard, RN1, UpTheBlues, cigarettes, ferrariChampions2026, swisstony
 
-### 3. Atlanta Braves vs. Chicago White Sox: O/U 8.5
+### 4. Atlanta Braves vs. Chicago White Sox: O/U 8.5
 - **Favored outcome:** Over
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $83,777.20
+- **Total combined USD exposure:** $83,067.22
 - **Backers:** HomeRunHazard, RN1, SDTrading, Talvez10, balthazar
 
-### 4. Will Lamine Yamal win the 2026 Ballon d'Or?
+### 5. Will Manchester United win the 2026-27 English Premier League (EPL) Championship?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $15,691.67
-- **Backers:** BreakTheBank, balthazar, betterfasterstronger, donthackme, surfandturf
-
-### 5. Will Josh Shapiro win the 2028 Democratic presidential nomination?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $14,805.72
-- **Backers:** Anjun, ImJustKen, balthazar, cigarettes, donthackme
+- **Total combined USD exposure:** $24,390.15
+- **Backers:** Bigggggggg, BreakTheBank, Gucky-45, HOG993, donthackme
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
+| Will Ethereum dip to $1,000 by December 31, 2026? | No | 1 | $560,627.47 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 3 | $490,188.05 |
 | Will Manchester City win the 2026-27 English Premier League (EPL) Championship? | No | 2 | $484,017.70 |
-| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $483,419.50 |
-| Will China invade Taiwan by end of 2026? | No | 1 | $204,499.19 |
-| 2026 Balance of Power: D Senate, D House | No | 3 | $160,654.84 |
-| Counter-Strike: Team Falcons vs K27 (BO1) - Esports World Cup Group B | Team Falcons | 2 | $144,909.03 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $455,767.60 |
+| Will Ethereum dip to $800 by December 31, 2026? | No | 1 | $351,962.04 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| National Bank Open: Rafael Jodar vs Arthur Fils | Arthur Fils | 100 | 3 | 45.0% | 0.29 |
+| Will Washington Wizards win the 2027 NBA Finals? | Yes | 100 | 3 | 34.8% | 0.68 |
+| Will Toronto Raptors win the 2027 NBA Finals? | Yes | 100 | 3 | 34.6% | 0.68 |
+| National Bank Open: Rafael Jodar vs Arthur Fils | Arthur Fils | 40 | 3 | 25.2% | 0.29 |
