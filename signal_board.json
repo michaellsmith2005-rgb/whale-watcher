@@ -1,36 +1,23 @@
 {
-  "generated_at_utc": "2026-08-11T14:09:27.988593+00:00",
+  "generated_at_utc": "2026-08-11T17:46:14.073951+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1130,
+    "n": 1131,
     "excluded_certain": 77,
-    "win_rate": 0.5495575221238939,
-    "wr_lo": 0.5204286235056247,
-    "wr_hi": 0.5783506063268317,
-    "implied": 0.517832389380531,
-    "edge_pts": 3.172513274336286,
-    "edge_lo_pts": 0.2596234125093688,
-    "edge_hi_pts": 6.051821694630066,
-    "brier": 0.26311771545132745,
-    "roi_net": 0.4978754499958431,
+    "win_rate": 0.5490716180371353,
+    "wr_lo": 0.5199544829363636,
+    "wr_hi": 0.5778565243443001,
+    "implied": 0.51812608311229,
+    "edge_pts": 3.094553492484531,
+    "edge_lo_pts": 0.18283998240735677,
+    "edge_hi_pts": 5.97304412320101,
+    "brier": 0.2635238890008842,
+    "roi_net": 0.49653338505331807,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.038,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 522411.42,
-      "score": 67.6
-    },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
@@ -40,80 +27,92 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 391817.44,
+      "liquidity_usd": 391972.37,
       "score": 60.7
     },
     {
-      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
       "outcome": "Yes",
-      "price": 0.11,
+      "price": 0.038,
+      "net_traders": 3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 520374.22,
+      "score": 54.0
+    },
+    {
+      "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+      "outcome": "Arthur Fils",
+      "price": 0.58,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 495592.29,
+      "liquidity_usd": 443460.23,
       "score": 53.7
     },
     {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.46,
+      "price": 0.564,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 104378.03,
+      "liquidity_usd": 91700.65,
       "score": 43.2
     },
     {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.579,
+      "price": 0.44,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 83688.02,
-      "score": 40.9
+      "fresh": true,
+      "liquidity_usd": 110297.23,
+      "score": 43.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.67,
+      "price": 0.66,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 74862.39,
-      "score": 36.4
+      "liquidity_usd": 78359.82,
+      "score": 38.9
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.83,
+      "price": 0.82,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 14533.73,
-      "score": 26.9
+      "liquidity_usd": 16304.85,
+      "score": 30.7
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.88,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 56618.33,
-      "score": 18.2
+      "liquidity_usd": 60523.97,
+      "score": 18.7
     },
     {
       "market": "Will Ethereum dip to $800 by December 31, 2026?",
@@ -124,11 +123,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 82088.33,
+      "liquidity_usd": 86628.05,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Cincinnati Open, Qualification: Christopher O'Connell vs Dane Sweeny",
+      "outcome": "Dane Sweeny",
+      "price": 0.66,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 455894.33,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -138,93 +151,92 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 436891.67,
+      "liquidity_usd": 451323.63,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Brownsburg: Ugo Blanchet vs Rei Sakamoto",
-      "outcome": "Rei Sakamoto",
-      "price": 0.59,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 81593.05,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.64,
+      "market": "Will FK Bod\u00f8/Glimt win on 2026-08-11?",
+      "outcome": "Yes",
+      "price": 0.8,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31358.87,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Todi: Nikolas Sanchez Izquierdo vs Gabriele Piraino",
-      "outcome": "Gabriele Piraino",
-      "price": 0.85,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 74849.51,
+      "liquidity_usd": 101259.34,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Los Angeles Lakers win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.021,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 286743.75,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
-      "outcome": "Arthur Fils",
-      "price": 0.56,
-      "net_traders": 2,
+      "market": "Cincinnati Open, Qualification: Lilli Tagger vs Lin Zhu",
+      "outcome": "Lin Zhu",
+      "price": 0.88,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 251360.52,
+      "fresh": true,
+      "liquidity_usd": 437440.97,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "market": "Cincinnati Open, Qualification: Renata Zarazua vs Yue Yuan",
+      "outcome": "Yue Yuan",
+      "price": 0.05,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 379246.57,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will GNK Dinamo Zagreb win on 2026-08-11?",
       "outcome": "Yes",
-      "price": 0.583,
+      "price": 0.83,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 183807.64,
+      "liquidity_usd": 73261.14,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open, Qualification: Lanlana Tararudee vs Emerson Jones",
+      "outcome": "Emerson Jones",
+      "price": 0.65,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 221486.39,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open, Qualification: Robin Montgomery vs Julia Grabher",
+      "outcome": "Julia Grabher",
+      "price": 0.7,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 405310.96,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -238,7 +250,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 436891.67,
+      "liquidity_usd": 451323.63,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -252,7 +264,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 711736.91,
+      "liquidity_usd": 683298.03,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -260,27 +272,27 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.75,
+      "price": 0.76,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96106.4,
+      "liquidity_usd": 100441.85,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will China invade Taiwan by end of 2026?",
+      "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.963,
-      "net_traders": 0,
+      "price": 0.54,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 713896.42,
+      "liquidity_usd": 99781.21,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -294,11 +306,39 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 463644.43,
+      "liquidity_usd": 462369.55,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
+    },
+    {
+      "market": "National Bank Open: Luciano Darderi vs Brandon Nakashima",
+      "outcome": "Brandon Nakashima",
+      "price": 0.16,
+      "net_traders": -3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 447480.79,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open, Qualification: Lilli Tagger vs Lin Zhu",
+      "outcome": "Lilli Tagger",
+      "price": 0.88,
+      "net_traders": -3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 437440.97,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     }
   ],
-  "source_report_generated_at": "2026-08-11T14:09:20.993483+00:00"
+  "source_report_generated_at": "2026-08-11T17:46:03.892346+00:00"
 }
