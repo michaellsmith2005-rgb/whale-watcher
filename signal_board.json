@@ -1,23 +1,36 @@
 {
-  "generated_at_utc": "2026-08-10T21:29:20.197810+00:00",
+  "generated_at_utc": "2026-08-11T05:44:28.527806+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1122,
+    "n": 1130,
     "excluded_certain": 77,
-    "win_rate": 0.5490196078431373,
-    "wr_lo": 0.5197855328605274,
-    "wr_hi": 0.5779191531272705,
-    "implied": 0.5179060606060606,
-    "edge_pts": 3.111354723707671,
-    "edge_lo_pts": 0.18794722544668296,
-    "edge_hi_pts": 6.00130925212099,
-    "brier": 0.26339146030303034,
-    "roi_net": 0.5001907809303564,
+    "win_rate": 0.5495575221238939,
+    "wr_lo": 0.5204286235056247,
+    "wr_hi": 0.5783506063268317,
+    "implied": 0.517832389380531,
+    "edge_pts": 3.172513274336286,
+    "edge_lo_pts": 0.2596234125093688,
+    "edge_hi_pts": 6.051821694630066,
+    "brier": 0.26311771545132745,
+    "roi_net": 0.4978754499958431,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.217,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 466497.2,
+      "score": 60.3
+    },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
@@ -27,44 +40,32 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 398746.68,
+      "liquidity_usd": 395374.6,
       "score": 57.2
     },
     {
-      "market": "Boston Red Sox vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.6,
-      "net_traders": 4,
+      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1005327.96,
-      "score": 51.2
+      "liquidity_usd": 388020.36,
+      "score": 54.2
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.217,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 448927.88,
-      "score": 50.2
-    },
-    {
-      "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.08,
-      "net_traders": 4,
+      "price": 0.053,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 160040.2,
-      "score": 49.9
+      "liquidity_usd": 413367.76,
+      "score": 47.9
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
@@ -75,125 +76,102 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 197089.96,
-      "score": 47.4
+      "liquidity_usd": 203587.07,
+      "score": 47.7
     },
     {
-      "market": "Spread: Arizona Diamondbacks (-1.5)",
-      "outcome": "Arizona Diamondbacks",
-      "price": 0.49,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 275059.99,
-      "score": 44.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.567,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 87419.66,
-      "score": 43.2
-    },
-    {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.43,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 101751.78,
-      "score": 43.2
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.68,
+      "market": "Counter-Strike: Team Falcons vs K27 (BO1) - Esports World Cup Group B",
+      "outcome": "Team Falcons",
+      "price": 0.83,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 75080.76,
-      "score": 35.2
+      "fresh": true,
+      "liquidity_usd": 90946.25,
+      "score": 46.7
     },
     {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "outcome": "Yes",
+      "price": 0.92,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 69484.43,
+      "score": 32.2
+    },
+    {
+      "market": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "price": 0.82,
+      "price": 0.84,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 35097.83,
-      "score": 28.9
+      "liquidity_usd": 1038590.34,
+      "score": 27.2
     }
   ],
   "excluded": [
     {
-      "market": "Kansas City Royals vs. Los Angeles Dodgers: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.46,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 488352.5,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Baltimore Orioles vs. Minnesota Twins",
-      "outcome": "Minnesota Twins",
-      "price": 0.5,
+      "market": "Brownsburg: Ugo Blanchet vs Rei Sakamoto",
+      "outcome": "Rei Sakamoto",
+      "price": 0.6,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 1242178.28,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Houston Astros vs. San Francisco Giants: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 255723.14,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Atlanta Dream (-13.5)",
-      "outcome": "Toronto Tempo",
-      "price": 0.57,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": true,
-      "liquidity_usd": 136817.45,
+      "liquidity_usd": 96915.62,
       "why_excluded": [
         "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.64,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 31302.38,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will James Talarico win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.02,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 297702.44,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.015,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 459751.9,
+      "why_excluded": [
+        "already decided (near-certain price)"
       ]
     },
     {
@@ -205,7 +183,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 713215.0,
+      "liquidity_usd": 710471.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -214,26 +192,12 @@
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.784,
-      "net_traders": -3,
+      "net_traders": -4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 448927.88,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.78,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87163.32,
+      "liquidity_usd": 466497.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,11 +211,68 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 713682.3,
+      "liquidity_usd": 717940.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.54,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 81089.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.47,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 81089.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "National Bank Open: Rafael Jodar vs Arthur Fils",
+      "outcome": "Arthur Fils",
+      "price": 0.58,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 190558.67,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "No",
+      "price": 0.6,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 524091.24,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-10T21:29:10.905221+00:00"
+  "source_report_generated_at": "2026-08-11T05:44:21.431389+00:00"
 }
