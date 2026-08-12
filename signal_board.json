@@ -1,70 +1,58 @@
 {
-  "generated_at_utc": "2026-08-12T17:47:31.283754+00:00",
+  "generated_at_utc": "2026-08-12T21:32:16.701250+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1156,
-    "excluded_certain": 77,
-    "win_rate": 0.5467128027681661,
-    "wr_lo": 0.5179077660134982,
-    "wr_hi": 0.575208397435028,
-    "implied": 0.5195852941176471,
-    "edge_pts": 2.712750865051905,
-    "edge_lo_pts": -0.16775281041488954,
-    "edge_hi_pts": 5.562310331738097,
-    "brier": 0.2656417979757785,
-    "roi_net": 0.49955276098813095,
-    "roi_median": 0.07589863688224341
+    "n": 1164,
+    "excluded_certain": 78,
+    "win_rate": 0.5472508591065293,
+    "wr_lo": 0.5185463175669556,
+    "wr_hi": 0.5756445384532445,
+    "implied": 0.5210658075601375,
+    "edge_pts": 2.6185051546391724,
+    "edge_lo_pts": -0.2519489993181967,
+    "edge_hi_pts": 5.457873089310694,
+    "brier": 0.26551333201030924,
+    "roi_net": 0.49499053959034317,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
       "market": "Seattle Mariners vs. New York Yankees: O/U 8.5",
       "outcome": "Under",
-      "price": 0.53,
-      "net_traders": 6,
+      "price": 0.52,
+      "net_traders": 7,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 239204.93,
-      "score": 60.7
+      "fresh": false,
+      "liquidity_usd": 349324.51,
+      "score": 60.9
     },
     {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "market": "Will Rodri win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.22,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 398646.34,
-      "score": 57.2
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.225,
+      "price": 0.09,
       "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 405326.28,
-      "score": 50.2
-    },
-    {
-      "market": "Baltimore Orioles vs. Minnesota Twins: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.66,
-      "net_traders": 2,
       "signals": [
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 63212.32,
-      "score": 45.7
+      "fresh": true,
+      "liquidity_usd": 146753.63,
+      "score": 52.4
+    },
+    {
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.45,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 121025.53,
+      "score": 43.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -75,20 +63,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 83673.59,
+      "liquidity_usd": 84312.23,
       "score": 41.4
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.578,
+      "price": 0.575,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 103830.0,
-      "score": 40.4
+      "liquidity_usd": 105836.1,
+      "score": 40.9
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
@@ -99,7 +87,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 25757.63,
+      "liquidity_usd": 28368.49,
       "score": 30.7
     },
     {
@@ -111,7 +99,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 70582.26,
+      "liquidity_usd": 70858.24,
       "score": 18.2
     },
     {
@@ -123,136 +111,164 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 88795.62,
+      "liquidity_usd": 86468.29,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Baltimore Orioles vs. Minnesota Twins",
-      "outcome": "Minnesota Twins",
-      "price": 0.63,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 179521.93,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.66,
+      "market": "Colorado Rockies vs. Arizona Diamondbacks",
+      "outcome": "Colorado Rockies",
+      "price": 0.83,
       "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 30950.03,
+      "liquidity_usd": 207110.42,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Todi: Nikolas Sanchez Izquierdo vs Maxim Mrva",
-      "outcome": "Maxim Mrva",
-      "price": 0.28,
+      "market": "Houston Astros vs. San Francisco Giants",
+      "outcome": "San Francisco Giants",
+      "price": 0.35,
       "net_traders": 0,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 409353.84,
+      "liquidity_usd": 153629.74,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will GKS GieKSa Katowice win on 2026-08-12?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5944.03,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Brownsburg: Colton Smith vs Felix Gill",
-      "outcome": "Colton Smith",
-      "price": 0.6,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 179366.29,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Baltimore Orioles vs. Minnesota Twins",
-      "outcome": "Baltimore Orioles",
-      "price": 0.63,
+      "market": "Houston Astros vs. San Francisco Giants",
+      "outcome": "Houston Astros",
+      "price": 0.35,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 179521.93,
+      "liquidity_usd": 153629.74,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "SK Rapid Wien vs. Paide Linnameeskond: O/U 3.5",
+      "market": "Milwaukee Brewers vs. San Diego Padres",
+      "outcome": "Milwaukee Brewers",
+      "price": 0.68,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 203969.32,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Milwaukee Brewers vs. San Diego Padres: O/U 8.5",
       "outcome": "Under",
-      "price": 0.03,
+      "price": 0.35,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 27065.67,
+      "liquidity_usd": 60590.13,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: Vitality vs 100 Thieves (BO1) - Esports World Cup Group C",
-      "outcome": "100 Thieves",
-      "price": 0.73,
+      "market": "Milwaukee Brewers vs. San Diego Padres",
+      "outcome": "San Diego Padres",
+      "price": 0.68,
       "net_traders": 0,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 979122.65,
+      "fresh": true,
+      "liquidity_usd": 203969.32,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.74,
+      "market": "Milwaukee Brewers vs. San Diego Padres: O/U 7.5",
+      "outcome": "Over",
+      "price": 0.43,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 60758.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Colorado Rockies vs. Arizona Diamondbacks: O/U 9.5",
+      "outcome": "Under",
+      "price": 0.82,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 59517.7,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Colorado Rockies vs. Arizona Diamondbacks",
+      "outcome": "Arizona Diamondbacks",
+      "price": 0.83,
       "net_traders": -1,
       "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 207110.42,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.51,
+      "net_traders": 0,
+      "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 736705.64,
+      "liquidity_usd": 90571.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 90571.08,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -260,27 +276,13 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.776,
+      "price": 0.77,
       "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 405326.28,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Paris Saint-Germain win on 2026-08-12?",
-      "outcome": "Yes",
-      "price": 0.57,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 639821.55,
+      "liquidity_usd": 422707.87,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -294,11 +296,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 98828.15,
+      "liquidity_usd": 99472.94,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-12T17:47:23.553692+00:00"
+  "source_report_generated_at": "2026-08-12T21:32:09.855573+00:00"
 }
