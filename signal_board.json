@@ -1,23 +1,36 @@
 {
-  "generated_at_utc": "2026-08-11T21:32:44.135550+00:00",
+  "generated_at_utc": "2026-08-12T06:07:20.610801+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1141,
+    "n": 1153,
     "excluded_certain": 77,
-    "win_rate": 0.5477651183172656,
-    "wr_lo": 0.5187732022976868,
-    "wr_hi": 0.5764364756175813,
-    "implied": 0.5192730937773883,
-    "edge_pts": 2.8492024539877314,
-    "edge_lo_pts": -0.04998914797015308,
-    "edge_hi_pts": 5.716338184019298,
-    "brier": 0.26576145351446095,
-    "roi_net": 0.5083001239340709,
+    "win_rate": 0.5472679965307893,
+    "wr_lo": 0.518426598955263,
+    "wr_hi": 0.575795462215428,
+    "implied": 0.519835732870772,
+    "edge_pts": 2.7432263660017275,
+    "edge_lo_pts": -0.14091339155090088,
+    "edge_hi_pts": 5.595972934465598,
+    "brier": 0.2662154539982654,
+    "roi_net": 0.5024615545751699,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.038,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 517053.51,
+      "score": 68.1
+    },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
@@ -27,119 +40,47 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 395355.95,
+      "liquidity_usd": 392467.94,
       "score": 60.7
     },
     {
-      "market": "Cleveland Guardians vs. Detroit Tigers: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.57,
+      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.11,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 494955.99,
+      "score": 57.2
+    },
+    {
+      "market": "Will Liverpool win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.13,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 236589.55,
-      "score": 52.7
+      "fresh": true,
+      "liquidity_usd": 324972.13,
+      "score": 53.7
     },
     {
-      "market": "Fluminense FC vs. CS Independiente Rivadavia: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.37,
-      "net_traders": 3,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 63008.35,
-      "score": 48.5
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "market": "Will Chelsea win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.58,
-      "net_traders": 3,
+      "price": 0.1,
+      "net_traders": 4,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 167159.94,
-      "score": 31.8
+      "fresh": true,
+      "liquidity_usd": 447962.16,
+      "score": 53.7
     }
   ],
   "excluded": [
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.217,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 465477.26,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open, Qualification: Himeno Sakatsume vs Leolia Jeanjean",
-      "outcome": "Leolia Jeanjean",
-      "price": 0.54,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 205296.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Indiana Fever (-3.5)",
-      "outcome": "Indiana Fever",
-      "price": 0.49,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 186709.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Indiana Fever (-3.5)",
-      "outcome": "New York Liberty",
-      "price": 0.49,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 186709.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open, Qualification: Mary Stoiana vs Veronika Erjavec",
-      "outcome": "Veronika Erjavec",
-      "price": 0.9,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 148402.97,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
@@ -149,36 +90,66 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31778.04,
+      "liquidity_usd": 31225.75,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Chicago Cubs vs. Washington Nationals: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.56,
-      "net_traders": 2,
+      "market": "Brownsburg: Colton Smith vs Felix Gill",
+      "outcome": "Colton Smith",
+      "price": 0.6,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 347687.11,
+      "fresh": true,
+      "liquidity_usd": 22121.88,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.784,
-      "net_traders": -3,
+      "market": "Brownsburg: Ugo Blanchet vs Rei Sakamoto",
+      "outcome": "Rei Sakamoto",
+      "price": 0.62,
+      "net_traders": 1,
       "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 17655.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Los Angeles Lakers win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.021,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 279989.59,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.217,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 465477.26,
+      "fresh": true,
+      "liquidity_usd": 460016.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -192,7 +163,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 688675.34,
+      "liquidity_usd": 685393.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.784,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 460016.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -206,7 +191,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 710599.49,
+      "liquidity_usd": 717179.86,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -214,13 +199,13 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.52,
+      "price": 0.51,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 85261.17,
+      "liquidity_usd": 79837.02,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,27 +213,13 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.49,
+      "price": 0.5,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 85261.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "CA Boca Juniors vs. Recoleta FC: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.61,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87046.5,
+      "liquidity_usd": 79837.02,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -256,31 +227,73 @@
     {
       "market": "Counter-Strike: Team Falcons vs K27 (BO1) - Esports World Cup Group B",
       "outcome": "Team Falcons",
-      "price": 0.82,
-      "net_traders": 0,
+      "price": 0.81,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 158701.36,
+      "liquidity_usd": 132768.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Chicago Cubs vs. Washington Nationals",
-      "outcome": "Chicago Cubs",
-      "price": 0.63,
-      "net_traders": -2,
+      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.951,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 21890.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Natus Vincere vs 3DMAX (BO1) - Esports World Cup Group D",
+      "outcome": "Natus Vincere",
+      "price": 0.78,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 824535.17,
+      "liquidity_usd": 130066.57,
       "why_excluded": [
         "cohort on both sides"
       ]
+    },
+    {
+      "market": "Cincinnati Open, Qualification: Marcos Giron vs Henrique Rocha",
+      "outcome": "Marcos Giron",
+      "price": 0.68,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 70882.81,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Washington Wizards win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.013,
+      "net_traders": 3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 460605.54,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
     }
   ],
-  "source_report_generated_at": "2026-08-11T21:32:36.780930+00:00"
+  "source_report_generated_at": "2026-08-12T06:07:10.767222+00:00"
 }
