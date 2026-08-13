@@ -1,85 +1,85 @@
 {
-  "generated_at_utc": "2026-08-12T21:32:16.536794+00:00",
-  "pending": 151,
+  "generated_at_utc": "2026-08-13T06:09:12.531354+00:00",
+  "pending": 137,
   "edge_detected": false,
   "headline": {
-    "n": 1164,
+    "n": 1183,
     "excluded_certain": 78,
-    "win_rate": 0.5472508591065293,
-    "wr_lo": 0.5185463175669556,
-    "wr_hi": 0.5756445384532445,
-    "implied": 0.5210658075601375,
-    "edge_pts": 2.6185051546391724,
-    "edge_lo_pts": -0.2519489993181967,
-    "edge_hi_pts": 5.457873089310694,
-    "brier": 0.26551333201030924,
-    "roi_net": 0.49499053959034317,
-    "roi_median": 0.07890109890109887
+    "win_rate": 0.5452240067624683,
+    "wr_lo": 0.5167472876131911,
+    "wr_hi": 0.573407961410773,
+    "implied": 0.5220292476754015,
+    "edge_pts": 2.3194759087066807,
+    "edge_lo_pts": -0.5281960062210378,
+    "edge_hi_pts": 5.13787137353715,
+    "brier": 0.266361215942519,
+    "roi_net": 0.4846796126711442,
+    "roi_median": 0.07289617486338794
   },
   "cohorts": {
     "by_signal": {
       "pure_count": {
-        "n": 738,
-        "win_rate": 0.5136,
-        "implied": 0.497,
-        "edge_pts": 1.65
+        "n": 751,
+        "win_rate": 0.5126,
+        "implied": 0.4982,
+        "edge_pts": 1.44
       },
       "capital_weighted": {
-        "n": 252,
-        "win_rate": 0.6111,
-        "implied": 0.5706,
-        "edge_pts": 4.05
+        "n": 254,
+        "win_rate": 0.6102,
+        "implied": 0.571,
+        "edge_pts": 3.92
       },
       "conviction": {
-        "n": 174,
-        "win_rate": 0.5977,
-        "implied": 0.5512,
-        "edge_pts": 4.65
+        "n": 178,
+        "win_rate": 0.5899,
+        "implied": 0.5526,
+        "edge_pts": 3.72
       }
     },
     "freshness": {
       "fresh": {
-        "n": 376,
-        "win_rate": 0.4309,
-        "implied": 0.4908,
-        "edge_pts": -5.99
+        "n": 384,
+        "win_rate": 0.4323,
+        "implied": 0.493,
+        "edge_pts": -6.07
       },
       "late": {
-        "n": 490,
-        "win_rate": 0.6265,
-        "implied": 0.5388,
-        "edge_pts": 8.78
+        "n": 497,
+        "win_rate": 0.6237,
+        "implied": 0.537,
+        "edge_pts": 8.67
       }
     },
     "agreement": {
       "clean": {
-        "n": 167,
-        "win_rate": 0.5808,
-        "implied": 0.5778,
-        "edge_pts": 0.31
+        "n": 169,
+        "win_rate": 0.574,
+        "implied": 0.5736,
+        "edge_pts": 0.04
       },
       "conflicted": {
-        "n": 645,
-        "win_rate": 0.5411,
-        "implied": 0.508,
-        "edge_pts": 3.31
+        "n": 658,
+        "win_rate": 0.541,
+        "implied": 0.5089,
+        "edge_pts": 3.21
       }
     },
     "movement": {
       "new_or_rising": {
-        "n": 764,
-        "win_rate": 0.5445,
-        "implied": 0.5139,
-        "edge_pts": 3.06
+        "n": 771,
+        "win_rate": 0.5409,
+        "implied": 0.5125,
+        "edge_pts": 2.83
       },
       "standing": {
-        "n": 13,
-        "win_rate": 0.5385,
-        "implied": 0.6577,
-        "edge_pts": -11.92
+        "n": 22,
+        "win_rate": 0.6364,
+        "implied": 0.6646,
+        "edge_pts": -2.82
       }
     }
   },
-  "n_calls": 1164,
-  "n_unique_markets": 870
+  "n_calls": 1183,
+  "n_unique_markets": 885
 }
