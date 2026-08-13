@@ -1,192 +1,180 @@
 {
-  "generated_at_utc": "2026-08-13T17:47:06.107187+00:00",
+  "generated_at_utc": "2026-08-13T21:32:42.592959+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1186,
+    "n": 1198,
     "excluded_certain": 78,
-    "win_rate": 0.5446880269814502,
-    "wr_lo": 0.516246405664944,
-    "wr_hi": 0.5728410829553899,
-    "implied": 0.5219279932546375,
-    "edge_pts": 2.276003372681279,
-    "edge_lo_pts": -0.5681587589693504,
-    "edge_hi_pts": 5.091308970075248,
-    "brier": 0.2673092027487352,
-    "roi_net": 0.5042949068867972,
-    "roi_median": 0.06992634830125916
+    "win_rate": 0.5450751252086812,
+    "wr_lo": 0.516777301257887,
+    "wr_hi": 0.5730847903854711,
+    "implied": 0.5214078464106845,
+    "edge_pts": 2.3667278797996683,
+    "edge_lo_pts": -0.4630545152797483,
+    "edge_hi_pts": 5.1676943974786615,
+    "brier": 0.26737839270450753,
+    "roi_net": 0.5017564505107067,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1013088.33,
-      "score": 34.9
-    },
-    {
-      "market": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "price": 0.964,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 687665.04,
-      "score": 33.2
-    }
-  ],
-  "excluded": [
-    {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.231,
+      "price": 0.23,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 449688.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
+      "liquidity_usd": 451910.46,
+      "score": 60.3
     },
     {
-      "market": "Cincinnati Reds vs. Chicago White Sox",
-      "outcome": "Chicago White Sox",
-      "price": 0.52,
+      "market": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "price": 0.83,
       "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 254863.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
+      "fresh": false,
+      "liquidity_usd": 1069275.12,
+      "score": 34.2
+    }
+  ],
+  "excluded": [
     {
-      "market": "Counter-Strike: Legacy vs FaZe (BO3) - Esports World Cup Group B",
-      "outcome": "FaZe",
-      "price": 0.27,
-      "net_traders": 1,
+      "market": "Chicago Cubs vs. Washington Nationals",
+      "outcome": "Washington Nationals",
+      "price": 0.049,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 224943.29,
+      "liquidity_usd": 249497.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Seattle Mariners vs. New York Yankees",
-      "outcome": "Seattle Mariners",
-      "price": 0.37,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 191091.52,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cleveland Guardians vs. Detroit Tigers",
-      "outcome": "Detroit Tigers",
-      "price": 0.5,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 309979.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Reds vs. Chicago White Sox",
-      "outcome": "Cincinnati Reds",
-      "price": 0.52,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 254863.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. Miami Marlins",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.47,
-      "net_traders": 1,
+      "market": "Boston Red Sox vs. Toronto Blue Jays: O/U 7.5",
+      "outcome": "Over",
+      "price": 0.092,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 321337.74,
+      "liquidity_usd": 83082.73,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Brownsburg: Joel Schwaerzler vs Andres Andrade",
-      "outcome": "Joel Schwaerzler",
-      "price": 0.77,
+      "market": "Cincinnati Open: Roman Andres Burruchaga vs Jan-Lennard Struff",
+      "outcome": "Roman Andres Burruchaga",
+      "price": 0.15,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 137016.09,
+      "fresh": true,
+      "liquidity_usd": 451839.31,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cleveland Guardians vs. Detroit Tigers",
-      "outcome": "Cleveland Guardians",
-      "price": 0.5,
+      "market": "Cincinnati Open: Denis Shapovalov vs Adrian Mannarino",
+      "outcome": "Denis Shapovalov",
+      "price": 0.988,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 283098.02,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Thiago Agustin Tirante vs Jan Choinski",
+      "outcome": "Thiago Agustin Tirante",
+      "price": 0.72,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 443898.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Roman Andres Burruchaga vs Jan-Lennard Struff",
+      "outcome": "Jan-Lennard Struff",
+      "price": 0.15,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 451839.31,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Boston Red Sox vs. Toronto Blue Jays: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.092,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 83082.73,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Thiago Agustin Tirante vs Jan Choinski",
+      "outcome": "Jan Choinski",
+      "price": 0.72,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 309979.96,
+      "liquidity_usd": 443898.08,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will P\u00e1fos FC win on 2026-08-13?",
-      "outcome": "Yes",
-      "price": 0.78,
-      "net_traders": 2,
+      "market": "Chicago Cubs vs. Washington Nationals",
+      "outcome": "Chicago Cubs",
+      "price": 0.049,
+      "net_traders": -2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 29376.08,
+      "fresh": true,
+      "liquidity_usd": 249497.61,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -194,12 +182,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.51,
-      "net_traders": -1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94578.72,
+      "liquidity_usd": 93789.68,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,12 +196,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.5,
-      "net_traders": 1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 94578.72,
+      "liquidity_usd": 93789.68,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,27 +209,27 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.77,
+      "price": 0.771,
       "net_traders": -4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 449688.69,
+      "liquidity_usd": 451910.46,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Seattle Mariners vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.37,
-      "net_traders": -1,
+      "market": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "price": 0.963,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 191091.52,
+      "liquidity_usd": 673962.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +243,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 432553.46,
+      "liquidity_usd": 455208.42,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -269,11 +257,11 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 251409.27,
+      "liquidity_usd": 247242.98,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-13T17:46:55.610300+00:00"
+  "source_report_generated_at": "2026-08-13T21:32:34.567852+00:00"
 }
