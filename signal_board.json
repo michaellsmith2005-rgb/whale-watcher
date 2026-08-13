@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-08-13T06:09:12.650588+00:00",
+  "generated_at_utc": "2026-08-13T14:12:23.859654+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1183,
+    "n": 1184,
     "excluded_certain": 78,
-    "win_rate": 0.5452240067624683,
-    "wr_lo": 0.5167472876131911,
-    "wr_hi": 0.573407961410773,
-    "implied": 0.5220292476754015,
-    "edge_pts": 2.3194759087066807,
-    "edge_lo_pts": -0.5281960062210378,
-    "edge_hi_pts": 5.13787137353715,
-    "brier": 0.266361215942519,
-    "roi_net": 0.4846796126711442,
-    "roi_median": 0.07289617486338794
+    "win_rate": 0.5447635135135135,
+    "wr_lo": 0.5162979763440295,
+    "wr_hi": 0.5729395112132339,
+    "implied": 0.5221880067567568,
+    "edge_pts": 2.257550675675668,
+    "edge_lo_pts": -0.5890030412727287,
+    "edge_hi_pts": 5.075150445647713,
+    "brier": 0.26656200883445946,
+    "roi_net": 0.4834087684036856,
+    "roi_median": 0.06992634830125916
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -27,20 +27,32 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 368044.16,
+      "liquidity_usd": 394740.02,
       "score": 57.2
     },
     {
-      "market": "Will Rodri win the 2026 Ballon d'Or?",
+      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.09,
-      "net_traders": 3,
+      "price": 0.05,
+      "net_traders": 5,
       "signals": [
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 115583.01,
-      "score": 52.4
+      "liquidity_usd": 447023.73,
+      "score": 57.2
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.231,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 436870.68,
+      "score": 53.7
     },
     {
       "market": "Boston Red Sox vs. New York Yankees",
@@ -51,32 +63,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 14381.97,
+      "liquidity_usd": 15614.2,
       "score": 50.2
     },
     {
-      "market": "Cincinnati Open: Cameron Norrie vs Dino Prizmic",
-      "outcome": "Cameron Norrie",
-      "price": 0.6,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 27678.23,
-      "score": 50.2
-    },
-    {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.45,
-      "net_traders": 1,
+      "price": 0.65,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 124200.52,
-      "score": 43.2
+      "fresh": false,
+      "liquidity_usd": 83869.51,
+      "score": 41.4
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
@@ -87,32 +87,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 98046.91,
+      "liquidity_usd": 104628.64,
       "score": 40.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.66,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 74450.09,
-      "score": 40.2
-    },
-    {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 103600.83,
-      "score": 38.2
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
@@ -123,33 +99,57 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 27713.37,
+      "liquidity_usd": 32523.21,
       "score": 30.7
     },
     {
-      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.93,
+      "price": 0.587,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 64593.77,
+      "liquidity_usd": 199343.75,
       "score": 28.7
-    }
-  ],
-  "excluded": [
+    },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.231,
+      "market": "LoL: ThunderTalk Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
+      "outcome": "Bilibili Gaming",
+      "price": 0.036,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
+      "fresh": false,
+      "liquidity_usd": 278586.37,
+      "score": 25.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.72,
+      "net_traders": 3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 441114.54,
+      "score": 25.2
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Counter-Strike: BIG vs G2 (BO3) - Esports World Cup Group A",
+      "outcome": "BIG",
+      "price": 0.17,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": true,
-      "liquidity_usd": 363010.89,
+      "liquidity_usd": 243294.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -157,16 +157,14 @@
     {
       "market": "Brownsburg: Joel Schwaerzler vs Andres Andrade",
       "outcome": "Joel Schwaerzler",
-      "price": 0.31,
+      "price": 0.22,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 624.24,
+      "liquidity_usd": 165702.69,
       "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -179,41 +177,23 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 30092.47,
+      "liquidity_usd": 30736.17,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Dota 2: Team Falcons vs LGD Gaming (BO3) - The International Group Stage",
-      "outcome": "LGD Gaming",
-      "price": 0.71,
+      "market": "Dota 2: TEAM VISION vs Team Falcons (BO3) - The International Group Stage",
+      "outcome": "Team Falcons",
+      "price": 0.7,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 38550.72,
+      "liquidity_usd": 139240.53,
       "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Brownsburg: Joel Schwaerzler vs Andres Andrade",
-      "outcome": "Andres Andrade",
-      "price": 0.31,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 624.24,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -221,12 +201,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.51,
-      "net_traders": -1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 64991.06,
+      "liquidity_usd": 92441.86,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,12 +215,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.5,
-      "net_traders": 1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 64991.06,
+      "liquidity_usd": 92441.86,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -249,12 +229,12 @@
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.77,
-      "net_traders": -3,
+      "net_traders": -4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 363010.89,
+      "liquidity_usd": 436870.68,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -262,17 +242,45 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.78,
+      "price": 0.77,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 89737.41,
+      "liquidity_usd": 85449.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will James Talarico win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.021,
+      "net_traders": 3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 261176.25,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Brownsburg: Joel Schwaerzler vs Andres Andrade",
+      "outcome": "Andres Andrade",
+      "price": 0.22,
+      "net_traders": -3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 165702.69,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-13T06:09:03.128513+00:00"
+  "source_report_generated_at": "2026-08-13T14:12:13.672918+00:00"
 }
