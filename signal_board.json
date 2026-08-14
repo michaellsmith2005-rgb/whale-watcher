@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-14T17:43:11.732469+00:00",
-  "status": "VALIDATED EDGE",
-  "edge_detected": true,
+  "generated_at_utc": "2026-08-14T21:13:46.625439+00:00",
+  "status": "EXPERIMENTAL \u2014 no verified edge yet",
+  "edge_detected": false,
   "track_record": {
-    "n": 1216,
+    "n": 1230,
     "excluded_certain": 84,
-    "win_rate": 0.546875,
-    "wr_lo": 0.5187914272517986,
-    "wr_hi": 0.5746633294969465,
-    "implied": 0.5185276315789474,
-    "edge_pts": 2.8347368421052566,
-    "edge_lo_pts": 0.026379567285117478,
-    "edge_hi_pts": 5.613569791799911,
-    "brier": 0.26860255712171055,
-    "roi_net": 0.5430567771422955,
+    "win_rate": 0.5463414634146342,
+    "wr_lo": 0.5184173949489412,
+    "wr_hi": 0.573976961020253,
+    "implied": 0.5188915447154472,
+    "edge_pts": 2.7449918699187004,
+    "edge_lo_pts": -0.04741497665059491,
+    "edge_hi_pts": 5.508541630480579,
+    "brier": 0.2686927255772357,
+    "roi_net": 0.5378508044145441,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,7 +27,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 388991.43,
+      "liquidity_usd": 367727.11,
       "score": 57.2
     },
     {
@@ -39,8 +39,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 15118.85,
+      "liquidity_usd": 15024.47,
       "score": 53.7
+    },
+    {
+      "market": "Cincinnati Open: Yulia Putintseva vs Liudmila Samsonova",
+      "outcome": "Yulia Putintseva",
+      "price": 0.29,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 121426.12,
+      "score": 49.2
     },
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
@@ -52,8 +64,8 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 485594.13,
-      "score": 34.9
+      "liquidity_usd": 651235.97,
+      "score": 34.5
     },
     {
       "market": "Will the U.S. invade Iran before 2027?",
@@ -64,95 +76,75 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 937037.64,
+      "liquidity_usd": 915018.24,
       "score": 32.4
+    },
+    {
+      "market": "Will Samuel Alito announce his retirement by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.95,
+      "net_traders": 3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 74941.04,
+      "score": 25.2
+    },
+    {
+      "market": "Mitch McConnell steps down from Senate before his term ends?",
+      "outcome": "No",
+      "price": 0.77,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 58536.41,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Cincinnati Open: Tomas Machac vs Pablo Carreno Busta",
-      "outcome": "Tomas Machac",
-      "price": 0.37,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 443883.05,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.231,
+      "price": 0.23,
       "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 470903.05,
+      "liquidity_usd": 481914.07,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Nikola Bartunkova vs Alina Charaeva",
-      "outcome": "Nikola Bartunkova",
-      "price": 0.959,
+      "market": "Cincinnati Open: Nuno Borges vs Thanasi Kokkinakis",
+      "outcome": "Thanasi Kokkinakis",
+      "price": 0.79,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 366007.65,
+      "fresh": true,
+      "liquidity_usd": 266909.18,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Mananchaya Sawangkaew vs Anna Blinkova",
-      "outcome": "Anna Blinkova",
-      "price": 0.55,
-      "net_traders": 3,
+      "market": "Cincinnati Open: Nuno Borges vs Thanasi Kokkinakis",
+      "outcome": "Nuno Borges",
+      "price": 0.79,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 438291.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Sebastian Baez vs Grigor Dimitrov",
-      "outcome": "Sebastian Baez",
-      "price": 0.21,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 310726.94,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Tomas Machac vs Pablo Carreno Busta",
-      "outcome": "Pablo Carreno Busta",
-      "price": 0.37,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 443883.05,
+      "liquidity_usd": 266909.18,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -161,28 +153,55 @@
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
       "price": 0.63,
-      "net_traders": 1,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31098.11,
+      "liquidity_usd": 30843.76,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Titouan Droguet vs Matteo Berrettini",
-      "outcome": "Titouan Droguet",
-      "price": 0.43,
+      "market": "Cincinnati Open: Xinyu Wang vs Hanne Vandewinkel",
+      "outcome": "Hanne Vandewinkel",
+      "price": 0.56,
       "net_traders": 1,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 410263.98,
+      "fresh": false,
+      "liquidity_usd": 260617.61,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Juncheng Shang vs Lorenzo Sonego",
+      "outcome": "Lorenzo Sonego",
+      "price": 0.3,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 134989.48,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Hamad Medjedovic vs Marco Trungelliti",
+      "outcome": "Marco Trungelliti",
+      "price": 0.55,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 285491.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -196,7 +215,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96797.56,
+      "liquidity_usd": 94037.16,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -210,7 +229,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 96797.56,
+      "liquidity_usd": 94037.16,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -218,13 +237,13 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.77,
+      "price": 0.771,
       "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 470903.05,
+      "liquidity_usd": 481914.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -238,21 +257,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 564778.06,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: PARIVISION vs 100 Thieves (BO3) - Esports World Cup Group C",
-      "outcome": "PARIVISION",
-      "price": 0.71,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 140465.27,
+      "liquidity_usd": 560560.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -266,53 +271,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 485094.11,
+      "liquidity_usd": 649156.16,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: PARIVISION vs 100 Thieves (BO3) - Esports World Cup Group C",
-      "outcome": "100 Thieves",
-      "price": 0.71,
+      "market": "Miami Marlins vs. Cincinnati Reds: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.56,
       "net_traders": 0,
       "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 140465.27,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Nikola Bartunkova vs Alina Charaeva",
-      "outcome": "Alina Charaeva",
-      "price": 0.959,
-      "net_traders": -3,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 366007.65,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Viborg FF win on 2026-08-14?",
-      "outcome": "No",
-      "price": 0.62,
-      "net_traders": 0,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 126494.76,
+      "liquidity_usd": 283606.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-14T17:42:56.965346+00:00"
+  "source_report_generated_at": "2026-08-14T21:13:38.741667+00:00"
 }
