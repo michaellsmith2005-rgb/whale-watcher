@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-08-14T06:06:50.253106+00:00",
-  "pending": 134,
+  "generated_at_utc": "2026-08-14T14:05:42.388880+00:00",
+  "pending": 138,
   "edge_detected": true,
   "headline": {
     "n": 1215,
-    "excluded_certain": 81,
+    "excluded_certain": 82,
     "win_rate": 0.5465020576131687,
     "wr_lo": 0.5184061237503949,
     "wr_hi": 0.5743048569053361,
