@@ -1,74 +1,105 @@
 {
-  "generated_at_utc": "2026-08-15T17:10:51.279836+00:00",
+  "generated_at_utc": "2026-08-15T21:09:55.324542+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1244,
-    "excluded_certain": 84,
-    "win_rate": 0.5458199356913184,
-    "wr_lo": 0.5180527012111863,
-    "wr_hi": 0.5733050480416036,
-    "implied": 0.5195953376205789,
-    "edge_pts": 2.6224598070739513,
-    "edge_lo_pts": -0.15426364093925615,
-    "edge_hi_pts": 5.370971042102479,
-    "brier": 0.2687058299517685,
-    "roi_net": 0.5305576733376435,
+    "n": 1252,
+    "excluded_certain": 86,
+    "win_rate": 0.5463258785942492,
+    "wr_lo": 0.5186487119974168,
+    "wr_hi": 0.573719624901122,
+    "implied": 0.5200771565495208,
+    "edge_pts": 2.624872204472839,
+    "edge_lo_pts": -0.14284445521040023,
+    "edge_hi_pts": 5.364246835160125,
+    "brier": 0.2693789556389776,
+    "roi_net": 0.5325079642911172,
     "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Washington Nationals vs. New York Mets: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.45,
+      "market": "Will Sevilla FC win on 2026-08-15?",
+      "outcome": "No",
+      "price": 0.71,
       "net_traders": 4,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 230909.39,
-      "score": 52.6
+      "fresh": true,
+      "liquidity_usd": 22298.22,
+      "score": 53.7
     },
     {
       "market": "Mitch McConnell steps down from Senate before his term ends?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 59057.04,
+      "liquidity_usd": 60823.85,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Cincinnati Open: Alexander Blockx vs Mariano Navone",
-      "outcome": "Mariano Navone",
-      "price": 0.93,
-      "net_traders": 2,
+      "market": "Washington Nationals vs. New York Mets: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.47,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
+      "fresh": false,
+      "liquidity_usd": 1541.81,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Mattia Bellucci vs Jakub Mensik",
+      "outcome": "Jakub Mensik",
+      "price": 0.24,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
       "fresh": true,
-      "liquidity_usd": 291406.75,
+      "liquidity_usd": 172692.55,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Martin Landaluce vs Matteo Arnaldi",
-      "outcome": "Matteo Arnaldi",
-      "price": 0.87,
-      "net_traders": 3,
+      "market": "Colorado Rockies vs. San Francisco Giants",
+      "outcome": "Colorado Rockies",
+      "price": 0.33,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 286955.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Quentin Halys vs Alex de Minaur",
+      "outcome": "Quentin Halys",
+      "price": 0.4,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 263216.33,
+      "liquidity_usd": 323816.93,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -83,94 +114,64 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 490204.83,
+      "liquidity_usd": 459134.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Miomir Kecmanovic vs Flavio Cobolli",
-      "outcome": "Flavio Cobolli",
-      "price": 0.12,
-      "net_traders": 0,
+      "market": "Washington Nationals vs. New York Mets: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.34,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 268242.27,
+      "liquidity_usd": 9740.0,
       "why_excluded": [
+        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Alexandra Eala vs Gabriela Ruse",
-      "outcome": "Alexandra Eala",
-      "price": 0.979,
+      "market": "New York Yankees vs. Toronto Blue Jays",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.16,
       "net_traders": 1,
       "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 196961.37,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Shuai Zhang vs Kayla Day",
-      "outcome": "Shuai Zhang",
-      "price": 0.42,
-      "net_traders": 2,
-      "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 178054.46,
+      "liquidity_usd": 70198.86,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Miomir Kecmanovic vs Flavio Cobolli",
-      "outcome": "Miomir Kecmanovic",
-      "price": 0.12,
-      "net_traders": 0,
+      "market": "Cincinnati Open: Luciano Darderi vs Rinky Hijikata",
+      "outcome": "Rinky Hijikata",
+      "price": 0.31,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 268242.27,
+      "fresh": false,
+      "liquidity_usd": 404020.63,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.62,
-      "net_traders": 2,
+      "market": "Colorado Rockies vs. San Francisco Giants",
+      "outcome": "San Francisco Giants",
+      "price": 0.33,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 30876.54,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Alexander Blockx vs Mariano Navone",
-      "outcome": "Alexander Blockx",
-      "price": 0.93,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 291406.75,
+      "liquidity_usd": 286955.49,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -184,7 +185,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 107317.95,
+      "liquidity_usd": 106106.17,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -195,10 +196,11 @@
       "price": 0.5,
       "net_traders": 1,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 107317.95,
+      "liquidity_usd": 106106.17,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -212,7 +214,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 490204.83,
+      "liquidity_usd": 459134.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -226,7 +228,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 598203.3,
+      "liquidity_usd": 601312.8,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -234,74 +236,47 @@
     {
       "market": "Tottenham Hotspur vs. TSG Hoffenheim: Tottenham Hotspur O/U 0.5",
       "outcome": "Over",
-      "price": 0.986,
+      "price": 0.974,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 51246.01,
+      "liquidity_usd": 56307.88,
       "why_excluded": [
         "already decided (near-certain price)",
         "wide spread"
       ]
     },
     {
-      "market": "Exact Score: Deportivo Alav\u00e9s 0 - 0 Getafe CF?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 190638.74,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
       "outcome": "Islam Makhachev",
-      "price": 0.75,
+      "price": 0.74,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 1669659.42,
+      "liquidity_usd": 1224090.8,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.74,
-      "net_traders": 1,
+      "market": "Washington Nationals vs. New York Mets: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.34,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 603273.92,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Chicago White Sox vs. Detroit Tigers: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.54,
-      "net_traders": 1,
-      "signals": [
-        "conviction"
-      ],
       "fresh": true,
-      "liquidity_usd": 188282.31,
+      "liquidity_usd": 9740.0,
       "why_excluded": [
+        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-15T17:10:44.428093+00:00"
+  "source_report_generated_at": "2026-08-15T21:09:44.420963+00:00"
 }

@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-15T17:10:44.428093+00:00 UTC*  
+*Generated: 2026-08-15T21:09:44.420963+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,55 +8,55 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **7142**
-- Unique markets represented: **5037**
+- Total open positions analyzed: **6200**
+- Unique markets represented: **4407**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Cincinnati Open: Alexander Blockx vs Mariano Navone
-- **Favored outcome:** Mariano Navone
+### 1. Washington Nationals vs. New York Mets: O/U 7.5
+- **Favored outcome:** Under
+- **Top-50 traders backing it:** 8
+- **Total combined USD exposure:** $56,873.99
+- **Backers:** 0x076daa87, Bulls94, Flipadelphia, HomeRunHazard, RN1, ferrariChampions2026, swisstony, wr0ngw4yb3tt0r
+
+### 2. Cincinnati Open: Mattia Bellucci vs Jakub Mensik
+- **Favored outcome:** Jakub Mensik
 - **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $3,626.00
+- **Total combined USD exposure:** $133,277.54
 - **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, RN1, UpTheBlues, ferrariChampions2026, swisstony
 
-### 2. Cincinnati Open: Martin Landaluce vs Matteo Arnaldi
-- **Favored outcome:** Matteo Arnaldi
+### 3. Colorado Rockies vs. San Francisco Giants
+- **Favored outcome:** Colorado Rockies
 - **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $946.21
+- **Total combined USD exposure:** $42,284.14
+- **Backers:** 1winstreak1, HomeRunHazard, RN1, SDTrading, ferrariChampions2026, swisstony, wr0ngw4yb3tt0r
+
+### 4. Cincinnati Open: Quentin Halys vs Alex de Minaur
+- **Favored outcome:** Quentin Halys
+- **Top-50 traders backing it:** 7
+- **Total combined USD exposure:** $22,115.73
 - **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, RN1, UpTheBlues, ferrariChampions2026, swisstony
 
-### 3. Will JD Vance win the 2028 US Presidential Election?
+### 5. Will JD Vance win the 2028 US Presidential Election?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $467,691.73
+- **Total combined USD exposure:** $536,241.73
 - **Backers:** Anjun, HOG993, S-Works, balthazar, donthackme, zb8
-
-### 4. Cincinnati Open: Miomir Kecmanovic vs Flavio Cobolli
-- **Favored outcome:** Flavio Cobolli
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $94,854.55
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, RN1, ferrariChampions2026, swisstony
-
-### 5. Cincinnati Open: Alexandra Eala vs Gabriela Ruse
-- **Favored outcome:** Alexandra Eala
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $50,496.36
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HVAB, HomeRunHazard, RN1, swisstony
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| 2026 Balance of Power: D Senate, D House | No | 2 | $5,050,115.86 |
-| 2026 Balance of Power: D Senate, D House | Yes | 3 | $4,961,629.93 |
-| Will JD Vance win the 2028 US Presidential Election? | No | 4 | $1,578,970.68 |
-| Will JD Vance win the 2028 US Presidential Election? | Yes | 6 | $467,691.73 |
+| 2026 Balance of Power: D Senate, D House | No | 3 | $5,282,415.86 |
+| 2026 Balance of Power: D Senate, D House | Yes | 4 | $5,189,310.03 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 4 | $1,810,420.68 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 6 | $536,241.73 |
 | Will China invade Taiwan by end of 2026? | No | 1 | $204,286.73 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Cincinnati Open: Alexandra Eala vs Gabriela Ruse | Alexandra Eala | 100 | 3 | 29.6% | 0.36 |
-| Washington Nationals vs. New York Mets: O/U 8.5 | Under | 31 | 3 | 8.0% | 0.38 |
-| Chicago White Sox vs. Detroit Tigers: O/U 7.5 | Under | 30 | 3 | 8.2% | 0.38 |
+| 2026 Balance of Power: D Senate, D House | Yes | 100 | 3 | 32.2% | 0.45 |
+| Cincinnati Open: Mattia Bellucci vs Jakub Mensik | Jakub Mensik | 26 | 4 | 8.9% | 0.21 |
+| Colorado Rockies vs. San Francisco Giants | Colorado Rockies | 16 | 3 | 6.0% | 0.25 |
