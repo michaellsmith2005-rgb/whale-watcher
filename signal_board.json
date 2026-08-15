@@ -1,123 +1,147 @@
 {
-  "generated_at_utc": "2026-08-15T13:21:30.247308+00:00",
+  "generated_at_utc": "2026-08-15T17:10:51.279836+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1241,
+    "n": 1244,
     "excluded_certain": 84,
-    "win_rate": 0.5463336019339242,
-    "wr_lo": 0.5185338053714805,
-    "wr_hi": 0.5738474261040742,
-    "implied": 0.5194654311039485,
-    "edge_pts": 2.6868170829975724,
-    "edge_lo_pts": -0.09316257324679666,
-    "edge_hi_pts": 5.4381995000125745,
-    "brier": 0.2689858601611604,
-    "roi_net": 0.5334666228568588,
-    "roi_median": 0.07890109890109887
+    "win_rate": 0.5458199356913184,
+    "wr_lo": 0.5180527012111863,
+    "wr_hi": 0.5733050480416036,
+    "implied": 0.5195953376205789,
+    "edge_pts": 2.6224598070739513,
+    "edge_lo_pts": -0.15426364093925615,
+    "edge_hi_pts": 5.370971042102479,
+    "brier": 0.2687058299517685,
+    "roi_net": 0.5305576733376435,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.22,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 360499.19,
-      "score": 57.2
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.54,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 15238.68,
-      "score": 53.7
-    },
-    {
       "market": "Washington Nationals vs. New York Mets: O/U 8.5",
       "outcome": "Under",
       "price": 0.45,
-      "net_traders": 3,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 133547.63,
-      "score": 48.9
+      "liquidity_usd": 230909.39,
+      "score": 52.6
     },
     {
-      "market": "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
-      "outcome": "Islam Makhachev",
-      "price": 0.77,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 196611.7,
-      "score": 43.2
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.75,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 575672.08,
-      "score": 41.1
-    },
-    {
-      "market": "Will the U.S. invade Iran before 2027?",
+      "market": "Mitch McConnell steps down from Senate before his term ends?",
       "outcome": "No",
-      "price": 0.84,
+      "price": 0.79,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 929670.82,
-      "score": 31.7
-    },
-    {
-      "market": "Will Samuel Alito announce his retirement by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 75301.68,
-      "score": 25.2
+      "liquidity_usd": 59057.04,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
+      "market": "Cincinnati Open: Alexander Blockx vs Mariano Navone",
+      "outcome": "Mariano Navone",
+      "price": 0.93,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 291406.75,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Martin Landaluce vs Matteo Arnaldi",
+      "outcome": "Matteo Arnaldi",
+      "price": 0.87,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 263216.33,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
       "price": 0.229,
-      "net_traders": 3,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 459212.23,
+      "liquidity_usd": 490204.83,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Miomir Kecmanovic vs Flavio Cobolli",
+      "outcome": "Flavio Cobolli",
+      "price": 0.12,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 268242.27,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Alexandra Eala vs Gabriela Ruse",
+      "outcome": "Alexandra Eala",
+      "price": 0.979,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 196961.37,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Shuai Zhang vs Kayla Day",
+      "outcome": "Shuai Zhang",
+      "price": 0.42,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 178054.46,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Miomir Kecmanovic vs Flavio Cobolli",
+      "outcome": "Miomir Kecmanovic",
+      "price": 0.12,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 268242.27,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -128,69 +152,25 @@
       "price": 0.62,
       "net_traders": 2,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31115.12,
+      "liquidity_usd": 30876.54,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Henan FC win on 2026-08-15?",
-      "outcome": "No",
-      "price": 0.96,
-      "net_traders": 2,
+      "market": "Cincinnati Open: Alexander Blockx vs Mariano Navone",
+      "outcome": "Alexander Blockx",
+      "price": 0.93,
+      "net_traders": -2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 141893.94,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Yunnan Yukun FC win on 2026-08-15?",
-      "outcome": "No",
-      "price": 0.67,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 106741.31,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.76,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 532041.24,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: Wildcard vs paiN (BO3) - Esports World Cup Group D",
-      "outcome": "Wildcard",
-      "price": 0.09,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 153069.66,
+      "liquidity_usd": 291406.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,7 +184,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 104759.34,
+      "liquidity_usd": 107317.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -218,7 +198,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 104759.34,
+      "liquidity_usd": 107317.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,12 +207,12 @@
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
       "price": 0.772,
-      "net_traders": -3,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 459212.23,
+      "liquidity_usd": 490204.83,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -246,11 +226,82 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 597426.14,
+      "liquidity_usd": 598203.3,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tottenham Hotspur vs. TSG Hoffenheim: Tottenham Hotspur O/U 0.5",
+      "outcome": "Over",
+      "price": 0.986,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 51246.01,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "Exact Score: Deportivo Alav\u00e9s 0 - 0 Getafe CF?",
+      "outcome": "No",
+      "price": 0.83,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 190638.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
+      "outcome": "Islam Makhachev",
+      "price": 0.75,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1669659.42,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.74,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 603273.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Chicago White Sox vs. Detroit Tigers: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.54,
+      "net_traders": 1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 188282.31,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-15T13:21:19.893542+00:00"
+  "source_report_generated_at": "2026-08-15T17:10:44.428093+00:00"
 }
