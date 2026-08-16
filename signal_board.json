@@ -1,105 +1,97 @@
 {
-  "generated_at_utc": "2026-08-15T21:09:55.324542+00:00",
-  "status": "EXPERIMENTAL \u2014 no verified edge yet",
-  "edge_detected": false,
+  "generated_at_utc": "2026-08-16T05:17:10.250321+00:00",
+  "status": "VALIDATED EDGE",
+  "edge_detected": true,
   "track_record": {
-    "n": 1252,
+    "n": 1267,
     "excluded_certain": 86,
-    "win_rate": 0.5463258785942492,
-    "wr_lo": 0.5186487119974168,
-    "wr_hi": 0.573719624901122,
-    "implied": 0.5200771565495208,
-    "edge_pts": 2.624872204472839,
-    "edge_lo_pts": -0.14284445521040023,
-    "edge_hi_pts": 5.364246835160125,
-    "brier": 0.2693789556389776,
-    "roi_net": 0.5325079642911172,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.5461720599842147,
+    "wr_lo": 0.5186592376728861,
+    "wr_hi": 0.5734057372224902,
+    "implied": 0.5184740331491713,
+    "edge_pts": 2.769802683504341,
+    "edge_lo_pts": 0.018520452371484364,
+    "edge_hi_pts": 5.493170407331894,
+    "brier": 0.27042000983425407,
+    "roi_net": 0.537210701297304,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Sevilla FC win on 2026-08-15?",
-      "outcome": "No",
-      "price": 0.71,
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.22,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 360072.56,
+      "score": 57.2
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.54,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 22298.22,
+      "liquidity_usd": 15357.62,
       "score": 53.7
+    },
+    {
+      "market": "Tottenham Hotspur vs. TSG Hoffenheim: Tottenham Hotspur O/U 0.5",
+      "outcome": "Over",
+      "price": 0.967,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 59271.69,
+      "score": 43.2
+    },
+    {
+      "market": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "outcome": "Yes",
+      "price": 0.74,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 459416.97,
+      "score": 25.2
     },
     {
       "market": "Mitch McConnell steps down from Senate before his term ends?",
       "outcome": "No",
-      "price": 0.78,
+      "price": 0.79,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60823.85,
+      "liquidity_usd": 55974.32,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Washington Nationals vs. New York Mets: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.47,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1541.81,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Mattia Bellucci vs Jakub Mensik",
-      "outcome": "Jakub Mensik",
-      "price": 0.24,
-      "net_traders": 2,
+      "market": "Cincinnati Open: Alexander Zverev vs Cameron Norrie",
+      "outcome": "Alexander Zverev",
+      "price": 0.88,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 172692.55,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Colorado Rockies vs. San Francisco Giants",
-      "outcome": "Colorado Rockies",
-      "price": 0.33,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
       "fresh": false,
-      "liquidity_usd": 286955.49,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Quentin Halys vs Alex de Minaur",
-      "outcome": "Quentin Halys",
-      "price": 0.4,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 323816.93,
+      "liquidity_usd": 344362.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -114,65 +106,82 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 459134.29,
+      "liquidity_usd": 471079.48,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Washington Nationals vs. New York Mets: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.34,
-      "net_traders": 2,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.772,
+      "net_traders": -2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 9740.0,
+      "liquidity_usd": 471079.48,
       "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "New York Yankees vs. Toronto Blue Jays",
-      "outcome": "Toronto Blue Jays",
-      "price": 0.16,
+      "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
+      "outcome": "Aurora",
+      "price": 0.23,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 70198.86,
+      "liquidity_usd": 173627.0,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Luciano Darderi vs Rinky Hijikata",
-      "outcome": "Rinky Hijikata",
-      "price": 0.31,
-      "net_traders": 3,
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.62,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 404020.63,
+      "liquidity_usd": 30611.21,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Alexander Zverev vs Cameron Norrie",
+      "outcome": "Cameron Norrie",
+      "price": 0.88,
+      "net_traders": -3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 344362.54,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Colorado Rockies vs. San Francisco Giants",
-      "outcome": "San Francisco Giants",
-      "price": 0.33,
-      "net_traders": -1,
+      "market": "Atlas FC vs. Tigres de la UANL: O/U 3.5",
+      "outcome": "Under",
+      "price": 0.01,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 286955.49,
+      "liquidity_usd": 128255.92,
       "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
@@ -185,7 +194,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 106106.17,
+      "liquidity_usd": 112241.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -196,25 +205,10 @@
       "price": 0.5,
       "net_traders": 1,
       "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 106106.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.772,
-      "net_traders": -2,
-      "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 459134.29,
+      "fresh": true,
+      "liquidity_usd": 112241.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,55 +222,39 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 601312.8,
+      "liquidity_usd": 597250.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Tottenham Hotspur vs. TSG Hoffenheim: Tottenham Hotspur O/U 0.5",
-      "outcome": "Over",
-      "price": 0.974,
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.74,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 56307.88,
+      "fresh": false,
+      "liquidity_usd": 850846.33,
       "why_excluded": [
-        "already decided (near-certain price)",
-        "wide spread"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
-      "outcome": "Islam Makhachev",
-      "price": 0.74,
+      "market": "Dota 2: Aurora vs BoomBoys - Game 2 Winner",
+      "outcome": "BoomBoys",
+      "price": 0.23,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 1224090.8,
+      "liquidity_usd": 173627.0,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Washington Nationals vs. New York Mets: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.34,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 9740.0,
-      "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-15T21:09:44.420963+00:00"
+  "source_report_generated_at": "2026-08-16T05:16:59.892469+00:00"
 }
