@@ -1,34 +1,34 @@
 {
-  "generated_at_utc": "2026-08-16T17:09:45.452195+00:00",
+  "generated_at_utc": "2026-08-16T21:08:16.261736+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1275,
-    "excluded_certain": 92,
-    "win_rate": 0.5466666666666666,
-    "wr_lo": 0.5192415071439402,
-    "wr_hi": 0.5738114557875127,
-    "implied": 0.5194012549019608,
-    "edge_pts": 2.726541176470587,
-    "edge_lo_pts": -0.01597477580205231,
-    "edge_hi_pts": 5.441020088555193,
-    "brier": 0.2706987078117647,
-    "roi_net": 0.5351925765601566,
+    "n": 1285,
+    "excluded_certain": 100,
+    "win_rate": 0.5463035019455252,
+    "wr_lo": 0.5189847264411492,
+    "wr_hi": 0.5733462473573375,
+    "implied": 0.5204564980544747,
+    "edge_pts": 2.5847003891050546,
+    "edge_lo_pts": -0.14717716133254566,
+    "edge_hi_pts": 5.288974930286283,
+    "brier": 0.2710275116420233,
+    "roi_net": 0.5301459426839391,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Exact Score: RCD Espanyol de Barcelona 0 - 0 Levante UD?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 2,
+      "market": "Texas Rangers vs. Athletics",
+      "outcome": "Texas Rangers",
+      "price": 0.51,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 86209.94,
-      "score": 44.2
+      "fresh": true,
+      "liquidity_usd": 189281.27,
+      "score": 53.7
     },
     {
       "market": "Will China invade Taiwan by end of 2026?",
@@ -39,61 +39,146 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 590053.02,
+      "liquidity_usd": 586529.35,
       "score": 33.4
+    },
+    {
+      "market": "Texas Rangers vs. Athletics: O/U 9.5",
+      "outcome": "Over",
+      "price": 0.61,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 84974.23,
+      "score": 32.2
     },
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.74,
-      "net_traders": 2,
+      "price": 0.75,
+      "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 638769.44,
-      "score": 21.7
+      "liquidity_usd": 714621.33,
+      "score": 25.2
     },
     {
       "market": "Mitch McConnell steps down from Senate before his term ends?",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.82,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63235.92,
+      "liquidity_usd": 58068.99,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Cincinnati Open: Marco Trungelliti vs Daniil Medvedev",
-      "outcome": "Marco Trungelliti",
-      "price": 0.001,
+      "market": "Boston Red Sox vs. Pittsburgh Pirates",
+      "outcome": "Pittsburgh Pirates",
+      "price": 0.067,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 184023.93,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Daniel Merida Aguilar vs Zizou Bergs",
+      "outcome": "Zizou Bergs",
+      "price": 0.56,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
+      "fresh": false,
+      "liquidity_usd": 473424.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Marta Kostyuk vs Sofia Kenin",
+      "outcome": "Marta Kostyuk",
+      "price": 0.71,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
       "fresh": true,
-      "liquidity_usd": 262957.14,
+      "liquidity_usd": 324696.73,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Katerina Siniakova vs Jessica Bouzas Maneiro",
+      "outcome": "Katerina Siniakova",
+      "price": 0.33,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 438461.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Andrey Rublev vs Pablo Carreno Busta",
+      "outcome": "Pablo Carreno Busta",
+      "price": 1.0,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 435846.28,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Baltimore Orioles vs. Tampa Bay Rays",
-      "outcome": "Baltimore Orioles",
-      "price": 0.31,
+      "market": "Boston Red Sox vs. Pittsburgh Pirates",
+      "outcome": "Boston Red Sox",
+      "price": 0.067,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 184023.93,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Aryna Sabalenka vs Talia Gibson",
+      "outcome": "Talia Gibson",
+      "price": 1.0,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 33780.87,
+      "liquidity_usd": 618614.45,
       "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
@@ -107,113 +192,8 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 446911.38,
+      "liquidity_usd": 447607.7,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Xinyu Wang vs Donna Vekic",
-      "outcome": "Donna Vekic",
-      "price": 0.44,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 461248.04,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: Astralis vs NIP (BO3) - Esports World Cup Group B",
-      "outcome": "NIP",
-      "price": 0.71,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 135282.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Joao Fonseca vs Botic van de Zandschulp",
-      "outcome": "Botic van de Zandschulp",
-      "price": 0.68,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 424666.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Villarreal CF win on 2026-08-16?",
-      "outcome": "Yes",
-      "price": 0.001,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 728248.75,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Marco Trungelliti vs Daniil Medvedev",
-      "outcome": "Daniil Medvedev",
-      "price": 0.001,
-      "net_traders": -3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 262957.14,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Barbora Krejcikova vs Sara Bejlek",
-      "outcome": "Sara Bejlek",
-      "price": 0.001,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 287069.88,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: 9z vs magic (BO3) - Esports World Cup Group D",
-      "outcome": "9z",
-      "price": 0.001,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2231221.8,
-      "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
@@ -226,7 +206,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96256.07,
+      "liquidity_usd": 116370.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,7 +220,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 96256.07,
+      "liquidity_usd": 116370.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -254,25 +234,39 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 446911.38,
+      "liquidity_usd": 447607.7,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will RCD Espanyol de Barcelona win on 2026-08-16?",
-      "outcome": "Yes",
-      "price": 0.46,
-      "net_traders": -1,
+      "market": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.55,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 185223.9,
+      "fresh": true,
+      "liquidity_usd": 251329.62,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will EC Vit\u00f3ria win on 2026-08-16?",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 281028.69,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-16T17:09:34.772343+00:00"
+  "source_report_generated_at": "2026-08-16T21:08:08.274763+00:00"
 }
