@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-17T13:30:44.841455+00:00",
-  "status": "EXPERIMENTAL \u2014 no verified edge yet",
-  "edge_detected": false,
+  "generated_at_utc": "2026-08-17T17:15:27.423804+00:00",
+  "status": "VALIDATED EDGE",
+  "edge_detected": true,
   "track_record": {
-    "n": 1298,
+    "n": 1299,
     "excluded_certain": 101,
-    "win_rate": 0.5462249614791987,
-    "wr_lo": 0.519043456174197,
-    "wr_hi": 0.5731336566174052,
-    "implied": 0.5195204930662558,
-    "edge_pts": 2.670446841294294,
-    "edge_lo_pts": -0.047703689205880195,
-    "edge_hi_pts": 5.361316355114942,
-    "brier": 0.2713523262403698,
-    "roi_net": 0.5447593525549737,
+    "win_rate": 0.5465742879137798,
+    "wr_lo": 0.5194040014937887,
+    "wr_hi": 0.5734699134932671,
+    "implied": 0.5192668206312548,
+    "edge_pts": 2.7307467282524978,
+    "edge_lo_pts": 0.013718086253389217,
+    "edge_hi_pts": 5.42030928620123,
+    "brier": 0.27164851382602,
+    "roi_net": 0.5476064645966842,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,57 +27,44 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 377450.42,
+      "liquidity_usd": 377086.94,
       "score": 57.2
     },
     {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.64,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 90915.31,
-      "score": 45.2
-    },
-    {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.91,
+      "market": "St. Louis Cardinals vs. Cincinnati Reds: O/U 9.5",
+      "outcome": "Under",
+      "price": 0.49,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 121959.68,
-      "score": 40.7
+      "liquidity_usd": 279615.31,
+      "score": 52.4
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.65,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 92879.66,
+      "score": 41.4
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.592,
+      "price": 0.598,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 121207.68,
-      "score": 36.9
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.75,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 523528.56,
-      "score": 31.8
+      "liquidity_usd": 103720.13,
+      "score": 36.2
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
@@ -88,19 +75,43 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 29766.06,
-      "score": 27.2
+      "liquidity_usd": 32474.39,
+      "score": 25.9
+    },
+    {
+      "market": "Roehampton: Emile Hudd vs Alastair Gray",
+      "outcome": "Emile Hudd",
+      "price": 0.3,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 247064.11,
+      "score": 25.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.76,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 505817.77,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.9,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 103910.67,
+      "liquidity_usd": 107845.17,
       "score": 18.2
     },
     {
@@ -112,7 +123,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 90609.51,
+      "liquidity_usd": 94377.55,
       "score": 18.2
     }
   ],
@@ -127,93 +138,96 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 459746.25,
+      "liquidity_usd": 442459.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-      "outcome": "T1",
-      "price": 0.16,
+      "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
+      "outcome": "Martin Landaluce",
+      "price": 0.92,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 165274.07,
+      "liquidity_usd": 520175.17,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
-      "outcome": "DN SOOPers",
-      "price": 0.16,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 165274.07,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: T1 vs DN SOOPers - Game 4 Winner",
-      "outcome": "DN SOOPers",
-      "price": 0.36,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 174963.13,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.77,
-      "net_traders": -2,
+      "market": "Cincinnati Open: Iga Swiatek vs Maria Sakkari",
+      "outcome": "Iga Swiatek",
+      "price": 1.0,
+      "net_traders": 1,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 459746.25,
+      "liquidity_usd": 591210.49,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Thiago Agustin Tirante vs Martin Landaluce",
+      "outcome": "Thiago Agustin Tirante",
+      "price": 0.92,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 520175.17,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.63,
-      "net_traders": 2,
+      "market": "Cincinnati Open: Alexander Blockx vs Flavio Cobolli",
+      "outcome": "Alexander Blockx",
+      "price": 0.53,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 25542.71,
+      "liquidity_usd": 299557.09,
       "why_excluded": [
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Prague 2: Eduardo Ribeiro vs Sumit Nagal",
-      "outcome": "Sumit Nagal",
-      "price": 0.19,
+      "market": "Cincinnati Open: Diane Parry vs Lois Boisson",
+      "outcome": "Diane Parry",
+      "price": 0.46,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 189758.66,
+      "liquidity_usd": 318353.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Roehampton: Viktor Durasovic vs Manoj Dhamne Manas",
+      "outcome": "Viktor Durasovic",
+      "price": 0.49,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 369016.83,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,7 +241,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 127717.6,
+      "liquidity_usd": 125731.72,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -241,25 +255,39 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 127717.6,
+      "liquidity_usd": 125731.72,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Sion: Luca Wiedenmann vs Thiago Cigarran",
-      "outcome": "Luca Wiedenmann",
-      "price": 0.85,
-      "net_traders": 0,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.77,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 442459.41,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Diane Parry vs Lois Boisson",
+      "outcome": "Lois Boisson",
+      "price": 0.46,
+      "net_traders": -1,
       "signals": [
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 164788.64,
+      "fresh": true,
+      "liquidity_usd": 318353.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-17T13:30:35.662059+00:00"
+  "source_report_generated_at": "2026-08-17T17:15:14.676540+00:00"
 }
