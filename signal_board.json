@@ -1,34 +1,70 @@
 {
-  "generated_at_utc": "2026-08-16T21:08:16.261736+00:00",
+  "generated_at_utc": "2026-08-17T05:24:33.866745+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1285,
-    "excluded_certain": 100,
-    "win_rate": 0.5463035019455252,
-    "wr_lo": 0.5189847264411492,
-    "wr_hi": 0.5733462473573375,
-    "implied": 0.5204564980544747,
-    "edge_pts": 2.5847003891050546,
-    "edge_lo_pts": -0.14717716133254566,
-    "edge_hi_pts": 5.288974930286283,
-    "brier": 0.2710275116420233,
-    "roi_net": 0.5301459426839391,
+    "n": 1297,
+    "excluded_certain": 101,
+    "win_rate": 0.5458750963762529,
+    "wr_lo": 0.5186823725896317,
+    "wr_hi": 0.5727968666966887,
+    "implied": 0.5192502698535081,
+    "edge_pts": 2.6624826522744782,
+    "edge_lo_pts": -0.05678972638764046,
+    "edge_hi_pts": 5.354659684318063,
+    "brier": 0.2715485115343099,
+    "roi_net": 0.5450795792821893,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Texas Rangers vs. Athletics",
-      "outcome": "Texas Rangers",
-      "price": 0.51,
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.22,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 379085.98,
+      "score": 57.2
+    },
+    {
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.299,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 189281.27,
+      "liquidity_usd": 250182.96,
       "score": 53.7
+    },
+    {
+      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.038,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 563408.18,
+      "score": 53.7
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.52,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 15112.6,
+      "score": 50.2
     },
     {
       "market": "Will China invade Taiwan by end of 2026?",
@@ -39,20 +75,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 586529.35,
+      "liquidity_usd": 595753.44,
       "score": 33.4
-    },
-    {
-      "market": "Texas Rangers vs. Athletics: O/U 9.5",
-      "outcome": "Over",
-      "price": 0.61,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 84974.23,
-      "score": 32.2
     },
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
@@ -60,10 +84,23 @@
       "price": 0.75,
       "net_traders": 3,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 714621.33,
+      "liquidity_usd": 796989.64,
+      "score": 31.8
+    },
+    {
+      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "outcome": "Yes",
+      "price": 0.93,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 44295.66,
       "score": 25.2
     },
     {
@@ -75,113 +112,23 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 58068.99,
+      "liquidity_usd": 67888.98,
+      "score": 18.2
+    },
+    {
+      "market": "Fed rate hike in 2026?",
+      "outcome": "No",
+      "price": 0.54,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 319711.1,
       "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Boston Red Sox vs. Pittsburgh Pirates",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.067,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 184023.93,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Daniel Merida Aguilar vs Zizou Bergs",
-      "outcome": "Zizou Bergs",
-      "price": 0.56,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 473424.15,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Marta Kostyuk vs Sofia Kenin",
-      "outcome": "Marta Kostyuk",
-      "price": 0.71,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 324696.73,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Katerina Siniakova vs Jessica Bouzas Maneiro",
-      "outcome": "Katerina Siniakova",
-      "price": 0.33,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 438461.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Andrey Rublev vs Pablo Carreno Busta",
-      "outcome": "Pablo Carreno Busta",
-      "price": 1.0,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 435846.28,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Boston Red Sox vs. Pittsburgh Pirates",
-      "outcome": "Boston Red Sox",
-      "price": 0.067,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 184023.93,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Aryna Sabalenka vs Talia Gibson",
-      "outcome": "Talia Gibson",
-      "price": 1.0,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 618614.45,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -192,35 +139,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 447607.7,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.51,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 116370.06,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.5,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 116370.06,
+      "liquidity_usd": 493565.52,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,42 +150,102 @@
       "price": 0.77,
       "net_traders": -2,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 447607.7,
+      "liquidity_usd": 493565.52,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Milwaukee Brewers vs. Los Angeles Dodgers",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.55,
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "No",
+      "price": 0.76,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 798890.18,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.6,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5228.1,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.52,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 113529.38,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.49,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 251329.62,
+      "liquidity_usd": 113529.38,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will EC Vit\u00f3ria win on 2026-08-16?",
+      "market": "Will Club Tijuana win on 2026-08-16?",
       "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": -2,
+      "price": 1.0,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 281028.69,
+      "fresh": false,
+      "liquidity_usd": 422876.51,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.53,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 153184.25,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-16T21:08:08.274763+00:00"
+  "source_report_generated_at": "2026-08-17T05:24:26.356085+00:00"
 }
