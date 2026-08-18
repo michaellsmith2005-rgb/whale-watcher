@@ -1,23 +1,36 @@
 {
-  "generated_at_utc": "2026-08-18T17:15:20.656591+00:00",
+  "generated_at_utc": "2026-08-18T21:11:47.628565+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1330,
+    "n": 1334,
     "excluded_certain": 107,
-    "win_rate": 0.5481203007518797,
-    "wr_lo": 0.5212726158838942,
-    "wr_hi": 0.5746908028608803,
-    "implied": 0.5183500751879699,
-    "edge_pts": 2.9770225563909736,
-    "edge_lo_pts": 0.2922540695924236,
-    "edge_hi_pts": 5.634072767291032,
-    "brier": 0.27305499207518796,
-    "roi_net": 0.6116419822134332,
+    "win_rate": 0.547976011994003,
+    "wr_lo": 0.5211683711119539,
+    "wr_hi": 0.5745081275109025,
+    "implied": 0.5176953523238381,
+    "edge_pts": 3.028065967016491,
+    "edge_lo_pts": 0.3473018788115789,
+    "edge_hi_pts": 5.68127751870644,
+    "brier": 0.27283878520239885,
+    "roi_net": 0.6138292959432613,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.038,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 540913.31,
+      "score": 64.1
+    },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
@@ -27,20 +40,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 356507.63,
+      "liquidity_usd": 357848.16,
       "score": 57.2
     },
     {
-      "market": "Will 1. FC Heidenheim win on 2026-08-18?",
-      "outcome": "Yes",
-      "price": 0.13,
-      "net_traders": 3,
+      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.91,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 119275.49,
-      "score": 50.2
+      "fresh": false,
+      "liquidity_usd": 123118.42,
+      "score": 40.7
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -51,20 +64,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 97505.76,
+      "liquidity_usd": 97570.8,
       "score": 37.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.597,
+      "price": 0.599,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 82494.73,
-      "score": 35.4
+      "liquidity_usd": 85478.39,
+      "score": 34.9
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
@@ -75,7 +88,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 34895.65,
+      "liquidity_usd": 35143.0,
       "score": 28.7
     },
     {
@@ -87,7 +100,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 109512.31,
+      "liquidity_usd": 109529.4,
       "score": 18.2
     },
     {
@@ -99,50 +112,69 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 90390.35,
+      "liquidity_usd": 94707.94,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.212,
+      "market": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
+      "outcome": "Brandon Nakashima",
+      "price": 0.445,
       "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 471669.72,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Taylor Fritz vs Daniel Merida Aguilar",
-      "outcome": "Taylor Fritz",
-      "price": 0.9,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 385047.0,
+      "liquidity_usd": 461968.99,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Janice Tjen vs Mirra Andreeva",
-      "outcome": "Janice Tjen",
-      "price": 0.05,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.217,
       "net_traders": 2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 447168.73,
+      "liquidity_usd": 459284.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
+      "outcome": "Daniil Medvedev",
+      "price": 0.445,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 461968.99,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.786,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 459284.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -156,37 +188,9 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 24485.26,
+      "liquidity_usd": 24339.75,
       "why_excluded": [
         "wide spread"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
-      "outcome": "Brandon Nakashima",
-      "price": 0.44,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 381293.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Michael Zheng vs Lorenzo Musetti",
-      "outcome": "Lorenzo Musetti",
-      "price": 0.12,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 489361.66,
-      "why_excluded": [
-        "cohort on both sides"
       ]
     },
     {
@@ -196,25 +200,25 @@
       "net_traders": 1,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 143935.47,
+      "liquidity_usd": 155168.0,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.789,
-      "net_traders": -2,
+      "market": "Atlanta Braves vs. Minnesota Twins",
+      "outcome": "Atlanta Braves",
+      "price": 0.57,
+      "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 471669.72,
+      "liquidity_usd": 550284.99,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,7 +232,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 143935.47,
+      "liquidity_usd": 155168.0,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -242,11 +246,39 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 175988.74,
+      "liquidity_usd": 178097.38,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Washington Wizards win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.013,
+      "net_traders": 3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 485071.81,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Quebec City: Andrea Pellegrino vs Nishesh Basavareddy",
+      "outcome": "Nishesh Basavareddy",
+      "price": 0.52,
+      "net_traders": -1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 327133.7,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-18T17:15:12.087289+00:00"
+  "source_report_generated_at": "2026-08-18T21:11:36.786985+00:00"
 }
