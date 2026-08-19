@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-08-19T17:15:13.363076+00:00",
+  "generated_at_utc": "2026-08-19T21:14:25.963182+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1345,
+    "n": 1356,
     "excluded_certain": 107,
-    "win_rate": 0.5479553903345725,
-    "wr_lo": 0.5212577997855483,
-    "wr_hi": 0.5743798199319932,
-    "implied": 0.5184465427509294,
-    "edge_pts": 2.950884758364314,
-    "edge_lo_pts": 0.28112570346189303,
-    "edge_hi_pts": 5.593327718106378,
-    "brier": 0.27246298472862457,
-    "roi_net": 0.6078234033989235,
-    "roi_median": 0.07890109890109887
+    "win_rate": 0.5457227138643068,
+    "wr_lo": 0.5191290507096722,
+    "wr_hi": 0.5720580404927149,
+    "implied": 0.5177290560471977,
+    "edge_pts": 2.7993657817109163,
+    "edge_lo_pts": 0.13999946624745352,
+    "edge_hi_pts": 5.432898444551726,
+    "brier": 0.27193511390855457,
+    "roi_net": 0.5995105084818413,
+    "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -27,67 +27,92 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 370082.99,
+      "liquidity_usd": 373243.89,
       "score": 57.2
+    },
+    {
+      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.53,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 37477.56,
+      "score": 53.3
+    },
+    {
+      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.038,
+      "net_traders": 3,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 565608.76,
+      "score": 50.3
+    },
+    {
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.326,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 264967.93,
+      "score": 36.7
+    },
+    {
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.58,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 91718.8,
+      "score": 23.7
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.7,
+      "price": 0.74,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 88670.56,
-      "score": 30.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 33560.74,
-      "score": 26.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.91,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 111393.78,
-      "score": 18.2
+      "liquidity_usd": 77516.1,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.68,
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 78804.94,
+      "liquidity_usd": 21552.17,
       "score": 18.2
     },
     {
-      "market": "Will Ethereum dip to $800 by December 31, 2026?",
+      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.93,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 84451.97,
+      "liquidity_usd": 93634.34,
       "score": 18.2
     }
   ],
@@ -103,37 +128,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 469798.07,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Rafael Jodar vs Flavio Cobolli",
-      "outcome": "Flavio Cobolli",
-      "price": 0.57,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 400874.57,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Detroit Tigers vs. Pittsburgh Pirates",
-      "outcome": "Detroit Tigers",
-      "price": 0.32,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 223587.33,
+      "liquidity_usd": 475297.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -149,79 +144,78 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 469798.07,
+      "liquidity_usd": 475297.6,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Rafael Jodar vs Flavio Cobolli",
-      "outcome": "Rafael Jodar",
-      "price": 0.57,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 400874.57,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.63,
+      "market": "Cincinnati Open: Arthur Fils vs Alex de Minaur",
+      "outcome": "Arthur Fils",
+      "price": 0.58,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 25296.86,
+      "fresh": true,
+      "liquidity_usd": 339610.68,
       "why_excluded": [
-        "wide spread"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "Detroit Tigers vs. Pittsburgh Pirates: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.4,
+      "market": "Arizona Diamondbacks vs. Boston Red Sox",
+      "outcome": "Arizona Diamondbacks",
+      "price": 0.17,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 203755.16,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Open: Alexander Zverev vs Tommy Paul",
+      "outcome": "Tommy Paul",
+      "price": 0.84,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 226101.79,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Esports World Cup Playoffs",
+      "outcome": "Aurora Gaming",
+      "price": 0.89,
       "net_traders": 2,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 48210.26,
+      "liquidity_usd": 144769.91,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
-      "outcome": "Sorana Cirstea",
-      "price": 0.21,
-      "net_traders": 1,
+      "market": "Cincinnati Open: Linda Noskova vs Amanda Anisimova",
+      "outcome": "Amanda Anisimova",
+      "price": 0.18,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 294769.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Detroit Tigers vs. Pittsburgh Pirates",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.32,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 223587.33,
+      "liquidity_usd": 458628.84,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,7 +229,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 136361.68,
+      "liquidity_usd": 136778.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -249,39 +243,53 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 136361.68,
+      "liquidity_usd": 136778.92,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.81,
-      "net_traders": 1,
+      "price": 0.51,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 87059.09,
+      "liquidity_usd": 200819.88,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Detroit Tigers vs. Pittsburgh Pirates: O/U 7.5",
-      "outcome": "Over",
-      "price": 0.48,
-      "net_traders": -1,
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 200819.88,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Washington Wizards win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.013,
+      "net_traders": 3,
       "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 14681.76,
+      "liquidity_usd": 502147.59,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-19T17:15:04.835520+00:00"
+  "source_report_generated_at": "2026-08-19T21:14:14.495100+00:00"
 }
