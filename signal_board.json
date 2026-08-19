@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-08-18T21:11:47.628565+00:00",
+  "generated_at_utc": "2026-08-19T05:19:13.033013+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1334,
+    "n": 1340,
     "excluded_certain": 107,
-    "win_rate": 0.547976011994003,
-    "wr_lo": 0.5211683711119539,
-    "wr_hi": 0.5745081275109025,
-    "implied": 0.5176953523238381,
-    "edge_pts": 3.028065967016491,
-    "edge_lo_pts": 0.3473018788115789,
-    "edge_hi_pts": 5.68127751870644,
-    "brier": 0.27283878520239885,
-    "roi_net": 0.6138292959432613,
-    "roi_median": 0.07890109890109887
+    "win_rate": 0.5470149253731343,
+    "wr_lo": 0.5202653638952862,
+    "wr_hi": 0.5734956865142263,
+    "implied": 0.5175228358208955,
+    "edge_pts": 2.949208955223881,
+    "edge_lo_pts": 0.2742528074390682,
+    "edge_hi_pts": 5.59728506933308,
+    "brier": 0.27281254810447764,
+    "roi_net": 0.6098490253893797,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -28,7 +28,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 540913.31,
+      "liquidity_usd": 534628.91,
       "score": 64.1
     },
     {
@@ -40,8 +40,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 357848.16,
+      "liquidity_usd": 351227.1,
       "score": 57.2
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.54,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 14824.41,
+      "score": 50.2
     },
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
@@ -52,7 +64,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 123118.42,
+      "liquidity_usd": 122670.03,
       "score": 40.7
     },
     {
@@ -64,7 +76,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 97570.8,
+      "liquidity_usd": 93879.73,
       "score": 37.7
     },
     {
@@ -76,31 +88,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 85478.39,
+      "liquidity_usd": 80263.29,
       "score": 34.9
     },
     {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 1,
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.327,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 35143.0,
-      "score": 28.7
+      "liquidity_usd": 234759.69,
+      "score": 33.9
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.9,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 109529.4,
+      "liquidity_usd": 107488.86,
       "score": 18.2
     },
     {
@@ -112,30 +124,15 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94707.94,
+      "liquidity_usd": 93949.22,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
-      "outcome": "Brandon Nakashima",
-      "price": 0.445,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 461968.99,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.217,
+      "price": 0.205,
       "net_traders": 2,
       "signals": [
         "pure_count",
@@ -143,22 +140,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 459284.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
-      "outcome": "Daniil Medvedev",
-      "price": 0.445,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 461968.99,
+      "liquidity_usd": 468261.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -166,7 +148,7 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.786,
+      "price": 0.796,
       "net_traders": -2,
       "signals": [
         "pure_count",
@@ -174,7 +156,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 459284.19,
+      "liquidity_usd": 468261.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -188,37 +170,36 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 24339.75,
+      "liquidity_usd": 25159.99,
       "why_excluded": [
         "wide spread"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.47,
+      "market": "Cancun: Pablo Llamas Ruiz vs Francisco Comesana",
+      "outcome": "Francisco Comesana",
+      "price": 0.77,
       "net_traders": 1,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 155168.0,
+      "liquidity_usd": 316132.27,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Atlanta Braves vs. Minnesota Twins",
-      "outcome": "Atlanta Braves",
-      "price": 0.57,
-      "net_traders": 2,
+      "market": "Cancun: Pablo Llamas Ruiz vs Francisco Comesana",
+      "outcome": "Pablo Llamas Ruiz",
+      "price": 0.77,
+      "net_traders": -1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 550284.99,
+      "liquidity_usd": 316132.27,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -226,27 +207,55 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.54,
+      "price": 0.55,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155168.0,
+      "liquidity_usd": 149359.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.79,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.46,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
+      "fresh": true,
+      "liquidity_usd": 149359.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.51,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
       "fresh": false,
-      "liquidity_usd": 178097.38,
+      "liquidity_usd": 169600.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 169600.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -260,25 +269,11 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 485071.81,
+      "liquidity_usd": 480423.53,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
-    },
-    {
-      "market": "Quebec City: Andrea Pellegrino vs Nishesh Basavareddy",
-      "outcome": "Nishesh Basavareddy",
-      "price": 0.52,
-      "net_traders": -1,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 327133.7,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
     }
   ],
-  "source_report_generated_at": "2026-08-18T21:11:36.786985+00:00"
+  "source_report_generated_at": "2026-08-19T05:19:00.235104+00:00"
 }
