@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-20T05:20:04.506797+00:00",
+  "generated_at_utc": "2026-08-20T13:37:14.371755+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -19,112 +19,40 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.22,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 373130.14,
-      "score": 57.2
-    },
-    {
-      "market": "Will Toronto Raptors win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.038,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 562956.27,
-      "score": 57.2
-    },
-    {
       "market": "Boston Red Sox vs. New York Yankees",
       "outcome": "New York Yankees",
-      "price": 0.54,
+      "price": 0.53,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 13832.01,
+      "liquidity_usd": 13677.96,
       "score": 50.2
     },
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
-      "net_traders": 4,
+      "price": 0.93,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 111770.79,
-      "score": 39.4
+      "liquidity_usd": 111690.96,
+      "score": 32.2
     },
     {
-      "market": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
       "outcome": "Yes",
-      "price": 0.65,
+      "price": 0.93,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 86529.85,
-      "score": 35.7
-    },
-    {
-      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.326,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 269507.56,
-      "score": 34.2
-    },
-    {
-      "market": "Will Xavier Becerra win the California Governor Election in 2026?",
-      "outcome": "Yes",
-      "price": 0.948,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 107913.03,
+      "liquidity_usd": 42177.75,
       "score": 28.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.75,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 81940.63,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.747,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 39770.98,
-      "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
@@ -135,39 +63,38 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 136812.23,
+      "liquidity_usd": 149101.28,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.203,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 437359.47,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.798,
-      "net_traders": -2,
+      "market": "Dota 2: Nigma Galaxy vs Team Falcons (BO3) - The International Playoffs",
+      "outcome": "Team Falcons",
+      "price": 0.35,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 437359.47,
+      "liquidity_usd": 242389.63,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.205,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 437493.08,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -175,13 +102,70 @@
     {
       "market": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
       "outcome": "Over",
-      "price": 0.53,
+      "price": 0.52,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 117237.25,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Sion: Lorenzo Giustino vs Dimitar Kuzmanov",
+      "outcome": "Lorenzo Giustino",
+      "price": 0.87,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 91443.02,
+      "liquidity_usd": 276726.28,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: LGD Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
+      "outcome": "LGD Gaming",
+      "price": 0.52,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 110528.29,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Roehampton: Oliver Tarvet vs Charles Broom",
+      "outcome": "Oliver Tarvet",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 250357.96,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: FaZe vs Vitality (BO3) - Esports World Cup Playoffs",
+      "outcome": "FaZe",
+      "price": 0.22,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 199644.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -190,12 +174,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.53,
-      "net_traders": -1,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155504.15,
+      "liquidity_usd": 145581.83,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,30 +188,86 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.48,
-      "net_traders": 1,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 155504.15,
+      "liquidity_usd": 145581.83,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.83,
+      "price": 0.796,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 437493.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.77,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 48337.77,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.76,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 79290.06,
+      "liquidity_usd": 86278.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.65,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 93585.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.91,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 33570.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-20T05:19:56.432397+00:00"
+  "source_report_generated_at": "2026-08-20T13:37:02.548494+00:00"
 }
