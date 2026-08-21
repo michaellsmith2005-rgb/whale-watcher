@@ -1,58 +1,58 @@
 {
-  "generated_at_utc": "2026-08-21T05:21:15.727961+00:00",
+  "generated_at_utc": "2026-08-21T13:36:02.601321+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1385,
+    "n": 1390,
     "excluded_certain": 107,
-    "win_rate": 0.543682310469314,
-    "wr_lo": 0.5173651451030553,
-    "wr_hi": 0.5697578212597033,
-    "implied": 0.5181015162454874,
-    "edge_pts": 2.558079422382664,
-    "edge_lo_pts": -0.07363711424320796,
-    "edge_hi_pts": 5.165630501421592,
-    "brier": 0.2719651367942238,
-    "roi_net": 0.5886060942359451,
+    "win_rate": 0.5431654676258992,
+    "wr_lo": 0.516894830355839,
+    "wr_hi": 0.5691981661510811,
+    "implied": 0.5174680575539569,
+    "edge_pts": 2.5697410071942373,
+    "edge_lo_pts": -0.05732271981178094,
+    "edge_hi_pts": 5.173010859712424,
+    "brier": 0.2720264852230216,
+    "roi_net": 0.5877812893819583,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will FC Barcelona win on 2026-08-23?",
-      "outcome": "No",
-      "price": 0.27,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 95518.53,
-      "score": 51.9
-    },
-    {
       "market": "Boston Red Sox vs. New York Yankees",
       "outcome": "New York Yankees",
-      "price": 0.54,
+      "price": 0.55,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 13983.85,
+      "liquidity_usd": 14046.65,
       "score": 50.2
+    },
+    {
+      "market": "Will FC Barcelona win on 2026-08-23?",
+      "outcome": "No",
+      "price": 0.27,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 79447.84,
+      "score": 47.2
     },
     {
       "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.96,
+      "price": 0.965,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 73802.37,
-      "score": 42.4
+      "liquidity_usd": 68302.78,
+      "score": 40.2
     },
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
@@ -63,7 +63,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 116542.24,
+      "liquidity_usd": 105312.27,
       "score": 29.7
     },
     {
@@ -75,19 +75,43 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 43596.04,
+      "liquidity_usd": 45042.34,
       "score": 28.7
     },
     {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "market": "Will Ethereum dip to $800 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.94,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96502.6,
+      "liquidity_usd": 81604.55,
+      "score": 22.2
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.81,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 82219.23,
+      "score": 21.7
+    },
+    {
+      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.89,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 120085.39,
       "score": 21.7
     },
     {
@@ -99,82 +123,81 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 144725.87,
+      "liquidity_usd": 118560.89,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Dota 2: Iron Wing vs BoomBoys (BO3) - The International Playoffs",
-      "outcome": "Iron Wing",
-      "price": 0.29,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 208390.97,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Dota 2: Iron Wing vs BoomBoys (BO3) - The International Playoffs",
-      "outcome": "BoomBoys",
-      "price": 0.29,
-      "net_traders": -4,
+      "market": "Dota 2: Team Spirit vs TEAM VISION (BO3) - The International Playoffs",
+      "outcome": "Team Spirit",
+      "price": 0.2,
+      "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 208390.97,
+      "fresh": true,
+      "liquidity_usd": 203589.59,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.012,
-      "net_traders": 4,
+      "market": "Dota 2: Team Spirit vs TEAM VISION (BO3) - The International Playoffs",
+      "outcome": "TEAM VISION",
+      "price": 0.2,
+      "net_traders": 0,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 279503.68,
+      "fresh": false,
+      "liquidity_usd": 203589.59,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "Will \"Spider-Man: Brand New Day\" 4th Weekend Box Office be between 35m and 38m?",
-      "outcome": "Yes",
+      "market": "LoL: KT Rolster vs T1 (BO3) - LCK Round 3-4 Legend Group",
+      "outcome": "T1",
       "price": 0.33,
-      "net_traders": 4,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3205.84,
+      "liquidity_usd": 205969.38,
       "why_excluded": [
-        "thin book (<$10,000)"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "Will Pablo Mar\u00e7al finish in third place in the first round of the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.016,
-      "net_traders": 4,
+      "market": "LoL: KT Rolster vs T1 (BO3) - LCK Round 3-4 Legend Group",
+      "outcome": "KT Rolster",
+      "price": 0.33,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 56592.18,
+      "fresh": false,
+      "liquidity_usd": 205969.38,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Vitality vs Spirit (BO3) - Esports World Cup Playoffs",
+      "outcome": "Spirit",
+      "price": 0.57,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 426523.82,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
@@ -186,7 +209,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 160649.16,
+      "liquidity_usd": 159135.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -200,7 +223,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 160649.16,
+      "liquidity_usd": 159135.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,13 +231,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.859,
+      "price": 0.844,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 49576.62,
+      "liquidity_usd": 36496.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,27 +245,13 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.72,
+      "price": 0.73,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 91108.7,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.81,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87036.55,
+      "liquidity_usd": 74018.11,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -256,11 +265,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 54341.26,
+      "liquidity_usd": 46926.96,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-21T05:21:07.813887+00:00"
+  "source_report_generated_at": "2026-08-21T13:35:54.120343+00:00"
 }
