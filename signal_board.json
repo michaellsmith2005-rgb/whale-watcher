@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-22T05:16:00.825103+00:00",
-  "status": "VALIDATED EDGE",
-  "edge_detected": true,
+  "generated_at_utc": "2026-08-22T13:23:03.276889+00:00",
+  "status": "EXPERIMENTAL \u2014 no verified edge yet",
+  "edge_detected": false,
   "track_record": {
-    "n": 1415,
-    "excluded_certain": 107,
-    "win_rate": 0.5420494699646643,
-    "wr_lo": 0.5160104225159663,
-    "wr_hi": 0.5678608144142168,
-    "implied": 0.5159226855123675,
-    "edge_pts": 2.612678445229677,
-    "edge_lo_pts": 0.008773700359876457,
-    "edge_hi_pts": 5.193812890184923,
-    "brier": 0.27193831410600705,
-    "roi_net": 0.5971627773291773,
+    "n": 1421,
+    "excluded_certain": 108,
+    "win_rate": 0.5411681914144968,
+    "wr_lo": 0.5151828325679936,
+    "wr_hi": 0.5669315582527122,
+    "implied": 0.5160524982406756,
+    "edge_pts": 2.511569317382123,
+    "edge_lo_pts": -0.08696656726819851,
+    "edge_hi_pts": 5.0879060012036685,
+    "brier": 0.27191281805770584,
+    "roi_net": 0.5926045998398303,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,39 +21,26 @@
     {
       "market": "Will Sunderland AFC win on 2026-08-22?",
       "outcome": "No",
-      "price": 0.63,
+      "price": 0.64,
       "net_traders": 4,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 175936.16,
-      "score": 59.0
+      "fresh": false,
+      "liquidity_usd": 1200197.92,
+      "score": 51.4
     },
     {
-      "market": "Will Brentford FC win on 2026-08-22?",
-      "outcome": "No",
-      "price": 0.55,
+      "market": "Atlanta Dream vs. Phoenix Mercury",
+      "outcome": "Atlanta Dream",
+      "price": 0.67,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 236811.6,
-      "score": 50.2
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.54,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 14072.95,
-      "score": 50.2
+      "fresh": false,
+      "liquidity_usd": 39970.17,
+      "score": 47.2
     },
     {
       "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
@@ -64,43 +51,67 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 62452.84,
+      "liquidity_usd": 66577.72,
       "score": 40.9
+    },
+    {
+      "market": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "price": 0.962,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 563094.52,
+      "score": 35.4
+    },
+    {
+      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "outcome": "Yes",
+      "price": 0.93,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40998.85,
+      "score": 28.7
     },
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
       "outcome": "No",
       "price": 0.94,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 115851.85,
-      "score": 29.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.82,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 84622.57,
+      "liquidity_usd": 116809.28,
+      "score": 26.4
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.8,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 75656.34,
       "score": 21.7
     },
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.89,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 145313.59,
+      "liquidity_usd": 137542.47,
       "score": 21.7
     },
     {
@@ -112,7 +123,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 78667.18,
+      "liquidity_usd": 79433.21,
       "score": 21.7
     },
     {
@@ -124,108 +135,94 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 108510.12,
+      "liquidity_usd": 110632.86,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Spread: Los Angeles Dodgers (-2.5)",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.03,
-      "net_traders": 2,
+      "market": "Prague 2: Chun-Hsin Tseng vs Jan Kumstat",
+      "outcome": "Chun-Hsin Tseng",
+      "price": 0.55,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 25325.92,
+      "liquidity_usd": 417604.85,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Manchester United FC win on 2026-08-22?",
+      "outcome": "Yes",
+      "price": 0.029,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 239751.47,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Pittsburgh Pirates vs. Los Angeles Dodgers: O/U 9.5",
-      "outcome": "Over",
-      "price": 0.73,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 29912.01,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Los Angeles Dodgers (-1.5)",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.07,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 32619.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. Los Angeles Dodgers",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.62,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 186805.34,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. Los Angeles Dodgers",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.62,
+      "market": "Will Manchester United FC win on 2026-08-22?",
+      "outcome": "No",
+      "price": 0.977,
       "net_traders": -1,
       "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 186805.34,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.54,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 161869.43,
+      "liquidity_usd": 239751.47,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Hull City AFC win on 2026-08-22?",
+      "outcome": "Yes",
+      "price": 0.89,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 175481.72,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.47,
-      "net_traders": 0,
+      "market": "Prague 2: Chun-Hsin Tseng vs Jan Kumstat",
+      "outcome": "Jan Kumstat",
+      "price": 0.55,
+      "net_traders": -1,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 161869.43,
+      "liquidity_usd": 417604.85,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Hull City AFC win on 2026-08-22?",
+      "outcome": "No",
+      "price": 0.12,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 175481.72,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -233,13 +230,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.85,
+      "price": 0.819,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 34811.22,
+      "liquidity_usd": 34782.7,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -253,7 +250,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 85103.49,
+      "liquidity_usd": 88983.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -267,7 +264,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 47954.06,
+      "liquidity_usd": 48168.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -275,17 +272,17 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.796,
+      "price": 0.784,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 423765.09,
+      "liquidity_usd": 393230.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-22T05:15:49.372138+00:00"
+  "source_report_generated_at": "2026-08-22T13:22:52.080478+00:00"
 }
