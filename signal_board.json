@@ -1,105 +1,57 @@
 {
-  "generated_at_utc": "2026-08-22T13:23:03.276889+00:00",
+  "generated_at_utc": "2026-08-22T17:10:28.420324+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1421,
-    "excluded_certain": 108,
-    "win_rate": 0.5411681914144968,
-    "wr_lo": 0.5151828325679936,
-    "wr_hi": 0.5669315582527122,
-    "implied": 0.5160524982406756,
-    "edge_pts": 2.511569317382123,
-    "edge_lo_pts": -0.08696656726819851,
-    "edge_hi_pts": 5.0879060012036685,
-    "brier": 0.27191281805770584,
-    "roi_net": 0.5926045998398303,
+    "n": 1427,
+    "excluded_certain": 111,
+    "win_rate": 0.5416958654519972,
+    "wr_lo": 0.5157661306026952,
+    "wr_hi": 0.5674017057252395,
+    "implied": 0.5162442887175893,
+    "edge_pts": 2.54515767344079,
+    "edge_lo_pts": -0.047815811489415605,
+    "edge_hi_pts": 5.115741700765019,
+    "brier": 0.2713338573651016,
+    "roi_net": 0.5901103832311155,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Sunderland AFC win on 2026-08-22?",
-      "outcome": "No",
-      "price": 0.64,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1200197.92,
-      "score": 51.4
-    },
-    {
-      "market": "Atlanta Dream vs. Phoenix Mercury",
-      "outcome": "Atlanta Dream",
-      "price": 0.67,
+      "market": "Brentford FC vs. Tottenham Hotspur FC: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.85,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 39970.17,
-      "score": 47.2
-    },
-    {
-      "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.962,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 66577.72,
-      "score": 40.9
-    },
-    {
-      "market": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "price": 0.962,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 563094.52,
-      "score": 35.4
-    },
-    {
-      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
-      "outcome": "Yes",
-      "price": 0.93,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40998.85,
-      "score": 28.7
+      "fresh": true,
+      "liquidity_usd": 91754.3,
+      "score": 50.2
     },
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
       "outcome": "No",
       "price": 0.94,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 116809.28,
-      "score": 26.4
+      "liquidity_usd": 169027.67,
+      "score": 29.7
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.8,
+      "price": 0.83,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 75656.34,
+      "liquidity_usd": 139392.58,
       "score": 21.7
     },
     {
@@ -111,19 +63,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 137542.47,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $800 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 79433.21,
+      "liquidity_usd": 182840.41,
       "score": 21.7
     },
     {
@@ -135,94 +75,151 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 110632.86,
+      "liquidity_usd": 171624.12,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Prague 2: Chun-Hsin Tseng vs Jan Kumstat",
-      "outcome": "Chun-Hsin Tseng",
-      "price": 0.55,
-      "net_traders": 1,
+      "market": "Counter-Strike: FURIA vs FUT Esports (BO3) - Esports World Cup Playoffs",
+      "outcome": "FUT Esports",
+      "price": 0.17,
+      "net_traders": 0,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 417604.85,
+      "liquidity_usd": 144928.72,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Manchester United FC win on 2026-08-22?",
+      "market": "Will Brentford FC win on 2026-08-22?",
       "outcome": "Yes",
-      "price": 0.029,
+      "price": 0.9,
       "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 147142.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Winston-Salem Open, Qualification: Pierre-Hugues Herbert vs Kenta Miyoshi",
+      "outcome": "Pierre-Hugues Herbert",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 535633.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: FURIA vs FUT Esports (BO3) - Esports World Cup Playoffs",
+      "outcome": "FURIA",
+      "price": 0.17,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 144928.72,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Brentford FC win on 2026-08-22?",
+      "outcome": "No",
+      "price": 0.11,
+      "net_traders": -1,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 239751.47,
+      "liquidity_usd": 147142.08,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Manchester United FC win on 2026-08-22?",
+      "market": "Will FC Internazionale Milano win on 2026-08-22?",
       "outcome": "No",
-      "price": 0.977,
-      "net_traders": -1,
+      "price": 0.25,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 239751.47,
+      "liquidity_usd": 182138.82,
       "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Hull City AFC win on 2026-08-22?",
+      "market": "Will FC Internazionale Milano win on 2026-08-22?",
       "outcome": "Yes",
-      "price": 0.89,
-      "net_traders": 0,
+      "price": 0.76,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 182138.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Tottenham Hotspur FC win on 2026-08-22?",
+      "outcome": "No",
+      "price": 0.973,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 175481.72,
+      "liquidity_usd": 195547.58,
       "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Prague 2: Chun-Hsin Tseng vs Jan Kumstat",
-      "outcome": "Jan Kumstat",
-      "price": 0.55,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 417604.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Hull City AFC win on 2026-08-22?",
+      "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.12,
+      "price": 0.54,
       "net_traders": 0,
       "signals": [
-        "pure_count"
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 162424.41,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.47,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 175481.72,
+      "liquidity_usd": 162424.41,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,7 +233,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 34782.7,
+      "liquidity_usd": 68313.51,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -250,7 +247,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 88983.56,
+      "liquidity_usd": 116035.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -264,25 +261,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 48168.95,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.784,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 393230.89,
+      "liquidity_usd": 82606.67,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-22T13:22:52.080478+00:00"
+  "source_report_generated_at": "2026-08-22T17:10:17.000819+00:00"
 }
