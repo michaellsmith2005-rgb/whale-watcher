@@ -1,194 +1,173 @@
 {
-  "generated_at_utc": "2026-08-23T13:23:33.364734+00:00",
+  "generated_at_utc": "2026-08-23T17:10:30.489876+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1453,
-    "excluded_certain": 112,
-    "win_rate": 0.5430144528561597,
-    "wr_lo": 0.517320404418505,
-    "wr_hi": 0.5684816484608196,
-    "implied": 0.5168001376462491,
-    "edge_pts": 2.6214315209910577,
-    "edge_lo_pts": 0.05202667722559173,
-    "edge_hi_pts": 5.168151081457051,
-    "brier": 0.2711755777426015,
-    "roi_net": 0.5873787271581609,
+    "n": 1461,
+    "excluded_certain": 114,
+    "win_rate": 0.5434633812457221,
+    "wr_lo": 0.5178407145376595,
+    "wr_hi": 0.568858079379717,
+    "implied": 0.5173652292950035,
+    "edge_pts": 2.609815195071863,
+    "edge_lo_pts": 0.04754852426559486,
+    "edge_hi_pts": 5.149285008471349,
+    "brier": 0.27072711462012317,
+    "roi_net": 0.5841175717119557,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Newcastle United FC vs. Liverpool FC end in a draw?",
-      "outcome": "No",
-      "price": 0.76,
-      "net_traders": 4,
+      "market": "Will Venezia FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "price": 0.53,
+      "net_traders": 5,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 944070.83,
-      "score": 52.4
+      "liquidity_usd": 227927.57,
+      "score": 58.6
     },
     {
-      "market": "Will Liverpool FC win on 2026-08-23?",
-      "outcome": "Yes",
-      "price": 0.51,
+      "market": "Minnesota Twins vs. San Diego Padres",
+      "outcome": "Minnesota Twins",
+      "price": 0.43,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 1448285.37,
-      "score": 48.2
+      "fresh": true,
+      "liquidity_usd": 443915.24,
+      "score": 50.2
     },
     {
       "market": "Will FC Barcelona win on 2026-08-23?",
       "outcome": "No",
-      "price": 0.29,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 297863.32,
-      "score": 47.4
-    },
-    {
-      "market": "Spread: PSV (-1.5)",
-      "outcome": "PSV",
-      "price": 0.85,
+      "price": 0.28,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 69185.51,
-      "score": 25.2
+      "liquidity_usd": 1058678.34,
+      "score": 46.4
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.76,
+      "price": 0.79,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 86885.07,
+      "liquidity_usd": 166043.3,
       "score": 21.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 156442.01,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 86071.74,
-      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Kuopion Palloseura win on 2026-08-23?",
+      "market": "Will Liverpool FC win on 2026-08-23?",
       "outcome": "No",
-      "price": 0.71,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 121192.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Dota 2: TEAM VISION vs Team Spirit (BO5) - The International Playoffs",
-      "outcome": "TEAM VISION",
-      "price": 0.57,
+      "price": 0.96,
       "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 28973.61,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: FUT Esports vs Spirit (BO5) - Esports World Cup Playoffs",
-      "outcome": "FUT Esports",
-      "price": 0.42,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 298935.93,
+      "liquidity_usd": 378297.83,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Aston Villa FC win on 2026-08-23?",
-      "outcome": "No",
-      "price": 0.97,
-      "net_traders": 0,
+      "market": "Will AS Monaco FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "price": 0.99,
+      "net_traders": 2,
       "signals": [
         "pure_count",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 193700.96,
+      "liquidity_usd": 192217.69,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Brighton & Hove Albion FC win on 2026-08-23?",
-      "outcome": "Yes",
-      "price": 0.89,
+      "market": "Will Newcastle United FC vs. Liverpool FC end in a draw?",
+      "outcome": "No",
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 171319.2,
+      "fresh": true,
+      "liquidity_usd": 217055.93,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Manchester City FC vs. AFC Bournemouth: O/U 3.5",
-      "outcome": "Under",
-      "price": 0.38,
+      "market": "Will Liverpool FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 378297.83,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Venezia FC vs. US Lecce: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.3,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 105869.52,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Newcastle United FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "price": 0.73,
       "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 241686.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Frosinone Calcio vs. Juventus FC: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.67,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 16178.16,
+      "liquidity_usd": 82873.19,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -201,7 +180,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 153606.09,
+      "liquidity_usd": 160366.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -215,21 +194,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 153606.09,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Dota 2: TEAM VISION vs Team Spirit (BO5) - The International Playoffs",
-      "outcome": "Team Spirit",
-      "price": 0.57,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 28973.61,
+      "liquidity_usd": 160366.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -237,27 +202,27 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.898,
+      "price": 0.903,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 222426.13,
+      "liquidity_usd": 158923.6,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.89,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 55116.13,
+      "liquidity_usd": 211659.39,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -271,11 +236,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 175990.85,
+      "liquidity_usd": 290033.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 140888.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-23T13:23:25.238990+00:00"
+  "source_report_generated_at": "2026-08-23T17:10:21.229940+00:00"
 }
