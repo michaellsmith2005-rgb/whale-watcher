@@ -1,58 +1,131 @@
 {
-  "generated_at_utc": "2026-08-22T21:10:14.789558+00:00",
-  "status": "EXPERIMENTAL \u2014 no verified edge yet",
-  "edge_detected": false,
+  "generated_at_utc": "2026-08-23T05:18:30.542664+00:00",
+  "status": "VALIDATED EDGE",
+  "edge_detected": true,
   "track_record": {
-    "n": 1438,
+    "n": 1453,
     "excluded_certain": 112,
-    "win_rate": 0.5417246175243393,
-    "wr_lo": 0.5158944580919737,
-    "wr_hi": 0.5673324372895995,
-    "implied": 0.5162104311543811,
-    "edge_pts": 2.551418636995817,
-    "edge_lo_pts": -0.0315973062407493,
-    "edge_hi_pts": 5.112200613521834,
-    "brier": 0.27109076109874825,
-    "roi_net": 0.589317623504081,
+    "win_rate": 0.5430144528561597,
+    "wr_lo": 0.517320404418505,
+    "wr_hi": 0.5684816484608196,
+    "implied": 0.5168001376462491,
+    "edge_pts": 2.6214315209910577,
+    "edge_lo_pts": 0.05202667722559173,
+    "edge_hi_pts": 5.168151081457051,
+    "brier": 0.2711755777426015,
+    "roi_net": 0.5873787271581609,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "LoL: Sentinels vs FlyQuest (BO3) - LCS Regular Season",
-      "outcome": "Sentinels",
-      "price": 0.8,
+      "market": "Will Liverpool FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "price": 0.49,
       "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 707525.19,
+      "score": 55.6
+    },
+    {
+      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.09,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 165340.43,
-      "score": 41.7
+      "fresh": true,
+      "liquidity_usd": 214176.89,
+      "score": 53.7
     },
     {
-      "market": "Atlanta Dream vs. Phoenix Mercury",
-      "outcome": "Atlanta Dream",
-      "price": 0.76,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 104725.14,
-      "score": 29.4
-    },
-    {
-      "market": "Will Ethereum dip to $800 by December 31, 2026?",
+      "market": "Will Newcastle United FC vs. Liverpool FC end in a draw?",
       "outcome": "No",
-      "price": 0.95,
+      "price": 0.76,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 541484.27,
+      "score": 52.4
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.54,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 14174.83,
+      "score": 50.2
+    },
+    {
+      "market": "Will FC Barcelona win on 2026-08-23?",
+      "outcome": "No",
+      "price": 0.28,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 332763.22,
+      "score": 49.9
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.51,
       "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 217708.52,
+      "score": 45.4
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "Yes",
+      "price": 0.38,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 116944.93,
+      "score": 28.7
+    },
+    {
+      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 154151.53,
+      "score": 26.2
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.84,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 131078.11,
-      "score": 21.7
+      "liquidity_usd": 154943.59,
+      "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
@@ -63,136 +136,78 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 171530.7,
-      "score": 18.2
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 138607.53,
+      "liquidity_usd": 140759.45,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Cincinnati Open: Jessica Pegula vs Iga Swiatek",
-      "outcome": "Iga Swiatek",
-      "price": 0.62,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 442045.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Jessica Pegula vs Iga Swiatek",
-      "outcome": "Jessica Pegula",
-      "price": 0.62,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 442045.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Real Madrid CF win on 2026-08-22?",
+      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
       "outcome": "Yes",
-      "price": 0.4,
-      "net_traders": 0,
+      "price": 0.012,
+      "net_traders": 4,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 90124.04,
+      "liquidity_usd": 265553.44,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Will Real Madrid CF win on 2026-08-22?",
+      "market": "Will Carolyn Rodrigues-Birkett be the next Secretary-General of the United Nations?",
+      "outcome": "Yes",
+      "price": 0.187,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1782.33,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.61,
+      "price": 0.54,
       "net_traders": 0,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 90124.04,
+      "liquidity_usd": 162280.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Real Madrid CF (-1.5)",
-      "outcome": "RCD Espanyol de Barcelona",
-      "price": 0.2,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 35222.46,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will RCD Espanyol de Barcelona win on 2026-08-22?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 176613.55,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will RCD Espanyol de Barcelona vs. Real Madrid CF end in a draw?",
-      "outcome": "No",
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
       "price": 0.47,
-      "net_traders": 2,
+      "net_traders": 0,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 75816.71,
+      "liquidity_usd": 162280.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Monterrey Open, Qualification: Panna Udvardy vs Emiliana Arango",
-      "outcome": "Panna Udvardy",
-      "price": 0.46,
-      "net_traders": 1,
+      "market": "Dota 2: TEAM VISION vs Team Spirit (BO5) - The International Playoffs",
+      "outcome": "Team Spirit",
+      "price": 0.57,
+      "net_traders": 0,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 200839.43,
+      "liquidity_usd": 3266435.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -200,13 +215,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.828,
+      "price": 0.859,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 68372.24,
+      "liquidity_usd": 130703.76,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -214,13 +229,27 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.73,
+      "price": 0.71,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 118877.45,
+      "liquidity_usd": 102291.85,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Dota 2: TEAM VISION vs Team Spirit (BO5) - The International Playoffs",
+      "outcome": "TEAM VISION",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3266435.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,13 +257,13 @@
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.9,
+      "price": 0.89,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 82188.28,
+      "liquidity_usd": 81522.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -242,45 +271,17 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
-      "net_traders": 1,
+      "price": 0.91,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 179920.67,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 167723.7,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will SC Internacional win on 2026-08-22?",
-      "outcome": "Yes",
-      "price": 0.54,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 284937.42,
+      "liquidity_usd": 209906.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-22T21:10:00.636496+00:00"
+  "source_report_generated_at": "2026-08-23T05:18:18.341847+00:00"
 }
