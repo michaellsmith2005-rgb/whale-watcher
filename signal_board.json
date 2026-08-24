@@ -1,23 +1,84 @@
 {
-  "generated_at_utc": "2026-08-23T21:09:33.686398+00:00",
+  "generated_at_utc": "2026-08-24T05:27:20.274022+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1472,
+    "n": 1484,
     "excluded_certain": 116,
-    "win_rate": 0.5407608695652174,
-    "wr_lo": 0.5152297056880014,
-    "wr_hi": 0.5660798332218654,
-    "implied": 0.5183563858695652,
-    "edge_pts": 2.2404483695652178,
-    "edge_lo_pts": -0.31266801815638123,
-    "edge_hi_pts": 4.772344735230016,
-    "brier": 0.2708966130842391,
-    "roi_net": 0.5735455880465357,
+    "win_rate": 0.5424528301886793,
+    "wr_lo": 0.5170280546390364,
+    "wr_hi": 0.5676583797233312,
+    "implied": 0.5177827493261455,
+    "edge_pts": 2.467008086253375,
+    "edge_lo_pts": -0.0754694687109092,
+    "edge_hi_pts": 4.987563039718568,
+    "brier": 0.27093705893531,
+    "roi_net": 0.5788560945575433,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.09,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 237012.93,
+      "score": 53.7
+    },
+    {
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.22,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 323215.31,
+      "score": 50.2
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.51,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 192735.35,
+      "score": 45.4
+    },
+    {
+      "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.959,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 98045.57,
+      "score": 43.9
+    },
+    {
+      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 149294.22,
+      "score": 32.8
+    },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
@@ -27,19 +88,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 152037.59,
-      "score": 21.7
-    },
-    {
-      "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 86750.94,
+      "liquidity_usd": 112202.23,
       "score": 21.7
     },
     {
@@ -51,148 +100,106 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 101657.2,
+      "liquidity_usd": 155358.41,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Chicago Cubs vs. Seattle Mariners: O/U 7.5",
-      "outcome": "Over",
-      "price": 0.56,
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.54,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 4136.73,
+      "why_excluded": [
+        "thin book (<$10,000)"
+      ]
+    },
+    {
+      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.012,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 252976.38,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Carolyn Rodrigues-Birkett be the next Secretary-General of the United Nations?",
+      "outcome": "Yes",
+      "price": 0.194,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1696.33,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "LoL: DN SOOPers Challengers vs Kiwoom DRX Challengers - Game 1 Winner",
+      "outcome": "DN SOOPers Challengers",
+      "price": 0.82,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 119810.8,
+      "liquidity_usd": 144508.46,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Athletics vs. Houston Astros",
-      "outcome": "Athletics",
-      "price": 0.559,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 227665.91,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Reds vs. Arizona Diamondbacks: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.58,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 100428.27,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. San Diego Padres",
-      "outcome": "Minnesota Twins",
-      "price": 0.27,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 194215.36,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Chicago Cubs vs. Seattle Mariners",
-      "outcome": "Chicago Cubs",
-      "price": 0.38,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 271320.78,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. San Diego Padres",
-      "outcome": "San Diego Padres",
-      "price": 0.27,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 194215.36,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Chicago Cubs vs. Seattle Mariners",
-      "outcome": "Seattle Mariners",
-      "price": 0.38,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 271320.78,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Open: Arthur Fils vs Frances Tiafoe",
-      "outcome": "Arthur Fils",
-      "price": 0.83,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 217130.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Reds vs. Arizona Diamondbacks",
-      "outcome": "Arizona Diamondbacks",
+      "market": "LoL: DN SOOPers Challengers vs Kiwoom DRX Challengers (BO5) - LCK Challengers League Play-In",
+      "outcome": "DN SOOPers Challengers",
       "price": 0.73,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 266847.78,
+      "fresh": false,
+      "liquidity_usd": 172151.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "San Francisco Giants vs. Boston Red Sox",
-      "outcome": "Boston Red Sox",
-      "price": 0.11,
-      "net_traders": 1,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.53,
+      "net_traders": 0,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 250637.66,
+      "liquidity_usd": 156008.03,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.48,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 156008.03,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -206,7 +213,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 61745.75,
+      "liquidity_usd": 66597.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -214,13 +221,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.88,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 146145.39,
+      "liquidity_usd": 115394.18,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,13 +235,13 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.91,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 231224.11,
+      "liquidity_usd": 202078.01,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -248,7 +255,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 108659.01,
+      "liquidity_usd": 91158.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -262,25 +269,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 84432.49,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 99940.99,
+      "liquidity_usd": 53675.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-23T21:09:22.026228+00:00"
+  "source_report_generated_at": "2026-08-24T05:27:12.125229+00:00"
 }
