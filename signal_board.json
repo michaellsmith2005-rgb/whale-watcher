@@ -1,37 +1,85 @@
 {
-  "generated_at_utc": "2026-08-24T17:20:29.014742+00:00",
+  "generated_at_utc": "2026-08-24T21:17:00.187896+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1492,
-    "excluded_certain": 116,
-    "win_rate": 0.5435656836461126,
-    "wr_lo": 0.5182112797285936,
-    "wr_hi": 0.5686963179742648,
-    "implied": 0.5171337801608579,
-    "edge_pts": 2.6431903485254704,
-    "edge_lo_pts": 0.10774995677357291,
-    "edge_hi_pts": 5.156253781340691,
-    "brier": 0.27118847684986597,
-    "roi_net": 0.602606618253469,
+    "n": 1503,
+    "excluded_certain": 117,
+    "win_rate": 0.543579507651364,
+    "wr_lo": 0.5183182523920901,
+    "wr_hi": 0.5686185563607346,
+    "implied": 0.5161973386560214,
+    "edge_pts": 2.7382168995342626,
+    "edge_lo_pts": 0.2120913736068708,
+    "edge_hi_pts": 5.24212177047132,
+    "brier": 0.2719790076247505,
+    "roi_net": 0.6115825145063422,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will M\u00e1laga CF win on 2026-08-24?",
-      "outcome": "No",
-      "price": 0.59,
-      "net_traders": 3,
+      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.09,
+      "net_traders": 5,
       "signals": [
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 659430.11,
-      "score": 48.9
+      "liquidity_usd": 245627.55,
+      "score": 57.2
     },
     {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "market": "Monterrey Open: Camila Osorio vs Ann Li",
+      "outcome": "Camila Osorio",
+      "price": 0.37,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 272039.72,
+      "score": 50.2
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.51,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 213426.36,
+      "score": 45.4
+    },
+    {
+      "market": "US Open, Qualification ATP: Francesco Passaro vs Felix Gill",
+      "outcome": "Felix Gill",
+      "price": 0.56,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 523143.44,
+      "score": 34.9
+    },
+    {
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.79,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 113441.24,
+      "score": 21.7
+    },
+    {
+      "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
       "outcome": "No",
       "price": 0.94,
       "net_traders": 2,
@@ -39,201 +87,118 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 148774.73,
-      "score": 26.2
-    },
-    {
-      "market": "SC Verl vs. Hamburger SV: O/U 4.5",
-      "outcome": "Over",
-      "price": 0.39,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 52992.59,
-      "score": 25.2
-    },
-    {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 118048.89,
+      "liquidity_usd": 115271.51,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.95,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 116516.04,
+      "liquidity_usd": 146336.38,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "US Open, Qualification WTA: Rebeka Masarova vs Iryna Shymanovich",
-      "outcome": "Iryna Shymanovich",
-      "price": 0.55,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 378648.32,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Mark Lajal vs Jordan Lee",
-      "outcome": "Jordan Lee",
-      "price": 0.3,
+      "market": "US Open, Qualification ATP: Raul Brancaccio vs Thiago Seyboth Wild",
+      "outcome": "Thiago Seyboth Wild",
+      "price": 0.013,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 464796.08,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: GIANTX vs G2 Esports - Game 1 Winner",
-      "outcome": "G2 Esports",
-      "price": 0.21,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 201945.75,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Titouan Droguet vs Daniel Rincon",
-      "outcome": "Daniel Rincon",
-      "price": 0.34,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 389173.35,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Mark Lajal vs Jordan Lee",
-      "outcome": "Mark Lajal",
-      "price": 0.3,
-      "net_traders": -2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 464796.08,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Luka Pavlovic vs Juan Pablo Varillas",
-      "outcome": "Juan Pablo Varillas",
-      "price": 0.621,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 519617.01,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification WTA: Elina Avanesyan vs Andrea Lazaro Garcia",
-      "outcome": "Elina Avanesyan",
-      "price": 0.42,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 374175.31,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will VfL Wolfsburg win on 2026-08-24?",
-      "outcome": "Yes",
-      "price": 0.72,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 144881.93,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Hamburger SV (-1.5)",
-      "outcome": "Hamburger SV",
-      "price": 0.97,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 6391.84,
+      "liquidity_usd": 309826.74,
       "why_excluded": [
         "already decided (near-certain price)",
-        "thin book (<$10,000)",
-        "wide spread"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.53,
-      "net_traders": 1,
+      "market": "Kingston 2: Edward Winter vs Andres Andrade",
+      "outcome": "Edward Winter",
+      "price": 0.282,
+      "net_traders": 2,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 198433.5,
+      "liquidity_usd": 297602.31,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.48,
-      "net_traders": -1,
+      "market": "Winston-Salem Open: Martin Damm vs Abedallah Shelbayh",
+      "outcome": "Abedallah Shelbayh",
+      "price": 0.87,
+      "net_traders": 2,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 198433.5,
+      "liquidity_usd": 331653.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.012,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 257475.25,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "M\u00e1laga CF vs. RC Deportivo A Coru\u00f1a: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.28,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 11120.68,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Winston-Salem Open: Sebastian Gorzny vs Cruz Hewitt",
+      "outcome": "Sebastian Gorzny",
+      "price": 0.47,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 242625.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Colorado Rockies vs. Washington Nationals: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.48,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 308718.8,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -241,13 +206,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.899,
+      "price": 0.889,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63370.4,
+      "liquidity_usd": 63986.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,13 +220,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.88,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 78058.44,
+      "liquidity_usd": 190165.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -275,7 +240,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 233783.1,
+      "liquidity_usd": 271518.81,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -289,7 +254,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 90192.8,
+      "liquidity_usd": 83840.5,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -297,45 +262,31 @@
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.84,
+      "price": 0.83,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 55733.18,
+      "liquidity_usd": 40145.69,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open, Qualification WTA: Ayla Aksu vs Lucrezia Stefanini",
-      "outcome": "Lucrezia Stefanini",
-      "price": 0.07,
+      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 435553.09,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bologna FC 1909 vs. SS Lazio: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.14,
-      "net_traders": 0,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 121199.25,
+      "liquidity_usd": 141526.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-24T17:20:17.143314+00:00"
+  "source_report_generated_at": "2026-08-24T21:16:47.796106+00:00"
 }

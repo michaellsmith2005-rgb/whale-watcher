@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-24T17:20:17.143314+00:00 UTC*  
+*Generated: 2026-08-24T21:16:47.796106+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,57 +8,51 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **6581**
-- Unique markets represented: **4972**
+- Total open positions analyzed: **5989**
+- Unique markets represented: **4669**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. US Open, Qualification WTA: Rebeka Masarova vs Iryna Shymanovich
-- **Favored outcome:** Iryna Shymanovich
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $62,483.91
-- **Backers:** 0x076daa87, HomeRunHazard, OOOwhyOOO, RN1, ferrariChampions2026, quavoo, swisstony
-
-### 2. US Open, Qualification ATP: Mark Lajal vs Jordan Lee
-- **Favored outcome:** Jordan Lee
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $35,710.80
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, RN1, ferrariChampions2026, quavoo, swisstony
-
-### 3. LoL: GIANTX vs G2 Esports - Game 1 Winner
-- **Favored outcome:** G2 Esports
+### 1. US Open, Qualification ATP: Raul Brancaccio vs Thiago Seyboth Wild
+- **Favored outcome:** Thiago Seyboth Wild
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $40,415.12
-- **Backers:** 0x076daa87, 0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616, DoNotTailMe, SPCEXBUYER, Sunshine.Smile
+- **Total combined USD exposure:** $104,988.73
+- **Backers:** 0x076daa87, 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000, HomeRunHazard, RN1, swisstony
 
-### 4. US Open, Qualification ATP: Titouan Droguet vs Daniel Rincon
-- **Favored outcome:** Daniel Rincon
+### 2. Kingston 2: Edward Winter vs Andres Andrade
+- **Favored outcome:** Edward Winter
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $26,612.65
-- **Backers:** HomeRunHazard, RN1, ferrariChampions2026, quavoo, swisstony
+- **Total combined USD exposure:** $2,682.14
+- **Backers:** 00xaaxaxaxsasdasddasdjj233j2j32h4h35, 0x076daa87, HomeRunHazard, RN1, swisstony
 
-### 5. US Open, Qualification ATP: Mark Lajal vs Jordan Lee
-- **Favored outcome:** Mark Lajal
+### 3. Winston-Salem Open: Martin Damm vs Abedallah Shelbayh
+- **Favored outcome:** Abedallah Shelbayh
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $15,130.87
-- **Backers:** 0x076daa87, HomeRunHazard, RN1, ferrariChampions2026, swisstony
+- **Total combined USD exposure:** $2,140.32
+- **Backers:** 0x076daa87, HomeRunHazard, RN1, quavoo, swisstony
+
+### 4. US Open, Qualification ATP: Francesco Passaro vs Felix Gill
+- **Favored outcome:** Felix Gill
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $1,421.47
+- **Backers:** 0x076daa87, HomeRunHazard, RN1, quavoo, swisstony
+
+### 5. Will the Buffalo Bills win the 2027 NFL league championship?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $694.13
+- **Backers:** Mysaria, betterfasterstronger, donthackme, rainbowlilies, vitality-buterin
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| 2026 Balance of Power: D Senate, D House | No | 3 | $3,150,382.94 |
-| 2026 Balance of Power: D Senate, D House | Yes | 2 | $2,850,320.09 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $859,294.40 |
-| Will Bitcoin dip to $55,000 by December 31, 2026? | No | 2 | $557,137.01 |
-| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 1 | $513,099.89 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $853,043.24 |
+| Will Bitcoin dip to $55,000 by December 31, 2026? | No | 2 | $543,295.09 |
+| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 1 | $516,065.78 |
+| Will Bitcoin dip to $45,000 by December 31, 2026? | No | 1 | $384,868.56 |
+| Will Ethereum dip to $1,250 by December 31, 2026? | No | 1 | $372,173.67 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
-|---|---|---|---|---|---|
-| US Open, Qualification ATP: Mark Lajal vs Jordan Lee | Mark Lajal | 100 | 3 | 7.0% | 0.18 |
-| US Open, Qualification WTA: Ayla Aksu vs Lucrezia Stefanini | Lucrezia Stefanini | 64 | 3 | 4.5% | 0.19 |
-| US Open, Qualification WTA: Rebeka Masarova vs Iryna Shymanovich | Iryna Shymanovich | 59 | 3 | 4.4% | 0.17 |
-| Will Málaga CF win on 2026-08-24? | No | 50 | 3 | 3.7% | 0.17 |
-| Bologna FC 1909 vs. SS Lazio: O/U 2.5 | Under | 43 | 3 | 3.1% | 0.18 |
+_No markets met the conviction threshold._
