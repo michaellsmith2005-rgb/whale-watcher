@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-24T05:27:20.274022+00:00",
+  "generated_at_utc": "2026-08-24T13:40:53.873528+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1484,
+    "n": 1486,
     "excluded_certain": 116,
-    "win_rate": 0.5424528301886793,
-    "wr_lo": 0.5170280546390364,
-    "wr_hi": 0.5676583797233312,
-    "implied": 0.5177827493261455,
-    "edge_pts": 2.467008086253375,
-    "edge_lo_pts": -0.0754694687109092,
-    "edge_hi_pts": 4.987563039718568,
-    "brier": 0.27093705893531,
-    "roi_net": 0.5788560945575433,
+    "win_rate": 0.5430686406460296,
+    "wr_lo": 0.5176620994076385,
+    "wr_hi": 0.5682530743933883,
+    "implied": 0.518128936742934,
+    "edge_pts": 2.4939703903095523,
+    "edge_lo_pts": -0.04668373352955113,
+    "edge_hi_pts": 5.012413765045432,
+    "brier": 0.27064326746971734,
+    "roi_net": 0.5784467157013559,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,49 +22,37 @@
       "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
       "outcome": "Yes",
       "price": 0.09,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 247754.09,
+      "score": 57.2
+    },
+    {
+      "market": "Will Carolyn Rodrigues-Birkett be the next Secretary-General of the United Nations?",
+      "outcome": "Yes",
+      "price": 0.129,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 237012.93,
+      "liquidity_usd": 14219.19,
       "score": 53.7
     },
     {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "market": "Will the Cincinnati Bengals win the 2027 NFL league championship?",
       "outcome": "Yes",
-      "price": 0.22,
-      "net_traders": 3,
+      "price": 0.036,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 323215.31,
-      "score": 50.2
-    },
-    {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.51,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 192735.35,
-      "score": 45.4
-    },
-    {
-      "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.959,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 98045.57,
-      "score": 43.9
+      "liquidity_usd": 102853.13,
+      "score": 53.7
     },
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
@@ -72,23 +60,22 @@
       "price": 0.94,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 149294.22,
-      "score": 32.8
+      "liquidity_usd": 143617.21,
+      "score": 26.2
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.8,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 112202.23,
+      "liquidity_usd": 106507.62,
       "score": 21.7
     },
     {
@@ -100,11 +87,54 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155358.41,
+      "liquidity_usd": 153088.91,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Augsburg: Andrej Nedic vs Juan Estevez",
+      "outcome": "Juan Estevez",
+      "price": 0.048,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 413672.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Augsburg: Andrej Nedic vs Juan Estevez",
+      "outcome": "Andrej Nedic",
+      "price": 0.048,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 413672.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.012,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 258582.21,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
     {
       "market": "Boston Red Sox vs. New York Yankees",
       "outcome": "New York Yankees",
@@ -114,64 +144,49 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4136.73,
+      "liquidity_usd": 4168.63,
       "why_excluded": [
         "thin book (<$10,000)"
       ]
     },
     {
-      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.012,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 252976.38,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Carolyn Rodrigues-Birkett be the next Secretary-General of the United Nations?",
-      "outcome": "Yes",
-      "price": 0.194,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1696.33,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "LoL: DN SOOPers Challengers vs Kiwoom DRX Challengers - Game 1 Winner",
-      "outcome": "DN SOOPers Challengers",
-      "price": 0.82,
-      "net_traders": 1,
+      "market": "Augsburg: Marko Topo vs Miguel Damas",
+      "outcome": "Miguel Damas",
+      "price": 0.4,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 144508.46,
+      "liquidity_usd": 503031.15,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: DN SOOPers Challengers vs Kiwoom DRX Challengers (BO5) - LCK Challengers League Play-In",
-      "outcome": "DN SOOPers Challengers",
-      "price": 0.73,
+      "market": "Augsburg: Marko Topo vs Miguel Damas",
+      "outcome": "Marko Topo",
+      "price": 0.4,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 503031.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Augsburg: Sandro Kopp vs Eduardo Ribeiro",
+      "outcome": "Sandro Kopp",
+      "price": 0.68,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 172151.81,
+      "fresh": true,
+      "liquidity_usd": 426789.46,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -180,12 +195,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.53,
-      "net_traders": 0,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 156008.03,
+      "liquidity_usd": 150768.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,12 +209,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.48,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 156008.03,
+      "liquidity_usd": 150768.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -207,13 +222,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.9,
+      "price": 0.902,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 66597.6,
+      "liquidity_usd": 67329.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,13 +236,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.88,
+      "price": 0.89,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 115394.18,
+      "liquidity_usd": 111352.11,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,13 +250,13 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.92,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 202078.01,
+      "liquidity_usd": 210014.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +270,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 91158.89,
+      "liquidity_usd": 91042.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -263,17 +278,17 @@
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.85,
+      "price": 0.84,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 53675.81,
+      "liquidity_usd": 42696.58,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-24T05:27:12.125229+00:00"
+  "source_report_generated_at": "2026-08-24T13:40:41.110263+00:00"
 }
