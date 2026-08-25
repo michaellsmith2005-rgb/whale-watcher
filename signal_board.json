@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-25T05:21:53.356812+00:00",
+  "generated_at_utc": "2026-08-25T13:39:16.284914+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1514,
+    "n": 1525,
     "excluded_certain": 118,
-    "win_rate": 0.5416116248348745,
-    "wr_lo": 0.5164390127856914,
-    "wr_hi": 0.566573601969366,
-    "implied": 0.5156582562747688,
-    "edge_pts": 2.595336856010566,
-    "edge_lo_pts": 0.07807565109225756,
-    "edge_hi_pts": 5.091534569459721,
-    "brier": 0.2722051337252312,
-    "roi_net": 0.606351894247426,
+    "win_rate": 0.5416393442622951,
+    "wr_lo": 0.5165578799558616,
+    "wr_hi": 0.5665115498660377,
+    "implied": 0.5143780983606557,
+    "edge_pts": 2.7261245901639364,
+    "edge_lo_pts": 0.21797815952058208,
+    "edge_hi_pts": 5.213345150538196,
+    "brier": 0.27241926062950816,
+    "roi_net": 0.6078533878960359,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,8 +27,32 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 247415.33,
+      "liquidity_usd": 248567.07,
       "score": 57.2
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "Yes",
+      "price": 0.38,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 151273.03,
+      "score": 52.4
+    },
+    {
+      "market": "US Open, Qualification ATP: Yunchaokete Bu vs Rio Noguchi",
+      "outcome": "Rio Noguchi",
+      "price": 0.72,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 121111.05,
+      "score": 51.2
     },
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -39,19 +63,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 218580.89,
+      "liquidity_usd": 223675.59,
       "score": 45.4
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.8,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 146743.14,
+      "liquidity_usd": 158726.19,
       "score": 21.7
     },
     {
@@ -63,7 +87,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 122449.71,
+      "liquidity_usd": 127620.2,
       "score": 21.7
     },
     {
@@ -75,41 +99,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 149166.23,
+      "liquidity_usd": 155704.75,
       "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Pittsburgh Pirates vs. San Diego Padres",
-      "outcome": "San Diego Padres",
-      "price": 0.29,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 225972.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. San Diego Padres",
-      "outcome": "Pittsburgh Pirates",
-      "price": 0.29,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 225972.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
       "outcome": "Yes",
@@ -119,109 +113,105 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 259161.22,
+      "liquidity_usd": 265240.46,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Will Ntombi Mekgwe be the next mayor of Ekurhuleni?",
-      "outcome": "Yes",
-      "price": 0.67,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 71.73,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Monterrey Open: Diane Parry vs Donna Vekic",
-      "outcome": "Donna Vekic",
-      "price": 0.47,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 463223.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Monterrey Open: Diane Parry vs Donna Vekic",
-      "outcome": "Diane Parry",
-      "price": 0.47,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 463223.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. San Diego Padres: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.16,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 79545.01,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. San Diego Padres: O/U 6.5",
-      "outcome": "Under",
-      "price": 0.36,
+      "market": "Augsburg: Benjamin Hassan vs Juan Manuel La Serna",
+      "outcome": "Benjamin Hassan",
+      "price": 0.5,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 34406.8,
+      "liquidity_usd": 363027.05,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Pittsburgh Pirates vs. San Diego Padres: O/U 7.5",
-      "outcome": "Over",
-      "price": 0.16,
+      "market": "Augsburg: Petr Brunclik vs Daniel Masur",
+      "outcome": "Petr Brunclik",
+      "price": 0.39,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 79545.01,
+      "liquidity_usd": 356777.63,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
+      "market": "Augsburg: Raphael Perot vs Mika Brunold",
+      "outcome": "Raphael Perot",
+      "price": 0.46,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 239391.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Augsburg: Petr Brunclik vs Daniel Masur",
+      "outcome": "Daniel Masur",
+      "price": 0.39,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 356777.63,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Augsburg: Kai Wehnelt vs Nick Hardt",
+      "outcome": "Kai Wehnelt",
+      "price": 0.41,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 339595.14,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Tottenham win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.013,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 384104.06,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.864,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 65839.33,
+      "liquidity_usd": 97148.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -229,13 +219,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.87,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 201430.61,
+      "liquidity_usd": 201701.05,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -249,7 +239,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 279515.59,
+      "liquidity_usd": 380076.16,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -263,7 +253,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 85823.12,
+      "liquidity_usd": 92330.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -277,7 +267,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 42130.8,
+      "liquidity_usd": 50820.76,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -285,17 +275,17 @@
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.95,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 145611.47,
+      "liquidity_usd": 162698.64,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-25T05:21:44.713717+00:00"
+  "source_report_generated_at": "2026-08-25T13:39:04.100398+00:00"
 }
