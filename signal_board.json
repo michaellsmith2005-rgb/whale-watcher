@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-25T17:21:01.995430+00:00",
+  "generated_at_utc": "2026-08-25T21:15:25.777040+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1530,
+    "n": 1537,
     "excluded_certain": 118,
-    "win_rate": 0.5411764705882353,
-    "wr_lo": 0.5161353300108964,
-    "wr_hi": 0.5660113531928972,
-    "implied": 0.5141023529411765,
-    "edge_pts": 2.7074117647058804,
-    "edge_lo_pts": 0.20329770697199434,
-    "edge_hi_pts": 5.190900025172073,
-    "brier": 0.2724008316732026,
-    "roi_net": 0.60580362319987,
+    "win_rate": 0.5400130123617437,
+    "wr_lo": 0.5150272324284854,
+    "wr_hi": 0.5647992727749048,
+    "implied": 0.5138754716981132,
+    "edge_pts": 2.61375406636305,
+    "edge_lo_pts": 0.11517607303721533,
+    "edge_hi_pts": 5.092380107679162,
+    "brier": 0.27283524558230315,
+    "roi_net": 0.6036069807812059,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,67 +27,55 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 244254.13,
+      "liquidity_usd": 243429.65,
       "score": 57.2
-    },
-    {
-      "market": "US Open, Qualification ATP: Luka Mikrut vs Nikolas Sanchez Izquierdo",
-      "outcome": "Nikolas Sanchez Izquierdo",
-      "price": 0.62,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 228696.55,
-      "score": 50.2
     },
     {
       "market": "Chicago Cubs vs. Arizona Diamondbacks: O/U 8.5",
       "outcome": "Under",
-      "price": 0.49,
-      "net_traders": 3,
+      "price": 0.47,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 151974.49,
-      "score": 49.2
+      "liquidity_usd": 242426.73,
+      "score": 47.7
     },
     {
       "market": "Will Bitcoin dip to $60,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.77,
+      "price": 0.74,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 101563.64,
-      "score": 24.2
+      "liquidity_usd": 82165.32,
+      "score": 33.4
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.79,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 149372.51,
+      "liquidity_usd": 130399.59,
       "score": 21.7
     },
     {
       "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.92,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 120836.94,
+      "liquidity_usd": 120836.72,
       "score": 21.7
     },
     {
@@ -99,38 +87,80 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 153750.27,
+      "liquidity_usd": 153140.91,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Ofer Winter be the next Prime Minister of Israel?",
-      "outcome": "Yes",
-      "price": 0.02,
-      "net_traders": 7,
+      "market": "US Open, Qualification WTA: Alice Tubello vs Priscilla Hon",
+      "outcome": "Priscilla Hon",
+      "price": 0.22,
+      "net_traders": 0,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 19073.3,
+      "fresh": false,
+      "liquidity_usd": 259613.8,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "US Open, Qualification WTA: Laura Samson vs Tamara Zidansek",
-      "outcome": "Tamara Zidansek",
-      "price": 0.16,
+      "market": "Winston-Salem Open: Raphael Collignon vs Rinky Hijikata",
+      "outcome": "Rinky Hijikata",
+      "price": 0.62,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 387961.39,
+      "liquidity_usd": 343081.88,
       "why_excluded": [
         "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open, Qualification WTA: Darya Astakhova vs Marina Bassols Ribera",
+      "outcome": "Darya Astakhova",
+      "price": 0.29,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 439837.11,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open, Qualification WTA: Alice Tubello vs Priscilla Hon",
+      "outcome": "Alice Tubello",
+      "price": 0.22,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 259613.8,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ofer Winter be the next Prime Minister of Israel?",
+      "outcome": "Yes",
+      "price": 0.015,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 81624.89,
+      "why_excluded": [
+        "already decided (near-certain price)"
       ]
     },
     {
@@ -142,64 +172,35 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 261547.6,
+      "liquidity_usd": 252002.14,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "US Open, Qualification WTA: Laura Samson vs Tamara Zidansek",
-      "outcome": "Laura Samson",
-      "price": 0.16,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 387961.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Sabah FK win on 2026-08-25?",
-      "outcome": "No",
-      "price": 0.78,
+      "market": "Winston-Salem Open: Luca Van Assche vs Aleksandar Kovacevic",
+      "outcome": "Aleksandar Kovacevic",
+      "price": 0.27,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 123142.89,
+      "liquidity_usd": 468827.43,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open, Qualification ATP: Gauthier Onclin vs Vitaliy Sachko",
-      "outcome": "Gauthier Onclin",
-      "price": 0.8,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 191328.37,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Moise Kouame vs Nishesh Basavareddy",
-      "outcome": "Nishesh Basavareddy",
-      "price": 0.57,
+      "market": "US Open, Qualification WTA: Kristina Liutova vs Tatiana Prozorova",
+      "outcome": "Kristina Liutova",
+      "price": 0.86,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 543300.94,
+      "fresh": false,
+      "liquidity_usd": 470782.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -207,13 +208,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.889,
+      "price": 0.885,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 89025.71,
+      "liquidity_usd": 66969.17,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,13 +222,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.88,
+      "price": 0.85,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 218284.18,
+      "liquidity_usd": 189895.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -235,13 +236,13 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.91,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 373172.12,
+      "liquidity_usd": 349974.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +256,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 92586.76,
+      "liquidity_usd": 92414.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -263,13 +264,13 @@
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.86,
+      "price": 0.83,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 28360.24,
+      "liquidity_usd": 28349.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -283,11 +284,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 159891.03,
+      "liquidity_usd": 161589.84,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-25T17:20:52.804673+00:00"
+  "source_report_generated_at": "2026-08-25T21:15:11.925129+00:00"
 }
