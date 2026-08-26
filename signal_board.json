@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-26T05:21:13.279250+00:00",
+  "generated_at_utc": "2026-08-26T13:43:35.180487+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1544,
+    "n": 1553,
     "excluded_certain": 118,
-    "win_rate": 0.5401554404145078,
-    "wr_lo": 0.515226664670579,
-    "wr_hi": 0.5648848919641569,
-    "implied": 0.5136182642487046,
-    "edge_pts": 2.65371761658032,
-    "edge_lo_pts": 0.16084004218743786,
-    "edge_hi_pts": 5.126662771545232,
-    "brier": 0.2728652671373057,
-    "roi_net": 0.6033865166019122,
+    "win_rate": 0.5383129426915647,
+    "wr_lo": 0.5134539762511106,
+    "wr_hi": 0.562982830165162,
+    "implied": 0.5132598840952994,
+    "edge_pts": 2.5053058596265276,
+    "edge_lo_pts": 0.019409215581112083,
+    "edge_hi_pts": 4.97229460698626,
+    "brier": 0.27336303957501606,
+    "roi_net": 0.5989141125551757,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,8 +27,68 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 204425.11,
+      "liquidity_usd": 215281.27,
       "score": 57.2
+    },
+    {
+      "market": "Will Ethereum reach $2,600 in August?",
+      "outcome": "Yes",
+      "price": 0.397,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 47279.91,
+      "score": 50.2
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.51,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 178827.35,
+      "score": 45.4
+    },
+    {
+      "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.959,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 103351.82,
+      "score": 43.7
+    },
+    {
+      "market": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.71,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 76876.04,
+      "score": 39.7
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "Yes",
+      "price": 0.38,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 159372.74,
+      "score": 29.4
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
@@ -39,7 +99,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 117151.73,
+      "liquidity_usd": 122097.71,
       "score": 21.7
     },
     {
@@ -51,7 +111,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 99686.78,
+      "liquidity_usd": 114877.23,
       "score": 21.7
     },
     {
@@ -63,102 +123,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 121584.28,
+      "liquidity_usd": 134928.65,
       "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Chicago Cubs vs. Arizona Diamondbacks",
-      "outcome": "Chicago Cubs",
-      "price": 0.87,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3298.34,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Reds vs. San Francisco Giants: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.208,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 78431.84,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Chicago Cubs vs. Arizona Diamondbacks: O/U 8.5",
-      "outcome": "Under",
-      "price": 1.0,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5.04,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Cleveland Guardians vs. Los Angeles Angels",
-      "outcome": "Cleveland Guardians",
-      "price": 0.35,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 262647.47,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Minnesota Twins vs. Athletics: O/U 9.5",
-      "outcome": "Over",
-      "price": 0.37,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3978.72,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "Will Ofer Winter be the next Prime Minister of Israel?",
-      "outcome": "Yes",
-      "price": 0.018,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 86255.26,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
     {
       "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
       "outcome": "Yes",
@@ -168,57 +137,72 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 245163.91,
+      "liquidity_usd": 256337.93,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Cleveland Guardians vs. Los Angeles Angels",
-      "outcome": "Los Angeles Angels",
-      "price": 0.35,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 262647.47,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Reds vs. San Francisco Giants: O/U 7.5",
-      "outcome": "Over",
-      "price": 0.208,
-      "net_traders": -1,
+      "market": "Counter-Strike: Spirit vs DENDELE CS - Map 2 Winner",
+      "outcome": "DENDELE CS",
+      "price": 0.998,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 78431.84,
+      "liquidity_usd": 209393.26,
       "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.49,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 8992.1,
+      "why_excluded": [
+        "thin book (<$10,000)",
         "wide spread",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.884,
-      "net_traders": 0,
+      "market": "Will Ofer Winter be the next Prime Minister of Israel?",
+      "outcome": "Yes",
+      "price": 0.016,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 61190.98,
+      "fresh": true,
+      "liquidity_usd": 81008.36,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "market": "Will Tottenham win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.013,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 356321.87,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
       "price": 0.86,
       "net_traders": 0,
@@ -226,7 +210,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 182002.28,
+      "liquidity_usd": 67087.53,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.85,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 163448.98,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,7 +238,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 321983.21,
+      "liquidity_usd": 251929.19,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -254,7 +252,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 85932.18,
+      "liquidity_usd": 92206.8,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -262,13 +260,13 @@
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.8,
+      "price": 0.81,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 21553.55,
+      "liquidity_usd": 27056.52,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -276,17 +274,17 @@
     {
       "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.95,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155053.51,
+      "liquidity_usd": 161570.98,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-26T05:21:04.896243+00:00"
+  "source_report_generated_at": "2026-08-26T13:43:25.616954+00:00"
 }

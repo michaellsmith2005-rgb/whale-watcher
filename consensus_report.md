@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-26T05:21:04.896243+00:00 UTC*  
+*Generated: 2026-08-26T13:43:25.616954+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,48 +8,48 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **6077**
-- Unique markets represented: **4854**
+- Total open positions analyzed: **6175**
+- Unique markets represented: **4957**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Chicago Cubs vs. Arizona Diamondbacks
-- **Favored outcome:** Chicago Cubs
+### 1. Will the Buffalo Bills win the 2027 NFL league championship?
+- **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $257,006.67
-- **Backers:** 0x076daa87, Djdjdjekekek, HomeRunHazard, RN1, swisstony
+- **Total combined USD exposure:** $623.06
+- **Backers:** Mysaria, betterfasterstronger, donthackme, rainbowlilies, vitalik-buttring
 
-### 2. Cincinnati Reds vs. San Francisco Giants: O/U 7.5
-- **Favored outcome:** Under
+### 2. Will the Tampa Bay Buccaneers win the 2027 NFL league championship?
+- **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $22,057.34
-- **Backers:** HomeRunHazard, RN1, SDTrading, nigiri99, swisstony
+- **Total combined USD exposure:** $395.89
+- **Backers:** Mysaria, betterfasterstronger, donthackme, rainbowlilies, vitalik-buttring
 
-### 3. Chicago Cubs vs. Arizona Diamondbacks: O/U 8.5
-- **Favored outcome:** Under
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $18,160.74
-- **Backers:** 0x076daa87, HomeRunHazard, SDTrading, nigiri99, swisstony
+### 3. Counter-Strike: Spirit vs DENDELE CS - Map 2 Winner
+- **Favored outcome:** DENDELE CS
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $18,386.19
+- **Backers:** 0x99a093771ad58bcfc3023cd75566415f, Djdjdjekekek, JustADonk, nigiri99
 
-### 4. Cleveland Guardians vs. Los Angeles Angels
-- **Favored outcome:** Cleveland Guardians
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $14,750.70
-- **Backers:** 0x076daa87, HomeRunHazard, RN1, nigiri99, swisstony
-
-### 5. Minnesota Twins vs. Athletics: O/U 9.5
+### 4. Boston Red Sox vs. New York Yankees: O/U 8.5
 - **Favored outcome:** Over
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $3,158.32
-- **Backers:** HomeRunHazard, RN1, SDTrading, nigiri99, swisstony
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $3,263.90
+- **Backers:** HomeRunHazard, RN1, Talvez10, swisstony
+
+### 5. 2026 Balance of Power: R Senate, D House
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $1,166.81
+- **Backers:** balthazar, donthackme, e46m3, rainbowlilies
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $842,391.12 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $827,434.58 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 2 | $555,400.09 |
-| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 1 | $533,092.28 |
+| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 1 | $523,739.78 |
 | Will Bitcoin dip to $45,000 by December 31, 2026? | No | 1 | $382,753.90 |
 | Will Ethereum dip to $1,250 by December 31, 2026? | No | 1 | $372,173.67 |
 
@@ -57,5 +57,4 @@
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Will Ofer Winter be the next Prime Minister of Israel? | Yes | 100 | 4 | 9.3% | 0.40 |
-| Cleveland Guardians vs. Los Angeles Angels | Los Angeles Angels | 24 | 3 | 5.6% | 0.18 |
+| Will Ofer Winter be the next Prime Minister of Israel? | Yes | 100 | 3 | 10.1% | 0.40 |
