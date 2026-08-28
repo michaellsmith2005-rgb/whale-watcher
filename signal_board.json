@@ -1,206 +1,220 @@
 {
-  "generated_at_utc": "2026-08-27T15:56:38.285558+00:00",
+  "generated_at_utc": "2026-08-28T01:12:12.524668+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1567,
+    "n": 1571,
     "excluded_certain": 120,
-    "win_rate": 0.5379706445437141,
-    "wr_lo": 0.5132226699726743,
-    "wr_hi": 0.5625328995258672,
-    "implied": 0.513588130185067,
-    "edge_pts": 2.4382514358647134,
-    "edge_lo_pts": -0.036546021239269866,
-    "edge_hi_pts": 4.894476934080016,
-    "brier": 0.27402182543714104,
-    "roi_net": 0.595054795935411,
+    "win_rate": 0.5378739656269892,
+    "wr_lo": 0.5131574320183929,
+    "wr_hi": 0.5624057230316133,
+    "implied": 0.5144701464035646,
+    "edge_pts": 2.3403819223424605,
+    "edge_lo_pts": -0.1312714385171665,
+    "edge_hi_pts": 4.79355766280487,
+    "brier": 0.27434462155315087,
+    "roi_net": 0.5924616351796007,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.09,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 244373.48,
-      "score": 57.2
-    },
-    {
-      "market": "Will Ofer Winter be the next Prime Minister of Israel?",
-      "outcome": "Yes",
-      "price": 0.044,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 135061.19,
-      "score": 53.7
-    },
-    {
-      "market": "Will the New England Patriots win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.035,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 202244.81,
-      "score": 53.7
-    },
-    {
-      "market": "2026 Balance of Power: R Senate, D House",
-      "outcome": "Yes",
-      "price": 0.38,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 176589.0,
-      "score": 29.7
-    },
-    {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.8,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 115856.5,
+      "liquidity_usd": 115194.53,
       "score": 21.7
-    },
-    {
-      "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 127367.07,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 133295.85,
-      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Counter-Strike: Legacy vs FUT Esports (BO3) - BLAST Open Porto Group B",
-      "outcome": "Legacy",
-      "price": 0.88,
-      "net_traders": 1,
+      "market": "Los Angeles Dodgers vs. Atlanta Braves",
+      "outcome": "Atlanta Braves",
+      "price": 0.16,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 194288.02,
+      "liquidity_usd": 283964.39,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.012,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 249849.85,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Counter-Strike: Legacy vs FUT Esports (BO3) - BLAST Open Porto Group B",
-      "outcome": "FUT Esports",
-      "price": 0.88,
-      "net_traders": -1,
+      "market": "Los Angeles Dodgers vs. Atlanta Braves",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.16,
+      "net_traders": -2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 194288.02,
+      "liquidity_usd": 283964.39,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Apple be the second-largest company in the world by market cap on August 31?",
-      "outcome": "Yes",
-      "price": 0.987,
-      "net_traders": 4,
+      "market": "US Open, Qualification ATP: Jacob Fearnley vs Jurij Rodionov",
+      "outcome": "Jurij Rodionov",
+      "price": 0.55,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 22507.32,
+      "liquidity_usd": 32243.79,
       "why_excluded": [
-        "already decided (near-certain price)"
+        "cohort on both sides"
       ]
     },
     {
-      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.5,
-      "net_traders": 1,
+      "market": "US Open, Qualification WTA: Mariam Bolkvadze vs Anouk Koevermans",
+      "outcome": "Mariam Bolkvadze",
+      "price": 0.23,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 9178.19,
+      "liquidity_usd": 1197.22,
       "why_excluded": [
         "thin book (<$10,000)",
-        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open, Qualification ATP: Vilius Gaubas vs Harry Wendelken",
+      "outcome": "Vilius Gaubas",
+      "price": 0.73,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 30368.95,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Boston Red Sox vs. New York Yankees",
       "outcome": "New York Yankees",
-      "price": 0.51,
-      "net_traders": 4,
+      "price": 0.49,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 4209.62,
+      "fresh": false,
+      "liquidity_usd": 5207.27,
       "why_excluded": [
         "thin book (<$10,000)"
       ]
     },
     {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "market": "US Open, Qualification WTA: Qinwen Zheng vs Elena Pridankina",
+      "outcome": "Elena Pridankina",
+      "price": 0.75,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 7426.64,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Milwaukee Brewers vs. New York Mets",
+      "outcome": "New York Mets",
+      "price": 0.965,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 254599.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Winston-Salem Open: Arthur Fery vs Aleksandar Kovacevic",
+      "outcome": "Aleksandar Kovacevic",
+      "price": 0.3,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 407142.54,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open, Qualification ATP: Jacob Fearnley vs Jurij Rodionov",
+      "outcome": "Jacob Fearnley",
+      "price": 0.55,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 32243.79,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.867,
+      "price": 0.51,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 71550.65,
+      "liquidity_usd": 165672.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 165672.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.862,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 60631.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,27 +222,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.88,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 193572.89,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FC Barcelona win on 2026-08-27?",
-      "outcome": "Yes",
-      "price": 0.8,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1358886.06,
+      "liquidity_usd": 192965.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -242,7 +242,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 433551.57,
+      "liquidity_usd": 433932.93,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -256,7 +256,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 91059.77,
+      "liquidity_usd": 91068.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -264,17 +264,31 @@
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.82,
+      "price": 0.83,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 40366.28,
+      "liquidity_usd": 40000.25,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Houston Astros vs. New York Yankees",
+      "outcome": "Houston Astros",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 316201.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-27T15:56:26.010134+00:00"
+  "source_report_generated_at": "2026-08-28T01:12:03.394407+00:00"
 }
