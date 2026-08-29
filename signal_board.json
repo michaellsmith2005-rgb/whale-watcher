@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-28T16:58:32.380340+00:00",
+  "generated_at_utc": "2026-08-29T00:50:00.078982+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 1583,
+    "n": 1595,
     "excluded_certain": 120,
-    "win_rate": 0.5369551484523057,
-    "wr_lo": 0.5123314379458079,
-    "wr_hi": 0.5613999288144282,
-    "implied": 0.5137508528111181,
-    "edge_pts": 2.3204295641187644,
-    "edge_lo_pts": -0.14194148653101646,
-    "edge_hi_pts": 4.764907600331014,
-    "brier": 0.2749950255590651,
-    "roi_net": 0.5939412547005386,
+    "win_rate": 0.5366771159874608,
+    "wr_lo": 0.5121459858950099,
+    "wr_hi": 0.5610319949631313,
+    "implied": 0.5128135423197492,
+    "edge_pts": 2.3863573667711635,
+    "edge_lo_pts": -0.06675564247392574,
+    "edge_hi_pts": 4.82184526433821,
+    "brier": 0.27580540781191226,
+    "roi_net": 0.6009508622185402,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,64 +27,32 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 280133.78,
-      "score": 51.9
+      "liquidity_usd": 573145.48,
+      "score": 52.7
     },
     {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.79,
-      "net_traders": 2,
+      "market": "Baltimore Orioles vs. Athletics",
+      "outcome": "Baltimore Orioles",
+      "price": 0.52,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 116923.43,
-      "score": 21.7
+      "liquidity_usd": 860596.48,
+      "score": 52.4
     },
     {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 1,
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "Boston Red Sox",
+      "price": 0.28,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 145840.14,
-      "score": 18.2
-    }
-  ],
-  "excluded": [
-    {
-      "market": "US Open, Qualification ATP: Vilius Gaubas vs Harry Wendelken",
-      "outcome": "Harry Wendelken",
-      "price": 0.1,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 298488.66,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Vilius Gaubas vs Harry Wendelken",
-      "outcome": "Vilius Gaubas",
-      "price": 0.1,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 298488.66,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
+      "liquidity_usd": 354366.47,
+      "score": 50.2
     },
     {
       "market": "Boston Red Sox vs. New York Yankees",
@@ -95,93 +63,129 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 6734.61,
-      "why_excluded": [
-        "thin book (<$10,000)"
-      ]
+      "liquidity_usd": 18417.18,
+      "score": 39.9
     },
     {
-      "market": "US Open, Qualification WTA: Susan Bandecchi vs Arantxa Rus",
-      "outcome": "Arantxa Rus",
-      "price": 0.21,
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.78,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 115634.79,
+      "score": 21.7
+    },
+    {
+      "market": "Pittsburgh Pirates vs. St. Louis Cardinals: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.19,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 141583.92,
+      "score": 21.7
+    },
+    {
+      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 115681.72,
+      "score": 18.2
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Texas Rangers vs. Milwaukee Brewers",
+      "outcome": "Milwaukee Brewers",
+      "price": 0.25,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 396651.15,
+      "liquidity_usd": 245911.97,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open, Qualification ATP: Dalibor Svrcina vs Mackenzie McDonald",
-      "outcome": "Mackenzie McDonald",
-      "price": 0.86,
+      "market": "Kingston 2: Aidan Mayo vs Luis Guto Miguel",
+      "outcome": "Aidan Mayo",
+      "price": 0.68,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 416967.72,
+      "fresh": false,
+      "liquidity_usd": 492207.0,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open, Qualification ATP: Kei Nishikori vs Rei Sakamoto",
-      "outcome": "Kei Nishikori",
-      "price": 0.19,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 478255.3,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: Team Vitality vs Fnatic - Game 1 Winner",
-      "outcome": "Fnatic",
-      "price": 0.56,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 205533.63,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Real Racing Club win on 2026-08-28?",
-      "outcome": "Yes",
-      "price": 0.5,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 479579.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open, Qualification ATP: Zsombor Piros vs Christopher O'Connell",
-      "outcome": "Christopher O'Connell",
-      "price": 0.41,
+      "market": "Pittsburgh Pirates vs. St. Louis Cardinals: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.27,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 144038.94,
+      "liquidity_usd": 134582.61,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Monterrey Open: Diane Parry vs Ann Li",
+      "outcome": "Diane Parry",
+      "price": 0.64,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 562698.73,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Kansas City Royals vs. Cleveland Guardians",
+      "outcome": "Cleveland Guardians",
+      "price": 0.66,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 409228.27,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Los Angeles Dodgers vs. Detroit Tigers",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.63,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 292536.51,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -195,7 +199,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 186016.76,
+      "liquidity_usd": 233530.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -209,7 +213,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 186016.76,
+      "liquidity_usd": 233530.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,13 +221,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.865,
+      "price": 0.847,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 59234.82,
+      "liquidity_usd": 53384.56,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,13 +235,13 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.88,
+      "price": 0.84,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 186395.43,
+      "liquidity_usd": 173022.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,7 +255,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 379183.32,
+      "liquidity_usd": 359656.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -265,7 +269,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96376.6,
+      "liquidity_usd": 85241.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -273,17 +277,17 @@
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.8,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 40440.97,
+      "liquidity_usd": 18925.35,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-28T16:58:22.495523+00:00"
+  "source_report_generated_at": "2026-08-29T00:49:46.616245+00:00"
 }
