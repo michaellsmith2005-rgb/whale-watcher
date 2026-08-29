@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-08-29T00:50:00.078982+00:00",
-  "status": "EXPERIMENTAL \u2014 no verified edge yet",
-  "edge_detected": false,
+  "generated_at_utc": "2026-08-29T11:24:08.157260+00:00",
+  "status": "VALIDATED EDGE",
+  "edge_detected": true,
   "track_record": {
-    "n": 1595,
+    "n": 1606,
     "excluded_certain": 120,
-    "win_rate": 0.5366771159874608,
-    "wr_lo": 0.5121459858950099,
-    "wr_hi": 0.5610319949631313,
-    "implied": 0.5128135423197492,
-    "edge_pts": 2.3863573667711635,
-    "edge_lo_pts": -0.06675564247392574,
-    "edge_hi_pts": 4.82184526433821,
-    "brier": 0.27580540781191226,
-    "roi_net": 0.6009508622185402,
+    "win_rate": 0.5386052303860523,
+    "wr_lo": 0.5141608486368271,
+    "wr_hi": 0.5628653631345671,
+    "implied": 0.5124331257783312,
+    "edge_pts": 2.6172104607721125,
+    "edge_lo_pts": 0.17277228584958726,
+    "edge_hi_pts": 5.043223735623592,
+    "brier": 0.2761126559526775,
+    "roi_net": 0.6052759385344884,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,50 +21,51 @@
     {
       "market": "Will Coventry City FC win on 2026-08-29?",
       "outcome": "Yes",
-      "price": 0.54,
+      "price": 0.55,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 573145.48,
-      "score": 52.7
+      "liquidity_usd": 615664.2,
+      "score": 50.4
     },
     {
-      "market": "Baltimore Orioles vs. Athletics",
-      "outcome": "Baltimore Orioles",
-      "price": 0.52,
+      "market": "Will Liverpool FC win on 2026-08-29?",
+      "outcome": "No",
+      "price": 0.35,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 860596.48,
-      "score": 52.4
+      "liquidity_usd": 1955515.17,
+      "score": 46.7
     },
     {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "Boston Red Sox",
-      "price": 0.28,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 354366.47,
-      "score": 50.2
-    },
-    {
-      "market": "Boston Red Sox vs. New York Yankees",
-      "outcome": "New York Yankees",
-      "price": 0.47,
+      "market": "Augsburg: Facundo Mena vs Cezar Cretu",
+      "outcome": "Facundo Mena",
+      "price": 0.42,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 18417.18,
-      "score": 39.9
+      "liquidity_usd": 315992.5,
+      "score": 45.9
+    },
+    {
+      "market": "LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs",
+      "outcome": "LGD Gaming",
+      "price": 0.23,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 350115.02,
+      "score": 35.3
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
@@ -75,117 +76,92 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 115634.79,
+      "liquidity_usd": 125354.87,
       "score": 21.7
-    },
-    {
-      "market": "Pittsburgh Pirates vs. St. Louis Cardinals: O/U 8.5",
-      "outcome": "Under",
-      "price": 0.19,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 141583.92,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 115681.72,
-      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Texas Rangers vs. Milwaukee Brewers",
-      "outcome": "Milwaukee Brewers",
-      "price": 0.25,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 245911.97,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Kingston 2: Aidan Mayo vs Luis Guto Miguel",
-      "outcome": "Aidan Mayo",
-      "price": 0.68,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 492207.0,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pittsburgh Pirates vs. St. Louis Cardinals: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.27,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 134582.61,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Monterrey Open: Diane Parry vs Ann Li",
-      "outcome": "Diane Parry",
-      "price": 0.64,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 562698.73,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Kansas City Royals vs. Cleveland Guardians",
-      "outcome": "Cleveland Guardians",
-      "price": 0.66,
+      "market": "Boston Red Sox vs. New York Yankees: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.47,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 409228.27,
+      "liquidity_usd": 20886.82,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Los Angeles Dodgers vs. Detroit Tigers",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.63,
-      "net_traders": 0,
+      "market": "LoL: Top Esports vs LGD Gaming - Game 3 Winner",
+      "outcome": "LGD Gaming",
+      "price": 0.56,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 236822.69,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: T1 vs BNK FEARX (BO5) - LCK Playoffs",
+      "outcome": "BNK FEARX",
+      "price": 0.67,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 292536.51,
+      "liquidity_usd": 247565.53,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: T1 vs BNK FEARX - Game 4 Winner",
+      "outcome": "T1",
+      "price": 0.93,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 253572.62,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Liverpool FC (-1.5)",
+      "outcome": "Liverpool FC",
+      "price": 0.42,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1142618.87,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Boston Red Sox vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.48,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 205999.5,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -199,7 +175,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 233530.56,
+      "liquidity_usd": 182825.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -213,7 +189,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 233530.56,
+      "liquidity_usd": 182825.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,13 +197,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.847,
+      "price": 0.845,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 53384.56,
+      "liquidity_usd": 59937.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -241,7 +217,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 173022.06,
+      "liquidity_usd": 182847.75,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Liverpool FC win on 2026-08-29?",
+      "outcome": "Yes",
+      "price": 0.66,
+      "net_traders": -4,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1955515.17,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +245,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 359656.13,
+      "liquidity_usd": 370650.85,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -269,7 +259,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 85241.24,
+      "liquidity_usd": 90646.25,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -283,11 +273,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 18925.35,
+      "liquidity_usd": 23925.97,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-29T00:49:46.616245+00:00"
+  "source_report_generated_at": "2026-08-29T11:23:54.144388+00:00"
 }
