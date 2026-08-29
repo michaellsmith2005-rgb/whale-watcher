@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-08-29T11:23:54.144388+00:00 UTC*  
+*Generated: 2026-08-29T16:54:44.114909+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **5993**
-- Unique markets represented: **4869**
+- Total open positions analyzed: **6093**
+- Unique markets represented: **4878**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will Liverpool FC win on 2026-08-29?
-- **Favored outcome:** No
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $38,783.52
-- **Backers:** 0x076daa87, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, nigiri99, plonker2026, swisstony
+### 1. Will BV Borussia 09 Dortmund win on 2026-08-29?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $481,748.85
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, RN1, ferrariChampions2026, nigiri99, ripley86alien
 
-### 2. LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs
-- **Favored outcome:** LGD Gaming
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $546,130.60
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x7A3f9C2D8b41E6a570F2c93B1d4E8A, 0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616, SPCEXBUYER, ferrariChampions2026, nigiri99
+### 2. Boston Red Sox vs. New York Yankees: O/U 7.5
+- **Favored outcome:** Under
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $32,093.86
+- **Backers:** HomeRunHazard, RN1, balthazar, e46m3, nigiri99
 
 ### 3. Boston Red Sox vs. New York Yankees: O/U 8.5
 - **Favored outcome:** Over
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $4,128.40
+- **Total combined USD exposure:** $5,005.86
 - **Backers:** HomeRunHazard, RN1, Talvez10, nigiri99, swisstony
 
-### 4. Will Coventry City FC win on 2026-08-29?
-- **Favored outcome:** Yes
+### 4. Counter-Strike: Legacy vs Team Falcons (BO3) - BLAST Open Porto Group B
+- **Favored outcome:** Team Falcons
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $94,931.38
-- **Backers:** 0x076daa87, nigiri99, plonker2026, swisstony
+- **Total combined USD exposure:** $255,992.02
+- **Backers:** 0x29b52d98ac9ef9414b04164246c95BC63d7, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x7A3f9C2D8b41E6a570F2c93B1d4E8A, ferrariChampions2026
 
-### 5. LoL: Top Esports vs LGD Gaming - Game 3 Winner
-- **Favored outcome:** LGD Gaming
+### 5. Los Angeles Dodgers vs. Detroit Tigers: O/U 7.5
+- **Favored outcome:** Under
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $55,213.55
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x7A3f9C2D8b41E6a570F2c93B1d4E8A, 0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616, ferrariChampions2026
+- **Total combined USD exposure:** $113,690.22
+- **Backers:** HomeRunHazard, RN1, ferrariChampions2026, nigiri99
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -49,12 +49,10 @@
 |---|---|---|---|
 | 2026 Balance of Power: D Senate, D House | No | 2 | $3,030,115.86 |
 | 2026 Balance of Power: D Senate, D House | Yes | 2 | $2,974,499.67 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $808,205.74 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $807,956.55 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 2 | $556,209.52 |
-| LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs | LGD Gaming | 6 | $546,130.60 |
+| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 1 | $520,622.28 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
-|---|---|---|---|---|---|
-| Spread: Liverpool FC (-1.5) | Liverpool FC | 100 | 3 | 4.0% | 0.19 |
+_No markets met the conviction threshold._
