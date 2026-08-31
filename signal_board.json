@@ -1,94 +1,71 @@
 {
-  "generated_at_utc": "2026-08-31T11:11:36.129239+00:00",
-  "status": "EXPERIMENTAL \u2014 no verified edge yet",
-  "edge_detected": false,
+  "generated_at_utc": "2026-08-31T19:17:00.011034+00:00",
+  "status": "VALIDATED EDGE",
+  "edge_detected": true,
   "track_record": {
-    "n": 1673,
+    "n": 1675,
     "excluded_certain": 123,
-    "win_rate": 0.5361625821876868,
-    "wr_lo": 0.5122102079061635,
-    "wr_hi": 0.5599492614199792,
-    "implied": 0.5122155409444112,
-    "edge_pts": 2.3947041243275513,
-    "edge_lo_pts": -0.0005333038247790078,
-    "edge_hi_pts": 4.773372047556801,
-    "brier": 0.274947284196055,
-    "roi_net": 0.5835246890984394,
+    "win_rate": 0.5367164179104478,
+    "wr_lo": 0.5127790287713895,
+    "wr_hi": 0.5604857747693376,
+    "implied": 0.5117233432835822,
+    "edge_pts": 2.499307462686562,
+    "edge_lo_pts": 0.1055685487807323,
+    "edge_hi_pts": 4.8762431485755435,
+    "brier": 0.27558615311044776,
+    "roi_net": 0.5935503312607099,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "2026 Balance of Power: R Senate, D House",
+      "market": "Will Rafael Jodar win the 2026 Men's US Open?",
       "outcome": "Yes",
-      "price": 0.36,
-      "net_traders": 3,
+      "price": 0.058,
+      "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 168233.61,
-      "score": 50.2
+      "liquidity_usd": 41145.55,
+      "score": 64.2
     },
     {
-      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "market": "Will Felix Auger Aliassime win the 2026 Men's US Open?",
       "outcome": "Yes",
-      "price": 0.71,
-      "net_traders": 3,
+      "price": 0.038,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 42238.87,
+      "score": 53.7
+    },
+    {
+      "market": "Will Taylor Fritz win the 2026 Men's US Open?",
+      "outcome": "Yes",
+      "price": 0.08,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 242963.79,
-      "score": 47.4
+      "liquidity_usd": 46688.19,
+      "score": 50.7
     },
     {
-      "market": "Will Arsenal FC win on 2026-08-31?",
-      "outcome": "No",
-      "price": 0.37,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 602744.47,
-      "score": 46.7
-    },
-    {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.5,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 171663.17,
-      "score": 46.7
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.254,
-      "net_traders": 2,
+      "price": 0.886,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 334691.34,
-      "score": 46.7
-    },
-    {
-      "market": "Will Bitcoin dip to $30,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.959,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 71008.32,
-      "score": 43.2
+      "liquidity_usd": 391122.37,
+      "score": 37.3
     },
     {
       "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
@@ -99,86 +76,127 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 90115.24,
+      "liquidity_usd": 87669.88,
       "score": 28.7
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.57,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 379466.9,
+      "score": 21.7
+    },
+    {
+      "market": "Will CA Osasuna win on 2026-08-31?",
+      "outcome": "Yes",
+      "price": 0.83,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 69696.95,
+      "score": 21.7
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.78,
+      "price": 0.79,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 99463.27,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 96280.82,
-      "score": 21.7
-    },
-    {
-      "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 171466.87,
+      "liquidity_usd": 107906.57,
       "score": 21.7
     }
   ],
   "excluded": [
     {
+      "market": "Will Brandon Nakashima win the 2026 Men's US Open?",
+      "outcome": "Yes",
+      "price": 0.022,
+      "net_traders": 7,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 23845.26,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Alex de Minaur win the 2026 Men's US Open?",
+      "outcome": "Yes",
+      "price": 0.02,
+      "net_traders": 7,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 59429.58,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Stefanos Tsitsipas win the 2026 Men's US Open?",
+      "outcome": "Yes",
+      "price": 0.012,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 87267.93,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will Arsenal FC win on 2026-08-31?",
+      "outcome": "No",
+      "price": 0.35,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 116170.48,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
       "market": "US Open ATP: Martin Landaluce vs Jacob Fearnley",
       "outcome": "Jacob Fearnley",
-      "price": 0.7,
+      "price": 0.72,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 20494.83,
+      "liquidity_usd": 103720.38,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Thiago Agustin Tirante vs Adrian Mannarino",
-      "outcome": "Adrian Mannarino",
-      "price": 0.1,
-      "net_traders": 1,
+      "market": "Will Arsenal FC win on 2026-08-31?",
+      "outcome": "Yes",
+      "price": 0.66,
+      "net_traders": -1,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 57068.35,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 494403.58,
+      "fresh": true,
+      "liquidity_usd": 116170.48,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -186,13 +204,13 @@
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.854,
+      "price": 0.855,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 73782.51,
+      "liquidity_usd": 59012.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -200,13 +218,28 @@
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.86,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 159923.77,
+      "liquidity_usd": 207564.86,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: FUT Esports vs Vitality (BO3) - BLAST Open Porto Group B",
+      "outcome": "Vitality",
+      "price": 0.18,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 55685.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -220,7 +253,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 358077.81,
+      "liquidity_usd": 403012.01,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -228,45 +261,17 @@
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.9,
+      "price": 0.92,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63604.1,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.78,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 17431.31,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $35,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 224440.61,
+      "liquidity_usd": 44232.04,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-08-31T11:11:20.102702+00:00"
+  "source_report_generated_at": "2026-08-31T19:16:49.372085+00:00"
 }
