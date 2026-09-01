@@ -1,13 +1,13 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  1991 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-09-01T17:00)
+  1996 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-09-01T19:45)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 1700   |   still pending: 167
+  Resolved & graded: 1700   |   still pending: 171
 
     graded calls     : 1700
-    excluded         : 124 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
+    excluded         : 125 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
     win rate         : 53.7%   (95% CI 51.3–56.1%)
     implied (price)  : 51.2%   <- what you'd have paid
     edge vs price    : +2.5 pts  (95% CI +0.2 to +4.9)
@@ -22,17 +22,17 @@ FORWARD REPLAY — grading past consensus calls against true resolutions
   Cohorts below use unique markets only (1301 of 1700 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=243 win  53.9%  paid  56.5%  edge  -2.6 pts
-    conflicted (both sides)   : n=998 win  53.8%  paid  49.8%  edge  +4.0 pts
+    clean (one-sided cohort)  : n=242 win  54.5%  paid  56.6%  edge  -2.1 pts
+    conflicted (both sides)   : n=999 win  53.7%  paid  49.8%  edge  +3.8 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=558 win  41.0%  paid  48.1%  edge  -7.0 pts
-    late (past crowd's entry) : n=739 win  62.7%  paid  53.1%  edge  +9.6 pts
+    fresh (≤ crowd's entry)   : n=558 win  40.9%  paid  48.0%  edge  -7.1 pts
+    late (past crowd's entry) : n=739 win  62.8%  paid  53.0%  edge  +9.7 pts
 
   By Vegas confirmation (vegas prob vs price paid):
-    vegas agrees (≥ +1 pt)    : n=2   win  50.0%  paid  15.0%  edge +35.0 pts
-    vegas neutral             : n=8   win  25.0%  paid  33.5%  edge  -8.5 pts
-    vegas disagrees           : n=3   win  33.3%  paid  87.0%  edge -53.7 pts
+    vegas agrees (≥ +1 pt)    : n=3   win  33.3%  paid  25.3%  edge  +8.0 pts
+    vegas neutral             : n=8   win  25.0%  paid  29.9%  edge  -4.9 pts
+    vegas disagrees           : n=1   win 100.0%  paid  93.0%  edge  +7.0 pts
 
   ⚠️  Small samples lie. Treat this as directional until you have many dozens
       of graded calls spanning different events.
