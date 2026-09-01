@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-01T09:38:21.629382+00:00",
+  "generated_at_utc": "2026-09-01T17:01:11.665252+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1696,
+    "n": 1700,
     "excluded_certain": 124,
-    "win_rate": 0.5365566037735849,
-    "wr_lo": 0.5127678599396593,
-    "wr_hi": 0.5601801135656367,
-    "implied": 0.5112432783018869,
-    "edge_pts": 2.5313325471698067,
-    "edge_lo_pts": 0.15245816377724708,
-    "edge_hi_pts": 4.893683526374981,
-    "brier": 0.2748404719693396,
-    "roi_net": 0.5893629368730322,
+    "win_rate": 0.5370588235294118,
+    "wr_lo": 0.5132987409881609,
+    "wr_hi": 0.5606517952588705,
+    "implied": 0.511593294117647,
+    "edge_pts": 2.546552941176483,
+    "edge_lo_pts": 0.17054468705138826,
+    "edge_hi_pts": 4.905850114122357,
+    "brier": 0.27469437674117647,
+    "roi_net": 0.5884283995029211,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,88 +22,76 @@
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
       "price": 0.56,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 356184.65,
+      "score": 63.8
+    },
+    {
+      "market": "Will Anthropic's valuation hit (HIGH) $3.0T by December 31?",
+      "outcome": "No",
+      "price": 0.75,
       "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 425899.59,
+      "liquidity_usd": 15760.51,
       "score": 50.2
-    },
-    {
-      "market": "US Open ATP: Dane Sweeny vs Corentin Moutet",
-      "outcome": "Corentin Moutet",
-      "price": 0.29,
-      "net_traders": 2,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 81062.1,
-      "score": 46.0
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.58,
-      "net_traders": 4,
+      "price": 0.6,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 602128.04,
-      "score": 41.8
+      "liquidity_usd": 531385.03,
+      "score": 45.7
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
       "price": 0.89,
-      "net_traders": 4,
+      "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 308436.43,
-      "score": 37.3
+      "liquidity_usd": 244026.02,
+      "score": 44.1
     },
     {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.8,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 22218.51,
-      "score": 34.9
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.521,
-      "net_traders": 3,
+      "price": 0.641,
+      "net_traders": 5,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 335709.22,
-      "score": 31.8
+      "liquidity_usd": 170043.32,
+      "score": 32.2
     },
     {
       "market": "Fed Rate Hike by September 2026 Meeting?",
       "outcome": "Yes",
-      "price": 0.56,
+      "price": 0.59,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 141369.04,
+      "liquidity_usd": 116953.13,
       "score": 28.7
     },
     {
@@ -115,87 +103,22 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 756816.35,
+      "liquidity_usd": 761003.22,
       "score": 25.2
-    },
-    {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 462577.32,
-      "score": 21.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 206249.68,
-      "score": 21.7
     }
   ],
   "excluded": [
     {
-      "market": "LoL: Gen.G vs KT Rolster - Game 2 Winner",
-      "outcome": "Gen.G",
-      "price": 0.65,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 26171.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: Gen.G vs KT Rolster - Game 2 Winner",
-      "outcome": "KT Rolster",
-      "price": 0.65,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 26171.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: Gen.G vs KT Rolster (BO5) - LCK Playoffs",
-      "outcome": "Gen.G",
-      "price": 0.88,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.251,
       "net_traders": 2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 50073.14,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Game Handicap: GEN (-2.5) vs KT Rolster (+2.5)",
-      "outcome": "Gen.G",
-      "price": 0.46,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 14556.3,
+      "fresh": true,
+      "liquidity_usd": 444719.66,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -203,17 +126,118 @@
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.41,
+      "price": 0.4,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 497803.0,
+      "liquidity_usd": 396081.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Julian Alvarez stay at Atletico Madrid?",
+      "outcome": "Yes",
+      "price": 0.977,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 6708.28,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "thin book (<$10,000)"
+      ]
+    },
+    {
+      "market": "US Open WTA: Madison Keys vs Alina Korneeva",
+      "outcome": "Madison Keys",
+      "price": 0.971,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 194708.84,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.75,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 444719.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "No",
+      "price": 0.61,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 396081.12,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
+      "outcome": "No",
+      "price": 0.908,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 17754.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Francisco Comesana vs Flavio Cobolli",
+      "outcome": "Francisco Comesana",
+      "price": 0.68,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 118593.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Dane Sweeny vs Corentin Moutet",
+      "outcome": "Dane Sweeny",
+      "price": 0.34,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 96372.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-01T09:38:09.625383+00:00"
+  "source_report_generated_at": "2026-09-01T17:00:59.038543+00:00"
 }
