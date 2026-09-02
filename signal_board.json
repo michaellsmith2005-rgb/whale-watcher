@@ -1,218 +1,148 @@
 {
-  "generated_at_utc": "2026-09-01T22:52:48.207153+00:00",
+  "generated_at_utc": "2026-09-02T09:08:58.927056+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1705,
-    "excluded_certain": 125,
-    "win_rate": 0.5366568914956011,
-    "wr_lo": 0.5129312156143383,
-    "wr_hi": 0.5602177526692053,
-    "implied": 0.5114009384164223,
-    "edge_pts": 2.525595307917883,
-    "edge_lo_pts": 0.15302771979159857,
-    "edge_hi_pts": 4.881681425278295,
-    "brier": 0.2749814313548387,
-    "roi_net": 0.59424847338436,
+    "n": 1714,
+    "excluded_certain": 126,
+    "win_rate": 0.5367561260210035,
+    "wr_lo": 0.5130930218266977,
+    "wr_hi": 0.5602548351584865,
+    "implied": 0.5107984830805135,
+    "edge_pts": 2.5957642940490078,
+    "edge_lo_pts": 0.22945387461842381,
+    "edge_hi_pts": 4.945635207797306,
+    "brier": 0.27516536782963824,
+    "roi_net": 0.5948408397710971,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.56,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 321633.32,
-      "score": 60.3
-    },
-    {
-      "market": "Will Manchester City FC win on 2026-09-05?",
-      "outcome": "No",
-      "price": 0.17,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 111334.23,
-      "score": 53.7
-    },
-    {
-      "market": "Will Anthropic's valuation hit (HIGH) $3.0T by December 31?",
-      "outcome": "No",
-      "price": 0.74,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 13430.44,
-      "score": 50.2
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.89,
-      "net_traders": 5,
+      "market": "LoL: Hanwha Life Esports vs T1 - Game 2 Winner",
+      "outcome": "T1",
+      "price": 0.55,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 224003.12,
-      "score": 39.8
-    },
-    {
-      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
-      "outcome": "Yes",
-      "price": 0.741,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 274589.89,
-      "score": 28.7
-    },
-    {
-      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
-      "outcome": "Yes",
-      "price": 0.93,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87870.14,
-      "score": 28.7
-    },
-    {
-      "market": "US Open ATP: Juan Manuel Cerundolo vs Arthur Gea",
-      "outcome": "Arthur Gea",
-      "price": 0.47,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 73789.53,
-      "score": 25.2
+      "liquidity_usd": 53017.6,
+      "score": 48.6
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.59,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 411681.04,
-      "score": 25.2
-    }
-  ],
-  "excluded": [
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.251,
-      "net_traders": 2,
+      "price": 0.6,
+      "net_traders": 5,
       "signals": [
         "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 426121.16,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Seattle Mariners vs. Boston Red Sox: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.49,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 191455.26,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open WTA: Darja Vidmanova vs Jessica Bouzas Maneiro",
-      "outcome": "Jessica Bouzas Maneiro",
-      "price": 0.17,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 225229.29,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
+      "liquidity_usd": 438396.8,
+      "score": 47.4
     },
     {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.41,
+      "price": 0.56,
       "net_traders": 2,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 379839.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.75,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 426121.16,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
-      "outcome": "No",
-      "price": 0.901,
-      "net_traders": 0,
-      "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 17628.51,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
+      "liquidity_usd": 342558.18,
+      "score": 46.7
     },
     {
-      "market": "San Diego Padres vs. Cincinnati Reds",
-      "outcome": "San Diego Padres",
-      "price": 0.54,
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.25,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 42642.59,
+      "liquidity_usd": 278186.8,
+      "score": 43.2
+    },
+    {
+      "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
+      "outcome": "No",
+      "price": 0.909,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 18459.03,
+      "score": 43.2
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.889,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 299367.76,
+      "score": 35.3
+    },
+    {
+      "market": "Fed Rate Hike by September 2026 Meeting?",
+      "outcome": "Yes",
+      "price": 0.6,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 113833.25,
+      "score": 28.7
+    },
+    {
+      "market": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Playoffs",
+      "outcome": "T1",
+      "price": 0.45,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 83002.1,
+      "score": 25.2
+    },
+    {
+      "market": "Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.72,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 124008.99,
+      "score": 21.7
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.75,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 463505.49,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -220,31 +150,61 @@
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.6,
-      "net_traders": -2,
+      "price": 0.61,
+      "net_traders": 0,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 379839.69,
+      "liquidity_usd": 333147.48,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Detroit Tigers vs. Minnesota Twins: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.51,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.251,
       "net_traders": 0,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 325880.47,
+      "liquidity_usd": 463505.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Marcos Giron vs Ignacio Buse",
+      "outcome": "Ignacio Buse",
+      "price": 0.39,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 77953.91,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.4,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 333147.48,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-01T22:52:31.403448+00:00"
+  "source_report_generated_at": "2026-09-02T09:08:44.805194+00:00"
 }
