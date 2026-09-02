@@ -1,50 +1,23 @@
 {
-  "generated_at_utc": "2026-09-02T09:08:58.927056+00:00",
+  "generated_at_utc": "2026-09-02T16:54:18.113528+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1714,
+    "n": 1717,
     "excluded_certain": 126,
-    "win_rate": 0.5367561260210035,
-    "wr_lo": 0.5130930218266977,
-    "wr_hi": 0.5602548351584865,
-    "implied": 0.5107984830805135,
-    "edge_pts": 2.5957642940490078,
-    "edge_lo_pts": 0.22945387461842381,
-    "edge_hi_pts": 4.945635207797306,
-    "brier": 0.27516536782963824,
-    "roi_net": 0.5948408397710971,
+    "win_rate": 0.5369831100757134,
+    "wr_lo": 0.5133409975706271,
+    "wr_hi": 0.5604601006826926,
+    "implied": 0.5108087361677345,
+    "edge_pts": 2.6174373907978943,
+    "edge_lo_pts": 0.2532261402892644,
+    "edge_hi_pts": 4.965136451495811,
+    "brier": 0.2750384044612697,
+    "roi_net": 0.5941371945276788,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "LoL: Hanwha Life Esports vs T1 - Game 2 Winner",
-      "outcome": "T1",
-      "price": 0.55,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 53017.6,
-      "score": 48.6
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.6,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 438396.8,
-      "score": 47.4
-    },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
@@ -54,157 +27,254 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 342558.18,
+      "liquidity_usd": 317961.29,
       "score": 46.7
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.25,
-      "net_traders": 1,
+      "market": "Will Anthropic's valuation hit (HIGH) $3.0T by December 31?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 278186.8,
-      "score": 43.2
+      "liquidity_usd": 14390.64,
+      "score": 46.7
+    },
+    {
+      "market": "Counter-Strike: K27 vs GamerLegion (BO3) - IEM Beijing: Global Qualifier Playoffs",
+      "outcome": "K27",
+      "price": 0.41,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 19156.71,
+      "score": 30.4
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.89,
+      "net_traders": 3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 284134.16,
+      "score": 26.2
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.57,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 394258.2,
+      "score": 18.2
+    },
+    {
+      "market": "Will the US acquire part of Greenland in 2026?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 59460.38,
+      "score": 18.2
+    }
+  ],
+  "excluded": [
+    {
+      "market": "US Open ATP: Daniel Merida Aguilar vs Andrey Rublev",
+      "outcome": "Daniel Merida Aguilar",
+      "price": 0.45,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 171004.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Brandon Nakashima vs Alex Michelsen",
+      "outcome": "Brandon Nakashima",
+      "price": 0.06,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 120827.02,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Daniel Merida Aguilar vs Andrey Rublev",
+      "outcome": "Andrey Rublev",
+      "price": 0.45,
+      "net_traders": -4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 171004.21,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Brandon Nakashima vs Alex Michelsen",
+      "outcome": "Alex Michelsen",
+      "price": 0.06,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 120827.02,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Jesper de Jong vs Francesco Passaro",
+      "outcome": "Jesper de Jong",
+      "price": 0.33,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 128533.96,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open WTA: Diane Parry vs Sorana Cirstea",
+      "outcome": "Sorana Cirstea",
+      "price": 0.269,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 171396.45,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Jaume Munar vs Arthur Rinderknech",
+      "outcome": "Jaume Munar",
+      "price": 0.13,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 256922.57,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Udinese Calcio win on 2026-09-02?",
+      "outcome": "Yes",
+      "price": 0.43,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 59724.0,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Alex Molcan vs Benjamin Bonzi",
+      "outcome": "Alex Molcan",
+      "price": 0.17,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 243455.18,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.751,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 505104.46,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     },
     {
       "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
       "outcome": "No",
       "price": 0.909,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 32789.89,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "No",
+      "price": 0.58,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 18459.03,
-      "score": 43.2
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.889,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
       "fresh": false,
-      "liquidity_usd": 299367.76,
-      "score": 35.3
+      "liquidity_usd": 383584.33,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
     },
     {
-      "market": "Fed Rate Hike by September 2026 Meeting?",
-      "outcome": "Yes",
+      "market": "San Diego Padres vs. Cincinnati Reds: O/U 9.5",
+      "outcome": "Over",
       "price": 0.6,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 113833.25,
-      "score": 28.7
-    },
-    {
-      "market": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Playoffs",
-      "outcome": "T1",
-      "price": 0.45,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 83002.1,
-      "score": 25.2
-    },
-    {
-      "market": "Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.72,
-      "net_traders": 2,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 124008.99,
-      "score": 21.7
-    }
-  ],
-  "excluded": [
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.75,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 463505.49,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.61,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 333147.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.251,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 463505.49,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Marcos Giron vs Ignacio Buse",
-      "outcome": "Ignacio Buse",
-      "price": 0.39,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 77953.91,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.4,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 333147.48,
+      "liquidity_usd": 18923.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-02T09:08:44.805194+00:00"
+  "source_report_generated_at": "2026-09-02T16:54:06.606197+00:00"
 }
