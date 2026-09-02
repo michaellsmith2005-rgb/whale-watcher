@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-02T16:54:18.113528+00:00",
+  "generated_at_utc": "2026-09-02T19:33:08.192024+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1717,
+    "n": 1727,
     "excluded_certain": 126,
-    "win_rate": 0.5369831100757134,
-    "wr_lo": 0.5133409975706271,
-    "wr_hi": 0.5604601006826926,
-    "implied": 0.5108087361677345,
-    "edge_pts": 2.6174373907978943,
-    "edge_lo_pts": 0.2532261402892644,
-    "edge_hi_pts": 4.965136451495811,
-    "brier": 0.2750384044612697,
-    "roi_net": 0.5941371945276788,
+    "win_rate": 0.5367689635205559,
+    "wr_lo": 0.5131952163739737,
+    "wr_hi": 0.5601794933626076,
+    "implied": 0.509616444701795,
+    "edge_pts": 2.7152518818760907,
+    "edge_lo_pts": 0.3578771672178682,
+    "edge_hi_pts": 5.056304866081263,
+    "brier": 0.2749993639027215,
+    "roi_net": 0.600258028412729,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,32 +27,21 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 317961.29,
+      "liquidity_usd": 319649.49,
       "score": 46.7
     },
     {
-      "market": "Will Anthropic's valuation hit (HIGH) $3.0T by December 31?",
-      "outcome": "No",
-      "price": 0.74,
-      "net_traders": 2,
+      "market": "US Open ATP: Marcos Giron vs Ignacio Buse",
+      "outcome": "Ignacio Buse",
+      "price": 0.23,
+      "net_traders": 5,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 14390.64,
-      "score": 46.7
-    },
-    {
-      "market": "Counter-Strike: K27 vs GamerLegion (BO3) - IEM Beijing: Global Qualifier Playoffs",
-      "outcome": "K27",
-      "price": 0.41,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 19156.71,
-      "score": 30.4
+      "liquidity_usd": 122750.33,
+      "score": 38.8
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
@@ -63,7 +52,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 284134.16,
+      "liquidity_usd": 286679.32,
       "score": 26.2
     },
     {
@@ -75,7 +64,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 394258.2,
+      "liquidity_usd": 404838.33,
       "score": 18.2
     },
     {
@@ -87,148 +76,166 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 59460.38,
+      "liquidity_usd": 61480.23,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "US Open ATP: Daniel Merida Aguilar vs Andrey Rublev",
-      "outcome": "Daniel Merida Aguilar",
-      "price": 0.45,
-      "net_traders": 4,
+      "market": "US Open ATP: Ben Shelton vs Hubert Hurkacz",
+      "outcome": "Hubert Hurkacz",
+      "price": 0.88,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 171004.21,
+      "fresh": true,
+      "liquidity_usd": 219762.84,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Brandon Nakashima vs Alex Michelsen",
-      "outcome": "Brandon Nakashima",
-      "price": 0.06,
+      "market": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
+      "outcome": "Rafael Jodar",
+      "price": 0.1,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 120827.02,
+      "liquidity_usd": 27215.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Daniel Merida Aguilar vs Andrey Rublev",
-      "outcome": "Andrey Rublev",
-      "price": 0.45,
-      "net_traders": -4,
+      "market": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
+      "outcome": "Yunchaokete Bu",
+      "price": 0.1,
+      "net_traders": -1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 171004.21,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Brandon Nakashima vs Alex Michelsen",
-      "outcome": "Alex Michelsen",
-      "price": 0.06,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 120827.02,
+      "liquidity_usd": 27215.2,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Jesper de Jong vs Francesco Passaro",
-      "outcome": "Jesper de Jong",
-      "price": 0.33,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 128533.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open WTA: Diane Parry vs Sorana Cirstea",
-      "outcome": "Sorana Cirstea",
-      "price": 0.269,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 171396.45,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Jaume Munar vs Arthur Rinderknech",
-      "outcome": "Jaume Munar",
-      "price": 0.13,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 256922.57,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Udinese Calcio win on 2026-09-02?",
-      "outcome": "Yes",
-      "price": 0.43,
+      "market": "Baltimore Orioles vs. Colorado Rockies",
+      "outcome": "Colorado Rockies",
+      "price": 0.62,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 59724.0,
+      "liquidity_usd": 11220.92,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Alex Molcan vs Benjamin Bonzi",
-      "outcome": "Alex Molcan",
-      "price": 0.17,
+      "market": "Baltimore Orioles vs. Colorado Rockies: O/U 10.5",
+      "outcome": "Under",
+      "price": 0.47,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 930.52,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
+      ]
+    },
+    {
+      "market": "US Open ATP: Zachary Svajda vs Daniel Altmaier",
+      "outcome": "Daniel Altmaier",
+      "price": 0.796,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 17048.17,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: B8 vs EYEBALLERS (BO3) - IEM Beijing: Global Qualifier Playoffs",
+      "outcome": "B8",
+      "price": 0.84,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 13611.73,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "VfL Osnabr\u00fcck vs. FC Bayern M\u00fcnchen: O/U 4.5",
+      "outcome": "Over",
+      "price": 0.75,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 8800.86,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: HOTU vs Nemiga (BO3) - IEM Beijing: Global Qualifier Playoffs",
+      "outcome": "Nemiga",
+      "price": 0.85,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 243455.18,
+      "liquidity_usd": 4631.69,
       "why_excluded": [
+        "thin book (<$10,000)",
         "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Baltimore Orioles vs. Colorado Rockies: O/U 11.5",
+      "outcome": "Under",
+      "price": 0.36,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1127.15,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.751,
+      "price": 0.749,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 505104.46,
+      "liquidity_usd": 443559.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -242,7 +249,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 32789.89,
+      "liquidity_usd": 32815.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -256,25 +263,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 383584.33,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "San Diego Padres vs. Cincinnati Reds: O/U 9.5",
-      "outcome": "Over",
-      "price": 0.6,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 18923.89,
+      "liquidity_usd": 366529.36,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-02T16:54:06.606197+00:00"
+  "source_report_generated_at": "2026-09-02T19:32:55.873456+00:00"
 }
