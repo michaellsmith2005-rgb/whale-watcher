@@ -1,71 +1,46 @@
 {
-  "generated_at_utc": "2026-09-02T19:33:08.192024+00:00",
+  "generated_at_utc": "2026-09-02T22:53:29.565015+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1727,
+    "n": 1735,
     "excluded_certain": 126,
-    "win_rate": 0.5367689635205559,
-    "wr_lo": 0.5131952163739737,
-    "wr_hi": 0.5601794933626076,
-    "implied": 0.509616444701795,
-    "edge_pts": 2.7152518818760907,
-    "edge_lo_pts": 0.3578771672178682,
-    "edge_hi_pts": 5.056304866081263,
-    "brier": 0.2749993639027215,
-    "roi_net": 0.600258028412729,
+    "win_rate": 0.5365994236311239,
+    "wr_lo": 0.513079945407922,
+    "wr_hi": 0.5599571845986295,
+    "implied": 0.5096274351585015,
+    "edge_pts": 2.697198847262239,
+    "edge_lo_pts": 0.3452510249420504,
+    "edge_hi_pts": 5.032974944012802,
+    "brier": 0.2761008169798271,
+    "roi_net": 0.6063410217029441,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
+      "market": "Will Newcastle United FC win on 2026-09-05?",
+      "outcome": "No",
       "price": 0.56,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 319649.49,
-      "score": 46.7
-    },
-    {
-      "market": "US Open ATP: Marcos Giron vs Ignacio Buse",
-      "outcome": "Ignacio Buse",
-      "price": 0.23,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 122750.33,
-      "score": 38.8
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.89,
       "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 286679.32,
-      "score": 26.2
+      "fresh": true,
+      "liquidity_usd": 167562.78,
+      "score": 50.2
     },
     {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.57,
+      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.943,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 404838.33,
-      "score": 18.2
+      "fresh": true,
+      "liquidity_usd": 18498.94,
+      "score": 43.2
     },
     {
       "market": "Will the US acquire part of Greenland in 2026?",
@@ -76,198 +51,224 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 61480.23,
+      "liquidity_usd": 61630.35,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "US Open ATP: Ben Shelton vs Hubert Hurkacz",
-      "outcome": "Hubert Hurkacz",
-      "price": 0.88,
-      "net_traders": 3,
+      "market": "US Open ATP: Valentin Vacherot vs Kamil Majchrzak",
+      "outcome": "Kamil Majchrzak",
+      "price": 0.54,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 219762.84,
+      "liquidity_usd": 70265.74,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
-      "outcome": "Rafael Jodar",
-      "price": 0.1,
+      "market": "New York Mets vs. Tampa Bay Rays",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.67,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 27215.2,
+      "fresh": false,
+      "liquidity_usd": 17238.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
-      "outcome": "Yunchaokete Bu",
-      "price": 0.1,
+      "market": "New York Mets vs. Tampa Bay Rays",
+      "outcome": "New York Mets",
+      "price": 0.67,
       "net_traders": -1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 27215.2,
+      "fresh": true,
+      "liquidity_usd": 17238.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Baltimore Orioles vs. Colorado Rockies",
-      "outcome": "Colorado Rockies",
+      "market": "US Open ATP: Valentin Vacherot vs Kamil Majchrzak",
+      "outcome": "Valentin Vacherot",
+      "price": 0.54,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 70265.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Lloyd Harris vs Stefanos Tsitsipas",
+      "outcome": "Stefanos Tsitsipas",
+      "price": 0.33,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 305976.33,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Toronto Blue Jays vs. Cleveland Guardians",
+      "outcome": "Cleveland Guardians",
       "price": 0.62,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 16846.99,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Lloyd Harris vs Stefanos Tsitsipas",
+      "outcome": "Lloyd Harris",
+      "price": 0.33,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 305976.33,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Real Madrid CF win on 2026-09-04?",
+      "outcome": "No",
+      "price": 0.3,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 11220.92,
+      "fresh": true,
+      "liquidity_usd": 392905.42,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Baltimore Orioles vs. Colorado Rockies: O/U 10.5",
-      "outcome": "Under",
-      "price": 0.47,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 930.52,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
-      ]
-    },
-    {
-      "market": "US Open ATP: Zachary Svajda vs Daniel Altmaier",
-      "outcome": "Daniel Altmaier",
-      "price": 0.796,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 17048.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: B8 vs EYEBALLERS (BO3) - IEM Beijing: Global Qualifier Playoffs",
-      "outcome": "B8",
-      "price": 0.84,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 13611.73,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "VfL Osnabr\u00fcck vs. FC Bayern M\u00fcnchen: O/U 4.5",
-      "outcome": "Over",
-      "price": 0.75,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 8800.86,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: HOTU vs Nemiga (BO3) - IEM Beijing: Global Qualifier Playoffs",
-      "outcome": "Nemiga",
-      "price": 0.85,
+      "market": "US Open ATP: Denis Shapovalov vs Luca Van Assche",
+      "outcome": "Luca Van Assche",
+      "price": 0.874,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4631.69,
+      "liquidity_usd": 168059.02,
       "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Baltimore Orioles vs. Colorado Rockies: O/U 11.5",
-      "outcome": "Under",
-      "price": 0.36,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1127.15,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.749,
+      "price": 0.747,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 443559.06,
+      "liquidity_usd": 415962.67,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
-      "outcome": "No",
-      "price": 0.909,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 32815.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.58,
+      "market": "San Francisco Giants vs. Pittsburgh Pirates: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.56,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 366529.36,
+      "liquidity_usd": 33130.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.254,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 415962.67,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will US withdraw from NATO before 2027?",
+      "outcome": "No",
+      "price": 0.977,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 61187.31,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.982,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 27715.44,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "US Open ATP: Denis Shapovalov vs Luca Van Assche",
+      "outcome": "Denis Shapovalov",
+      "price": 0.874,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 168059.02,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-02T19:32:55.873456+00:00"
+  "source_report_generated_at": "2026-09-02T22:53:19.225413+00:00"
 }

@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-02T19:32:55.873456+00:00 UTC*  
+*Generated: 2026-09-02T22:53:19.225413+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,50 +8,50 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **3426**
-- Unique markets represented: **2545**
+- Total open positions analyzed: **4313**
+- Unique markets represented: **3410**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. US Open ATP: Marcos Giron vs Ignacio Buse
-- **Favored outcome:** Ignacio Buse
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $134,868.28
-- **Backers:** AV23IUa, Flaznorp, degenfren, ferrariChampions2026, jtwyslljy, sifonman
-
-### 2. US Open ATP: Ben Shelton vs Hubert Hurkacz
-- **Favored outcome:** Hubert Hurkacz
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $18,484.48
-- **Backers:** 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400, Flaznorp, Gourmet1, ferrariChampions2026, jtwyslljy, unknownloser1
-
-### 3. US Open ATP: Rafael Jodar vs Yunchaokete Bu
-- **Favored outcome:** Rafael Jodar
+### 1. US Open ATP: Valentin Vacherot vs Kamil Majchrzak
+- **Favored outcome:** Kamil Majchrzak
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $6,135.48
-- **Backers:** 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400, 0x760f1063, Flaznorp, ferrariChampions2026, jtwyslljy
+- **Total combined USD exposure:** $95,957.82
+- **Backers:** 0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816, Gourmet1, ferrariChampions2026, jtwyslljy, mooseborzoi
 
-### 4. US Open ATP: Rafael Jodar vs Yunchaokete Bu
-- **Favored outcome:** Yunchaokete Bu
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $136,755.92
-- **Backers:** 0xd4aa6f8e91cfea29b66a48ebff52814, Flaznorp, ferrariChampions2026, oudine2
+### 2. New York Mets vs. Tampa Bay Rays
+- **Favored outcome:** Tampa Bay Rays
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $14,455.24
+- **Backers:** AV23IUa, Feromont, Flaznorp, VeryLucky888, mooseborzoi
 
-### 5. Baltimore Orioles vs. Colorado Rockies
-- **Favored outcome:** Colorado Rockies
+### 3. New York Mets vs. Tampa Bay Rays
+- **Favored outcome:** New York Mets
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $37,867.15
-- **Backers:** 0x4f2, Flaznorp, ferrariChampions2026, pleaseplease123
+- **Total combined USD exposure:** $90,678.45
+- **Backers:** 0x4f2, Sassy-Bucket, ferrariChampions2026, pleaseplease123
+
+### 4. US Open ATP: Valentin Vacherot vs Kamil Majchrzak
+- **Favored outcome:** Valentin Vacherot
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $63,536.25
+- **Backers:** AV23IUa, Flaznorp, VeryLucky888, vibing123
+
+### 5. US Open ATP: Lloyd Harris vs Stefanos Tsitsipas
+- **Favored outcome:** Stefanos Tsitsipas
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $44,384.97
+- **Backers:** AV23IUa, Flaznorp, ferrariChampions2026, mooseborzoi
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will the Fed increase interest rates by 25 bps after the September 2026 meeting? | Yes | 1 | $1,425,183.37 |
-| Will no Fed rate cuts happen in 2026? | Yes | 3 | $527,941.67 |
-| Baltimore Orioles vs. Colorado Rockies: O/U 11.5 | Under | 3 | $290,285.44 |
-| Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election? | Yes | 2 | $286,894.02 |
-| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $250,957.01 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $250,286.45 |
+| Will the US acquire part of Greenland in 2026? | No | 1 | $140,503.66 |
+| San Francisco Giants vs. Pittsburgh Pirates: O/U 8.5 | Over | 3 | $114,403.27 |
+| US Open ATP: Valentin Vacherot vs Kamil Majchrzak | Kamil Majchrzak | 5 | $95,957.82 |
+| Will Chicago Fire FC win the 2026 MLS Cup? | No | 1 | $93,345.94 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
