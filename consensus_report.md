@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-03T09:16:15.346775+00:00 UTC*  
+*Generated: 2026-09-03T16:43:52.393741+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,54 +8,58 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **5485**
-- Unique markets represented: **4480**
+- Total open positions analyzed: **7276**
+- Unique markets represented: **5445**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. LoL: BNK FEARX vs Dplus KIA (BO5) - LCK Playoffs
-- **Favored outcome:** Dplus KIA
+### 1. US Open ATP: Jan-Lennard Struff vs Francisco Cerundolo
+- **Favored outcome:** Francisco Cerundolo
+- **Top-50 traders backing it:** 9
+- **Total combined USD exposure:** $90,746.93
+- **Backers:** 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400, AV23IUa, BrotherObama, Flaznorp, RN1, ferrariChampions2026, jtwyslljy, mooseborzoi, suntori
+
+### 2. Counter-Strike: Nuclear TigeRES vs Eternal Fire (BO3) - IEM Beijing: Global Qualifier Playoffs
+- **Favored outcome:** Nuclear TigeRES
 - **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $97,825.73
-- **Backers:** Flaznorp, TAIWANNUMBERONE, ferrariChampions2026, jtwyslljy, mooseborzoi, suntori, vibing123
+- **Total combined USD exposure:** $52,774.28
+- **Backers:** 0x29b52d98ac9ef9414b04164246c95BC63d7, 0x99a093771ad58bcfc3023cd75566415f, ExplosiveNinja, Flaznorp, ferrariChampions2026, mooseborzoi, suntori
 
-### 2. Plovdiv 3: Federico Iannaccone vs Maxim Mrva
-- **Favored outcome:** Federico Iannaccone
+### 3. US Open ATP: Luciano Darderi vs Dalibor Svrcina
+- **Favored outcome:** Luciano Darderi
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $13,590.26
-- **Backers:** 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400, Flaznorp, RN1, ferrariChampions2026, mooseborzoi, suntori
+- **Total combined USD exposure:** $134,875.38
+- **Backers:** AV23IUa, Flaznorp, RN1, ferrariChampions2026, mooseborzoi, suntori
 
-### 3. Counter-Strike: Iberian Soul vs Nemiga (BO3) - Stake Ranked Episode 4: Closed Qualifier Playoffs
-- **Favored outcome:** Nemiga
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $47,526.44
-- **Backers:** 0x29b52d98ac9ef9414b04164246c95BC63d7, ExplosiveNinja, mooseborzoi, suntori, vibing123
+### 4. Counter-Strike: B8 vs HOTU (BO3) - IEM Beijing: Global Qualifier Playoffs
+- **Favored outcome:** B8
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $42,850.23
+- **Backers:** 0x29b52d98ac9ef9414b04164246c95BC63d7, 0x99a093771ad58bcfc3023cd75566415f, 0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740, ferrariChampions2026, mooseborzoi, suntori
 
-### 4. Plovdiv 3: Valerio Aboian vs Sebastian Sorger
-- **Favored outcome:** Valerio Aboian
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $9,222.18
-- **Backers:** 0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354, Flaznorp, RN1, ferrariChampions2026, mooseborzoi
-
-### 5. Plovdiv 3: Federico Iannaccone vs Maxim Mrva
-- **Favored outcome:** Maxim Mrva
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $7,431.52
-- **Backers:** 0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354, Flaznorp, RN1, ferrariChampions2026, mooseborzoi
+### 5. US Open WTA: Madison Keys vs Anna Bondar
+- **Favored outcome:** Anna Bondar
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $21,149.69
+- **Backers:** Flaznorp, RN1, ferrariChampions2026, jtwyslljy, mooseborzoi, suntori
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| 2026 Balance of Power: D Senate, D House | Yes | 2 | $3,034,590.57 |
-| 2026 Balance of Power: D Senate, D House | No | 1 | $2,970,000.00 |
-| Will JD Vance win the 2028 US Presidential Election? | No | 3 | $478,978.61 |
-| Will JD Vance win the 2028 US Presidential Election? | Yes | 4 | $162,744.44 |
-| Will there be no change in Fed interest rates after the September 2026 meeting? | Yes | 3 | $142,182.88 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $865,549.28 |
+| Will there be no change in Fed interest rates after the September 2026 meeting? | Yes | 5 | $599,648.81 |
+| Will Bitcoin dip to $55,000 by December 31, 2026? | No | 3 | $586,620.83 |
+| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 3 | $562,833.59 |
+| Will Bitcoin dip to $45,000 by December 31, 2026? | No | 2 | $416,282.17 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| LoL: BNK FEARX vs Dplus KIA (BO5) - LCK Playoffs | Dplus KIA | 100 | 3 | 30.6% | 0.31 |
-| 1st Half Spread: Real Sociedad de Fútbol (-1.5) | RC Celta de Vigo | 15 | 3 | 5.6% | 0.34 |
+| Will there be no change in Fed interest rates after the September 2026 meeting? | Yes | 100 | 4 | 40.4% | 0.44 |
+| Will the Fed increase interest rates by 25 bps after the September 2026 meeting? | No | 19 | 3 | 11.9% | 0.41 |
+| Counter-Strike: B8 vs HOTU (BO3) - IEM Beijing: Global Qualifier Playoffs | B8 | 13 | 3 | 7.3% | 0.42 |
+| US Open ATP: Felix Auger-Aliassime vs Karen Khachanov | Felix Auger-Aliassime | 8 | 3 | 10.2% | 0.21 |
+| US Open ATP: Luciano Darderi vs Dalibor Svrcina | Luciano Darderi | 6 | 3 | 7.7% | 0.21 |
+| US Open WTA: Naomi Osaka vs Katerina Siniakova | Naomi Osaka | 3 | 3 | 3.4% | 0.21 |
