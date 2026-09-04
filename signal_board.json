@@ -1,84 +1,121 @@
 {
-  "generated_at_utc": "2026-09-03T22:53:43.327525+00:00",
+  "generated_at_utc": "2026-09-04T09:09:10.489150+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1782,
-    "excluded_certain": 129,
-    "win_rate": 0.5398428731762065,
-    "wr_lo": 0.5166405445544018,
-    "wr_hi": 0.5628737863918591,
-    "implied": 0.5106468013468014,
-    "edge_pts": 2.919607182940509,
-    "edge_lo_pts": 0.5993743207600377,
-    "edge_hi_pts": 5.222698504505773,
-    "brier": 0.27598378364758697,
-    "roi_net": 0.6013788818850553,
+    "n": 1786,
+    "excluded_certain": 133,
+    "win_rate": 0.5397536394176932,
+    "wr_lo": 0.5165772101850662,
+    "wr_hi": 0.5627594193803657,
+    "implied": 0.5105501679731242,
+    "edge_pts": 2.920347144456892,
+    "edge_lo_pts": 0.6027042211941946,
+    "edge_hi_pts": 5.220925140724142,
+    "brier": 0.27589081884658456,
+    "roi_net": 0.6000685703608443,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.58,
+      "market": "LoL: KT Rolster vs Dplus KIA (BO5) - LCK Playoffs",
+      "outcome": "Dplus KIA",
+      "price": 0.53,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 539443.73,
-      "score": 62.2
+      "fresh": true,
+      "liquidity_usd": 76091.62,
+      "score": 66.9
     },
     {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.49,
+      "market": "LoL: KT Rolster vs Dplus KIA - Game 2 Winner",
+      "outcome": "Dplus KIA",
+      "price": 0.36,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 35747.06,
+      "score": 54.7
+    },
+    {
+      "market": "Counter-Strike: Team Falcons vs G2 (BO3) - BLAST Open Porto Playoffs",
+      "outcome": "G2",
+      "price": 0.59,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 289612.59,
+      "liquidity_usd": 303345.72,
       "score": 53.7
     },
     {
-      "market": "Will Marco Rubio win the 2028 US Presidential Election?",
+      "market": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
       "outcome": "Yes",
-      "price": 0.103,
+      "price": 0.048,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 317267.3,
-      "score": 53.2
+      "fresh": true,
+      "liquidity_usd": 153913.16,
+      "score": 53.7
     },
     {
-      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.049,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 455191.73,
-      "score": 51.4
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.887,
+      "market": "Game Handicap: AL (-1.5) vs LGD Gaming (+1.5)",
+      "outcome": "LGD Gaming",
+      "price": 0.48,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 442029.01,
-      "score": 25.2
+      "liquidity_usd": 24344.78,
+      "score": 48.7
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.6,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 454298.74,
+      "score": 39.1
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.654,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 182563.07,
+      "score": 28.7
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.88,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 143381.95,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
@@ -89,129 +126,61 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 25565.76,
-      "score": 21.9
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.89,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 155257.6,
-      "score": 21.7
-    },
-    {
-      "market": "Will Bitcoin dip to $40,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 197909.42,
-      "score": 21.7
+      "liquidity_usd": 50891.82,
+      "score": 20.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.873,
+      "price": 0.877,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 59027.98,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 56343.69,
+      "liquidity_usd": 90536.47,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "US Open ATP: Benjamin Bonzi vs Ignacio Buse",
-      "outcome": "Ignacio Buse",
-      "price": 0.977,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 61044.86,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Benjamin Bonzi vs Ignacio Buse",
-      "outcome": "Benjamin Bonzi",
-      "price": 0.977,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 61044.86,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Botic van de Zandschulp vs Alex de Minaur",
-      "outcome": "Alex de Minaur",
-      "price": 0.45,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 128109.62,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Zizou Bergs vs Jesper de Jong",
-      "outcome": "Zizou Bergs",
-      "price": 0.52,
-      "net_traders": 1,
+      "market": "Counter-Strike: MOUZ NXT vs Bushido Wildcats (BO3) - CCT Europe Series #8 Group Stage",
+      "outcome": "MOUZ NXT",
+      "price": 0.09,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 267350.47,
+      "liquidity_usd": 11439.96,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Botic van de Zandschulp vs Alex de Minaur",
-      "outcome": "Botic van de Zandschulp",
-      "price": 0.45,
-      "net_traders": 0,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.236,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 128109.62,
+      "fresh": true,
+      "liquidity_usd": 455470.81,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.49,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 193500.81,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,7 +194,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 165044.62,
+      "liquidity_usd": 135593.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.765,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 455470.81,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -239,25 +222,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 427262.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.58,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 483871.82,
+      "liquidity_usd": 434408.3,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-03T22:53:28.955638+00:00"
+  "source_report_generated_at": "2026-09-04T09:08:58.518519+00:00"
 }

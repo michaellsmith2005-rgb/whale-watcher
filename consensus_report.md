@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-03T22:53:28.955638+00:00 UTC*  
+*Generated: 2026-09-04T09:08:58.518519+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,55 +8,53 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **6135**
-- Unique markets represented: **4949**
+- Total open positions analyzed: **7717**
+- Unique markets represented: **6145**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will there be no change in Fed interest rates after the September 2026 meeting?
+### 1. LoL: KT Rolster vs Dplus KIA (BO5) - LCK Playoffs
+- **Favored outcome:** Dplus KIA
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $238,134.05
+- **Backers:** 0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354, BrotherObama, Diabolical-Prize, TAIWANNUMBERONE, ferrariChampions2026, mooseborzoi
+
+### 2. LoL: KT Rolster vs Dplus KIA - Game 2 Winner
+- **Favored outcome:** Dplus KIA
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $148,123.46
+- **Backers:** 0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354, Diabolical-Prize, TAIWANNUMBERONE, ferrariChampions2026, zofgkt1111
+
+### 3. Counter-Strike: MOUZ NXT vs Bushido Wildcats (BO3) - CCT Europe Series #8 Group Stage
+- **Favored outcome:** MOUZ NXT
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $526.48
+- **Backers:** 0x29b52d98ac9ef9414b04164246c95BC63d7, 0x99a093771ad58bcfc3023cd75566415f, Flaznorp, ferrariChampions2026, mooseborzoi
+
+### 4. Will there be no change in Fed interest rates after the September 2026 meeting?
 - **Favored outcome:** Yes
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $430,330.18
-- **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, 0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740, ImJustKen, TwoEyes, donthackme
-
-### 2. US Open ATP: Benjamin Bonzi vs Ignacio Buse
-- **Favored outcome:** Ignacio Buse
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $10,297.80
-- **Backers:** Flaznorp, RN1, degenfren, ferrariChampions2026, mooseborzoi
-
-### 3. US Open ATP: Benjamin Bonzi vs Ignacio Buse
-- **Favored outcome:** Benjamin Bonzi
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $101,874.67
-- **Backers:** 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400, Flaznorp, RN1, ferrariChampions2026
+- **Total combined USD exposure:** $338,943.28
+- **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, 0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740, TwoEyes, donthackme
 
-### 4. US Open ATP: Botic van de Zandschulp vs Alex de Minaur
-- **Favored outcome:** Alex de Minaur
+### 5. Will JD Vance win the 2028 US Presidential Election?
+- **Favored outcome:** Yes
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $40,876.39
-- **Backers:** Flaznorp, RN1, ferrariChampions2026, mooseborzoi
-
-### 5. US Open ATP: Zizou Bergs vs Jesper de Jong
-- **Favored outcome:** Zizou Bergs
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $24,418.41
-- **Backers:** AV23IUa, Flaznorp, RN1, ferrariChampions2026
+- **Total combined USD exposure:** $151,245.19
+- **Backers:** 0xd4aa6f8e91cfea29b66a48ebff52814, 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, balthazar, donthackme
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $867,052.84 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $869,558.77 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $585,214.42 |
-| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 2 | $549,031.77 |
-| Will there be no change in Fed interest rates after the September 2026 meeting? | Yes | 5 | $430,330.18 |
+| Will Bitcoin dip to $50,000 by December 31, 2026? | No | 2 | $542,792.77 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $490,851.05 |
 | Will Bitcoin dip to $45,000 by December 31, 2026? | No | 1 | $395,441.87 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Will there be no change in Fed interest rates after the September 2026 meeting? | Yes | 100 | 3 | 45.4% | 0.49 |
-| US Open ATP: Benjamin Bonzi vs Ignacio Buse | Ignacio Buse | 10 | 3 | 11.3% | 0.20 |
-| US Open ATP: Botic van de Zandschulp vs Alex de Minaur | Alex de Minaur | 5 | 3 | 5.5% | 0.20 |
+| LoL: KT Rolster vs Dplus KIA (BO5) - LCK Playoffs | Dplus KIA | 100 | 3 | 45.8% | 0.29 |
