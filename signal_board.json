@@ -1,46 +1,95 @@
 {
-  "generated_at_utc": "2026-09-04T19:12:06.383398+00:00",
+  "generated_at_utc": "2026-09-04T22:36:04.488043+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1796,
-    "excluded_certain": 134,
-    "win_rate": 0.5406458797327395,
-    "wr_lo": 0.5175355757976454,
-    "wr_hi": 0.5635826737194234,
-    "implied": 0.5105471046770602,
-    "edge_pts": 3.009877505567926,
-    "edge_lo_pts": 0.6988471120585205,
-    "edge_hi_pts": 5.303556904236317,
-    "brier": 0.27601960047884183,
-    "roi_net": 0.6035759943555681,
-    "roi_median": 0.07589863688224341
+    "n": 1805,
+    "excluded_certain": 135,
+    "win_rate": 0.5401662049861495,
+    "wr_lo": 0.5171129127510705,
+    "wr_hi": 0.5630488880390041,
+    "implied": 0.5096413296398893,
+    "edge_pts": 3.052487534626025,
+    "edge_lo_pts": 0.7471583111181235,
+    "edge_hi_pts": 5.340755839911482,
+    "brier": 0.27634714817728534,
+    "roi_net": 0.614095636821462,
+    "roi_median": 0.07289617486338794
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "market": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.49,
+      "price": 0.051,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
+      "fresh": true,
+      "liquidity_usd": 456686.68,
+      "score": 57.2
+    },
+    {
+      "market": "San Jose State vs. Eastern Michigan",
+      "outcome": "Eastern Michigan",
+      "price": 0.48,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 82487.4,
+      "score": 56.8
+    },
+    {
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.14,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 191653.16,
+      "score": 53.7
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": false,
-      "liquidity_usd": 648225.22,
-      "score": 42.2
+      "liquidity_usd": 670205.88,
+      "score": 35.7
     },
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.85,
+      "price": 0.81,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 30111.97,
-      "score": 24.4
+      "liquidity_usd": 23559.1,
+      "score": 34.4
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 250448.46,
+      "score": 25.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -51,19 +100,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 148363.21,
+      "liquidity_usd": 148807.3,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.876,
+      "price": 0.872,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94001.84,
+      "liquidity_usd": 90593.82,
       "score": 18.2
     },
     {
@@ -75,145 +124,77 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60782.93,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 107128.13,
+      "liquidity_usd": 67594.99,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Real Madrid CF win on 2026-09-04?",
+      "market": "US Open ATP: Tomas Etcheverry vs Mariano Navone",
+      "outcome": "Mariano Navone",
+      "price": 0.76,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 336566.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will James Talarico win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.66,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 37083.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Open Porto Playoffs",
-      "outcome": "FURIA",
-      "price": 0.39,
-      "net_traders": 1,
+      "price": 0.026,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 127740.49,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Alexander Bublik vs Tommy Paul",
-      "outcome": "Alexander Bublik",
-      "price": 0.43,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 301750.76,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Alexander Bublik vs Tommy Paul",
-      "outcome": "Tommy Paul",
-      "price": 0.43,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 301750.76,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Open Porto Playoffs",
-      "outcome": "Vitality",
-      "price": 0.39,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 127740.49,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open ATP: Yibing Wu vs Carlos Alcaraz",
-      "outcome": "Yibing Wu",
-      "price": 0.04,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 89992.66,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Real Betis Balompi\u00e9 vs. Real Madrid CF: O/U 3.5",
-      "outcome": "Over",
-      "price": 0.43,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 17202.22,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Ipswich Town FC win on 2026-09-04?",
-      "outcome": "No",
-      "price": 0.98,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 31594.23,
+      "liquidity_usd": 246883.29,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "US Open ATP: Yibing Wu vs Carlos Alcaraz",
-      "outcome": "Carlos Alcaraz",
-      "price": 0.04,
-      "net_traders": -1,
+      "market": "US Open ATP: Tomas Etcheverry vs Mariano Navone",
+      "outcome": "Tomas Etcheverry",
+      "price": 0.76,
+      "net_traders": -2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 89992.66,
+      "liquidity_usd": 336566.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Jiri Lehecka vs Stefanos Tsitsipas",
+      "outcome": "Jiri Lehecka",
+      "price": 0.59,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 85683.13,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.2,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 275465.35,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,12 +203,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.51,
-      "net_traders": -1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 283018.48,
+      "liquidity_usd": 281765.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,12 +217,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.5,
-      "net_traders": 1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 283018.48,
+      "liquidity_usd": 281765.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,7 +236,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 165714.27,
+      "liquidity_usd": 165250.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -264,30 +245,30 @@
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
       "price": 0.93,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 393890.34,
+      "liquidity_usd": 393509.1,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.502,
-      "net_traders": 1,
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.75,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 319519.03,
+      "liquidity_usd": 156224.71,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-04T19:11:48.417514+00:00"
+  "source_report_generated_at": "2026-09-04T22:35:45.621419+00:00"
 }
