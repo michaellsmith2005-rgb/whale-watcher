@@ -1,34 +1,46 @@
 {
-  "generated_at_utc": "2026-09-04T16:38:31.560657+00:00",
+  "generated_at_utc": "2026-09-04T19:12:06.383398+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1793,
-    "excluded_certain": 133,
-    "win_rate": 0.5404350250976018,
-    "wr_lo": 0.5173050234335009,
-    "wr_hi": 0.5633921287250422,
-    "implied": 0.5102914668153933,
-    "edge_pts": 3.0143558282208494,
-    "edge_lo_pts": 0.7013556618107653,
-    "edge_hi_pts": 5.310066190964891,
-    "brier": 0.2761962646179587,
-    "roi_net": 0.6046468114399595,
-    "roi_median": 0.07289617486338794
+    "n": 1796,
+    "excluded_certain": 134,
+    "win_rate": 0.5406458797327395,
+    "wr_lo": 0.5175355757976454,
+    "wr_hi": 0.5635826737194234,
+    "implied": 0.5105471046770602,
+    "edge_pts": 3.009877505567926,
+    "edge_lo_pts": 0.6988471120585205,
+    "edge_hi_pts": 5.303556904236317,
+    "brier": 0.27601960047884183,
+    "roi_net": 0.6035759943555681,
+    "roi_median": 0.07589863688224341
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.49,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 648225.22,
+      "score": 42.2
+    },
+    {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.86,
+      "price": 0.85,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 23052.06,
-      "score": 23.2
+      "liquidity_usd": 30111.97,
+      "score": 24.4
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -39,19 +51,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 145746.66,
+      "liquidity_usd": 148363.21,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.878,
+      "price": 0.876,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 90841.68,
+      "liquidity_usd": 94001.84,
       "score": 18.2
     },
     {
@@ -63,7 +75,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60302.83,
+      "liquidity_usd": 60782.93,
       "score": 18.2
     },
     {
@@ -75,77 +87,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 97128.65,
+      "liquidity_usd": 107128.13,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "US Open ATP: Alexander Bublik vs Tommy Paul",
-      "outcome": "Alexander Bublik",
-      "price": 0.37,
+      "market": "Will Real Madrid CF win on 2026-09-04?",
+      "outcome": "Yes",
+      "price": 0.66,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 491842.67,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open WTA: Jessica Pegula vs Leylah Fernandez",
-      "outcome": "Jessica Pegula",
-      "price": 0.54,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 135806.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US Open WTA: Jessica Pegula vs Leylah Fernandez",
-      "outcome": "Leylah Fernandez",
-      "price": 0.54,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 135806.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: B8 vs Nuclear TigeRES (BO3) - IEM Beijing: Global Qualifier Playoffs",
-      "outcome": "B8",
-      "price": 0.992,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 26523.87,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Real Madrid CF win on 2026-09-04?",
-      "outcome": "Yes",
-      "price": 0.67,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 591501.36,
+      "liquidity_usd": 37083.43,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -153,13 +109,27 @@
     {
       "market": "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Open Porto Playoffs",
       "outcome": "FURIA",
-      "price": 0.35,
+      "price": 0.39,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 500575.92,
+      "fresh": false,
+      "liquidity_usd": 127740.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Alexander Bublik vs Tommy Paul",
+      "outcome": "Alexander Bublik",
+      "price": 0.43,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 301750.76,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -167,55 +137,83 @@
     {
       "market": "US Open ATP: Alexander Bublik vs Tommy Paul",
       "outcome": "Tommy Paul",
-      "price": 0.37,
-      "net_traders": -3,
+      "price": 0.43,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 491842.67,
+      "fresh": true,
+      "liquidity_usd": 301750.76,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "market": "Counter-Strike: FURIA vs Vitality (BO3) - BLAST Open Porto Playoffs",
+      "outcome": "Vitality",
+      "price": 0.39,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 127740.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Yibing Wu vs Carlos Alcaraz",
+      "outcome": "Yibing Wu",
+      "price": 0.04,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 89992.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Real Betis Balompi\u00e9 vs. Real Madrid CF: O/U 3.5",
+      "outcome": "Over",
+      "price": 0.43,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 17202.22,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ipswich Town FC win on 2026-09-04?",
       "outcome": "No",
-      "price": 0.49,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 194050.08,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: Heroic vs Eternal Fire (BO3) - IEM Beijing: Global Qualifier Playoffs",
-      "outcome": "Heroic",
-      "price": 0.91,
-      "net_traders": 0,
+      "price": 0.98,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 28291.92,
+      "liquidity_usd": 31594.23,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
-      "market": "US Open ATP: Alex Michelsen vs Daniel Merida Aguilar",
-      "outcome": "Daniel Merida Aguilar",
-      "price": 0.64,
-      "net_traders": 2,
+      "market": "US Open ATP: Yibing Wu vs Carlos Alcaraz",
+      "outcome": "Carlos Alcaraz",
+      "price": 0.04,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 305833.29,
+      "fresh": false,
+      "liquidity_usd": 89992.66,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -229,7 +227,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 171644.76,
+      "liquidity_usd": 283018.48,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -243,7 +241,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 171644.76,
+      "liquidity_usd": 283018.48,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,13 +249,13 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.84,
+      "price": 0.83,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 162658.95,
+      "liquidity_usd": 165714.27,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -265,13 +263,13 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.93,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 396466.96,
+      "liquidity_usd": 393890.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -285,11 +283,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 328372.77,
+      "liquidity_usd": 319519.03,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-04T16:38:20.255481+00:00"
+  "source_report_generated_at": "2026-09-04T19:11:48.417514+00:00"
 }
