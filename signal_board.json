@@ -1,94 +1,70 @@
 {
-  "generated_at_utc": "2026-09-05T08:41:00.669127+00:00",
+  "generated_at_utc": "2026-09-05T15:40:58.754136+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1811,
+    "n": 1814,
     "excluded_certain": 135,
-    "win_rate": 0.5389287686361126,
-    "wr_lo": 0.515911869044349,
-    "wr_hi": 0.5617808618253862,
-    "implied": 0.5100014356709001,
-    "edge_pts": 2.892733296521255,
-    "edge_lo_pts": 0.5910433373448987,
-    "edge_hi_pts": 5.177942615448616,
-    "brier": 0.2764551642517946,
-    "roi_net": 0.6094082904121607,
+    "win_rate": 0.5391400220507166,
+    "wr_lo": 0.5161425034382369,
+    "wr_hi": 0.5619721133688601,
+    "implied": 0.5100124586549063,
+    "edge_pts": 2.912756339581035,
+    "edge_lo_pts": 0.6130044783330568,
+    "edge_hi_pts": 5.195965471395381,
+    "brier": 0.27644432329658214,
+    "roi_net": 0.6089508574944127,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "market": "Will Taylor Fritz win the 2026 Men's US Open?",
       "outcome": "Yes",
-      "price": 0.14,
+      "price": 0.124,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 213399.29,
-      "score": 57.2
+      "fresh": false,
+      "liquidity_usd": 41974.39,
+      "score": 48.4
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.504,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 351114.46,
+      "score": 45.7
     },
     {
       "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
       "outcome": "Yes",
       "price": 0.09,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 218715.56,
-      "score": 54.4
-    },
-    {
-      "market": "LoL: Gen.G vs Hanwha Life Esports (BO5) - LCK Playoffs",
-      "outcome": "Hanwha Life Esports",
-      "price": 0.55,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 36970.7,
-      "score": 49.7
-    },
-    {
-      "market": "Nottingham Forest FC vs. Tottenham Hotspur FC: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.53,
-      "net_traders": 2,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 346384.75,
-      "score": 44.0
-    },
-    {
-      "market": "Will Taylor Fritz win the 2026 Men's US Open?",
-      "outcome": "Yes",
-      "price": 0.106,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 60477.8,
-      "score": 41.7
+      "liquidity_usd": 249701.3,
+      "score": 42.7
     },
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.49,
+      "price": 0.51,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 599768.69,
-      "score": 38.2
+      "liquidity_usd": 466715.13,
+      "score": 33.2
     },
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
@@ -99,31 +75,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 30512.75,
-      "score": 30.9
-    },
-    {
-      "market": "LoL: Gen.G vs Hanwha Life Esports - Game 1 Winner",
-      "outcome": "Hanwha Life Esports",
-      "price": 0.44,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 13171.04,
-      "score": 28.7
+      "liquidity_usd": 31086.89,
+      "score": 28.4
     },
     {
       "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
       "outcome": "Yes",
-      "price": 0.716,
+      "price": 0.712,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 186387.64,
+      "liquidity_usd": 235204.52,
       "score": 25.2
     },
     {
@@ -135,11 +99,119 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 121660.52,
+      "liquidity_usd": 148092.97,
       "score": 21.7
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.865,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 101447.87,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 70764.86,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.95,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 114272.81,
+      "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Spread: Manchester City FC (-1.5)",
+      "outcome": "Manchester City FC",
+      "price": 0.3,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2790.77,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Manchester City FC (-2.5)",
+      "outcome": "Coventry City FC",
+      "price": 0.05,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 16273.56,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Brighton & Hove Albion FC win on 2026-09-05?",
+      "outcome": "Yes",
+      "price": 0.26,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 5884.44,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Spirit vs Team Falcons (BO3) - BLAST Open Porto Playoffs",
+      "outcome": "Team Falcons",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 57099.39,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Manchester City FC (-2.5)",
+      "outcome": "Manchester City FC",
+      "price": 0.05,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 16273.56,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will James Talarico win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
@@ -149,37 +221,9 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 207709.32,
+      "liquidity_usd": 213358.38,
       "why_excluded": [
         "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.5,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 230097.12,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.196,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 251024.26,
-      "why_excluded": [
-        "cohort on both sides"
       ]
     },
     {
@@ -191,7 +235,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 186794.56,
+      "liquidity_usd": 287870.1,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -205,7 +249,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 186794.56,
+      "liquidity_usd": 287870.1,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -213,13 +257,13 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.83,
+      "price": 0.82,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 139231.28,
+      "liquidity_usd": 178384.73,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -233,25 +277,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 366810.37,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.75,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 122595.94,
+      "liquidity_usd": 394217.86,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-05T08:40:45.225328+00:00"
+  "source_report_generated_at": "2026-09-05T15:40:47.307472+00:00"
 }
