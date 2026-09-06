@@ -1,46 +1,46 @@
 {
-  "generated_at_utc": "2026-09-05T22:24:15.060058+00:00",
+  "generated_at_utc": "2026-09-06T09:00:17.668746+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1827,
+    "n": 1831,
     "excluded_certain": 135,
-    "win_rate": 0.5369458128078818,
-    "wr_lo": 0.5140273320190563,
-    "wr_hi": 0.5597092490155893,
-    "implied": 0.5100342638204708,
-    "edge_pts": 2.6911548987410994,
-    "edge_lo_pts": 0.399306819858547,
-    "edge_hi_pts": 4.967498519511848,
-    "brier": 0.27662994113847833,
-    "roi_net": 0.6094840684889289,
+    "win_rate": 0.5368651010376844,
+    "wr_lo": 0.5139715962678636,
+    "wr_hi": 0.559604237199178,
+    "implied": 0.5094312397596942,
+    "edge_pts": 2.743386127799019,
+    "edge_lo_pts": 0.45403565081694186,
+    "edge_hi_pts": 5.017299743948378,
+    "brier": 0.27657961685417803,
+    "roi_net": 0.6118474539514444,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+      "outcome": "Yes",
+      "price": 0.044,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 159904.22,
+      "score": 53.7
+    },
+    {
       "market": "Will FC Barcelona win on 2026-09-06?",
       "outcome": "No",
-      "price": 0.25,
+      "price": 0.24,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 292656.66,
-      "score": 48.9
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.504,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 338135.65,
-      "score": 45.7
+      "fresh": true,
+      "liquidity_usd": 491440.47,
+      "score": 50.2
     },
     {
       "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
@@ -51,8 +51,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 246183.5,
-      "score": 42.7
+      "liquidity_usd": 230963.0,
+      "score": 42.9
+    },
+    {
+      "market": "Will Lando Norris be the 2026 F1 Drivers' Champion?",
+      "outcome": "Yes",
+      "price": 0.085,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 101269.59,
+      "score": 37.4
     },
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
@@ -63,135 +75,81 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 776917.08,
+      "liquidity_usd": 598111.54,
       "score": 35.7
-    },
-    {
-      "market": "Boise State vs. Oregon",
-      "outcome": "Boise State",
-      "price": 0.176,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 28546.51,
-      "score": 32.2
     },
     {
       "market": "Will Harry Kane win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.647,
+      "price": 0.649,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 134593.84,
+      "liquidity_usd": 165186.01,
       "score": 32.2
     },
     {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.83,
-      "net_traders": 1,
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
+      "outcome": "Yes",
+      "price": 0.45,
+      "net_traders": 5,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31556.84,
-      "score": 28.4
+      "liquidity_usd": 29231.92,
+      "score": 32.2
     },
     {
       "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
       "outcome": "Yes",
       "price": 0.712,
-      "net_traders": 3,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 442010.23,
-      "score": 25.2
+      "liquidity_usd": 192396.23,
+      "score": 28.7
     },
     {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 2,
+      "market": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "outcome": "Yes",
+      "price": 0.94,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 147662.15,
-      "score": 21.7
+      "liquidity_usd": 146088.18,
+      "score": 28.7
     },
     {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.874,
+      "price": 0.84,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 99358.22,
-      "score": 18.2
+      "liquidity_usd": 29781.8,
+      "score": 28.4
     }
   ],
   "excluded": [
     {
-      "market": "US Open ATP: Zizou Bergs vs Botic van de Zandschulp",
-      "outcome": "Botic van de Zandschulp",
-      "price": 0.57,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.247,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 321213.78,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will James Talarico win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.027,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 214127.27,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Tulane vs. Duke",
-      "outcome": "Duke",
-      "price": 0.11,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 34864.56,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.203,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 243269.96,
+      "liquidity_usd": 468304.17,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -205,7 +163,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 287977.65,
+      "liquidity_usd": 200450.99,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -219,7 +177,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 287977.65,
+      "liquidity_usd": 200450.99,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,13 +185,13 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.82,
+      "price": 0.83,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 178367.32,
+      "liquidity_usd": 167007.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,11 +205,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 395229.5,
+      "liquidity_usd": 376351.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.754,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 468304.17,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-05T22:24:02.227114+00:00"
+  "source_report_generated_at": "2026-09-06T09:00:02.740626+00:00"
 }
