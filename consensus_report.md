@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-06T18:41:53.071019+00:00 UTC*  
+*Generated: 2026-09-06T22:29:12.279325+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,48 +8,48 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **7423**
-- Unique markets represented: **5727**
+- Total open positions analyzed: **5693**
+- Unique markets represented: **4536**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Chicago Cubs vs. Miami Marlins
-- **Favored outcome:** Miami Marlins
+### 1. Athletics vs. Seattle Mariners
+- **Favored outcome:** Athletics
+- **Top-50 traders backing it:** 7
+- **Total combined USD exposure:** $13,674.07
+- **Backers:** 0x78becf0a, 1winstreak1, AV23IUa, Flaznorp, Talvez10, ferrariChampions2026, wr0ngw4yb3tt0r
+
+### 2. US Open ATP: Daniil Medvedev vs Frances Tiafoe
+- **Favored outcome:** Frances Tiafoe
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $111,286.63
-- **Backers:** 1winstreak1, Flaznorp, Talvez10, ferrariChampions2026, pleaseplease123, wr0ngw4yb3tt0r
+- **Total combined USD exposure:** $175,596.18
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x78becf0a, 0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740, BillyGating, Flaznorp, ferrariChampions2026
 
-### 2. US Open ATP: Tommy Paul vs Carlos Alcaraz
-- **Favored outcome:** Carlos Alcaraz
+### 3. Athletics vs. Seattle Mariners
+- **Favored outcome:** Seattle Mariners
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $287,523.16
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, BreakTheBank, Flaznorp, Nooserac, ferrariChampions2026
+- **Total combined USD exposure:** $201,182.52
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 1winstreak1, Flaznorp, ferrariChampions2026, wr0ngw4yb3tt0r
 
-### 3. Detroit Tigers vs. Cleveland Guardians
-- **Favored outcome:** Detroit Tigers
+### 4. New York Yankees vs. San Diego Padres
+- **Favored outcome:** San Diego Padres
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $170,602.80
-- **Backers:** 1winstreak1, Flaznorp, Talvez10, ferrariChampions2026, wr0ngw4yb3tt0r
+- **Total combined USD exposure:** $121,641.88
+- **Backers:** 1winstreak1, Flaznorp, ferrariChampions2026, monkeymashingkeyboard, wr0ngw4yb3tt0r
 
-### 4. US Open WTA: Marta Kostyuk vs Linda Noskova
-- **Favored outcome:** Marta Kostyuk
+### 5. Will the Buffalo Bills win the 2027 NFL league championship?
+- **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $73,788.62
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 11vsldfdsgfkjgos, Flaznorp, Nooserac, ferrariChampions2026
-
-### 5. Boston Red Sox vs. Baltimore Orioles: O/U 7.5
-- **Favored outcome:** Over
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $41,010.02
-- **Backers:** 1winstreak1, Flaznorp, Nooserac, ferrariChampions2026, wr0ngw4yb3tt0r
+- **Total combined USD exposure:** $10,939.96
+- **Backers:** BreakTheBank, Mysaria, Nooserac, betterfasterstronger, donthackme
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| 2026 Balance of Power: D Senate, D House | Yes | 2 | $3,034,590.57 |
-| 2026 Balance of Power: D Senate, D House | No | 2 | $2,970,113.56 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $880,089.75 |
+| 2026 Balance of Power: D Senate, D House | Yes | 2 | $3,094,681.47 |
+| 2026 Balance of Power: D Senate, D House | No | 2 | $2,910,111.27 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $882,595.70 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $581,667.67 |
 | Will Bitcoin dip to $50,000 by December 31, 2026? | No | 2 | $539,673.28 |
 
@@ -57,6 +57,5 @@
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Detroit Tigers vs. Cleveland Guardians | Detroit Tigers | 100 | 3 | 15.4% | 0.42 |
-| US Open ATP: Tommy Paul vs Carlos Alcaraz | Carlos Alcaraz | 29 | 4 | 7.3% | 0.30 |
-| Milwaukee Brewers vs. Cincinnati Reds | Milwaukee Brewers | 20 | 3 | 5.5% | 0.35 |
+| New York Yankees vs. San Diego Padres | San Diego Padres | 100 | 4 | 16.7% | 0.38 |
+| US Open ATP: Daniil Medvedev vs Frances Tiafoe | Frances Tiafoe | 24 | 3 | 5.9% | 0.32 |
