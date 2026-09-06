@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-06T15:52:11.530524+00:00",
+  "generated_at_utc": "2026-09-06T18:42:08.090634+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1831,
+    "n": 1840,
     "excluded_certain": 135,
-    "win_rate": 0.5368651010376844,
-    "wr_lo": 0.5139715962678636,
-    "wr_hi": 0.559604237199178,
-    "implied": 0.5094312397596942,
-    "edge_pts": 2.743386127799019,
-    "edge_lo_pts": 0.45403565081694186,
-    "edge_hi_pts": 5.017299743948378,
-    "brier": 0.27657961685417803,
-    "roi_net": 0.6118474539514444,
+    "win_rate": 0.5364130434782609,
+    "wr_lo": 0.5135750976356838,
+    "wr_hi": 0.5590992579054864,
+    "implied": 0.5097927173913044,
+    "edge_pts": 2.6620326086956525,
+    "edge_lo_pts": 0.37823802443793797,
+    "edge_hi_pts": 4.930654051418204,
+    "brier": 0.2759907491630435,
+    "roi_net": 0.606729757803151,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,20 +27,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 219750.47,
+      "liquidity_usd": 233846.67,
       "score": 50.9
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.5,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 866859.03,
-      "score": 34.7
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
@@ -51,20 +39,32 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31392.24,
+      "liquidity_usd": 43545.34,
+      "score": 32.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.51,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 886196.71,
       "score": 32.2
     },
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.85,
+      "price": 0.86,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 30226.94,
-      "score": 25.7
+      "liquidity_usd": 30562.48,
+      "score": 23.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -75,19 +75,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 120409.92,
+      "liquidity_usd": 139902.28,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.888,
+      "price": 0.886,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 71515.86,
+      "liquidity_usd": 94959.4,
       "score": 18.2
     },
     {
@@ -99,105 +99,109 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 42130.93,
+      "liquidity_usd": 69722.43,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Arsenal FC win on 2026-09-06?",
-      "outcome": "No",
-      "price": 0.62,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 62732.07,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Chelsea FC win on 2026-09-06?",
-      "outcome": "No",
-      "price": 0.68,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 89911.93,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Stade Rennais FC 1901 win on 2026-09-06?",
-      "outcome": "No",
-      "price": 0.25,
+      "market": "Chicago Cubs vs. Miami Marlins",
+      "outcome": "Miami Marlins",
+      "price": 0.55,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 39166.88,
+      "fresh": false,
+      "liquidity_usd": 84330.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Arsenal FC vs. Chelsea FC: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.74,
-      "net_traders": 0,
+      "market": "US Open ATP: Tommy Paul vs Carlos Alcaraz",
+      "outcome": "Carlos Alcaraz",
+      "price": 0.25,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 131777.61,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Detroit Tigers vs. Cleveland Guardians",
+      "outcome": "Detroit Tigers",
+      "price": 0.59,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 37453.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open WTA: Marta Kostyuk vs Linda Noskova",
+      "outcome": "Marta Kostyuk",
+      "price": 0.69,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 27248.09,
+      "liquidity_usd": 86036.67,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Open Porto Playoffs",
-      "outcome": "Spirit",
-      "price": 0.87,
+      "market": "Boston Red Sox vs. Baltimore Orioles: O/U 7.5",
+      "outcome": "Over",
+      "price": 0.66,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 107654.98,
+      "liquidity_usd": 15200.34,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: G2 Esports vs Karmine Corp (BO5) - LEC Playoffs",
-      "outcome": "Karmine Corp",
-      "price": 0.67,
-      "net_traders": 0,
+      "market": "Milwaukee Brewers vs. Cincinnati Reds",
+      "outcome": "Milwaukee Brewers",
+      "price": 0.12,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 42227.97,
+      "liquidity_usd": 139528.09,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Chelsea FC win on 2026-09-06?",
-      "outcome": "Yes",
-      "price": 0.33,
+      "market": "Detroit Tigers vs. Cleveland Guardians",
+      "outcome": "Cleveland Guardians",
+      "price": 0.59,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 89911.93,
+      "fresh": true,
+      "liquidity_usd": 37453.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -211,7 +215,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 294961.1,
+      "liquidity_usd": 251475.76,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,21 +229,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 294961.1,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Stade Rennais FC 1901 win on 2026-09-06?",
-      "outcome": "Yes",
-      "price": 0.77,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 39166.88,
+      "liquidity_usd": 251475.76,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -253,7 +243,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 144623.92,
+      "liquidity_usd": 162696.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -261,13 +251,13 @@
     {
       "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.92,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 361172.73,
+      "liquidity_usd": 373354.52,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -281,25 +271,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 82446.75,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Arsenal FC vs. Chelsea FC: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.74,
-      "net_traders": -1,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 27248.09,
+      "liquidity_usd": 304185.02,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-06T15:51:53.830311+00:00"
+  "source_report_generated_at": "2026-09-06T18:41:53.071019+00:00"
 }
