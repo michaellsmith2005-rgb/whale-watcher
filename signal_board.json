@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-08T19:39:29.408638+00:00",
+  "generated_at_utc": "2026-09-08T23:02:30.527245+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1882,
+    "n": 1894,
     "excluded_certain": 137,
-    "win_rate": 0.536663124335813,
-    "wr_lo": 0.5140820837052041,
-    "wr_hi": 0.5590947939286331,
-    "implied": 0.5079976620616365,
-    "edge_pts": 2.8665462274176434,
-    "edge_lo_pts": 0.6084421643567595,
-    "edge_hi_pts": 5.10971318669966,
-    "brier": 0.27748404647183844,
-    "roi_net": 0.6256135884230738,
+    "win_rate": 0.5359028511087646,
+    "wr_lo": 0.513392605132002,
+    "wr_hi": 0.5582677483980293,
+    "implied": 0.5086001055966209,
+    "edge_pts": 2.7302745512143622,
+    "edge_lo_pts": 0.47924995353810784,
+    "edge_hi_pts": 4.9667642801408345,
+    "brier": 0.27840790098204854,
+    "roi_net": 0.6245327439679882,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,34 +27,32 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 571289.89,
+      "liquidity_usd": 567208.89,
       "score": 57.2
-    },
-    {
-      "market": "Will BV Borussia 09 Dortmund win on 2026-09-08?",
-      "outcome": "No",
-      "price": 0.53,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 105916.96,
-      "score": 55.7
     },
     {
       "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
       "outcome": "Yes",
       "price": 0.09,
-      "net_traders": 5,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 231316.87,
-      "score": 55.4
+      "liquidity_usd": 233220.26,
+      "score": 51.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.46,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 697811.7,
+      "score": 50.2
     },
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
@@ -65,109 +63,102 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 353827.55,
+      "liquidity_usd": 352493.96,
       "score": 45.9
+    },
+    {
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.146,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 202411.4,
+      "score": 34.9
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.632,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 129340.16,
+      "score": 28.7
+    },
+    {
+      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "outcome": "Yes",
+      "price": 0.856,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 534386.18,
+      "score": 28.7
     }
   ],
   "excluded": [
     {
-      "market": "Will Lille OSC win on 2026-09-08?",
-      "outcome": "No",
-      "price": 0.31,
-      "net_traders": 5,
+      "market": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+      "outcome": "Alex Michelsen",
+      "price": 0.741,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 33689.92,
+      "fresh": true,
+      "liquidity_usd": 28849.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
-      "outcome": "Alex Michelsen",
-      "price": 0.25,
-      "net_traders": 3,
+      "outcome": "Frances Tiafoe",
+      "price": 0.741,
+      "net_traders": -3,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 366605.65,
+      "liquidity_usd": 28849.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Real Betis Balompi\u00e9 win on 2026-09-08?",
-      "outcome": "No",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.242,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 422778.61,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "New York Mets vs. Miami Marlins",
+      "outcome": "Miami Marlins",
       "price": 0.91,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 23884.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Lille OSC win on 2026-09-08?",
-      "outcome": "Yes",
-      "price": 0.7,
-      "net_traders": -5,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 33689.92,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Real Betis Balompi\u00e9 win on 2026-09-08?",
-      "outcome": "Yes",
-      "price": 0.11,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 23884.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Real Madrid CF win on 2026-09-08?",
-      "outcome": "Yes",
-      "price": 0.89,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 110262.41,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FC Internazionale Milano win on 2026-09-08?",
-      "outcome": "No",
-      "price": 0.967,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 97986.91,
+      "fresh": true,
+      "liquidity_usd": 22650.87,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -176,12 +167,12 @@
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
       "price": 0.74,
-      "net_traders": -1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 484848.17,
+      "liquidity_usd": 491159.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -195,7 +186,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 353827.55,
+      "liquidity_usd": 352493.96,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -209,25 +200,67 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 295691.31,
+      "liquidity_usd": 292624.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
-      "outcome": "Frances Tiafoe",
-      "price": 0.25,
-      "net_traders": -3,
+      "market": "New York Mets vs. Miami Marlins",
+      "outcome": "New York Mets",
+      "price": 0.91,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 22650.87,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Arizona Diamondbacks vs. Kansas City Royals",
+      "outcome": "Kansas City Royals",
+      "price": 0.5,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 461528.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Arizona Diamondbacks vs. Kansas City Royals",
+      "outcome": "Arizona Diamondbacks",
+      "price": 0.5,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 366605.65,
+      "liquidity_usd": 461528.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.76,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 422778.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-08T19:39:17.922501+00:00"
+  "source_report_generated_at": "2026-09-08T23:02:17.803932+00:00"
 }
