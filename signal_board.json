@@ -1,215 +1,173 @@
 {
-  "generated_at_utc": "2026-09-08T16:53:08.220521+00:00",
+  "generated_at_utc": "2026-09-08T19:39:29.408638+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1877,
+    "n": 1882,
     "excluded_certain": 137,
-    "win_rate": 0.5364944059669685,
-    "wr_lo": 0.5138830574699312,
-    "wr_hi": 0.5589566755517118,
-    "implied": 0.5077419286094832,
-    "edge_pts": 2.8752477357485318,
-    "edge_lo_pts": 0.6141128860448042,
-    "edge_hi_pts": 5.121474694222861,
-    "brier": 0.2776476161214704,
-    "roi_net": 0.6274602390252105,
+    "win_rate": 0.536663124335813,
+    "wr_lo": 0.5140820837052041,
+    "wr_hi": 0.5590947939286331,
+    "implied": 0.5079976620616365,
+    "edge_pts": 2.8665462274176434,
+    "edge_lo_pts": 0.6084421643567595,
+    "edge_hi_pts": 5.10971318669966,
+    "brier": 0.27748404647183844,
+    "roi_net": 0.6256135884230738,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Club Brugge KV win on 2026-09-08?",
+      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 571289.89,
+      "score": 57.2
+    },
+    {
+      "market": "Will BV Borussia 09 Dortmund win on 2026-09-08?",
       "outcome": "No",
-      "price": 0.63,
-      "net_traders": 8,
+      "price": 0.53,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 69926.35,
-      "score": 79.5
-    },
-    {
-      "market": "Will BV Borussia 09 Dortmund win on 2026-09-08?",
-      "outcome": "No",
-      "price": 0.45,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1192959.9,
-      "score": 56.9
-    },
-    {
-      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.05,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 572288.6,
-      "score": 53.7
-    },
-    {
-      "market": "Will AEK win on 2026-09-08?",
-      "outcome": "No",
-      "price": 0.44,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 57196.15,
-      "score": 52.9
+      "liquidity_usd": 105916.96,
+      "score": 55.7
     },
     {
       "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
       "outcome": "Yes",
       "price": 0.09,
-      "net_traders": 4,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 239595.28,
-      "score": 51.2
+      "liquidity_usd": 231316.87,
+      "score": 55.4
     },
     {
-      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
       "outcome": "Yes",
-      "price": 0.852,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 536861.09,
-      "score": 28.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.84,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 23446.13,
-      "score": 25.7
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.634,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 132332.11,
-      "score": 25.2
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.86,
+      "price": 0.503,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 140156.43,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.889,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 97805.64,
-      "score": 18.2
+      "liquidity_usd": 353827.55,
+      "score": 45.9
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.246,
-      "net_traders": 2,
+      "market": "Will Lille OSC win on 2026-09-08?",
+      "outcome": "No",
+      "price": 0.31,
+      "net_traders": 5,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 431057.29,
+      "fresh": false,
+      "liquidity_usd": 33689.92,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
-      "outcome": "Frances Tiafoe",
-      "price": 0.6,
-      "net_traders": 2,
+      "outcome": "Alex Michelsen",
+      "price": 0.25,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 679589.92,
+      "liquidity_usd": 366605.65,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: G2 vs Astralis (BO3) - FISSURE PLAYGROUND Group A",
-      "outcome": "G2",
-      "price": 0.69,
-      "net_traders": 2,
+      "market": "Will Real Betis Balompi\u00e9 win on 2026-09-08?",
+      "outcome": "No",
+      "price": 0.91,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 23884.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Lille OSC win on 2026-09-08?",
+      "outcome": "Yes",
+      "price": 0.7,
+      "net_traders": -5,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 33689.92,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Real Betis Balompi\u00e9 win on 2026-09-08?",
+      "outcome": "Yes",
+      "price": 0.11,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 43850.42,
+      "liquidity_usd": 23884.58,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.8,
+      "market": "Will Real Madrid CF win on 2026-09-08?",
+      "outcome": "Yes",
+      "price": 0.89,
       "net_traders": 0,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 167712.23,
+      "liquidity_usd": 110262.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "market": "Will FC Internazionale Milano win on 2026-09-08?",
       "outcome": "No",
-      "price": 0.93,
-      "net_traders": -1,
+      "price": 0.967,
+      "net_traders": 1,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 388412.19,
+      "liquidity_usd": 97986.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -218,30 +176,58 @@
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
       "price": 0.74,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 489637.12,
+      "liquidity_usd": 484848.17,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
       "outcome": "No",
-      "price": 0.755,
+      "price": 0.498,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
+      "fresh": true,
+      "liquidity_usd": 353827.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.53,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
       "fresh": false,
-      "liquidity_usd": 431057.29,
+      "liquidity_usd": 295691.31,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+      "outcome": "Frances Tiafoe",
+      "price": 0.25,
+      "net_traders": -3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 366605.65,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-08T16:52:56.946522+00:00"
+  "source_report_generated_at": "2026-09-08T19:39:17.922501+00:00"
 }
