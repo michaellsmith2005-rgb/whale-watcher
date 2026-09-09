@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-09T09:16:26.038447+00:00",
+  "generated_at_utc": "2026-09-09T16:55:59.128214+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1903,
-    "excluded_certain": 137,
-    "win_rate": 0.535995796111403,
-    "wr_lo": 0.5135390201453953,
-    "wr_hi": 0.5583075349119309,
-    "implied": 0.5089593273778245,
-    "edge_pts": 2.7036468733578567,
-    "edge_lo_pts": 0.45796927675708643,
-    "edge_hi_pts": 4.934820753410641,
-    "brier": 0.2780624516342617,
-    "roi_net": 0.620844340080358,
+    "n": 1908,
+    "excluded_certain": 138,
+    "win_rate": 0.5361635220125787,
+    "wr_lo": 0.5137364315435251,
+    "wr_hi": 0.5584452805815798,
+    "implied": 0.5094547169811321,
+    "edge_pts": 2.670880503144657,
+    "edge_lo_pts": 0.4281714562393013,
+    "edge_hi_pts": 4.899056360044773,
+    "brier": 0.2775194682704403,
+    "roi_net": 0.6182301642777396,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,8 +27,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 571634.26,
+      "liquidity_usd": 571604.72,
       "score": 57.2
+    },
+    {
+      "market": "Will the Philadelphia Eagles win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 141746.78,
+      "score": 50.2
     },
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
@@ -36,36 +48,11 @@
       "price": 0.503,
       "net_traders": 3,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 357883.5,
-      "score": 56.1
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.47,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 551596.58,
-      "score": 50.2
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.628,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 147497.67,
-      "score": 32.2
+      "liquidity_usd": 356164.32,
+      "score": 49.4
     },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
@@ -76,8 +63,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 344520.61,
+      "liquidity_usd": 312853.53,
       "score": 32.2
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.628,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 129315.02,
+      "score": 28.7
     },
     {
       "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
@@ -88,59 +87,26 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 578289.45,
+      "liquidity_usd": 537748.13,
       "score": 28.7
-    },
-    {
-      "market": "Will the Los Angeles Rams win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.17,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 293999.61,
-      "score": 28.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.84,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 42699.18,
-      "score": 25.7
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 139601.42,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.885,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 109202.7,
-      "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Will VfB Stuttgart win on 2026-09-09?",
+      "outcome": "No",
+      "price": 0.2,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 107249.14,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -150,38 +116,53 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 428395.88,
+      "liquidity_usd": 413123.71,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Counter-Strike: Legacy vs Alliance (BO3) - FISSURE PLAYGROUND Group B",
-      "outcome": "Legacy",
-      "price": 0.97,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 44835.0,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
+      "market": "Will the Minnesota Vikings win the 2027 NFL league championship?",
       "outcome": "Yes",
-      "price": 0.02,
+      "price": 0.016,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 309674.03,
+      "liquidity_usd": 150236.55,
       "why_excluded": [
         "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will VfB Stuttgart win on 2026-09-09?",
+      "outcome": "Yes",
+      "price": 0.81,
+      "net_traders": -4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 107249.14,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal FC win on 2026-09-09?",
+      "outcome": "Yes",
+      "price": 0.63,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1882308.64,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
@@ -193,7 +174,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 206453.2,
+      "liquidity_usd": 204373.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -207,35 +188,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 206453.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 191208.44,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 405682.52,
+      "liquidity_usd": 204373.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -249,11 +202,53 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 357883.5,
+      "liquidity_usd": 356164.32,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.76,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 413123.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal FC win on 2026-09-09?",
+      "outcome": "No",
+      "price": 0.38,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1882308.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "St. Louis Cardinals vs. San Francisco Giants: O/U 8.5",
+      "outcome": "Over",
+      "price": 0.51,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 129994.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-09T09:16:15.102136+00:00"
+  "source_report_generated_at": "2026-09-09T16:55:42.296940+00:00"
 }
