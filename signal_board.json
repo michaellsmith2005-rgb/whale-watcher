@@ -1,46 +1,36 @@
 {
-  "generated_at_utc": "2026-09-09T16:55:59.128214+00:00",
+  "generated_at_utc": "2026-09-09T19:33:15.357576+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1908,
+    "n": 1912,
     "excluded_certain": 138,
-    "win_rate": 0.5361635220125787,
-    "wr_lo": 0.5137364315435251,
-    "wr_hi": 0.5584452805815798,
-    "implied": 0.5094547169811321,
-    "edge_pts": 2.670880503144657,
-    "edge_lo_pts": 0.4281714562393013,
-    "edge_hi_pts": 4.899056360044773,
-    "brier": 0.2775194682704403,
-    "roi_net": 0.6182301642777396,
+    "win_rate": 0.5360878661087866,
+    "wr_lo": 0.513684182978569,
+    "wr_hi": 0.5583468241777636,
+    "implied": 0.5094453974895398,
+    "edge_pts": 2.6642468619246795,
+    "edge_lo_pts": 0.42387854890292287,
+    "edge_hi_pts": 4.890142668822383,
+    "brier": 0.2770184861192469,
+    "roi_net": 0.6160942935378643,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.05,
-      "net_traders": 5,
+      "market": "Will Sporting CP win on 2026-09-09?",
+      "outcome": "No",
+      "price": 0.5,
+      "net_traders": 6,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 571604.72,
-      "score": 57.2
-    },
-    {
-      "market": "Will the Philadelphia Eagles win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.05,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 141746.78,
-      "score": 50.2
+      "liquidity_usd": 165319.83,
+      "score": 53.5
     },
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
@@ -51,101 +41,51 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 356164.32,
+      "liquidity_usd": 353453.58,
       "score": 49.4
-    },
-    {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.22,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 312853.53,
-      "score": 32.2
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.628,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 129315.02,
-      "score": 28.7
-    },
-    {
-      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
-      "outcome": "Yes",
-      "price": 0.853,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 537748.13,
-      "score": 28.7
     }
   ],
   "excluded": [
     {
-      "market": "Will VfB Stuttgart win on 2026-09-09?",
-      "outcome": "No",
-      "price": 0.2,
-      "net_traders": 4,
+      "market": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+      "outcome": "Mirra Andreeva",
+      "price": 0.58,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 107249.14,
+      "liquidity_usd": 196581.06,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.241,
+      "market": "Will Arsenal FC win on 2026-09-09?",
+      "outcome": "No",
+      "price": 0.47,
       "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 413123.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Minnesota Vikings win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.016,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 150236.55,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will VfB Stuttgart win on 2026-09-09?",
-      "outcome": "Yes",
-      "price": 0.81,
-      "net_traders": -4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 107249.14,
+      "fresh": false,
+      "liquidity_usd": 130783.41,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Liverpool FC win on 2026-09-09?",
+      "outcome": "No",
+      "price": 0.73,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 93300.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -153,14 +93,87 @@
     {
       "market": "Will Arsenal FC win on 2026-09-09?",
       "outcome": "Yes",
-      "price": 0.63,
+      "price": 0.54,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 130783.41,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "SSC Napoli vs. Arsenal FC: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.29,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 31078.7,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+      "outcome": "Coco Gauff",
+      "price": 0.58,
+      "net_traders": -3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 196581.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will SSC Napoli win on 2026-09-09?",
+      "outcome": "Yes",
+      "price": 0.17,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1882308.64,
+      "liquidity_usd": 102498.22,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Arsenal FC (-1.5)",
+      "outcome": "SSC Napoli",
+      "price": 0.25,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 18202.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Liverpool FC win on 2026-09-09?",
+      "outcome": "Yes",
+      "price": 0.28,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 93300.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -174,7 +187,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 204373.26,
+      "liquidity_usd": 294459.09,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -188,7 +201,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 204373.26,
+      "liquidity_usd": 294459.09,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -202,53 +215,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 356164.32,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.76,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 413123.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Arsenal FC win on 2026-09-09?",
-      "outcome": "No",
-      "price": 0.38,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1882308.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "St. Louis Cardinals vs. San Francisco Giants: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.51,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 129994.79,
+      "liquidity_usd": 353453.58,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-09T16:55:42.296940+00:00"
+  "source_report_generated_at": "2026-09-09T19:32:56.887392+00:00"
 }
