@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-10T09:15:00.358600+00:00",
+  "generated_at_utc": "2026-09-10T16:44:04.311209+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1939,
+    "n": 1941,
     "excluded_certain": 138,
-    "win_rate": 0.5348117586384734,
-    "wr_lo": 0.5125632946588257,
-    "wr_hi": 0.5569225553456214,
-    "implied": 0.5089373904074265,
-    "edge_pts": 2.587436823104694,
-    "edge_lo_pts": 0.36259042513991924,
-    "edge_hi_pts": 4.798516493819493,
-    "brier": 0.2764908950283651,
-    "roi_net": 0.6070185543166625,
+    "win_rate": 0.5342606903657908,
+    "wr_lo": 0.5120231006690527,
+    "wr_hi": 0.5563629313862056,
+    "implied": 0.5090724368882019,
+    "edge_pts": 2.5188253477588907,
+    "edge_lo_pts": 0.29506637808507374,
+    "edge_hi_pts": 4.729049449800371,
+    "brier": 0.27666524753219984,
+    "roi_net": 0.6053420797630131,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,8 +27,21 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 570933.24,
+      "liquidity_usd": 560039.39,
       "score": 60.7
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 203093.88,
+      "score": 60.3
     },
     {
       "market": "Will the New York Yankees win the 2026 World Series?",
@@ -39,7 +52,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 116511.65,
+      "liquidity_usd": 117837.92,
       "score": 57.2
     },
     {
@@ -51,7 +64,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 178114.53,
+      "liquidity_usd": 182184.41,
       "score": 51.4
     },
     {
@@ -63,7 +76,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 142167.07,
+      "liquidity_usd": 148712.54,
       "score": 50.4
     },
     {
@@ -75,32 +88,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 362337.38,
+      "liquidity_usd": 353595.7,
       "score": 49.4
     },
     {
-      "market": "Counter-Strike: MIBR vs BetBoom Team (BO3) - FISSURE PLAYGROUND Group A",
-      "outcome": "MIBR",
-      "price": 0.45,
-      "net_traders": 2,
+      "market": "PSV vs. FK Shakhtar Donetsk: O/U 3.5",
+      "outcome": "Under",
+      "price": 0.46,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 205948.67,
-      "score": 44.7
-    },
-    {
-      "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
-      "outcome": "No",
-      "price": 0.944,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 19336.48,
-      "score": 43.2
+      "liquidity_usd": 219471.81,
+      "score": 48.9
     },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
@@ -111,7 +112,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 311850.9,
+      "liquidity_usd": 310215.34,
       "score": 32.2
     },
     {
@@ -123,61 +124,47 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 489925.34,
+      "liquidity_usd": 476454.17,
       "score": 28.7
     },
     {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.626,
+      "price": 0.932,
       "net_traders": 3,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 130361.44,
+      "liquidity_usd": 184973.34,
       "score": 25.2
     }
   ],
   "excluded": [
     {
-      "market": "Counter-Strike: Astralis vs 5star (BO3) - FISSURE PLAYGROUND Group A",
-      "outcome": "Astralis",
-      "price": 0.83,
-      "net_traders": 2,
+      "market": "Will FK Bod\u00f8/Glimt win on 2026-09-10?",
+      "outcome": "Yes",
+      "price": 0.028,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 46783.81,
+      "liquidity_usd": 849603.99,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will Sabah FK win on 2026-09-10?",
       "outcome": "Yes",
-      "price": 0.243,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 426637.52,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Minnesota Vikings win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.016,
+      "price": 0.028,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 137946.57,
+      "liquidity_usd": 266954.46,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
@@ -191,7 +178,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216434.06,
+      "liquidity_usd": 227498.59,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -205,7 +192,21 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 216434.06,
+      "liquidity_usd": 227498.59,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.64,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 461148.7,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -219,7 +220,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 264827.62,
+      "liquidity_usd": 264136.66,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -233,7 +234,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 362337.38,
+      "liquidity_usd": 353595.7,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,40 +248,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 294747.34,
+      "liquidity_usd": 291957.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.758,
-      "net_traders": -2,
+      "market": "Will AS Roma win on 2026-09-10?",
+      "outcome": "Yes",
+      "price": 0.51,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 426637.52,
+      "liquidity_usd": 993225.62,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will San Jose Earthquakes win the 2026 MLS Cup?",
-      "outcome": "No",
-      "price": 0.986,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 25808.22,
-      "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-10T09:14:49.123377+00:00"
+  "source_report_generated_at": "2026-09-10T16:43:45.431685+00:00"
 }
