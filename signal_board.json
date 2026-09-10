@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-09T22:49:11.607732+00:00",
+  "generated_at_utc": "2026-09-10T09:15:00.358600+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1931,
+    "n": 1939,
     "excluded_certain": 138,
-    "win_rate": 0.5354738477472812,
-    "wr_lo": 0.5131800528927705,
-    "wr_hi": 0.5576267769789877,
-    "implied": 0.5090469186949768,
-    "edge_pts": 2.642692905230448,
-    "edge_lo_pts": 0.41331341977937086,
-    "edge_hi_pts": 4.85798582840109,
-    "brier": 0.2768856786431901,
-    "roi_net": 0.6110408052611734,
+    "win_rate": 0.5348117586384734,
+    "wr_lo": 0.5125632946588257,
+    "wr_hi": 0.5569225553456214,
+    "implied": 0.5089373904074265,
+    "edge_pts": 2.587436823104694,
+    "edge_lo_pts": 0.36259042513991924,
+    "edge_hi_pts": 4.798516493819493,
+    "brier": 0.2764908950283651,
+    "roi_net": 0.6070185543166625,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,13 +22,13 @@
       "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
       "price": 0.05,
-      "net_traders": 5,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 566944.56,
-      "score": 57.2
+      "liquidity_usd": 570933.24,
+      "score": 60.7
     },
     {
       "market": "Will the New York Yankees win the 2026 World Series?",
@@ -39,8 +39,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 114307.83,
+      "liquidity_usd": 116511.65,
       "score": 57.2
+    },
+    {
+      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.09,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 178114.53,
+      "score": 51.4
     },
     {
       "market": "Will the Philadelphia Eagles win the 2027 NFL league championship?",
@@ -51,7 +63,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 143081.89,
+      "liquidity_usd": 142167.07,
       "score": 50.4
     },
     {
@@ -63,31 +75,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 351301.36,
+      "liquidity_usd": 362337.38,
       "score": 49.4
     },
     {
-      "market": "Counter-Strike: Alliance vs TYLOO (BO3) - FISSURE PLAYGROUND Group B",
-      "outcome": "Alliance",
-      "price": 0.46,
-      "net_traders": 3,
+      "market": "Counter-Strike: MIBR vs BetBoom Team (BO3) - FISSURE PLAYGROUND Group A",
+      "outcome": "MIBR",
+      "price": 0.45,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 212736.95,
-      "score": 46.7
+      "liquidity_usd": 205948.67,
+      "score": 44.7
     },
     {
       "market": "Will Chicago Fire FC win the 2026 MLS Cup?",
       "outcome": "No",
-      "price": 0.943,
+      "price": 0.944,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 18225.35,
+      "liquidity_usd": 19336.48,
       "score": 43.2
     },
     {
@@ -99,73 +111,59 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 300288.77,
+      "liquidity_usd": 311850.9,
       "score": 32.2
+    },
+    {
+      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "outcome": "Yes",
+      "price": 0.854,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 489925.34,
+      "score": 28.7
     },
     {
       "market": "Will Harry Kane win the 2026 Ballon d'Or?",
       "outcome": "Yes",
       "price": 0.626,
-      "net_traders": 4,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 122510.7,
-      "score": 28.7
-    },
-    {
-      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
-      "outcome": "Yes",
-      "price": 0.853,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 513494.05,
-      "score": 28.7
+      "liquidity_usd": 130361.44,
+      "score": 25.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Santos FC win on 2026-09-09?",
-      "outcome": "No",
-      "price": 0.31,
+      "market": "Counter-Strike: Astralis vs 5star (BO3) - FISSURE PLAYGROUND Group A",
+      "outcome": "Astralis",
+      "price": 0.83,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 33125.19,
+      "liquidity_usd": 46783.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will SE Palmeiras win on 2026-09-09?",
-      "outcome": "No",
-      "price": 0.12,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 30869.37,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Houston Dynamo win on 2026-09-09?",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.5,
+      "price": 0.243,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 189956.5,
+      "fresh": true,
+      "liquidity_usd": 426637.52,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -179,35 +177,49 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 147684.78,
+      "liquidity_usd": 137946.57,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
+      "outcome": "No",
       "price": 0.51,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 288373.97,
+      "liquidity_usd": 216434.06,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
+      "outcome": "Yes",
       "price": 0.5,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 288373.97,
+      "liquidity_usd": 216434.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 264827.62,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,67 +233,54 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 351301.36,
+      "liquidity_usd": 362337.38,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will CA Mineiro win on 2026-09-09?",
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.54,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 294747.34,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.93,
-      "net_traders": 1,
+      "price": 0.758,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 45809.51,
+      "liquidity_usd": 426637.52,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Pittsburgh Pirates vs. Chicago White Sox: O/U 8.5",
-      "outcome": "Over",
-      "price": 0.55,
+      "market": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+      "outcome": "No",
+      "price": 0.986,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 184971.5,
+      "liquidity_usd": 25808.22,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Patriots vs. Seahawks: O/U 44.5",
-      "outcome": "Over",
-      "price": 0.49,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 761905.12,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Colorado Rockies vs. New York Yankees: O/U 9.5",
-      "outcome": "Over",
-      "price": 0.5,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 224046.66,
-      "why_excluded": [
+        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-09T22:49:00.141815+00:00"
+  "source_report_generated_at": "2026-09-10T09:14:49.123377+00:00"
 }
