@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-11T19:21:12.958772+00:00",
+  "generated_at_utc": "2026-09-11T22:50:53.218819+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1947,
+    "n": 1960,
     "excluded_certain": 140,
-    "win_rate": 0.5336414997431946,
-    "wr_lo": 0.5114375905414259,
-    "wr_hi": 0.5557129151685201,
-    "implied": 0.5088236260914226,
-    "edge_pts": 2.4817873651772016,
-    "edge_lo_pts": 0.2613964450003281,
-    "edge_hi_pts": 4.6889289077097445,
-    "brier": 0.276954055192604,
-    "roi_net": 0.60715665175891,
+    "win_rate": 0.5331632653061225,
+    "wr_lo": 0.5110327111468134,
+    "wr_hi": 0.5551640737670005,
+    "implied": 0.5089283673469388,
+    "edge_pts": 2.4234897959183654,
+    "edge_lo_pts": 0.2104343799874564,
+    "edge_hi_pts": 4.62357064200617,
+    "brier": 0.2767542578877551,
+    "roi_net": 0.6023457451515303,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,14 +21,39 @@
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.44,
+      "price": 0.46,
       "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 247513.78,
+      "score": 63.8
+    },
+    {
+      "market": "Will Anthropic IPO by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.9,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 206178.35,
-      "score": 57.2
+      "liquidity_usd": 30925.2,
+      "score": 53.7
+    },
+    {
+      "market": "Will Brighton & Hove Albion FC win on 2026-09-13?",
+      "outcome": "No",
+      "price": 0.49,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 142434.17,
+      "score": 52.4
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
@@ -41,122 +66,96 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1289861.22,
-      "score": 51.6
+      "liquidity_usd": 1208909.33,
+      "score": 51.7
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.504,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 359240.09,
+      "score": 45.7
     },
     {
       "market": "Fed Rate Hike by September 2026 Meeting?",
       "outcome": "Yes",
-      "price": 0.82,
+      "price": 0.81,
       "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 88793.5,
+      "liquidity_usd": 49931.67,
       "score": 39.2
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.932,
+      "price": 0.933,
       "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 239108.16,
+      "liquidity_usd": 227243.57,
       "score": 38.8
+    },
+    {
+      "market": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
+      "outcome": "Yes",
+      "price": 0.82,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 29212.71,
+      "score": 32.2
+    },
+    {
+      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "outcome": "Yes",
+      "price": 0.867,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 433277.3,
+      "score": 32.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Sevilla FC win on 2026-09-11?",
-      "outcome": "No",
-      "price": 0.48,
-      "net_traders": 1,
+      "market": "Counter-Strike: Legacy vs MIBR (BO3) - FISSURE PLAYGROUND Playoffs",
+      "outcome": "MIBR",
+      "price": 0.68,
+      "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 79278.14,
+      "liquidity_usd": 199127.65,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Stade Rennais FC 1901 win on 2026-09-11?",
-      "outcome": "No",
-      "price": 0.62,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 68679.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Sevilla FC win on 2026-09-11?",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.53,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 79278.14,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Stade Rennais FC 1901 win on 2026-09-11?",
-      "outcome": "Yes",
-      "price": 0.39,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 68679.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Genoa: Matej Dodig vs Enrico Dalla Valle",
-      "outcome": "Matej Dodig",
-      "price": 0.63,
+      "price": 0.241,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 127506.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will ACF Fiorentina win on 2026-09-11?",
-      "outcome": "No",
-      "price": 0.33,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 33808.52,
+      "liquidity_usd": 425882.65,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -170,7 +169,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 393967.48,
+      "liquidity_usd": 398307.58,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -184,7 +183,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 393967.48,
+      "liquidity_usd": 398307.58,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -198,7 +197,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 120190.09,
+      "liquidity_usd": 118714.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -206,17 +205,45 @@
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.83,
-      "net_traders": 1,
+      "price": 0.81,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 825309.68,
+      "liquidity_usd": 796929.65,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 126290.72,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "price": 0.497,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 359240.09,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-11T19:20:55.384986+00:00"
+  "source_report_generated_at": "2026-09-11T22:50:37.088756+00:00"
 }
