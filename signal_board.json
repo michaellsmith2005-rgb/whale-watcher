@@ -1,48 +1,23 @@
 {
-  "generated_at_utc": "2026-09-10T22:50:21.540502+00:00",
+  "generated_at_utc": "2026-09-11T09:13:14.853506+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1946,
+    "n": 1947,
     "excluded_certain": 140,
-    "win_rate": 0.5334018499486125,
-    "wr_lo": 0.5111919894636846,
-    "wr_hi": 0.5554800930275289,
-    "implied": 0.5090388489208634,
-    "edge_pts": 2.436300102774913,
-    "edge_lo_pts": 0.21531405428212302,
-    "edge_hi_pts": 4.64412441066655,
-    "brier": 0.27667083528263103,
-    "roi_net": 0.6022830883162831,
+    "win_rate": 0.5336414997431946,
+    "wr_lo": 0.5114375905414259,
+    "wr_hi": 0.5557129151685201,
+    "implied": 0.5088236260914226,
+    "edge_pts": 2.4817873651772016,
+    "edge_lo_pts": 0.2613964450003281,
+    "edge_hi_pts": 4.6889289077097445,
+    "brier": 0.276954055192604,
+    "roi_net": 0.60715665175891,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.05,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 555146.04,
-      "score": 60.7
-    },
-    {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 201361.13,
-      "score": 60.3
-    },
     {
       "market": "Will the New York Yankees win the 2026 World Series?",
       "outcome": "Yes",
@@ -52,8 +27,34 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 117809.91,
+      "liquidity_usd": 98599.41,
       "score": 57.2
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.45,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 184595.68,
+      "score": 56.8
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.503,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 391070.13,
+      "score": 56.1
     },
     {
       "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
@@ -64,32 +65,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 195307.09,
+      "liquidity_usd": 189759.33,
       "score": 51.4
     },
     {
       "market": "Will the Philadelphia Eagles win the 2027 NFL league championship?",
       "outcome": "Yes",
-      "price": 0.05,
+      "price": 0.047,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 157202.12,
-      "score": 50.4
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.503,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 355379.83,
-      "score": 49.4
+      "liquidity_usd": 126421.45,
+      "score": 51.2
     },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
@@ -100,59 +89,60 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 313033.94,
+      "liquidity_usd": 295346.06,
       "score": 32.2
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.93,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 195390.95,
+      "score": 31.8
     },
     {
       "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
       "outcome": "Yes",
-      "price": 0.854,
+      "price": 0.853,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 507737.12,
+      "liquidity_usd": 521826.2,
       "score": 28.7
     },
     {
-      "market": "Barranquilla: Carol Young Suh Lee vs Leolia Jeanjean",
-      "outcome": "Leolia Jeanjean",
-      "price": 0.09,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 87163.95,
-      "score": 25.2
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.927,
-      "net_traders": 3,
+      "price": 0.62,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 235055.21,
-      "score": 25.2
+      "liquidity_usd": 429032.34,
+      "score": 21.7
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.243,
-      "net_traders": 2,
+      "price": 0.029,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 419741.71,
+      "liquidity_usd": 557103.38,
       "why_excluded": [
-        "cohort on both sides"
+        "already decided (near-certain price)"
       ]
     },
     {
@@ -164,7 +154,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 135400.23,
+      "liquidity_usd": 114074.65,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
@@ -178,7 +168,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 449036.35,
+      "liquidity_usd": 272955.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -192,21 +182,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 449036.35,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.65,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 555190.15,
+      "liquidity_usd": 272955.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -220,7 +196,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 276499.99,
+      "liquidity_usd": 256998.1,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -234,21 +210,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 355379.83,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.758,
-      "net_traders": -2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 419741.71,
+      "liquidity_usd": 391070.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -262,11 +224,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 291021.05,
+      "liquidity_usd": 281871.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
+      "outcome": "No",
+      "price": 0.874,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 70309.62,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-10T22:50:08.259849+00:00"
+  "source_report_generated_at": "2026-09-11T09:12:57.167943+00:00"
 }
