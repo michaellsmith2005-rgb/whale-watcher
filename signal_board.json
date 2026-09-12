@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-12T18:50:57.551204+00:00",
+  "generated_at_utc": "2026-09-12T22:41:12.505313+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1967,
+    "n": 1974,
     "excluded_certain": 140,
-    "win_rate": 0.5332994407727504,
-    "wr_lo": 0.5112084727199361,
-    "wr_hi": 0.5552605930842361,
-    "implied": 0.5094253177427555,
-    "edge_pts": 2.387412302999492,
-    "edge_lo_pts": 0.17831549771806232,
-    "edge_hi_pts": 4.583527534148068,
-    "brier": 0.2768204094865277,
-    "roi_net": 0.5999772882641385,
+    "win_rate": 0.5339412360688957,
+    "wr_lo": 0.5118901660071296,
+    "wr_hi": 0.5558604566918772,
+    "implied": 0.5093918946301925,
+    "edge_pts": 2.454934143870313,
+    "edge_lo_pts": 0.24982713769370335,
+    "edge_hi_pts": 4.64685620616847,
+    "brier": 0.27658426821681864,
+    "roi_net": 0.5992517530739835,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -28,46 +28,22 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 211761.75,
+      "liquidity_usd": 229762.06,
       "score": 63.8
-    },
-    {
-      "market": "Spread: Arsenal FC (-1.5)",
-      "outcome": "Arsenal FC",
-      "price": 0.32,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 273131.53,
-      "score": 53.7
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
       "price": 0.8,
-      "net_traders": 6,
+      "net_traders": 7,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 892223.16,
-      "score": 51.7
-    },
-    {
-      "market": "Real Madrid CF vs. Rayo Vallecano de Madrid: O/U 3.5",
-      "outcome": "Over",
-      "price": 0.57,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 147774.24,
-      "score": 48.9
+      "liquidity_usd": 1003320.32,
+      "score": 54.6
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
@@ -79,7 +55,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 156010.1,
+      "liquidity_usd": 155183.23,
       "score": 42.3
     },
     {
@@ -91,63 +67,88 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 63099.63,
+      "liquidity_usd": 62010.43,
       "score": 39.2
     },
     {
       "market": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
       "outcome": "Yes",
-      "price": 0.82,
+      "price": 0.81,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 19913.87,
+      "liquidity_usd": 19324.23,
+      "score": 32.2
+    },
+    {
+      "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "outcome": "Yes",
+      "price": 0.868,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 418445.09,
       "score": 32.2
     }
   ],
   "excluded": [
     {
-      "market": "Oklahoma vs. Michigan",
-      "outcome": "Michigan",
-      "price": 0.59,
-      "net_traders": 3,
+      "market": "Los Angeles Dodgers vs. Miami Marlins",
+      "outcome": "Miami Marlins",
+      "price": 0.08,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 147215.24,
+      "liquidity_usd": 97023.09,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Arsenal FC win on 2026-09-12?",
+      "market": "California vs. Syracuse",
+      "outcome": "Syracuse",
+      "price": 0.22,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 60754.69,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.6,
-      "net_traders": 0,
+      "price": 0.21,
+      "net_traders": 1,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 1644067.78,
+      "liquidity_usd": 1089938.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Arsenal FC win on 2026-09-12?",
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.41,
-      "net_traders": 0,
+      "price": 0.8,
+      "net_traders": -1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 1644067.78,
+      "fresh": false,
+      "liquidity_usd": 1089938.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -161,7 +162,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 322274.32,
+      "liquidity_usd": 417451.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -175,7 +176,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 322274.32,
+      "liquidity_usd": 417451.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -183,27 +184,13 @@
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.88,
+      "price": 0.87,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 118298.64,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.8,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1008656.63,
+      "liquidity_usd": 144519.95,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,11 +204,40 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96744.59,
+      "liquidity_usd": 104646.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US Open WTA: Aryna Sabalenka vs Elena Rybakina",
+      "outcome": "Elena Rybakina",
+      "price": 0.001,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 882544.73,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.58,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 112220.07,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-12T18:50:45.560079+00:00"
+  "source_report_generated_at": "2026-09-12T22:41:00.070439+00:00"
 }
