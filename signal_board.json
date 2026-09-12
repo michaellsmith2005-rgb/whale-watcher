@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-11T22:50:53.218819+00:00",
+  "generated_at_utc": "2026-09-12T08:55:04.458583+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -21,44 +21,20 @@
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.46,
-      "net_traders": 5,
+      "price": 0.5,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 247513.78,
-      "score": 63.8
-    },
-    {
-      "market": "Will Anthropic IPO by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.9,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 30925.2,
-      "score": 53.7
-    },
-    {
-      "market": "Will Brighton & Hove Albion FC win on 2026-09-13?",
-      "outcome": "No",
-      "price": 0.49,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 142434.17,
-      "score": 52.4
+      "liquidity_usd": 249139.23,
+      "score": 60.3
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.81,
+      "price": 0.79,
       "net_traders": 6,
       "signals": [
         "pure_count",
@@ -66,68 +42,80 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1208909.33,
+      "liquidity_usd": 705432.25,
       "score": 51.7
     },
     {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
       "outcome": "Yes",
-      "price": 0.504,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 359240.09,
-      "score": 45.7
-    },
-    {
-      "market": "Fed Rate Hike by September 2026 Meeting?",
-      "outcome": "Yes",
-      "price": 0.81,
-      "net_traders": 7,
+      "price": 0.09,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 49931.67,
-      "score": 39.2
+      "liquidity_usd": 199940.46,
+      "score": 50.9
+    },
+    {
+      "market": "Will BV Borussia 09 Dortmund win on 2026-09-12?",
+      "outcome": "Yes",
+      "price": 0.78,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 198515.99,
+      "score": 49.2
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
       "price": 0.933,
-      "net_traders": 5,
+      "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 227243.57,
-      "score": 38.8
+      "liquidity_usd": 184153.29,
+      "score": 42.3
+    },
+    {
+      "market": "Fed Rate Hike by September 2026 Meeting?",
+      "outcome": "Yes",
+      "price": 0.79,
+      "net_traders": 7,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 63105.08,
+      "score": 39.2
     },
     {
       "market": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
       "outcome": "Yes",
-      "price": 0.82,
+      "price": 0.81,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 29212.71,
+      "liquidity_usd": 28127.32,
       "score": 32.2
     },
     {
       "market": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
       "outcome": "Yes",
-      "price": 0.867,
+      "price": 0.87,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 433277.3,
+      "liquidity_usd": 444510.37,
       "score": 32.2
     }
   ],
@@ -135,27 +123,28 @@
     {
       "market": "Counter-Strike: Legacy vs MIBR (BO3) - FISSURE PLAYGROUND Playoffs",
       "outcome": "MIBR",
-      "price": 0.68,
-      "net_traders": 2,
+      "price": 0.67,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 199127.65,
+      "liquidity_usd": 23243.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.241,
-      "net_traders": 2,
+      "market": "Counter-Strike: Legacy vs MIBR (BO3) - FISSURE PLAYGROUND Playoffs",
+      "outcome": "Legacy",
+      "price": 0.67,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 425882.65,
+      "liquidity_usd": 23243.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -164,12 +153,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.51,
-      "net_traders": 0,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 398307.58,
+      "liquidity_usd": 245261.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -178,12 +167,12 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.5,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 398307.58,
+      "liquidity_usd": 245261.04,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -191,13 +180,13 @@
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.9,
+      "price": 0.89,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 118714.82,
+      "liquidity_usd": 153909.51,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -205,13 +194,13 @@
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.81,
-      "net_traders": 0,
+      "price": 0.8,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 796929.65,
+      "liquidity_usd": 752852.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,25 +214,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 126290.72,
+      "liquidity_usd": 103604.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "No",
-      "price": 0.497,
-      "net_traders": -2,
+      "market": "LoL: Anyone's Legend vs Invictus Gaming (BO5) - LPL Playoffs",
+      "outcome": "Anyone's Legend",
+      "price": 0.5,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 359240.09,
+      "liquidity_usd": 410685.39,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-11T22:50:37.088756+00:00"
+  "source_report_generated_at": "2026-09-12T08:54:48.711339+00:00"
 }
