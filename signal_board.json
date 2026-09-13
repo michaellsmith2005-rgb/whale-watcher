@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-13T19:02:03.924320+00:00",
+  "generated_at_utc": "2026-09-13T22:42:27.267941+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1981,
+    "n": 1987,
     "excluded_certain": 141,
-    "win_rate": 0.5330641090358404,
-    "wr_lo": 0.5110511851276588,
-    "wr_hi": 0.5549490438074863,
-    "implied": 0.5091618374558303,
-    "edge_pts": 2.3902271580010126,
-    "edge_lo_pts": 0.18893476718284674,
-    "edge_hi_pts": 4.578720635165601,
-    "brier": 0.27706393006562346,
-    "roi_net": 0.6008701549190177,
+    "win_rate": 0.532964267740312,
+    "wr_lo": 0.5109845397866185,
+    "wr_hi": 0.5548167776059857,
+    "implied": 0.5095765475591344,
+    "edge_pts": 2.338772018117763,
+    "edge_lo_pts": 0.14079922274841117,
+    "edge_hi_pts": 4.524023004685129,
+    "brier": 0.2768894546854555,
+    "roi_net": 0.5980689271331563,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -28,25 +28,13 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 241325.14,
+      "liquidity_usd": 245271.98,
       "score": 63.8
-    },
-    {
-      "market": "Bears vs. Panthers",
-      "outcome": "Panthers",
-      "price": 0.75,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 293149.9,
-      "score": 50.2
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.78,
+      "price": 0.79,
       "net_traders": 5,
       "signals": [
         "pure_count",
@@ -54,7 +42,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1344174.18,
+      "liquidity_usd": 1131860.89,
       "score": 48.3
     },
     {
@@ -66,102 +54,115 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 343390.62,
+      "liquidity_usd": 336253.65,
       "score": 43.4
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.939,
+      "price": 0.936,
       "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 176539.66,
+      "liquidity_usd": 173356.15,
       "score": 38.8
     },
     {
       "market": "Fed Rate Hike by September 2026 Meeting?",
       "outcome": "Yes",
-      "price": 0.79,
+      "price": 0.78,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 96534.69,
+      "liquidity_usd": 67527.43,
       "score": 32.2
+    },
+    {
+      "market": "Dolphins vs. Raiders",
+      "outcome": "Raiders",
+      "price": 0.039,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 324239.15,
+      "score": 28.4
     }
   ],
   "excluded": [
     {
-      "market": "Bills vs. Texans",
-      "outcome": "Bills",
-      "price": 0.62,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 177762.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Ravens vs. Colts",
-      "outcome": "Ravens",
-      "price": 0.949,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 239709.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Falcons vs. Steelers",
-      "outcome": "Falcons",
-      "price": 0.22,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 50593.61,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Stade Brestois 29 vs. Paris Saint-Germain FC: O/U 3.5",
-      "outcome": "Over",
-      "price": 0.67,
+      "market": "Packers vs. Vikings",
+      "outcome": "Packers",
+      "price": 0.85,
       "net_traders": 0,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 25559.41,
+      "liquidity_usd": 288118.49,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Stade Brestois 29 vs. Paris Saint-Germain FC: O/U 3.5",
-      "outcome": "Under",
-      "price": 0.67,
+      "market": "Packers vs. Vikings",
+      "outcome": "Vikings",
+      "price": 0.85,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 25559.41,
+      "liquidity_usd": 288118.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Commanders vs. Eagles",
+      "outcome": "Commanders",
+      "price": 0.17,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 251657.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cardinals vs. Chargers",
+      "outcome": "Cardinals",
+      "price": 0.43,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 287291.03,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Vancouver Whitecaps FC (-1.5)",
+      "outcome": "Vancouver Whitecaps FC",
+      "price": 0.58,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 19568.62,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -169,13 +170,13 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.54,
+      "price": 0.53,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 275986.78,
+      "liquidity_usd": 287582.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -183,13 +184,13 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.47,
+      "price": 0.48,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 275986.78,
+      "liquidity_usd": 287582.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -203,7 +204,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 172783.34,
+      "liquidity_usd": 171338.84,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -211,13 +212,13 @@
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.8,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1083775.41,
+      "liquidity_usd": 1264316.25,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,25 +232,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 120260.29,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.58,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 133501.87,
+      "liquidity_usd": 126104.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-13T19:01:46.301771+00:00"
+  "source_report_generated_at": "2026-09-13T22:42:09.562821+00:00"
 }
