@@ -1,35 +1,63 @@
 {
-  "generated_at_utc": "2026-09-14T18:14:26.368707+00:00",
+  "generated_at_utc": "2026-09-14T23:33:25.877646+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 1994,
+    "n": 2000,
     "excluded_certain": 141,
-    "win_rate": 0.5325977933801405,
-    "wr_lo": 0.5106563678128418,
-    "wr_hi": 0.5544138559726676,
-    "implied": 0.5096778335005016,
-    "edge_pts": 2.2919959879638907,
-    "edge_lo_pts": 0.09785343123402956,
-    "edge_hi_pts": 4.4736022472166015,
-    "brier": 0.2774626717452357,
-    "roi_net": 0.607004030009123,
+    "win_rate": 0.534,
+    "wr_lo": 0.5120929439777046,
+    "wr_hi": 0.5557766920254607,
+    "implied": 0.5098288,
+    "edge_pts": 2.417120000000006,
+    "edge_lo_pts": 0.22641439777045802,
+    "edge_hi_pts": 4.5947892025460675,
+    "brier": 0.27747488373,
+    "roi_net": 0.6122471277917689,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Broncos vs. Chiefs",
+      "outcome": "Broncos",
+      "price": 0.46,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5558997.96,
+      "score": 67.9
+    },
+    {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.47,
+      "price": 0.46,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 217295.45,
+      "liquidity_usd": 252920.21,
       "score": 60.3
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.88,
+      "net_traders": 8,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1231846.28,
+      "score": 58.5
     },
     {
       "market": "Will Anthropic IPO by December 31, 2026?",
@@ -40,22 +68,8 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 27124.22,
+      "liquidity_usd": 25487.08,
       "score": 57.2
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.85,
-      "net_traders": 7,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1413039.92,
-      "score": 55.1
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -66,100 +80,85 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 251891.68,
+      "liquidity_usd": 267216.04,
       "score": 46.7
-    },
-    {
-      "market": "FC Internazionale Milano vs. Udinese Calcio: O/U 3.5",
-      "outcome": "Over",
-      "price": 0.48,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 280452.38,
-      "score": 44.9
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.935,
+      "price": 0.942,
       "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 214949.54,
+      "liquidity_usd": 237420.76,
       "score": 38.8
     },
     {
       "market": "Fed Rate Hike by September 2026 Meeting?",
       "outcome": "Yes",
-      "price": 0.85,
+      "price": 0.89,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 57993.39,
+      "liquidity_usd": 35811.42,
       "score": 35.7
     },
     {
       "market": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
       "outcome": "Yes",
-      "price": 0.86,
+      "price": 0.89,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 22021.96,
+      "liquidity_usd": 17056.47,
       "score": 32.2
+    },
+    {
+      "market": "Chicago White Sox vs. Cleveland Guardians: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.21,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 16067.41,
+      "score": 28.7
     }
   ],
   "excluded": [
     {
-      "market": "Will FC Internazionale Milano win on 2026-09-14?",
-      "outcome": "Yes",
-      "price": 0.81,
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "No",
+      "price": 0.88,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 529087.99,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-      "outcome": "No",
-      "price": 0.86,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
       "fresh": false,
-      "liquidity_usd": 1052049.02,
+      "liquidity_usd": 1068847.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Como 1907 (-1.5)",
-      "outcome": "Parma Calcio 1913",
-      "price": 0.29,
+      "market": "Los Angeles Dodgers vs. Cincinnati Reds",
+      "outcome": "Cincinnati Reds",
+      "price": 0.9,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 37983.04,
+      "fresh": true,
+      "liquidity_usd": 82081.37,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -173,7 +172,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 248250.09,
+      "liquidity_usd": 318004.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -187,21 +186,21 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 248250.09,
+      "liquidity_usd": 318004.38,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will AS Roma win on 2026-09-14?",
-      "outcome": "Yes",
-      "price": 0.88,
-      "net_traders": 0,
+      "market": "Broncos vs. Chiefs",
+      "outcome": "Chiefs",
+      "price": 0.46,
+      "net_traders": -5,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 83935.42,
+      "fresh": true,
+      "liquidity_usd": 5558997.96,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -215,25 +214,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 200344.24,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Como 1907 vs. Parma Calcio 1913: O/U 2.5",
-      "outcome": "Over",
-      "price": 0.09,
-      "net_traders": 1,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 66664.9,
+      "liquidity_usd": 310787.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-14T18:14:14.171697+00:00"
+  "source_report_generated_at": "2026-09-14T23:33:14.104339+00:00"
 }
