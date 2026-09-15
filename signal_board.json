@@ -1,111 +1,121 @@
 {
-  "generated_at_utc": "2026-09-14T23:33:25.877646+00:00",
+  "generated_at_utc": "2026-09-15T09:40:08.631509+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2000,
+    "n": 2006,
     "excluded_certain": 141,
-    "win_rate": 0.534,
-    "wr_lo": 0.5120929439777046,
-    "wr_hi": 0.5557766920254607,
-    "implied": 0.5098288,
-    "edge_pts": 2.417120000000006,
-    "edge_lo_pts": 0.22641439777045802,
-    "edge_hi_pts": 4.5947892025460675,
-    "brier": 0.27747488373,
-    "roi_net": 0.6122471277917689,
+    "win_rate": 0.532901296111665,
+    "wr_lo": 0.5110259471369679,
+    "wr_hi": 0.5546508703793976,
+    "implied": 0.5097744765702892,
+    "edge_pts": 2.3126819541375854,
+    "edge_lo_pts": 0.12514705666787362,
+    "edge_hi_pts": 4.487639380910846,
+    "brier": 0.2775325361216351,
+    "roi_net": 0.6084487380992103,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Broncos vs. Chiefs",
-      "outcome": "Broncos",
-      "price": 0.46,
-      "net_traders": 5,
+      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.89,
+      "net_traders": 9,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 5558997.96,
-      "score": 67.9
+      "liquidity_usd": 1055930.42,
+      "score": 62.2
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.46,
+      "price": 0.45,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 252920.21,
+      "liquidity_usd": 238622.82,
       "score": 60.3
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.88,
-      "net_traders": 8,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1231846.28,
-      "score": 58.5
     },
     {
       "market": "Will Anthropic IPO by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.86,
+      "price": 0.84,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 25487.08,
+      "liquidity_usd": 27582.86,
+      "score": 57.2
+    },
+    {
+      "market": "Will SPD win between 28% and 31% of all valid second votes?",
+      "outcome": "Yes",
+      "price": 0.1,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 19828.18,
       "score": 57.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.71,
+      "price": 0.7,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 267216.04,
+      "liquidity_usd": 399811.42,
       "score": 46.7
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.513,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 364500.71,
+      "score": 43.4
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.942,
-      "net_traders": 5,
+      "price": 0.938,
+      "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 237420.76,
-      "score": 38.8
+      "liquidity_usd": 204969.32,
+      "score": 42.3
     },
     {
       "market": "Fed Rate Hike by September 2026 Meeting?",
       "outcome": "Yes",
-      "price": 0.89,
+      "price": 0.88,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 35811.42,
+      "liquidity_usd": 48682.69,
       "score": 35.7
     },
     {
@@ -117,90 +127,34 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 17056.47,
+      "liquidity_usd": 16199.18,
       "score": 32.2
     },
     {
-      "market": "Chicago White Sox vs. Cleveland Guardians: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.21,
-      "net_traders": 4,
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.22,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 16067.41,
-      "score": 28.7
+      "liquidity_usd": 406445.3,
+      "score": 32.2
     }
   ],
   "excluded": [
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.88,
-      "net_traders": 1,
+      "price": 0.89,
+      "net_traders": 2,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1068847.28,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Los Angeles Dodgers vs. Cincinnati Reds",
-      "outcome": "Cincinnati Reds",
-      "price": 0.9,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 82081.37,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.53,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 318004.38,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 318004.38,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Broncos vs. Chiefs",
-      "outcome": "Chiefs",
-      "price": 0.46,
-      "net_traders": -5,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5558997.96,
+      "liquidity_usd": 991113.9,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,17 +162,45 @@
     {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.92,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 310787.29,
+      "liquidity_usd": 286453.2,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "price": 0.488,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 364500.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.57,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 240944.88,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-14T23:33:14.104339+00:00"
+  "source_report_generated_at": "2026-09-15T09:39:56.685221+00:00"
 }
