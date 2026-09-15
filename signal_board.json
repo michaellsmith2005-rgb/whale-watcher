@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T09:40:08.631509+00:00",
+  "generated_at_utc": "2026-09-15T17:20:51.236812+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -21,29 +21,16 @@
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.89,
-      "net_traders": 9,
+      "price": 0.88,
+      "net_traders": 8,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1055930.42,
-      "score": 62.2
-    },
-    {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 238622.82,
-      "score": 60.3
+      "liquidity_usd": 1181196.48,
+      "score": 58.8
     },
     {
       "market": "Will Anthropic IPO by December 31, 2026?",
@@ -54,20 +41,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 27582.86,
+      "liquidity_usd": 29302.89,
       "score": 57.2
     },
     {
-      "market": "Will SPD win between 28% and 31% of all valid second votes?",
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.1,
-      "net_traders": 5,
+      "price": 0.47,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 19828.18,
-      "score": 57.2
+      "liquidity_usd": 244646.66,
+      "score": 53.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -78,7 +65,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 399811.42,
+      "liquidity_usd": 419522.3,
       "score": 46.7
     },
     {
@@ -90,7 +77,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 364500.71,
+      "liquidity_usd": 376434.21,
       "score": 43.4
     },
     {
@@ -103,7 +90,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 204969.32,
+      "liquidity_usd": 190924.54,
       "score": 42.3
     },
     {
@@ -115,19 +102,19 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 48682.69,
+      "liquidity_usd": 76187.44,
       "score": 35.7
     },
     {
       "market": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
       "outcome": "Yes",
-      "price": 0.89,
+      "price": 0.9,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 16199.18,
+      "liquidity_usd": 32441.94,
       "score": 32.2
     },
     {
@@ -139,8 +126,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 406445.3,
+      "liquidity_usd": 355880.0,
       "score": 32.2
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 510932.29,
+      "score": 18.2
     }
   ],
   "excluded": [
@@ -148,13 +147,70 @@
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
       "price": 0.89,
-      "net_traders": 2,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 991113.9,
+      "liquidity_usd": 953492.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Deportivo Alav\u00e9s win on 2026-09-15?",
+      "outcome": "No",
+      "price": 0.44,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1277433.91,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Rayo Vallecano de Madrid win on 2026-09-15?",
+      "outcome": "No",
+      "price": 0.36,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 58267.36,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.12,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 953492.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Deportivo Alav\u00e9s win on 2026-09-15?",
+      "outcome": "Yes",
+      "price": 0.57,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1277433.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -168,7 +224,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 286453.2,
+      "liquidity_usd": 313537.59,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -182,25 +238,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 364500.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.57,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 240944.88,
+      "liquidity_usd": 376434.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-15T09:39:56.685221+00:00"
+  "source_report_generated_at": "2026-09-15T17:20:38.093173+00:00"
 }
