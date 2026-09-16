@@ -1,52 +1,39 @@
 {
-  "generated_at_utc": "2026-09-15T23:14:05.856106+00:00",
+  "generated_at_utc": "2026-09-16T09:34:27.603751+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2010,
+    "n": 2011,
     "excluded_certain": 141,
-    "win_rate": 0.5328358208955224,
-    "wr_lo": 0.510982207182635,
-    "wr_hi": 0.554564159522671,
-    "implied": 0.5096604975124378,
-    "edge_pts": 2.317532338308459,
-    "edge_lo_pts": 0.13217096701971798,
-    "edge_hi_pts": 4.490366201023321,
-    "brier": 0.2775183917711443,
-    "roi_net": 0.6074694642649107,
+    "win_rate": 0.5325708602685231,
+    "wr_lo": 0.5107224342606006,
+    "wr_hi": 0.5542950837418071,
+    "implied": 0.5097849825957235,
+    "edge_pts": 2.2785877672799604,
+    "edge_lo_pts": 0.09374516648771314,
+    "edge_hi_pts": 4.451010114608367,
+    "brier": 0.27766761186474387,
+    "roi_net": 0.6066601805929739,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.47,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 267699.6,
-      "score": 63.8
-    },
-    {
       "market": "Will Anthropic IPO by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.86,
+      "price": 0.84,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 22606.89,
+      "liquidity_usd": 27783.18,
       "score": 57.2
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.89,
+      "price": 0.88,
       "net_traders": 7,
       "signals": [
         "pure_count",
@@ -54,20 +41,20 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1106454.2,
-      "score": 55.3
+      "liquidity_usd": 925232.09,
+      "score": 55.5
     },
     {
-      "market": "Los Angeles Dodgers vs. Cincinnati Reds",
-      "outcome": "Cincinnati Reds",
-      "price": 0.76,
-      "net_traders": 3,
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.45,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 111253.8,
-      "score": 50.2
+      "liquidity_usd": 265817.54,
+      "score": 53.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -78,7 +65,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 429918.7,
+      "liquidity_usd": 489144.67,
       "score": 46.7
     },
     {
@@ -90,44 +77,44 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 332316.83,
+      "liquidity_usd": 335104.06,
       "score": 43.4
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.937,
+      "price": 0.93,
       "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 223803.44,
+      "liquidity_usd": 255453.13,
       "score": 42.3
     },
     {
       "market": "Fed Rate Hike by September 2026 Meeting?",
       "outcome": "Yes",
-      "price": 0.88,
+      "price": 0.89,
       "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 72019.27,
+      "liquidity_usd": 72652.37,
       "score": 39.2
     },
     {
       "market": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
       "outcome": "Yes",
-      "price": 0.9,
+      "price": 0.89,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 13877.23,
+      "liquidity_usd": 37858.21,
       "score": 32.2
     },
     {
@@ -139,22 +126,34 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 337220.42,
+      "liquidity_usd": 421183.19,
       "score": 32.2
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 30180.46,
+      "score": 28.7
     }
   ],
   "excluded": [
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "No",
-      "price": 0.9,
+      "price": 0.88,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 917871.17,
+      "liquidity_usd": 852115.53,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -162,27 +161,41 @@
     {
       "market": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.11,
+      "price": 0.13,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 917871.17,
+      "liquidity_usd": 852115.53,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
+      "market": "Will the New York Giants win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.025,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 233928.28,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
       "market": "Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.96,
+      "price": 0.961,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 275472.19,
+      "liquidity_usd": 245212.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -196,7 +209,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 332316.83,
+      "liquidity_usd": 335104.06,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,17 +217,17 @@
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.57,
+      "price": 0.56,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 440108.32,
+      "liquidity_usd": 512265.55,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-15T23:13:54.171749+00:00"
+  "source_report_generated_at": "2026-09-16T09:34:15.787623+00:00"
 }
