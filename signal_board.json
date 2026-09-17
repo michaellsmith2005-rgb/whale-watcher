@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-16T23:18:54.606517+00:00",
+  "generated_at_utc": "2026-09-17T09:42:45.049661+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2028,
+    "n": 2029,
     "excluded_certain": 141,
-    "win_rate": 0.5325443786982249,
-    "wr_lo": 0.510787780375043,
-    "wr_hi": 0.5541779138011173,
-    "implied": 0.5106802761341223,
-    "edge_pts": 2.186410256410265,
-    "edge_lo_pts": 0.010750424092076383,
-    "edge_hi_pts": 4.3497637666995,
-    "brier": 0.27748817133136094,
-    "roi_net": 0.6005280924818261,
+    "win_rate": 0.5327747658945293,
+    "wr_lo": 0.5110237536512653,
+    "wr_hi": 0.5544019046981113,
+    "implied": 0.5108967964514539,
+    "edge_pts": 2.1877969443075407,
+    "edge_lo_pts": 0.012695719981137277,
+    "edge_hi_pts": 4.350510824665744,
+    "brier": 0.2773526424149827,
+    "roi_net": 0.6002482026279402,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -28,7 +28,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 260206.07,
+      "liquidity_usd": 285132.99,
       "score": 63.8
     },
     {
@@ -40,8 +40,21 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 25897.71,
+      "liquidity_usd": 25567.7,
       "score": 57.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "outcome": "No",
+      "price": 0.46,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 530173.17,
+      "score": 54.0
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -52,20 +65,32 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 488598.65,
+      "liquidity_usd": 564175.26,
       "score": 46.7
     },
     {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.46,
+      "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.89,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 339781.36,
-      "score": 44.7
+      "liquidity_usd": 1124283.39,
+      "score": 46.2
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.45,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 398800.06,
+      "score": 44.4
     },
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
@@ -76,21 +101,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 377370.79,
+      "liquidity_usd": 394350.16,
       "score": 43.4
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.949,
-      "net_traders": 6,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 179840.33,
-      "score": 42.3
     },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
@@ -101,8 +113,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 899629.36,
-      "score": 40.7
+      "liquidity_usd": 1164437.18,
+      "score": 40.4
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.959,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 187478.55,
+      "score": 38.8
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
@@ -113,37 +138,11 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 27947.95,
+      "liquidity_usd": 23297.75,
       "score": 32.2
-    },
-    {
-      "market": "Will the Iranian regime fall before 2027?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 590212.21,
-      "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Will Athletic Club win on 2026-09-16?",
-      "outcome": "Yes",
-      "price": 0.42,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 31120.8,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -151,24 +150,11 @@
       "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 466049.22,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will CA Mineiro win on 2026-09-16?",
-      "outcome": "Yes",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 69768.96,
+      "liquidity_usd": 463569.53,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -176,14 +162,14 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.4,
+      "price": 0.41,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 240279.57,
+      "liquidity_usd": 241546.0,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -191,13 +177,13 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.61,
+      "price": 0.6,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 240279.57,
+      "liquidity_usd": 241546.0,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,10 +194,11 @@
       "price": 0.78,
       "net_traders": -2,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 466049.22,
+      "liquidity_usd": 463569.53,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,11 +212,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 377370.79,
+      "liquidity_usd": 394350.16,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-16T23:18:37.783349+00:00"
+  "source_report_generated_at": "2026-09-17T09:42:32.717878+00:00"
 }
