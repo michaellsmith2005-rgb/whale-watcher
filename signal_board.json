@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-17T23:10:27.878711+00:00",
+  "generated_at_utc": "2026-09-18T09:16:15.451508+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 2033,
+    "n": 2034,
     "excluded_certain": 141,
-    "win_rate": 0.5322183964584358,
-    "wr_lo": 0.5104882918579617,
-    "wr_hi": 0.5538269695742478,
-    "implied": 0.5106786030496803,
-    "edge_pts": 2.153979340875556,
-    "edge_lo_pts": -0.01903111917185285,
-    "edge_hi_pts": 4.314836652456755,
-    "brier": 0.27713689693064436,
-    "roi_net": 0.5980641512339504,
+    "win_rate": 0.5319567354965585,
+    "wr_lo": 0.5102317422039157,
+    "wr_hi": 0.5535612434726943,
+    "implied": 0.5105799410029499,
+    "edge_pts": 2.137679449360863,
+    "edge_lo_pts": -0.034819879903424944,
+    "edge_hi_pts": 4.298130246974441,
+    "brier": 0.27704789157325466,
+    "roi_net": 0.597268642801682,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,39 +21,27 @@
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.45,
+      "price": 0.43,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 346514.54,
+      "liquidity_usd": 334029.66,
       "score": 60.3
     },
     {
       "market": "Will Anthropic IPO by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.87,
+      "price": 0.86,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 23630.44,
+      "liquidity_usd": 25665.64,
       "score": 57.2
-    },
-    {
-      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.183,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 328188.94,
-      "score": 50.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -64,22 +52,8 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 595171.54,
+      "liquidity_usd": 490486.19,
       "score": 46.7
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.5,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 534082.12,
-      "score": 45.4
     },
     {
       "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
@@ -90,32 +64,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 914920.88,
+      "liquidity_usd": 974974.49,
       "score": 43.7
-    },
-    {
-      "market": "Lions vs. Bills",
-      "outcome": "Lions",
-      "price": 0.31,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 7783165.91,
-      "score": 43.7
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.513,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 345153.33,
-      "score": 43.4
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
@@ -127,27 +77,53 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 266583.09,
+      "liquidity_usd": 248087.77,
       "score": 42.3
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.52,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 481575.05,
+      "score": 39.7
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
       "outcome": "Yes",
-      "price": 0.49,
+      "price": 0.55,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 22648.44,
+      "liquidity_usd": 31101.71,
       "score": 32.2
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 708063.17,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.221,
+      "price": 0.211,
       "net_traders": 2,
       "signals": [
         "pure_count",
@@ -155,35 +131,50 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 424279.92,
+      "liquidity_usd": 456311.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "outcome": "No",
-      "price": 0.51,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 454347.04,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "market": "Will Ilija Srdanovi\u0107 be the next prime minister of Serbia?",
       "outcome": "Yes",
-      "price": 0.9,
-      "net_traders": 2,
+      "price": 0.52,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1102014.93,
+      "liquidity_usd": 5673.6,
+      "why_excluded": [
+        "thin book (<$10,000)"
+      ]
+    },
+    {
+      "market": "Will the New York Giants win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.02,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 192436.5,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.513,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 385941.37,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -191,14 +182,14 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.78,
+      "price": 0.79,
       "net_traders": -2,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 424279.92,
+      "liquidity_usd": 456311.21,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -212,11 +203,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 345153.33,
+      "liquidity_usd": 385941.37,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "outcome": "Yes",
+      "price": 0.77,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 694485.77,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-17T23:10:15.341725+00:00"
+  "source_report_generated_at": "2026-09-18T09:15:57.576470+00:00"
 }
