@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T09:16:15.451508+00:00",
+  "generated_at_utc": "2026-09-18T16:46:33.649401+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -19,19 +19,6 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.43,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 334029.66,
-      "score": 60.3
-    },
-    {
       "market": "Will Anthropic IPO by December 31, 2026?",
       "outcome": "Yes",
       "price": 0.86,
@@ -40,8 +27,32 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 25665.64,
+      "liquidity_usd": 23092.07,
       "score": 57.2
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.44,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 278553.09,
+      "score": 53.7
+    },
+    {
+      "market": "Spread: FC Bayern M\u00fcnchen (-3.5)",
+      "outcome": "1. FC Union Berlin",
+      "price": 0.56,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 254152.96,
+      "score": 50.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -52,7 +63,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 490486.19,
+      "liquidity_usd": 493265.13,
       "score": 46.7
     },
     {
@@ -64,90 +75,85 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 974974.49,
+      "liquidity_usd": 978639.96,
       "score": 43.7
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.954,
+      "price": 0.951,
       "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 248087.77,
+      "liquidity_usd": 166677.6,
       "score": 42.3
     },
     {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.52,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 481575.05,
-      "score": 39.7
-    },
-    {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
-      "outcome": "Yes",
-      "price": 0.55,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 31101.71,
-      "score": 32.2
-    },
-    {
-      "market": "Will the Iranian regime fall before 2027?",
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.91,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 195286.3,
+      "score": 21.7
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.887,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 708063.17,
+      "liquidity_usd": 150597.89,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 61727.12,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.88,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 66026.34,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.211,
+      "price": 0.57,
       "net_traders": 2,
       "signals": [
         "pure_count",
-        "capital_weighted",
         "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 456311.21,
+      "fresh": false,
+      "liquidity_usd": 487711.89,
       "why_excluded": [
         "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Ilija Srdanovi\u0107 be the next prime minister of Serbia?",
-      "outcome": "Yes",
-      "price": 0.52,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5673.6,
-      "why_excluded": [
-        "thin book (<$10,000)"
       ]
     },
     {
@@ -159,7 +165,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 192436.5,
+      "liquidity_usd": 194450.98,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
@@ -174,7 +180,35 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 385941.37,
+      "liquidity_usd": 325598.51,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.211,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 426595.35,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Caldas da Rainha: Jeline Vandromme vs Francisca Jorge",
+      "outcome": "Jeline Vandromme",
+      "price": 0.82,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 83395.96,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -185,11 +219,24 @@
       "price": 0.79,
       "net_traders": -2,
       "signals": [
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 456311.21,
+      "liquidity_usd": 426595.35,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.87,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 212051.09,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -203,25 +250,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 385941.37,
+      "liquidity_usd": 325598.51,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
       "outcome": "Yes",
-      "price": 0.77,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
-        "capital_weighted"
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 694485.77,
+      "liquidity_usd": 791971.17,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-18T09:15:57.576470+00:00"
+  "source_report_generated_at": "2026-09-18T16:46:15.362814+00:00"
 }
