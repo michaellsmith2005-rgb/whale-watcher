@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T22:53:53.909682+00:00",
+  "generated_at_utc": "2026-09-19T09:02:26.575104+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
@@ -19,18 +19,6 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.43,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 299739.05,
-      "score": 57.2
-    },
-    {
       "market": "Will Anthropic IPO by December 31, 2026?",
       "outcome": "Yes",
       "price": 0.8,
@@ -39,108 +27,135 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 22551.45,
+      "liquidity_usd": 25335.55,
       "score": 57.2
     },
     {
       "market": "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?",
       "outcome": "Yes",
-      "price": 0.121,
-      "net_traders": 5,
+      "price": 0.151,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 79300.04,
-      "score": 57.2
+      "liquidity_usd": 100130.64,
+      "score": 53.7
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.43,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 364749.03,
+      "score": 53.7
+    },
+    {
+      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.186,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 362065.7,
+      "score": 50.2
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.953,
+      "price": 0.954,
       "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 361485.84,
+      "liquidity_usd": 305116.72,
       "score": 42.3
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
       "outcome": "Yes",
-      "price": 0.45,
+      "price": 0.49,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31674.69,
+      "liquidity_usd": 53902.33,
       "score": 32.2
-    },
-    {
-      "market": "Will United Russia win between 325 and 339 seats in the next Russian State Duma election?",
-      "outcome": "Yes",
-      "price": 0.39,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 72332.77,
-      "score": 28.7
-    },
-    {
-      "market": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.299,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 95101.37,
-      "score": 25.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.93,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 191522.65,
+      "liquidity_usd": 196984.43,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.889,
+      "price": 0.904,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 150855.26,
+      "liquidity_usd": 147658.9,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 61324.14,
+      "liquidity_usd": 62658.67,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.9,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 68857.21,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.56,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 618298.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -151,22 +166,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 418508.59,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.55,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 478526.84,
+      "liquidity_usd": 424896.08,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -180,9 +180,24 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 195142.05,
+      "liquidity_usd": 205279.25,
       "why_excluded": [
         "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.513,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 371886.45,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
@@ -194,7 +209,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 129010.26,
+      "liquidity_usd": 123250.5,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -209,7 +224,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 418508.59,
+      "liquidity_usd": 424896.08,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,27 +232,13 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.89,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 207146.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.513,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 317329.35,
+      "liquidity_usd": 215142.84,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,11 +252,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 317329.35,
+      "liquidity_usd": 371886.45,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-18T22:53:41.523329+00:00"
+  "source_report_generated_at": "2026-09-19T09:02:13.965683+00:00"
 }
