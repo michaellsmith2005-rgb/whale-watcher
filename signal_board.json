@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-19T16:08:32.960550+00:00",
+  "generated_at_utc": "2026-09-19T19:02:12.008184+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 2045,
+    "n": 2046,
     "excluded_certain": 141,
-    "win_rate": 0.5315403422982885,
-    "wr_lo": 0.509873544669111,
-    "wr_hi": 0.5530888629665014,
-    "implied": 0.5111685085574572,
-    "edge_pts": 2.037183374083129,
-    "edge_lo_pts": -0.12949638883462677,
-    "edge_hi_pts": 4.192035440904418,
-    "brier": 0.2766846021809291,
-    "roi_net": 0.5920908529231601,
+    "win_rate": 0.5317693059628543,
+    "wr_lo": 0.5101080069420874,
+    "wr_hi": 0.5533115275234048,
+    "implied": 0.5113145650048876,
+    "edge_pts": 2.0454740957966733,
+    "edge_lo_pts": -0.12065580628002337,
+    "edge_hi_pts": 4.199696251851726,
+    "brier": 0.27656701439882697,
+    "roi_net": 0.5919063353514648,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,20 +27,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 19833.39,
+      "liquidity_usd": 20502.1,
       "score": 57.2
     },
     {
-      "market": "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?",
-      "outcome": "Yes",
-      "price": 0.181,
-      "net_traders": 4,
+      "market": "NC State vs. Vanderbilt",
+      "outcome": "Vanderbilt",
+      "price": 0.85,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 114358.35,
-      "score": 48.9
+      "fresh": true,
+      "liquidity_usd": 32367.21,
+      "score": 50.2
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
@@ -52,44 +52,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 365085.96,
+      "liquidity_usd": 455423.4,
       "score": 42.3
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
       "outcome": "Yes",
       "price": 0.48,
-      "net_traders": 5,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 48567.71,
-      "score": 32.2
-    },
-    {
-      "market": "Will Ilija Srdanovi\u0107 be the next prime minister of Serbia?",
-      "outcome": "Yes",
-      "price": 0.51,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 12761.57,
-      "score": 32.2
-    },
-    {
-      "market": "Will United Russia win between 325 and 339 seats in the next Russian State Duma election?",
-      "outcome": "Yes",
-      "price": 0.41,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 117314.7,
-      "score": 28.7
+      "liquidity_usd": 46940.03,
+      "score": 25.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -100,7 +76,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 187268.89,
+      "liquidity_usd": 163386.32,
       "score": 21.7
     },
     {
@@ -112,7 +88,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 141964.61,
+      "liquidity_usd": 114129.85,
       "score": 18.2
     },
     {
@@ -124,37 +100,23 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 56381.59,
+      "liquidity_usd": 38482.37,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.9,
+      "price": 0.89,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60358.34,
+      "liquidity_usd": 34415.77,
       "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Coastal Carolina vs. Delaware",
-      "outcome": "Coastal Carolina",
-      "price": 0.53,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 152260.95,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "outcome": "Yes",
@@ -166,21 +128,51 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 645758.42,
+      "liquidity_usd": 592738.75,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Paris FC win on 2026-09-19?",
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.81,
+      "price": 0.21,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 397260.7,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "North Texas vs. Texas State",
+      "outcome": "Texas State",
+      "price": 0.19,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 68174.18,
+      "liquidity_usd": 44940.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+      "outcome": "No",
+      "price": 0.793,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 168845.67,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,9 +186,23 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 10902.95,
+      "liquidity_usd": 10089.02,
       "why_excluded": [
         "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the New York Giants win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.02,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 183412.95,
+      "why_excluded": [
+        "already decided (near-certain price)"
       ]
     },
     {
@@ -208,7 +214,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 102628.28,
+      "liquidity_usd": 97594.67,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -219,10 +225,11 @@
       "price": 0.791,
       "net_traders": -2,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 427031.03,
+      "liquidity_usd": 397260.7,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,11 +243,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 191852.63,
+      "liquidity_usd": 162735.32,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-19T16:08:15.698479+00:00"
+  "source_report_generated_at": "2026-09-19T19:01:55.688160+00:00"
 }
