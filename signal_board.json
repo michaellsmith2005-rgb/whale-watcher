@@ -1,58 +1,46 @@
 {
-  "generated_at_utc": "2026-09-20T16:33:10.756356+00:00",
+  "generated_at_utc": "2026-09-20T19:06:52.406450+00:00",
   "status": "EXPERIMENTAL \u2014 no verified edge yet",
   "edge_detected": false,
   "track_record": {
-    "n": 2058,
+    "n": 2064,
     "excluded_certain": 141,
-    "win_rate": 0.532069970845481,
-    "wr_lo": 0.510472240561995,
-    "wr_hi": 0.5535481963134661,
-    "implied": 0.5113151603498541,
-    "edge_pts": 2.0754810495626885,
-    "edge_lo_pts": -0.08429197878591088,
-    "edge_hi_pts": 4.223303596361195,
-    "brier": 0.2763244511467444,
-    "roi_net": 0.5901530104479177,
+    "win_rate": 0.5329457364341085,
+    "wr_lo": 0.511380277316297,
+    "wr_hi": 0.5543887835247268,
+    "implied": 0.511398546511628,
+    "edge_pts": 2.1547189922480503,
+    "edge_lo_pts": -0.0018269195330988808,
+    "edge_hi_pts": 4.299023701309879,
+    "brier": 0.27619201572674423,
+    "roi_net": 0.5903492099290187,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Steelers vs. Patriots",
-      "outcome": "Patriots",
-      "price": 0.33,
-      "net_traders": 2,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 1879641.75,
-      "score": 46.8
-    },
-    {
       "market": "Spread: Chargers (-6.5)",
       "outcome": "Raiders",
-      "price": 0.52,
-      "net_traders": 2,
+      "price": 0.51,
+      "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 330312.33,
-      "score": 46.7
+      "fresh": false,
+      "liquidity_usd": 445837.28,
+      "score": 48.9
     },
     {
-      "market": "Steelers vs. Patriots: O/U 41.5",
-      "outcome": "Over",
-      "price": 0.49,
-      "net_traders": 1,
+      "market": "Spread: BAL (-8.5)",
+      "outcome": "BAL",
+      "price": 0.44,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 210765.7,
-      "score": 43.2
+      "fresh": false,
+      "liquidity_usd": 38271.51,
+      "score": 47.9
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
@@ -64,31 +52,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 546818.47,
+      "liquidity_usd": 549931.84,
       "score": 42.3
-    },
-    {
-      "market": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-      "outcome": "Yes",
-      "price": 0.91,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 271032.66,
-      "score": 28.7
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.92,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 171822.63,
+      "liquidity_usd": 167690.13,
       "score": 21.7
     },
     {
@@ -100,148 +76,124 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 150592.46,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 66359.35,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 69000.28,
+      "liquidity_usd": 146281.28,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Manchester United FC win on 2026-09-20?",
-      "outcome": "No",
-      "price": 0.54,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 80011.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "OGC Nice vs. Lille OSC: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.47,
+      "market": "Eagles vs. Titans",
+      "outcome": "Titans",
+      "price": 0.7,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 17214.5,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.327,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 103594.32,
+      "liquidity_usd": 416572.47,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
+      "market": "Packers vs. Jets",
+      "outcome": "Jets",
       "price": 0.56,
       "net_traders": 1,
       "signals": [
         "pure_count",
-        "conviction"
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 595415.88,
+      "fresh": true,
+      "liquidity_usd": 259613.57,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Fulham FC vs. Manchester United FC: O/U 0.5",
-      "outcome": "Over",
-      "price": 0.88,
+      "market": "Vikings vs. Bears",
+      "outcome": "Vikings",
+      "price": 0.58,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 242986.63,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Steelers vs. Patriots",
+      "outcome": "Patriots",
+      "price": 0.18,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
+      "fresh": false,
+      "liquidity_usd": 233268.34,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Packers vs. Jets",
+      "outcome": "Packers",
+      "price": 0.56,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": true,
-      "liquidity_usd": 22415.41,
+      "liquidity_usd": 259613.57,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Fulham FC vs. Manchester United FC: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.31,
-      "net_traders": 2,
+      "market": "Eagles vs. Titans",
+      "outcome": "Eagles",
+      "price": 0.7,
+      "net_traders": -2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 13748.83,
+      "fresh": true,
+      "liquidity_usd": 416572.47,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
-      "outcome": "No",
-      "price": 0.918,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 102892.71,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will OGC Nice win on 2026-09-20?",
-      "outcome": "Yes",
-      "price": 0.5,
+      "market": "Panthers vs. Falcons",
+      "outcome": "Panthers",
+      "price": 0.97,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 37544.6,
+      "liquidity_usd": 245564.26,
       "why_excluded": [
-        "wide spread",
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Steelers vs. Patriots",
+      "outcome": "Steelers",
+      "price": 0.18,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 233268.34,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -254,7 +206,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 97506.02,
+      "liquidity_usd": 100863.72,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -268,7 +220,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 429236.45,
+      "liquidity_usd": 444050.08,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -282,11 +234,39 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 204756.41,
+      "liquidity_usd": 202231.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Browns vs. Buccaneers",
+      "outcome": "Buccaneers",
+      "price": 0.11,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 241474.87,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.56,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 642870.93,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-20T16:32:56.643968+00:00"
+  "source_report_generated_at": "2026-09-20T19:06:39.242559+00:00"
 }
