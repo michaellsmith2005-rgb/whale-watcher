@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-21T10:15:44.549196+00:00 UTC*  
+*Generated: 2026-09-21T18:21:25.828502+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,54 +8,51 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **8002**
-- Unique markets represented: **6103**
+- Total open positions analyzed: **6866**
+- Unique markets represented: **5703**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will no Fed rate cuts happen in 2026?
+### 1. CA Aldosivi vs. CA Tucumán: O/U 2.5
+- **Favored outcome:** Under
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $9,749.93
+- **Backers:** Flaznorp, GoalLineGhost, RN1, ferrariChampions2026, nigiri99
+
+### 2. Will FC Petrolul Ploieşti win on 2026-09-21?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $609,218.28
-- **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, TheReturnOfDarthMaul, balthazar, donthackme, ratehikes
+- **Total combined USD exposure:** $3,139.94
+- **Backers:** Flaznorp, GoalLineGhost, RN1, UpTheBlues, nigiri99
 
-### 2. Will the Fed increase interest rates by 25 bps after the October 2026 meeting?
+### 3. Will CA Tucumán win on 2026-09-21?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $289,005.65
-- **Backers:** ArmageddonRewardsBilly, Erasmus., TheReturnOfDarthMaul, foodenjoyer, ratehikes
+- **Total combined USD exposure:** $2,636.09
+- **Backers:** Flaznorp, GoalLineGhost, RN1, UpTheBlues, nigiri99
 
-### 3. Will Harry Kane win the 2026 Ballon d'Or?
+### 4. Will JD Vance win the 2028 US Presidential Election?
 - **Favored outcome:** Yes
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $82,173.82
-- **Backers:** ArmageddonRewardsBilly, donthackme, e46m3, kneelbeforetheking, surfandturf
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $746,158.23
+- **Backers:** S-Works, balthazar, ethBELIVER, foodenjoyer
 
-### 4. Will FC Petrolul Ploieşti win on 2026-09-21?
-- **Favored outcome:** No
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $7,594.12
-- **Backers:** Bigggggggg, Flaznorp, GoalLineGhost, RN1, UpTheBlues
-
-### 5. Levante UD vs. Athletic Club: O/U 2.5
-- **Favored outcome:** Over
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $6,907.41
-- **Backers:** Flaznorp, GoalLineGhost, UpTheBlues, ferrariChampions2026, wr0ngw4yb3tt0r
+### 5. Will no Fed rate cuts happen in 2026?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $607,180.11
+- **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, TheReturnOfDarthMaul, balthazar, ratehikes
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
+| Will JD Vance win the 2028 US Presidential Election? | No | 3 | $2,867,118.23 |
 | Zelenskyy out as Ukraine president by end of 2026? | No | 1 | $1,870,000.00 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $929,139.06 |
-| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $673,625.00 |
-| Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $634,868.98 |
-| Will no Fed rate cuts happen in 2026? | Yes | 5 | $609,218.28 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 4 | $746,158.23 |
+| Will no Fed rate cuts happen in 2026? | Yes | 4 | $607,180.11 |
+| Will Manchester City win the 2026-27 English Premier League (EPL) Championship? | No | 1 | $229,957.12 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
-| Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
-|---|---|---|---|---|---|
-| Will the Fed increase interest rates by 25 bps after the October 2026 meeting? | Yes | 100 | 3 | 13.7% | 0.40 |
-| Korea Open: Darya Astakhova vs Magda Linette | Magda Linette | 28 | 3 | 9.4% | 0.17 |
+_No markets met the conviction threshold._
