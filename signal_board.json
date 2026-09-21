@@ -1,212 +1,203 @@
 {
-  "generated_at_utc": "2026-09-20T22:46:15.428554+00:00",
+  "generated_at_utc": "2026-09-21T10:15:56.620127+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2078,
+    "n": 2090,
     "excluded_certain": 142,
-    "win_rate": 0.5327237728585178,
-    "wr_lo": 0.5112309372030722,
-    "wr_hi": 0.554095838859045,
-    "implied": 0.5111629451395574,
-    "edge_pts": 2.1560827718960396,
-    "edge_lo_pts": 0.006799206351482123,
-    "edge_hi_pts": 4.293289371948761,
-    "brier": 0.27598817153994226,
-    "roi_net": 0.5875253902234262,
+    "win_rate": 0.5330143540669856,
+    "wr_lo": 0.5115836542468164,
+    "wr_hi": 0.5543239101076218,
+    "implied": 0.510606028708134,
+    "edge_pts": 2.240832535885162,
+    "edge_lo_pts": 0.0977625538682414,
+    "edge_hi_pts": 4.371788139948785,
+    "brier": 0.2766837896937799,
+    "roi_net": 0.5995916852253982,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Anthropic IPO by December 31, 2026?",
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.73,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 29512.83,
-      "score": 57.2
-    },
-    {
-      "market": "Spread: Broncos (-2.5)",
-      "outcome": "Jaguars",
-      "price": 0.9,
+      "price": 0.41,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 38968.06,
+      "liquidity_usd": 420781.66,
       "score": 53.7
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.957,
-      "net_traders": 6,
+      "price": 0.96,
+      "net_traders": 5,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 550480.28,
-      "score": 42.3
+      "liquidity_usd": 368431.92,
+      "score": 38.8
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.58,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 95357.41,
+      "score": 32.2
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by less than 5%?",
+      "outcome": "Yes",
+      "price": 0.52,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 53259.32,
+      "score": 32.2
+    },
+    {
+      "market": "Will Fl\u00e1vio Bolsonaro win the first round of the 2026 Brazilian presidential election by less than 5%?",
+      "outcome": "Yes",
+      "price": 0.299,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 63900.01,
+      "score": 32.2
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.314,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 94622.14,
+      "score": 28.7
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.93,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 166152.14,
+      "liquidity_usd": 172649.88,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.904,
+      "price": 0.933,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 146020.17,
+      "liquidity_usd": 145675.87,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.66,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 69559.8,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.95,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 60819.36,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 67004.28,
+      "liquidity_usd": 44294.47,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Commanders vs. Cowboys",
-      "outcome": "Cowboys",
-      "price": 0.08,
-      "net_traders": 2,
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.53,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 250773.87,
+      "liquidity_usd": 420398.7,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Seahawks vs. Cardinals",
-      "outcome": "Seahawks",
-      "price": 0.96,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 287140.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Jaguars vs. Broncos",
-      "outcome": "Jaguars",
-      "price": 0.11,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 391892.6,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.55,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 667236.43,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Raiders vs. Chargers",
-      "outcome": "Chargers",
-      "price": 0.57,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 275026.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Inter Miami CF (-1.5)",
-      "outcome": "San Diego FC",
-      "price": 0.51,
+      "market": "Will FC Petrolul Ploie\u015fti win on 2026-09-21?",
+      "outcome": "No",
+      "price": 0.38,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 105721.37,
+      "liquidity_usd": 39326.97,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "CR Flamengo vs. Red Bull Bragantino: O/U 3.5",
-      "outcome": "Under",
-      "price": 0.48,
-      "net_traders": 1,
+      "market": "Levante UD vs. Athletic Club: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.54,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 7914.79,
+      "fresh": true,
+      "liquidity_usd": 3347.06,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Athletic Club win on 2026-09-16?",
+      "outcome": "Yes",
+      "price": 0.43,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 14968.07,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -219,21 +210,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 101670.03,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Chargers (-6.5)",
-      "outcome": "Raiders",
-      "price": 0.07,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 47003.77,
+      "liquidity_usd": 110836.96,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,7 +224,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 420173.49,
+      "liquidity_usd": 447370.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -255,17 +232,31 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.9,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 205480.6,
+      "liquidity_usd": 209758.57,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Korea Open: Darya Astakhova vs Magda Linette",
+      "outcome": "Magda Linette",
+      "price": 0.31,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 151935.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-20T22:46:03.080358+00:00"
+  "source_report_generated_at": "2026-09-21T10:15:44.549196+00:00"
 }
