@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-21T18:21:39.339432+00:00",
+  "generated_at_utc": "2026-09-21T23:42:52.301506+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2097,
+    "n": 2104,
     "excluded_certain": 142,
-    "win_rate": 0.5326657129232236,
-    "wr_lo": 0.5112705055363707,
-    "wr_hi": 0.5539414552321136,
-    "implied": 0.5103665236051502,
-    "edge_pts": 2.22991893180734,
-    "edge_lo_pts": 0.09039819312204322,
-    "edge_hi_pts": 4.357493162696335,
-    "brier": 0.2759940936862184,
-    "roi_net": 0.5961511003660958,
+    "win_rate": 0.5318441064638784,
+    "wr_lo": 0.5104837881402307,
+    "wr_hi": 0.5530883512463343,
+    "implied": 0.5100326045627377,
+    "edge_pts": 2.1811501901140673,
+    "edge_lo_pts": 0.0451183577492964,
+    "edge_hi_pts": 4.305574668359657,
+    "brier": 0.276151480256654,
+    "roi_net": 0.5963757470310915,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,19 +27,19 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 253761.66,
+      "liquidity_usd": 288865.21,
       "score": 53.7
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.38,
+      "price": 0.4,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 270311.33,
+      "liquidity_usd": 328665.79,
       "score": 46.7
     },
     {
@@ -51,20 +51,20 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 285515.03,
+      "liquidity_usd": 345902.35,
       "score": 43.2
     },
     {
       "market": "Will Barcelona win the 2026-27 UEFA Champions League Championship?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.78,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 429389.92,
-      "score": 42.9
+      "fresh": true,
+      "liquidity_usd": 459932.96,
+      "score": 43.2
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
@@ -76,53 +76,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 356683.2,
+      "liquidity_usd": 344893.27,
       "score": 35.3
     }
   ],
   "excluded": [
-    {
-      "market": "CA Aldosivi vs. CA Tucum\u00e1n: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.1,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 20969.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FC Petrolul Ploie\u015fti win on 2026-09-21?",
-      "outcome": "Yes",
-      "price": 0.56,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 26394.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will CA Tucum\u00e1n win on 2026-09-21?",
-      "outcome": "Yes",
-      "price": 0.33,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 38611.65,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -133,36 +91,81 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 427202.1,
+      "liquidity_usd": 438800.34,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will FC Petrolul Ploie\u015fti win on 2026-09-21?",
-      "outcome": "No",
-      "price": 0.45,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 26394.96,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will CA Aldosivi win on 2026-09-21?",
-      "outcome": "No",
-      "price": 0.79,
+      "market": "Washington Nationals vs. Detroit Tigers: O/U 8.5",
+      "outcome": "Under",
+      "price": 0.35,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 43784.24,
+      "liquidity_usd": 21517.35,
       "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will CS Independiente Rivadavia win on 2026-09-21?",
+      "outcome": "Yes",
+      "price": 0.84,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 4606.63,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Atlanta Dream vs. New York Liberty",
+      "outcome": "Atlanta Dream",
+      "price": 0.53,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 160104.9,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Nueva Chicago win on 2026-09-20?",
+      "outcome": "No",
+      "price": 0.8,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 23971.67,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "CA Barracas Central vs. CS Independiente Rivadavia: O/U 1.5",
+      "outcome": "Under",
+      "price": 0.4,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 8394.1,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -175,7 +178,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4190.05,
+      "liquidity_usd": 4120.0,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
@@ -183,16 +186,18 @@
       ]
     },
     {
-      "market": "Tolentino: Federica Urgesi vs Oksana Selekhmeteva",
-      "outcome": "Federica Urgesi",
-      "price": 0.61,
-      "net_traders": 1,
+      "market": "Will Montevideo City Torque win on 2026-09-21?",
+      "outcome": "Yes",
+      "price": 0.78,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 96907.8,
+      "fresh": false,
+      "liquidity_usd": 8100.74,
       "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -205,7 +210,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 427202.1,
+      "liquidity_usd": 438800.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -219,7 +224,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 108858.72,
+      "liquidity_usd": 106185.1,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -227,13 +232,27 @@
     {
       "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
       "outcome": "No",
-      "price": 0.818,
+      "price": 0.816,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 328505.86,
+      "liquidity_usd": 337101.64,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Toronto Blue Jays vs. Baltimore Orioles",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.76,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 67387.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,25 +266,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 48299.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Zelenskyy out as Ukraine president by end of 2026?",
-      "outcome": "Yes",
-      "price": 0.07,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 108858.72,
+      "liquidity_usd": 47228.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-21T18:21:25.828502+00:00"
+  "source_report_generated_at": "2026-09-21T23:42:38.504293+00:00"
 }
