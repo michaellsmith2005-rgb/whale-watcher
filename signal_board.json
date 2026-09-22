@@ -1,57 +1,71 @@
 {
-  "generated_at_utc": "2026-09-22T17:23:23.670316+00:00",
+  "generated_at_utc": "2026-09-22T23:19:49.038185+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2111,
+    "n": 2116,
     "excluded_certain": 142,
-    "win_rate": 0.532449076267172,
-    "wr_lo": 0.5111247933931286,
-    "wr_hi": 0.5536554719468384,
-    "implied": 0.5104540975840834,
-    "edge_pts": 2.199497868308853,
-    "edge_lo_pts": 0.06706958090451076,
-    "edge_hi_pts": 4.320137436275495,
-    "brier": 0.2758965961440076,
-    "roi_net": 0.5948573622353267,
+    "win_rate": 0.5321361058601134,
+    "wr_lo": 0.5108367623918171,
+    "wr_hi": 0.5533189745273941,
+    "implied": 0.5102639886578451,
+    "edge_pts": 2.1872117202268337,
+    "edge_lo_pts": 0.05727737339720207,
+    "edge_hi_pts": 4.305498586954903,
+    "brier": 0.2756874359451796,
+    "roi_net": 0.5930971261122818,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "2026 Balance of Power: R Senate, D House",
+      "market": "Cincinnati Reds vs. Atlanta Braves",
+      "outcome": "Cincinnati Reds",
+      "price": 0.31,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 65977.73,
+      "score": 55.1
+    },
+    {
+      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
-      "price": 0.29,
-      "net_traders": 4,
+      "price": 0.182,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 309299.76,
-      "score": 53.7
-    },
-    {
-      "market": "Tampa Bay Rays vs. New York Yankees",
-      "outcome": "Tampa Bay Rays",
-      "price": 0.46,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 55890.38,
-      "score": 47.4
+      "liquidity_usd": 330216.5,
+      "score": 46.7
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.962,
+      "price": 0.965,
       "net_traders": 3,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 282376.01,
+      "liquidity_usd": 593455.07,
+      "score": 31.8
+    },
+    {
+      "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+      "outcome": "Yes",
+      "price": 0.849,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 81287.87,
       "score": 25.2
     },
     {
@@ -63,31 +77,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 237884.04,
+      "liquidity_usd": 274534.36,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.942,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 127961.85,
+      "liquidity_usd": 156068.51,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.74,
+      "price": 0.75,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 49465.46,
+      "liquidity_usd": 118199.29,
       "score": 18.2
     },
     {
@@ -99,7 +113,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 82788.2,
+      "liquidity_usd": 111511.04,
       "score": 18.2
     },
     {
@@ -111,19 +125,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 38841.44,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $2,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.84,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 99733.7,
+      "liquidity_usd": 61697.22,
       "score": 18.2
     }
   ],
@@ -138,38 +140,8 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 477344.79,
+      "liquidity_usd": 475423.77,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampa Bay Rays vs. New York Yankees: O/U 7.5",
-      "outcome": "Under",
-      "price": 0.34,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5390.15,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tampa Bay Rays vs. New York Yankees: O/U 7.5",
-      "outcome": "Over",
-      "price": 0.34,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5390.15,
-      "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
@@ -182,38 +154,10 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4356.06,
+      "liquidity_usd": 4348.97,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FC Internazionale Milano win on 2026-09-22?",
-      "outcome": "Yes",
-      "price": 0.71,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 32870.6,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will FC Internazionale Milano win on 2026-09-22?",
-      "outcome": "No",
-      "price": 0.3,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 32870.6,
-      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -226,7 +170,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 7012.45,
+      "liquidity_usd": 7016.13,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
@@ -242,9 +186,8 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 14482.56,
+      "liquidity_usd": 16441.84,
       "why_excluded": [
-        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -254,10 +197,39 @@
       "price": 0.794,
       "net_traders": -1,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 477344.79,
+      "liquidity_usd": 475423.77,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.93,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 861750.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Cincinnati Reds vs. Atlanta Braves",
+      "outcome": "Atlanta Braves",
+      "price": 0.31,
+      "net_traders": -3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 65977.73,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -265,17 +237,17 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.92,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 247309.23,
+      "liquidity_usd": 268311.37,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-22T17:23:09.477277+00:00"
+  "source_report_generated_at": "2026-09-22T23:19:26.243900+00:00"
 }
