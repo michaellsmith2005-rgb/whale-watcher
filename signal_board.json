@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-22T09:31:55.232789+00:00",
+  "generated_at_utc": "2026-09-22T17:23:23.670316+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -27,80 +27,67 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 299819.64,
+      "liquidity_usd": 309299.76,
       "score": 53.7
     },
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.39,
-      "net_traders": 3,
+      "market": "Tampa Bay Rays vs. New York Yankees",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.46,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 391862.21,
-      "score": 50.2
-    },
-    {
-      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.182,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 340212.45,
-      "score": 46.7
+      "fresh": false,
+      "liquidity_usd": 55890.38,
+      "score": 47.4
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.96,
+      "price": 0.962,
       "net_traders": 3,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 360358.42,
-      "score": 31.8
+      "liquidity_usd": 282376.01,
+      "score": 25.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.95,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 185297.35,
+      "liquidity_usd": 237884.04,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.922,
+      "price": 0.942,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 123807.18,
+      "liquidity_usd": 127961.85,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.73,
+      "price": 0.74,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 38181.41,
+      "liquidity_usd": 49465.46,
       "score": 18.2
     },
     {
@@ -112,7 +99,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 75475.52,
+      "liquidity_usd": 82788.2,
       "score": 18.2
     },
     {
@@ -124,7 +111,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 23853.78,
+      "liquidity_usd": 38841.44,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $2,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.84,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 99733.7,
       "score": 18.2
     }
   ],
@@ -139,24 +138,82 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 488390.9,
+      "liquidity_usd": 477344.79,
       "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampa Bay Rays vs. New York Yankees: O/U 7.5",
+      "outcome": "Under",
+      "price": 0.34,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5390.15,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampa Bay Rays vs. New York Yankees: O/U 7.5",
+      "outcome": "Over",
+      "price": 0.34,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 5390.15,
+      "why_excluded": [
+        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
       "market": "Levante UD vs. Athletic Club: O/U 2.5",
       "outcome": "Over",
-      "price": 0.56,
+      "price": 0.55,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4365.09,
+      "liquidity_usd": 4356.06,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will FC Internazionale Milano win on 2026-09-22?",
+      "outcome": "Yes",
+      "price": 0.71,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 32870.6,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will FC Internazionale Milano win on 2026-09-22?",
+      "outcome": "No",
+      "price": 0.3,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 32870.6,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
@@ -169,7 +226,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 6854.04,
+      "liquidity_usd": 7012.45,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
@@ -179,14 +236,15 @@
     {
       "market": "Will Athletic Club win on 2026-09-16?",
       "outcome": "Yes",
-      "price": 0.4,
+      "price": 0.41,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 15508.71,
+      "liquidity_usd": 14482.56,
       "why_excluded": [
+        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -196,39 +254,10 @@
       "price": 0.794,
       "net_traders": -1,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 488390.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.513,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 445078.15,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Zelenskyy out as Ukraine president by end of 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 119646.98,
+      "liquidity_usd": 477344.79,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,17 +265,17 @@
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.93,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 196582.84,
+      "liquidity_usd": 247309.23,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-22T09:31:42.611845+00:00"
+  "source_report_generated_at": "2026-09-22T17:23:09.477277+00:00"
 }
