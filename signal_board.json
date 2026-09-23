@@ -1,87 +1,125 @@
 {
-  "generated_at_utc": "2026-09-23T17:31:44.940687+00:00",
+  "generated_at_utc": "2026-09-23T23:16:08.016209+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2121,
+    "n": 2129,
     "excluded_certain": 142,
-    "win_rate": 0.5327675624705328,
-    "wr_lo": 0.5114939638581029,
-    "wr_hi": 0.5539226770811558,
-    "implied": 0.5099097595473834,
-    "edge_pts": 2.285780292314943,
-    "edge_lo_pts": 0.15842043107194836,
-    "edge_hi_pts": 4.4012917533772455,
-    "brier": 0.2758526235077793,
-    "roi_net": 0.5947748918198573,
+    "win_rate": 0.533583842179427,
+    "wr_lo": 0.5123511188304198,
+    "wr_hi": 0.5546955854349135,
+    "implied": 0.5105254109910755,
+    "edge_pts": 2.305843118835149,
+    "edge_lo_pts": 0.1825707839344326,
+    "edge_hi_pts": 4.417017444383797,
+    "brier": 0.27602504201972755,
+    "roi_net": 0.5941934215814803,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Washington Nationals vs. Detroit Tigers",
-      "outcome": "Washington Nationals",
-      "price": 0.36,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 42295.05,
-      "score": 62.1
-    },
-    {
-      "market": "Will Anthropic IPO by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.76,
+      "market": "Tampa Bay Rays vs. New York Yankees",
+      "outcome": "New York Yankees",
+      "price": 0.43,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 23629.9,
+      "liquidity_usd": 130985.81,
       "score": 53.7
+    },
+    {
+      "market": "Tampa Bay Rays vs. New York Yankees: O/U 6.5",
+      "outcome": "Under",
+      "price": 0.54,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 10385.82,
+      "score": 53.7
+    },
+    {
+      "market": "Will Anthropic IPO by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.72,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 24539.48,
+      "score": 53.7
+    },
+    {
+      "market": "Toronto Blue Jays vs. Baltimore Orioles",
+      "outcome": "Toronto Blue Jays",
+      "price": 0.13,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 77167.79,
+      "score": 50.2
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.62,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 408619.33,
+      "score": 46.7
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.965,
+      "price": 0.966,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 392016.16,
+      "liquidity_usd": 591360.46,
       "score": 35.3
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.581,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 153705.36,
-      "score": 28.7
     }
   ],
   "excluded": [
     {
       "market": "Will Athletic Club win on 2026-09-16?",
       "outcome": "Yes",
-      "price": 0.4,
+      "price": 0.42,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 14322.91,
+      "liquidity_usd": 13807.35,
       "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Levante UD vs. Athletic Club: O/U 2.5",
+      "outcome": "Over",
+      "price": 0.48,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 4703.65,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "wide spread",
         "cohort on both sides"
       ]
     },
@@ -95,64 +133,35 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 457067.4,
+      "liquidity_usd": 458913.35,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "St. Tropez: Titouan Droguet vs Borna Gojo",
-      "outcome": "Borna Gojo",
-      "price": 0.81,
-      "net_traders": 1,
+      "market": "Counter-Strike: Luminosity vs 3DMAX (BO5) - Logitech G Play Connect Playoffs",
+      "outcome": "3DMAX",
+      "price": 0.46,
+      "net_traders": 0,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 57727.98,
+      "liquidity_usd": 11641.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Azerbaijan win on 2026-09-23?",
-      "outcome": "Yes",
-      "price": 0.89,
+      "market": "Counter-Strike: Luminosity vs 3DMAX (BO5) - Logitech G Play Connect Playoffs",
+      "outcome": "Luminosity",
+      "price": 0.46,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 41841.65,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Oud-Heverlee Leuven Women win on 2026-09-23?",
-      "outcome": "No",
-      "price": 0.88,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 33115.91,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Tolentino: Guiomar Maristany vs Marta Lombardini",
-      "outcome": "Guiomar Maristany",
-      "price": 0.92,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 124002.89,
+      "liquidity_usd": 11641.29,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -166,7 +175,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 244007.4,
+      "liquidity_usd": 376644.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -180,7 +189,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 457067.4,
+      "liquidity_usd": 458913.35,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,7 +203,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 244007.4,
+      "liquidity_usd": 376644.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -202,13 +211,13 @@
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
       "outcome": "Yes",
-      "price": 0.513,
+      "price": 0.512,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 371212.95,
+      "liquidity_usd": 364455.63,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -216,13 +225,13 @@
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
       "outcome": "No",
-      "price": 0.488,
+      "price": 0.489,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 371212.95,
+      "liquidity_usd": 364455.63,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,14 +239,14 @@
     {
       "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.68,
+      "price": 0.65,
       "net_traders": 1,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 408647.81,
+      "liquidity_usd": 475029.35,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,11 +260,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 712760.47,
+      "liquidity_usd": 673524.13,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-23T17:31:29.241858+00:00"
+  "source_report_generated_at": "2026-09-23T23:15:50.259460+00:00"
 }
