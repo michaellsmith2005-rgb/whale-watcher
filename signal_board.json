@@ -1,135 +1,88 @@
 {
-  "generated_at_utc": "2026-09-22T23:19:49.038185+00:00",
+  "generated_at_utc": "2026-09-23T09:36:58.924027+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2116,
+    "n": 2119,
     "excluded_certain": 142,
-    "win_rate": 0.5321361058601134,
-    "wr_lo": 0.5108367623918171,
-    "wr_hi": 0.5533189745273941,
-    "implied": 0.5102639886578451,
-    "edge_pts": 2.1872117202268337,
-    "edge_lo_pts": 0.05727737339720207,
-    "edge_hi_pts": 4.305498586954903,
-    "brier": 0.2756874359451796,
-    "roi_net": 0.5930971261122818,
+    "win_rate": 0.5323265691363851,
+    "wr_lo": 0.5110425001189677,
+    "wr_hi": 0.5534936386113077,
+    "implied": 0.509980462482303,
+    "edge_pts": 2.23461066540821,
+    "edge_lo_pts": 0.10620376366646811,
+    "edge_hi_pts": 4.351317612900473,
+    "brier": 0.2757918425955639,
+    "roi_net": 0.593858014042857,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Cincinnati Reds vs. Atlanta Braves",
-      "outcome": "Cincinnati Reds",
-      "price": 0.31,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 65977.73,
-      "score": 55.1
-    },
-    {
-      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.182,
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.62,
       "net_traders": 2,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 330216.5,
+      "liquidity_usd": 422170.64,
+      "score": 46.7
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.41,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 472599.99,
       "score": 46.7
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
       "price": 0.965,
-      "net_traders": 3,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 593455.07,
-      "score": 31.8
+      "liquidity_usd": 434496.67,
+      "score": 35.3
     },
     {
-      "market": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.849,
-      "net_traders": 3,
+      "price": 0.581,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 81287.87,
-      "score": 25.2
-    },
-    {
-      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 274534.36,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.94,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 156068.51,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.75,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 118199.29,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.91,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 111511.04,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.95,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 61697.22,
-      "score": 18.2
+      "liquidity_usd": 147005.27,
+      "score": 28.7
     }
   ],
   "excluded": [
+    {
+      "market": "Will Athletic Club win on 2026-09-16?",
+      "outcome": "Yes",
+      "price": 0.4,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 14012.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
@@ -140,7 +93,37 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 475423.77,
+      "liquidity_usd": 522512.23,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.513,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 484032.88,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "St. Tropez: Murphy Cassone vs Clement Tabur",
+      "outcome": "Murphy Cassone",
+      "price": 0.58,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 47253.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -154,7 +137,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 4348.97,
+      "liquidity_usd": 4347.07,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
@@ -164,13 +147,13 @@
     {
       "market": "Levante UD vs. Athletic Club: O/U 4.5",
       "outcome": "Under",
-      "price": 0.28,
+      "price": 0.3,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 7016.13,
+      "liquidity_usd": 6937.58,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread",
@@ -178,15 +161,16 @@
       ]
     },
     {
-      "market": "Will Athletic Club win on 2026-09-16?",
+      "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.41,
+      "price": 0.66,
       "net_traders": 1,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 16441.84,
+      "fresh": false,
+      "liquidity_usd": 238846.8,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -201,53 +185,68 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 475423.77,
+      "liquidity_usd": 522512.23,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.93,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 861750.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cincinnati Reds vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.31,
-      "net_traders": -3,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.35,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 65977.73,
+      "liquidity_usd": 238846.8,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
       "outcome": "No",
-      "price": 0.92,
-      "net_traders": 0,
+      "price": 0.488,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 484032.88,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "outcome": "No",
+      "price": 0.818,
+      "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 268311.37,
+      "liquidity_usd": 347968.22,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hangzhou Open: Aleksandar Vukic vs Kyrian Jacquet",
+      "outcome": "Kyrian Jacquet",
+      "price": 0.29,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 304341.32,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-22T23:19:26.243900+00:00"
+  "source_report_generated_at": "2026-09-23T09:36:42.083368+00:00"
 }
