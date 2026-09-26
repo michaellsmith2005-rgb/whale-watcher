@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-26T09:36:01.317134+00:00 UTC*  
+*Generated: 2026-09-26T16:48:41.382268+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,40 +8,40 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **11371**
-- Unique markets represented: **8857**
+- Total open positions analyzed: **11967**
+- Unique markets represented: **8943**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Will Spain win on 2026-09-26?
+### 1. Will Faroe Islands win on 2026-09-26?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $569,982.98
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, ArturitoFilito, Flaznorp, RN1, UpTheBlues, ferrariChampions2026
+
+### 2. Will Spain win on 2026-09-26?
 - **Favored outcome:** Yes
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $546,447.87
+- **Backers:** 0x361b16e3ddfe1d415d41008daac2631d94ab74fe, Flaznorp, GoalLineGhost, UpTheBlues, kneelbeforetheking, surfandturf
+
+### 3. Will England win on 2026-09-26?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 6
+- **Total combined USD exposure:** $226,873.17
+- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, 0x361b16e3ddfe1d415d41008daac2631d94ab74fe, Flaznorp, GoalLineGhost, RN1, UpTheBlues
+
+### 4. San Diego State vs. Toledo
+- **Favored outcome:** Toledo
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $29,406.25
-- **Backers:** Flaznorp, GoalLineGhost, UpTheBlues, kneelbeforetheking, surfandturf
+- **Total combined USD exposure:** $315,737.06
+- **Backers:** Flaznorp, HomeRunHazard, Kch-Temp, RN1, ferrariChampions2026
 
-### 2. Will Athletic Club win on 2026-09-16?
-- **Favored outcome:** Yes
+### 5. Will Kazakhstan win on 2026-09-26?
+- **Favored outcome:** No
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $4,909.42
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, Flaznorp, GoalLineGhost, RN1, UpTheBlues
-
-### 3. Will JD Vance win the 2028 US Presidential Election?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $712,322.85
-- **Backers:** S-Works, balthazar, ethBELIVER, foodenjoyer
-
-### 4. Will J.D. Vance win the 2028 Republican presidential nomination?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $653,532.82
-- **Backers:** AgricultureSecretary, Nooserac, beachboy4, ndb1
-
-### 5. Will no Fed rate cuts happen in 2026?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $613,508.20
-- **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, TheReturnOfDarthMaul, balthazar, ratehikes
+- **Total combined USD exposure:** $66,668.83
+- **Backers:** Flaznorp, GoalLineGhost, RN1, UpTheBlues, ferrariChampions2026
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
@@ -51,13 +51,12 @@
 | Will JD Vance win the 2028 US Presidential Election? | No | 3 | $2,687,705.92 |
 | 2026 Balance of Power: D Senate, D House | No | 2 | $2,314,790.32 |
 | Will JD Vance win the 2028 US Presidential Election? | Yes | 4 | $712,322.85 |
-| Will J.D. Vance win the 2028 Republican presidential nomination? | Yes | 4 | $653,532.82 |
+| Will no Fed rate cuts happen in 2026? | Yes | 4 | $612,875.39 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Will J.D. Vance win the 2028 Republican presidential nomination? | No | 100 | 3 | 30.9% | 0.34 |
-| Will J.D. Vance win the 2028 Republican presidential nomination? | Yes | 100 | 3 | 30.9% | 0.34 |
-| Will the Fed increase interest rates by 25 bps after the October 2026 meeting? | Yes | 49 | 3 | 14.8% | 0.39 |
-| Hangzhou Open: Yunchaokete Bu vs Kamil Majchrzak | Yunchaokete Bu | 10 | 3 | 5.7% | 0.17 |
+| Will Spain win on 2026-09-26? | Yes | 100 | 3 | 27.9% | 0.24 |
+| Will Faroe Islands win on 2026-09-26? | No | 72 | 5 | 16.5% | 0.19 |
+| Will the Fed increase interest rates by 25 bps after the October 2026 meeting? | Yes | 57 | 3 | 14.8% | 0.38 |
