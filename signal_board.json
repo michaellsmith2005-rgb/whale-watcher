@@ -1,174 +1,224 @@
 {
-  "generated_at_utc": "2026-09-27T17:20:59.410537+00:00",
+  "generated_at_utc": "2026-09-27T23:27:22.291488+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2199,
-    "excluded_certain": 147,
-    "win_rate": 0.5338790359254206,
-    "wr_lo": 0.5129876670013144,
-    "wr_hi": 0.5546522395630068,
-    "implied": 0.5096082764893133,
-    "edge_pts": 2.4270759436107348,
-    "edge_lo_pts": 0.33793905120010903,
-    "edge_hi_pts": 4.504396307369351,
-    "brier": 0.27609100248294677,
-    "roi_net": 0.5918750974596451,
+    "n": 2220,
+    "excluded_certain": 148,
+    "win_rate": 0.5324324324324324,
+    "wr_lo": 0.511638726512786,
+    "wr_hi": 0.5531140868170843,
+    "implied": 0.5098597297297297,
+    "edge_pts": 2.257270270270273,
+    "edge_lo_pts": 0.17789967830562636,
+    "edge_hi_pts": 4.3254357087354585,
+    "brier": 0.2758361776846847,
+    "roi_net": 0.5842143090498195,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Spread: Chiefs (-10.5)",
-      "outcome": "Dolphins",
-      "price": 0.61,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 40900.56,
-      "score": 60.3
-    },
-    {
-      "market": "Chargers vs. Bills",
-      "outcome": "Bills",
-      "price": 0.49,
-      "net_traders": 5,
+      "market": "Will Inter Miami CF win on 2026-09-27?",
+      "outcome": "No",
+      "price": 0.54,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 127409.86,
-      "score": 57.2
+      "liquidity_usd": 29287.77,
+      "score": 50.2
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "market": "Spread: Cowboys (-3.5)",
+      "outcome": "Ravens",
+      "price": 0.231,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 29697.38,
+      "score": 48.0
+    },
+    {
+      "market": "Spread: Raiders (-3.5)",
+      "outcome": "Raiders",
+      "price": 0.39,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 39979.9,
+      "score": 44.2
+    },
+    {
+      "market": "Will Columbus Crew vs. Inter Miami CF end in a draw?",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.77,
+      "net_traders": 2,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 26507.39,
+      "score": 41.8
+    },
+    {
+      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.65,
+      "net_traders": 3,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 619956.99,
+      "score": 32.8
+    },
+    {
+      "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.94,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 341521.7,
-      "score": 27.7
+      "liquidity_usd": 260576.37,
+      "score": 21.7
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 76451.55,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.934,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 167314.48,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Chiefs vs. Dolphins",
-      "outcome": "Chiefs",
-      "price": 0.9,
-      "net_traders": 4,
+      "market": "Ravens vs. Cowboys",
+      "outcome": "Ravens",
+      "price": 0.61,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 218510.31,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Raiders vs. Saints",
+      "outcome": "Raiders",
+      "price": 0.83,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 219076.88,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Ravens vs. Cowboys",
+      "outcome": "Cowboys",
+      "price": 0.61,
+      "net_traders": -3,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 411552.51,
+      "fresh": true,
+      "liquidity_usd": 218510.31,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Seahawks vs. Commanders",
-      "outcome": "Seahawks",
-      "price": 0.67,
-      "net_traders": 4,
+      "market": "Raiders vs. Saints",
+      "outcome": "Saints",
+      "price": 0.83,
+      "net_traders": -1,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 145502.03,
+      "liquidity_usd": 219076.88,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Texans vs. Colts",
-      "outcome": "Texans",
+      "market": "Will Athletic Club win on 2026-09-16?",
+      "outcome": "Yes",
       "price": 0.46,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 135684.68,
+      "fresh": false,
+      "liquidity_usd": 6792.04,
       "why_excluded": [
+        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Netherlands (-1.5)",
-      "outcome": "Serbia",
-      "price": 0.2,
+      "market": "Spread: Saints (-3.5)",
+      "outcome": "Saints",
+      "price": 0.08,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 27970.91,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Ravens vs. Cowboys: O/U 52.5",
+      "outcome": "Under",
+      "price": 0.84,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 25061.85,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bengals vs. Steelers",
-      "outcome": "Bengals",
-      "price": 0.55,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": true,
-      "liquidity_usd": 155545.27,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Netherlands win on 2026-09-27?",
-      "outcome": "No",
-      "price": 0.49,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 61377.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Wales win on 2026-09-27?",
-      "outcome": "No",
-      "price": 0.98,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 72990.31,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Denmark win on 2026-09-27?",
-      "outcome": "No",
-      "price": 0.15,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 51615.79,
+      "liquidity_usd": 29908.31,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -182,7 +232,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 484839.74,
+      "liquidity_usd": 439660.53,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.93,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 318689.57,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -196,7 +260,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 484839.74,
+      "liquidity_usd": 439660.53,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,74 +268,31 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.975,
+      "price": 0.973,
       "net_traders": 4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 612848.8,
+      "liquidity_usd": 524447.37,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
-      "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.65,
-      "net_traders": 2,
+      "market": "Will Columbus Crew win on 2026-09-27?",
+      "outcome": "No",
+      "price": 0.72,
+      "net_traders": 0,
       "signals": [
-        "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 794384.83,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Lions (-6.5)",
-      "outcome": "Lions",
-      "price": 0.48,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 60223.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Lions (-6.5)",
-      "outcome": "Jets",
-      "price": 0.48,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 60223.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Titans vs. Giants",
-      "outcome": "Giants",
-      "price": 0.41,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 164815.2,
+      "liquidity_usd": 17982.84,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-27T17:20:36.370713+00:00"
+  "source_report_generated_at": "2026-09-27T23:27:09.275414+00:00"
 }
