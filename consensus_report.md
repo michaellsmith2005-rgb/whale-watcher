@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-29T00:39:50.288970+00:00 UTC*  
+*Generated: 2026-09-29T10:57:11.938038+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,59 +8,54 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **8562**
-- Unique markets represented: **7013**
+- Total open positions analyzed: **3761**
+- Unique markets represented: **3180**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Eagles vs. Bears
-- **Favored outcome:** Bears
-- **Top-50 traders backing it:** 8
-- **Total combined USD exposure:** $718,016.22
-- **Backers:** BreakTheBank, Flaznorp, HomeRunHazard, RN1, TAIWANNUMBERONE, UpTheBlues, primm, wr0ngw4yb3tt0r
+### 1. Will Athletic Club win on 2026-09-16?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $4,274.36
+- **Backers:** GoalLineGhost, UpTheBlues, Zzzz87, omnibus-076daa, wr0ngw4yb3tt0r
 
-### 2. Spread: Bears (-3.5)
-- **Favored outcome:** Eagles
-- **Top-50 traders backing it:** 8
-- **Total combined USD exposure:** $192,926.11
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, Nooserac, RN1, TAIWANNUMBERONE, UpTheBlues, ndb1, primm
+### 2. Will JD Vance win the 2028 US Presidential Election?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $286,784.71
+- **Backers:** ArmageddonRewardsBilly, Zzzz87, ethBELIVER, foodenjoyer
 
-### 3. Eagles vs. Bears
-- **Favored outcome:** Eagles
-- **Top-50 traders backing it:** 8
-- **Total combined USD exposure:** $116,159.42
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, Flaznorp, HomeRunHazard, Nooserac, RN1, TAIWANNUMBERONE, UpTheBlues, wr0ngw4yb3tt0r
+### 3. Will Arsenal win the 2026-27 English Premier League (EPL) Championship?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $246,357.00
+- **Backers:** BreakTheBank, Siddhartha1, Zzzz87, omnibus-076daa
 
-### 4. Spread: Eagles (-4.5)
-- **Favored outcome:** Eagles
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $22,444.71
-- **Backers:** HomeRunHazard, Nooserac, RN1, UpTheBlues, ndb1, primm, wr0ngw4yb3tt0r
+### 4. Will the Democratic Party control the House after the 2026 Midterm elections?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $18,098.05
+- **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, ArmageddonRewardsBilly, Erasmus., TheReturnOfDarthMaul
 
-### 5. Spread: Eagles (-3.5)
-- **Favored outcome:** Bears
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $730,600.09
-- **Backers:** 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465, HomeRunHazard, Nooserac, RN1, primm, wr0ngw4yb3tt0r
+### 5. Will Australia win on 2026-09-29?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $8,346.07
+- **Backers:** GoalLineGhost, UpTheBlues, Zzzz87, omnibus-076daa
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will JD Vance win the 2028 US Presidential Election? | No | 2 | $2,377,505.93 |
-| Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $738,699.48 |
-| Spread: Eagles (-3.5) | Bears | 6 | $730,600.09 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $722,454.06 |
-| Eagles vs. Bears | Bears | 8 | $718,016.22 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 3 | $1,093,650.00 |
+| Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $743,865.21 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $725,556.38 |
+| Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $641,962.49 |
+| Will no Fed rate cuts happen in 2026? | Yes | 2 | $575,118.09 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Spread: Eagles (-4.5) | Bears | 100 | 3 | 26.9% | 0.20 |
-| Eagles vs. Bears | Bears | 97 | 6 | 15.9% | 0.19 |
-| Spread: Eagles (-3.5) | Bears | 72 | 4 | 18.9% | 0.19 |
-| Eagles vs. Bears: O/U 41.5 | Under | 35 | 3 | 13.0% | 0.25 |
-| Eagles vs. Bears | Eagles | 16 | 3 | 6.9% | 0.16 |
-| Spread: Eagles (-2.5) | Eagles | 16 | 3 | 6.5% | 0.17 |
-| Spread: Eagles (-5.5) | Bears | 15 | 3 | 6.3% | 0.17 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 100 | 3 | 34.0% | 0.34 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 100 | 3 | 34.0% | 0.34 |
