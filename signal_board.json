@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-29T18:21:54.786691+00:00",
+  "generated_at_utc": "2026-09-30T00:00:25.024692+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2278,
-    "excluded_certain": 151,
-    "win_rate": 0.533801580333626,
-    "wr_lo": 0.5132759703784799,
-    "wr_hi": 0.5542133768224826,
-    "implied": 0.5100007023705004,
-    "edge_pts": 2.3800877963125577,
-    "edge_lo_pts": 0.3275268007979504,
-    "edge_hi_pts": 4.421267445198218,
-    "brier": 0.2763109470851624,
-    "roi_net": 0.5789326340532273,
+    "n": 2279,
+    "excluded_certain": 152,
+    "win_rate": 0.5340061430451952,
+    "wr_lo": 0.5134852668317067,
+    "wr_hi": 0.5544125671660616,
+    "implied": 0.5101367266344888,
+    "edge_pts": 2.386941641070639,
+    "edge_lo_pts": 0.3348540197217864,
+    "edge_hi_pts": 4.427584053157274,
+    "brier": 0.27620392165862223,
+    "roi_net": 0.5787661485600586,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,13 +21,13 @@
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.92,
+      "price": 0.86,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 169619.14,
+      "liquidity_usd": 176195.38,
       "score": 46.7
     },
     {
@@ -39,21 +39,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 478917.64,
+      "liquidity_usd": 797115.39,
       "score": 40.9
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.8,
+      "price": 0.81,
       "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 143169.76,
-      "score": 36.6
+      "liquidity_usd": 153503.08,
+      "score": 34.1
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -64,31 +64,31 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 146372.22,
+      "liquidity_usd": 145799.36,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.71,
+      "price": 0.72,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 19729.03,
+      "liquidity_usd": 17588.41,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.936,
+      "price": 0.935,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 140005.65,
+      "liquidity_usd": 110414.94,
       "score": 18.2
     },
     {
@@ -100,19 +100,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 192128.35,
+      "liquidity_usd": 164166.87,
       "score": 18.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216230.36,
+      "liquidity_usd": 187836.42,
       "score": 18.2
     },
     {
@@ -124,7 +124,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 78766.92,
+      "liquidity_usd": 49173.72,
       "score": 18.2
     },
     {
@@ -136,7 +136,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 71205.61,
+      "liquidity_usd": 39392.88,
       "score": 18.2
     }
   ],
@@ -151,7 +151,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 436632.76,
+      "liquidity_usd": 424500.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -165,7 +165,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 572282.72,
+      "liquidity_usd": 1157525.68,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -179,7 +179,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 5947.11,
+      "liquidity_usd": 5901.98,
       "why_excluded": [
         "thin book (<$10,000)",
         "cohort on both sides"
@@ -196,21 +196,21 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 436632.76,
+      "liquidity_usd": 424500.92,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Spain win on 2026-09-29?",
-      "outcome": "Yes",
-      "price": 0.82,
+      "market": "Chicago White Sox vs. Houston Astros",
+      "outcome": "Chicago White Sox",
+      "price": 0.96,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 1623679.72,
+      "fresh": false,
+      "liquidity_usd": 43271.23,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -218,13 +218,13 @@
     {
       "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.46,
+      "price": 0.56,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 219644.77,
+      "fresh": false,
+      "liquidity_usd": 321185.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -238,11 +238,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 295698.31,
+      "liquidity_usd": 569251.73,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-29T18:21:31.513697+00:00"
+  "source_report_generated_at": "2026-09-30T00:00:01.993112+00:00"
 }

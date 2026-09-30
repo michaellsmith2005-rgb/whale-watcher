@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-29T18:21:31.513697+00:00 UTC*  
+*Generated: 2026-09-30T00:00:01.993112+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,8 +8,8 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **3435**
-- Unique markets represented: **2820**
+- Total open positions analyzed: **2573**
+- Unique markets represented: **2254**
 
 ## Top 5 Consensus Markets (by trader count)
 
@@ -40,7 +40,7 @@
 ### 5. Will Manchester City win the 2026-27 English Premier League (EPL) Championship?
 - **Favored outcome:** No
 - **Top-50 traders backing it:** 3
-- **Total combined USD exposure:** $381,776.47
+- **Total combined USD exposure:** $386,578.69
 - **Backers:** BreakTheBank, Siddhartha1, Zzzz87
 
 ## Capital-Weighted Consensus (by total USD exposure)
@@ -48,8 +48,8 @@
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
 | Will JD Vance win the 2028 US Presidential Election? | No | 3 | $1,093,650.00 |
-| Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $728,368.01 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $724,780.80 |
+| Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $733,533.75 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $724,393.01 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $641,962.49 |
 | Will no Fed rate cuts happen in 2026? | Yes | 2 | $571,853.75 |
 
@@ -57,5 +57,5 @@
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Will JD Vance win the 2028 US Presidential Election? | No | 100 | 3 | 34.0% | 0.34 |
-| Will JD Vance win the 2028 US Presidential Election? | Yes | 100 | 3 | 34.0% | 0.34 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 100 | 3 | 34.0% | 0.33 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 100 | 3 | 34.0% | 0.33 |
