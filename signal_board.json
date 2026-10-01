@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-01T11:13:50.032079+00:00",
+  "generated_at_utc": "2026-10-01T18:36:56.987612+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -19,63 +19,27 @@
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Anthropic IPO by December 31, 2026?",
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.76,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 29630.54,
-      "score": 50.2
-    },
-    {
-      "market": "Will Portugal win on 2026-10-01?",
-      "outcome": "No",
-      "price": 0.53,
+      "price": 0.62,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 354162.51,
-      "score": 49.7
-    },
-    {
-      "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 543991.55,
-      "score": 44.9
+      "liquidity_usd": 166620.95,
+      "score": 25.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.8,
+      "price": 0.83,
       "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 175898.11,
-      "score": 29.9
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.61,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 163167.38,
+      "liquidity_usd": 184002.1,
       "score": 25.2
     },
     {
@@ -87,7 +51,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 51180.95,
+      "liquidity_usd": 46852.7,
       "score": 18.2
     },
     {
@@ -99,31 +63,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155961.03,
+      "liquidity_usd": 153997.34,
       "score": 18.2
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.91,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 213052.18,
+      "liquidity_usd": 216087.53,
       "score": 18.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 238916.12,
+      "liquidity_usd": 239416.13,
       "score": 18.2
     },
     {
@@ -135,11 +99,49 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 97221.97,
+      "liquidity_usd": 96841.91,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.95,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 86081.55,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $2,000 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.85,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40932.15,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Will Norway win on 2026-10-01?",
+      "outcome": "Yes",
+      "price": 0.7,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2089648.13,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will Athletic Club win on 2026-09-16?",
       "outcome": "Yes",
@@ -149,7 +151,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3002.8,
+      "liquidity_usd": 3615.81,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread"
@@ -165,7 +167,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 473612.55,
+      "liquidity_usd": 477526.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -173,27 +175,27 @@
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.82,
+      "price": 0.8,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 106762.4,
+      "liquidity_usd": 78922.77,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.93,
+      "market": "Will Portugal win on 2026-10-01?",
+      "outcome": "No",
+      "price": 0.48,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 960105.86,
+      "fresh": true,
+      "liquidity_usd": 3097884.81,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -201,27 +203,55 @@
     {
       "market": "Will Norway win on 2026-10-01?",
       "outcome": "No",
-      "price": 0.33,
-      "net_traders": 2,
+      "price": 0.31,
+      "net_traders": -1,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 260134.87,
+      "fresh": true,
+      "liquidity_usd": 2089648.13,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Malta win on 2026-10-01?",
+      "market": "Will Germany win on 2026-10-01?",
       "outcome": "No",
-      "price": 0.24,
-      "net_traders": 2,
+      "price": 0.18,
+      "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 78898.27,
+      "liquidity_usd": 474571.58,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Wales vs. Norway: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.63,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 132668.45,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Norway (-1.5)",
+      "outcome": "Norway",
+      "price": 0.45,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 159413.64,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,7 +266,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 473612.55,
+      "liquidity_usd": 477526.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -244,17 +274,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.969,
+      "price": 0.968,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 439313.37,
+      "liquidity_usd": 611465.9,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-01T11:13:30.665140+00:00"
+  "source_report_generated_at": "2026-10-01T18:36:35.627387+00:00"
 }
