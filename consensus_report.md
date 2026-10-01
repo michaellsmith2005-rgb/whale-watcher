@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-09-30T18:10:36.537435+00:00 UTC*  
+*Generated: 2026-10-01T00:13:37.890686+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,8 +8,8 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **3112**
-- Unique markets represented: **2588**
+- Total open positions analyzed: **2763**
+- Unique markets represented: **2432**
 
 ## Top 5 Consensus Markets (by trader count)
 
@@ -22,36 +22,36 @@
 ### 2. Will Arsenal win the 2026-27 English Premier League (EPL) Championship?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $261,063.78
+- **Total combined USD exposure:** $256,818.84
 - **Backers:** BreakTheBank, Siddhartha1, Zzzz87, omnibus-076daa
 
 ### 3. Another Fed rate hike in 2026?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $113,463.58
+- **Total combined USD exposure:** $109,330.92
 - **Backers:** ArmageddonRewardsBilly, TheReturnOfDarthMaul, TheyAreTakingTheHobitsToIsengard, foodenjoyer
 
-### 4. Will the Democratic Party control the House after the 2026 Midterm elections?
+### 4. Will the Republican Party control the House after the 2026 Midterm elections?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $74,775.91
+- **Backers:** ArmageddonRewardsBilly, Erasmus., TheReturnOfDarthMaul, foodenjoyer
+
+### 5. Will the Democratic Party control the House after the 2026 Midterm elections?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 4
 - **Total combined USD exposure:** $18,098.05
 - **Backers:** 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140, ArmageddonRewardsBilly, Erasmus., TheReturnOfDarthMaul
-
-### 5. Will Argentina win on 2026-09-30?
-- **Favored outcome:** No
-- **Top-50 traders backing it:** 4
-- **Total combined USD exposure:** $832.76
-- **Backers:** GoalLineGhost, UpTheBlues, Zzzz87, omnibus-076daa
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
 | Will JD Vance win the 2028 US Presidential Election? | No | 2 | $768,725.00 |
-| Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $733,533.75 |
+| Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $738,699.48 |
 | Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $725,556.38 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $649,056.00 |
-| Will no Fed rate cuts happen in 2026? | Yes | 2 | $573,040.78 |
+| Will no Fed rate cuts happen in 2026? | Yes | 2 | $574,227.81 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 

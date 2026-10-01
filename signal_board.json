@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-30T18:10:58.313300+00:00",
+  "generated_at_utc": "2026-10-01T00:13:50.999117+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -27,57 +27,69 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 204332.63,
+      "liquidity_usd": 158783.75,
       "score": 50.2
     },
     {
-      "market": "Will Argentina win on 2026-09-30?",
-      "outcome": "No",
-      "price": 0.09,
-      "net_traders": 3,
+      "market": "Will Anthropic IPO by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.81,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 66285.83,
-      "score": 50.2
+      "liquidity_usd": 33368.6,
+      "score": 46.7
     },
     {
       "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
       "outcome": "No",
       "price": 0.92,
-      "net_traders": 3,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 827388.67,
-      "score": 40.9
+      "liquidity_usd": 857267.63,
+      "score": 44.9
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.8,
+      "price": 0.79,
       "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 199956.74,
-      "score": 36.6
+      "liquidity_usd": 174441.61,
+      "score": 40.3
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.62,
+      "price": 0.61,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 156389.78,
+      "liquidity_usd": 159658.24,
       "score": 25.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.66,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 344851.65,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
@@ -88,7 +100,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 41825.58,
+      "liquidity_usd": 44932.94,
       "score": 18.2
     },
     {
@@ -100,7 +112,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155790.56,
+      "liquidity_usd": 145859.96,
       "score": 18.2
     },
     {
@@ -112,31 +124,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 213431.49,
+      "liquidity_usd": 218647.65,
       "score": 18.2
     },
     {
       "market": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.93,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 233795.54,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.92,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 95639.64,
+      "liquidity_usd": 224670.28,
       "score": 18.2
     }
   ],
@@ -150,7 +150,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3771.04,
+      "liquidity_usd": 3565.67,
       "why_excluded": [
         "thin book (<$10,000)",
         "wide spread"
@@ -165,7 +165,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1234486.52,
+      "liquidity_usd": 1240722.74,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -179,35 +179,21 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 469872.44,
+      "liquidity_usd": 468337.32,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Chicago Cubs vs. San Diego Padres",
-      "outcome": "Chicago Cubs",
-      "price": 0.44,
+      "market": "Will Norway win on 2026-10-01?",
+      "outcome": "No",
+      "price": 0.33,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 676884.91,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.465,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 77309.71,
+      "liquidity_usd": 153168.83,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -221,7 +207,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 469872.44,
+      "liquidity_usd": 468337.32,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -229,17 +215,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.966,
+      "price": 0.968,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 490403.77,
+      "liquidity_usd": 622829.77,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-09-30T18:10:36.537435+00:00"
+  "source_report_generated_at": "2026-10-01T00:13:37.890686+00:00"
 }
