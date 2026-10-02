@@ -1,23 +1,35 @@
 {
-  "generated_at_utc": "2026-10-02T10:46:41.016003+00:00",
+  "generated_at_utc": "2026-10-02T18:06:00.326573+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2294,
-    "excluded_certain": 152,
-    "win_rate": 0.5326939843068875,
-    "wr_lo": 0.5122389966704602,
-    "wr_hi": 0.553039654390605,
-    "implied": 0.5099222319093287,
-    "edge_pts": 2.2771752397558798,
-    "edge_lo_pts": 0.23167647611315179,
-    "edge_hi_pts": 4.311742248127626,
-    "brier": 0.2762069474542284,
-    "roi_net": 0.5737786667610969,
+    "n": 2295,
+    "excluded_certain": 153,
+    "win_rate": 0.5328976034858388,
+    "wr_lo": 0.512447283192326,
+    "wr_hi": 0.5532379732429152,
+    "implied": 0.5097152941176472,
+    "edge_pts": 2.3182309368191656,
+    "edge_lo_pts": 0.27319890746788644,
+    "edge_hi_pts": 4.352267912526808,
+    "brier": 0.2764923583703704,
+    "roi_net": 0.5855336340398191,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.43,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 739351.88,
+      "score": 46.7
+    },
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
@@ -27,31 +39,19 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1360813.18,
+      "liquidity_usd": 1272817.24,
       "score": 43.9
-    },
-    {
-      "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1116199.01,
-      "score": 42.2
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.558,
+      "price": 0.542,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 98019.01,
+      "liquidity_usd": 101213.22,
       "score": 25.2
     },
     {
@@ -63,7 +63,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 159929.72,
+      "liquidity_usd": 159279.4,
       "score": 21.7
     },
     {
@@ -75,31 +75,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 199096.8,
+      "liquidity_usd": 191243.49,
       "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.73,
+      "price": 0.72,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 50362.93,
+      "liquidity_usd": 35361.06,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.936,
+      "price": 0.939,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155010.19,
+      "liquidity_usd": 154238.65,
       "score": 18.2
     },
     {
@@ -111,7 +111,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216269.14,
+      "liquidity_usd": 212414.65,
       "score": 18.2
     },
     {
@@ -123,19 +123,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 238744.46,
+      "liquidity_usd": 234720.46,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.95,
+      "price": 0.92,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 99141.76,
+      "liquidity_usd": 94271.13,
       "score": 18.2
     }
   ],
@@ -149,7 +149,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 5579.92,
+      "liquidity_usd": 5675.59,
       "why_excluded": [
         "thin book (<$10,000)"
       ]
@@ -164,7 +164,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 507168.06,
+      "liquidity_usd": 491403.55,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -172,13 +172,27 @@
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.8,
+      "price": 0.72,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 130721.49,
+      "liquidity_usd": 120714.01,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Belgium win on 2026-10-02?",
+      "outcome": "Yes",
+      "price": 0.67,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1290109.18,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,54 +208,39 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 507168.06,
+      "liquidity_usd": 491403.55,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "China Open: Maria Timofeeva vs Naomi Osaka",
-      "outcome": "Naomi Osaka",
-      "price": 0.035,
+      "market": "Columbus: Darwin Blanch vs Dylan Dietrich",
+      "outcome": "Dylan Dietrich",
+      "price": 0.14,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 261719.5,
+      "liquidity_usd": 148396.29,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "China Open: Nikola Bartunkova vs Magdalena Frech",
-      "outcome": "Nikola Bartunkova",
-      "price": 0.976,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 247746.73,
-      "why_excluded": [
-        "already decided (near-certain price)",
         "cohort on both sides"
       ]
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.968,
+      "price": 0.963,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 427419.27,
+      "liquidity_usd": 592567.05,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-02T10:46:26.230704+00:00"
+  "source_report_generated_at": "2026-10-02T18:05:46.753796+00:00"
 }
