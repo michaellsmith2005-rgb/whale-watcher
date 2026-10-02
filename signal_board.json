@@ -1,46 +1,70 @@
 {
-  "generated_at_utc": "2026-10-01T18:36:56.987612+00:00",
+  "generated_at_utc": "2026-10-02T00:17:51.202845+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2282,
+    "n": 2289,
     "excluded_certain": 152,
-    "win_rate": 0.5337423312883436,
-    "wr_lo": 0.5132346734287806,
-    "wr_hi": 0.5541365739927381,
-    "implied": 0.5101190184049079,
-    "edge_pts": 2.3623312883435665,
-    "edge_lo_pts": 0.31156550238726766,
-    "edge_hi_pts": 4.401755558783016,
-    "brier": 0.27592990248028043,
-    "roi_net": 0.5771208235035233,
+    "win_rate": 0.5329838357361293,
+    "wr_lo": 0.5125067913203591,
+    "wr_hi": 0.5533503529324317,
+    "implied": 0.5098958497160333,
+    "edge_pts": 2.3087986020095985,
+    "edge_lo_pts": 0.2610941604325845,
+    "edge_hi_pts": 4.345450321639843,
+    "brier": 0.2761473296024465,
+    "roi_net": 0.5753808164840585,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.62,
+      "market": "Steelers vs. Browns: O/U 37.5",
+      "outcome": "Under",
+      "price": 0.51,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 166620.95,
-      "score": 25.2
+      "liquidity_usd": 31389.11,
+      "score": 49.4
+    },
+    {
+      "market": "Spread: North Texas (-3.5)",
+      "outcome": "Tulsa",
+      "price": 0.46,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 135715.6,
+      "score": 48.7
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.62,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 172561.27,
+      "score": 21.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
       "price": 0.83,
-      "net_traders": 3,
+      "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 184002.1,
-      "score": 25.2
+      "liquidity_usd": 204422.34,
+      "score": 21.7
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
@@ -51,7 +75,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 46852.7,
+      "liquidity_usd": 46790.99,
       "score": 18.2
     },
     {
@@ -63,7 +87,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 153997.34,
+      "liquidity_usd": 148472.69,
       "score": 18.2
     },
     {
@@ -75,7 +99,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216087.53,
+      "liquidity_usd": 216572.05,
       "score": 18.2
     },
     {
@@ -87,7 +111,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 239416.13,
+      "liquidity_usd": 239084.9,
       "score": 18.2
     },
     {
@@ -99,7 +123,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 96841.91,
+      "liquidity_usd": 97000.27,
       "score": 18.2
     },
     {
@@ -111,33 +135,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 86081.55,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $2,000 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.85,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40932.15,
+      "liquidity_usd": 86142.18,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Norway win on 2026-10-01?",
-      "outcome": "Yes",
-      "price": 0.7,
-      "net_traders": 1,
+      "market": "Steelers vs. Browns: O/U 38.5",
+      "outcome": "Over",
+      "price": 0.47,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 2089648.13,
+      "fresh": true,
+      "liquidity_usd": 45653.39,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -145,29 +157,28 @@
     {
       "market": "Will Athletic Club win on 2026-09-16?",
       "outcome": "Yes",
-      "price": 0.46,
+      "price": 0.4,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3615.81,
+      "liquidity_usd": 2905.55,
       "why_excluded": [
-        "thin book (<$10,000)",
-        "wide spread"
+        "thin book (<$10,000)"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.208,
+      "price": 0.207,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 477526.33,
+      "liquidity_usd": 468613.99,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -175,83 +186,41 @@
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.8,
+      "price": 0.77,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 78922.77,
+      "liquidity_usd": 131822.14,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Portugal win on 2026-10-01?",
-      "outcome": "No",
-      "price": 0.48,
+      "market": "Steelers vs. Browns",
+      "outcome": "Steelers",
+      "price": 0.6,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 3097884.81,
+      "fresh": false,
+      "liquidity_usd": 254178.08,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Norway win on 2026-10-01?",
-      "outcome": "No",
-      "price": 0.31,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2089648.13,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Germany win on 2026-10-01?",
-      "outcome": "No",
-      "price": 0.18,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 474571.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Wales vs. Norway: O/U 2.5",
-      "outcome": "Under",
-      "price": 0.63,
-      "net_traders": 1,
+      "market": "Spread: Steelers (-2.5)",
+      "outcome": "Steelers",
+      "price": 0.57,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 132668.45,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Norway (-1.5)",
-      "outcome": "Norway",
-      "price": 0.45,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 159413.64,
+      "liquidity_usd": 37196.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -259,14 +228,15 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.793,
+      "price": 0.794,
       "net_traders": -1,
       "signals": [
+        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 477526.33,
+      "liquidity_usd": 468613.99,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -280,11 +250,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 611465.9,
+      "liquidity_usd": 638752.1,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-01T18:36:35.627387+00:00"
+  "source_report_generated_at": "2026-10-02T00:17:37.329472+00:00"
 }
