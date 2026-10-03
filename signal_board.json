@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-03T00:03:14.089340+00:00",
+  "generated_at_utc": "2026-10-03T10:06:32.323773+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -21,50 +21,50 @@
     {
       "market": "Spread: Chiefs (-4.5)",
       "outcome": "Raiders",
-      "price": 0.49,
+      "price": 0.5,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 421414.96,
+      "score": 53.7
+    },
+    {
+      "market": "Will Bulgaria win on 2026-10-03?",
+      "outcome": "Yes",
+      "price": 0.13,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 368540.62,
-      "score": 51.4
+      "liquidity_usd": 187339.58,
+      "score": 52.4
     },
     {
       "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "outcome": "Yes",
-      "price": 0.44,
+      "price": 0.43,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 1000052.01,
+      "liquidity_usd": 844390.45,
       "score": 46.7
     },
     {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.65,
-      "net_traders": 3,
+      "price": 0.81,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2486824.03,
-      "score": 43.9
-    },
-    {
-      "market": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.93,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2090075.44,
-      "score": 40.4
+      "liquidity_usd": 199010.19,
+      "score": 22.9
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -75,55 +75,55 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 158669.25,
+      "liquidity_usd": 168427.8,
       "score": 21.7
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
       "outcome": "No",
-      "price": 0.82,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 194368.63,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.72,
+      "price": 0.86,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 43273.61,
+      "liquidity_usd": 1238242.76,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.939,
+      "price": 0.94,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 153330.75,
+      "liquidity_usd": 154701.3,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.71,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 43021.44,
       "score": 18.2
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.92,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 214135.01,
+      "liquidity_usd": 246866.4,
       "score": 18.2
     },
     {
@@ -135,7 +135,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 221308.68,
+      "liquidity_usd": 246397.64,
       "score": 18.2
     }
   ],
@@ -149,7 +149,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 4809.15,
+      "liquidity_usd": 4673.15,
       "why_excluded": [
         "thin book (<$10,000)"
       ]
@@ -164,7 +164,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 484952.6,
+      "liquidity_usd": 493938.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -172,13 +172,41 @@
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.72,
+      "price": 0.73,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 133886.12,
+      "liquidity_usd": 117955.59,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Colts (-3.5)",
+      "outcome": "Colts",
+      "price": 0.54,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 280902.93,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Spain vs. Czechia end in a draw?",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 240266.47,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,21 +222,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 484952.6,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Rams (-3.5)",
-      "outcome": "Eagles",
-      "price": 0.5,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 244703.22,
+      "liquidity_usd": 493938.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -216,17 +230,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.963,
+      "price": 0.962,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 697722.39,
+      "liquidity_usd": 355701.18,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-03T00:02:55.099588+00:00"
+  "source_report_generated_at": "2026-10-03T10:06:18.930559+00:00"
 }
