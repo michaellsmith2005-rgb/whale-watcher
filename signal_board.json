@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-03T10:06:32.323773+00:00",
+  "generated_at_utc": "2026-10-03T16:49:53.607966+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -27,32 +27,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 421414.96,
+      "liquidity_usd": 412716.48,
       "score": 53.7
     },
     {
-      "market": "Will Bulgaria win on 2026-10-03?",
-      "outcome": "Yes",
-      "price": 0.13,
-      "net_traders": 4,
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.63,
+      "net_traders": 1,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 187339.58,
-      "score": 52.4
-    },
-    {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-      "outcome": "Yes",
-      "price": 0.43,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 844390.45,
-      "score": 46.7
+      "liquidity_usd": 42079.67,
+      "score": 28.9
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -63,31 +51,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 199010.19,
+      "liquidity_usd": 196984.26,
       "score": 22.9
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.62,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 168427.8,
-      "score": 21.7
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
       "outcome": "No",
-      "price": 0.86,
+      "price": 0.89,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1238242.76,
+      "liquidity_usd": 1292275.29,
       "score": 18.2
     },
     {
@@ -99,19 +75,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 154701.3,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.71,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 43021.44,
+      "liquidity_usd": 154966.54,
       "score": 18.2
     },
     {
@@ -123,7 +87,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 246866.4,
+      "liquidity_usd": 246781.15,
       "score": 18.2
     },
     {
@@ -135,7 +99,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 246397.64,
+      "liquidity_usd": 245047.11,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.89,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 91384.58,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.95,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 87675.15,
       "score": 18.2
     }
   ],
@@ -149,7 +137,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 4673.15,
+      "liquidity_usd": 4984.47,
       "why_excluded": [
         "thin book (<$10,000)"
       ]
@@ -164,7 +152,7 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 493938.89,
+      "liquidity_usd": 467290.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -178,7 +166,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 117955.59,
+      "liquidity_usd": 119021.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -192,21 +180,80 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 280902.93,
+      "liquidity_usd": 245902.24,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Spain vs. Czechia end in a draw?",
+      "market": "Spread: Michigan (-5.5)",
+      "outcome": "Minnesota",
+      "price": 0.4,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 14590.36,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Iceland win on 2026-10-03?",
       "outcome": "Yes",
-      "price": 0.05,
+      "price": 0.82,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 73203.13,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Kansas (-20.5)",
+      "outcome": "Kansas",
+      "price": 0.65,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
+      "fresh": false,
+      "liquidity_usd": 17252.73,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Alabama (-6.5)",
+      "outcome": "Alabama",
+      "price": 0.79,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 29005.5,
+      "why_excluded": [
+        "wide spread",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spain vs. Czechia: O/U 2.5",
+      "outcome": "Under",
+      "price": 0.8,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": true,
-      "liquidity_usd": 240266.47,
+      "liquidity_usd": 55763.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,12 +264,11 @@
       "price": 0.794,
       "net_traders": -1,
       "signals": [
-        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 493938.89,
+      "liquidity_usd": 467290.38,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -230,17 +276,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.962,
+      "price": 0.964,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 355701.18,
+      "liquidity_usd": 633820.3,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-03T10:06:18.930559+00:00"
+  "source_report_generated_at": "2026-10-03T16:49:34.576174+00:00"
 }
