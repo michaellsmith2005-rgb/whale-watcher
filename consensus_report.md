@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-10-03T23:24:22.237822+00:00 UTC*  
+*Generated: 2026-10-04T10:48:48.170951+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,48 +8,48 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **4829**
-- Unique markets represented: **3814**
+- Total open positions analyzed: **4315**
+- Unique markets represented: **3598**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Army vs. Louisiana Tech
-- **Favored outcome:** Louisiana Tech
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $155,617.51
-- **Backers:** COMEONDUDE, HomeRunHazard, UpTheBlues, primm, texaskid
-
-### 2. Kentucky vs. South Carolina
-- **Favored outcome:** South Carolina
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $74,478.40
-- **Backers:** HomeRunHazard, TAIWANNUMBERONE, bands1, justaluckydude, primm
-
-### 3. Will Athletic Club win on 2026-09-16?
+### 1. Will Athletic Club win on 2026-09-16?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $4,131.88
+- **Total combined USD exposure:** $4,036.89
 - **Backers:** GoalLineGhost, UpTheBlues, Zzzz87, omnibus-076daa, wr0ngw4yb3tt0r
 
-### 4. Spread: BYU (-5.5)
-- **Favored outcome:** TCU
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $3,766.14
-- **Backers:** 0x16bb9951a36fce71e2ef57890b786145e0ba8492, HomeRunHazard, UpTheBlues, bands1, texaskid
+### 2. Will JD Vance win the 2028 US Presidential Election?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $938,964.11
+- **Backers:** ArmageddonRewardsBilly, TeamA, ethBELIVER, foodenjoyer
 
-### 5. Spread: UNLV (-2.5)
-- **Favored outcome:** California
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $370.27
-- **Backers:** HomeRunHazard, TAIWANNUMBERONE, UpTheBlues, justaluckydude, primm
+### 3. 2026 Balance of Power: D Senate, D House
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $485,681.49
+- **Backers:** BreakTheBank, TeamA, e46m3, ethBELIVER
+
+### 4. Will JD Vance win the 2028 US Presidential Election?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $223,174.24
+- **Backers:** ArmageddonRewardsBilly, Zzzz87, ethBELIVER, foodenjoyer
+
+### 5. Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $215,258.15
+- **Backers:** ArmageddonRewardsBilly, Bigggggggg, TheReturnOfDarthMaul, Zzzz87
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
 | Will Indiana enact a data center moratorium by December 31, 2027? | No | 1 | $1,301,462.89 |
-| Will JD Vance win the 2028 US Presidential Election? | No | 3 | $872,850.00 |
-| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $727,883.13 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 4 | $938,964.11 |
+| Will Ethereum dip to $1,500 by December 31, 2026? | No | 1 | $727,107.55 |
 | Will Bitcoin dip to $55,000 by December 31, 2026? | No | 1 | $649,056.00 |
 | Will Ethereum dip to $2,250 by December 31, 2026? | No | 1 | $645,716.33 |
 
@@ -57,6 +57,6 @@
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Will JD Vance win the 2028 US Presidential Election? | No | 100 | 3 | 32.1% | 0.35 |
-| Will JD Vance win the 2028 US Presidential Election? | Yes | 100 | 3 | 32.1% | 0.35 |
-| Kentucky vs. South Carolina | South Carolina | 21 | 4 | 5.8% | 0.27 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 100 | 3 | 31.9% | 0.37 |
+| Will JD Vance win the 2028 US Presidential Election? | Yes | 100 | 3 | 31.9% | 0.37 |
+| 2026 Balance of Power: D Senate, D House | Yes | 47 | 3 | 19.8% | 0.48 |

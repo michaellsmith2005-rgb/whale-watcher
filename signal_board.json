@@ -1,34 +1,48 @@
 {
-  "generated_at_utc": "2026-10-03T23:24:42.016683+00:00",
+  "generated_at_utc": "2026-10-04T10:49:08.008224+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2307,
+    "n": 2314,
     "excluded_certain": 154,
-    "win_rate": 0.5335934113567403,
-    "wr_lo": 0.5131971321457882,
-    "wr_hi": 0.5538779975385657,
-    "implied": 0.5098814911140009,
-    "edge_pts": 2.371192024273938,
-    "edge_lo_pts": 0.33156410317872753,
-    "edge_hi_pts": 4.399650642456477,
-    "brier": 0.27610479517121805,
-    "roi_net": 0.5848833259504664,
+    "win_rate": 0.5328435609334485,
+    "wr_lo": 0.5124774019573212,
+    "wr_hi": 0.5531008498093223,
+    "implied": 0.509487165082109,
+    "edge_pts": 2.335639585133953,
+    "edge_lo_pts": 0.299023687521216,
+    "edge_hi_pts": 4.3613684727213275,
+    "brier": 0.27575498934745024,
+    "roi_net": 0.581740111184724,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Army vs. Louisiana Tech",
-      "outcome": "Louisiana Tech",
-      "price": 0.5,
-      "net_traders": 4,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.67,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2222506.52,
+      "score": 59.6
+    },
+    {
+      "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "Yes",
+      "price": 0.37,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 263597.52,
-      "score": 52.2
+      "fresh": true,
+      "liquidity_usd": 348541.94,
+      "score": 50.2
     },
     {
       "market": "Packers vs. Buccaneers",
@@ -39,20 +53,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 591668.42,
+      "liquidity_usd": 877450.82,
       "score": 50.2
     },
     {
-      "market": "Spread: BYU (-5.5)",
-      "outcome": "TCU",
-      "price": 0.45,
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.66,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 20997.58,
-      "score": 32.2
+      "liquidity_usd": 2184785.57,
+      "score": 46.2
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
@@ -63,7 +77,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 46017.4,
+      "liquidity_usd": 47610.02,
       "score": 28.9
     },
     {
@@ -75,20 +89,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 201549.64,
+      "liquidity_usd": 197765.32,
       "score": 22.9
-    },
-    {
-      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.88,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 89739.35,
-      "score": 18.9
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -99,7 +101,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1260568.41,
+      "liquidity_usd": 1272649.57,
       "score": 18.2
     },
     {
@@ -111,7 +113,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 154645.99,
+      "liquidity_usd": 154476.98,
       "score": 18.2
     },
     {
@@ -123,7 +125,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 250601.92,
+      "liquidity_usd": 243416.48,
       "score": 18.2
     },
     {
@@ -135,66 +137,66 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 245195.74,
+      "liquidity_usd": 241418.25,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Kentucky vs. South Carolina",
-      "outcome": "South Carolina",
-      "price": 0.34,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 129832.39,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Will Athletic Club win on 2026-09-16?",
       "outcome": "Yes",
-      "price": 0.46,
+      "price": 0.44,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 4936.38,
+      "fresh": true,
+      "liquidity_usd": 5861.98,
       "why_excluded": [
         "thin book (<$10,000)"
       ]
     },
     {
-      "market": "Spread: UNLV (-2.5)",
-      "outcome": "California",
-      "price": 1.0,
-      "net_traders": 3,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.798,
+      "net_traders": 0,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 22589.19,
+      "fresh": false,
+      "liquidity_usd": 474318.27,
       "why_excluded": [
-        "already decided (near-certain price)",
-        "wide spread"
+        "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.207,
-      "net_traders": 1,
+      "price": 0.203,
+      "net_traders": 0,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 451721.26,
+      "liquidity_usd": 474318.27,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Colts vs. Commanders",
+      "outcome": "Colts",
+      "price": 0.66,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1655291.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,51 +210,21 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 119862.91,
+      "liquidity_usd": 128937.05,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Colts (-3.5)",
-      "outcome": "Colts",
-      "price": 0.54,
+      "market": "Spread: Packers (-3.5)",
+      "outcome": "Buccaneers",
+      "price": 0.46,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 127156.8,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: BYU (-6.5)",
-      "outcome": "TCU",
-      "price": 0.44,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 26254.49,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.794,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 451721.26,
+      "liquidity_usd": 481392.59,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -260,17 +232,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.958,
+      "price": 0.96,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 543716.44,
+      "liquidity_usd": 395532.06,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-03T23:24:22.237822+00:00"
+  "source_report_generated_at": "2026-10-04T10:48:48.170951+00:00"
 }
