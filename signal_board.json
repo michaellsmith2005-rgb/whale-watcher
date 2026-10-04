@@ -1,73 +1,58 @@
 {
-  "generated_at_utc": "2026-10-04T17:08:22.003906+00:00",
+  "generated_at_utc": "2026-10-04T23:39:37.069418+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2314,
+    "n": 2326,
     "excluded_certain": 154,
-    "win_rate": 0.5328435609334485,
-    "wr_lo": 0.5124774019573212,
-    "wr_hi": 0.5531008498093223,
-    "implied": 0.509487165082109,
-    "edge_pts": 2.335639585133953,
-    "edge_lo_pts": 0.299023687521216,
-    "edge_hi_pts": 4.3613684727213275,
-    "brier": 0.27575498934745024,
-    "roi_net": 0.581740111184724,
+    "win_rate": 0.5331040412725709,
+    "wr_lo": 0.5127908074008921,
+    "wr_hi": 0.553308106791386,
+    "implied": 0.5095628976784178,
+    "edge_pts": 2.3541143594153158,
+    "edge_lo_pts": 0.32279097224743314,
+    "edge_hi_pts": 4.37452091129682,
+    "brier": 0.275525341938951,
+    "roi_net": 0.5791628198095952,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.67,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1692345.78,
-      "score": 59.6
-    },
-    {
-      "market": "Cowboys vs. Texans",
-      "outcome": "Texans",
-      "price": 0.4,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 233903.08,
-      "score": 46.8
-    },
-    {
-      "market": "Rams vs. Eagles",
-      "outcome": "Rams",
-      "price": 0.66,
+      "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "outcome": "No",
+      "price": 0.148,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 242831.47,
-      "score": 44.2
+      "fresh": true,
+      "liquidity_usd": 313009.91,
+      "score": 53.7
     },
     {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
       "outcome": "No",
-      "price": 0.66,
-      "net_traders": 1,
+      "price": 0.18,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 44058.37,
-      "score": 22.7
+      "fresh": true,
+      "liquidity_usd": 711007.69,
+      "score": 53.7
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.33,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1272999.84,
+      "score": 50.2
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -78,31 +63,43 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1260201.14,
+      "liquidity_usd": 1296934.43,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 42041.1,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.937,
+      "price": 0.934,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 151927.49,
+      "liquidity_usd": 151228.75,
       "score": 18.2
     },
     {
       "market": "Will Bitcoin dip to $55,000 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.92,
+      "price": 0.93,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 246132.82,
+      "liquidity_usd": 249537.43,
       "score": 18.2
     },
     {
@@ -114,109 +111,136 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 241692.38,
+      "liquidity_usd": 243455.72,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Spread: Rams (-3.5)",
-      "outcome": "Rams",
-      "price": 0.55,
-      "net_traders": 3,
+      "market": "Chiefs vs. Raiders",
+      "outcome": "Raiders",
+      "price": 0.889,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 71401.47,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Texans (-2.5)",
-      "outcome": "Texans",
-      "price": 0.58,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 67524.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Bills (-6.5)",
-      "outcome": "Patriots",
-      "price": 0.54,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 32049.46,
-      "why_excluded": [
-        "wide spread",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Athletic Club win on 2026-09-16?",
-      "outcome": "Yes",
-      "price": 0.44,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 6004.31,
+      "liquidity_usd": 216709.06,
       "why_excluded": [
-        "thin book (<$10,000)"
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Chiefs vs. Raiders",
+      "outcome": "Chiefs",
+      "price": 0.889,
+      "net_traders": -2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 216709.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Chiefs (-4.5)",
+      "outcome": "Raiders",
+      "price": 0.07,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 38229.47,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Seahawks (-7.5)",
+      "outcome": "Chargers",
+      "price": 0.08,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 37946.49,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Chargers vs. Seahawks",
+      "outcome": "Seahawks",
+      "price": 0.05,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 228002.11,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Seahawks (-10.5)",
+      "outcome": "Chargers",
+      "price": 0.07,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 38142.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.48,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 107981.42,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Atlanta Braves vs. Los Angeles Dodgers",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.32,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3067548.3,
+      "why_excluded": [
+        "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.798,
-      "net_traders": 0,
+      "price": 0.799,
+      "net_traders": -1,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 457549.09,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Rams (-3.5)",
-      "outcome": "Eagles",
-      "price": 0.55,
-      "net_traders": -3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 71401.47,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.203,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 457549.09,
+      "liquidity_usd": 459699.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,30 +249,31 @@
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
       "price": 0.96,
-      "net_traders": 0,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 650069.59,
+      "liquidity_usd": 369156.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Cowboys vs. Texans",
-      "outcome": "Cowboys",
-      "price": 0.4,
-      "net_traders": -4,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.67,
+      "net_traders": 2,
       "signals": [
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 233903.08,
+      "fresh": false,
+      "liquidity_usd": 1565296.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-04T17:08:06.834533+00:00"
+  "source_report_generated_at": "2026-10-04T23:39:16.547693+00:00"
 }
