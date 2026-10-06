@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-05T11:53:50.966876+00:00",
+  "generated_at_utc": "2026-10-06T01:34:47.283784+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2339,
+    "n": 2343,
     "excluded_certain": 155,
-    "win_rate": 0.5339888841385207,
-    "wr_lo": 0.513733192049039,
-    "wr_hi": 0.5541331118444893,
-    "implied": 0.509063830696879,
-    "edge_pts": 2.4925053441641754,
-    "edge_lo_pts": 0.46693613521600064,
-    "edge_hi_pts": 4.506928114761033,
-    "brier": 0.27698739390765287,
-    "roi_net": 0.6055870256752756,
+    "win_rate": 0.5330772513871106,
+    "wr_lo": 0.5128378934651179,
+    "wr_hi": 0.5532083194535555,
+    "implied": 0.509073965002134,
+    "edge_pts": 2.400328638497662,
+    "edge_lo_pts": 0.3763928462983901,
+    "edge_hi_pts": 4.413435445142156,
+    "brier": 0.277013194344857,
+    "roi_net": 0.602811802413346,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,7 +21,7 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.67,
+      "price": 0.66,
       "net_traders": 4,
       "signals": [
         "pure_count",
@@ -29,56 +29,20 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 1713637.57,
-      "score": 64.4
-    },
-    {
-      "market": "Counter-Strike: M80 vs TYLOO (BO3) - ESL Pro League Group Stage",
-      "outcome": "TYLOO",
-      "price": 0.49,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 796527.59,
-      "score": 53.9
+      "liquidity_usd": 2065449.17,
+      "score": 67.0
     },
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.34,
+      "price": 0.35,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 1425578.07,
+      "liquidity_usd": 2058747.12,
       "score": 50.2
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.67,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1590195.74,
-      "score": 40.2
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.61,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 153327.31,
-      "score": 21.7
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -89,31 +53,31 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1289696.57,
+      "liquidity_usd": 1304812.11,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.78,
+      "price": 0.77,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 28075.96,
+      "liquidity_usd": 22714.63,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.941,
+      "price": 0.936,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155366.55,
+      "liquidity_usd": 137919.87,
       "score": 18.2
     },
     {
@@ -125,7 +89,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 259199.11,
+      "liquidity_usd": 241781.78,
       "score": 18.2
     },
     {
@@ -137,23 +101,151 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 257450.75,
+      "liquidity_usd": 244007.43,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.801,
+      "market": "Falcons vs. Saints",
+      "outcome": "Saints",
+      "price": 0.86,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 497505.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Saints (-1.5)",
+      "outcome": "Falcons",
+      "price": 0.12,
       "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 51390.56,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Saints (-1.5)",
+      "outcome": "Saints",
+      "price": 0.12,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 51390.56,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Falcons (-6.5)",
+      "outcome": "Falcons",
+      "price": 0.72,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 47085.63,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Falcons vs. Saints",
+      "outcome": "Falcons",
+      "price": 0.86,
+      "net_traders": -2,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 452174.04,
+      "liquidity_usd": 497505.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Falcons vs. Saints: O/U 48.5",
+      "outcome": "Over",
+      "price": 0.91,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 47768.94,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Saints (-2.5)",
+      "outcome": "Saints",
+      "price": 0.12,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 45090.99,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "New York Yankees vs. Tampa Bay Rays",
+      "outcome": "New York Yankees",
+      "price": 0.49,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 77072.8,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.794,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 437931.82,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.959,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 630788.44,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -161,90 +253,31 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.2,
-      "net_traders": 0,
+      "price": 0.207,
+      "net_traders": -1,
       "signals": [
-        "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 452174.04,
+      "liquidity_usd": 437931.82,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Another Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.77,
-      "net_traders": 2,
+      "market": "New York Yankees vs. Tampa Bay Rays",
+      "outcome": "Tampa Bay Rays",
+      "price": 0.49,
+      "net_traders": -2,
       "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 119831.11,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "China Open: Novak Djokovic vs Daniil Medvedev",
-      "outcome": "Daniil Medvedev",
-      "price": 0.39,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 345910.4,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Athletic Club win on 2026-09-16?",
-      "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 6104.34,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.96,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 301399.74,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Counter-Strike: Legacy vs 1WIN (BO3) - ESL Pro League Group Stage",
-      "outcome": "Legacy",
-      "price": 0.79,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 49120.32,
+      "fresh": true,
+      "liquidity_usd": 77072.8,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-05T11:53:38.042196+00:00"
+  "source_report_generated_at": "2026-10-06T01:34:33.380060+00:00"
 }
