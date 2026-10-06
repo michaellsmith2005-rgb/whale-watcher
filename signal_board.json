@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-06T11:34:21.384634+00:00",
+  "generated_at_utc": "2026-10-06T18:41:02.727341+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2355,
+    "n": 2356,
     "excluded_certain": 155,
-    "win_rate": 0.5337579617834395,
-    "wr_lo": 0.5135710172006224,
-    "wr_hi": 0.5538349502030387,
-    "implied": 0.5092527813163481,
-    "edge_pts": 2.450518046709138,
-    "edge_lo_pts": 0.43182358842742685,
-    "edge_hi_pts": 4.458216888669064,
-    "brier": 0.2768597088535032,
-    "roi_net": 0.6050240756384203,
+    "win_rate": 0.5335314091680815,
+    "wr_lo": 0.5133485072367697,
+    "wr_hi": 0.5536051391435636,
+    "implied": 0.509146986417657,
+    "edge_pts": 2.4384422750424517,
+    "edge_lo_pts": 0.4201520819112736,
+    "edge_hi_pts": 4.445815272590659,
+    "brier": 0.2767708889431239,
+    "roi_net": 0.6043343370664176,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,39 +21,39 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.66,
+      "price": 0.65,
       "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 2070778.73,
-      "score": 64.6
-    },
-    {
-      "market": "Pelicans vs. Thunder",
-      "outcome": "Thunder",
-      "price": 0.4,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": true,
-      "liquidity_usd": 43802.29,
-      "score": 50.2
+      "liquidity_usd": 1990326.95,
+      "score": 66.8
     },
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
-      "price": 0.76,
+      "price": 0.77,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 113605.72,
+      "liquidity_usd": 132143.68,
+      "score": 50.2
+    },
+    {
+      "market": "Spread: England (-2.5)",
+      "outcome": "England",
+      "price": 0.45,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 217317.98,
       "score": 50.2
     },
     {
@@ -65,7 +65,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1497506.06,
+      "liquidity_usd": 2021737.07,
       "score": 49.2
     },
     {
@@ -77,20 +77,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1552490.47,
+      "liquidity_usd": 2013732.88,
       "score": 45.2
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.81,
-      "net_traders": 2,
+      "market": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+      "outcome": "Aurora Gaming",
+      "price": 0.08,
+      "net_traders": 3,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 197489.32,
-      "score": 22.9
+      "liquidity_usd": 62444.71,
+      "score": 31.8
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -101,7 +102,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1282659.54,
+      "liquidity_usd": 1295529.56,
       "score": 18.2
     },
     {
@@ -113,19 +114,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 28841.2,
+      "liquidity_usd": 30959.61,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.936,
+      "price": 0.935,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 155557.58,
+      "liquidity_usd": 154638.42,
       "score": 18.2
     },
     {
@@ -137,65 +138,77 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 261061.74,
+      "liquidity_usd": 260521.46,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
-      "outcome": "M80",
-      "price": 0.55,
+      "market": "Pelicans vs. Thunder",
+      "outcome": "Thunder",
+      "price": 0.48,
       "net_traders": 2,
       "signals": [
         "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 326537.68,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will San Marino win on 2026-10-06?",
-      "outcome": "No",
-      "price": 0.988,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 94342.47,
+      "liquidity_usd": 66628.64,
       "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "Will Athletic Club win on 2026-09-16?",
-      "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 4110.93,
-      "why_excluded": [
-        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     },
     {
-      "market": "Villena: Daniil Glinka vs Gauthier Onclin",
-      "outcome": "Gauthier Onclin",
-      "price": 0.26,
+      "market": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+      "outcome": "Team Falcons",
+      "price": 0.58,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
+      "fresh": true,
+      "liquidity_usd": 1351889.59,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
+      "outcome": "Legacy",
+      "price": 0.55,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 31988.98,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
+      "outcome": "M80",
+      "price": 0.55,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
       "fresh": false,
-      "liquidity_usd": 182506.83,
+      "liquidity_usd": 31988.98,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Spain win on 2026-10-06?",
+      "outcome": "Yes",
+      "price": 0.78,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2271427.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -206,11 +219,10 @@
       "price": 0.8,
       "net_traders": 0,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 436201.26,
+      "liquidity_usd": 453044.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -224,11 +236,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 346011.8,
+      "liquidity_usd": 330298.04,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Spain win on 2026-10-06?",
+      "outcome": "No",
+      "price": 0.23,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2271427.07,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-06T11:33:59.122595+00:00"
+  "source_report_generated_at": "2026-10-06T18:40:45.970942+00:00"
 }
