@@ -1,60 +1,48 @@
 {
-  "generated_at_utc": "2026-10-07T00:13:25.314324+00:00",
+  "generated_at_utc": "2026-10-07T11:24:16.412590+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2364,
+    "n": 2371,
     "excluded_certain": 157,
-    "win_rate": 0.5342639593908629,
-    "wr_lo": 0.5141160869718955,
-    "wr_hi": 0.5543006517153544,
-    "implied": 0.508819923857868,
-    "edge_pts": 2.54440355329949,
-    "edge_lo_pts": 0.5296163114027475,
-    "edge_hi_pts": 4.548072785748635,
-    "brier": 0.2770093969331641,
-    "roi_net": 0.6123935242732529,
+    "win_rate": 0.53395191902151,
+    "wr_lo": 0.5138334922267385,
+    "wr_hi": 0.5539605029601407,
+    "implied": 0.5094223112610713,
+    "edge_pts": 2.4529607760438665,
+    "edge_lo_pts": 0.4411180965667172,
+    "edge_hi_pts": 4.453819169906936,
+    "brier": 0.27707579685786593,
+    "roi_net": 0.6092028080415381,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.36,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2647450.76,
+      "score": 53.7
+    },
+    {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.65,
-      "net_traders": 3,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 2534849.11,
-      "score": 66.7
-    },
-    {
-      "market": "Another Fed rate hike in 2026?",
-      "outcome": "Yes",
-      "price": 0.77,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 123765.66,
-      "score": 50.2
-    },
-    {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.36,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 2476718.71,
-      "score": 49.2
+      "liquidity_usd": 2781159.94,
+      "score": 51.0
     },
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
@@ -65,7 +53,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2447743.34,
+      "liquidity_usd": 2643032.34,
       "score": 45.2
     },
     {
@@ -77,8 +65,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 207525.57,
+      "liquidity_usd": 203602.7,
       "score": 25.4
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.67,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 49332.75,
+      "score": 20.2
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -89,31 +89,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1342914.82,
-      "score": 18.2
-    },
-    {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "No",
-      "price": 0.78,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 44255.47,
+      "liquidity_usd": 383642.83,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.934,
+      "price": 0.936,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 159159.68,
+      "liquidity_usd": 132719.59,
       "score": 18.2
     },
     {
@@ -125,7 +113,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 261781.17,
+      "liquidity_usd": 243227.98,
       "score": 18.2
     },
     {
@@ -137,84 +125,23 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 236433.56,
+      "liquidity_usd": 208566.49,
+      "score": 18.2
+    },
+    {
+      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 65515.87,
       "score": 18.2
     }
   ],
   "excluded": [
-    {
-      "market": "Los Angeles Dodgers vs. Atlanta Braves",
-      "outcome": "Atlanta Braves",
-      "price": 0.9,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 99427.6,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Los Angeles Dodgers vs. Atlanta Braves",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.9,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 99427.6,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pelicans vs. Thunder",
-      "outcome": "Thunder",
-      "price": 0.61,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 63606.23,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Pelicans vs. Thunder",
-      "outcome": "Pelicans",
-      "price": 0.61,
-      "net_traders": -1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 63606.23,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Athletic Club win on 2026-09-16?",
-      "outcome": "Yes",
-      "price": 0.45,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3916.89,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
@@ -222,10 +149,96 @@
       "net_traders": 0,
       "signals": [
         "pure_count",
-        "capital_weighted"
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 447301.71,
+      "liquidity_usd": 435714.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.201,
+      "net_traders": 0,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 435714.1,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Another Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.77,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 99659.0,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: FURIA vs 9z (BO3) - ESL Pro League Group Stage",
+      "outcome": "9z",
+      "price": 0.72,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 691099.7,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Shanghai Rolex Masters: Mattia Bellucci vs Yi Zhou",
+      "outcome": "Mattia Bellucci",
+      "price": 0.7,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 141225.41,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.482,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 113044.83,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "LoL: FlyQuest vs Shopify Rebellion (BO3) - Demacia Cup Global Invitational Group Stage",
+      "outcome": "FlyQuest",
+      "price": 0.77,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 61735.88,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -233,17 +246,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.959,
+      "price": 0.958,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 654987.72,
+      "liquidity_usd": 623270.1,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-07T00:13:05.201600+00:00"
+  "source_report_generated_at": "2026-10-07T11:24:00.436056+00:00"
 }
