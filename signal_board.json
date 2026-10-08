@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-07T19:07:25.775049+00:00",
+  "generated_at_utc": "2026-10-08T00:30:04.765128+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2374,
+    "n": 2375,
     "excluded_certain": 157,
-    "win_rate": 0.533698399326032,
-    "wr_lo": 0.5135924222144906,
-    "wr_hi": 0.5536954913286151,
-    "implied": 0.509701053074979,
-    "edge_pts": 2.3997346251052987,
-    "edge_lo_pts": 0.38913691395116023,
-    "edge_hi_pts": 4.399443825363603,
-    "brier": 0.27717271034119634,
-    "roi_net": 0.6076910527233312,
+    "win_rate": 0.5338947368421053,
+    "wr_lo": 0.5137932142498689,
+    "wr_hi": 0.553886785965362,
+    "implied": 0.509810652631579,
+    "edge_pts": 2.4084084210526324,
+    "edge_lo_pts": 0.3982561618289915,
+    "edge_hi_pts": 4.407613333378302,
+    "brier": 0.2770782797263158,
+    "roi_net": 0.6075525307216377,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -27,7 +27,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 85757.83,
+      "liquidity_usd": 130574.8,
       "score": 50.2
     },
     {
@@ -39,8 +39,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1964320.4,
+      "liquidity_usd": 2747646.35,
       "score": 49.2
+    },
+    {
+      "market": "Oilers vs. Ducks: O/U 6.5",
+      "outcome": "Over",
+      "price": 0.56,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 207982.23,
+      "score": 47.9
     },
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
@@ -51,13 +63,13 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1965177.6,
+      "liquidity_usd": 2754260.88,
       "score": 45.2
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.65,
+      "price": 0.64,
       "net_traders": 3,
       "signals": [
         "pure_count",
@@ -65,32 +77,20 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 2800781.34,
-      "score": 42.7
+      "liquidity_usd": 2767106.79,
+      "score": 44.2
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.64,
+      "price": 0.65,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 41213.91,
-      "score": 26.4
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.61,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 143038.43,
-      "score": 21.7
+      "liquidity_usd": 53139.66,
+      "score": 23.9
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -101,19 +101,19 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 345400.98,
+      "liquidity_usd": 444267.16,
       "score": 18.2
     },
     {
       "market": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.938,
+      "price": 0.934,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 132482.96,
+      "liquidity_usd": 161802.74,
       "score": 18.2
     },
     {
@@ -125,7 +125,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 238939.03,
+      "liquidity_usd": 268510.96,
       "score": 18.2
     },
     {
@@ -137,35 +137,91 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 205225.62,
+      "liquidity_usd": 234468.58,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Bucks vs. Thunder",
-      "outcome": "Thunder",
-      "price": 0.17,
-      "net_traders": 2,
+      "market": "Los Angeles Dodgers vs. Atlanta Braves",
+      "outcome": "Atlanta Braves",
+      "price": 0.84,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 55084.77,
+      "liquidity_usd": 163303.4,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.488,
+      "market": "Los Angeles Dodgers vs. Atlanta Braves",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.84,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 163303.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.09,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2184308.26,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tampa Bay Rays vs. New York Yankees: O/U 6.5",
+      "outcome": "Under",
+      "price": 0.44,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40879.25,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Bucks vs. Thunder",
+      "outcome": "Thunder",
+      "price": 0.14,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 115691.58,
+      "liquidity_usd": 46684.74,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.37,
+      "net_traders": -3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2767106.79,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -176,54 +232,10 @@
       "price": 0.8,
       "net_traders": 0,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 412313.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.201,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 412313.9,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Map Handicap: TS (-1.5) vs M80 (+1.5)",
-      "outcome": "Spirit",
-      "price": 0.77,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5490.27,
-      "why_excluded": [
-        "thin book (<$10,000)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.36,
-      "net_traders": -3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 2800781.34,
+      "liquidity_usd": 439176.42,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,17 +243,17 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.958,
+      "price": 0.956,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 213159.74,
+      "liquidity_usd": 649552.18,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-07T19:07:00.020573+00:00"
+  "source_report_generated_at": "2026-10-08T00:29:43.908066+00:00"
 }
