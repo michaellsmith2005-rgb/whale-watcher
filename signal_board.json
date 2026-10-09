@@ -1,36 +1,35 @@
 {
-  "generated_at_utc": "2026-10-09T11:33:29.222833+00:00",
+  "generated_at_utc": "2026-10-09T18:34:16.779643+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2385,
+    "n": 2391,
     "excluded_certain": 157,
-    "win_rate": 0.5337526205450733,
-    "wr_lo": 0.5136931733754975,
-    "wr_hi": 0.5537035096025618,
-    "implied": 0.5095598742138365,
-    "edge_pts": 2.4192746331236803,
-    "edge_lo_pts": 0.41332991616609416,
-    "edge_hi_pts": 4.414363538872523,
-    "brier": 0.27689069784067083,
-    "roi_net": 0.6058475762614779,
+    "win_rate": 0.534504391468005,
+    "wr_lo": 0.5144710072609223,
+    "wr_hi": 0.5544270776896648,
+    "implied": 0.5091594730238395,
+    "edge_pts": 2.534491844416553,
+    "edge_lo_pts": 0.531153423708286,
+    "edge_hi_pts": 4.526760466582536,
+    "brier": 0.27746939119615227,
+    "roi_net": 0.6255764404607448,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.63,
+      "market": "Counter-Strike: Team Falcons vs Spirit - Map 2 Winner",
+      "outcome": "Spirit",
+      "price": 0.52,
       "net_traders": 3,
       "signals": [
         "pure_count",
-        "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 2600687.31,
-      "score": 66.3
+      "liquidity_usd": 26297.8,
+      "score": 57.0
     },
     {
       "market": "Another Fed rate hike in 2026?",
@@ -41,20 +40,46 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 117665.96,
+      "liquidity_usd": 144089.8,
+      "score": 50.2
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "outcome": "No",
+      "price": 0.17,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 393765.65,
       "score": 50.2
     },
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.65,
+      "price": 0.64,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2355630.56,
-      "score": 45.2
+      "liquidity_usd": 2382804.23,
+      "score": 47.7
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.63,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2579377.82,
+      "score": 46.4
     },
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -65,20 +90,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2392735.61,
+      "liquidity_usd": 2411698.06,
       "score": 44.2
-    },
-    {
-      "market": "US announces end of Iranian blockade by October 31, 2026?",
-      "outcome": "No",
-      "price": 0.81,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 131955.67,
-      "score": 25.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -89,20 +102,8 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 208013.46,
+      "liquidity_usd": 207003.65,
       "score": 22.9
-    },
-    {
-      "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
-      "outcome": "No",
-      "price": 0.9,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 668895.95,
-      "score": 21.7
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -113,33 +114,45 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 143459.39,
+      "liquidity_usd": 142126.65,
       "score": 21.7
     },
     {
-      "market": "Will the Iranian regime fall before 2027?",
+      "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.96,
+      "price": 0.81,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 126228.45,
+      "score": 21.7
+    },
+    {
+      "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
+      "outcome": "No",
+      "price": 0.9,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 680476.19,
+      "liquidity_usd": 571633.56,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Map Handicap: VIT (-1.5) vs PARIVISION (+1.5)",
-      "outcome": "Vitality",
-      "price": 0.58,
-      "net_traders": 2,
+      "market": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+      "outcome": "Team Falcons",
+      "price": 0.27,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 89921.89,
+      "fresh": true,
+      "liquidity_usd": 121084.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -147,14 +160,14 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.803,
+      "price": 0.804,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 433332.27,
+      "liquidity_usd": 449603.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -162,43 +175,14 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.198,
+      "price": 0.197,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 433332.27,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Shanghai Rolex Masters: Novak Djokovic vs Hubert Hurkacz",
-      "outcome": "Hubert Hurkacz",
-      "price": 0.04,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 128386.41,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Map Handicap: VIT (-1.5) vs PARIVISION (+1.5)",
-      "outcome": "PARIVISION",
-      "price": 0.58,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 89921.89,
+      "liquidity_usd": 449603.33,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -212,7 +196,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2438937.04,
+      "liquidity_usd": 2346737.55,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.38,
+      "net_traders": -4,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2579377.82,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -226,39 +224,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 646360.74,
+      "liquidity_usd": 649490.25,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Dota 2: Team Spirit vs Aurora - Game 2 Winner",
-      "outcome": "Aurora",
-      "price": 0.29,
+      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "price": 0.381,
       "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 85259.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Shanghai Rolex Masters: Karen Khachanov vs Arthur Fery",
-      "outcome": "Karen Khachanov",
-      "price": 0.57,
-      "net_traders": 0,
       "signals": [
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 92584.99,
+      "liquidity_usd": 79316.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-09T11:33:05.136742+00:00"
+  "source_report_generated_at": "2026-10-09T18:33:56.368476+00:00"
 }
