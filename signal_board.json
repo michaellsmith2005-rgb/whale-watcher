@@ -1,36 +1,23 @@
 {
-  "generated_at_utc": "2026-10-09T18:34:16.779643+00:00",
+  "generated_at_utc": "2026-10-10T00:22:48.739208+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2391,
+    "n": 2394,
     "excluded_certain": 157,
-    "win_rate": 0.534504391468005,
-    "wr_lo": 0.5144710072609223,
-    "wr_hi": 0.5544270776896648,
-    "implied": 0.5091594730238395,
-    "edge_pts": 2.534491844416553,
-    "edge_lo_pts": 0.531153423708286,
-    "edge_hi_pts": 4.526760466582536,
-    "brier": 0.27746939119615227,
-    "roi_net": 0.6255764404607448,
+    "win_rate": 0.5346700083542189,
+    "wr_lo": 0.514649388500885,
+    "wr_hi": 0.554579538047057,
+    "implied": 0.5090686299081036,
+    "edge_pts": 2.560137844611521,
+    "edge_lo_pts": 0.5580758592781399,
+    "edge_hi_pts": 4.551090813895331,
+    "brier": 0.27734461752297407,
+    "roi_net": 0.6251208951494546,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Counter-Strike: Team Falcons vs Spirit - Map 2 Winner",
-      "outcome": "Spirit",
-      "price": 0.52,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 26297.8,
-      "score": 57.0
-    },
     {
       "market": "Another Fed rate hike in 2026?",
       "outcome": "Yes",
@@ -40,37 +27,13 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 144089.8,
+      "liquidity_usd": 148086.21,
       "score": 50.2
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "outcome": "No",
-      "price": 0.17,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 393765.65,
-      "score": 50.2
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.64,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2382804.23,
-      "score": 47.7
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.63,
+      "price": 0.62,
       "net_traders": 4,
       "signals": [
         "pure_count",
@@ -78,8 +41,20 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 2579377.82,
-      "score": 46.4
+      "liquidity_usd": 2672827.8,
+      "score": 48.8
+    },
+    {
+      "market": "Spread: Utah State (-4.5)",
+      "outcome": "Utah State",
+      "price": 0.48,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 167331.61,
+      "score": 48.7
     },
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -90,43 +65,43 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2411698.06,
+      "liquidity_usd": 2490179.75,
       "score": 44.2
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.64,
       "net_traders": 2,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 207003.65,
-      "score": 22.9
+      "liquidity_usd": 2563048.5,
+      "score": 44.2
     },
     {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.62,
-      "net_traders": 2,
+      "market": "Ducks vs. Jets",
+      "outcome": "Ducks",
+      "price": 0.49,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 142126.65,
-      "score": 21.7
+      "liquidity_usd": 34558.86,
+      "score": 42.2
     },
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.83,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 126228.45,
+      "liquidity_usd": 139232.52,
       "score": 21.7
     },
     {
@@ -138,51 +113,46 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 571633.56,
+      "liquidity_usd": 674803.32,
+      "score": 18.2
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.956,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 650318.23,
+      "score": 18.2
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.82,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 206675.02,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-      "outcome": "Team Falcons",
-      "price": 0.27,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 121084.89,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.804,
-      "net_traders": 0,
+      "price": 0.81,
+      "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 449603.33,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.197,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 449603.33,
+      "liquidity_usd": 488890.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -196,7 +166,36 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2346737.55,
+      "liquidity_usd": 2298627.97,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Washington (-2.5)",
+      "outcome": "Iowa",
+      "price": 0.55,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 274279.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.191,
+      "net_traders": -1,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 488890.26,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,45 +203,31 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.38,
+      "price": 0.39,
       "net_traders": -4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 2579377.82,
+      "liquidity_usd": 2672827.8,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will no Fed rate cuts happen in 2026?",
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.956,
-      "net_traders": 0,
+      "price": 0.62,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 649490.25,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.381,
-      "net_traders": -1,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 79316.89,
+      "liquidity_usd": 134726.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-09T18:33:56.368476+00:00"
+  "source_report_generated_at": "2026-10-10T00:22:32.996834+00:00"
 }
