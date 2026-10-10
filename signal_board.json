@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-10T10:51:20.119259+00:00",
+  "generated_at_utc": "2026-10-10T17:30:44.717034+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2397,
+    "n": 2400,
     "excluded_certain": 157,
-    "win_rate": 0.5348352106800167,
-    "wr_lo": 0.5148273333728377,
-    "wr_hi": 0.5547316079584022,
-    "implied": 0.509065623696287,
-    "edge_pts": 2.5769586983729664,
-    "edge_lo_pts": 0.5761709676550653,
-    "edge_hi_pts": 4.56659842621151,
-    "brier": 0.27728661424697537,
-    "roi_net": 0.6246718486159812,
+    "win_rate": 0.535,
+    "wr_lo": 0.51500484348536,
+    "wr_hi": 0.554883288910718,
+    "implied": 0.508800125,
+    "edge_pts": 2.6199874999999984,
+    "edge_lo_pts": 0.6204718485359972,
+    "edge_hi_pts": 4.608316391071798,
+    "brier": 0.2773834643125,
+    "roi_net": 0.6259929151232939,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -29,8 +29,8 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 2693283.34,
-      "score": 51.5
+      "liquidity_usd": 2714335.44,
+      "score": 52.4
     },
     {
       "market": "Another Fed rate hike in 2026?",
@@ -41,44 +41,46 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 164454.28,
+      "liquidity_usd": 150818.33,
       "score": 50.2
     },
     {
-      "market": "Shanghai Rolex Masters: Sebastian Baez vs Valentin Vacherot",
-      "outcome": "Sebastian Baez",
-      "price": 0.27,
-      "net_traders": 3,
+      "market": "Texas A&M vs. Missouri",
+      "outcome": "Missouri",
+      "price": 0.16,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
-      "fresh": true,
-      "liquidity_usd": 95670.65,
-      "score": 50.2
+      "fresh": false,
+      "liquidity_usd": 133380.11,
+      "score": 42.1
     },
     {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.38,
+      "market": "Spread: Virginia (-10.5)",
+      "outcome": "Virginia",
+      "price": 0.58,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2510629.47,
-      "score": 44.2
+      "liquidity_usd": 24602.0,
+      "score": 39.9
     },
     {
-      "market": "US announces end of Iranian blockade by October 31, 2026?",
-      "outcome": "No",
-      "price": 0.85,
-      "net_traders": 2,
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.62,
+      "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 133790.55,
-      "score": 21.7
+      "liquidity_usd": 124055.18,
+      "score": 25.2
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -89,7 +91,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 781341.56,
+      "liquidity_usd": 799816.45,
       "score": 18.2
     },
     {
@@ -101,35 +103,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 660436.95,
-      "score": 18.2
-    },
-    {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 201066.87,
-      "score": 18.2
-    },
-    {
-      "market": "Will the Iranian regime fall before 2027?",
-      "outcome": "No",
-      "price": 0.96,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 801297.22,
+      "liquidity_usd": 660892.26,
       "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Wake Forest vs. NC State",
+      "outcome": "Wake Forest",
+      "price": 0.54,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 81137.31,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
@@ -140,7 +132,50 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 518611.26,
+      "liquidity_usd": 487094.69,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Counter-Strike: MOUZ vs Spirit (BO3) - ESL Pro League Playoffs",
+      "outcome": "MOUZ",
+      "price": 0.45,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1345579.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Arizona vs. West Virginia: O/U 61.5",
+      "outcome": "Over",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 37564.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Indiana (-7.5)",
+      "outcome": "Nebraska",
+      "price": 0.15,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 30057.91,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -154,64 +189,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2667577.44,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Shanghai Rolex Masters: Luciano Darderi vs Stefanos Tsitsipas",
-      "outcome": "Stefanos Tsitsipas",
-      "price": 0.17,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 204334.17,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Virginia (-10.5)",
-      "outcome": "Virginia",
-      "price": 0.53,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 48932.57,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.191,
-      "net_traders": -1,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 518611.26,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-      "outcome": "LOUD",
-      "price": 0.45,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 22012.34,
+      "liquidity_usd": 2693025.64,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -225,25 +203,39 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 2693283.34,
+      "liquidity_usd": 2714335.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.62,
-      "net_traders": 1,
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.82,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 135431.4,
+      "liquidity_usd": 189365.9,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.191,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 487094.69,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-10T10:51:06.646849+00:00"
+  "source_report_generated_at": "2026-10-10T17:30:21.233909+00:00"
 }
