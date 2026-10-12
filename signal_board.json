@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-10-11T17:50:25.877879+00:00",
+  "generated_at_utc": "2026-10-12T00:03:21.953778+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2412,
+    "n": 2418,
     "excluded_certain": 157,
-    "win_rate": 0.5360696517412935,
-    "wr_lo": 0.5161256896324422,
-    "wr_hi": 0.5558989000591998,
-    "implied": 0.5083583333333334,
-    "edge_pts": 2.771131840796015,
-    "edge_lo_pts": 0.7767356299108852,
-    "edge_hi_pts": 4.754056672586648,
-    "brier": 0.2778857024668325,
-    "roi_net": 0.632107764086707,
-    "roi_median": 0.07589863688224341
+    "win_rate": 0.5368072787427626,
+    "wr_lo": 0.5168890814993617,
+    "wr_hi": 0.5566087062998072,
+    "implied": 0.5079488420181968,
+    "edge_pts": 2.8858436724565784,
+    "edge_lo_pts": 0.8940239481164958,
+    "edge_hi_pts": 4.86598642816104,
+    "brier": 0.2782421482009926,
+    "roi_net": 0.6358014879813296,
+    "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -28,20 +28,32 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 2403747.08,
+      "liquidity_usd": 2864623.27,
       "score": 63.1
     },
     {
-      "market": "Browns vs. Jets: O/U 38.5",
-      "outcome": "Under",
-      "price": 0.5,
+      "market": "Another Fed rate hike in 2026?",
+      "outcome": "Yes",
+      "price": 0.78,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 41910.82,
+      "liquidity_usd": 135800.19,
       "score": 50.2
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.64,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2784069.88,
+      "score": 47.7
     },
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -52,57 +64,44 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2415413.46,
+      "liquidity_usd": 2641246.3,
       "score": 46.7
     },
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "No",
-      "price": 0.56,
+      "price": 0.53,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 45422.14,
+      "liquidity_usd": 43624.77,
       "score": 43.2
-    },
-    {
-      "market": "Browns vs. Jets",
-      "outcome": "Jets",
-      "price": 0.35,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 238113.48,
-      "score": 41.4
-    },
-    {
-      "market": "Bears vs. Packers",
-      "outcome": "Packers",
-      "price": 0.17,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 460005.24,
-      "score": 34.6
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.62,
+      "price": 0.63,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 126423.17,
+      "liquidity_usd": 132715.77,
       "score": 28.7
+    },
+    {
+      "market": "Will Ethereum dip to $1,750 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.88,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 91009.32,
+      "score": 20.2
     },
     {
       "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
@@ -113,7 +112,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 476907.92,
+      "liquidity_usd": 498016.0,
       "score": 18.2
     },
     {
@@ -125,7 +124,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 176335.7,
+      "liquidity_usd": 175557.03,
       "score": 18.2
     },
     {
@@ -137,7 +136,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 250948.85,
+      "liquidity_usd": 249912.95,
       "score": 18.2
     }
   ],
@@ -145,28 +144,29 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.813,
+      "price": 0.805,
       "net_traders": 1,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 357590.31,
+      "liquidity_usd": 420828.27,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Vikings vs. Saints",
-      "outcome": "Saints",
-      "price": 0.42,
+      "market": "Los Angeles Dodgers vs. Milwaukee Brewers",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.51,
       "net_traders": 2,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 428917.61,
+      "liquidity_usd": 529831.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -174,27 +174,41 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.189,
+      "price": 0.197,
       "net_traders": -1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 357590.31,
+      "liquidity_usd": 420828.27,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Texans vs. Titans: O/U 38.5",
-      "outcome": "Under",
-      "price": 0.45,
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.1,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2577397.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "outcome": "No",
+      "price": 0.17,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 36142.35,
+      "liquidity_usd": 600982.45,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,7 +222,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 589907.67,
+      "liquidity_usd": 653948.25,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,11 +236,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 203412.4,
+      "liquidity_usd": 239776.68,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-11T17:50:03.009437+00:00"
+  "source_report_generated_at": "2026-10-12T00:03:05.736864+00:00"
 }
