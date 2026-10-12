@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-12T12:31:36.638450+00:00",
+  "generated_at_utc": "2026-10-12T21:27:06.986571+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2420,
+    "n": 2421,
     "excluded_certain": 157,
-    "win_rate": 0.5363636363636364,
-    "wr_lo": 0.5164530919728465,
-    "wr_hi": 0.5561589136961709,
-    "implied": 0.5079505371900827,
-    "edge_pts": 2.8413099173553724,
-    "edge_lo_pts": 0.8502554782763849,
-    "edge_hi_pts": 4.820837650608823,
-    "brier": 0.27822715469008263,
-    "roi_net": 0.6344330569995269,
+    "win_rate": 0.5361420900454358,
+    "wr_lo": 0.5162353744816681,
+    "wr_hi": 0.555934288064537,
+    "implied": 0.5077820322180917,
+    "edge_pts": 2.8360057827344076,
+    "edge_lo_pts": 0.8453342263576413,
+    "edge_hi_pts": 4.8152255846445335,
+    "brier": 0.27811636280462615,
+    "roi_net": 0.6337496893592958,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -24,25 +24,12 @@
       "price": 0.62,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 2207276.55,
-      "score": 62.7
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "outcome": "No",
-      "price": 0.17,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 550505.56,
-      "score": 53.7
+      "liquidity_usd": 2420027.21,
+      "score": 56.0
     },
     {
       "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
@@ -53,7 +40,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 191568.46,
+      "liquidity_usd": 163263.29,
       "score": 53.7
     },
     {
@@ -65,7 +52,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2059867.73,
+      "liquidity_usd": 2237709.34,
       "score": 51.4
     },
     {
@@ -77,20 +64,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2013707.52,
+      "liquidity_usd": 2250121.02,
       "score": 50.2
     },
     {
-      "market": "Spread: Rams (-3.5)",
-      "outcome": "Bills",
-      "price": 0.48,
-      "net_traders": 2,
+      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "outcome": "No",
+      "price": 0.21,
+      "net_traders": 3,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 1302790.94,
-      "score": 45.4
+      "fresh": true,
+      "liquidity_usd": 387946.32,
+      "score": 50.2
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -102,57 +89,112 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 139248.36,
+      "liquidity_usd": 132998.66,
       "score": 35.3
-    },
-    {
-      "market": "Will 2026 be the second-hottest year on record?",
-      "outcome": "Yes",
-      "price": 0.35,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 15156.29,
-      "score": 28.7
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.28,
+      "price": 0.287,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 92724.63,
+      "liquidity_usd": 105716.26,
       "score": 25.2
     },
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.958,
+      "price": 0.96,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 271502.95,
+      "liquidity_usd": 362024.57,
       "score": 21.7
+    },
+    {
+      "market": "US announces end of Iranian blockade by October 31, 2026?",
+      "outcome": "No",
+      "price": 0.86,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 140186.18,
+      "score": 21.7
+    },
+    {
+      "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
+      "outcome": "No",
+      "price": 0.9,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 481205.21,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Shanghai Rolex Masters: Arthur Fils vs Botic van de Zandschulp",
-      "outcome": "Arthur Fils",
-      "price": 0.1,
+      "market": "Los Angeles Dodgers vs. Milwaukee Brewers: O/U 6.5",
+      "outcome": "Under",
+      "price": 0.68,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 127257.6,
+      "liquidity_usd": 10115.84,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Los Angeles Dodgers (-1.5)",
+      "outcome": "Los Angeles Dodgers",
+      "price": 0.4,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 5085.2,
+      "why_excluded": [
+        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spurs vs. Jazz",
+      "outcome": "Jazz",
+      "price": 0.39,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 58828.67,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Los Angeles Dodgers vs. Milwaukee Brewers",
+      "outcome": "Milwaukee Brewers",
+      "price": 0.55,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 52623.78,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -160,14 +202,27 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "No",
-      "price": 0.802,
+      "price": 0.779,
       "net_traders": 0,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 437046.14,
+      "liquidity_usd": 457365.26,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Rams (-3.5)",
+      "outcome": "Bills",
+      "price": 0.48,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2500638.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -175,13 +230,27 @@
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.8,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 219258.76,
+      "liquidity_usd": 217566.73,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Rams (-3.5)",
+      "outcome": "Rams",
+      "price": 0.48,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2500638.89,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -189,17 +258,17 @@
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
       "outcome": "Yes",
-      "price": 0.199,
+      "price": 0.224,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 437046.14,
+      "liquidity_usd": 457365.26,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-12T12:31:20.862815+00:00"
+  "source_report_generated_at": "2026-10-12T21:26:43.144820+00:00"
 }
