@@ -1,48 +1,23 @@
 {
-  "generated_at_utc": "2026-10-13T12:15:30.963607+00:00",
+  "generated_at_utc": "2026-10-13T19:36:13.429971+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2427,
+    "n": 2431,
     "excluded_certain": 157,
-    "win_rate": 0.5360527400082407,
-    "wr_lo": 0.5161705626376132,
-    "wr_hi": 0.5558209649057695,
-    "implied": 0.5077545529460239,
-    "edge_pts": 2.829818706221676,
-    "edge_lo_pts": 0.8416009691589288,
-    "edge_hi_pts": 4.806641195974559,
-    "brier": 0.2781283536670787,
-    "roi_net": 0.6323253463759674,
+    "win_rate": 0.5364047716988893,
+    "wr_lo": 0.5165394381693637,
+    "wr_hi": 0.5561552291141262,
+    "implied": 0.5072893048128342,
+    "edge_pts": 2.9115466886055152,
+    "edge_lo_pts": 0.9250133356529466,
+    "edge_hi_pts": 4.8865924301292,
+    "brier": 0.27841321034553684,
+    "roi_net": 0.634954181676048,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.62,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3209604.35,
-      "score": 56.1
-    },
-    {
-      "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
-      "outcome": "No",
-      "price": 0.27,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 212967.99,
-      "score": 53.7
-    },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
       "outcome": "No",
@@ -52,7 +27,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2845054.82,
+      "liquidity_usd": 2722246.76,
       "score": 51.4
     },
     {
@@ -64,19 +39,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2697141.74,
-      "score": 50.2
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "outcome": "No",
-      "price": 0.2,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 521008.17,
+      "liquidity_usd": 2507833.36,
       "score": 50.2
     },
     {
@@ -88,20 +51,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 3092799.61,
+      "liquidity_usd": 2928909.06,
       "score": 47.7
-    },
-    {
-      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
-      "outcome": "Yes",
-      "price": 0.12,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 149909.23,
-      "score": 46.4
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -109,23 +60,22 @@
       "price": 0.63,
       "net_traders": 4,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 134752.22,
-      "score": 35.3
+      "liquidity_usd": 129897.19,
+      "score": 28.7
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.319,
+      "price": 0.295,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 103847.69,
+      "liquidity_usd": 102218.94,
       "score": 28.7
     },
     {
@@ -137,36 +87,93 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 214750.78,
+      "liquidity_usd": 213269.79,
       "score": 25.7
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40360.86,
+      "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.779,
+      "market": "Will Club Atl\u00e9tico de Madrid win on 2026-10-13?",
+      "outcome": "Yes",
+      "price": 0.73,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 439921.11,
+      "liquidity_usd": 141547.19,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.222,
+      "market": "Will Club Atl\u00e9tico de Madrid win on 2026-10-13?",
+      "outcome": "No",
+      "price": 0.28,
       "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 439921.11,
+      "liquidity_usd": 141547.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.62,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3073250.76,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: FC Barcelona (-1.5)",
+      "outcome": "FC Barcelona",
+      "price": 0.2,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 14287.52,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal FC win on 2026-10-13?",
+      "outcome": "Yes",
+      "price": 0.75,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 113956.61,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -174,28 +181,41 @@
     {
       "market": "Will no Fed rate cuts happen in 2026?",
       "outcome": "Yes",
-      "price": 0.964,
+      "price": 0.962,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 646008.36,
+      "liquidity_usd": 614513.52,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "LoL: HANJIN BRION vs LGD Gaming (BO5) - Demacia Cup Global Invitational Playoffs",
-      "outcome": "HANJIN BRION",
-      "price": 0.25,
-      "net_traders": 1,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.39,
+      "net_traders": -2,
       "signals": [
-        "capital_weighted",
-        "conviction"
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 111155.19,
+      "liquidity_usd": 3073250.76,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.779,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 428686.74,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -209,7 +229,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 347353.18,
+      "liquidity_usd": 352595.6,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -223,39 +243,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 347353.18,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Shanghai Rolex Masters: Alexander Zverev vs Alexander Bublik",
-      "outcome": "Alexander Zverev",
-      "price": 0.2,
-      "net_traders": 0,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 98478.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Shanghai Rolex Masters: Alexander Zverev vs Alexander Bublik",
-      "outcome": "Alexander Bublik",
-      "price": 0.2,
-      "net_traders": 0,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 98478.19,
+      "liquidity_usd": 352595.6,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-13T12:15:14.184981+00:00"
+  "source_report_generated_at": "2026-10-13T19:35:58.325491+00:00"
 }
