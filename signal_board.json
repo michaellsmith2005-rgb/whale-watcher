@@ -1,34 +1,46 @@
 {
-  "generated_at_utc": "2026-10-14T00:00:21.067909+00:00",
+  "generated_at_utc": "2026-10-14T09:49:19.678093+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2437,
+    "n": 2440,
     "excluded_certain": 157,
-    "win_rate": 0.5371358227328683,
-    "wr_lo": 0.5172959758338946,
-    "wr_hi": 0.5568587747242735,
-    "implied": 0.5072262207632335,
-    "edge_pts": 2.990960196963477,
-    "edge_lo_pts": 1.0069755070661102,
-    "edge_hi_pts": 4.963255396103994,
-    "brier": 0.2783706255026672,
-    "roi_net": 0.6366543598749295,
+    "win_rate": 0.5377049180327869,
+    "wr_lo": 0.5178780844487054,
+    "wr_hi": 0.5574132110264187,
+    "implied": 0.5071558606557378,
+    "edge_pts": 3.054905737704905,
+    "edge_lo_pts": 1.0722223792967611,
+    "edge_hi_pts": 5.025735037068091,
+    "brier": 0.2784042271926229,
+    "roi_net": 0.6373899656756236,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Blues vs. Senators",
-      "outcome": "Blues",
-      "price": 0.53,
+      "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.27,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 30702.05,
-      "score": 52.4
+      "fresh": true,
+      "liquidity_usd": 261253.16,
+      "score": 53.7
+    },
+    {
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.2,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 290484.9,
+      "score": 53.7
     },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
@@ -39,7 +51,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2724292.0,
+      "liquidity_usd": 2734338.4,
       "score": 51.4
     },
     {
@@ -51,102 +63,83 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2184798.56,
+      "liquidity_usd": 2223189.29,
       "score": 50.2
     },
     {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.64,
-      "net_traders": 3,
+      "market": "Will Boston Celtics win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.06,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 3035482.56,
-      "score": 47.7
+      "liquidity_usd": 162541.6,
+      "score": 49.9
+    },
+    {
+      "market": "Will the Buffalo Bills win the 2027 NFL league championship?",
+      "outcome": "Yes",
+      "price": 0.12,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 169741.88,
+      "score": 46.4
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "No",
+      "price": 0.51,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 42360.58,
+      "score": 43.2
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
       "price": 0.63,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 137095.26,
-      "score": 35.3
-    },
-    {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.301,
-      "net_traders": 4,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 102014.74,
-      "score": 28.7
+      "liquidity_usd": 138794.32,
+      "score": 25.2
     },
     {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.8,
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.308,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 114338.26,
+      "score": 25.2
+    },
+    {
+      "market": "Will no Fed rate cuts happen in 2026?",
+      "outcome": "Yes",
+      "price": 0.964,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216684.59,
-      "score": 25.7
-    },
-    {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.5,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 42163.53,
-      "score": 18.2
+      "liquidity_usd": 647977.4,
+      "score": 21.7
     }
   ],
   "excluded": [
-    {
-      "market": "Delaware vs. Middle Tennessee",
-      "outcome": "Middle Tennessee",
-      "price": 0.41,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 78103.66,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.779,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 433393.36,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
@@ -158,36 +151,35 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3319462.28,
+      "liquidity_usd": 3334526.44,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Wuhan Tennis Open: Jelena Ostapenko vs Jessica Pegula",
+      "outcome": "Jessica Pegula",
+      "price": 0.179,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 206367.01,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "Yes",
-      "price": 0.222,
+      "outcome": "No",
+      "price": 0.779,
       "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 433393.36,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
-      "outcome": "Yes",
-      "price": 0.962,
-      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 648629.43,
+      "liquidity_usd": 462782.92,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -201,39 +193,25 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3319462.28,
+      "liquidity_usd": 3334526.44,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.513,
-      "net_traders": 0,
+      "price": 0.8,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 380267.21,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.488,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 380267.21,
+      "liquidity_usd": 215461.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-13T23:59:57.047620+00:00"
+  "source_report_generated_at": "2026-10-14T09:48:57.677815+00:00"
 }
