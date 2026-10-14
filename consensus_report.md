@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-10-13T19:35:58.325491+00:00 UTC*  
+*Generated: 2026-10-13T23:59:57.047620+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,8 +8,8 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **5308**
-- Unique markets represented: **4007**
+- Total open positions analyzed: **4853**
+- Unique markets represented: **3749**
 
 ## Top 5 Consensus Markets (by trader count)
 
@@ -19,35 +19,35 @@
 - **Total combined USD exposure:** $25,943.71
 - **Backers:** BreakTheBank, Zzzz87, anoin123, donthackme, e46m3, foodenjoyer
 
-### 2. Will Club Atlético de Madrid win on 2026-10-13?
-- **Favored outcome:** Yes
-- **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $2,207,069.77
-- **Backers:** BreakTheBank, UpTheBlues, Zzzz87, joseph00677, omnibus-076daa
-
-### 3. Will Arsenal win the 2026-27 English Premier League (EPL) Championship?
+### 2. Will Arsenal win the 2026-27 English Premier League (EPL) Championship?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 5
 - **Total combined USD exposure:** $252,156.51
 - **Backers:** BreakTheBank, Zzzz87, donthackme, e46m3, omnibus-076daa
 
-### 4. Will the Democratic Party control the House after the 2026 Midterm elections?
-- **Favored outcome:** No
+### 3. Blues vs. Senators
+- **Favored outcome:** Blues
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $34,563.96
-- **Backers:** BreakTheBank, anoin123, donthackme, e46m3, foodenjoyer
+- **Total combined USD exposure:** $68,819.16
+- **Backers:** HomeRunHazard, Nooserac, UpTheBlues, mooseborzoii, omnibus-076daa
 
-### 5. Will Club Atlético de Madrid win on 2026-10-13?
+### 4. Delaware vs. Middle Tennessee
+- **Favored outcome:** Middle Tennessee
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $46,386.44
+- **Backers:** HomeRunHazard, justaluckydude, mooseborzoii, omnibus-076daa, primm
+
+### 5. Will the Democratic Party control the House after the 2026 Midterm elections?
 - **Favored outcome:** No
 - **Top-50 traders backing it:** 5
-- **Total combined USD exposure:** $24,739.56
-- **Backers:** 0xd4aa6f8e91cfea29b66a48ebff52814, Nooserac, UpTheBlues, omnibus-076daa, para-Vision
+- **Total combined USD exposure:** $34,601.45
+- **Backers:** BreakTheBank, anoin123, donthackme, e46m3, foodenjoyer
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Will Club Atlético de Madrid win on 2026-10-13? | Yes | 5 | $2,207,069.77 |
+| Will JD Vance win the 2028 US Presidential Election? | No | 4 | $1,191,722.71 |
 | 2026 Balance of Power: D Senate, D House | Yes | 4 | $1,127,346.61 |
 | Will no Fed rate cuts happen in 2026? | Yes | 2 | $572,704.32 |
 | 2026 Balance of Power: D Senate, D House | No | 2 | $502,693.44 |
@@ -57,4 +57,5 @@
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| 2026 Balance of Power: D Senate, D House | Yes | 100 | 3 | 17.2% | 0.57 |
+| 2026 Balance of Power: D Senate, D House | Yes | 100 | 3 | 17.3% | 0.58 |
+| Delaware vs. Middle Tennessee | Middle Tennessee | 49 | 3 | 20.8% | 0.19 |

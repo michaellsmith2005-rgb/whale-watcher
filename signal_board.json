@@ -1,23 +1,35 @@
 {
-  "generated_at_utc": "2026-10-13T19:36:13.429971+00:00",
+  "generated_at_utc": "2026-10-14T00:00:21.067909+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2431,
+    "n": 2437,
     "excluded_certain": 157,
-    "win_rate": 0.5364047716988893,
-    "wr_lo": 0.5165394381693637,
-    "wr_hi": 0.5561552291141262,
-    "implied": 0.5072893048128342,
-    "edge_pts": 2.9115466886055152,
-    "edge_lo_pts": 0.9250133356529466,
-    "edge_hi_pts": 4.8865924301292,
-    "brier": 0.27841321034553684,
-    "roi_net": 0.634954181676048,
+    "win_rate": 0.5371358227328683,
+    "wr_lo": 0.5172959758338946,
+    "wr_hi": 0.5568587747242735,
+    "implied": 0.5072262207632335,
+    "edge_pts": 2.990960196963477,
+    "edge_lo_pts": 1.0069755070661102,
+    "edge_hi_pts": 4.963255396103994,
+    "brier": 0.2783706255026672,
+    "roi_net": 0.6366543598749295,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
+    {
+      "market": "Blues vs. Senators",
+      "outcome": "Blues",
+      "price": 0.53,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 30702.05,
+      "score": 52.4
+    },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
       "outcome": "No",
@@ -27,7 +39,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2722246.76,
+      "liquidity_usd": 2724292.0,
       "score": 51.4
     },
     {
@@ -39,7 +51,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2507833.36,
+      "liquidity_usd": 2184798.56,
       "score": 50.2
     },
     {
@@ -51,7 +63,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2928909.06,
+      "liquidity_usd": 3035482.56,
       "score": 47.7
     },
     {
@@ -60,22 +72,23 @@
       "price": 0.63,
       "net_traders": 4,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 129897.19,
-      "score": 28.7
+      "liquidity_usd": 137095.26,
+      "score": 35.3
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.295,
+      "price": 0.301,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 102218.94,
+      "liquidity_usd": 102014.74,
       "score": 28.7
     },
     {
@@ -87,7 +100,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 213269.79,
+      "liquidity_usd": 216684.59,
       "score": 25.7
     },
     {
@@ -99,36 +112,37 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 40360.86,
+      "liquidity_usd": 42163.53,
       "score": 18.2
     }
   ],
   "excluded": [
     {
-      "market": "Will Club Atl\u00e9tico de Madrid win on 2026-10-13?",
-      "outcome": "Yes",
-      "price": 0.73,
+      "market": "Delaware vs. Middle Tennessee",
+      "outcome": "Middle Tennessee",
+      "price": 0.41,
+      "net_traders": 2,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 78103.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.779,
       "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 141547.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Club Atl\u00e9tico de Madrid win on 2026-10-13?",
-      "outcome": "No",
-      "price": 0.28,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 141547.19,
+      "liquidity_usd": 433393.36,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -144,36 +158,22 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3073250.76,
+      "liquidity_usd": 3319462.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: FC Barcelona (-1.5)",
-      "outcome": "FC Barcelona",
-      "price": 0.2,
-      "net_traders": 2,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "Yes",
+      "price": 0.222,
+      "net_traders": 0,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 14287.52,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Arsenal FC win on 2026-10-13?",
-      "outcome": "Yes",
-      "price": 0.75,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 113956.61,
+      "liquidity_usd": 433393.36,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -187,7 +187,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 614513.52,
+      "liquidity_usd": 648629.43,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -201,21 +201,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3073250.76,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.779,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 428686.74,
+      "liquidity_usd": 3319462.28,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -229,7 +215,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 352595.6,
+      "liquidity_usd": 380267.21,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -243,11 +229,11 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 352595.6,
+      "liquidity_usd": 380267.21,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-13T19:35:58.325491+00:00"
+  "source_report_generated_at": "2026-10-13T23:59:57.047620+00:00"
 }
