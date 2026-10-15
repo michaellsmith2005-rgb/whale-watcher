@@ -1,219 +1,186 @@
 {
-  "generated_at_utc": "2026-10-14T23:31:27.373842+00:00",
+  "generated_at_utc": "2026-10-15T09:29:39.570282+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2444,
+    "n": 2450,
     "excluded_certain": 157,
-    "win_rate": 0.5376432078559739,
-    "wr_lo": 0.5178325412994358,
-    "wr_hi": 0.5573357212221262,
-    "implied": 0.5072881751227496,
-    "edge_pts": 3.0355032733224263,
-    "edge_lo_pts": 1.0544366176686193,
-    "edge_hi_pts": 5.004754609937656,
-    "brier": 0.27809256315466446,
-    "roi_net": 0.6356705510378804,
+    "win_rate": 0.5379591836734694,
+    "wr_lo": 0.5181732760664367,
+    "wr_hi": 0.5576262376430058,
+    "implied": 0.5070376734693878,
+    "edge_pts": 3.0921510204081626,
+    "edge_lo_pts": 1.1135602597048933,
+    "edge_hi_pts": 5.058856417361801,
+    "brier": 0.2781731119795918,
+    "roi_net": 0.6370043555097448,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
       "outcome": "No",
-      "price": 0.1,
+      "price": 0.27,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2649155.47,
-      "score": 51.7
+      "liquidity_usd": 228104.29,
+      "score": 52.4
     },
     {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.37,
+      "market": "Sabres vs. Maple Leafs",
+      "outcome": "Maple Leafs",
+      "price": 0.49,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2041975.86,
-      "score": 50.2
+      "liquidity_usd": 80002.25,
+      "score": 50.9
+    },
+    {
+      "market": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
+      "outcome": "No",
+      "price": 0.39,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 175245.99,
+      "score": 50.4
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.29,
+      "price": 0.26,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 175457.29,
+      "liquidity_usd": 188832.26,
       "score": 50.2
-    },
-    {
-      "market": "Pelicans vs. Mavericks",
-      "outcome": "Pelicans",
-      "price": 0.61,
-      "net_traders": 2,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 120637.56,
-      "score": 40.5
-    },
-    {
-      "market": "Bulls vs. Bucks",
-      "outcome": "Bulls",
-      "price": 0.64,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 135735.18,
-      "score": 38.9
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.63,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 129380.33,
-      "score": 35.3
-    },
-    {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.303,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 107762.75,
-      "score": 28.7
-    },
-    {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.82,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 250217.92,
-      "score": 21.7
-    },
-    {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.58,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 47178.97,
-      "score": 18.2
-    }
-  ],
-  "excluded": [
-    {
-      "market": "Suns vs. Spurs",
-      "outcome": "Spurs",
-      "price": 0.2,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 135647.95,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.63,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3109011.68,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
+      "liquidity_usd": 2809071.08,
+      "score": 49.8
     },
     {
-      "market": "Will JD Vance win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "price": 0.779,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 421799.27,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Milwaukee Brewers vs. Los Angeles Dodgers",
-      "outcome": "Los Angeles Dodgers",
-      "price": 0.39,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 3727521.84,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will no Fed rate cuts happen in 2026?",
+      "market": "2026 Balance of Power: R Senate, R House",
       "outcome": "Yes",
-      "price": 0.968,
+      "price": 0.09,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2382166.17,
+      "score": 49.2
+    },
+    {
+      "market": "Will Barcelona win the 2026-27 UEFA Champions League Championship?",
+      "outcome": "No",
+      "price": 0.77,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
+      "fresh": true,
+      "liquidity_usd": 546794.64,
+      "score": 43.2
+    },
+    {
+      "market": "Seahawks vs. Broncos",
+      "outcome": "Broncos",
+      "price": 0.57,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
       "fresh": false,
-      "liquidity_usd": 609880.85,
+      "liquidity_usd": 1891494.91,
+      "score": 42.9
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.63,
+      "net_traders": 5,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 131632.62,
+      "score": 38.8
+    },
+    {
+      "market": "Will Google have the best AI model at the end of December 2026?",
+      "outcome": "Yes",
+      "price": 0.4,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 26860.48,
+      "score": 28.7
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.1,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 2461882.37,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.516,
+      "price": 0.82,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 283926.38,
+      "liquidity_usd": 252629.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.68,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 39052.49,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,30 +189,30 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.38,
-      "net_traders": -2,
+      "net_traders": -3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3109011.68,
+      "liquidity_usd": 2809071.08,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.485,
-      "net_traders": 0,
+      "market": "US announces end of Iranian blockade by October 31, 2026?",
+      "outcome": "No",
+      "price": 0.92,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 283926.38,
+      "fresh": false,
+      "liquidity_usd": 209253.98,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-14T23:31:09.175994+00:00"
+  "source_report_generated_at": "2026-10-15T09:29:25.166674+00:00"
 }
