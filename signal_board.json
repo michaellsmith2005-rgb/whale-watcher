@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-15T23:22:01.304759+00:00",
+  "generated_at_utc": "2026-10-16T09:22:22.856065+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2451,
+    "n": 2459,
     "excluded_certain": 159,
-    "win_rate": 0.5377396980824154,
-    "wr_lo": 0.5179575183554043,
-    "wr_hi": 0.5574037595372306,
-    "implied": 0.5069980824153406,
-    "edge_pts": 3.0741615667074784,
-    "edge_lo_pts": 1.0959435940063655,
-    "edge_hi_pts": 5.040567712189004,
-    "brier": 0.27812820250917997,
-    "roi_net": 0.6363283031411157,
+    "win_rate": 0.538430256201708,
+    "wr_lo": 0.518681330822686,
+    "wr_hi": 0.5580592926912259,
+    "implied": 0.5070241154941033,
+    "edge_pts": 3.1406140707604724,
+    "edge_lo_pts": 1.165721532858266,
+    "edge_hi_pts": 5.103517719712258,
+    "brier": 0.27792347472549817,
+    "roi_net": 0.635522151539258,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,99 +22,87 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
       "price": 0.63,
-      "net_traders": 2,
+      "net_traders": 3,
       "signals": [
+        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 3297283.12,
-      "score": 56.1
-    },
-    {
-      "market": "Spread: Texas State (-14.5)",
-      "outcome": "Texas State",
-      "price": 0.52,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 222204.65,
-      "score": 54.1
+      "liquidity_usd": 3222529.61,
+      "score": 66.4
     },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "outcome": "Yes",
-      "price": 0.28,
+      "price": 0.14,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 424476.85,
+      "score": 57.2
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.63,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 256968.71,
+      "liquidity_usd": 3019459.87,
       "score": 53.7
     },
     {
-      "market": "Seahawks vs. Broncos",
-      "outcome": "Broncos",
-      "price": 0.57,
-      "net_traders": 2,
+      "market": "Will Dan Sullivan win the Alaska Senate race in 2026?",
+      "outcome": "Yes",
+      "price": 0.26,
+      "net_traders": 4,
       "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 4943843.27,
-      "score": 43.2
-    },
-    {
-      "market": "Will Barcelona win the 2026-27 UEFA Champions League Championship?",
-      "outcome": "No",
-      "price": 0.77,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 528954.58,
-      "score": 43.2
+      "liquidity_usd": 339590.64,
+      "score": 53.7
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.63,
-      "net_traders": 5,
+      "price": 0.64,
+      "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 119600.94,
-      "score": 38.8
+      "liquidity_usd": 141379.13,
+      "score": 35.3
     },
     {
-      "market": "Will 2026 be the second-hottest year on record?",
+      "market": "Will Google have the best AI model at the end of October 2026?",
       "outcome": "Yes",
-      "price": 0.28,
+      "price": 0.696,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 11477.74,
-      "score": 32.9
+      "liquidity_usd": 27656.01,
+      "score": 28.7
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.29,
+      "price": 0.281,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 110761.69,
+      "liquidity_usd": 120891.35,
       "score": 25.2
     },
     {
@@ -126,7 +114,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 608136.42,
+      "liquidity_usd": 658285.89,
       "score": 21.7
     },
     {
@@ -138,8 +126,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 211657.99,
+      "liquidity_usd": 258515.96,
       "score": 21.7
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.95,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 593538.35,
+      "score": 18.2
     }
   ],
   "excluded": [
@@ -152,63 +152,35 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2603475.8,
+      "liquidity_usd": 2619324.74,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Georgia Southern (-3.5)",
-      "outcome": "Georgia Southern",
-      "price": 0.47,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 294787.99,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "East Carolina vs. UAB: O/U 47.5",
-      "outcome": "Under",
-      "price": 0.56,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 114684.03,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Sabres vs. Maple Leafs",
-      "outcome": "Maple Leafs",
-      "price": 0.48,
-      "net_traders": 1,
+      "market": "Wuhan Tennis Open: Maja Chwalinska vs Maria Sakkari",
+      "outcome": "Maria Sakkari",
+      "price": 0.6,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 18093.04,
+      "liquidity_usd": 200619.02,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Raptors vs. Knicks",
-      "outcome": "Raptors",
-      "price": 0.42,
-      "net_traders": 1,
+      "market": "Wuhan Tennis Open: Maja Chwalinska vs Maria Sakkari",
+      "outcome": "Maja Chwalinska",
+      "price": 0.6,
+      "net_traders": 0,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 99763.73,
+      "liquidity_usd": 200619.02,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -217,30 +189,86 @@
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
       "price": 0.82,
-      "net_traders": 1,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 244696.82,
+      "liquidity_usd": 418198.56,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.91,
-      "net_traders": -2,
+      "market": "Will Indiana enact a data center moratorium by December 31, 2028?",
+      "outcome": "No",
+      "price": 0.73,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2603475.8,
+      "liquidity_usd": 24046.71,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
+      "outcome": "No",
+      "price": 0.88,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 431650.18,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Anthropic's valuation hit (HIGH) $4.0T by December 31?",
+      "outcome": "No",
+      "price": 0.937,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 37986.3,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the US confirm that aliens exist before 2027?",
+      "outcome": "No",
+      "price": 0.961,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 548756.94,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+      "outcome": "Rebeka Masarova",
+      "price": 0.569,
+      "net_traders": 0,
+      "signals": [
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 62770.61,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-15T23:21:45.026342+00:00"
+  "source_report_generated_at": "2026-10-16T09:22:05.831075+00:00"
 }
