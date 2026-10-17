@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T08:53:56.559788+00:00",
+  "generated_at_utc": "2026-10-17T16:01:02.332561+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -24,38 +24,12 @@
       "price": 0.63,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 3075868.37,
-      "score": 62.8
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.64,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 3374131.21,
-      "score": 60.3
-    },
-    {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.2,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 286632.93,
-      "score": 53.7
+      "liquidity_usd": 2595820.23,
+      "score": 56.1
     },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
@@ -66,72 +40,72 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 2489369.02,
+      "liquidity_usd": 2258838.93,
       "score": 52.2
     },
     {
-      "market": "Spread: Manchester City FC (-1.5)",
-      "outcome": "Manchester City FC",
-      "price": 0.59,
-      "net_traders": 2,
+      "market": "Spread: Oklahoma (-6.5)",
+      "outcome": "Kentucky",
+      "price": 0.52,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 287680.69,
-      "score": 46.7
+      "liquidity_usd": 369940.38,
+      "score": 50.2
     },
     {
-      "market": "Saints vs. Giants",
-      "outcome": "Giants",
+      "market": "Spread: LSU (-17.5)",
+      "outcome": "LSU",
       "price": 0.51,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 447079.26,
-      "score": 45.2
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.64,
-      "net_traders": 5,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 122045.96,
-      "score": 38.8
-    },
-    {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.279,
       "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 122493.54,
-      "score": 25.2
+      "liquidity_usd": 157323.52,
+      "score": 48.9
     },
     {
-      "market": "Spread: James Madison (-12.5)",
-      "outcome": "Georgia State",
-      "price": 0.43,
-      "net_traders": 2,
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.64,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 107288.54,
+      "score": 35.3
+    },
+    {
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.274,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 14468.69,
-      "score": 22.7
+      "liquidity_usd": 121444.73,
+      "score": 25.2
     },
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
+      "outcome": "No",
+      "price": 0.94,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 126080.73,
+      "score": 21.7
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
       "outcome": "No",
       "price": 0.95,
       "net_traders": 2,
@@ -139,11 +113,63 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 220771.47,
+      "liquidity_usd": 538120.45,
       "score": 21.7
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.65,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 53958.87,
+      "score": 18.2
+    },
+    {
+      "market": "Will Indiana enact a data center moratorium by December 31, 2027?",
+      "outcome": "No",
+      "price": 0.88,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 481027.39,
+      "score": 18.2
     }
   ],
   "excluded": [
+    {
+      "market": "Pittsburgh vs. Boston College: O/U 43.5",
+      "outcome": "Over",
+      "price": 0.49,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 124506.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Notre Dame (-10.5)",
+      "outcome": "Notre Dame",
+      "price": 0.5,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 218292.08,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Tampa Bay Rays vs. Cleveland Guardians: O/U 6.5",
       "outcome": "Under",
@@ -153,40 +179,95 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 8318.09,
+      "liquidity_usd": 170949.28,
       "why_excluded": [
-        "thin book (<$10,000)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Maryland (-5.5)",
+      "outcome": "Maryland",
+      "price": 0.52,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 222774.57,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Army (-2.5)",
+      "outcome": "Florida Atlantic",
+      "price": 0.51,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 175496.28,
+      "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.82,
-      "net_traders": 1,
+      "price": 0.81,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 228648.66,
+      "liquidity_usd": 221503.29,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: R Senate, D House",
-      "outcome": "No",
-      "price": 0.73,
+      "market": "Real Betis Balompi\u00e9 vs. FC Barcelona: O/U 3.5",
+      "outcome": "Over",
+      "price": 0.6,
       "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
+      "fresh": true,
+      "liquidity_usd": 299332.06,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Aston Villa FC win on 2026-10-17?",
+      "outcome": "No",
+      "price": 0.7,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
       "fresh": false,
-      "liquidity_usd": 2573361.11,
+      "liquidity_usd": 679732.88,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Indiana enact a data center moratorium by December 31, 2028?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 28209.94,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-17T08:53:36.594875+00:00"
+  "source_report_generated_at": "2026-10-17T16:00:41.175365+00:00"
 }
