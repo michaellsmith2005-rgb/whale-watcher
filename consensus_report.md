@@ -1,6 +1,6 @@
 # Polymarket Top-50 Consensus Trade Report
 
-*Generated: 2026-10-18T22:39:45.149673+00:00 UTC*  
+*Generated: 2026-10-19T10:21:45.966433+00:00 UTC*  
 *Leaderboard window: MONTH | Ranked by: PNL*
 
 ## Run Summary
@@ -8,55 +8,54 @@
 - Traders requested: **50**
 - Traders with usable data: **50**
 - Failed / hidden profiles: **0**
-- Total open positions analyzed: **4274**
-- Unique markets represented: **3380**
+- Total open positions analyzed: **4381**
+- Unique markets represented: **3479**
 
 ## Top 5 Consensus Markets (by trader count)
 
-### 1. Cardinals vs. Rams
-- **Favored outcome:** Cardinals
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $515,460.77
-- **Backers:** Kch-Temp, PEYZ-BIGGEST-FAN, THEHIGHLIFE, UpTheBlues, mooseborzoii, omnibus-076daa, takeormake
-
-### 2. Cardinals vs. Rams
-- **Favored outcome:** Rams
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $121,826.04
-- **Backers:** BreakTheBank, HomeRunHazard, PEYZ-BIGGEST-FAN, UpTheBlues, mooseborzoii, omnibus-076daa, takeormake
-
-### 3. Chargers vs. Chiefs
-- **Favored outcome:** Chargers
-- **Top-50 traders backing it:** 7
-- **Total combined USD exposure:** $23,682.28
-- **Backers:** 0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816, BreakTheBank, PEYZ-BIGGEST-FAN, UpTheBlues, mooseborzoii, omnibus-076daa, takeormake
-
-### 4. Will Arsenal win the 2026-27 English Premier League (EPL) Championship?
+### 1. Will Arsenal win the 2026-27 English Premier League (EPL) Championship?
 - **Favored outcome:** Yes
 - **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $261,651.97
+- **Total combined USD exposure:** $257,397.47
 - **Backers:** BreakTheBank, Siddhartha1, Zzzz87, donthackme, e46m3, omnibus-076daa
 
-### 5. Bills vs. Raiders
-- **Favored outcome:** Raiders
-- **Top-50 traders backing it:** 6
-- **Total combined USD exposure:** $144,709.80
-- **Backers:** UpTheBlues, alwaysfade, ic4cream, mooseborzoii, primm, takeormake
+### 2. Will the Republican Party control the Senate after the 2026 Midterm elections?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $147,826.54
+- **Backers:** BreakTheBank, PEYZ-BIGGEST-FAN, Siddhartha1, TeamA, Zzzz87
+
+### 3. Will Lamine Yamal win the 2026 Ballon d'Or?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 5
+- **Total combined USD exposure:** $15,819.29
+- **Backers:** Bigggggggg, BreakTheBank, Zzzz87, donthackme, e46m3
+
+### 4. Will the Democratic Party control the House after the 2026 Midterm elections?
+- **Favored outcome:** No
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $88,537.47
+- **Backers:** BreakTheBank, anoin123, donthackme, e46m3
+
+### 5. Will Oklahoma City Thunder win the 2027 NBA Finals?
+- **Favored outcome:** Yes
+- **Top-50 traders backing it:** 4
+- **Total combined USD exposure:** $6,079.05
+- **Backers:** Bigggggggg, PEYZ-BIGGEST-FAN, donthackme, omnibus-076daa
 
 ## Capital-Weighted Consensus (by total USD exposure)
 
 | Market | Outcome | Traders | Total USD |
 |---|---|---|---|
-| Bills vs. Raiders | Bills | 4 | $1,042,118.19 |
-| Cardinals vs. Rams | Cardinals | 7 | $515,460.77 |
-| Will Ethereum dip to $2,250 by December 31, 2026? | Yes | 1 | $466,873.05 |
+| Will Ethereum dip to $2,250 by December 31, 2026? | Yes | 1 | $439,206.50 |
 | Will Manchester City win the 2026-27 English Premier League (EPL) Championship? | No | 3 | $386,578.69 |
 | 2026 Balance of Power: D Senate, D House | Yes | 3 | $329,760.08 |
+| Will Arsenal win the 2026-27 English Premier League (EPL) Championship? | Yes | 6 | $257,397.47 |
+| US announces end of Iranian blockade by October 31, 2026? | No | 2 | $211,372.18 |
 
 ## Skill-Weighted Conviction (>= 3 proven wallets, each outsized for them)
 
 | Market | Outcome | Conviction Score | Wallets | Avg % of Bankroll | Avg Skill |
 |---|---|---|---|---|---|
-| Bills vs. Raiders | Raiders | 100 | 4 | 35.9% | 0.25 |
-| 2026 Balance of Power: D Senate, D House | Yes | 58 | 3 | 15.6% | 0.59 |
-| Cardinals vs. Rams | Rams | 15 | 5 | 5.7% | 0.22 |
+| 2026 Balance of Power: D Senate, D House | Yes | 100 | 3 | 17.1% | 0.59 |
+| Florence: Dmitry Popko vs Pierluigi Basile | Pierluigi Basile | 6 | 3 | 2.9% | 0.19 |

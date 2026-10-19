@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-18T22:40:01.470999+00:00",
+  "generated_at_utc": "2026-10-19T10:22:02.857508+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2525,
+    "n": 2539,
     "excluded_certain": 159,
-    "win_rate": 0.5382178217821783,
-    "wr_lo": 0.5187287794910753,
-    "wr_hi": 0.5575907495770958,
-    "implied": 0.5077549702970297,
-    "edge_pts": 3.04628514851486,
-    "edge_lo_pts": 1.097380919404567,
-    "edge_hi_pts": 4.983577928006611,
-    "brier": 0.2768965066732673,
-    "roi_net": 0.6230753305446622,
+    "win_rate": 0.538400945254037,
+    "wr_lo": 0.5189660565026967,
+    "wr_hi": 0.5577198054872913,
+    "implied": 0.508443205986609,
+    "edge_pts": 2.9957739267428063,
+    "edge_lo_pts": 1.05228505160877,
+    "edge_hi_pts": 4.9276599500682305,
+    "brier": 0.27711028568333995,
+    "roi_net": 0.6203930659263718,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -24,11 +24,12 @@
       "price": 0.64,
       "net_traders": 5,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3052693.9,
-      "score": 57.2
+      "liquidity_usd": 3538525.63,
+      "score": 63.8
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
@@ -36,73 +37,62 @@
       "price": 0.63,
       "net_traders": 2,
       "signals": [
+        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 2971946.94,
-      "score": 56.2
+      "liquidity_usd": 3400060.02,
+      "score": 62.9
     },
     {
-      "market": "Chargers vs. Chiefs",
-      "outcome": "Chargers",
-      "price": 0.056,
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.2,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 351570.62,
+      "liquidity_usd": 288443.67,
       "score": 53.7
     },
     {
-      "market": "Spread: Bills (-4.5)",
-      "outcome": "Raiders",
-      "price": 0.65,
-      "net_traders": 3,
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.1,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 48323.73,
-      "score": 50.2
+      "fresh": false,
+      "liquidity_usd": 3349803.03,
+      "score": 52.2
+    },
+    {
+      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "outcome": "No",
+      "price": 0.72,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 504196.71,
+      "score": 43.7
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.62,
+      "price": 0.61,
       "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 112819.13,
+      "liquidity_usd": 107182.0,
       "score": 42.3
-    },
-    {
-      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 115518.45,
-      "score": 28.7
-    },
-    {
-      "market": "Chargers vs. Chiefs: O/U 42.5",
-      "outcome": "Under",
-      "price": 0.18,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 56761.05,
-      "score": 25.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -110,11 +100,24 @@
       "price": 0.81,
       "net_traders": 2,
       "signals": [
+        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 210790.44,
-      "score": 23.9
+      "liquidity_usd": 196666.72,
+      "score": 30.6
+    },
+    {
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.264,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 130655.01,
+      "score": 28.7
     },
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
@@ -125,7 +128,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 121859.69,
+      "liquidity_usd": 148699.81,
       "score": 21.7
     },
     {
@@ -137,112 +140,68 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 533039.38,
+      "liquidity_usd": 551174.06,
       "score": 21.7
     }
   ],
   "excluded": [
     {
-      "market": "Cardinals vs. Rams",
-      "outcome": "Cardinals",
-      "price": 0.73,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 49092.98,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cardinals vs. Rams",
-      "outcome": "Rams",
-      "price": 0.73,
-      "net_traders": 0,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 49092.98,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bills vs. Raiders",
-      "outcome": "Raiders",
-      "price": 0.85,
-      "net_traders": 2,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 375213.2,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Bills vs. Raiders: O/U 54.5",
-      "outcome": "Over",
-      "price": 0.46,
-      "net_traders": 2,
+      "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.029,
+      "net_traders": 4,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 67213.04,
+      "fresh": false,
+      "liquidity_usd": 168358.39,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Almaty Open: Adrian Mannarino vs Aleksandar Vukic",
+      "outcome": "Adrian Mannarino",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 330735.71,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Bills vs. Raiders",
-      "outcome": "Bills",
-      "price": 0.85,
-      "net_traders": -2,
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "No",
+      "price": 0.73,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 375213.2,
+      "liquidity_usd": 3340436.0,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Bills (-4.5)",
-      "outcome": "Bills",
-      "price": 0.65,
-      "net_traders": -3,
+      "market": "Florence: Dmitry Popko vs Pierluigi Basile",
+      "outcome": "Pierluigi Basile",
+      "price": 0.3,
+      "net_traders": 1,
       "signals": [
-        "capital_weighted"
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 48323.73,
+      "liquidity_usd": 2125.5,
       "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Columbus Crew win on 2026-10-18?",
-      "outcome": "Yes",
-      "price": 0.84,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 29624.32,
-      "why_excluded": [
+        "thin book (<$10,000)",
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-18T22:39:45.149673+00:00"
+  "source_report_generated_at": "2026-10-19T10:21:45.966433+00:00"
 }
