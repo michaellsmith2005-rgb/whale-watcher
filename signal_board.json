@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-19T18:52:29.640543+00:00",
+  "generated_at_utc": "2026-10-19T23:59:40.499623+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2541,
+    "n": 2542,
     "excluded_certain": 159,
-    "win_rate": 0.5387642660369933,
-    "wr_lo": 0.5193375810436781,
-    "wr_hi": 0.5580739167878569,
-    "implied": 0.5085231404958677,
-    "edge_pts": 3.024112554112568,
-    "edge_lo_pts": 1.0814440547810444,
-    "edge_hi_pts": 4.955077629198923,
-    "brier": 0.2770875306375443,
-    "roi_net": 0.6208415128855295,
+    "win_rate": 0.5385523210070811,
+    "wr_lo": 0.5191291456090021,
+    "wr_hi": 0.557859147771073,
+    "implied": 0.5084765145554682,
+    "edge_pts": 3.0075806451612896,
+    "edge_lo_pts": 1.0652631053533979,
+    "edge_hi_pts": 4.938263321560488,
+    "brier": 0.27703836166404405,
+    "roi_net": 0.6201960205515855,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,14 +22,14 @@
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
       "price": 0.64,
-      "net_traders": 5,
+      "net_traders": 3,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3263873.36,
-      "score": 63.8
+      "liquidity_usd": 3342418.26,
+      "score": 56.8
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
@@ -37,13 +37,12 @@
       "price": 0.63,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 3191911.47,
-      "score": 62.9
+      "liquidity_usd": 3220949.03,
+      "score": 56.2
     },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
@@ -54,7 +53,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3131900.18,
+      "liquidity_usd": 3225058.56,
       "score": 53.7
     },
     {
@@ -66,32 +65,32 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 272579.25,
+      "liquidity_usd": 274551.59,
       "score": 53.7
     },
     {
       "market": "Atlanta Dream vs. Golden State Valkyries",
       "outcome": "Atlanta Dream",
-      "price": 0.45,
-      "net_traders": 4,
+      "price": 0.47,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 165057.07,
+      "liquidity_usd": 279792.51,
       "score": 52.9
     },
     {
       "market": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.04,
-      "net_traders": 4,
+      "price": 0.051,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 105472.33,
-      "score": 49.7
+      "liquidity_usd": 90418.84,
+      "score": 43.4
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -103,20 +102,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 108850.11,
+      "liquidity_usd": 122697.5,
       "score": 42.3
     },
     {
       "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "outcome": "Yes",
-      "price": 0.233,
-      "net_traders": 4,
+      "price": 0.196,
+      "net_traders": 3,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 124143.18,
-      "score": 28.7
+      "liquidity_usd": 159379.23,
+      "score": 25.2
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -124,27 +123,54 @@
       "price": 0.84,
       "net_traders": 2,
       "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 223215.78,
-      "score": 28.3
+      "liquidity_usd": 241285.05,
+      "score": 21.7
     },
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.9,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 76873.36,
+      "liquidity_usd": 99286.15,
       "score": 21.7
     }
   ],
   "excluded": [
+    {
+      "market": "Commanders vs. 49ers: O/U 50.5",
+      "outcome": "Under",
+      "price": 0.54,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 1364927.78,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Commanders vs. 49ers: O/U 51.5",
+      "outcome": "Under",
+      "price": 0.5,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1957720.96,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
     {
       "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "outcome": "Yes",
@@ -154,21 +180,21 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 484114.39,
+      "liquidity_usd": 543671.03,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Spread: Tottenham Hotspur FC (-1.5)",
-      "outcome": "Coventry City FC",
-      "price": 0.39,
-      "net_traders": -2,
+      "market": "Commanders vs. 49ers: O/U 52.5",
+      "outcome": "Under",
+      "price": 0.47,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 1245095.77,
+      "fresh": false,
+      "liquidity_usd": 1726910.37,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -182,11 +208,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3118096.41,
+      "liquidity_usd": 3167242.43,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-19T18:52:13.320978+00:00"
+  "source_report_generated_at": "2026-10-19T23:59:23.259395+00:00"
 }
