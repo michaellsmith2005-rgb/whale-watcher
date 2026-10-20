@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-20T09:42:34.451954+00:00",
+  "generated_at_utc": "2026-10-20T17:36:36.308889+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2546,
+    "n": 2547,
     "excluded_certain": 159,
-    "win_rate": 0.5392772977219167,
-    "wr_lo": 0.5198705100761916,
-    "wr_hi": 0.5585657347478006,
-    "implied": 0.5084474862529458,
-    "edge_pts": 3.0829811468970902,
-    "edge_lo_pts": 1.1423023823245781,
-    "edge_hi_pts": 5.01182484948548,
-    "brier": 0.27701355669677924,
-    "roi_net": 0.6208405411982217,
+    "win_rate": 0.5394581861012956,
+    "wr_lo": 0.5200554956300776,
+    "wr_hi": 0.5587420275089523,
+    "implied": 0.5085658814291324,
+    "edge_pts": 3.0892304672163196,
+    "edge_lo_pts": 1.1489614200945186,
+    "edge_hi_pts": 5.01761460798199,
+    "brier": 0.2769189695131527,
+    "roi_net": 0.6206810309351815,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -28,46 +28,45 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3695440.45,
+      "liquidity_usd": 3890695.38,
       "score": 63.8
     },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
       "price": 0.2,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 280046.89,
+      "score": 60.7
+    },
+    {
+      "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
+      "outcome": "No",
+      "price": 0.61,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 266990.86,
+      "liquidity_usd": 690691.7,
       "score": 57.2
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.63,
+      "price": 0.64,
       "net_traders": 2,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 3617288.71,
+      "liquidity_usd": 3879723.7,
       "score": 56.2
-    },
-    {
-      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "outcome": "No",
-      "price": 0.71,
-      "net_traders": 3,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 483416.48,
-      "score": 56.0
     },
     {
       "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
@@ -78,32 +77,33 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 3495540.89,
+      "liquidity_usd": 3414802.8,
       "score": 53.7
     },
     {
-      "market": "Will Paris Saint-Germain FC win on 2026-10-20?",
+      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
       "outcome": "No",
-      "price": 0.62,
+      "price": 0.72,
       "net_traders": 3,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 460010.59,
-      "score": 49.2
+      "liquidity_usd": 583532.17,
+      "score": 53.5
     },
     {
-      "market": "Will Brighton win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.062,
+      "market": "South Alabama vs. Marshall: O/U 65.5",
+      "outcome": "Over",
+      "price": 0.55,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 126296.37,
-      "score": 46.4
+      "liquidity_usd": 78345.95,
+      "score": 40.2
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -115,45 +115,45 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 122001.28,
+      "liquidity_usd": 117183.05,
       "score": 38.8
     },
     {
-      "market": "Will Luiz In\u00e1cio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?",
-      "outcome": "Yes",
-      "price": 0.2,
-      "net_traders": 4,
+      "market": "Spread: Fenerbah\u00e7e SK (-1.5)",
+      "outcome": "Fenerbah\u00e7e SK",
+      "price": 0.51,
+      "net_traders": 2,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 80717.88,
-      "score": 33.2
+      "liquidity_usd": 68777.82,
+      "score": 37.7
     },
     {
-      "market": "Will no listed leader be out before 2027?",
+      "market": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?",
       "outcome": "Yes",
-      "price": 0.47,
-      "net_traders": 4,
+      "price": 0.41,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 39622.79,
-      "score": 28.7
+      "liquidity_usd": 57489.63,
+      "score": 32.2
     }
   ],
   "excluded": [
     {
-      "market": "Japan Women's Open: Katerina Siniakova vs Peyton Stearns",
-      "outcome": "Katerina Siniakova",
-      "price": 0.81,
-      "net_traders": 1,
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.199,
+      "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 273311.05,
+      "liquidity_usd": 182877.3,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -161,13 +161,13 @@
     {
       "market": "2026 Balance of Power: R Senate, D House",
       "outcome": "No",
-      "price": 0.72,
+      "price": 0.73,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3367215.45,
+      "liquidity_usd": 3207864.21,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -175,17 +175,31 @@
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.9,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 105626.5,
+      "liquidity_usd": 75021.32,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Manchester City FC vs. AEK: O/U 4.5",
+      "outcome": "Under",
+      "price": 0.36,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 174579.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-20T09:42:13.552231+00:00"
+  "source_report_generated_at": "2026-10-20T17:36:18.942879+00:00"
 }
