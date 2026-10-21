@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-21T09:43:45.327884+00:00",
+  "generated_at_utc": "2026-10-21T17:43:42.974992+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2559,
+    "n": 2562,
     "excluded_certain": 159,
-    "win_rate": 0.5384915982805784,
-    "wr_lo": 0.5191330523984593,
-    "wr_hi": 0.5577347493416093,
-    "implied": 0.5083694021101992,
-    "edge_pts": 3.0122196170379145,
-    "edge_lo_pts": 1.0763650288260096,
-    "edge_hi_pts": 4.936534723141007,
-    "brier": 0.2768176691481047,
-    "roi_net": 0.6164663060974187,
+    "win_rate": 0.5382513661202186,
+    "wr_lo": 0.5189038197214196,
+    "wr_hi": 0.5574843719736563,
+    "implied": 0.5083517954722873,
+    "edge_pts": 2.989957064793136,
+    "edge_lo_pts": 1.0552024249132375,
+    "edge_hi_pts": 4.913257650136904,
+    "brier": 0.276719600058548,
+    "roi_net": 0.6151240692968729,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -28,7 +28,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 3316440.72,
+      "liquidity_usd": 3441282.18,
       "score": 56.8
     },
     {
@@ -41,8 +41,22 @@
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 3571082.99,
+      "liquidity_usd": 3691639.64,
       "score": 56.2
+    },
+    {
+      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 735195.05,
+      "score": 55.4
     },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
@@ -53,45 +67,32 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 247145.73,
+      "liquidity_usd": 220167.54,
       "score": 52.9
     },
     {
-      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "outcome": "No",
-      "price": 0.73,
+      "market": "Bulls vs. Raptors: O/U 236.5",
+      "outcome": "Under",
+      "price": 0.54,
       "net_traders": 3,
       "signals": [
-        "pure_count",
-        "conviction"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 645215.43,
-      "score": 51.3
+      "fresh": true,
+      "liquidity_usd": 93152.21,
+      "score": 50.2
     },
     {
       "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "outcome": "No",
-      "price": 0.65,
+      "price": 0.66,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 3474822.66,
-      "score": 47.2
-    },
-    {
-      "market": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?",
-      "outcome": "Yes",
-      "price": 0.42,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 102152.46,
-      "score": 46.2
+      "liquidity_usd": 3334646.75,
+      "score": 44.7
     },
     {
       "market": "US x Iran ceasefire continues through October 31?",
@@ -102,32 +103,32 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 315451.12,
-      "score": 38.7
+      "liquidity_usd": 176203.72,
+      "score": 39.2
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.64,
+      "price": 0.63,
       "net_traders": 4,
       "signals": [
         "pure_count",
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 113030.82,
+      "liquidity_usd": 113659.49,
       "score": 35.3
     },
     {
       "market": "Will no listed leader be out before 2027?",
       "outcome": "Yes",
-      "price": 0.48,
+      "price": 0.47,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 49265.32,
+      "liquidity_usd": 51472.26,
       "score": 28.7
     },
     {
@@ -139,49 +140,49 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 470512.37,
+      "liquidity_usd": 464233.74,
       "score": 21.7
     }
   ],
   "excluded": [
     {
-      "market": "Almaty Open: Facundo Acosta vs Nikoloz Basilashvili",
-      "outcome": "Facundo Acosta",
-      "price": 0.12,
+      "market": "Spread: Atlanta Dream (-3.5)",
+      "outcome": "Atlanta Dream",
+      "price": 0.53,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 199193.15,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Ningbo Open: Leylah Fernandez vs Aliaksandra Sasnovich",
-      "outcome": "Leylah Fernandez",
-      "price": 0.68,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 354365.19,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Ningbo Open: Leylah Fernandez vs Aliaksandra Sasnovich",
-      "outcome": "Aliaksandra Sasnovich",
-      "price": 0.68,
-      "net_traders": 0,
-      "signals": [
-        "pure_count"
-      ],
       "fresh": false,
-      "liquidity_usd": 354365.19,
+      "liquidity_usd": 160865.59,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Mavericks vs. Rockets",
+      "outcome": "Mavericks",
+      "price": 0.22,
+      "net_traders": 0,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 293109.95,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Lyon Open: Moise Kouame vs Lorenzo Musetti",
+      "outcome": "Moise Kouame",
+      "price": 0.25,
+      "net_traders": 1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 72555.37,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -189,13 +190,13 @@
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.86,
+      "price": 0.87,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 215057.53,
+      "liquidity_usd": 253985.12,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -209,7 +210,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2929122.21,
+      "liquidity_usd": 2775331.67,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -223,11 +224,11 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 127803.08,
+      "liquidity_usd": 71217.28,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-21T09:43:31.675704+00:00"
+  "source_report_generated_at": "2026-10-21T17:43:30.838020+00:00"
 }
