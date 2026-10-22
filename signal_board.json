@@ -1,33 +1,46 @@
 {
-  "generated_at_utc": "2026-10-22T09:43:28.735129+00:00",
+  "generated_at_utc": "2026-10-22T17:42:19.633681+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2581,
+    "n": 2582,
     "excluded_certain": 159,
-    "win_rate": 0.5381635025184037,
-    "wr_lo": 0.5188872768902917,
-    "wr_hi": 0.5573262907031733,
-    "implied": 0.5078176288260363,
-    "edge_pts": 3.034587369236741,
-    "edge_lo_pts": 1.1069648064255366,
-    "edge_hi_pts": 4.950866187713698,
-    "brier": 0.27621961075164664,
-    "roi_net": 0.6114975962988574,
+    "win_rate": 0.5379550735863672,
+    "wr_lo": 0.5186822838527045,
+    "wr_hi": 0.5571150890412888,
+    "implied": 0.5077061580170411,
+    "edge_pts": 3.0248915569326074,
+    "edge_lo_pts": 1.097612583566343,
+    "edge_hi_pts": 4.94089310242477,
+    "brier": 0.276131376975213,
+    "roi_net": 0.6108657227139236,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
+      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "outcome": "No",
+      "price": 0.71,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 536044.42,
+      "score": 59.9
+    },
+    {
       "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
       "outcome": "Yes",
-      "price": 0.054,
+      "price": 0.045,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 30159.99,
+      "liquidity_usd": 28095.89,
       "score": 57.2
     },
     {
@@ -39,7 +52,7 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 202470.56,
+      "liquidity_usd": 190186.51,
       "score": 55.9
     },
     {
@@ -51,45 +64,8 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 180039.45,
-      "score": 54.7
-    },
-    {
-      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "outcome": "No",
-      "price": 0.74,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 476253.91,
-      "score": 52.4
-    },
-    {
-      "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
-      "outcome": "No",
-      "price": 0.68,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 332488.57,
-      "score": 46.9
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.67,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2289830.0,
-      "score": 42.2
+      "liquidity_usd": 154696.74,
+      "score": 52.2
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -101,8 +77,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 89340.37,
+      "liquidity_usd": 107981.51,
       "score": 38.8
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.69,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 1952976.19,
+      "score": 37.2
     },
     {
       "market": "Will no listed leader be out before 2027?",
@@ -113,8 +101,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 34602.69,
+      "liquidity_usd": 51781.03,
       "score": 35.7
+    },
+    {
+      "market": "Will Google have the best AI model at the end of December 2026?",
+      "outcome": "Yes",
+      "price": 0.43,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 27862.99,
+      "score": 28.7
     },
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
@@ -125,7 +125,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 216203.94,
+      "liquidity_usd": 236345.38,
       "score": 25.2
     },
     {
@@ -137,7 +137,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 485189.23,
+      "liquidity_usd": 452400.69,
       "score": 21.7
     }
   ],
@@ -145,41 +145,27 @@
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.67,
+      "price": 0.69,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1728639.74,
+      "liquidity_usd": 1238164.81,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Ningbo Open: Alexandra Eala vs Diana Shnaider",
-      "outcome": "Alexandra Eala",
-      "price": 0.22,
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.167,
       "net_traders": 1,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 315963.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "price": 0.239,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 123495.02,
+      "fresh": false,
+      "liquidity_usd": 260824.34,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -187,13 +173,27 @@
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.65,
+      "price": 0.68,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 50305.74,
+      "liquidity_usd": 57636.14,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Olympique de Marseille win on 2026-10-22?",
+      "outcome": "No",
+      "price": 0.86,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 120606.46,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -208,7 +208,7 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3030444.58,
+      "liquidity_usd": 3746254.62,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -222,7 +222,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1819724.4,
+      "liquidity_usd": 2277073.41,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -236,7 +236,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2525272.81,
+      "liquidity_usd": 3370903.14,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -244,31 +244,17 @@
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
+      "price": 0.93,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 70309.54,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Cali: Santiago Rodriguez Taverna vs Gonzalo Bueno",
-      "outcome": "Gonzalo Bueno",
-      "price": 0.56,
-      "net_traders": 0,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 10756.47,
+      "liquidity_usd": 64798.08,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-22T09:43:12.397546+00:00"
+  "source_report_generated_at": "2026-10-22T17:42:00.099246+00:00"
 }
