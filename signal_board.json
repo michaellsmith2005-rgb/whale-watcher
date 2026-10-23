@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T09:39:29.283703+00:00",
+  "generated_at_utc": "2026-10-23T17:32:39.922170+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
@@ -21,53 +21,90 @@
     {
       "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
       "outcome": "No",
-      "price": 0.72,
+      "price": 0.71,
       "net_traders": 4,
       "signals": [
         "pure_count",
-        "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 475474.99,
-      "score": 65.0
+      "liquidity_usd": 452089.53,
+      "score": 59.6
+    },
+    {
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.24,
+      "net_traders": 7,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 209635.01,
+      "score": 57.4
+    },
+    {
+      "market": "LoL: Gen.G vs Invictus Gaming (BO1) - Worlds Group Stage",
+      "outcome": "Invictus Gaming",
+      "price": 0.73,
+      "net_traders": 3,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 181575.54,
+      "score": 56.1
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.67,
+      "price": 0.68,
       "net_traders": 3,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3189557.11,
-      "score": 57.3
+      "liquidity_usd": 3955421.22,
+      "score": 54.8
     },
     {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.24,
-      "net_traders": 6,
+      "price": 0.68,
+      "net_traders": 3,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 227744.74,
-      "score": 53.9
+      "liquidity_usd": 1369456.13,
+      "score": 53.8
     },
     {
       "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
       "outcome": "Yes",
-      "price": 0.053,
+      "price": 0.055,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 28765.38,
+      "liquidity_usd": 26113.41,
       "score": 53.7
+    },
+    {
+      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.68,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3040018.77,
+      "score": 52.2
     },
     {
       "market": "Will the Republicans win the Nebraska Senate race in 2026?",
@@ -78,82 +115,45 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 357302.53,
+      "liquidity_usd": 360867.35,
       "score": 50.2
-    },
-    {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.68,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2324231.47,
-      "score": 48.4
-    },
-    {
-      "market": "Will Likud win 20-24 seats in the 2026 Israeli legislative election?",
-      "outcome": "Yes",
-      "price": 0.43,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 49570.88,
-      "score": 47.7
     },
     {
       "market": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amap\u00e1?",
       "outcome": "No",
       "price": 0.36,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 88524.53,
-      "score": 35.9
-    },
-    {
-      "market": "Will no listed leader be out before 2027?",
-      "outcome": "Yes",
-      "price": 0.47,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 56638.62,
-      "score": 35.7
-    },
-    {
-      "market": "Will Google have the best AI model at the end of December 2026?",
-      "outcome": "Yes",
-      "price": 0.43,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31522.12,
-      "score": 32.2
+      "liquidity_usd": 89524.84,
+      "score": 42.2
+    },
+    {
+      "market": "Will no listed leader be out before 2027?",
+      "outcome": "Yes",
+      "price": 0.5,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 41968.65,
+      "score": 35.7
     }
   ],
   "excluded": [
     {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.68,
+      "market": "Raptors vs. Wizards",
+      "outcome": "Wizards",
+      "price": 0.75,
       "net_traders": 2,
       "signals": [
-        "pure_count",
-        "capital_weighted"
+        "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 1541843.82,
+      "fresh": true,
+      "liquidity_usd": 365558.14,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -161,13 +161,13 @@
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.68,
+      "price": 0.7,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 59062.04,
+      "liquidity_usd": 61016.69,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -181,7 +181,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2774480.7,
+      "liquidity_usd": 2927127.23,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -189,31 +189,45 @@
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.94,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 71399.67,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: R Senate, R House",
-      "outcome": "No",
       "price": 0.93,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2675344.54,
+      "liquidity_usd": 77665.77,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
+      "outcome": "No",
+      "price": 0.71,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 408813.91,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.95,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 447561.12,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-23T09:39:17.648498+00:00"
+  "source_report_generated_at": "2026-10-23T17:32:27.956459+00:00"
 }
