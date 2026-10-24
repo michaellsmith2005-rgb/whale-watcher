@@ -1,37 +1,23 @@
 {
-  "generated_at_utc": "2026-10-24T19:07:48.164668+00:00",
+  "generated_at_utc": "2026-10-24T22:47:22.312230+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2605,
+    "n": 2609,
     "excluded_certain": 159,
-    "win_rate": 0.5366602687140115,
-    "wr_lo": 0.5174710663250021,
-    "wr_hi": 0.5557415043423776,
-    "implied": 0.5085517466410748,
-    "edge_pts": 2.810852207293668,
-    "edge_lo_pts": 0.8919319683927229,
-    "edge_hi_pts": 4.718975770130274,
-    "brier": 0.27619900781190015,
-    "roi_net": 0.6021953677362405,
+    "win_rate": 0.5369873514756611,
+    "wr_lo": 0.517813328428374,
+    "wr_hi": 0.5560526112443561,
+    "implied": 0.5086417401303182,
+    "edge_pts": 2.834561134534297,
+    "edge_lo_pts": 0.9171588298055866,
+    "edge_hi_pts": 4.741087111403797,
+    "brier": 0.2763453416443082,
+    "roi_net": 0.6072219931524365,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
-    {
-      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "outcome": "No",
-      "price": 0.73,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 556893.77,
-      "score": 61.7
-    },
     {
       "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
       "outcome": "Yes",
@@ -41,58 +27,45 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 20300.51,
+      "liquidity_usd": 19192.62,
       "score": 60.7
     },
     {
       "market": "Will Pedro S\u00e1nchez be the next leader out before 2027?",
       "outcome": "Yes",
-      "price": 0.046,
+      "price": 0.043,
       "net_traders": 6,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 19069.57,
+      "liquidity_usd": 19919.22,
       "score": 60.7
-    },
-    {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.67,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 1929296.85,
-      "score": 59.8
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.67,
+      "price": 0.66,
       "net_traders": 3,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 3757388.86,
-      "score": 57.2
+      "fresh": true,
+      "liquidity_usd": 4156841.6,
+      "score": 59.6
     },
     {
-      "market": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "No",
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
       "price": 0.67,
-      "net_traders": 6,
+      "net_traders": 3,
       "signals": [
-        "pure_count"
+        "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 3107635.95,
-      "score": 55.4
+      "fresh": true,
+      "liquidity_usd": 1899506.31,
+      "score": 50.2
     },
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
@@ -103,20 +76,20 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 192370.9,
-      "score": 53.7
+      "liquidity_usd": 198229.96,
+      "score": 41.9
     },
     {
       "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
       "outcome": "No",
-      "price": 0.7,
-      "net_traders": 3,
+      "price": 0.73,
+      "net_traders": 4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 198451.99,
-      "score": 42.4
+      "liquidity_usd": 398267.68,
+      "score": 40.4
     },
     {
       "market": "Will no listed leader be out before 2027?",
@@ -127,89 +100,134 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 50742.74,
+      "liquidity_usd": 50892.85,
       "score": 35.7
     },
     {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "market": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?",
       "outcome": "Yes",
-      "price": 0.67,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 103542.25,
-      "score": 25.2
-    }
-  ],
-  "excluded": [
-    {
-      "market": "Indiana vs. Michigan",
-      "outcome": "Michigan",
-      "price": 0.69,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 358908.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Golden State Valkyries vs. Atlanta Dream",
-      "outcome": "Golden State Valkyries",
-      "price": 0.83,
-      "net_traders": 1,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 50636.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: TCU (-10.5)",
-      "outcome": "West Virginia",
-      "price": 0.059,
+      "price": 0.55,
       "net_traders": 4,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 31832.41,
-      "why_excluded": [
-        "wide spread"
-      ]
+      "liquidity_usd": 34137.08,
+      "score": 28.7
     },
     {
-      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "outcome": "Yes",
-      "price": 0.8,
-      "net_traders": 0,
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.88,
+      "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 64948.2,
+      "liquidity_usd": 159887.13,
+      "score": 25.2
+    }
+  ],
+  "excluded": [
+    {
+      "market": "Heat vs. Hornets",
+      "outcome": "Heat",
+      "price": 0.62,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 137473.64,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Indiana vs. Michigan",
-      "outcome": "Indiana",
-      "price": 0.69,
-      "net_traders": -3,
+      "market": "BYU vs. UCF",
+      "outcome": "UCF",
+      "price": 0.31,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 149481.29,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tennessee vs. South Carolina",
+      "outcome": "South Carolina",
+      "price": 0.92,
+      "net_traders": 1,
+      "signals": [
+        "pure_count",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 46711.3,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "BYU vs. UCF",
+      "outcome": "BYU",
+      "price": 0.31,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 149481.29,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Tennessee vs. South Carolina",
+      "outcome": "Tennessee",
+      "price": 0.92,
+      "net_traders": -1,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 46711.3,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
+      "outcome": "Yes",
+      "price": 0.79,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 358908.82,
+      "fresh": false,
+      "liquidity_usd": 65120.83,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "Yes",
+      "price": 0.66,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 106360.7,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -223,7 +241,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2790709.72,
+      "liquidity_usd": 2889257.54,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,17 +249,17 @@
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.94,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 63672.5,
+      "liquidity_usd": 71218.43,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-24T19:07:28.100887+00:00"
+  "source_report_generated_at": "2026-10-24T22:47:01.874312+00:00"
 }
