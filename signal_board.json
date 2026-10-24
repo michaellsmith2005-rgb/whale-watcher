@@ -1,34 +1,36 @@
 {
-  "generated_at_utc": "2026-10-23T23:36:48.305201+00:00",
+  "generated_at_utc": "2026-10-24T09:11:45.271853+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2593,
+    "n": 2601,
     "excluded_certain": 159,
-    "win_rate": 0.5372155804087929,
-    "wr_lo": 0.517982725622685,
-    "wr_hi": 0.5563383265354445,
-    "implied": 0.5083406478981874,
-    "edge_pts": 2.8874932510605467,
-    "edge_lo_pts": 0.9642077724497544,
-    "edge_hi_pts": 4.799767863725702,
-    "brier": 0.27618107032394906,
-    "roi_net": 0.6060971274396095,
+    "win_rate": 0.5363321799307958,
+    "wr_lo": 0.5171277712141115,
+    "wr_hi": 0.5554294238184002,
+    "implied": 0.5085687427912341,
+    "edge_pts": 2.7763437139561753,
+    "edge_lo_pts": 0.8559028422877368,
+    "edge_hi_pts": 4.686068102716612,
+    "brier": 0.2762198059784698,
+    "roi_net": 0.6023362106779372,
     "roi_median": 0.07890109890109887
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
     {
-      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
-      "outcome": "Yes",
-      "price": 0.24,
-      "net_traders": 7,
+      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "outcome": "No",
+      "price": 0.74,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 181702.41,
-      "score": 57.4
+      "liquidity_usd": 659190.93,
+      "score": 58.8
     },
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
@@ -40,8 +42,20 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1683794.63,
+      "liquidity_usd": 1665719.45,
       "score": 57.3
+    },
+    {
+      "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
+      "outcome": "Yes",
+      "price": 0.061,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 19996.06,
+      "score": 57.2
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
@@ -53,44 +67,19 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 3812174.69,
-      "score": 57.3
-    },
-    {
-      "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
-      "outcome": "Yes",
-      "price": 0.055,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 24552.3,
+      "liquidity_usd": 3744644.15,
       "score": 57.2
     },
     {
-      "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "outcome": "No",
-      "price": 0.72,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 472690.18,
-      "score": 57.1
-    },
-    {
-      "market": "Raptors vs. Wizards",
-      "outcome": "Wizards",
-      "price": 0.85,
-      "net_traders": 4,
+      "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "outcome": "Yes",
+      "price": 0.24,
+      "net_traders": 6,
       "signals": [
         "pure_count"
       ],
-      "fresh": true,
-      "liquidity_usd": 120672.62,
+      "fresh": false,
+      "liquidity_usd": 209917.7,
       "score": 53.7
     },
     {
@@ -102,8 +91,32 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 3214707.92,
-      "score": 52.4
+      "liquidity_usd": 3109446.59,
+      "score": 52.9
+    },
+    {
+      "market": "Will the Republicans win the Nebraska Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.27,
+      "net_traders": 3,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 389929.58,
+      "score": 50.2
+    },
+    {
+      "market": "Will Likud win 20-24 seats in the 2026 Israeli legislative election?",
+      "outcome": "Yes",
+      "price": 0.46,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 73471.98,
+      "score": 39.9
     },
     {
       "market": "Will no listed leader be out before 2027?",
@@ -114,73 +127,33 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 42903.38,
+      "liquidity_usd": 67180.93,
       "score": 35.7
     },
     {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.64,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 98678.12,
-      "score": 25.2
-    },
-    {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "market": "Will Student List \u2013 Students Win win the most seats in the 2026 Serbian parliamentary election?",
       "outcome": "No",
-      "price": 0.87,
+      "price": 0.72,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 168743.08,
-      "score": 21.7
+      "liquidity_usd": 373435.62,
+      "score": 34.7
     }
   ],
   "excluded": [
     {
-      "market": "Timberwolves vs. Magic",
-      "outcome": "Magic",
-      "price": 0.67,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 132062.82,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hawks vs. Hornets",
-      "outcome": "Hawks",
-      "price": 0.71,
+      "market": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "outcome": "Yes",
+      "price": 0.121,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 255779.01,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Magic (-1.5)",
-      "outcome": "Magic",
-      "price": 0.34,
-      "net_traders": 3,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 45318.56,
+      "liquidity_usd": 143885.03,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -194,36 +167,7 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 54462.41,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Knicks vs. Celtics",
-      "outcome": "Celtics",
-      "price": 0.55,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 156822.42,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Knicks vs. Celtics",
-      "outcome": "Knicks",
-      "price": 0.55,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 156822.42,
+      "liquidity_usd": 54743.01,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -231,13 +175,13 @@
     {
       "market": "2026 Balance of Power: R Senate, D House",
       "outcome": "No",
-      "price": 0.76,
-      "net_traders": -3,
+      "price": 0.75,
+      "net_traders": -4,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3084620.83,
+      "liquidity_usd": 2923458.13,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -251,25 +195,25 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 80405.22,
+      "liquidity_usd": 148699.87,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Pistons vs. Heat",
-      "outcome": "Heat",
-      "price": 0.54,
+      "market": "Will the Iranian regime fall before 2027?",
+      "outcome": "No",
+      "price": 0.95,
       "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 1186303.43,
+      "liquidity_usd": 517329.95,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-23T23:36:35.886015+00:00"
+  "source_report_generated_at": "2026-10-24T09:11:27.401364+00:00"
 }
