@@ -1,10 +1,10 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  3033 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-10-26T18:55)
+  3035 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-10-27T00:08)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 2668   |   still pending: 206
+  Resolved & graded: 2668   |   still pending: 208
 
     graded calls     : 2668
     excluded         : 159 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
