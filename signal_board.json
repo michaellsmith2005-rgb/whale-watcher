@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-10-29T00:29:18.172042+00:00",
+  "generated_at_utc": "2026-10-29T11:09:36.771596+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2697,
+    "n": 2703,
     "excluded_certain": 159,
-    "win_rate": 0.5354097144975899,
-    "wr_lo": 0.5165494586891268,
-    "wr_hi": 0.5541692387716943,
-    "implied": 0.5075866889136077,
-    "edge_pts": 2.7823025583982197,
-    "edge_lo_pts": 0.896276977551913,
-    "edge_hi_pts": 4.658254985808663,
-    "brier": 0.2760745640897293,
-    "roi_net": 0.6084625379002822,
-    "roi_median": 0.07289617486338794
+    "win_rate": 0.5345911949685535,
+    "wr_lo": 0.5157509104700281,
+    "wr_hi": 0.5533332945311068,
+    "implied": 0.5075291527931927,
+    "edge_pts": 2.706204217536079,
+    "edge_lo_pts": 0.8221757676835417,
+    "edge_hi_pts": 4.580414173791414,
+    "brier": 0.2760167219200888,
+    "roi_net": 0.6056698804806819,
+    "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -27,69 +27,84 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 248782.57,
+      "liquidity_usd": 271519.22,
       "score": 74.7
     },
     {
-      "market": "Will Pedro S\u00e1nchez be the next leader out before 2027?",
-      "outcome": "Yes",
-      "price": 0.067,
-      "net_traders": 6,
+      "market": "Will the Democrats win the Michigan Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.29,
+      "net_traders": 4,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "conviction"
       ],
-      "fresh": false,
-      "liquidity_usd": 33737.73,
-      "score": 54.9
+      "fresh": true,
+      "liquidity_usd": 426068.02,
+      "score": 60.1
     },
     {
-      "market": "Milwaukee Brewers vs. Tampa Bay Rays",
-      "outcome": "Tampa Bay Rays",
-      "price": 0.55,
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.08,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
-      "fresh": false,
-      "liquidity_usd": 55885.54,
-      "score": 54.7
-    },
-    {
-      "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
-      "outcome": "Yes",
-      "price": 0.087,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 31499.16,
-      "score": 52.4
+      "fresh": true,
+      "liquidity_usd": 7051590.42,
+      "score": 57.2
     },
     {
       "market": "2026 Balance of Power: R Senate, D House",
       "outcome": "Yes",
       "price": 0.28,
-      "net_traders": 4,
+      "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 5143055.85,
-      "score": 51.4
+      "liquidity_usd": 5195583.79,
+      "score": 55.4
+    },
+    {
+      "market": "Will the Democrats win the Texas Senate race in 2026?",
+      "outcome": "Yes",
+      "price": 0.69,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 732349.78,
+      "score": 51.9
+    },
+    {
+      "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.3,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 260416.75,
+      "score": 50.9
     }
   ],
   "excluded": [
     {
-      "market": "Lakers vs. Clippers",
-      "outcome": "Clippers",
-      "price": 0.5,
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.67,
       "net_traders": 3,
       "signals": [
-        "pure_count"
+        "pure_count",
+        "capital_weighted",
+        "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 613366.0,
+      "liquidity_usd": 4729610.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -103,7 +118,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 169589.66,
+      "liquidity_usd": 162592.82,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
@@ -111,58 +126,41 @@
     {
       "market": "Will Cristina Fern\u00e1ndez de Kirchner win the 2027 Argentina presidential election?",
       "outcome": "Yes",
-      "price": 0.024,
+      "price": 0.029,
       "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 67873.73,
+      "liquidity_usd": 62392.36,
+      "why_excluded": [
+        "already decided (near-certain price)"
+      ]
+    },
+    {
+      "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
+      "outcome": "Yes",
+      "price": 0.025,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 25413.89,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
     },
     {
       "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.66,
-      "net_traders": 3,
+      "outcome": "No",
+      "price": 0.34,
+      "net_traders": -3,
       "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 5076182.95,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Warriors vs. Timberwolves",
-      "outcome": "Timberwolves",
-      "price": 0.45,
-      "net_traders": 1,
-      "signals": [
-        "pure_count",
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 192017.58,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Warriors vs. Timberwolves",
-      "outcome": "Warriors",
-      "price": 0.45,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 192017.58,
+      "liquidity_usd": 4729610.75,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -170,27 +168,13 @@
     {
       "market": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "outcome": "Yes",
-      "price": 0.74,
+      "price": 0.81,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 50788.48,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "No",
-      "price": 0.619,
-      "net_traders": -1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 343557.69,
+      "liquidity_usd": 47842.2,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -204,35 +188,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 178918.32,
+      "liquidity_usd": 179244.22,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
       "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "outcome": "Yes",
-      "price": 0.39,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 343557.69,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
-      "price": 0.35,
-      "net_traders": -3,
+      "price": 0.619,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 5076182.95,
+      "fresh": false,
+      "liquidity_usd": 378308.0,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -240,13 +210,13 @@
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.67,
-      "net_traders": 2,
+      "price": 0.68,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 4128950.45,
+      "fresh": false,
+      "liquidity_usd": 3446871.15,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -260,25 +230,54 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 127715.33,
+      "liquidity_usd": 126475.7,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will Nashville SC win on 2026-10-28?",
-      "outcome": "Yes",
-      "price": 0.49,
+      "market": "US announces end of Iranian blockade by October 31, 2026?",
+      "outcome": "No",
+      "price": 0.981,
       "net_traders": 0,
       "signals": [
-        "conviction"
+        "capital_weighted"
       ],
-      "fresh": true,
-      "liquidity_usd": 111162.03,
+      "fresh": false,
+      "liquidity_usd": 133484.18,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US x Iran ceasefire continues through October 31?",
+      "outcome": "Yes",
+      "price": 0.968,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 166267.19,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "No",
+      "price": 0.73,
+      "net_traders": -5,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5195583.79,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-29T00:28:57.311227+00:00"
+  "source_report_generated_at": "2026-10-29T11:09:24.479678+00:00"
 }
