@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-10-31T10:39:31.908354+00:00",
+  "generated_at_utc": "2026-10-31T17:25:30.151160+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2724,
+    "n": 2727,
     "excluded_certain": 159,
-    "win_rate": 0.5352422907488987,
-    "wr_lo": 0.5164756465506742,
-    "wr_hi": 0.553909672010345,
-    "implied": 0.5079109030837005,
-    "edge_pts": 2.733138766519827,
-    "edge_lo_pts": 0.8564743466973779,
-    "edge_hi_pts": 4.599876892664456,
-    "brier": 0.275962482140235,
-    "roi_net": 0.6026228426686249,
-    "roi_median": 0.06992634830125916
+    "win_rate": 0.5346534653465347,
+    "wr_lo": 0.5158964425605859,
+    "wr_hi": 0.5533129908975833,
+    "implied": 0.5078193252658599,
+    "edge_pts": 2.683414008067475,
+    "edge_lo_pts": 0.8077117294725933,
+    "edge_hi_pts": 4.549366563172342,
+    "brier": 0.2759517995416208,
+    "roi_net": 0.6008377790353261,
+    "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
   "board": [
@@ -27,60 +27,36 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 232108.78,
+      "liquidity_usd": 212529.11,
       "score": 71.2
     },
     {
       "market": "Will the Democrats win the Michigan Senate race in 2026?",
       "outcome": "No",
-      "price": 0.21,
+      "price": 0.2,
       "net_traders": 6,
       "signals": [
         "pure_count",
         "conviction"
       ],
       "fresh": true,
-      "liquidity_usd": 344460.94,
+      "liquidity_usd": 436495.39,
       "score": 67.1
-    },
-    {
-      "market": "Will S\u00e9bastien Lecornu be the next leader out before 2027?",
-      "outcome": "Yes",
-      "price": 0.034,
-      "net_traders": 7,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 28436.19,
-      "score": 64.2
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.29,
-      "net_traders": 6,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 663438.17,
-      "score": 60.7
     },
     {
       "market": "Will the Democrats win the Kansas Senate race in 2026?",
       "outcome": "No",
-      "price": 0.48,
+      "price": 0.49,
       "net_traders": 5,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 411768.25,
+      "liquidity_usd": 455501.36,
       "score": 57.2
     },
     {
-      "market": "Will the Republicans win the Ohio Senate race in 2026?",
+      "market": "Will there be no change in Fed interest rates after the December 2026 meeting?",
       "outcome": "Yes",
       "price": 0.28,
       "net_traders": 5,
@@ -88,20 +64,20 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 406896.29,
+      "liquidity_usd": 656124.62,
       "score": 57.2
     },
     {
-      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "outcome": "No",
-      "price": 0.06,
-      "net_traders": 4,
+      "market": "Will the Republicans win the Ohio Senate race in 2026?",
+      "outcome": "Yes",
+      "price": 0.27,
+      "net_traders": 5,
       "signals": [
-        "capital_weighted"
+        "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 8129558.09,
-      "score": 53.7
+      "liquidity_usd": 402329.83,
+      "score": 57.2
     },
     {
       "market": "Will the Democrats win the Texas Senate race in 2026?",
@@ -112,31 +88,43 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1204850.43,
-      "score": 48.9
+      "liquidity_usd": 1139070.68,
+      "score": 54.4
     },
     {
       "market": "Will no listed leader be out before 2027?",
       "outcome": "Yes",
       "price": 0.63,
-      "net_traders": 6,
+      "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 33657.42,
-      "score": 35.7
+      "liquidity_usd": 39067.59,
+      "score": 39.2
+    },
+    {
+      "market": "Will the Republicans win the South Carolina Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.27,
+      "net_traders": 7,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 385686.45,
+      "score": 39.2
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "Yes",
-      "price": 0.66,
+      "price": 0.65,
       "net_traders": 3,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 110845.56,
+      "liquidity_usd": 108591.95,
       "score": 25.2
     }
   ],
@@ -150,7 +138,7 @@
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 14849.01,
+      "liquidity_usd": 14888.36,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
@@ -166,7 +154,21 @@
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 5073925.13,
+      "liquidity_usd": 5569896.4,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "outcome": "No",
+      "price": 0.89,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 187831.63,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -180,21 +182,7 @@
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 5073925.13,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "No",
-      "price": 0.87,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 147301.62,
+      "liquidity_usd": 5569896.4,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -203,12 +191,12 @@
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
       "price": 0.71,
-      "net_traders": 0,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3351737.12,
+      "liquidity_usd": 2343008.37,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -216,13 +204,13 @@
     {
       "market": "US announces end of Iranian blockade by October 31, 2026?",
       "outcome": "No",
-      "price": 0.973,
-      "net_traders": -1,
+      "price": 0.983,
+      "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 69877.05,
+      "liquidity_usd": 72453.14,
       "why_excluded": [
         "already decided (near-certain price)",
         "cohort on both sides"
@@ -231,13 +219,13 @@
     {
       "market": "US x Iran ceasefire continues through October 31?",
       "outcome": "Yes",
-      "price": 0.972,
+      "price": 0.979,
       "net_traders": 2,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 94775.71,
+      "liquidity_usd": 60778.14,
       "why_excluded": [
         "already decided (near-certain price)"
       ]
@@ -251,39 +239,39 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 2802118.79,
+      "liquidity_usd": 2216577.89,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "Will the Iranian regime fall before 2027?",
-      "outcome": "No",
-      "price": 0.95,
+      "market": "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
+      "outcome": "Karmine Corp",
+      "price": 0.65,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 108566.31,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+      "outcome": "Yes",
+      "price": 0.23,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 505548.68,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Guangzhou Open: Xinran Sun vs Harriet Dart",
-      "outcome": "Xinran Sun",
-      "price": 0.5,
-      "net_traders": -2,
-      "signals": [
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 279083.48,
+      "liquidity_usd": 2509933.22,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-31T10:39:19.944356+00:00"
+  "source_report_generated_at": "2026-10-31T17:25:12.694610+00:00"
 }
