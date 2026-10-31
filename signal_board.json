@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-31T17:25:30.151160+00:00",
+  "generated_at_utc": "2026-10-31T23:50:20.360186+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2727,
-    "excluded_certain": 159,
-    "win_rate": 0.5346534653465347,
-    "wr_lo": 0.5158964425605859,
-    "wr_hi": 0.5533129908975833,
-    "implied": 0.5078193252658599,
-    "edge_pts": 2.683414008067475,
-    "edge_lo_pts": 0.8077117294725933,
-    "edge_hi_pts": 4.549366563172342,
-    "brier": 0.2759517995416208,
-    "roi_net": 0.6008377790353261,
+    "n": 2733,
+    "excluded_certain": 160,
+    "win_rate": 0.5342114892060007,
+    "wr_lo": 0.5154745707888461,
+    "wr_hi": 0.5528523649022804,
+    "implied": 0.5078226491035492,
+    "edge_pts": 2.638884010245146,
+    "edge_lo_pts": 0.7651921685296825,
+    "edge_hi_pts": 4.502971579873116,
+    "brier": 0.27575483840102455,
+    "roi_net": 0.5983680448507103,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -22,98 +22,25 @@
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
       "price": 0.14,
-      "net_traders": 9,
+      "net_traders": 8,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 212529.11,
-      "score": 71.2
-    },
-    {
-      "market": "Will the Democrats win the Michigan Senate race in 2026?",
-      "outcome": "No",
-      "price": 0.2,
-      "net_traders": 6,
-      "signals": [
-        "pure_count",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 436495.39,
-      "score": 67.1
-    },
-    {
-      "market": "Will the Democrats win the Kansas Senate race in 2026?",
-      "outcome": "No",
-      "price": 0.49,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 455501.36,
-      "score": 57.2
-    },
-    {
-      "market": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-      "outcome": "Yes",
-      "price": 0.28,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 656124.62,
-      "score": 57.2
-    },
-    {
-      "market": "Will the Republicans win the Ohio Senate race in 2026?",
-      "outcome": "Yes",
-      "price": 0.27,
-      "net_traders": 5,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 402329.83,
-      "score": 57.2
+      "liquidity_usd": 204792.76,
+      "score": 67.7
     },
     {
       "market": "Will the Democrats win the Texas Senate race in 2026?",
       "outcome": "Yes",
-      "price": 0.72,
+      "price": 0.71,
       "net_traders": 7,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1139070.68,
-      "score": 54.4
-    },
-    {
-      "market": "Will no listed leader be out before 2027?",
-      "outcome": "Yes",
-      "price": 0.63,
-      "net_traders": 7,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 39067.59,
-      "score": 39.2
-    },
-    {
-      "market": "Will the Republicans win the South Carolina Senate race in 2026?",
-      "outcome": "No",
-      "price": 0.27,
-      "net_traders": 7,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 385686.45,
-      "score": 39.2
+      "liquidity_usd": 1130448.72,
+      "score": 56.9
     },
     {
       "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -124,37 +51,137 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 108591.95,
+      "liquidity_usd": 109627.58,
       "score": 25.2
     }
   ],
   "excluded": [
     {
-      "market": "Joe Alwyn announced as next James Bond?",
-      "outcome": "Yes",
-      "price": 0.02,
-      "net_traders": 8,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 14888.36,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "Yes",
-      "price": 0.71,
-      "net_traders": 3,
+      "market": "76ers vs. Hornets",
+      "outcome": "Hornets",
+      "price": 0.48,
+      "net_traders": 6,
       "signals": [
         "pure_count",
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 5569896.4,
+      "liquidity_usd": 76359.7,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: 76ers (-1.5)",
+      "outcome": "Hornets",
+      "price": 0.43,
+      "net_traders": 4,
+      "signals": [
+        "pure_count",
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 41438.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hawks vs. Pelicans",
+      "outcome": "Pelicans",
+      "price": 0.37,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 121838.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Cavaliers (-9.5)",
+      "outcome": "Bucks",
+      "price": 0.48,
+      "net_traders": 4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 522234.62,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Hawks vs. Pelicans",
+      "outcome": "Hawks",
+      "price": 0.37,
+      "net_traders": -2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 121838.07,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: Hawks (-4.5)",
+      "outcome": "Hawks",
+      "price": 0.25,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 48932.22,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: 76ers (-2.5)",
+      "outcome": "Hornets",
+      "price": 0.39,
+      "net_traders": 2,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 40454.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Spread: 76ers (-1.5)",
+      "outcome": "76ers",
+      "price": 0.43,
+      "net_traders": -4,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 41438.05,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "Yes",
+      "price": 0.71,
+      "net_traders": 2,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": false,
+      "liquidity_usd": 5883237.07,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -162,13 +189,71 @@
     {
       "market": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
       "outcome": "No",
-      "price": 0.89,
+      "price": 0.9,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 187831.63,
+      "liquidity_usd": 180562.15,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "outcome": "Yes",
+      "price": 0.72,
+      "net_traders": 0,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 3574810.45,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "US x Iran ceasefire continues through October 31?",
+      "outcome": "Yes",
+      "price": 0.99,
+      "net_traders": 1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 52159.65,
+      "why_excluded": [
+        "already decided (near-certain price)",
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "76ers vs. Hornets",
+      "outcome": "76ers",
+      "price": 0.48,
+      "net_traders": -6,
+      "signals": [
+        "capital_weighted",
+        "conviction"
+      ],
+      "fresh": true,
+      "liquidity_usd": 76359.7,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "No",
+      "price": 0.77,
+      "net_traders": -3,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 4614169.49,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -177,101 +262,16 @@
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "No",
       "price": 0.3,
-      "net_traders": -3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": true,
-      "liquidity_usd": 5569896.4,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "outcome": "Yes",
-      "price": 0.71,
-      "net_traders": 1,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2343008.37,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US announces end of Iranian blockade by October 31, 2026?",
-      "outcome": "No",
-      "price": 0.983,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 72453.14,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "US x Iran ceasefire continues through October 31?",
-      "outcome": "Yes",
-      "price": 0.979,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 60778.14,
-      "why_excluded": [
-        "already decided (near-certain price)"
-      ]
-    },
-    {
-      "market": "2026 Balance of Power: R Senate, D House",
-      "outcome": "No",
-      "price": 0.77,
       "net_traders": -2,
       "signals": [
         "capital_weighted"
       ],
-      "fresh": false,
-      "liquidity_usd": 2216577.89,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "LoL: Karmine Corp vs Movistar KOI (BO3) - Worlds Group Stage",
-      "outcome": "Karmine Corp",
-      "price": 0.65,
-      "net_traders": 2,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 108566.31,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-      "outcome": "Yes",
-      "price": 0.23,
-      "net_traders": 0,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 2509933.22,
+      "fresh": true,
+      "liquidity_usd": 5883237.07,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-31T17:25:12.694610+00:00"
+  "source_report_generated_at": "2026-10-31T23:50:07.896832+00:00"
 }
