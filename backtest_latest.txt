@@ -1,33 +1,33 @@
 
 FORWARD REPLAY — grading past consensus calls against true resolutions
 
-  3099 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-10-31T23:50)
+  3100 distinct consensus calls across snapshots (2026-06-28T04:41 → 2026-11-01T11:32)
   Looking up resolutions via Gamma...
 
-  Resolved & graded: 2733   |   still pending: 206
+  Resolved & graded: 2747   |   still pending: 193
 
-    graded calls     : 2733
+    graded calls     : 2747
     excluded         : 160 call(s) priced ≥0.97 or ≤0.03 (already-decided, no information)
-    win rate         : 53.4%   (95% CI 51.5–55.3%)
+    win rate         : 53.3%   (95% CI 51.5–55.2%)
     implied (price)  : 50.8%   <- what you'd have paid
-    edge vs price    : +2.6 pts  (95% CI +0.8 to +4.5)
-    Brier score      : 0.276   <- lower = better calibrated
-    net ROI/trade    : mean +59.8% | median +6.7%   (2% cost)
+    edge vs price    : +2.6 pts  (95% CI +0.7 to +4.4)
+    Brier score      : 0.275   <- lower = better calibrated
+    net ROI/trade    : mean +59.4% | median +6.7%   (2% cost)
 
   By signal family (all calls — families overlap by design):
-    pure_count                : n=1789 win  51.0%  paid  49.0%  edge  +2.0 pts
-    capital_weighted          : n=517 win  60.2%  paid  55.3%  edge  +4.8 pts
-    conviction                : n=427 win  55.3%  paid  52.6%  edge  +2.7 pts
+    pure_count                : n=1797 win  50.9%  paid  49.0%  edge  +1.9 pts
+    capital_weighted          : n=521 win  60.1%  paid  55.3%  edge  +4.8 pts
+    conviction                : n=429 win  55.2%  paid  52.6%  edge  +2.7 pts
 
-  Cohorts below use unique markets only (2106 of 2733 calls):
+  Cohorts below use unique markets only (2116 of 2747 calls):
 
   By internal agreement (cohort on both sides of the market?):
-    clean (one-sided cohort)  : n=432 win  50.5%  paid  51.1%  edge  -0.6 pts
-    conflicted (both sides)   : n=1615 win  54.0%  paid  50.4%  edge  +3.6 pts
+    clean (one-sided cohort)  : n=433 win  50.8%  paid  51.0%  edge  -0.2 pts
+    conflicted (both sides)   : n=1624 win  53.8%  paid  50.4%  edge  +3.4 pts
 
   By freshness (entry gap = crowd avg entry − price at signal):
-    fresh (≤ crowd's entry)   : n=877 win  40.1%  paid  48.0%  edge  -7.8 pts
-    late (past crowd's entry) : n=1225 win  62.2%  paid  52.3%  edge  +9.9 pts
+    fresh (≤ crowd's entry)   : n=883 win  40.1%  paid  47.9%  edge  -7.8 pts
+    late (past crowd's entry) : n=1229 win  62.2%  paid  52.3%  edge  +9.9 pts
 
   By Vegas confirmation (vegas prob vs price paid):
     vegas agrees (≥ +1 pt)    : n=3   win  33.3%  paid  25.3%  edge  +8.0 pts
@@ -43,8 +43,8 @@ FORWARD REPLAY — grading past consensus calls against true resolutions
     [WON ] [capital_weighted] 15× @ 0.55 (ask) | Will Belgium win on 2026-07-01? -> No
     [WON ] [pure_count      ] 13× @ 0.47 (ask) | Portugal vs. Spain: O/U 2.5 -> Under
     [WON ] [capital_weighted] 13× @ 0.47 (ask) | Portugal vs. Spain: O/U 2.5 -> Under
+    [lost] [pure_count      ] 13× @ 0.48 (ask) | 76ers vs. Hornets -> Hornets
+    [lost] [capital_weighted] 13× @ 0.48 (ask) | 76ers vs. Hornets -> Hornets
     [WON ] [capital_weighted] 12× @ 0.54 (ask) | Will Morocco win on 2026-07-04? -> Yes
-    [lost] [capital_weighted] 11× @ 0.82 (ask) | Will Senegal win on 2026-07-01? -> Yes
-    [WON ] [pure_count      ] 11× @ 0.57 (ask) | Will Portugal win on 2026-07-02? -> Yes
 
   Wrote machine-readable summary -> backtest_summary.json

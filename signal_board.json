@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-31T23:50:20.360186+00:00",
+  "generated_at_utc": "2026-11-01T11:33:05.197197+00:00",
   "status": "VALIDATED EDGE",
   "edge_detected": true,
   "track_record": {
-    "n": 2733,
+    "n": 2747,
     "excluded_certain": 160,
-    "win_rate": 0.5342114892060007,
-    "wr_lo": 0.5154745707888461,
-    "wr_hi": 0.5528523649022804,
-    "implied": 0.5078226491035492,
-    "edge_pts": 2.638884010245146,
-    "edge_lo_pts": 0.7651921685296825,
-    "edge_hi_pts": 4.502971579873116,
-    "brier": 0.27575483840102455,
-    "roi_net": 0.5983680448507103,
+    "win_rate": 0.5333090644339279,
+    "wr_lo": 0.5146189897742354,
+    "wr_hi": 0.5519061056729179,
+    "implied": 0.5075461594466691,
+    "edge_pts": 2.576290498725875,
+    "edge_lo_pts": 0.7072830327566226,
+    "edge_hi_pts": 4.4359946226248725,
+    "brier": 0.275421723097925,
+    "roi_net": 0.5939223943726645,
     "roi_median": 0.06695652173913039
   },
   "disclaimer": "Heuristic ranking of an unvalidated signal. The forward test has not shown this signal beats market prices. Not financial advice.",
@@ -21,14 +21,110 @@
     {
       "market": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
       "outcome": "Yes",
-      "price": 0.14,
-      "net_traders": 8,
+      "price": 0.15,
+      "net_traders": 9,
       "signals": [
         "pure_count"
       ],
       "fresh": true,
-      "liquidity_usd": 204792.76,
-      "score": 67.7
+      "liquidity_usd": 253263.18,
+      "score": 71.2
+    },
+    {
+      "market": "Will the Democrats win the Kansas Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.49,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 478921.49,
+      "score": 60.7
+    },
+    {
+      "market": "Will the Democrats win the Michigan Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.19,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 593007.0,
+      "score": 60.7
+    },
+    {
+      "market": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+      "outcome": "Yes",
+      "price": 0.29,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 714868.17,
+      "score": 60.7
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, D House",
+      "outcome": "Yes",
+      "price": 0.23,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 2539442.41,
+      "score": 60.7
+    },
+    {
+      "market": "2026 Balance of Power: R Senate, R House",
+      "outcome": "Yes",
+      "price": 0.05,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 3547817.2,
+      "score": 60.7
+    },
+    {
+      "market": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "outcome": "No",
+      "price": 0.28,
+      "net_traders": 6,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": false,
+      "liquidity_usd": 543525.04,
+      "score": 58.4
+    },
+    {
+      "market": "Will the Republicans win the Ohio Senate race in 2026?",
+      "outcome": "Yes",
+      "price": 0.27,
+      "net_traders": 5,
+      "signals": [
+        "pure_count"
+      ],
+      "fresh": true,
+      "liquidity_usd": 450219.69,
+      "score": 57.2
+    },
+    {
+      "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "outcome": "No",
+      "price": 0.06,
+      "net_traders": 5,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 7767248.51,
+      "score": 57.2
     },
     {
       "market": "Will the Democrats win the Texas Senate race in 2026?",
@@ -39,134 +135,21 @@
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 1130448.72,
-      "score": 56.9
-    },
-    {
-      "market": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
-      "outcome": "Yes",
-      "price": 0.65,
-      "net_traders": 3,
-      "signals": [
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 109627.58,
-      "score": 25.2
+      "liquidity_usd": 1158813.21,
+      "score": 55.9
     }
   ],
   "excluded": [
     {
-      "market": "76ers vs. Hornets",
-      "outcome": "Hornets",
-      "price": 0.48,
-      "net_traders": 6,
-      "signals": [
-        "pure_count",
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": false,
-      "liquidity_usd": 76359.7,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: 76ers (-1.5)",
-      "outcome": "Hornets",
-      "price": 0.43,
-      "net_traders": 4,
-      "signals": [
-        "pure_count",
-        "capital_weighted"
-      ],
-      "fresh": false,
-      "liquidity_usd": 41438.05,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hawks vs. Pelicans",
-      "outcome": "Pelicans",
-      "price": 0.37,
+      "market": "Will the Republicans win the Nebraska Senate race in 2026?",
+      "outcome": "Yes",
+      "price": 0.75,
       "net_traders": 2,
       "signals": [
         "pure_count"
       ],
       "fresh": false,
-      "liquidity_usd": 121838.07,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Cavaliers (-9.5)",
-      "outcome": "Bucks",
-      "price": 0.48,
-      "net_traders": 4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 522234.62,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Hawks vs. Pelicans",
-      "outcome": "Hawks",
-      "price": 0.37,
-      "net_traders": -2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 121838.07,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: Hawks (-4.5)",
-      "outcome": "Hawks",
-      "price": 0.25,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 48932.22,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: 76ers (-2.5)",
-      "outcome": "Hornets",
-      "price": 0.39,
-      "net_traders": 2,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": false,
-      "liquidity_usd": 40454.05,
-      "why_excluded": [
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "Spread: 76ers (-1.5)",
-      "outcome": "76ers",
-      "price": 0.43,
-      "net_traders": -4,
-      "signals": [
-        "pure_count"
-      ],
-      "fresh": true,
-      "liquidity_usd": 41438.05,
+      "liquidity_usd": 290257.48,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -174,14 +157,28 @@
     {
       "market": "2026 Balance of Power: D Senate, D House",
       "outcome": "Yes",
-      "price": 0.71,
+      "price": 0.72,
       "net_traders": 2,
       "signals": [
         "capital_weighted",
         "conviction"
       ],
       "fresh": false,
-      "liquidity_usd": 5883237.07,
+      "liquidity_usd": 5374110.66,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "2026 Balance of Power: D Senate, D House",
+      "outcome": "No",
+      "price": 0.29,
+      "net_traders": -2,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": true,
+      "liquidity_usd": 5374110.66,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -195,7 +192,21 @@
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 180562.15,
+      "liquidity_usd": 191549.89,
+      "why_excluded": [
+        "cohort on both sides"
+      ]
+    },
+    {
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "price": 0.62,
+      "net_traders": -1,
+      "signals": [
+        "capital_weighted"
+      ],
+      "fresh": false,
+      "liquidity_usd": 276061.24,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -203,43 +214,27 @@
     {
       "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
       "outcome": "Yes",
-      "price": 0.72,
+      "price": 0.73,
       "net_traders": 0,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 3574810.45,
+      "liquidity_usd": 2240144.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "US x Iran ceasefire continues through October 31?",
-      "outcome": "Yes",
-      "price": 0.99,
-      "net_traders": 1,
+      "market": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "price": 0.819,
+      "net_traders": -1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 52159.65,
-      "why_excluded": [
-        "already decided (near-certain price)",
-        "cohort on both sides"
-      ]
-    },
-    {
-      "market": "76ers vs. Hornets",
-      "outcome": "76ers",
-      "price": 0.48,
-      "net_traders": -6,
-      "signals": [
-        "capital_weighted",
-        "conviction"
-      ],
-      "fresh": true,
-      "liquidity_usd": 76359.7,
+      "liquidity_usd": 371426.46,
       "why_excluded": [
         "cohort on both sides"
       ]
@@ -247,31 +242,31 @@
     {
       "market": "2026 Balance of Power: R Senate, D House",
       "outcome": "No",
-      "price": 0.77,
-      "net_traders": -3,
+      "price": 0.78,
+      "net_traders": -6,
       "signals": [
         "capital_weighted"
       ],
       "fresh": false,
-      "liquidity_usd": 4614169.49,
+      "liquidity_usd": 2539442.41,
       "why_excluded": [
         "cohort on both sides"
       ]
     },
     {
-      "market": "2026 Balance of Power: D Senate, D House",
-      "outcome": "No",
-      "price": 0.3,
-      "net_traders": -2,
+      "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "outcome": "Yes",
+      "price": 0.387,
+      "net_traders": 1,
       "signals": [
         "capital_weighted"
       ],
       "fresh": true,
-      "liquidity_usd": 5883237.07,
+      "liquidity_usd": 276061.24,
       "why_excluded": [
         "cohort on both sides"
       ]
     }
   ],
-  "source_report_generated_at": "2026-10-31T23:50:07.896832+00:00"
+  "source_report_generated_at": "2026-11-01T11:32:43.869827+00:00"
 }
